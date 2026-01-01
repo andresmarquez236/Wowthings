@@ -1,0 +1,1280 @@
+{
+  "schema_version": "aida_carousel_incremental_v1",
+  "generated_at_utc": "2025-12-30T19:10:34.765626+00:00",
+  "product": {
+    "nombre_producto": "mini proyector portátil 1080p",
+    "descripcion": "Proyector compacto para hogar, streaming, compatible HDMI/USB, parlante integrado.",
+    "garantia": "1 año (por confirmar en Colombia)",
+    "precio": "COP 299.900",
+    "pais_objetivo": "Colombia"
+  },
+  "trend_cache_path": "output/mini_proyector_portátil_1080p/trends_pack.json",
+  "hooks_cache_path": "output/mini_proyector_portátil_1080p/hooks_pack.json",
+  "results_by_angle": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Cine en casa accesible: gran pantalla por menos de COP 300k",
+      "buyer_persona": "Hogares jóvenes/parejas que ven series/películas y no quieren invertir en TV grande",
+      "aida_strategy": {
+        "attention": "Use a visual pattern-interrupt: a compact projector producing a dramatically large, cinematic projection on a living-room wall. Create curiosity with a short, bold headline that contrasts the small device vs. huge image.",
+        "interest": "Show the simple mechanism/value: plug-and-play connectivity (HDMI/USB) and an integrated speaker — visual metaphor: a tiny device next to a huge projected scene. Use a clear caption that explains set-up in one line.",
+        "desire": "Frame the vivid outcome: cozy movie nights, shared moments on a 100\"+ wall. Soften the main objection by setting realistic context: 'mejor con luz atenuada' and show how it fits small living rooms.",
+        "action": "Provide a low-friction CTA with price and clear next step: 'Compra ahora' / 'Pide hoy' and emphasize payment/shipping options (badges). Use urgency cues/prompt but no invented guarantees."
+      },
+      "ad_copy": {
+        "title": "Cine en casa por COP 299.900",
+        "primary_text": "Convierte cualquier pared en pantalla gigante. Mini proyector portátil 1080p: compacto, compatible HDMI/USB y parlante integrado. Mejor en luz atenuada. Envío gratis y pago contraentrega.",
+        "description": "Pantalla grande sin TV. Fácil instalación, resultados inmediatos para noches de peli."
+      },
+      "carousel": {
+        "num_cards": 3,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention",
+            "goal": "Create a strong pattern interrupt and curiosity gap: show a tiny mini proyector producing a huge, cinematic projection; headline asks a question that hooks viewers.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "living_room_projection_wide_shot",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: cozy living room evening scene, cinematic warm key light (3200K), soft rim light on product. Composition: tabletop foreground-left (product placed on a small wooden table), large movie-like projection filling the right/center wall; Rule of thirds composition, varied angle (slight low-angle, 25°) so the projection reads large. Lighting mood consistent across carousel: warm, cinematic, soft shadows. Background: living room elements softly blurred (strong bokeh, 8-12 aperture look), depth separation between product and projection; ensure background has no logos, no faces. Product emphasis: product must be the sharpest, highest-contrast element in the foreground; apply micro-sharpness and subtle specular highlights on the projector lens. Visual attention trigger: pattern interrupt — tiny device vs giant image. Overlay placements (exact anchors + percents) to be applied precisely: - Badge A \"Envío gratis\" at top_left anchor x=8% y=8% max_width=28% max_height=10% (rounded badge). - Badge B \"Pago contraentrega\" at top_right anchor x=92% y=8% max_width=36% max_height=10% (rounded badge). - Headline \"¿Pantalla 100\\\" en tu sala?\" at top_center anchor x=50% y=16% max_width=80% max_height=18% (bold, large). - Subheadline \"Sin TV grande, sin complicaciones\" at bottom_center anchor x=50% y=88% max_width=80% max_height=12% (smaller). Text placement rules: keep all overlays inside 10% safe margins; never place overlays over product. Typography rules: bold sans-serif (Montserrat or Inter), headline weight 800, subheadline weight 600, all caps not required, strong dark stroke 2px (#000000) with soft drop shadow rgba(0,0,0,0.45) for legibility on bright projection. Color palette for overlays: white fill (#FFFFFF) for headline/subheadline, badges filled with warm orange (#FF6A3D) and white text. Composition notes: keep product outside text_safe_zone; product should not overlap with headline or badges. Export safe crop centered on the projection. Deliver artboard with layered overlays for review.",
+              "text_overlays": [
+                {
+                  "id": "badge_envio_1",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 8,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FF6A3D",
+                    "stroke": null,
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_orange"
+                  }
+                },
+                {
+                  "id": "badge_pago_1",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 92,
+                    "y_percent": 8,
+                    "max_width_percent": 36,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FF6A3D",
+                    "stroke": null,
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_orange"
+                  }
+                },
+                {
+                  "id": "headline_1",
+                  "text_exact": "¿Pantalla 100\" en tu sala?",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 16,
+                    "max_width_percent": 80,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.45)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "sub_1",
+                  "text_exact": "Sin TV grande, sin complicaciones",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 80,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product in sharp foreground (micro-sharpness), projection slightly softer than projector but large and readable. Background elements blurred with cinematic bokeh.",
+                "hierarchy": "1) Product, 2) Projection image, 3) Overlays (badges/headline), 4) Background mood details.",
+                "text_safe_zone": "Reserve the outer 10% margins on all sides for overlays (top 10%, bottom 10%, left 10%, right 10%). Do not place key visuals inside these margins.",
+                "text_never_cover_rule": "Do NOT place or composite the product over any overlay area. Product must remain outside the text_safe_zone and never overlap badges or headline."
+              },
+              "negative_prompt": "Do not generate any other projector model or variant; do not include faces, people, logos, brand trademarks, watermarks, or extra text beyond the provided overlays. Avoid busy clutter, neon color casts, or photographic artifacts. No simulated UI elements or fake certifications."
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Interest+Desire",
+            "goal": "Demonstrate the simple mechanism (plug-and-play) and show vivid outcome: shared movie night. Use a visual before/after metaphor (small phone/tablet screen vs large projection) and address the light-condition objection with a realistic cue.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "split_view_before_after_projection",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: split-composition (left: small phone/tablet screen mockup on table, right: large projected scene on wall) to create a before-and-after transformation. Lighting: balanced warm-key on product and projection, subtle rim light to separate product from blurred background. Background: soft domestic living-room blur (bokeh), neutral tones. Composition: left-to-right flow guiding eye from small device to large projection. Mechanism cue: show a clean HDMI cable or USB icon near product (stylized graphic, not a logo) to signal 'plug-and-play' — graphic must be minimal, monochrome, no brand marks. Avoid faces. Emphasize product sharpness; projection readable but softer than product. Overlay placements: - Badge A \"Envío gratis\" at top_left x=8% y=8% max_width=28% max_height=10%. - Badge B \"Pago contraentrega\" at top_right x=92% y=8% max_width=36% max_height=10%. - Headline \"Enciende, conecta, disfruta\" at top_center x=50% y=14% max_width=80% max_height=14%. - Outcome line \"Transforma tu pared en cine\" center anchor x=50% y=54% max_width=80% max_height=14%. - Context note \"Mejor con luz atenuada\" bottom_center x=50% y=86% max_width=60% max_height=10%. - Price label \"COP 299.900\" bottom_left x=14% y=84% max_width=30% max_height=10%. Typography: bold sans-serif (Montserrat/Inter), headline weight 800, body 600. Overlays colors: white text with dark stroke and soft shadow for contrast; badges same orange style as card 1. Keep all overlays within 10% safe margins. Deliver PSD/AI layers for overlays.",
+              "text_overlays": [
+                {
+                  "id": "badge_envio_2",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 8,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FF6A3D",
+                    "stroke": null,
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_orange"
+                  }
+                },
+                {
+                  "id": "badge_pago_2",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 92,
+                    "y_percent": 8,
+                    "max_width_percent": 36,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FF6A3D",
+                    "stroke": null,
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_orange"
+                  }
+                },
+                {
+                  "id": "headline_2",
+                  "text_exact": "Enciende, conecta, disfruta",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 14,
+                    "max_width_percent": 80,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.45)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "outcome_2",
+                  "text_exact": "Transforma tu pared en cine",
+                  "placement": {
+                    "anchor": "center",
+                    "x_percent": 50,
+                    "y_percent": 54,
+                    "max_width_percent": 80,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.40)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "context_2",
+                  "text_exact": "Mejor con luz atenuada",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 86,
+                    "max_width_percent": 60,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.30)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "price_2",
+                  "text_exact": "COP 299.900",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 14,
+                    "y_percent": 84,
+                    "max_width_percent": 30,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product remains sharp foreground; projection and left-side phone/tablet are secondary but readable; background heavily blurred.",
+                "hierarchy": "1) Product, 2) Transformation imagery (before/after), 3) Headline, 4) Price and context note.",
+                "text_safe_zone": "Keep overlays inside the 10% safe margin: avoid placing product or UI elements in this zone; text must remain within these margins.",
+                "text_never_cover_rule": "Do not let the product overlap any overlay area. Keep a clear separation between product and overlays at least 6% of image space."
+              },
+              "negative_prompt": "No faces, no brand logos, no watermarks, no other projector models, no additional text beyond overlay fields. Do not add product badges that conflict with provided badges. Avoid cluttered props or simulated app UIs."
+            }
+          },
+          {
+            "card_index": 3,
+            "stage": "Action",
+            "goal": "Push a clear CTA with price and low-friction instructions: immediate purchase prompt plus payment/shipping reassurance. Encourage action: 'Compra ahora' / 'Pide hoy'.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "cta_closeup_product_with_price",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: clean product close-up (3/4 view) on a low table with projected image softly visible behind; warm cinematic rim lighting and subtle fill, background heavily out of focus (bokeh). Composition: product centered slightly lower to leave room for large CTA overlay in upper-mid area. Product must be the sharpest element with detailed texture (vent holes, lens), no added logos. Overlays to be placed exactly: - Badge A \"Envío gratis\" top_left x=8% y=8% max_width=28% max_height=10%. - Badge B \"Pago contraentrega\" top_right x=92% y=8% max_width=36% max_height=10%. - CTA main \"Compra ahora\" center anchor x=50% y=60% max_width=70% max_height=16% (largest type). - Secondary CTA line \"Pide hoy • Pago contraentrega\" bottom_center x=50% y=86% max_width=80% max_height=12%. - Price line \"COP 299.900\" bottom_left x=14% y=84% max_width=30% max_height=10%. Typography: bold sans-serif (Montserrat/Inter), CTA weight 900, secondary 600. Colors: CTA white fill with strong black stroke, badges orange as previous cards. Ensure all overlays lie within 10% safe margins and are never occluded by product. Include micro-instruction in ALT layer: 'Link to product page / Messenger' for ad serving team. Output layered source files and 1:1 JPG export.",
+              "text_overlays": [
+                {
+                  "id": "badge_envio_3",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 8,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FF6A3D",
+                    "stroke": null,
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_orange"
+                  }
+                },
+                {
+                  "id": "badge_pago_3",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 92,
+                    "y_percent": 8,
+                    "max_width_percent": 36,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FF6A3D",
+                    "stroke": null,
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_orange"
+                  }
+                },
+                {
+                  "id": "cta_3",
+                  "text_exact": "Compra ahora",
+                  "placement": {
+                    "anchor": "center",
+                    "x_percent": 50,
+                    "y_percent": 60,
+                    "max_width_percent": 70,
+                    "max_height_percent": 16
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.55)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "secondary_cta_3",
+                  "text_exact": "Pide hoy • Pago contraentrega",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 86,
+                    "max_width_percent": 80,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.40)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "price_3",
+                  "text_exact": "COP 299.900",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 14,
+                    "y_percent": 84,
+                    "max_width_percent": 30,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Close-up on product with maximum texture detail; projection softly visible and non-distracting in background blur.",
+                "hierarchy": "1) Product, 2) CTA headline, 3) Badges, 4) Price and secondary CTA.",
+                "text_safe_zone": "All overlays must remain within the outer 10% margin; keep minimum spacing of 6% between product edges and overlays.",
+                "text_never_cover_rule": "Never place the product over any overlay or inside the text_safe_zone. Product must not occlude or overlap badges, headline, price or CTA."
+              },
+              "negative_prompt": "No other product models, no faces, no logos, no watermarks, no extra unapproved text besides the specified overlays. Do not depict inaccurate product variants or fictional badges/certifications."
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Before-and-After Reveal",
+        "Pain Point Emphasis",
+        "¡Descubre la diferencia en segundos!",
+        "Transforma tu día a día en algo extraordinario",
+        "Limited-Time Offer (visual urgency without fictitious dates)",
+        "Problem-Solution Dynamic"
+      ],
+      "compliance_notes": [
+        "All overlays text are in Spanish (LATAM) and kept within the 10% safe margins as required.",
+        "Designs disallow faces, logos, watermarks, or extra text outside approved overlays; product_lock_rule must be followed exactly.",
+        "No invented technical specs, certifications, or unverifiable performance claims are used; objection softening uses non-quantitative language ('Mejor con luz atenuada').",
+        "Both default badges ('Envío gratis', 'Pago contraentrega') are present on every card with consistent badge styling."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Streaming sin cables (Android integrado) + conexiones HDMI/USB",
+      "buyer_persona": "Usuarios que ven Netflix/YouTube y quieren evitar conectar laptop cada vez",
+      "aida_strategy": {
+        "attention": "Interrumpir con una pregunta directa + imagen inesperada: primer plano del lente proyectando en una sala hogareña (sin caras), creando curiosidad sobre 'ver sin cables'.",
+        "interest": "Mostrar el mecanismo claro: Android integrado y casting como la forma sencilla de acceder a apps; visualizar iconos genéricos de apps y el puerto HDMI/USB como signos de compatibilidad.",
+        "desire": "Enmarcar el resultado vivido: 'cine en casa' inmediato, facilidad para compartir y jugar; suavizar objeciones mostrando soporte de conexiones físicas (HDMI/USB) como plan B sin prometer rendimiento exacto.",
+        "action": "Llamado a la acción con baja fricción: CTA directo y simple (Compra/Pide hoy), mostrar precio y badges de 'Envío gratis' y 'Pago contraentrega', con instrucción clara para comprar."
+      },
+      "ad_copy": {
+        "title": "Prende y ve: streaming sin cables",
+        "primary_text": "Android integrado + casting vía Wi‑Fi. También HDMI/USB cuando lo necesites. Mini proyector portátil para ver en casa sin complicaciones.",
+        "description": "Compacto, fácil de usar y listo para tu sala. Precio: COP 299.900"
+      },
+      "carousel": {
+        "num_cards": 3,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention",
+            "goal": "Detener el scroll con un pattern interrupt y abrir la curiosidad sobre ver contenido sin conectar laptop.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "closeup_projector_lens_warm_livingroom",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: intimate evening living room vignette (cozy home cinema). Composition: foreground close-up 3/4 angle of the mini projector on a wooden side table, lens sharply in focus, projecting a soft rectangular light onto a pale wall; background: sofa and warm lamp, heavy smooth bokeh (f/1.8 feel). Lighting mood: warm cinematic evening light, soft rim highlight on projector edges, lens flare subtle. Background blur: pronounced gaussian bokeh to ensure product is the sharpest element. Style system: consistent across carousel — warm color grade, soft highlights, minimal props. Overlay placements (exact anchors and percents): headline overlay id=headline_top_left anchor=top_left x_percent=10 y_percent=8 max_width_percent=60 max_height_percent=12; badges stacked anchor=top_right badge1 x_percent=86 y_percent=6 max_width_percent=22 badge2 x_percent=86 y_percent=18 max_width_percent=22; price tag anchor=bottom_left x_percent=10 y_percent=86 max_width_percent=40 max_height_percent=10. Typography rules: bold sans serif (e.g., Montserrat or Inter), headline weight 700, white fill with 18% black stroke, strong soft shadow (30% opacity, y-offset 4px); all text sized for legibility inside safe margins. Visual hierarchy: product (sharp) > headline > badges > price. Negative_prompt: \"no other projector models, no faces, no full people, no brand logos, no watermarks, no extra text beyond the specified overlays, no fictional specs, no visible UI logos of third-party apps\". Additional instructions: keep product fully visible and never placed over text safe zone; ensure badges are small rounded rectangles with 2px stroke and subtle drop shadow; avoid rendering any copyrighted app logos or recognizable brand marks.",
+              "text_overlays": [
+                {
+                  "id": "headline_top_left",
+                  "text_exact": "¿Listo para ver sin cables?",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 10,
+                    "y_percent": 8,
+                    "max_width_percent": 60,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.3)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 86,
+                    "y_percent": 6,
+                    "max_width_percent": 22,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#1B7A59",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_green"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 86,
+                    "y_percent": 18,
+                    "max_width_percent": 22,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#2C3E50",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_gray"
+                  }
+                },
+                {
+                  "id": "price_bottom_left",
+                  "text_exact": "COP 299.900",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 10,
+                    "y_percent": 86,
+                    "max_width_percent": 40,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product is the sharpest element (lens and body in crisp detail); background is softly blurred with warm bokeh.",
+                "hierarchy": "1) Product 2) Headline 3) Badges 4) Price 5) Background ambiance.",
+                "text_safe_zone": "Reserve outer 10% margins on all sides for overlays; no important imagery or high-contrast background inside these margins. Keep headline in top-left safe band and price/badges within indicated corners.",
+                "text_never_cover_rule": "Do NOT place or render any part of the product inside the top 10% or bottom 10% horizontal safe bands reserved for overlays; product must remain outside the text safe zone."
+              },
+              "negative_prompt": "Do not include faces, people, or full bodies; no brand logos or app trademarks; no watermarks; no extra copy outside overlays; do not generate a different projector model; avoid over-saturated colors or high-contrast busy patterns that reduce text legibility."
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Interest+Desire",
+            "goal": "Explicar claramente el mecanismo (Android integrado + casting) y enmarcar el beneficio vivido: cine en casa sin cables, con las conexiones HDMI/USB como respaldo para consolas y TV sticks.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "projector_wall_apps_projection",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: demonstration + lifestyle. Composition: mid-shot showing the mini projector on a low table (product sharply focused) projecting a clear rectangular UI-like projection on the wall; projection contains stylized generic app tiles (non-branded) and a small icon representing casting (abstract wave icon). Include a subtle inset close-up of the HDMI/USB ports as a secondary framed bubble at bottom-right (no logos). Lighting: warm key light from lamp, cool subtle rim light on product edges to separate from background, soft bokeh behind projection. Background blur: moderate to strong to keep attention on product and projection. Overlay placements: mechanism headline anchor=center_top x_percent=50 y_percent=8 max_width_percent=80 max_height_percent=14; support subline anchor=center x_percent=50 y_percent=56 max_width_percent=80 max_height_percent=12; badges anchor=top_right x_percent=86 y_percent=6 and x_percent=86 y_percent=18. Typography: bold sans serif, primary 700 weight, secondary 600 weight; white fill, semi-bold stroke for contrast, drop shadow for legibility. Visual metaphor: projected app-tiles = easy access to content; HDMI/USB inset = 'plan B' reassurance. Negative_prompt: \"no real app logos, no faces, no brand names, no watermarks, no extra text beyond overlays, do not render a different projector model.\"",
+              "text_overlays": [
+                {
+                  "id": "mechanism_headline",
+                  "text_exact": "Apps integradas + casting",
+                  "placement": {
+                    "anchor": "center_top",
+                    "x_percent": 50,
+                    "y_percent": 8,
+                    "max_width_percent": 80,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "support_subline",
+                  "text_exact": "HDMI / USB cuando lo necesites",
+                  "placement": {
+                    "anchor": "center",
+                    "x_percent": 50,
+                    "y_percent": 56,
+                    "max_width_percent": 80,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_2",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 86,
+                    "y_percent": 6,
+                    "max_width_percent": 22,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#1B7A59",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_green"
+                  }
+                },
+                {
+                  "id": "badge_cod_2",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 86,
+                    "y_percent": 18,
+                    "max_width_percent": 22,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#2C3E50",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_gray"
+                  }
+                },
+                {
+                  "id": "price_bottom_left_2",
+                  "text_exact": "COP 299.900",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 10,
+                    "y_percent": 86,
+                    "max_width_percent": 40,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Sharp product and projected image; projection content stylized and non-branded; inset of ports is secondary but readable.",
+                "hierarchy": "1) Product & projection 2) Mechanism headline 3) Support subline 4) Badges 5) Price.",
+                "text_safe_zone": "Maintain 10% margins on all sides; keep projection center clear of overlays; overlays positioned within reserved corner and top/bottom bands.",
+                "text_never_cover_rule": "Do NOT overlay text or badges over the product or the projection area; product and projected image must remain unobstructed."
+              },
+              "negative_prompt": "No third-party app logos, no faces or people, no watermarks, no brand names, no alternate projector models; avoid clutter behind projection that reduces contrast."
+            }
+          },
+          {
+            "card_index": 3,
+            "stage": "Action",
+            "goal": "Incentivar la compra con CTA claro y baja fricción: instrucción directa para comprar y recordatorio de precio y badges.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "product_on_table_cta_shot",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: product + CTA. Composition: three-quarter overhead angle showing the projector on a small table with its remote beside it (no faces visible), projector in sharp focus; background: softly blurred living room and a faint projected rectangle on wall for context. Lighting: warm evening key, subtle vignette, highlight on product edges to pop from background. Background blur: strong bokeh. Overlay placements: CTA button anchor=bottom_right x_percent=84 y_percent=84 max_width_percent=36 max_height_percent=12; price anchor=bottom_left x_percent=10 y_percent=86 max_width_percent=40; badges anchor=top_right x_percent=86 y_percent=6 and x_percent=86 y_percent=18. Typography: bold sans serif for CTA (weight 800), white uppercase, heavy drop shadow and 2px dark stroke, rounded CTA pill with accent color. Action phrasing: brief Spanish CTA and low-friction instruction. Negative_prompt: \"no faces, no logos, no watermarks, no other projector variants, no extra copy beyond overlays\". Additional: ensure product never overlaps CTA or badge zones; maintain consistent visual system with prior cards.",
+              "text_overlays": [
+                {
+                  "id": "cta_button",
+                  "text_exact": "Compra ahora",
+                  "placement": {
+                    "anchor": "bottom_right",
+                    "x_percent": 84,
+                    "y_percent": 84,
+                    "max_width_percent": 36,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.4)",
+                    "badge": "pill_accent"
+                  }
+                },
+                {
+                  "id": "cta_subline",
+                  "text_exact": "Pide hoy, pago al recibir",
+                  "placement": {
+                    "anchor": "bottom_right",
+                    "x_percent": 60,
+                    "y_percent": 92,
+                    "max_width_percent": 70,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.28)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_3",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 86,
+                    "y_percent": 6,
+                    "max_width_percent": 22,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#1B7A59",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_green"
+                  }
+                },
+                {
+                  "id": "badge_cod_3",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 86,
+                    "y_percent": 18,
+                    "max_width_percent": 22,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#2C3E50",
+                    "shadow": "rgba(0,0,0,0.25)",
+                    "badge": "rounded_gray"
+                  }
+                },
+                {
+                  "id": "price_bottom_left_3",
+                  "text_exact": "COP 299.900",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 10,
+                    "y_percent": 86,
+                    "max_width_percent": 40,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product remains the focal point; CTA is prominent but does not occlude the product; maintain consistent warm lighting and bokeh.",
+                "hierarchy": "1) Product 2) CTA 3) Badges 4) Price 5) Subline.",
+                "text_safe_zone": "Preserve outer 10% margins on all sides for overlays; CTA occupies bottom-right safe band; do not place product inside that band.",
+                "text_never_cover_rule": "Do NOT place product, projection, or product ports inside the bottom 10% or right 10% safe zones reserved for the CTA and badges."
+              },
+              "negative_prompt": "No faces, no logos, no watermarks, no other projector models; no extra text beyond overlays; do not promise delivery windows or warranties beyond what is confirmed."
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Problem-Solution Dynamic",
+        "Start with a bold statement",
+        "Use a question that addresses a common pain point",
+        "Before-and-After Reveal",
+        "Highlight the benefits in use",
+        "Low-friction CTA pattern"
+      ],
+      "compliance_notes": [
+        "No invented technical specs, certifications, medical claims, or unconfirmed warranty terms are included.",
+        "The ad references Android integrated and casting as product capabilities per provided brief; it avoids claims about app performance, updates, or reliability.",
+        "Price (COP 299.900) is used as provided by the user; delivery timing or guaranteed availability is not claimed.",
+        "Badges included by default: 'Envío gratis' and 'Pago contraentrega'.",
+        "No third-party brand logos or copyrighted app icons are rendered; all app visuals are stylized and non-branded."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Portátil y flexible (proyecta en pared o techo, base giratoria 180°)",
+      "buyer_persona": "Estudiantes y usuarios con espacios pequeños que buscan ver series en cama o llevarlo de viaje",
+      "aida_strategy": {
+        "attention": "Romper la expectativa con una escena nocturna: un proyector pequeño proyectando una imagen enorme en el techo, creando curiosidad sobre dónde encaja un equipo tan compacto.",
+        "interest": "Mostrar el mecanismo diferencial: la base giratoria 180° y la facilidad de llevarlo en mochila; usar un visual claro (flecha/ícono de giro) que explique la función en un vistazo.",
+        "desire": "Enmarcar el resultado vividamente: maratón de series desde la cama o pantalla grande en cualquier pared; suavizar la objeción de estabilidad mostrando el proyector firme en una superficie y composición que denote balance.",
+        "action": "CTA directa con precio y beneficio logístico: instrucción de compra sencilla y baja fricción (Envío gratis + Pago contraentrega)."
+      },
+      "ad_copy": {
+        "title": "Mini proyector portátil — lleva la pantalla a donde quieras",
+        "primary_text": "Llévalo en la mochila y proyecta hasta en el techo. Base giratoria 180° para acomodarlo en cualquier espacio. Envío gratis y pago contraentrega en Colombia.",
+        "description": "Compacto, con parlante integrado y compatible HDMI/USB. Ideal para estudiantes y viajes."
+      },
+      "carousel": {
+        "num_cards": 3,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention",
+            "goal": "Generar curiosidad e interrupción de patrón mostrando el proyector pequeño lanzando una imagen grande en el techo; captar con un titular que invite a seguir viendo.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "card1_attention_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: Cozy bedroom at night, warm tungsten ambient lighting, shallow depth of field with soft bokeh background. Composition: low-angle 3/4 view of a bedside table with the exact mini projector in sharp focus in the foreground (product is the sharpest element). Behind it, a large crisp projected image on the ceiling/wall (soft vignette). Include subtle visual pattern interrupt: projector appears palm-sized next to a folded shirt to emphasize compactness. Use varied framing: product left-third, projection fills top-right. Lighting: warm key light from bedside lamp (soft), subtle rim light to separate product, gentle volumetric glow from the projection. Background: softly blurred bedroom objects (books, pillows) with strong bokeh, no faces. Overlay placements (see exact anchors and x/y percentages below). Typography: bold sans serif, heavy weight, strong subtle shadow for legibility. Badge style: rounded pill badges, high-contrast fill, slight drop shadow. Make sure product is tack-sharp with natural reflections; avoid hard specular highlights that change product design. Export as clean composited image with 10% safe margins for text.\n\nExact overlays to render (do not add any other text):\n- Badge 1: \"Envío gratis\" at top-left anchor (x=8%, y=8%), max width 28%, max height 10%.\n- Badge 2: \"Pago contraentrega\" below badge1 at top-left (x=8%, y=18%), max width 28%, max height 10%.\n- Headline: \"¿Listo para maratón?\" top-center (x=50%, y=12%), max width 80%, max height 18%.\n\nAnchors meaning: 'top_left' means aligned to top-left safe area; use x/y percents as center point of overlay box. Keep overlays within 10% safe margin on all sides.\n\nDesign rules: maintain consistent visual system across cards (warm cozy lighting, rounded badge style, bold sans serif). Product must never overlap text overlays. Keep text legible over background by using semi-opaque dark backing behind white text where projection light overlaps.\n\nNegative prompt: do NOT generate alternate projector models or modify the provided product silhouette; forbid faces, visible people, logos, brand names, watermarks, additional text beyond the three specified overlays, unrealistic reflections, or any medical/technical claims. Do not add hands holding the projector in a way that shows faces. Do not change port/label details of the product.",
+              "text_overlays": [
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 8,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD24D",
+                    "stroke": "#000000",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.35)",
+                    "badge": "rounded_pill"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 18,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#111111",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.25)",
+                    "badge": "rounded_pill"
+                  }
+                },
+                {
+                  "id": "headline",
+                  "text_exact": "¿Listo para maratón?",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 12,
+                    "max_width_percent": 80,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "0 10px 20px rgba(0,0,0,0.45)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product is the sharpest element in foreground; projection area slightly softer but still readable; background heavily blurred (bokeh) to push focus forward.",
+                "hierarchy": "1) Product 2) Headline 3) Badges 4) Background projection atmosphere.",
+                "text_safe_zone": "Reserve 10% margins on all sides. Top zone (0–10% y) reserved for badges and headline; bottom zone (90–100% y) reserved for future CTA on other cards. Keep left/right 0–10% and 90–100% clear of product placement.",
+                "text_never_cover_rule": "Never place or overlap the product within the reserved text_safe_zone. The product must be fully outside the 10% text margins and never cover overlays."
+              },
+              "negative_prompt": "Forbid: generating different projector models, logos, brand names, watermarks, faces or visible people, extra text beyond specified overlays, unrealistic or exaggerated product modifications, visible UI or phone screens with text, high-frequency noise, caption stamps. No added product badges other than provided overlays."
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Interest+Desire",
+            "goal": "Mostrar el mecanismo clave (base giratoria 180°) y convertir interés en deseo mostrando uso real: proyector estable en una mesita, flecha gráfica indicando giro y una nota que evoca llevarlo en la mochila (beneficio aspiracional).",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "card2_interest_desire_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: Cozy bedside or small studio apartment daytime-to-evening mood with warm ambient light and natural window fill. Composition: 45° overhead/side view showing the projector on a bedside table with its base slightly rotated; include a clear graphic arrow (semi-transparent) illustrating 180° rotation. Foreground: exact product sharply focused, placed slightly right-of-center. Background: soft bokeh of a bed and backpack (blurred, no faces) to imply portability. Add a subtle scale cue: an open backpack with the projector next to it (both in focus shallow DOF). Lighting: warm soft key, gentle rim to emphasize product edges. Visual metaphor: a dashed outline of a backpack slot to imply 'fits'. Keep consistent typography and badge style with card1.\n\nExact overlays (Spanish) and placements:\n- Badge 1 \"Envío gratis\" top-left (x=8%, y=8%)\n- Badge 2 \"Pago contraentrega\" top-left (x=8%, y=18%)\n- Headline: \"Base giratoria 180°\" top-center (x=50%, y=12%)\n- Support line (short desire cue): \"Cabe en tu mochila\" bottom-center (x=50%, y=82%)\n\nDesign rules: maintain text inside 10% safe margins; place arrow graphic so it does not overlap text overlays. Use semi-opaque dark backing under text when projection light is bright.\n\nNegative prompt: do NOT generate faces, logos, watermarks, alternate product models, extra text. No speculative claims about performance or stability beyond the visual demonstration.",
+              "text_overlays": [
+                {
+                  "id": "badge_free_shipping_2",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 8,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD24D",
+                    "stroke": "#000000",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.35)",
+                    "badge": "rounded_pill"
+                  }
+                },
+                {
+                  "id": "badge_cod_2",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 18,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#111111",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.25)",
+                    "badge": "rounded_pill"
+                  }
+                },
+                {
+                  "id": "headline_2",
+                  "text_exact": "Base giratoria 180°",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 12,
+                    "max_width_percent": 80,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "0 10px 20px rgba(0,0,0,0.45)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "subline",
+                  "text_exact": "Cabe en tu mochila",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 82,
+                    "max_width_percent": 80,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#111111",
+                    "shadow": "0 8px 18px rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product sharp in foreground; supporting props (backpack, table) medium blur; background heavy blur. Arrow graphic is a mid-layer element that does not occlude product edges.",
+                "hierarchy": "1) Product 2) Headline 3) Supporting subline 4) Badges 5) Background props.",
+                "text_safe_zone": "Reserve 10% margins on all sides. Top 0–10% for badges/headline; bottom 90–100% for CTA. Keep product outside these zones so text overlays remain unobstructed.",
+                "text_never_cover_rule": "Do not place the product or any props over the reserved text_safe_zone. Overlays must remain fully readable and unobstructed."
+              },
+              "negative_prompt": "Forbid: faces, people, brand logos, watermarks, alternate projector designs, extra on-image text beyond specified overlays, exaggerated shadows or unrealistic reflections, added product labelling or speculative claims."
+            }
+          },
+          {
+            "card_index": 3,
+            "stage": "Action",
+            "goal": "Cerrar con un CTA claro y baja fricción: mostrar precio, beneficios logísticos, y un llamado a la acción visible; instrucción directa para pedir hoy con pago contraentrega.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "card3_action_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact mini proyector portátil 1080p from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: Cozy evening close-up with warm lamp and soft background bokeh. Composition: center-focused product on a stable surface, slightly elevated angle (eye-level), product extremely sharp with clear ports visible but no logos, background blurred. Include price plaque graphic and CTA button graphic integrated into scene (flat UI-style pill), placed within safe margins. Lighting: warm key + subtle rim light to accent product silhouette. Keep consistent badge style and typography across cards. Make product visually convey stability (solid contact shadow). No faces, no logos on background.\n\nExact overlays to render (Spanish):\n- Badge 1 \"Envío gratis\" top-left (x=8%, y=8%)\n- Badge 2 \"Pago contraentrega\" top-left (x=8%, y=18%)\n- Price/offer line: \"COP 299.900\" center (x=50%, y=52%), max width 70%, max height 12% (bold)\n- CTA main: \"Compra ahora\" bottom-center (x=50%, y=78%), max width 70%, max height 12% (prominent pill with contrast)\n- Low-friction cue small line: \"Pide hoy • Pago contraentrega\" bottom (x=50%, y=90%), max width 90%, max height 8%\n\nDesign rules: CTA pill should be high-contrast (e.g., deep blue fill, white bold text) with subtle drop shadow; price line large and legible. Ensure all overlays remain within 10% safe margins and never overlap the product.\n\nNegative prompt: forbid faces, logos, watermarks, alternate product variants, extra text beyond specified overlays, invented certifications or warranty claims, medical or performance claims.",
+              "text_overlays": [
+                {
+                  "id": "badge_free_shipping_3",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 8,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD24D",
+                    "stroke": "#000000",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.35)",
+                    "badge": "rounded_pill"
+                  }
+                },
+                {
+                  "id": "badge_cod_3",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 8,
+                    "y_percent": 18,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#111111",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.25)",
+                    "badge": "rounded_pill"
+                  }
+                },
+                {
+                  "id": "price_line",
+                  "text_exact": "COP 299.900",
+                  "placement": {
+                    "anchor": "center",
+                    "x_percent": 50,
+                    "y_percent": 52,
+                    "max_width_percent": 70,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "0 10px 22px rgba(0,0,0,0.5)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "cta",
+                  "text_exact": "Compra ahora",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 78,
+                    "max_width_percent": 70,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#0B63D6",
+                    "stroke": null,
+                    "shadow": "0 12px 30px rgba(11,99,214,0.35)",
+                    "badge": "cta_pill"
+                  }
+                },
+                {
+                  "id": "low_friction",
+                  "text_exact": "Pide hoy • Pago contraentrega",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 90,
+                    "max_width_percent": 90,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Inter, Helvetica Neue, Arial",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#111111",
+                    "shadow": "0 6px 14px rgba(0,0,0,0.25)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product centered and sharp with stable contact shadow; overlays arranged so CTA is visible in bottom 20% but product does not overlap text safe zone.",
+                "hierarchy": "1) Product 2) Price 3) CTA 4) Badges 5) Low-friction cue.",
+                "text_safe_zone": "Reserve 10% margins on all sides. Top 0–10% for badges/headline; bottom 80–100% should be used for CTA and low-friction cues, but keep product clear of bottom 10% overlay area.",
+                "text_never_cover_rule": "Do not place product inside the bottom CTA area or overlap any overlay. Product must remain outside the 10% safe margins and never cover overlay text."
+              },
+              "negative_prompt": "Forbid: faces, logos, watermarks, alternate projector designs, additional on-image text beyond specified overlays, invented certifications/warranty terms, medical/performance claims, unrealistic product alterations."
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Problem-Solution Dynamic",
+        "Before-and-After Reveal",
+        "Pain Point Emphasis",
+        "Start with a bold statement",
+        "Show the benefits of the product in use",
+        "Transforma tu día a día en algo extraordinario",
+        "Limited-Time Offer (implied urgency via CTA and shipping benefits)"
+      ],
+      "compliance_notes": [
+        "Used only the provided product reference per product_lock_rule; no alternate models generated.",
+        "No invented technical specs, certifications, medical claims, or unconfirmed warranty terms have been added.",
+        "Text overlays are in Spanish (LATAM) and kept short and legible within 10% safe margins.",
+        "Cards avoid faces, logos, and watermarks as requested. Badges included: 'Envío gratis' and 'Pago contraentrega'.",
+        "Price displayed matches user-provided input (COP 299.900)."
+      ]
+    }
+  ]
+}

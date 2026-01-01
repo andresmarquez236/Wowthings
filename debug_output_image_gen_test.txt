@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/andresmarquez/Documents/Infinitylab/wow_agent/image_generation/test.py", line 504, in <module>
+    main()
+  File "/Users/andresmarquez/Documents/Infinitylab/wow_agent/image_generation/test.py", line 493, in main
+    run_product_generation(
+  File "/Users/andresmarquez/Documents/Infinitylab/wow_agent/image_generation/test.py", line 398, in run_product_generation
+    client = create_client(api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andresmarquez/Documents/Infinitylab/wow_agent/image_generation/test.py", line 256, in create_client
+    return genai.Client()
+           ^^^^^^^^^^^^^^
+  File "/Users/andresmarquez/.pyenv/versions/3.12.9/lib/python3.12/site-packages/google/genai/client.py", line 396, in __init__
+    self._api_client = self._get_api_client(
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/andresmarquez/.pyenv/versions/3.12.9/lib/python3.12/site-packages/google/genai/client.py", line 444, in _get_api_client
+    return BaseApiClient(
+           ^^^^^^^^^^^^^^
+  File "/Users/andresmarquez/.pyenv/versions/3.12.9/lib/python3.12/site-packages/google/genai/_api_client.py", line 683, in __init__
+    raise ValueError(
+ValueError: Missing key inputs argument! To use the Google AI API, provide (`api_key`) arguments. To use the Google Cloud API, provide (`vertexai`, `project` & `location`) arguments.

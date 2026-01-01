@@ -1,0 +1,405 @@
+{
+  "schema_version": "nanobanana_image_v1",
+  "generated_at_utc": "2025-12-30T19:11:08.686720+00:00",
+  "product": {
+    "nombre_producto": "mini proyector portátil 1080p",
+    "descripcion": "Proyector compacto para hogar, streaming, compatible HDMI/USB, parlante integrado.",
+    "garantia": "1 año (por confirmar en Colombia)",
+    "precio": "COP 299.900",
+    "pais_objetivo": "Colombia"
+  },
+  "results_by_angle": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Cine en casa accesible: gran pantalla por menos de COP 300k",
+      "buyer_persona": "Hogares jóvenes/parejas que ven series/películas y no quieren invertir en TV grande",
+      "ad_copy": {
+        "title": "¡Pantalla de 100\" por menos de COP 300k!",
+        "primary_text": "Convierte tu espacio en un cine con nuestro mini proyector portátil 1080p. Una experiencia de pantalla gigante perfecta para tus noches de películas, todo sin necesidad de gastar en un gran televisor. Ideal para cualquier pared de tu hogar. ¡Prueba la magia del cine en casa hoy mismo!",
+        "description": "Lleva el cine a tu casa sin romper el presupuesto. ¡Envío gratis y pago contraentrega disponibles!"
+      },
+      "single_image_prompt": {
+        "task": "Create a nanoBanana Pro prompt focusing on the image of the mini projector creating a home cinema experience.",
+        "thumbnail": "home_cinema_thumb.jpg",
+        "variant": "primary_showcase_v1",
+        "format": {
+          "aspect_ratio": "16:9",
+          "resolution": "1080p",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "The mini projector should appear prominently in the scene to emphasize its portability and cinema experience."
+        },
+        "prompt": "An inviting modern living room in a cozy apartment. The lights are dimmed to create an evening ambiance. On a white wall, a large and vivid projection of a popular movie scene captures attention, emanating from the sleek mini proyector portátil 1080p placed on a compact table nearby. A comfortable sofa with a small pile of popcorn is visible, highlighting a home-movie night setup. The scene exudes warmth with soft lighting, casting gentle shadows for an immersive cinema atmosphere.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Cine en casa por menos de $300k",
+            "placement": {
+              "anchor": "top_center",
+              "x_percent": 50,
+              "y_percent": 5,
+              "max_width_percent": 90,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": null,
+              "shadow": "#000000 3px 3px 5px",
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "¡Compra ahora!",
+            "placement": {
+              "anchor": "bottom_center",
+              "x_percent": 50,
+              "y_percent": 90,
+              "max_width_percent": 30,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#00bfa5",
+              "stroke": null,
+              "shadow": "rgba(0,0,0,0.7) 2px 2px 4px",
+              "badge": null
+            }
+          },
+          {
+            "id": "badge",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 10,
+              "y_percent": 85,
+              "max_width_percent": 25,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": null,
+              "shadow": "#000000 2px 2px 4px",
+              "badge": "round"
+            }
+          },
+          {
+            "id": "badge",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 90,
+              "y_percent": 85,
+              "max_width_percent": 35,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": null,
+              "shadow": "#000000 2px 2px 4px",
+              "badge": "round"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "central focus on the projected movie scene.",
+          "hierarchy": "projection screen > couch setup > mini projector.",
+          "text_safe_zone": "upper and lower thirds within the safe margin.",
+          "text_never_cover_rule": "Do not cover the central movie projection on the wall."
+        },
+        "negative_prompt": "Avoid cluttered living spaces or generic stock projector images."
+      },
+      "hooks_used": [
+        "Cine en casa por menos de $300k: tu pared = pantalla gigante.",
+        "100\" de pura emoción sin gastar en un TV enorme.",
+        "Tu sala, tu cinema: instala en 5 minutos y disfruta."
+      ],
+      "compliance_notes": [
+        "Ensure the price and offer match the communication in Colombia.",
+        "Verify that all visual and written content complies with Meta's advertising policies."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Streaming sin cables (Android integrado) + conexiones HDMI/USB",
+      "buyer_persona": "Usuarios que ven Netflix/YouTube y quieren evitar conectar laptop cada vez",
+      "ad_copy": {
+        "title": "Cine en Casa al Instante",
+        "primary_text": "Prende y ve tu serie favorita con el mini proyector portátil 1080p. Apps y casting directos vía WiFi/Bluetooth. ¿Conexiones HDMI/USB para consolas? ¡Claro que sí! Disfruta de una experiencia de cine en casa sin cables y sin complicaciones.",
+        "description": "Streaming fácil y rápido directamente en tu pared. Perfecto para tus maratones de películas."
+      },
+      "single_image_prompt": {
+        "task": "image-generation",
+        "thumbnail": "path/to/generated_thumbnail.jpg",
+        "variant": "v1",
+        "format": {
+          "aspect_ratio": "16:9",
+          "resolution": "1500x844",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "must include"
+        },
+        "prompt": "A brightly lit, modern living room setting at night with a light beige wall. The mini projector is clearly visible on a coffee table, projecting a sharp 1080p image of a popular movie scene onto the wall, capturing attention. The environment should feel cozy with plush pillows on a couch and a soft rug on the floor. Lights are dim to enhance the projection without making the room too dark. The WiFi and Bluetooth icons are subtly integrated into the scene, conveying smart connectivity. The image should be sharp and vibrant, featuring modern furnishings and a sense of cinematic ambiance.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Streaming sin cables",
+            "placement": {
+              "anchor": "center_top",
+              "x_percent": 50,
+              "y_percent": 10,
+              "max_width_percent": 80,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#000000",
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "¡Compra ahora!",
+            "placement": {
+              "anchor": "center_bottom",
+              "x_percent": 50,
+              "y_percent": 90,
+              "max_width_percent": 70,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FBFBFB",
+              "stroke": null,
+              "shadow": "#333333",
+              "badge": null
+            }
+          },
+          {
+            "id": "badge_free_shipping",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 90,
+              "y_percent": 95,
+              "max_width_percent": 20,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#FFCC00",
+              "stroke": null,
+              "shadow": null,
+              "badge": "ribbon"
+            }
+          },
+          {
+            "id": "badge_cod",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 10,
+              "y_percent": 95,
+              "max_width_percent": 25,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 600,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#FFCC00",
+              "stroke": null,
+              "shadow": null,
+              "badge": "ribbon"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "projector, projection onto wall",
+          "hierarchy": "1. projector with projection 2. text overlays 3. room ambiance",
+          "text_safe_zone": "5% margin from edges",
+          "text_never_cover_rule": "do not cover the projector or the projection on the wall"
+        },
+        "negative_prompt": "Cluttered environment, excessive darkness, product partially obscured, outdated or unappealing room decor"
+      },
+      "hooks_used": [
+        "Prende y ve: Android integrado para Netflix, YouTube y más.",
+        "Cero cables: WiFi + BT para conectar y relajarte.",
+        "Conecta consola por HDMI y disfruta en grande."
+      ],
+      "compliance_notes": [
+        "Ensure no medical claims are made.",
+        "Avoid implying product can solve streaming issues beyond its functional capabilities.",
+        "Stay factual about the connectivity features without embellishment."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Portátil y flexible (proyecta en pared o techo, base giratoria 180°)",
+      "buyer_persona": "Estudiantes y usuarios con espacios pequeños que buscan ver series en cama o llevarlo de viaje",
+      "ad_copy": {
+        "title": "Tu cine portátil en cualquier lugar",
+        "primary_text": "Transforma tu dormitorio en un cine instantáneo con el mini proyector portátil 1080p. Liviano, compacto y diseñado para adaptarse a cualquier espacio, ya sea en tu cuarto o en un camping. Llévalo donde quieras y proyecta hacia la pared o el techo con su base giratoria 180°. Ideal para tus maratones de series desde la cama. ¡Reserva el tuyo ahora!",
+        "description": "¡Pantalla de cine en tu mochila! Transforma cualquier espacio en segundos."
+      },
+      "single_image_prompt": {
+        "task": "Thumbnail",
+        "thumbnail": "cinema_experience.jpg",
+        "variant": "Lifestyle Shot",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080px",
+          "safe_margin_percent": 10
+        },
+        "input_assets": {
+          "product_lock_rule": "Incorporate the mini proyector portátil 1080p prominently, ensuring product design integrity."
+        },
+        "prompt": "A cozy bedroom scene at night, featuring a young woman comfortably lying in bed watching a projected movie on the ceiling. The focal point is the mini proyector portátil 1080p on a small nightstand, elegantly casting a bright and colorful film onto the smooth, white ceiling. The room exudes a warm, inviting glow from soft ambient lighting, enhancing the cozy atmosphere. The woman is smiling, clearly enjoying the cinema-like experience, showing the compact size and flexibility of the projector setup for a perfect night of movie marathons from bed.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Pantalla ilimitada",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 5,
+              "y_percent": 85,
+              "max_width_percent": 40,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "0px 4px 6px rgba(0,0,0,0.3)",
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "Reserva el tuyo",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 55,
+              "y_percent": 85,
+              "max_width_percent": 40,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#FF5722",
+              "stroke": null,
+              "shadow": "0px 4px 6px rgba(0,0,0,0.3)",
+              "badge": null
+            }
+          },
+          {
+            "id": "badge_1",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "top_left",
+              "x_percent": 5,
+              "y_percent": 5,
+              "max_width_percent": 30,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#4CAF50",
+              "stroke": null,
+              "shadow": null,
+              "badge": "circle"
+            }
+          },
+          {
+            "id": "badge_2",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "top_right",
+              "x_percent": 65,
+              "y_percent": 5,
+              "max_width_percent": 30,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#4CAF50",
+              "stroke": null,
+              "shadow": null,
+              "badge": "circle"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "Mini proyector portátil 1080p and projected image on ceiling",
+          "hierarchy": "1. Projector, 2. Projected image, 3. Woman enjoying, 4. Overlay texts.",
+          "text_safe_zone": "Ensure overlay texts do not obstruct the view of the projector and projected image.",
+          "text_never_cover_rule": "Do not cover the mini proyector portátil 1080p or the projected image with overlays."
+        },
+        "negative_prompt": "Avoid cluttered elements like excessive room accessories or distractions from the main focus on the projector and projection."
+      },
+      "hooks_used": [
+        "Proyecta en el techo y ve series desde la cama.",
+        "Liviano y portátil: llévalo a viajes, finca o terraza.",
+        "Base giratoria: ajusta en segundos y disfruta.",
+        "Set-up rápido: trípode/soporte y listo."
+      ],
+      "compliance_notes": [
+        "Ensure not to imply medical claims or results naturally unattainable with use.",
+        "Avoid depicting the projector in unsafe or unrealistic usage scenarios."
+      ]
+    }
+  ]
+}

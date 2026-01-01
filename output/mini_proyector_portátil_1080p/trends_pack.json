@@ -1,0 +1,62 @@
+{
+  "trend_sources": [
+    {
+      "url": "https://www.socialmediatoday.com/news/top-tiktok-trends-for-2023/638636/",
+      "title": "Top TikTok Trends for 2023",
+      "published_date": "2023-07-10",
+      "used_for": "Identifying trending visual styles and themes."
+    },
+    {
+      "url": "https://later.com/blog/social-media-trends/",
+      "title": "Social Media Trends in 2023",
+      "published_date": "2023-06-15",
+      "used_for": "Understanding user engagement strategies on Meta and TikTok."
+    }
+  ],
+  "creative_patterns": [
+    "Use of fast-paced edits to maintain viewer attention.",
+    "Incorporation of text overlays with catchy, relatable phrases.",
+    "Integration of trending sounds to enhance viewer engagement.",
+    "Frequent use of jump cuts to keep the content dynamic.",
+    "Implementation of POV (point-of-view) perspectives to make content more relatable.",
+    "Highlighting transformation and before-and-after scenarios.",
+    "Adoption of storytelling with a clear beginning, middle, and end within a 15-30 second timeframe.",
+    "Utilization of split-screen effects to compare products or ideas.",
+    "Leveraging augmented reality effects for a futuristic feel.",
+    "Use of reaction-based content to connect emotionally with the audience.",
+    "Incorporating bloopers or outtakes to add authenticity.",
+    "Use of time-lapse effects to show quick progression or completion of tasks.",
+    "Adoption of minimalist visual aesthetics to focus attention on the main message.",
+    "Creating rhythm by coordinating scene changes with music beats.",
+    "Presenting user testimonials or reviews in the form of short snippets.",
+    "Integrating challenges or calls-to-action that encourage viewer participation."
+  ],
+  "cadence_rules": [
+    "Maintain a fast pace throughout the video to keep viewers engaged.",
+    "Use edits that introduce a new scene or piece of information every 1-3 seconds.",
+    "Overlay text should appear briefly (under 2 seconds) with clear and concise messages.",
+    "Align visual transitions to the beat of background music or sound effects.",
+    "Begin with an attention-grabbing scene within the first 3 seconds.",
+    "Utilize countdowns or timer overlays to create a sense of urgency.",
+    "Ensure audio clarity by minimizing background noise and emphasizing key sounds.",
+    "Use varying shot distances (close-up, medium, wide) to keep visual interest.",
+    "Insert scene changes or effects every 3-5 seconds to maintain dynamism.",
+    "Incorporate seamless looping so the end of the video connects smoothly with the beginning."
+  ],
+  "do_not_do": [
+    "Avoid overly lengthy introductions that cause viewer drop-off.",
+    "Do not use cluttered visuals where key messages are lost.",
+    "Refrain from using text that is too small or moves too quickly to read.",
+    "Avoid relying on a single scene or static image for too long.",
+    "Do not use copyrighted music without permission as it can lead to video removal.",
+    "Avoid excessive use of clashing visual filters.",
+    "Don't repeat the same information or scene excessively within the same video.",
+    "Refrain from making videos longer than 60 seconds unless necessary for context.",
+    "Do not ignore sound quality; ensure dialogue and important sounds are audible.",
+    "Avoid misleading viewers with inaccurate or over-exaggerated claims.",
+    "Do not overload videos with text blocks; keep it succinct and impactful.",
+    "Avoid transitions that are too jarring or distract from the message.",
+    "Don't neglect accessibility; ensure subtitles are available when dialogue is present.",
+    "Do not use default platform fonts for overlays; opt for custom fonts to stand out."
+  ]
+}

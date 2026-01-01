@@ -1,0 +1,768 @@
+{
+  "runs": [
+    {
+      "input_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/truly_aceite_soft_serve_50_ml/market_research_min.json",
+      "product_name": "Truly Aceite Soft Serve 50 Ml",
+      "product_slug": "truly_aceite_soft_serve_50_ml",
+      "model": "gpt-5.2",
+      "results": [
+        {
+          "angle_rank": 1,
+          "angle_name": "Alivio inmediato post-afeitado: menos ardor y menos vellos encarnados",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A1_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Aplica después de depilar/afeitar y",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A1_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Aplica después de depilar/afeitar y",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A1_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Aplica después de depilar/afeitar y",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle_rank": 2,
+          "angle_name": "Fórmula skincare-grade (péptidos + ácido hialurónico + fresa AHA) para piel suave por días",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A2_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Hidrata, ayuda a reparar micro-daño",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A2_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Hidrata, ayuda a reparar micro-daño",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A2_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Hidrata, ayuda a reparar micro-daño",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle_rank": 3,
+          "angle_name": "Experiencia sensorial ‘fresas con crema’ (+ rutina TikTok Pink) que fideliza la constancia",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A3_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel calmada y con aroma",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A3_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel calmada y con aroma",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "truly_aceite_soft_serve_50_ml_A3_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel calmada y con aroma",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

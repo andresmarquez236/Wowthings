@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "generated_at_utc": "2025-12-30T18:36:31.595473+00:00",
+    "model": "gpt-4o",
+    "market_path": "output/market_research_min.json",
+    "caches": {
+      "hooks_pack": "output/mini_proyector_portátil_1080p/hooks_pack.json",
+      "trends_pack": "output/mini_proyector_portátil_1080p/trends_pack.json",
+      "video_rules_pack": "output/mini_proyector_portátil_1080p/video_rules_pack.json"
+    },
+    "product": {
+      "nombre_producto": "Ejemplo: mini proyector portátil 1080p",
+      "descripcion": "Proyector compacto para hogar, streaming, compatible HDMI/USB, parlante integrado.",
+      "garantia": "1 año (por confirmar en Colombia)",
+      "precio": "COP 299.900",
+      "pais_objetivo": "Colombia"
+    }
+  },
+  "results": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Cine en casa accesible (100” en cuarto oscuro) vs TV grande",
+      "buyer_persona": "Parejas jóvenes y familias en apartamentos; estudiantes",
+      "ad_copy": {
+        "title": "Transforma tu sala en un cine",
+        "primary_text": "Pantalla gigante en casa por menos de COP $300k. ¡Sin TV costoso!",
+        "description": "Descubre el cine en casa accesible con nuestro mini proyector."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "every 3 seconds",
+          "change_definition": "change at least 2 of visual, text, rhythm"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Cansado de pantallas pequeñas?",
+            "visual": "Close-up of a person squinting at a small TV.",
+            "voiceover": "Cansado de pantallas pequeñas...",
+            "rhythm_editing": "Start with a slow zoom-in.",
+            "sfx_music": "Soft thumping intro.",
+            "transition": "Quick zoom.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "¡Imagina un cine en tu sala!",
+            "visual": "Wide shot of living room transforming into a cinema.",
+            "voiceover": "Imagina un cine en tu sala...",
+            "rhythm_editing": "Smooth pan across the room.",
+            "sfx_music": "Shimmering reveal sound.",
+            "transition": "Whip pan to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Con nuestro mini proyector 1080p",
+            "visual": "Shot of the mini projector in use, projecting a large image.",
+            "voiceover": "Con nuestro mini proyector 1080p...",
+            "rhythm_editing": "Steady reveal of projection quality.",
+            "sfx_music": "Soft uplifting background.",
+            "transition": "Fade to close-up shot of projector.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Calidad increíble por menos de COP $300k",
+            "visual": "Split-screen: projector vs. expensive TV prices.",
+            "voiceover": "Calidad increíble... menos de COP $300k.",
+            "rhythm_editing": "Quick pace with split-screen animation.",
+            "sfx_music": "Building anticipation sound.",
+            "transition": "Cut to animated price comparison.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Perfecto para cualquier ambiente",
+            "visual": "Demonstration of projector in a dimly lit room.",
+            "voiceover": "Perfecto para cualquier ambiente...",
+            "rhythm_editing": "Casual B-roll with upbeat tempo.",
+            "sfx_music": "Ambient track with light rhythm.",
+            "transition": "Cross-dissolve to living room setup.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Transforma tu espacio hoy mismo",
+            "visual": "Shot of family enjoying a movie together.",
+            "voiceover": "Transforma tu espacio hoy mismo...",
+            "rhythm_editing": "Slight slow-motion effect for emotional impact.",
+            "sfx_music": "Cinematic crescendo.",
+            "transition": "Dramatic pull-back to reveal projector.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Visítanos según disponibilidad en Colombia",
+            "visual": "Call-to-action screen with product image and shop link.",
+            "voiceover": "Visítanos... disponibilidad en Colombia.",
+            "rhythm_editing": "Snappy, engaging text animation.",
+            "sfx_music": "Final impactful note.",
+            "transition": "Slide-out with contact info.",
+            "cta": "Visítanos para más detalles."
+          }
+        ],
+        "production_notes": [
+          "Use dynamic lighting to emphasize transformation.",
+          "Captions mandatory for voiceover to ensure accessibility.",
+          "Fast-paced edits to maintain engagement every 3 seconds.",
+          "Mix between wide shots and close-ups for variety.",
+          "Utilize ambient lighting to simulate a home environment.",
+          "Include family-friendly scenes for relatability.",
+          "Highlight product's small size for portability."
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Fear of Missing Out (FoMO)",
+        "Problem-Solution Dynamic",
+        "Pain Point Emphasis"
+      ],
+      "compliance_notes": [
+        "Ensure no claims about functionalities without testing.",
+        "Do not guarantee availability beyond current stock.",
+        "Verify claim of 1080p with actual product specs.",
+        "Portray projection in realistic environments without over-lighting."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Portabilidad + streaming estable con TV Stick (sin dolores de cabeza)",
+      "buyer_persona": "Estudiantes, viajeros, familias que mueven el equipo entre habitaciones",
+      "ad_copy": {
+        "title": "Cine en tu bolsillo, ¡llévalo donde quieras!",
+        "primary_text": "Mini proyector + TV Stick = Sin restricciones, donde quieras.",
+        "description": "Disfruta de tus series favoritas con facilidad y calidad 1080p."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "3s cadence: change visual/text/audio every 3 seconds",
+          "change_definition": "Alter at least 2 elements: visual, text, audio every 3 seconds."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¡Cine móvil instantáneo!",
+            "visual": "Close-up of the mini projector coming out of a backpack.",
+            "voiceover": "¿Quieres llevar el cine a cualquier lugar?",
+            "rhythm_editing": "Quick zoom-in as the projector is pulled out.",
+            "sfx_music": "Uplifting intro chord.",
+            "transition": "Whip pan to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Problemas con las apps, ¡nunca más!",
+            "visual": "Split-screen: frustration with device apps on one side, TV Stick connecting smoothly on the other.",
+            "voiceover": "Olvídate de apps con problemas.",
+            "rhythm_editing": "Fast split-screen transition.",
+            "sfx_music": "Gentle tech whirring.",
+            "transition": "Glitch effect to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Conecta y disfruta, fácil.",
+            "visual": "Hand connecting a TV Stick to the projector, screen showing a smooth app interface.",
+            "voiceover": "Conéctalo con un TV Stick por HDMI.",
+            "rhythm_editing": "Smooth slide-in for text and connecting motion.",
+            "sfx_music": "Clicking sound to signal connection.",
+            "transition": "Swipe to next frame.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Calidad 1080p, en cualquier lugar.",
+            "visual": "Projection on a wall in a cozy living environment.",
+            "voiceover": "Calidad full HD donde estés.",
+            "rhythm_editing": "Slow-motion reveal of the projection.",
+            "sfx_music": "Echoing effect as screen lights up.",
+            "transition": "Fade to black and back.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Portátil y potente, ¡sin límites!",
+            "visual": "Family enjoying a movie night outdoors with the projector.",
+            "voiceover": "Llévalo fácilmente en tu mochila.",
+            "rhythm_editing": "Pan over smiling faces to projector view.",
+            "sfx_music": "Warm, cheerful melody.",
+            "transition": "Zoom into screen content.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Compra ahora, vive la experiencia.",
+            "visual": "Call-to-action on screen with projector and TV Stick combo.",
+            "voiceover": "Aprovecha esta combinación perfecta.",
+            "rhythm_editing": "Rhythmic punch-in on text with each word.",
+            "sfx_music": "Final crescendo.",
+            "transition": "Converging lines to next scene.",
+            "cta": "Compra ahora"
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Disponible en Colombia.",
+            "visual": "Text overlaid on Colombian map with flag.",
+            "voiceover": "Disponible para todos en Colombia.",
+            "rhythm_editing": "Map zoom-out with flag waving animation.",
+            "sfx_music": "Patriotic undertone.",
+            "transition": "Fade out to CTA screen.",
+            "cta": "Visita nuestro sitio web"
+          }
+        ],
+        "production_notes": [
+          "Frame the projector as the focal point in Beat 1.",
+          "Use natural lighting to enhance outdoor enjoyment scenes.",
+          "Incorporate clear and readable captions for sound-off viewing.",
+          "Apply rapid zoom-ins for emphasis in Beats 2 and 6.",
+          "Balance cheerful background music with clear voiceover to convey warmth and confidence.",
+          "Ensure the Colombian flag is vibrant and prominent in the final beat.",
+          "Use seamless transitions to maintain a fluid narrative.",
+          "Capture genuine expressions of joy and use them in family scenes.",
+          "Highlight compact advantages of the product by showing placement in small bags.",
+          "Apply rhythmic sound effects to synchronize with visual actions."
+        ]
+      },
+      "hooks_used": [
+        "Start with a bold statement to grab attention.",
+        "Use a question that addresses a common pain point.",
+        "Highlight a limited-time offer with urgency.",
+        "Show the benefits of the product in use.",
+        "Sorprendentemente fácil, increíblemente eficaz.",
+        "Da el primer paso hacia un nuevo tú.",
+        "¡Te sorprenderás con lo que obtienes!",
+        "Descubre lo que estabas buscando.",
+        "Más allá de tus expectativas."
+      ],
+      "compliance_notes": [
+        "Ensure all claims about HDMI connectivity and compatibility are verified.",
+        "Keep visuals consistent with family-friendly and educational undertones.",
+        "Avoid exaggerating product capabilities beyond current promotional details.",
+        "Use provided product specs without fabrication of features."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Regalo ‘wow’ y tendencia social (TikTok/Prime Days)",
+      "buyer_persona": "Compradores de regalo (Navidad, grados, cumpleaños)",
+      "ad_copy": {
+        "title": "¡Transforma tus regalos con un ‘mini cine’!",
+        "primary_text": "El proyector portátil que sorprende en cada ocasión. Ideal para aquellos que buscan un regalo especial y actual.",
+        "description": "Cautiva con este gadget de tendencia. Disponible hasta agotar existencia."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2 seconds",
+          "cadence_rule": "3-3-3 cadence",
+          "change_definition": "Visual, text, and rhythm every 3 seconds"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿El regalo perfecto? Te lo mostramos.",
+            "visual": "Close-up: wrapped gift box opening to reveal the projector.",
+            "voiceover": "¿Buscando algo que impresione?",
+            "rhythm_editing": "Fast-paced, upbeat introduction.",
+            "sfx_music": "Exciting whoosh sound",
+            "transition": "Quick zoom-in to product reveal.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Mini proyector: un ‘cine’ portátil.",
+            "visual": "Cut to: projector displaying a vibrant movie scene on a wall.",
+            "voiceover": "Un mundo de entretenimiento en la palma de tu mano.",
+            "rhythm_editing": "Energetic music transition.",
+            "sfx_music": "Cinematic sound effect",
+            "transition": "Swipe to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Tendencia en TikTok y redes.",
+            "visual": "Quick montage of social media clips featuring the projector.",
+            "voiceover": "El gadget que todos quieren.",
+            "rhythm_editing": "Rapid jump cuts matching beat.",
+            "sfx_music": "Popular TikTok tune",
+            "transition": "Cut to testimonial.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Opiniones de usuarios felices.",
+            "visual": "User-generated content of friends watching a movie outdoors.",
+            "voiceover": "Ideal para noches de cine inolvidables.",
+            "rhythm_editing": "Smooth glide to consumer reactions.",
+            "sfx_music": "Cheerful crowd sound",
+            "transition": "Fade-in transitions.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "¡Sorprende y regala algo único!",
+            "visual": "Happy person unwrapping projector and lighting up with joy.",
+            "voiceover": "No más regalos aburridos.",
+            "rhythm_editing": "Joyful, increasing tempo.",
+            "sfx_music": "Upbeat chime",
+            "transition": "Zoom out to reveal scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Disponible por tiempo limitado*",
+            "visual": "Visual countdown timer emphasizing urgency with projector footage.",
+            "voiceover": "Aprovecha antes que se agote.",
+            "rhythm_editing": "Rapid heartbeat rhythm.",
+            "sfx_music": "Countdown beep",
+            "transition": "Timer wipe effect.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Compra hoy mismo. ¡Hazlo tuyo!",
+            "visual": "Link to online store and logo end screen.",
+            "voiceover": "Haz tu pedido hoy, vive la experiencia.",
+            "rhythm_editing": "Triumphant crescendo close.",
+            "sfx_music": "Finale flourish",
+            "transition": "Fade to logo.",
+            "cta": "Swipe up to buy now!"
+          }
+        ],
+        "production_notes": [
+          "Use dynamic lighting to highlight the projector.",
+          "Incorporate captions for accessibility (Spanish).",
+          "Apply rapid editing to maintain fast pacing.",
+          "Ensure clear, vibrant color grading for pop.",
+          "Include upbeat, trendy music to keep viewers engaged.",
+          "Focus on user reactions for authenticity.",
+          "Highlight portability with lifestyle shots.",
+          "Keep transitions smooth but frequent.",
+          "Balance audio clarity with background music.",
+          "Ensure brand logo is prominently displayed at end.",
+          "Synchronize music beats with video transitions.",
+          "Emphasize compact size in visual comparisons.",
+          "Use playful, relatable on-screen text.",
+          "Maintain a consistent color theme for cohesion."
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Fear of Missing Out (FoMO)",
+        "User-Generated Content",
+        "Exclusive Sneak Peek",
+        "Pain Point Emphasis",
+        "Unexpected Fact"
+      ],
+      "compliance_notes": [
+        "Avoid specific claims about discounts unless confirmed.",
+        "Do not state warranty or price necessity if unknown.",
+        "Maintain clear and accurate portrayal of product size.",
+        "Ensure all visuals reflect real use scenarios.",
+        "Verify music licensing for all audio used."
+      ]
+    }
+  ]
+}

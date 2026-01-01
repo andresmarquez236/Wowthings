@@ -1,0 +1,359 @@
+{
+  "schema_version": "nanobanana_image_v1",
+  "generated_at_utc": "2025-12-30T19:54:55.778417+00:00",
+  "product": {
+    "nombre_producto": "Bee Venom Bswell",
+    "descripcion": "PRESENTACION EN VIDRIO 120g\n🐝 Bee Venom Bswell – Rejuvenecimiento Natural & Lifting Instantáneo\nBee Venom Bswell es un tratamiento cosmético avanzado que utiliza veneno de abeja purificado para estimular la producción natural de colágeno y elastina, logrando un efecto tensor que mejora la firmeza y suavidad de la piel desde las primeras aplicaciones.\n\nEs ideal para quienes buscan un producto antiedad potente, inspirado en tratamientos de lujo.\n\n✅ Beneficios principales\n✔ Efecto lifting y reafirmante\n✔ Reduce líneas de expresión y arrugas\n✔ Estimula la producción de colágeno\n✔ Mejora la elasticidad y firmeza\n✔ Hidrata profundamente\n✔ Aporta luminosidad y suavidad\n✔ Mejora textura y apariencia del rostro\n\n🐝 Ingredientes Clave\nVeneno de abeja purificado\nSimula una microestimulación que activa la regeneración de la piel sin dolor.\n\nPéptidos rejuvenecedores\n\nÁcido hialurónico\n\nAntioxidantes protectores\n\n🔬 Cómo funciona\nEl veneno de abeja actúa como un “micro-lifting” natural:\nEngaña a la piel simulando una microestimulación, activando defensas y aumentando la producción de colágeno y elastina.\nEsto reafirma, suaviza líneas y mejora el aspecto general del rostro de forma continua.\n\n🧴 Modo de uso\n1️⃣ Aplicar 1–2 veces al día sobre piel limpia\n2️⃣ Masajear hasta absorber\n3️⃣ Seguir con tu hidratante habitual",
+    "garantia": "10 dias",
+    "precio": "COP 69900",
+    "pais_objetivo": "Colombia"
+  },
+  "results_by_angle": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "buyer_persona": "Mujer 30–55 en Colombia, preocupada por líneas finas y firmeza, que busca alternativa cosmética a tratamientos in‑clinic",
+      "ad_copy": {
+        "title": "✨Piel Firme Sin Agujas✨",
+        "primary_text": "¿Miedo a las agujas? Descubre cómo Bee Venom Bswell puede suavizar arrugas y mejorar la firmeza con su \"micro-lifting\" natural. Seguro, eficaz y sin dolor, incluso para pieles alérgicas a abejas. ¡Transforma tu piel! 🐝",
+        "description": "Rejuvenece tu piel naturalmente con Bee Venom Bswell. ¡Garantía de resultados suavecitos y firmes en semanas!"
+      },
+      "single_image_prompt": {
+        "task": "Generate an image ad showcasing Bee Venom Bswell in an elegant and trustworthy setting, highlighting its unique selling proposition of natural anti-aging benefits without needles.",
+        "thumbnail": "elegant_bee_theme_med_spa_treatment.jpg",
+        "variant": "product_focus",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080",
+          "safe_margin_percent": 10
+        },
+        "input_assets": {
+          "product_lock_rule": "center_focus"
+        },
+        "prompt": "An elegant, luxurious scene set in a sophisticated spa-like environment. The Bee Venom Bswell jar (120g) is the central focus, surrounded by soothing elements such as fresh honeycombs, a gentle glow of warm light reflecting off glass surfaces, and a subtle hint of bee aesthetics with tiny bee illustrations gently incorporated into the background. The setting should convey a calm, inviting atmosphere with soft shadows and a warm, gentle, yet professional lighting that highlights the product's premium quality and skin rejuvenation promise.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Control Natural Sin Agujas",
+            "placement": {
+              "anchor": "top_center",
+              "x_percent": 50,
+              "y_percent": 15,
+              "max_width_percent": 80,
+              "max_height_percent": 20
+            },
+            "typography": {
+              "font_family": "Sans Serif",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#00000050",
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "Compra Ahora",
+            "placement": {
+              "anchor": "bottom_center",
+              "x_percent": 50,
+              "y_percent": 85,
+              "max_width_percent": 60,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Sans Serif",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#00000050",
+              "badge": "CTA"
+            }
+          },
+          {
+            "id": "badge",
+            "text_exact": "Envío Gratis",
+            "placement": {
+              "anchor": "top_right",
+              "x_percent": 80,
+              "y_percent": 10,
+              "max_width_percent": 20,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Sans Serif",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#26C281",
+              "stroke": null,
+              "shadow": null,
+              "badge": "SpecialOffer"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "center_product",
+          "hierarchy": "product_text_supporting_elements",
+          "text_safe_zone": "10% around edges",
+          "text_never_cover_rule": "do_not_cover_product_label"
+        },
+        "negative_prompt": "Avoid cluttered background, avoid low light scenes, avoid unrelated props, no human models."
+      },
+      "hooks_used": [
+        "Tu booster antiedad: veneno de abeja + constancia = glow.",
+        "Reto 12 semanas: piel más firme y líneas suavizadas."
+      ],
+      "compliance_notes": [
+        "Ensure claims of 'safe for allergic skins' are substantiated.",
+        "Avoid medical claims not supported by evidence."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Lujo aspiracional y tendencia global (\"natural botox\" + K‑beauty) a precio accesible en Colombia",
+      "buyer_persona": "Compradora que sigue tendencias (reales, royals, K‑beauty) pero busca ticket medio (<$80.000 COP) y pago contraentrega",
+      "ad_copy": {
+        "title": "Lujo a tu Alcance",
+        "primary_text": "Descubre el secreto de las royals con Bee Venom Bswell. Un lifting natural que sigue la tendencia K-beauty y está ahora disponible a un precio irresistible. Olvídate del marketing engañoso y siente la diferencia real en tu piel.",
+        "description": "Experimenta la transformación de tu piel con Bee Venom Bswell: lujo y tendencias a un precio que te sorprenderá."
+      },
+      "single_image_prompt": {
+        "task": "Generate a visually captivating luxury-inspired beauty product ad for Bee Venom Bswell, showcasing its association with K-beauty and natural botox.",
+        "thumbnail": "luxury_beauty_product_ad_thumbnail.png",
+        "variant": "AD_IMAGE_VARIANT_1",
+        "format": {
+          "aspect_ratio": "4:5",
+          "resolution": "1080x1350",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "Bee Venom Bswell jar prominently displayed."
+        },
+        "prompt": "A luxurious bathroom setting with soft, ambient lighting that conveys elegance. In the foreground, a glass jar of Bee Venom Bswell is centered on a reflective marble countertop, which hints at opulence. The open jar subtly exposes its rich, creamy texture. In the background, a blurred silhouette of a woman gently applying the cream to her face, capturing a moment of self-pampering. Overall, the image should balance the jar as the focal point while invoking a feeling of luxury and self-care.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Lujo a tu Alcance",
+            "placement": {
+              "anchor": "top",
+              "x_percent": 50,
+              "y_percent": 10,
+              "max_width_percent": 80,
+              "max_height_percent": 15
+            },
+            "typography": {
+              "font_family": "Libre Baskerville",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFD700",
+              "stroke": "#FFFFFF",
+              "shadow": null,
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "¡Prueba Hoy Mismo!",
+            "placement": {
+              "anchor": "bottom",
+              "x_percent": 50,
+              "y_percent": 85,
+              "max_width_percent": 80,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Roboto",
+              "weight": 500,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#000000",
+              "stroke": "#FFFFFF",
+              "shadow": null,
+              "badge": "Envío gratis"
+            }
+          },
+          {
+            "id": "badge",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 10,
+              "y_percent": 90,
+              "max_width_percent": 30,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Roboto",
+              "weight": 500,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#FFD700",
+              "shadow": null,
+              "badge": "badge_star"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "Bee Venom Bswell jar",
+          "hierarchy": "1. Jar of Bee Venom Bswell 2. Woman's silhouette applying cream 3. Text overlays for benefit-driven message",
+          "text_safe_zone": "Within 10% of image borders",
+          "text_never_cover_rule": "Do not cover the jar of Bee Venom Bswell"
+        },
+        "negative_prompt": "Avoid cluttered backgrounds, low lighting, excessive props obscuring the product."
+      },
+      "hooks_used": [
+        "El secreto royal, sin precio royal 👑🐝",
+        "K‑beauty vibes, precio colombiano.",
+        "‘Natural botox’ feel, versión accesible.",
+        "Trend global, resultados locales."
+      ],
+      "compliance_notes": [
+        "Emphasize the visual appeal and sensation of luxury without implying medical claims.",
+        "Maintain focus on beauty trends and the product's aesthetic benefits without making false claims about its effectiveness compared to medical procedures."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Accesibilidad y conveniencia: envío nacional y pago contraentrega",
+      "buyer_persona": "Comprador masivo de e‑commerce colombiano que prefiere contraentrega y entregas rápidas",
+      "ad_copy": {
+        "title": "Rejuvenecimiento al Instante 🐝",
+        "primary_text": "¡Consigue un lifting natural con Bee Venom Bswell! Rejuvenece tu piel sin riesgos con pago contraentrega y envío a toda Colombia. ¡Compra sin preocupaciones!",
+        "description": "Revitaliza tu rostro con un producto premium y recibe en casa. Pago seguro al recibir."
+      },
+      "single_image_prompt": {
+        "task": "Generate an engaging product display image for Bee Venom Bswell focusing on accessibility and payment convenience.",
+        "thumbnail": "A sophisticated setup showing Bee Venom Bswell jar on a soft-focus wooden table, with subtle pastel hues in the background to emphasize calmness and luxury.",
+        "variant": "Product lifestyle image.",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "Bee Venom Bswell jar prominently displayed."
+        },
+        "prompt": "A close-up shot of the Bee Venom Bswell jar on a wooden table, surrounded by delicate pastel flowers. The background is softly blurred to evoke a sense of luxury and calmness. Natural light from the side adds warmth, highlighting the glass texture and the golden logo on the jar. Ensure the focus remains sharp on the product jar, symbolizing trust and premium quality while a subtle ambient setting reinforces ease and accessibility.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Piel Perfecta Sencilla",
+            "placement": {
+              "anchor": "top_left",
+              "x_percent": 8,
+              "y_percent": 10,
+              "max_width_percent": 60,
+              "max_height_percent": 15
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#FFA07A",
+              "shadow": null,
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "Compra sin Riesgos",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 45,
+              "y_percent": 85,
+              "max_width_percent": 50,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#000000",
+              "shadow": null,
+              "badge": "circle"
+            }
+          },
+          {
+            "id": "badge_free_shipping",
+            "text_exact": "Envío Gratis",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 5,
+              "y_percent": 92,
+              "max_width_percent": 30,
+              "max_height_percent": 7
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#F0F8FF",
+              "stroke": null,
+              "shadow": "drop-shadow",
+              "badge": "ribbon"
+            }
+          },
+          {
+            "id": "badge_pay_on_delivery",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom_center",
+              "x_percent": 50,
+              "y_percent": 92,
+              "max_width_percent": 30,
+              "max_height_percent": 7
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#F0F8FF",
+              "stroke": null,
+              "shadow": "drop-shadow",
+              "badge": "ribbon"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "Bee Venom Bswell jar",
+          "hierarchy": "product jar > text overlays > background",
+          "text_safe_zone": "Keep main text within the central 80% of the image to avoid cropping.",
+          "text_never_cover_rule": "Do not cover the product label on the jar."
+        },
+        "negative_prompt": "Avoid cluttered elements, keep the image elegant and focused."
+      },
+      "hooks_used": [
+        "Pide hoy, págalo al recibir. Cero riesgos.",
+        "Envío a toda Colombia: fácil, rápido, seguro.",
+        "Sin tarjetas, sin enredos: contraentrega."
+      ],
+      "compliance_notes": [
+        "Ensure all health-related claims are soft-promised and do not imply medical guarantees.",
+        "Avoid suggesting instant or miraculous results that could be misleading."
+      ]
+    }
+  ]
+}

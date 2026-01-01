@@ -1,0 +1,66 @@
+{
+  "trend_sources": [
+    {
+      "url": "https://www.socialmediaexaminer.com/short-video-trends/",
+      "title": "Short Video Trends for 2023",
+      "published_date": "2023-03-10",
+      "used_for": "General trends overview and insights into effective short video strategies."
+    },
+    {
+      "url": "https://later.com/blog/tiktok-trends/",
+      "title": "Top TikTok Trends to Try Right Now",
+      "published_date": "2023-09-28",
+      "used_for": "Latest creative ideas and trending challenges on TikTok."
+    },
+    {
+      "url": "https://influencermarketinghub.com/instagram-reels-trends/",
+      "title": "Instagram Reels: Trending Audio and Effects",
+      "published_date": "2023-10-01",
+      "used_for": "In-depth analysis of current Instagram Reels features and popular content."
+    }
+  ],
+  "creative_patterns": [
+    "Use sudden close-ups to highlight emotional expressions.",
+    "Incorporate trending music to set the mood and grab attention.",
+    "Add quick, dynamic text overlays to emphasize key points.",
+    "Utilize split-screen effects to compare products or scenarios.",
+    "Embed subtle but catchy call-to-action (CTA) buttons during mid-roll.",
+    "Leverage time-lapse sequences to show product transformations.",
+    "Show before-and-after transformations with a fast-paced transition.",
+    "Include user-generated content or authentic reactions as testimonials.",
+    "Utilize playful filters to enhance viewer engagement.",
+    "Start with intriguing questions to prompt immediate viewer curiosity.",
+    "Show expert tips in a three-part series to encourage repeat viewing.",
+    "Display customer reviews as on-screen pop-ups for authenticity.",
+    "Create narrative-driven content with a storyline hook.",
+    "Key product features highlighted with bright animation effects.",
+    "Utilize sound effects to punctuate action or humor effectively.",
+    "Create countdowns or timed events for urgency-driven engagement."
+  ],
+  "cadence_rules": [
+    "Change scenes or angles every 2-3 seconds to maintain interest.",
+    "Use fast cuts and transitions to match upbeat or high-energy audio tracks.",
+    "Implement a storytelling arc within 15-60 seconds for succinct narrative delivery.",
+    "Balance on-screen text with pauses to avoid overwhelming the viewer.",
+    "Overlap quick visual effects with audio cues for synchronization.",
+    "Pace narrative content with cliffhangers to keep viewers engaged till the end.",
+    "Incorporate brief pauses after punchlines or key statements for impact.",
+    "Alternate between wide and close-up shots to add visual variety.",
+    "Use rhythmic editing to match the beat of background music or audio.",
+    "Utilize fade transitions for softer, emotional scenes or conclusions."
+  ],
+  "do_not_do": [
+    "Avoid overly complex text or graphics that distract from the main message.",
+    "Do not use copyrighted music without proper licensing.",
+    "Avoid long-winded narratives that don't hook the viewer in the first 3 seconds.",
+    "Steer clear of irrelevant or outdated memes that don't fit the brand tone.",
+    "Prevent cluttered visuals; maintain clear focal points.",
+    "Refrain from using too many different fonts or font colors in text overlay.",
+    "Avoid excessive hashtags or mentions that can seem spammy.",
+    "Don't overextend video length beyond platform-recommended limits.",
+    "Stay away from misleading clickbait that erodes trust.",
+    "Do not ignore platform-specific features that enhance engagement.",
+    "Avoid gimmicks or trends that don’t align with your brand values.",
+    "Steer clear of excessive repetition of content that bores the audience."
+  ]
+}

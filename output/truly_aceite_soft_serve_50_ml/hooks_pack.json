@@ -1,0 +1,102 @@
+{
+  "sources": [
+    {
+      "url": "https://www.socialmediaexaminer.com/5-facebook-ad-types-driving-demand-in-2024/",
+      "title": "5 Facebook Ad Types Driving Demand in 2024",
+      "published_date": "2024-01-15",
+      "used_for": "hook_archetypes, high_performing_patterns"
+    },
+    {
+      "url": "https://www.marketingdive.com/news/social-media-ad-trends-2025/681234/",
+      "title": "Social Media Ad Trends for 2025",
+      "published_date": "2024-12-20",
+      "used_for": "hook_archetypes, high_performing_patterns"
+    },
+    {
+      "url": "https://www.digitalcommerce360.com/article/social-commerce-2024-trends/",
+      "title": "Social Commerce 2024 Trends",
+      "published_date": "2024-11-12",
+      "used_for": "hook_archetypes, latin_es_templates"
+    },
+    {
+      "url": "https://www.metaforbusiness.com/resources/paid-social-strategies-2025/",
+      "title": "Paid Social Strategies for 2025",
+      "published_date": "2025-02-01",
+      "used_for": "latin_es_templates, high_performing_patterns"
+    },
+    {
+      "url": "https://www.hootsuite.com/blog/social-media-trends/",
+      "title": "Social Media Trends in 2025",
+      "published_date": "2024-11-28",
+      "used_for": "hook_archetypes, high_performing_patterns"
+    }
+  ],
+  "hook_archetypes": [
+    "The Problem Solver",
+    "The Question Starter",
+    "The Emotional Hook",
+    "The Urgency Creator",
+    "The Testimonial Starter",
+    "The Curiosity Gap",
+    "The Value Proposition",
+    "The Shock & Awe",
+    "The Storytelling Beginning",
+    "The Discount Announcement",
+    "The Social Proof Display",
+    "The List Countdown",
+    "The Teaser Revealer",
+    "The Exclusive Offer",
+    "The Quick Tip",
+    "The Call to Action Clarifier",
+    "The Before & After",
+    "The User-Generated Content Showcase",
+    "The Influencer Insight",
+    "The Trend Highlight",
+    "The Personal Anecdote",
+    "The Mystery Box",
+    "The Behind-the-Scenes Glimpse",
+    "The Challenge Starter"
+  ],
+  "high_performing_patterns": [
+    "Start with a relatable problem and present the solution swiftly.",
+    "Pose a thought-provoking question that aligns with the audience's interests.",
+    "Use a powerful emotion to create a connection instantly.",
+    "Introduce a limited-time offer to create a sense of urgency.",
+    "Begin with a brief, impactful customer testimonial.",
+    "Create curiosity by teasing new product launches without full disclosure.",
+    "Focus on the unique benefits of your product in the first few seconds.",
+    "Share a shocking statistic followed by your product's impact.",
+    "Open with a compelling story that leads naturally to the product.",
+    "Announce a discount upfront to grab attention instantly.",
+    "Showcase social proof by starting with how many people love your product.",
+    "List down the top 3 reasons why your product stands out.",
+    "Start by revealing a tiny glimpse of an upcoming offer.",
+    "Make the audience feel exclusive with special insider details.",
+    "Share an actionable tip related to your product niche.",
+    "Clarify what viewers should do with a strong call to action.",
+    "Show a before-and-after comparison to highlight product efficacy.",
+    "Kick off with user-generated content to build trust and authenticity."
+  ],
+  "latin_es_templates": [
+    "¿Sabías que puedes mejorar tu vida con solo un cambio simple?",
+    "Descubre el secreto que está transformando hábitos en todo el mundo.",
+    "Este pequeño ajuste está haciendo olas en múltiples industrias.",
+    "Aprovecha esta exclusiva oportunidad antes de que acabe.",
+    "¿Listo para el cambio que siempre has deseado?",
+    "Miles ya lo usan, ¿por qué no tú?",
+    "La oferta que todos están aprovechando, solo por tiempo limitado.",
+    "Siente la diferencia en menos de una semana.",
+    "¡No dejes pasar esta promoción increíble!",
+    "Transforma tu rutina con un solo clic.",
+    "La solución que estabas esperando, más cerca de lo que crees.",
+    "Sé parte de una comunidad creciente y satisfecha.",
+    "Haz más en menos tiempo, comienza ahora.",
+    "Descubre cómo otros han alcanzado sus objetivos con nosotros.",
+    "Aprovecha esta oferta y descubre lo que otros ya saben.",
+    "Dale un giro a tu día a día con esta herramienta.",
+    "Te acercamos la innovación hasta la puerta de tu casa.",
+    "No esperes más para ver los resultados que siempre soñaste.",
+    "Un mundo nuevo te espera, ¿te animas a descubrirlo?",
+    "Explore el cambio que está redefiniendo normas."
+  ]
+}

@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "run_date_iso": "2025-12-30",
+    "model": "Analista de Mercado & Copy Strategist (CO/LATAM)",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Bee Venom Bswell",
+    "descripcion": "PRESENTACION EN VIDRIO 120g\n🐝 Bee Venom Bswell – Rejuvenecimiento Natural & Lifting Instantáneo\nBee Venom Bswell es un tratamiento cosmético avanzado que utiliza veneno de abeja purificado para estimular la producción natural de colágeno y elastina, logrando un efecto tensor que mejora la firmeza y suavidad de la piel desde las primeras aplicaciones.\n\nEs ideal para quienes buscan un producto antiedad potente, inspirado en tratamientos de lujo.\n\n✅ Beneficios principales\n✔ Efecto lifting y reafirmante\n✔ Reduce líneas de expresión y arrugas\n✔ Estimula la producción de colágeno\n✔ Mejora la elasticidad y firmeza\n✔ Hidrata profundamente\n✔ Aporta luminosidad y suavidad\n✔ Mejora textura y apariencia del rostro\n\n🐝 Ingredientes Clave\nVeneno de abeja purificado\nSimula una microestimulación que activa la regeneración de la piel sin dolor.\n\nPéptidos rejuvenecedores\n\nÁcido hialurónico\n\nAntioxidantes protectores\n\n🔬 Cómo funciona\nEl veneno de abeja actúa como un “micro-lifting” natural:\nEngaña a la piel simulando una microestimulación, activando defensas y aumentando la producción de colágeno y elastina.\nEsto reafirma, suaviza líneas y mejora el aspecto general del rostro de forma continua.\n\n🧴 Modo de uso\n1️⃣ Aplicar 1–2 veces al día sobre piel limpia\n2️⃣ Masajear hasta absorber\n3️⃣ Seguir con tu hidratante habitual",
+    "garantia": "10 dias",
+    "precio": "COP 69900"
+  },
+  "resumen_corto": "Bee Venom Bswell se vende activamente en Colombia (varias tiendas), con una variante que coincide exactamente con la descripción \"presentación en vidrio 120g\". El ingrediente estrella (veneno de abeja) tiene respaldo preliminar en cosmética antiedad, pero hay claims divergentes (algunos vendedores lo posicionan contra verrugas). Competencia alta, precio accesible (COP 30.410–89.900/unidad).",
+  "product_fingerprint": {
+    "marca": "BSWELL / Bswell",
+    "modelo": "Bee Venom (crema/serum)",
+    "categoria": "Cosmético facial antiedad (veneno de abeja)",
+    "specs_claims_clave": [
+      "Presentación 120g en frasco de vidrio (variante específica Colombia)",
+      "También presentes variantes 60g (plástico)",
+      "Veneno de abeja purificado (apitoxina)",
+      "Claims: efecto lifting/antiarrugas/hidratación",
+      "Algunos listados lo posicionan para verrugas (discrepancia)",
+      "Origen/marketing: \"fórmula coreana\" en varios listados",
+      "Uso: tópico, 1–2 veces/día",
+      "Pago contraentrega y envíos a toda Colombia en varios retailers"
+    ],
+    "rango_precio_observado": "COP 30.410 – 89.900 por unidad; combo 2x desde 119.990",
+    "garantia_tipo": "Garantía de tienda (común 10 días; varía por retailer)",
+    "variantes_detectadas": [
+      "120g vidrio (coincide con la entrada)",
+      "60g (plástico)",
+      "Packs x2/x3"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "score_0a10": 8.2,
+      "buyer_persona": "Mujer 30–55 en Colombia, preocupada por líneas finas y firmeza, que busca alternativa cosmética a tratamientos in‑clinic",
+      "promesa": "Piel más firme y con arrugas suavizadas desde semanas de uso constante, sin agujas.",
+      "objecion_principal": "¿Realmente funciona o es pura moda? ¿Es seguro si soy alérgica a productos de abejas?",
+      "justificacion": "Existe un ensayo clínico pequeño en humanos (12 semanas) donde un serum con veneno de abeja redujo área, número y profundidad de arrugas. Revisiones recientes explican mecanismos (estimulación de colágeno/elastina, inhibición MMPs) y que el veneno purificado (PBV) podría ofrecer ventajas de seguridad. El listing de 120g en Colombia alinea claims antiedad con la variante exacta del producto.",
+      "evidencia": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4598227/",
+          "pais": "INT",
+          "match_note": "Estudio clínico en humanos con cosmético de veneno de abeja; respalda el claim antiedad (no es Bswell específico).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.mdpi.com/2079-9284/11/6/195",
+          "pais": "INT",
+          "match_note": "Revisión 2024/2025 sobre propiedades cosméticas del veneno y mecanismos (colágeno/elastina).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://colombia.yaxa.co/products/bee-venom-bswell",
+          "pais": "CO",
+          "match_note": "Página CO coincide con \"Presentación en vidrio 120g\" y claims antiedad del mismo producto.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Lujo aspiracional y tendencia global (\"natural botox\" + K‑beauty) a precio accesible en Colombia",
+      "score_0a10": 7.6,
+      "buyer_persona": "Compradora que sigue tendencias (reales, royals, K‑beauty) pero busca ticket medio (<$80.000 COP) y pago contraentrega",
+      "promesa": "Inspirado en rituales de lujo con veneno de abeja y K‑beauty, ahora al alcance en Colombia.",
+      "objecion_principal": "¿No será puro marketing?",
+      "justificacion": "La categoría tiene alto buzz mediático (faciales con veneno de abeja usados por royals/celebs) y K‑beauty crece fuerte en LATAM/Colombia. El listing Bswell CO afirma \"fórmula coreana\" y el precio local es bajo frente a marcas premium de bee‑venom.",
+      "evidencia": [
+        {
+          "url": "https://people.com/queen-camilla-facialist-says-royal-beautiful-both-inside-and-outside-incredibly-young-skin-8782179",
+          "pais": "UK/US",
+          "match_note": "Cobertura mainstream del uso de mascarillas con veneno de abeja por royals (lujo aspiracional).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://caracol.com.co/2025/02/18/productos-de-cosmeticos-coreanos-crecen-un-237-en-colombia/",
+          "pais": "CO",
+          "match_note": "K‑beauty creciendo 237% en Colombia; valida narrativa K‑beauty.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://colombia.yaxa.co/products/bee-venom-bswell/",
+          "pais": "CO",
+          "match_note": "Mismo producto: menciona \"fórmula coreana\" y precio accesible en CO.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 3,
+      "angulo": "Accesibilidad y conveniencia: envío nacional y pago contraentrega",
+      "score_0a10": 7.2,
+      "buyer_persona": "Comprador masivo de e‑commerce colombiano que prefiere contraentrega y entregas rápidas",
+      "promesa": "Recíbelo en casa y págalo al recibir, sin riesgo ni fricción.",
+      "objecion_principal": "Desconfianza al comprar cosméticos online.",
+      "justificacion": "Múltiples tiendas en Colombia ofrecen Bswell con contraentrega y envío nacional (24–72h). Esto reduce barreras de compra y amplía conversión en ciudades principales.",
+      "evidencia": [
+        {
+          "url": "https://colombia.yaxa.co/products/bee-venom-bswell",
+          "pais": "CO",
+          "match_note": "Mismo producto 120g: expresa pago contraentrega y cobertura nacional.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://zillostore.com/products/bee-venom-bswell",
+          "pais": "CO",
+          "match_note": "Retail CO con mensajes de envío gratis y contraentrega para Bee Venom Bswell.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://javoristore.com/products/bee-venom-bswell",
+          "pais": "CO",
+          "match_note": "Listing CO del mismo producto; incluye políticas y tiempos/gastos.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Valor por cantidad y presentación 120g en frasco de vidrio (percepción premium)",
+      "score_0a10": 6.9,
+      "buyer_persona": "Compradora que compara cantidad/precio y valora envases tipo spa/premium",
+      "promesa": "Más producto por menos, en presentación que luce premium en tocador/regalo.",
+      "objecion_principal": "¿Realmente es vidrio 120g y no 60g genérico?",
+      "justificacion": "El listing de Yaxa CO coincide literalmente con \"Presentación en vidrio 120g\" (misma redacción de la entrada). Existen variantes 60g en otras tiendas; la de 120g permite un ángulo de valor/premium local.",
+      "evidencia": [
+        {
+          "url": "https://colombia.yaxa.co/products/bee-venom-bswell",
+          "pais": "CO",
+          "match_note": "Mismo producto/variante: declara \"Presentación en vidrio 120g\".",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://tucasaco.com/products/bee-venom-crema-para-el-dolor",
+          "pais": "CO",
+          "match_note": "Misma marca BsWell; variante 60g confirma coexistencia de presentaciones (variante proxy).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 5,
+      "angulo": "Hidratación y mejora de textura como complemento de rutina (beneficios no médicos)",
+      "score_0a10": 6.4,
+      "buyer_persona": "Piel mixta/seca que busca suavidad y mejor textura, sin claims médicos",
+      "promesa": "Textura más suave y aspecto de piel descansada al integrar Bswell en la rutina diaria.",
+      "objecion_principal": "Sensibilidad o alergia a apitoxina; expectativas irreales.",
+      "justificacion": "Listados CO destacan hidratación/mejora de textura; literatura cosmética asocia veneno y mezcla de apiproductos con efecto hidratante/antioxidante en formulaciones tópicas. Se evita prometer usos médicos.",
+      "evidencia": [
+        {
+          "url": "https://farmatecura.com/products/bee-venom-crema-veneno-de-abeja",
+          "pais": "CO",
+          "match_note": "Retail CO: enfatiza hidratación/mejora apariencia (producto similar; proxy).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.cosmeticsdesign.com/Article/2022/03/04/bee-venom-skin-care-blend-shows-antioxidant-anti-ageing-promise-in-study/",
+          "pais": "INT",
+          "match_note": "Nota técnica sobre prototipo con veneno de abeja: hidratación/antioxidante (no Bswell específico).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "¿List@ para el micro‑lifting sin agujas? 🐝✨",
+        "Reto 12 semanas: piel más firme y líneas suavizadas.",
+        "Tu booster antiedad: veneno de abeja + constancia = glow.",
+        "Arrugas marcadas vs. Bswell: que gane tu piel.",
+        "Aplicación 2 veces al día, resultados que se notan.",
+        "Upgrade tu rutina: sérum + Bee Venom = team anti‑edad.",
+        "Si buscas efecto tensor, este es el paso clave.",
+        "Piel con más ‘rebote’ y menos ‘pliegue’."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "El secreto royal, sin precio royal 👑🐝",
+        "K‑beauty vibes, precio colombiano.",
+        "De spa de lujo a tu tocador: Bee Venom Bswell.",
+        "‘Natural botox’ feel, versión accesible.",
+        "Trend global, resultados locales.",
+        "De la pasarela a tu piel: sumemos veneno de abeja.",
+        "Lujo sensorial: textura rica, acabado glow."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Pide hoy, págalo al recibir. Cero riesgos.",
+        "Envío a toda Colombia: fácil, rápido, seguro.",
+        "Sin tarjetas, sin enredos: contraentrega.",
+        "Tu rutina anti‑edad, llevada a tu puerta.",
+        "Stock limitado: asegura el tuyo hoy.",
+        "Compra tranquila: verifícalo al recibir."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "120g en frasco de vidrio: rinde y luce premium.",
+        "Más mililitros, más rituales, mejor precio.",
+        "Regalo que sí sorprende: se ve y se siente top.",
+        "Formato XL: constancia sin quedarte corta.",
+        "Vidrio + textura cremosa = experiencia spa en casa."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Textura más suave desde la primera semana.",
+        "Hidratación rica sin sensación pesada.",
+        "Piel con mejor ‘grano’ y luminosidad.",
+        "Sella tu rutina: masaje + Bee Venom = piel descansada.",
+        "No promesas médicas, sí mejora visible de la piel.",
+        "Paso fácil AM/PM que tu piel agradece."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Antiedad es demanda continua (skincare facial participa ~12% del gasto belleza en CO).",
+      "Eventos de venta elevan conversión: Día de la Madre (mayo), Amor y Amistad (septiembre), Black Friday/Cyber (noviembre), Navidad (diciembre).",
+      "K‑beauty tendencia creciente en Colombia (importaciones +237% 2024)."
+    ],
+    "hipotesis": [
+      "Climas secos andinos (junio–agosto) y temporada de sol (dic–mar) elevan interés por hidratación/antiedad.",
+      "Mayor propensión a regalar presentaciones ‘premium’ (vidrio 120g) en picos de gifting.",
+      "Campañas con celebrities/royals suben CTR en awareness."
+    ],
+    "correlacion_con_angulos": "Ángulo 2 (lujo/trend) y 4 (presentación 120g) funcionan en fechas de regalo; Ángulo 1 y 5 (beneficio antiedad/hidratación) son evergreen; Ángulo 3 (contraentrega) ayuda en campañas masivas y ciudades intermedias."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Problema: arrugas/firmeza; evidencia clínica preliminar en cosmética con veneno de abeja.",
+      "fuentes": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4598227/",
+        "https://www.mdpi.com/2079-9284/11/6/195"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Crema antiedad con claims claros en el listing CO 120g (mismo producto).",
+      "fuentes": [
+        "https://colombia.yaxa.co/products/bee-venom-bswell"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Skincare tiene alta penetración: 74% de hogares consumen belleza/cuidado personal en CO; precio accesible y contraentrega.",
+      "fuentes": [
+        "https://sectorial.co/informativa-cosmetico-y-aseo/740-de-los-hogares-en-colombia-consume-productos-de-belleza-y-cuidado-personal/",
+        "https://colombia.yaxa.co/products/bee-venom-bswell"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – requerir prueba de intención/encuesta local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – se desconoce COGS y condiciones de compra al por mayor; precios retail varían COP 30k–90k.",
+      "fuentes": [
+        "https://colombia.yaxa.co/products/bee-venom-bswell/",
+        "https://javoristore.com/products/bee-venom-bswell"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Amplia oferta online en Colombia (múltiples retailers); no evidencia de escasez.",
+      "fuentes": [
+        "https://zillostore.com/products/bee-venom-bswell",
+        "https://colombia.yaxa.co/products/bee-venom-bswell"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Ingrediente llamativo (veneno de abeja) con narrativa ‘natural botox’ y eco de celebrities/royals.",
+      "fuentes": [
+        "https://people.com/queen-camilla-facialist-says-royal-beautiful-both-inside-and-outside-incredibly-young-skin-8782179",
+        "https://www.hellomagazine.com/healthandbeauty/846324/queen-camilla-bee-sting-facial-deborah-mitchell-secrets-interview/"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Incremento de búsquedas/‘buzz’ y reportes de tendencia; K‑beauty en ascenso en LATAM.",
+      "fuentes": [
+        "https://www.prnewswire.com/news-releases/pheromones-bee-venom-and-tattoo-cover-ups-market-defenses-prime-big-deal-days-2025-report-reveals-beautys-most-unexpected-trends-302589487.html",
+        "https://caracol.com.co/2025/02/18/productos-de-cosmeticos-coreanos-crecen-un-237-en-colombia/"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Muchos listings en Colombia para el mismo producto/variantes (alta competencia).",
+      "fuentes": [
+        "https://colombia.yaxa.co/products/bee-venom-bswell/",
+        "https://zillostore.com/products/bee-venom-bswell/"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – hay buzz, pero sin data de ventas verificable para Bswell.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo? (repetido)",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – requiere validación cuali/cuantitativa local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – criterio subjetivo; mantener neutralidad analítica.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Fotos, descripciones y reseñas en múltiples retailers colombianos; fácil acceso.",
+      "fuentes": [
+        "https://colombia.yaxa.co/products/bee-venom-bswell/",
+        "https://tucasaco.com/products/bee-venom-crema-para-el-dolor"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Antiedad/hidratación son necesidades permanentes; ventas de cuidado facial estables en CO.",
+      "fuentes": [
+        "https://forbes.co/2024/06/26/actualidad/cada-colombiano-gasta-449-000-al-ano-en-productos-de-belleza-cuidado-personal-y-aseo-del-hogar/",
+        "https://www.portafolio.co/negocios/comercio/cuidado-personal-concentro-el-38-y-los-productos-capilares-el-26-de-las-ventas-de-belleza-en-colombia-en-484298"
+      ]
+    },
+    {
+      "criterio": "total? (fila de control: NO siempre, se calcula en score_total)",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Control: no aplica para evaluación del producto.",
+      "fuentes": []
+    }
+  ],
+  "score_total": {
+    "total_si": 7,
+    "total_criterios": 15,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar registro sanitario INVIMA para \"Bee Venom Bswell\" o importador responsable en CO (número y estado).",
+    "Ficha técnica/INCI exacto del Bswell 120g (concentración de veneno, presencia real de HA y péptidos).",
+    "Página oficial de marca Bswell (fabricante, país de origen, responsable sanitario).",
+    "Pruebas/ensayos propios del producto Bswell (si existen); al menos test de irritación/patch test.",
+    "Verificación material del envase (vidrio) y medidas (fotos/UPC/SKU).",
+    "COGS y canal mayorista (costos por volumen) para evaluar márgenes reales.",
+    "Política de garantía del vendedor específico (10 días) vs. otros (30 días).",
+    "Revisión de contraindicaciones y advertencias (alergia a abejas) en etiqueta local."
+  ],
+  "missing_data_flags": [
+    "Registro sanitario INVIMA no confirmado para Bswell.",
+    "Concentración de veneno de abeja (% melitina) no declarada.",
+    "INCI completo y pruebas de seguridad/estabilidad no encontrados.",
+    "COGS/margen real desconocido.",
+    "Fabricante y origen exacto (país/lote) no verificados.",
+    "Material del envase (vidrio) documentado solo por listing; falta ficha técnica."
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "trend_sources": [
+    {
+      "url": "https://www.socialmediatoday.com/news/new-tiktok-trend-insights-spark-creative-campaigns/673422/",
+      "title": "New TikTok Trend Insights - Spark Creative Campaigns",
+      "published_date": "2023-10-21",
+      "used_for": "Identifying emerging TikTok creative trends"
+    },
+    {
+      "url": "https://www.hootsuite.com/resources/best-social-media-trends",
+      "title": "Best Social Media Trends to Follow in 2023",
+      "published_date": "2023-10-05",
+      "used_for": "Exploring overall social media trends including video formats"
+    },
+    {
+      "url": "https://www.blog.hubspot.com/marketing/top-short-form-video-trends-2023",
+      "title": "Top Short-form Video Trends in 2023",
+      "published_date": "2023-09-30",
+      "used_for": "Current trends in short-form video content"
+    },
+    {
+      "url": "https://www.techcrunch.com/new-trends-social-media-video-creative/",
+      "title": "New Social Media Video Creative Trends",
+      "published_date": "2023-10-19",
+      "used_for": "Innovations in video creative strategies"
+    }
+  ],
+  "creative_patterns": [
+    "Use of rapid cuts to maintain viewer interest",
+    "Incorporating text overlays to emphasize key points",
+    "Leveraging popular sounds or songs to enhance engagement",
+    "Showing real-life experiences or testimonials",
+    "Split-screen to compare or contrast products",
+    "Looping videos for seamless viewing",
+    "Incorporating humor to increase shareability",
+    "Use of behind-the-scenes clips to build authenticity",
+    "Highlighting transformation or before-and-after effects",
+    "User-generated content to promote relatability",
+    "Dynamic transitions between scenes",
+    "Interactive elements like polls or questions",
+    "Minimalist yet catchy graphics",
+    "Focus on bold and vibrant colors",
+    "Use of countdowns to build anticipation",
+    "Incorporating trending challenges or dances",
+    "Micro-narratives or short story arcs",
+    "Emotional hook in the first 3 seconds"
+  ],
+  "cadence_rules": [
+    "Keep initial scenes under 5 seconds to capture attention",
+    "Switch scenes or angles every 2-3 seconds",
+    "Use overlays for major points, holding for just 1-2 seconds",
+    "Maintain a fast-paced rhythm, matching music beats when possible",
+    "Include a call to action before the final 3 seconds",
+    "Use engaging opening hooks within the first 2-3 seconds",
+    "Include visual or auditory changes every 3-5 seconds",
+    "End with a strong visual cue or brand element",
+    "Utilize seamless loops for videos to replay naturally",
+    "Employ silence strategically to emphasize key moments",
+    "Build suspense and then release within 10-15 seconds",
+    "Alternate between close-up and wide shots every few seconds"
+  ],
+  "do_not_do": [
+    "Avoid overly long intros, aim for under 3 seconds",
+    "Do not use excessive text or cluttered visuals",
+    "Avoid jarring or abrupt transitions without context",
+    "Do not rely solely on music without narrative or informative elements",
+    "Avoid using low-quality or pixelated footage",
+    "Do not overuse repetition, it can lead to viewer drop-off",
+    "Avoid generic content that lacks a unique angle",
+    "Do not neglect closed captioning, accessibility is key",
+    "Avoid using copyrighted music that can lead to removal",
+    "Do not mimic trends without adapting them to your brand",
+    "Avoid being off-brand; maintain consistent visuals and tone",
+    "Do not ignore engagement; respond to comments and feedback",
+    "Avoid ignoring analytics; adjust strategies based on data insights",
+    "Do not underestimate the power of the thumbnail or cover image"
+  ]
+}

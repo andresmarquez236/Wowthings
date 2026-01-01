@@ -1,0 +1,425 @@
+{
+  "meta": {
+    "generated_at_utc": "2025-12-30T22:24:12.329113+00:00",
+    "model": "gpt-4o",
+    "market_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/truly_aceite_soft_serve_50_ml/market_research_min.json",
+    "caches": {
+      "hooks_pack": "output/truly_aceite_soft_serve_50_ml/hooks_pack.json",
+      "trends_pack": "output/truly_aceite_soft_serve_50_ml/trends_pack.json",
+      "video_rules_pack": "output/truly_aceite_soft_serve_50_ml/video_rules_pack.json"
+    },
+    "product": {
+      "nombre_producto": "Truly Aceite Soft Serve 50 Ml",
+      "descripcion": "Contenido 50 ML\n\nTRULY ACEITE UNICORNIO (SOFT SERVE) CON SELLO DE ORIGINALIDAD 1.1\n\nEvita el dolor de la irritación por afeitado y los vellos encarnados con nuestro nuevo aceite para después del afeitado Soft Serve. Formulado con una valiosa mezcla de péptidos, ácido hialurónico y fresa para exfoliar suavemente, hidratar y acelerar el proceso de curación de la piel.\nTu piel se mantendrá suave e hidratada durante días después del afeitado. Es la solución calmante con aroma a fresa que tu piel anhela.\nRasguños y quemaduras por afeitado: calma la inflamación y promueve la curación para un acabado más elegante.\nPiel seca y con picazón: hidrata profundamente y alivia para una piel nutrida y sedosa al tacto.\nPelos encarnados: elimina las células muertas y regula el sebo para prevenir protuberancias dolorosas.",
+      "garantia": "10 dias",
+      "precio": "COP 75000",
+      "pais_objetivo": "Colombia"
+    }
+  },
+  "results": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Alivio inmediato post-afeitado: menos ardor y menos vellos encarnados",
+      "buyer_persona": "Mujer 18–34, piel sensible, se depila/afeita piernas, axilas y bikini; busca solución rápida al ardor y protuberancias",
+      "ad_copy": {
+        "title": "¡Adiós vellos encarnados!",
+        "primary_text": "Descubre el secreto para una piel suave y sin vellos encarnados post-afeitado ¡Ahora en Colombia!",
+        "description": "Alivia y protege con el aceite Truly Unicornio."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0–2s",
+          "cadence_rule": "3–3–3",
+          "change_definition": "Change at least 2 of visual, text, rhythm every 3 seconds"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Harta de vellos encarnados y ardor?",
+            "visual": "Close-up of irritated skin with red bumps contrasting with smooth skin.",
+            "voiceover": "¿Harta de vellos encarnados y ardor después de afeitarte?",
+            "rhythm_editing": "Quick cut from irritated skin to smooth skin.",
+            "sfx_music": "Upbeat music begins with a quick tempo.",
+            "transition": "Quick swipe transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Truly Aceite Unicornio al rescate",
+            "visual": "Footage of the Truly Aceite Unicornio bottle rotating elegantly.",
+            "voiceover": "Truly Aceite Unicornio al rescate.",
+            "rhythm_editing": "Slow motion spin of the bottle.",
+            "sfx_music": "Tempo softens slightly with a whimsical tone.",
+            "transition": "Spin transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Calma y previene en segundos.",
+            "visual": "Application of oil on a woman's leg, showcasing instant smoothness.",
+            "voiceover": "Calma y previene en segundos.",
+            "rhythm_editing": "Cut to close-up of applying oil on skin.",
+            "sfx_music": "Gentle chime sound on application.",
+            "transition": "Smooth cut",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Piel suave, sin irritaciones.",
+            "visual": "Model touch her smooth, blemish-free leg, smiling.",
+            "voiceover": "Piel suave, sin irritaciones.",
+            "rhythm_editing": "Soft fade between application and result.",
+            "sfx_music": "Melodic uplifting tune continues.",
+            "transition": "Dissolve transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Formulado con ácido hialurónico y fresa.",
+            "visual": "Close-up on the ingredients: strawberries and hyaluronic acid beads.",
+            "voiceover": "Con ácido hialurónico y fresa.",
+            "rhythm_editing": "Zoom into ingredients shot quickly.",
+            "sfx_music": "Natural, fresh sound effect.",
+            "transition": "Sharp zoom transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Dibuja una sonrisa en tu piel.",
+            "visual": "Montage of happy users showing off smooth skin.",
+            "voiceover": "Juégalo seguro, dibuja una sonrisa en tu piel.",
+            "rhythm_editing": "Fast cuts between smiling users.",
+            "sfx_music": "Crescendo with positive tone.",
+            "transition": "Jump cut",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "¡Consíguelo según disponibilidad en Colombia!",
+            "visual": "Call to action screen with product and contact details for purchase.",
+            "voiceover": "¡Consíguelo en Colombia!",
+            "rhythm_editing": "Ending with a gentle zoom out of product image.",
+            "sfx_music": "Music fades out gradually.",
+            "transition": "Fade out",
+            "cta": "¡Compra ahora!"
+          }
+        ],
+        "production_notes": [
+          "Use natural daylight for a fresh look on skin close-ups.",
+          "Captions for accessibility and sound-off watching.",
+          "Start with fast tempo to grab attention, slow down when explaining benefits.",
+          "Include dynamic text overlays for key benefits.",
+          "Highlight the texture and color of the product when showing the bottle.",
+          "Rotate between UGC style footage and professional product shots.",
+          "Ensure clear branding visible on product shots."
+        ]
+      },
+      "hooks_used": [
+        "The Problem Solver",
+        "The Emotional Hook",
+        "The Value Proposition",
+        "The Quick Tip"
+      ],
+      "compliance_notes": [
+        "Ensure no false claims of medical or dermatological breakthroughs.",
+        "Avoid implying instant healing; focus on soothing and prevention.",
+        "Do not state guarantee or availability beyond what's providable. Keep 'según disponibilidad' intact.",
+        "All visuals and statements fact-checked with product descriptions."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Fórmula skincare-grade (péptidos + ácido hialurónico + fresa AHA) para piel suave por días",
+      "buyer_persona": "Skincare lovers 20–40 que valoran ingredientes ‘derma-like’ y resultados visibles en textura/irritación",
+      "ad_copy": {
+        "title": "¡Tu Piel Más Suave Post-Afeitado!",
+        "primary_text": "Transforma tu rutina de afeitado con Truly Aceite Soft Serve: péptidos, ácido hialurónico y fresa para una piel sedosa por días.",
+        "description": "Un aceite con ingredientes ‘derma-like’ que redefine el cuidado post-afeitado."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "Change scenes or angles every 2-3 seconds to maintain interest.",
+          "change_definition": "Change visual elements every 3 seconds to maintain viewer interest."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Cansado del ardor tras el afeitado?",
+            "visual": "Close-up of irritated skin post-shave.",
+            "voiceover": "¿Cansado del ardor tras el afeitado?",
+            "rhythm_editing": "Quick zoom-in on skin irritation.",
+            "sfx_music": "Tension music.",
+            "transition": "Flash cut to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Soft Serve: la solución con ciencia.",
+            "visual": "Overlay of Truly Aceite Soft Serve bottle with ingredient highlights.",
+            "voiceover": "Soft Serve: la solución con ciencia.",
+            "rhythm_editing": "Dynamic text appears as bottle rotates.",
+            "sfx_music": "Bright chime.",
+            "transition": "Spin effect to next shot.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Péptidos + Ácido Hialurónico + Fresa AHA.",
+            "visual": "Animated graphics showing each ingredient molecule.",
+            "voiceover": "Péptidos, Ácido Hialurónico y Fresa AHA.",
+            "rhythm_editing": "Fast-paced molecular animation.",
+            "sfx_music": "Science-inspired sound.",
+            "transition": "Molecular dissolve to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Hidrata y repara micro-daños.",
+            "visual": "Demo of the oil absorbing on skin, leaving it smooth.",
+            "voiceover": "Hidrata y repara micro-daños.",
+            "rhythm_editing": "Speed ramp as oil is applied.",
+            "sfx_music": "Gentle soothing music.",
+            "transition": "Blending fade to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Piel suave y libre de irritación.",
+            "visual": "Before-and-after comparison on skin texture.",
+            "voiceover": "Piel suave y libre de irritación.",
+            "rhythm_editing": "Fast-forward effect on transformation.",
+            "sfx_music": "Uplifting note.",
+            "transition": "Swipe effect to next frame.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Aplícalo y olvídate de los vellos encarnados.",
+            "visual": "Person happily patting smooth face, bottle in hand.",
+            "voiceover": "Aplícalo y olvídate de los vellos encarnados.",
+            "rhythm_editing": "Slight slow motion on face patting.",
+            "sfx_music": "Soft pop.",
+            "transition": "Wipe transition.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Transforma tu piel con Truly. Compra hoy!",
+            "visual": "Pack shot of product with vibrant background.",
+            "voiceover": "Transforma tu piel con Truly. Compra hoy!",
+            "rhythm_editing": "Zoom out from product to full screen.",
+            "sfx_music": "Triumphant finale chord.",
+            "transition": "Fade out.",
+            "cta": "Compra ahora"
+          }
+        ],
+        "production_notes": [
+          "Use bright, soft lighting for skincare glow effect.",
+          "Highlight vibrant colors to attract viewer.",
+          "Incorporate bold, clear captions for sound-off engagement.",
+          "Employ quick-motion effects to keep pace dynamic.",
+          "Use a mix of close-ups and mid-shots for variety.",
+          "Embed text overlays for ingredient emphasis.",
+          "Apply smooth transitions to maintain narrative flow.",
+          "Focus on positive, relatable expressions in UGC style.",
+          "Enhance visuals with slight vignettes to draw attention.",
+          "Add animated graphic elements for scientific emphasis."
+        ]
+      },
+      "hooks_used": [
+        "Start with a relatable problem and present the solution swiftly.",
+        "Focus on the unique benefits of your product in the first few seconds.",
+        "Share a shocking statistic followed by your product's impact.",
+        "List down the top 3 reasons why your product stands out.",
+        "Introduce your value proposition within the first 5 seconds."
+      ],
+      "compliance_notes": [
+        "Ensure all claims are supported by product description.",
+        "Can't state unverified efficacy timelines or percentages.",
+        "Avoid suggesting guaranteed results without disclaimers.",
+        "Maintain tone suitable for skincare-conscious audience."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Experiencia sensorial ‘fresas con crema’ (+ rutina TikTok Pink) que fideliza la constancia",
+      "buyer_persona": "Gen Z y millennials que compran por aroma/ritual y estética ‘cute’ pero exigen funcionalidad",
+      "ad_copy": {
+        "title": "Piel Suave y con Aroma a Fresa",
+        "primary_text": "Descubre Truly Aceite Unicornio, la solución sensorial que tu piel espera. Experimenta la rutina que marca tendencia en TikTok. Según disponibilidad.",
+        "description": "Transforma tu rutina de afeitado con un toque rosa y aroma a fresas."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "Capture viewer attention during the very first second with an eye-catching visual.",
+          "cadence_rule": "Change scenes or angles every 2-3 seconds to maintain interest.",
+          "change_definition": "Change visual elements every 3 seconds to maintain viewer interest."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Problemas de afeitado? ¡Solución aquí!",
+            "visual": "Close-up of irritated skin; smooth transition to product shot.",
+            "voiceover": "¿Cansado del dolor después de afeitarte?",
+            "rhythm_editing": "Quick jump cut from skin to product reveal.",
+            "sfx_music": "Upbeat tune starts.",
+            "transition": "Quick whip transition.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Truly Aceite Unicornio",
+            "visual": "Bottle of Truly Aceite, sparkling effects.",
+            "voiceover": "Conoce Truly Aceite Unicornio.",
+            "rhythm_editing": "Dynamic speed ramp as sparkles animate around the bottle.",
+            "sfx_music": "Continues seamlessly.",
+            "transition": "Sparkle transition.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Rutina TikTok Pink",
+            "visual": "Split-screen: TikTok influencer using the product.",
+            "voiceover": "La rutina TikTok que todos aman.",
+            "rhythm_editing": "Split-screen with influencer application demo.",
+            "sfx_music": "Music continues.",
+            "transition": "Split-screen swipe.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Suaviza y Perfuma",
+            "visual": "Model feeling smooth skin, strawberries in the background.",
+            "voiceover": "Tu piel suave con aroma a fresa.",
+            "rhythm_editing": "Slow motion as model enjoys skin touch.",
+            "sfx_music": "Strawberry hint in melody.",
+            "transition": "Dissolve to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Di adiós al ardor",
+            "visual": "Zoom on user smiling past razor bumps.",
+            "voiceover": "Dile adiós a la irritación.",
+            "rhythm_editing": "Punch-in zoom to emphasize smile.",
+            "sfx_music": "Music intensifies slightly.",
+            "transition": "Jump cut.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Siempre contigo",
+            "visual": "Product placed with pink background, aesthetic arrangement.",
+            "voiceover": "Es el toque rosa que necesitas.",
+            "rhythm_editing": "Quick montage of pink-themed aesthetics around product.",
+            "sfx_music": "Upbeat music continues.",
+            "transition": "Quick montage transitions.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Ordena ya - Disponible según disponibilidad",
+            "visual": "Call-to-action overlay with product and website link.",
+            "voiceover": "Aprovecha y ordena el tuyo.",
+            "rhythm_editing": "Steady close-up focus on call-to-action.",
+            "sfx_music": "Music fades out.",
+            "transition": "Fade to black with logo.",
+            "cta": "Ordena ahora"
+          }
+        ],
+        "production_notes": [
+          "Use vibrant lighting to emphasize colors and product texture.",
+          "Ensure caption readability for sound-off viewing.",
+          "Speed ramp edits to maintain dynamic motion.",
+          "Incorporate user-generated footage for authenticity.",
+          "Maintain soft focus on skin details to highlight smoothness.",
+          "Use pink-themed props for aesthetic conformity.",
+          "Design seamless transitions to sustain engagement.",
+          "Focus on product aesthetics with glitter or sparkle effects.",
+          "Capture genuine model expressions to enhance relatability.",
+          "Ensure voiceover emphasizes product benefits and sensory experience.",
+          "Utilize framing to keep product within a beauty context.",
+          "Match music tempo to the video pacing for cohesiveness.",
+          "Apply slow motion where user engagement is highlighted.",
+          "Include clear branding at the end for remembrance."
+        ]
+      },
+      "hooks_used": [
+        "Start with a relatable problem and present the solution swiftly.",
+        "Pose a thought-provoking question that aligns with the audience's interests.",
+        "Use a powerful emotion to create a connection instantly.",
+        "Focus on the unique benefits of your product in the first few seconds.",
+        "List down the top 3 reasons why your product stands out.",
+        "Utilize rhythmic editing to match the beat of background music or audio.",
+        "Employ fast pacing with multiple cuts to maintain engagement.",
+        "Leverage time-lapse sequences to show product transformations."
+      ],
+      "compliance_notes": [
+        "Ensure accuracy in product claims regarding skin benefits.",
+        "Avoid overstatement of product functionality not supported by data.",
+        "Clarify any aesthetic-only benefits without implying functional superiority.",
+        "Ensure testimonial style clips represent genuine experiences.",
+        "Verify copyright compliance for background music.",
+        "Maintain accuracy in availability and ordering statements."
+      ]
+    }
+  ]
+}

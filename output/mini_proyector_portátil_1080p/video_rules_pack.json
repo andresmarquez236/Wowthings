@@ -1,0 +1,69 @@
+{
+  "sources": [
+    {
+      "url": "https://blog.hootsuite.com/facebook-video-ads/",
+      "title": "Hootsuite: How to Create the Best Facebook Video Ads",
+      "published_date": "2022-01-15",
+      "used_for": "Guidance on hooks, engagement and pacing in Facebook Ads."
+    },
+    {
+      "url": "https://www.creativebloq.com/advice/the-ultimate-guide-to-creating-killer-instagram-video-ads",
+      "title": "Creative Bloq: The ultimate guide to creating killer Instagram video ads",
+      "published_date": "2023-02-10",
+      "used_for": "Details on grabbing attention in first seconds and pacing for Instagram."
+    },
+    {
+      "url": "https://www.forbes.com/sites/forbesagencycouncil/2019/08/28/quick-tips-for-effective-youtube-video-ads/",
+      "title": "Forbes: Quick Tips For Effective YouTube Video Ads",
+      "published_date": "2019-08-28",
+      "used_for": "Tips on early engagement and pacing for YouTube ads."
+    },
+    {
+      "url": "https://www.linkedin.com/business/marketing/blog/linkedin-ads/video-ads-get-noticed-on-linkedin",
+      "title": "LinkedIn: How To Create Video Ads That Get Noticed On LinkedIn",
+      "published_date": "2021-11-20",
+      "used_for": "Using video ads on LinkedIn with a focus on the first seconds and pacing."
+    }
+  ],
+  "rules_summary": [
+    "Start with a strong, clear hook in the first 2-3 seconds to capture attention quickly.",
+    "Introduce the core value proposition within the first few seconds of the video.",
+    "Include text overlays to reinforce messaging, making your video content understandable even on mute.",
+    "Use captions to ensure accessibility and engagement, especially on mobile devices.",
+    "Maintain fast pacing with quick cuts to keep viewers engaged throughout the video.",
+    "Leverage visual changes every few seconds to sustain interest in the content.",
+    "Balance audio and visual elements to enhance the persuasive impact of the ad.",
+    "Ensure high quality visual production to reflect brand professionalism.",
+    "Focus on a single compelling message rather than multiple mixed messages.",
+    "Adapt your creative to fit the platform-specific audience and viewing habits.",
+    "Test different variations of your video to see what resonates best with your audience.",
+    "Track engagement metrics to refine your approach in future videos."
+  ],
+  "three_three_three_definition": [
+    "Use a new visual or scene every 3 seconds to maintain interest.",
+    "Introduce or change the text overlay every 3 seconds to emphasize key points.",
+    "Alter the audio rhythm or beat every 3 seconds to keep the viewer's attention.",
+    "Employ eye-catching transitions every 3 seconds to create a dynamic flow.",
+    "Maintain viewer attention by consistently refreshing stimulus across visual, text, and audio elements."
+  ],
+  "hook_0_2_rule": [
+    "Capture viewer interest immediately with a visually striking or intriguing element.",
+    "Pose a question or present a bold statement within the first 2 seconds to create curiosity.",
+    "Utilize motion or a dynamic visual to pull the viewer in immediately.",
+    "Apply contrasting colors or sharp movements in the first frames to stand out."
+  ],
+  "pacing_editing_rules": [
+    "Optimize video length for the platform; shorter is often better for ads.",
+    "Use quick cuts and transitions to maintain momentum and interest.",
+    "Incorporate rhythmic editing to match music or voiceover beats, enhancing engagement.",
+    "Transition between scenes every 1-3 seconds to keep the video dynamic.",
+    "Use visual storytelling to convey your message succinctly and powerfully.",
+    "Ensure seamless integration of text and graphics to support and not distract from the narrative.",
+    "Vary shot sizes and angles to add visual interest and prevent monotony.",
+    "Match pacing with brand voice – energetic for youthful brands, steady for professional tones.",
+    "Avoid static shots; implement subtle camera movements to add life to the video.",
+    "Align visual beats with the script or voiceovers for coherence.",
+    "Use close-ups for emotional impact and to capture nuanced expressions.",
+    "Maintain continuity yet surprise the viewer with creative elements."
+  ]
+}

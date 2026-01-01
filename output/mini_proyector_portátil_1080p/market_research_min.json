@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "run_date_iso": "2025-12-30",
+    "model": "Analista Mercado LATAM v1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Ejemplo: mini proyector portátil 1080p",
+    "descripcion": "Proyector compacto para hogar, streaming, compatible HDMI/USB, parlante integrado.",
+    "garantia": "1 año (por confirmar en Colombia)",
+    "precio": "COP 299.900"
+  },
+  "resumen_corto": "Se validó como referencia principal el modelo genérico HY320 (y equivalentes “mini proyector 1080p”) vendido en Colombia. Precio típico retail COP 200k–400k; garantía del vendedor corta (1–3 meses) y especificaciones variables según vendedor. Fuerte competencia en marketplaces, demanda impulsada por “cine en casa” y temporadas promocionales (Black Friday). Riesgos: brillo real bajo (≈200–390 ANSI), bugs/firmware y servicio posventa limitado.",
+  "product_fingerprint": {
+    "marca": "Genérico / Magcubic / One Pixel (varía por vendedor)",
+    "modelo": "HY320 (referencia), variantes cercanas HY300 / YG300 / Y500",
+    "categoria": "Mini proyector portátil FHD (compatible 4K) para hogar",
+    "specs_claims_clave": [
+      "Resolución anunciada: 1080p (algunas variantes 720p nativo con ‘compatible 1080p’)",
+      "SO Android 11 (algunas listas), WiFi 6 dual-band y Bluetooth 5.0",
+      "Brillo anunciado: 200–390 ANSI (algunos listados ‘10.000–12.000 lúmenes’ marketing)",
+      "Entradas: HDMI x1, USB x1, salida audio 3.5 mm",
+      "Altavoz integrado (≈3–5 W)",
+      "Tamaño imagen: ~40–150/200”",
+      "Rotación/base 180° en ciertas variantes",
+      "Lámpara LED 30.000–50.000 h (claim)",
+      "Dimensiones aprox. 15×10×15 cm; peso ~0,9–1,2 kg",
+      "Garantía vendedor corta (1–3 meses en Colombia)"
+    ],
+    "rango_precio_observado": "COP 200.000–400.000 (Falabella y Rappi muestran listados entre ~225.900 y ~568.500 COP); premium (Anker Nebula Capsule 3) >COP 2,4 M.",
+    "garantia_tipo": "Garantía vendedor corta en Colombia (ej. 1 mes en Falabella para HY320; otros 3 meses).",
+    "variantes_detectadas": [
+      "HY320 (Android 11 / WiFi6 / BT5.0)",
+      "HY300 (resolución y brillo menores)",
+      "YG300 (muy básico, 320×240 nativo; ‘soporta 1080p’)",
+      "Y500 / UC68 (HD/compatible 1080p)",
+      "Anker Nebula Capsule 3 (referencia premium 1080p real)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Cine en casa accesible: gran pantalla por menos de COP 300k",
+      "score_0a10": 8.6,
+      "buyer_persona": "Hogares jóvenes/parejas que ven series/películas y no quieren invertir en TV grande",
+      "promesa": "Convierte cualquier pared en una pantalla de 100\"+ para tus noches de peli sin gastar de más.",
+      "objecion_principal": "¿Se ve bien con luz ambiente?",
+      "justificacion": "En Colombia hay múltiples listados de mini proyectores 1080p ‘HY320/mini’ entre COP ~225k–350k y tamaños de imagen 100–200”, lo que valida la propuesta ‘cine en casa económico’. Requiere uso en habitación oscura por brillo real moderado (≈200–390 ANSI).",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/148528022/Proyector-Portatil-Mini-Hy320-1080p-4k-10000-Lux-Negro/148528023",
+          "pais": "CO",
+          "match_note": "Coincide con modelo HY320, precio COP 225.900, HDMI/USB, garantía 30 días.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/143961289/Mini-Proyector-Portatil-1080P-Con-Bluetooth-HDMIUSB-Ideal-para-Cine-en-Casa-y-Exterior",
+          "pais": "CO",
+          "match_note": "Listado genérico 1080p con HDMI/USB en rango COP 347.900; uso ‘cine en casa’.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.rappi.com.co/retail/proyectores",
+          "pais": "CO",
+          "match_note": "Rappi muestra HY320/Android 11 con precios 362k–568k; confirma oferta local y tamaños hasta 200”.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Streaming sin cables (Android integrado) + conexiones HDMI/USB",
+      "score_0a10": 8.2,
+      "buyer_persona": "Usuarios que ven Netflix/YouTube y quieren evitar conectar laptop cada vez",
+      "promesa": "Prende y ve: apps y casting directo vía WiFi/Bluetooth; también HDMI/USB para consolas y TV sticks.",
+      "objecion_principal": "¿Apps corren bien? ¿Actualizaciones/bugs?",
+      "justificacion": "Listados del HY320 en Colombia/LatAm anuncian Android 11, WiFi 6 y BT 5.0. Sin embargo, foros reportan bugs de firmware en algunos lotes; sugerir también uso con TV Stick por estabilidad.",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.co/mini-proyector-hy320-mini-pro-4k-wifi-bluetooth-android-11/up/MCOU2963552821",
+          "pais": "CO",
+          "match_note": "HY320 con Android 11, WiFi/BT, HDMI/USB; coincide con funcionalidad solicitada.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://articulo.mercadolibre.cl/MLC-1537403877-mini-proyector-portatil-hy320-android-11-full-hd-1080p-wi-fi-_JM",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "HY320 con Android 11, WiFi 6, BT5.0; refuerza claim de streaming integrado.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.reddit.com/r/Magcubic/comments/1hj3lns",
+          "pais": "Global (usuarios)",
+          "match_note": "Hilos sobre fallos tras updates en HY320 (ventilador/overheat); alerta de estabilidad.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Portátil y flexible (proyecta en pared o techo, base giratoria 180°)",
+      "score_0a10": 7.7,
+      "buyer_persona": "Estudiantes y usuarios con espacios pequeños que buscan ver series en cama o llevarlo de viaje",
+      "promesa": "Llévalo en la mochila y proyecta donde quieras; incluso hacia el techo para maratones desde la cama.",
+      "objecion_principal": "¿Qué tan compacto es y se fija estable?",
+      "justificacion": "Variantes HY320 anuncian base/rotación 180° y dimensiones compactas (~15 cm). Ideal para uso nocturno; puede requerir trípode/soporte para estabilidad.",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/148528022/Proyector-Portatil-Mini-Hy320-1080p-4k-10000-Lux-Negro/148528023",
+          "pais": "CO",
+          "match_note": "Ficha indica modelo HY320, medidas aprox. 15×10×15 cm.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.mercadolibre.cl/proyector-portatil-mini-hy320-1080p-4k-10000-lux-negro/p/MLC46450945",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "Listing destaca ‘rotación 180°’ y 1080p FHD; válida como proxy de variante.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.tomsguide.com/tvs/roku-just-launched-its-first-projector-with-a-whopping-150-inch-size-and-its-just-usd249",
+          "pais": "US (tendencia)",
+          "match_note": "Roku lanza proyector 1080p portable; refuerza uso casual/portátil.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Temporada: regalo perfecto y ‘cine en casa’ en Black Friday/Navidad",
+      "score_0a10": 7.5,
+      "buyer_persona": "Compradores estacionales que buscan tecnología accesible para regalar",
+      "promesa": "Aprovecha promos (Black Friday/fin de año) y arma tu cine en casa sin romper el bolsillo.",
+      "objecion_principal": "¿Realmente hay picos de demanda/ofertas?",
+      "justificacion": "Medios colombianos reportan incrementos fuertes de ventas online en Black Friday; mini proyectores aparecen como ‘superventas’ en prensa española y descuentos globales. Es un producto-regalo frecuente por precio/uso familiar.",
+      "evidencia": [
+        {
+          "url": "https://www.semana.com/economia/empresas/articulo/que-se-espera-del-ultimo-gran-evento-de-descuentos-del-ano-conozca-cuando-sera-el-black-friday-en-colombia-2025/202531/",
+          "pais": "CO",
+          "match_note": "Semana: picos de ventas digitales 20–30% en Q4; soporte estacional.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.infobae.com/tecno/2025/11/27/black-friday-2025-en-colombia-fecha-confirmada-y-todo-lo-que-debes-saber/",
+          "pais": "CO",
+          "match_note": "Fechas Black Friday CO 2025; útil para calendarizar campañas.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://elpais.com/escaparate/ofertas-y-descuentos/2025-07-21/mini-proyector-portatil.html",
+          "pais": "ES (proxy)",
+          "match_note": "El País: mini proyector ‘superventas’ con descuento; valida tendencia-regalo.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 5,
+      "angulo": "Segunda pantalla económica (dormitorio/niños/airbnb)",
+      "score_0a10": 7.1,
+      "buyer_persona": "Padres, hosts de Airbnb o quienes quieren una pantalla secundaria sin comprar otro TV",
+      "promesa": "Ideal como pantalla secundaria para cuartos o espacios temporales, sin instalaciones complejas.",
+      "objecion_principal": "¿Calidad/sonido suficientes?",
+      "justificacion": "El segmento de mini proyectores portátiles crece a nivel mundial y se posiciona como solución de entretenimiento móvil/económica. Aconsejar uso con barra de sonido o audífonos por altavoz básico.",
+      "evidencia": [
+        {
+          "url": "https://www.precedenceresearch.com/portable-projector-market",
+          "pais": "Global",
+          "match_note": "Crecimiento del mercado de portátiles: USD ~1.99B (2025) a 3.60B (2034), CAGR~6.8%.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.thebusinessresearchcompany.com/report/portable-projector-global-market-report",
+          "pais": "Global",
+          "match_note": "TBRC: mercado de portátiles 2024–2029 con crecimiento fuerte; refuerza adopción hogar.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.reddit.com/r/Aliexpress/comments/1eex68l",
+          "pais": "Global (usuarios)",
+          "match_note": "Comentarios HY320: ‘sirve por precio, usar soundbar’—apoya recomendación práctica.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Cine en casa por menos de $300k: tu pared = pantalla gigante.",
+        "Maratón de pelis esta noche? Solo apaga la luz y dale play.",
+        "100\" de pura emoción sin gastar en un TV enorme.",
+        "Tu sala, tu cinema: instala en 5 minutos y disfruta.",
+        "Paso del celular a la pared en 2 toques (HDMI/USB).",
+        "Haz que el próximo parche sea con palomitas y 120\".",
+        "Upgrade instantáneo para la Copa y tus series favoritas.",
+        "Ideal para apartaestudios: guarda, saca y proyecta."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Prende y ve: Android integrado para Netflix, YouTube y más.",
+        "Cero cables: WiFi + BT para conectar y relajarte.",
+        "¿Apps lentas? Usalo con TV Stick y vuela.",
+        "Streaming estable con WiFi 5/6 y audio por BT.",
+        "Conecta consola por HDMI y disfruta en grande.",
+        "Descarga apps, castea y arma tu cine en 1-2-3."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Proyecta en el techo y ve series desde la cama.",
+        "Liviano y portátil: llévalo a viajes, finca o terraza.",
+        "Base giratoria: ajusta en segundos y disfruta.",
+        "Tu mini cine para campings y noches al aire libre.",
+        "Cabe en la mochila; la pantalla no tiene límites.",
+        "Set-up rápido: trípode/soporte y listo."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Regalo ganador en Black Friday: cine en casa sin romper el bolsillo.",
+        "Sorprende en Navidad con 120\" de felicidad.",
+        "Aprovecha temporada y paga menos por más pulgadas.",
+        "Promo inteligente: invierte hoy y disfruta todo el año.",
+        "Inclúyelo en tu wish list y asegura la entrega.",
+        "La pantalla que todos quieren, al precio que esperabas."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "La segunda pantalla perfecta para el cuarto de los niños.",
+        "Airbnb con ‘wow’: deja listo el cine en tu hospedaje.",
+        "Estudio/dorm: presenta y ve series en la misma pared.",
+        "Soundbar + proyector = experiencia completa.",
+        "Ideal para espacios pequeños y cambios de apartamento.",
+        "Móntalo sin taladros ni instalaciones."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Picos de ventas digitales/técnologia en Black Friday y fin de año en Colombia (noviembre–diciembre).",
+      "Eventos de mitad de año (Black Friday mid-year) y vacaciones impulsan compras de entretenimiento.",
+      "Prensa y retailers destacan mini proyectores ‘superventas’ y fuertes descuentos en temporada."
+    ],
+    "hipotesis": [
+      "Aumenta la demanda en fechas de fútbol/torneos y ‘Fiesta del Cine’ local por efecto emulación ‘cine en casa’.",
+      "Back-to-school y mudanzas (ene–feb, jul–ago) favorecen pantallas secundarias en cuartos."
+    ],
+    "correlacion_con_angulos": "- Ángulo 1 (cine en casa) y 4 (regalo) se potencian en Black Friday/Navidad. - Ángulo 3 (portabilidad) sube en vacaciones. - Ángulo 5 (segunda pantalla) se activa en mudanzas y regreso a clases."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Pantalla grande low-cost para entretenimiento en casa; válido con luz controlada.",
+      "fuentes": [
+        "https://elpais.com/escaparate/ofertas-y-descuentos/2025-07-21/mini-proyector-portatil.html",
+        "https://www.falabella.com.co/falabella-co/product/143961289/Mini-Proyector-Portatil-1080P-Con-Bluetooth-HDMIUSB-Ideal-para-Cine-en-Casa-y-Exterior"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Uso directo HDMI/USB; algunos con Android integrado.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/148528022/Proyector-Portatil-Mini-Hy320-1080p-4k-10000-Lux-Negro/148528023",
+        "https://www.mercadolibre.com.co/mini-proyector-hy320-mini-pro-4k-wifi-bluetooth-android-11/up/MCOU2963552821"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Precio accesible (200k–400k COP) y amplia oferta en marketplaces locales.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/shop/mini-proyector-portatil",
+        "https://www.rappi.com.co/retail/proyectores"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Sugerido: encuesta rápida a base local (N≥30) o test A/B de anuncios.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Buscar costo CIF (HY320) + arancel/IVA/logística; referenciar cotizaciones B2B confiables.",
+      "fuentes": [
+        "https://www.alibaba.com/supplier/hy320-mini-projector-wholesaler.html",
+        "https://www.ebay.com/itm/317572138087"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Se encuentra en Falabella, Rappi y ML; acceso amplio.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/shop/mini-proyector-portatil",
+        "https://www.rappi.com.co/retail/proyectores"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Producto común con múltiples marcas/variantes; ‘wow’ moderado (base 180° en algunas).",
+      "fuentes": [
+        "https://www.mercadolibre.cl/proyector-portatil-mini-hy320-1080p-4k-10000-lux-negro/p/MLC46450945"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Cobertura de ‘mini proyectores’ superventas y lanzamientos (Roku).",
+      "fuentes": [
+        "https://elpais.com/escaparate/ofertas-y-descuentos/2025-07-21/mini-proyector-portatil.html",
+        "https://www.tomsguide.com/tvs/roku-just-launched-its-first-projector-with-a-whopping-150-inch-size-and-its-just-usd249"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia y variedad de referencias en marketplaces.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/shop/mini-proyector-portatil",
+        "https://www.rappi.com.co/retail/proyectores"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Listados ‘más vendido’ y +500 vendidos (proxy CL).",
+      "fuentes": [
+        "https://www.mercadolibre.cl/proyector-portatil-mini-hy320-1080p-4k-10000-lux-negro/p/MLC46450945"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo? (repetido)",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Repetido: aplicar misma verificación con encuesta local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Requiere test de uso y evaluación personal del decisor.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Abundantes reviews y foros (YouTube/Reddit) y fichas locales.",
+      "fuentes": [
+        "https://www.youtube.com/watch?v=DXUIpgrvnjw",
+        "https://www.reddit.com/r/Aliexpress/comments/1eex68l"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Demanda sostenida por entretenimiento en hogar; mercado global en crecimiento.",
+      "fuentes": [
+        "https://www.precedenceresearch.com/portable-projector-market",
+        "https://www.thebusinessresearchcompany.com/report/portable-projector-global-market-report"
+      ]
+    },
+    {
+      "criterio": "total? (fila de control: NO siempre, se calcula en score_total)",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Fila de control, no aplica a evaluación cualitativa.",
+      "fuentes": []
+    }
+  ],
+  "score_total": {
+    "total_si": 7,
+    "total_criterios": 15,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar costo aterrizado (CIF) HY320 a Colombia con MOQ real (proveedor verificado) y tiempos; estimar margen neto.",
+    "Verificar resolución nativa real por variante (HY320/HY300/YG300) con pruebas independientes (YouTube/mediciones ANSI).",
+    "Validar compatibilidad DRM/Netflix/Prime (Widevine) en variantes Android y tasas de fallas/retornos por vendedor en CO.",
+    "Contrastar garantías efectivas por tienda (Falabella/ML/Rappi) y soporte técnico local (meses, centros).",
+    "Test A/B de creatividades para los 5 ángulos en Meta/TikTok Ads (3–5 días) y encuesta rápida N≥50 para intención de compra.",
+    "Mapear seasonality con Google Trends CO (‘mini proyector’, ‘proyector portátil’) y ventas internas históricas si existen."
+  ],
+  "missing_data_flags": [
+    "Margen real unitario (costos importación/impuestos/logística).",
+    "Resolución nativa y brillo ANSI medidos (no solo claims).",
+    "Compatibilidad de apps/DRM (Netflix, Prime) en Android integrado.",
+    "Tasa de devolución/garantía por vendedor en Colombia.",
+    "Soporte posventa y repuestos locales.",
+    "Ruido del ventilador y desempeño térmico en sesiones largas (riesgo de sobrecalentamiento)."
+  ]
+}

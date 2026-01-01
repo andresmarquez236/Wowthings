@@ -1,0 +1,703 @@
+{
+    "sections": {
+        "main": {
+            "type": "main-product",
+            "blocks": {
+                "custom_liquid_9XDG7p": {
+                    "type": "custom_liquid",
+                    "settings": {
+                        "custom_liquid": "<div class=\"review-container\">\n  <div class=\"stars\">\n    {% for i in (1..5) %}\n      <span class=\"star\">\u2605</span>\n    {% endfor %}\n  </div>\n  <span class=\"review-text\">+560 REVIEWS</span>\n</div>\n\n<style>\n  .review-container {\n    display: flex;\n    align-items: center;\n    font-family: Arial, sans-serif;\n    font-size: 18px;\n    font-weight: bold;\n    margin-top: 10px;\n    margin-bottom: 0;\n  }\n\n  .stars {\n    color: #FFD700; /* Color dorado */\n    font-size: 17px; /* Corregido el error de 17x */\n    display: flex;\n    align-items: center;\n  }\n\n  .star {\n    margin-right: 2px;\n  }\n\n  .review-text {\n    margin-left: 8px;\n    color: #000;\n    font-size: 14px;\n    font-weight: bold;\n  }\n</style>"
+                    }
+                },
+                "title": {
+                    "type": "title",
+                    "settings": {}
+                },
+                "d57f30db-f1f3-4fd5-a089-2c2e9533ba3d": {
+                    "type": "price",
+                    "settings": {}
+                },
+                "text_gazJkx": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<strong>PROPUESTA DE VALOR</strong>",
+                        "text_style": "body"
+                    }
+                },
+                "daa0e452-23d5-4bd1-afb3-35d7babab88c": {
+                    "type": "keybenefit",
+                    "settings": {
+                        "key1": "Beneficio Rapido 1",
+                        "key2": "Beneficio Rapido 2",
+                        "key3": "Beneficio Rapido 3",
+                        "checkmarkcolor": "#000000",
+                        "checkmarkcolorbackground": "#fafafa"
+                    }
+                },
+                "variant_picker": {
+                    "type": "variant_picker",
+                    "settings": {
+                        "picker_type": "bundle"
+                    }
+                },
+                "buy_buttons": {
+                    "type": "buy_buttons",
+                    "settings": {
+                        "show_dynamic_checkout": false,
+                        "show_gift_card_recipient": false
+                    }
+                },
+                "eed7bb10-67b9-4655-8c71-ca64ed54fb48": {
+                    "type": "shippingarrow",
+                    "settings": {
+                        "preshipsby": "Se env\u00eda en m\u00e1ximo",
+                        "shippingarrow": "3",
+                        "postshipsby": "d\u00edas si compras hoy!"
+                    }
+                },
+                "1c393517-7c5c-4915-ba22-5dbd8ede91e5": {
+                    "type": "featuredreview",
+                    "settings": {
+                        "reviewtext": "(FOTO DE UN CLIENTE FELIZ) Escribe aqu\u00ed una review de un cliente, entorno al producto que estas vendiendo",
+                        "reviewname": "Nombre (Ciudad, Pa\u00eds)"
+                    }
+                },
+                "2c100155-1d2d-4504-a37e-f2abd070099f": {
+                    "type": "iconss",
+                    "settings": {
+                        "text1": "Pagos Contraentrega",
+                        "text2": "Env\u00edos Gratis",
+                        "iconcolorreturns": "#7069bc"
+                    }
+                },
+                "collapsible_tab_AUafHX": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "heading": "Que Incluye:",
+                        "icon": "check_mark",
+                        "content": "",
+                        "page": ""
+                    }
+                },
+                "collapsible_tab_NKgDKr": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "heading": "C\u00f3mo se usa",
+                        "icon": "check_mark",
+                        "content": "",
+                        "page": ""
+                    }
+                },
+                "c11bfb2f-901d-4b03-90cf-b6b766353d13": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "heading": "Informaci\u00f3n de Env\u00edo",
+                        "icon": "truck",
+                        "content": "<p>Escribe aqu\u00ed, tus condiciones de env\u00edo y tiempos de entrega reales.</p>",
+                        "page": ""
+                    }
+                },
+                "e6778313-45ad-4d6d-8260-2498242a6df0": {
+                    "type": "collapsible_tab",
+                    "settings": {
+                        "heading": "Devoluciones",
+                        "icon": "return",
+                        "content": "<p>Escribe aqu\u00ed tus condiciones para devoluciones faciles y aumentar la confianza en los clientes</p>",
+                        "page": ""
+                    }
+                },
+                "5b41d5c2-f95c-45c9-8b01-8d3aaf8e300f": {
+                    "type": "salespoint",
+                    "disabled": true,
+                    "settings": {
+                        "salespointtext": "5 Unidades en Stock"
+                    }
+                },
+                "1088bb43-2931-4cb5-b642-6c5e04e45224": {
+                    "type": "clocktext",
+                    "disabled": true,
+                    "settings": {
+                        "clocktext": "\u00daltimos d\u00edas de oferta."
+                    }
+                },
+                "quantity_selector": {
+                    "type": "quantity_selector",
+                    "disabled": true,
+                    "settings": {}
+                },
+                "3122dfde-b867-4a3c-9e0f-cf61bd664e99": {
+                    "type": "moneybackguarantee",
+                    "disabled": true,
+                    "settings": {
+                        "moneybackguarantee": "30 D\u00cdAS PARA DEVOLUCIONES"
+                    }
+                },
+                "description": {
+                    "type": "description",
+                    "disabled": true,
+                    "settings": {}
+                }
+            },
+            "block_order": [
+                "custom_liquid_9XDG7p",
+                "title",
+                "d57f30db-f1f3-4fd5-a089-2c2e9533ba3d",
+                "text_gazJkx",
+                "daa0e452-23d5-4bd1-afb3-35d7babab88c",
+                "variant_picker",
+                "buy_buttons",
+                "eed7bb10-67b9-4655-8c71-ca64ed54fb48",
+                "1c393517-7c5c-4915-ba22-5dbd8ede91e5",
+                "2c100155-1d2d-4504-a37e-f2abd070099f",
+                "collapsible_tab_AUafHX",
+                "collapsible_tab_NKgDKr",
+                "c11bfb2f-901d-4b03-90cf-b6b766353d13",
+                "e6778313-45ad-4d6d-8260-2498242a6df0",
+                "5b41d5c2-f95c-45c9-8b01-8d3aaf8e300f",
+                "1088bb43-2931-4cb5-b642-6c5e04e45224",
+                "quantity_selector",
+                "3122dfde-b867-4a3c-9e0f-cf61bd664e99",
+                "description"
+            ],
+            "custom_css": [
+                "div.product__title > h1 {font-size: 17px !important;}",
+                ".button--secondary {background-color: #7069bc; color: white;}"
+            ],
+            "settings": {
+                "new_product_page_media": true,
+                "othergallerystyle": false,
+                "salebadge": true,
+                "freeshipprice": true,
+                "shiptextnexttoprice": "+ Env\u00edos GRATIS",
+                "enable_gallerybadge": true,
+                "productgalleryimage": "Producto Exclusivo",
+                "badge_background": "#ffffff",
+                "textbadge_background": "#000000",
+                "badge_text": "capitalize",
+                "stickybutton": true,
+                "stickybuttontext": "Select Colors",
+                "atcicon": true,
+                "atcsavings": false,
+                "mostpopularcolor": "#000000",
+                "enable_shipping_calculate": false,
+                "shipping_calculator_label": "Expected Delivery:",
+                "days_to_start_shipping": 5,
+                "approximate_days_for_delivery": 10,
+                "delivery_align": "center",
+                "enable_sticky_info": true,
+                "media_size": "medium",
+                "constrain_to_viewport": true,
+                "media_fit": "cover",
+                "gallery_layout": "thumbnail",
+                "media_position": "left",
+                "image_zoom": "lightbox",
+                "mobile_thumbnails": "hide",
+                "hide_variants": false,
+                "enable_video_looping": false,
+                "padding_top": 0,
+                "padding_bottom": 0
+            }
+        },
+        "related-products": {
+            "type": "related-products",
+            "disabled": true,
+            "settings": {
+                "heading": "You may also like",
+                "heading_size": "h2",
+                "products_to_show": 4,
+                "columns_desktop": 4,
+                "color_scheme": "background-1",
+                "image_ratio": "adapt",
+                "show_secondary_image": false,
+                "show_vendor": false,
+                "show_rating": false,
+                "columns_mobile": "2",
+                "padding_top": 36,
+                "padding_bottom": 68
+            }
+        },
+        "7401e664-d026-4a46-bd1f-bc32c9f0558a": {
+            "type": "rich-text",
+            "blocks": {
+                "template--19239854407957__7401e664-d026-4a46-bd1f-bc32c9f0558a-1685852128f579606c-0": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Desired outcome",
+                        "heading_size": "h2"
+                    }
+                },
+                "11abbd1c-ea50-4aca-a4aa-563a76d850b5": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>How this product meets their desired outcome</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "template--19239854407957__7401e664-d026-4a46-bd1f-bc32c9f0558a-1685852128f579606c-0",
+                "11abbd1c-ea50-4aca-a4aa-563a76d850b5"
+            ],
+            "disabled": true,
+            "settings": {
+                "desktop_content_position": "center",
+                "content_alignment": "center",
+                "color_scheme": "background-1",
+                "full_width": true,
+                "padding_top": 0,
+                "padding_bottom": 0
+            }
+        },
+        "086a98ac-209d-4db2-9d62-5b0fe9663693": {
+            "type": "compare-image",
+            "settings": {
+                "title": "Beneficios del producto",
+                "text": "<p>Descripci\u00f3n de los beneficios del producto con Imagen Antes/desp\u00faes </p>",
+                "before": "ANTES",
+                "after": "DESPUES"
+            }
+        },
+        "3bc3f381-5c12-4e1e-9f92-289fb87d308d": {
+            "type": "image-with-text",
+            "blocks": {
+                "template--19239854407957__3bc3f381-5c12-4e1e-9f92-289fb87d308d-168585216294cb3c48-0": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Titulo llamativo de m\u00e1ximo 5 palabras (Tocar el dolor principal)",
+                        "heading_size": "h2"
+                    }
+                },
+                "template--19239854407957__3bc3f381-5c12-4e1e-9f92-289fb87d308d-168585216294cb3c48-1": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Aqu\u00ed, complementas y refuerzas el punto de dolor anterior</p>",
+                        "text_style": "body"
+                    }
+                },
+                "fb814fee-541b-418f-a1f8-b03b37c368ce": {
+                    "type": "caption",
+                    "settings": {
+                        "caption": "",
+                        "text_style": "subtitle",
+                        "text_size": "medium"
+                    }
+                }
+            },
+            "block_order": [
+                "template--19239854407957__3bc3f381-5c12-4e1e-9f92-289fb87d308d-168585216294cb3c48-0",
+                "template--19239854407957__3bc3f381-5c12-4e1e-9f92-289fb87d308d-168585216294cb3c48-1",
+                "fb814fee-541b-418f-a1f8-b03b37c368ce"
+            ],
+            "settings": {
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "layout": "text_first",
+                "desktop_content_position": "top",
+                "desktop_content_alignment": "left",
+                "content_layout": "no-overlap",
+                "color_scheme": "background-1",
+                "image_behavior": "none",
+                "mobile_content_alignment": "left",
+                "padding_top": 0,
+                "padding_bottom": 0
+            }
+        },
+        "50f8db15-9a00-4bfb-8176-786845498504": {
+            "type": "multicolumn",
+            "blocks": {
+                "template--16985062932724__50f8db15-9a00-4bfb-8176-786845498504-column-1": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Beneficio 1",
+                        "text": "<p>Ampliar el beneficio 1</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "template--16985062932724__50f8db15-9a00-4bfb-8176-786845498504-column-2": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Beneficio 2",
+                        "text": "<p>Ampliar el beneficio 2</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "template--16985062932724__50f8db15-9a00-4bfb-8176-786845498504-column-3": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Beneficio 3",
+                        "text": "<p>Ampliar el beneficio 3</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "8f4c5208-c742-4fe0-9e42-8cc758a77b8c": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Beneficio 4",
+                        "text": "<p>Ampliar el beneficio 4</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "template--16985062932724__50f8db15-9a00-4bfb-8176-786845498504-column-1",
+                "template--16985062932724__50f8db15-9a00-4bfb-8176-786845498504-column-2",
+                "template--16985062932724__50f8db15-9a00-4bfb-8176-786845498504-column-3",
+                "8f4c5208-c742-4fe0-9e42-8cc758a77b8c"
+            ],
+            "settings": {
+                "title": "(NO USAR TITULO)",
+                "heading_size": "h1",
+                "image_width": "full",
+                "image_ratio": "adapt",
+                "columns_desktop": 2,
+                "column_alignment": "left",
+                "background_style": "primary",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "background-1",
+                "columns_mobile": "2",
+                "swipe_on_mobile": false,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "b6fc2703-d30b-40d4-b2cb-fcc2eade4e34": {
+            "type": "multicolumn",
+            "blocks": {
+                "template--16985062932724__b6fc2703-d30b-40d4-b2cb-fcc2eade4e34-column-1": {
+                    "type": "column",
+                    "settings": {
+                        "title": "( FOTO CLIENTE SATISFECHO) Nombre del Cliente (Emoji 5 Estrellas)",
+                        "text": "<p>Review o testimonio del cliente</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "template--16985062932724__b6fc2703-d30b-40d4-b2cb-fcc2eade4e34-column-2": {
+                    "type": "column",
+                    "settings": {
+                        "title": "( FOTO CLIENTE SATISFECHO) Nombre del Cliente (Emoji 5 Estrellas)",
+                        "text": "<p>Review o testimonio del cliente</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "template--16985062932724__b6fc2703-d30b-40d4-b2cb-fcc2eade4e34-column-3": {
+                    "type": "column",
+                    "settings": {
+                        "title": "( FOTO CLIENTE SATISFECHO) Nombre del Cliente (Emoji 5 Estrellas)",
+                        "text": "<p>Review o testimonio del cliente</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "template--16985062932724__b6fc2703-d30b-40d4-b2cb-fcc2eade4e34-column-1",
+                "template--16985062932724__b6fc2703-d30b-40d4-b2cb-fcc2eade4e34-column-2",
+                "template--16985062932724__b6fc2703-d30b-40d4-b2cb-fcc2eade4e34-column-3"
+            ],
+            "settings": {
+                "title": "Nuestros Clientes",
+                "heading_size": "h1",
+                "image_width": "full",
+                "image_ratio": "square",
+                "columns_desktop": 3,
+                "column_alignment": "left",
+                "background_style": "primary",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "inverse",
+                "columns_mobile": "1",
+                "swipe_on_mobile": true,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "78161370-bfb0-428e-adf1-f106aca5123b": {
+            "type": "image-with-text",
+            "blocks": {
+                "template--16985062932724__78161370-bfb0-428e-adf1-f106aca5123b-heading-1": {
+                    "type": "heading",
+                    "settings": {
+                        "heading": "Prueba Social - Foto",
+                        "heading_size": "h1"
+                    }
+                },
+                "template--16985062932724__78161370-bfb0-428e-adf1-f106aca5123b-text-1": {
+                    "type": "text",
+                    "settings": {
+                        "text": "<p>Y este texto es para una recomendaci\u00f3n del producto</p>",
+                        "text_style": "body"
+                    }
+                }
+            },
+            "block_order": [
+                "template--16985062932724__78161370-bfb0-428e-adf1-f106aca5123b-heading-1",
+                "template--16985062932724__78161370-bfb0-428e-adf1-f106aca5123b-text-1"
+            ],
+            "settings": {
+                "height": "adapt",
+                "desktop_image_width": "medium",
+                "layout": "image_first",
+                "desktop_content_position": "top",
+                "desktop_content_alignment": "left",
+                "content_layout": "no-overlap",
+                "color_scheme": "background-1",
+                "image_behavior": "none",
+                "mobile_content_alignment": "left",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "435217f9-0491-4e04-93de-8fa3a5a996db": {
+            "type": "compare-chart",
+            "blocks": {
+                "template--16985062932724__435217f9-0491-4e04-93de-8fa3a5a996db-row-1": {
+                    "type": "row",
+                    "settings": {
+                        "benefit": "Beneficio 1",
+                        "us": true,
+                        "others": false
+                    }
+                },
+                "template--16985062932724__435217f9-0491-4e04-93de-8fa3a5a996db-row-2": {
+                    "type": "row",
+                    "settings": {
+                        "benefit": "Beneficio  2",
+                        "us": true,
+                        "others": false
+                    }
+                },
+                "template--16985062932724__435217f9-0491-4e04-93de-8fa3a5a996db-row-3": {
+                    "type": "row",
+                    "settings": {
+                        "benefit": "Beneficio 3",
+                        "us": true,
+                        "others": false
+                    }
+                },
+                "6a12410f-0263-49d1-941c-4d61208408bb": {
+                    "type": "row",
+                    "settings": {
+                        "benefit": "Beneficio 4",
+                        "us": true,
+                        "others": false
+                    }
+                },
+                "7ea5db61-7af3-4f5f-a41e-30f037ccf10e": {
+                    "type": "row",
+                    "settings": {
+                        "benefit": "Beneficio 5",
+                        "us": true,
+                        "others": false
+                    }
+                }
+            },
+            "block_order": [
+                "template--16985062932724__435217f9-0491-4e04-93de-8fa3a5a996db-row-1",
+                "template--16985062932724__435217f9-0491-4e04-93de-8fa3a5a996db-row-2",
+                "template--16985062932724__435217f9-0491-4e04-93de-8fa3a5a996db-row-3",
+                "6a12410f-0263-49d1-941c-4d61208408bb",
+                "7ea5db61-7af3-4f5f-a41e-30f037ccf10e"
+            ],
+            "settings": {
+                "title": "Exalta tu producto frente a la competencia",
+                "heading_size": "h1",
+                "text": "<p>Menciona porque tu producto es mejor que el de la ocmpetencia</p>",
+                "button_label": "",
+                "link": "",
+                "button_style_secondary": false,
+                "layout": "table_second",
+                "color_scheme": "background-1",
+                "logo_width": 75,
+                "us_label": "Producto X",
+                "others_label": "Otros",
+                "benefit_color_scheme": "accent-1",
+                "checkmark_color": "#53af01",
+                "icon_cells_color_scheme": "background-1",
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "3d28e77d-b7ce-4326-99e5-6a739a02727b": {
+            "type": "percentage",
+            "blocks": {
+                "template--16985062932724__3d28e77d-b7ce-4326-99e5-6a739a02727b-row-1": {
+                    "type": "row",
+                    "settings": {
+                        "percentage": 90,
+                        "row_text": "<p>Cliente Feliz respecto a algo...</p>"
+                    }
+                },
+                "template--16985062932724__3d28e77d-b7ce-4326-99e5-6a739a02727b-row-2": {
+                    "type": "row",
+                    "settings": {
+                        "percentage": 90,
+                        "row_text": "<p>Cliente Feliz respecto a algo...</p>"
+                    }
+                },
+                "template--16985062932724__3d28e77d-b7ce-4326-99e5-6a739a02727b-row-3": {
+                    "type": "row",
+                    "settings": {
+                        "percentage": 90,
+                        "row_text": "<p>Cliente Feliz respecto a algo...</p>"
+                    }
+                }
+            },
+            "block_order": [
+                "template--16985062932724__3d28e77d-b7ce-4326-99e5-6a739a02727b-row-1",
+                "template--16985062932724__3d28e77d-b7ce-4326-99e5-6a739a02727b-row-2",
+                "template--16985062932724__3d28e77d-b7ce-4326-99e5-6a739a02727b-row-3"
+            ],
+            "settings": {
+                "title": "Recomendaci\u00f3n",
+                "heading_size": "h1",
+                "text": "<p>Habla del porcentaje de clientes que estan felices con uno de los beneficios puntuales del producto</p>",
+                "color_scheme": "background-1",
+                "layout": "percentages_second",
+                "percentages_headline": "",
+                "percentages_headline_size": "h2",
+                "percentages_headline_alignment": "left",
+                "caption": "<p>*aqu\u00ed puedes decir que estos porcentajes son comprobados.</p>",
+                "button_label": "",
+                "link": "",
+                "button_style_secondary": false,
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        },
+        "ffa79f40-3ca5-4c0f-842b-5fa404007924": {
+            "type": "collapsible-content",
+            "blocks": {
+                "template--19239854407957__ffa79f40-3ca5-4c0f-842b-5fa404007924-1685852323c73bd29d-0": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "T\u00edtulo de la pregunta",
+                        "icon": "question_mark",
+                        "row_content": "<p>respuesta de la pregunta</p>",
+                        "page": ""
+                    }
+                },
+                "40c59e33-8ce9-492f-ad4d-9d0fddb2fb10": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "T\u00edtulo de la pregunta",
+                        "icon": "question_mark",
+                        "row_content": "<p>respuesta de la pregunta</p>",
+                        "page": ""
+                    }
+                },
+                "f68ace48-4162-4c3e-bc8c-5518a8de0427": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "T\u00edtulo de la pregunta",
+                        "icon": "question_mark",
+                        "row_content": "<p>respuesta de la pregunta</p>",
+                        "page": ""
+                    }
+                },
+                "524169b2-9412-4aeb-b45b-7c0e4edd9cba": {
+                    "type": "collapsible_row",
+                    "settings": {
+                        "heading": "T\u00edtulo de la pregunta",
+                        "icon": "question_mark",
+                        "row_content": "<p>respuesta de la pregunta</p>",
+                        "page": ""
+                    }
+                }
+            },
+            "block_order": [
+                "template--19239854407957__ffa79f40-3ca5-4c0f-842b-5fa404007924-1685852323c73bd29d-0",
+                "40c59e33-8ce9-492f-ad4d-9d0fddb2fb10",
+                "f68ace48-4162-4c3e-bc8c-5518a8de0427",
+                "524169b2-9412-4aeb-b45b-7c0e4edd9cba"
+            ],
+            "settings": {
+                "caption": "vamos con preguntas frecuentes",
+                "heading": "Aqu\u00ed pones un titulo para todas las preguntas (m\u00e1ximo 5 preguntas frecuentes)",
+                "heading_size": "h2",
+                "heading_alignment": "center",
+                "layout": "none",
+                "color_scheme": "background-1",
+                "container_color_scheme": "background-2",
+                "open_first_collapsible_row": false,
+                "image_ratio": "adapt",
+                "desktop_layout": "image_second",
+                "padding_top": 4,
+                "padding_bottom": 36
+            }
+        },
+        "13348d96-1a54-4009-b416-60d21a04c302": {
+            "type": "multicolumn",
+            "blocks": {
+                "template--19239854407957__13348d96-1a54-4009-b416-60d21a04c302-1685852213f10cc2f8-0": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Nombre del cliente",
+                        "text": "<p>Texto del testimonio</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "template--19239854407957__13348d96-1a54-4009-b416-60d21a04c302-1685852213f10cc2f8-1": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Nombre del cliente",
+                        "text": "<p>texto del testimonio</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                },
+                "template--19239854407957__13348d96-1a54-4009-b416-60d21a04c302-1685852213f10cc2f8-2": {
+                    "type": "column",
+                    "settings": {
+                        "title": "Nombre del cliente",
+                        "text": "<p>testo del testimonio</p>",
+                        "link_label": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "template--19239854407957__13348d96-1a54-4009-b416-60d21a04c302-1685852213f10cc2f8-0",
+                "template--19239854407957__13348d96-1a54-4009-b416-60d21a04c302-1685852213f10cc2f8-1",
+                "template--19239854407957__13348d96-1a54-4009-b416-60d21a04c302-1685852213f10cc2f8-2"
+            ],
+            "disabled": true,
+            "settings": {
+                "title": "TESTIMONIOS EN TEXTO",
+                "heading_size": "h2",
+                "image_width": "third",
+                "image_ratio": "adapt",
+                "columns_desktop": 3,
+                "column_alignment": "center",
+                "background_style": "none",
+                "button_label": "",
+                "button_link": "",
+                "color_scheme": "background-1",
+                "columns_mobile": "1",
+                "swipe_on_mobile": false,
+                "padding_top": 32,
+                "padding_bottom": 0
+            }
+        }
+    },
+    "order": [
+        "main",
+        "related-products",
+        "7401e664-d026-4a46-bd1f-bc32c9f0558a",
+        "086a98ac-209d-4db2-9d62-5b0fe9663693",
+        "3bc3f381-5c12-4e1e-9f92-289fb87d308d",
+        "50f8db15-9a00-4bfb-8176-786845498504",
+        "b6fc2703-d30b-40d4-b2cb-fcc2eade4e34",
+        "78161370-bfb0-428e-adf1-f106aca5123b",
+        "435217f9-0491-4e04-93de-8fa3a5a996db",
+        "3d28e77d-b7ce-4326-99e5-6a739a02727b",
+        "ffa79f40-3ca5-4c0f-842b-5fa404007924",
+        "13348d96-1a54-4009-b416-60d21a04c302"
+    ]
+}

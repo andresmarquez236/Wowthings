@@ -1,0 +1,3 @@
+✅ Imágenes cargadas correctamente.
+🚀 Generando imagen...
+❌ Error durante la generación: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Model does not support the requested response modalities: image', 'status': 'INVALID_ARGUMENT'}}

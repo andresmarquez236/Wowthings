@@ -1,0 +1,82 @@
+{
+  "sources": [
+    {
+      "url": "https://business.instagram.com/advertising/",
+      "title": "Instagram Business - Advertising",
+      "published_date": "2023-02-15",
+      "used_for": "Recommendations on ad content pacing and initial hook."
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/7507381?hl=en",
+      "title": "YouTube Creators - Best practices for crafting compelling ads",
+      "published_date": "2023-03-10",
+      "used_for": "Guidelines on first seconds, text overlays, and video pacing."
+    },
+    {
+      "url": "https://blog.hootsuite.com/facebook-video-ad-specs/",
+      "title": "Hootsuite - Facebook video ad specs and tips",
+      "published_date": "2023-01-12",
+      "used_for": "Information on effective ad pacing and visuals."
+    },
+    {
+      "url": "https://business.twitter.com/en/advertising/solutions/video.html",
+      "title": "Twitter Business - Video Advertising Solutions",
+      "published_date": "2023-03-05",
+      "used_for": "Advice on how to pace and introduce propositions in short video ads."
+    },
+    {
+      "url": "https://www.linkedin.com/pulse/creating-effective-video-ads-digital-age-jonathan-wilson/",
+      "title": "LinkedIn Pulse - Creating Effective Video Ads",
+      "published_date": "2023-04-08",
+      "used_for": "Tips on engaging audiences quickly and using text overlays."
+    }
+  ],
+  "rules_summary": [
+    "Capture attention in the first 2 seconds by addressing a curiosity gap.",
+    "Utilize text overlays to convey crucial messages without sound.",
+    "Change visuals approximately every 3 seconds to maintain engagement.",
+    "Quickly introduce the core proposition to hook viewer interest.",
+    "Use fast pacing techniques like quick cuts to retain viewer attention.",
+    "Start with an engaging question, scenario, or action to captivate the audience.",
+    "Incorporate contrasting visuals to stimulate viewer interest.",
+    "Align music rhythm with video cuts for heightened energetic impact.",
+    "Employ captions to ensure understanding when viewed without sound.",
+    "Use strong visual and textual stimuli to appeal to emotions immediately."
+  ],
+  "three_three_three_definition": [
+    "Visuals should change approximately every 3 seconds to sustain engagement.",
+    "Text overlays need regular updates every 3 seconds to drive key messages home.",
+    "Rhythm and pacing should adapt at least every 3 seconds to match viewer attention spans.",
+    "The concept is about maintaining a dynamic and changing canvas, avoiding stagnation.",
+    "Frequent shifts in visual-text-rhythm aspects every 3 seconds to keep content fresh.",
+    "Cross-cuts and scene changes every 3 seconds maintain viewers' visual interest.",
+    "Text animations should follow a 3-second refresh rate for clarity and message impact.",
+    "Action or mood shifts should also adhere to 3-second intervals for impact."
+  ],
+  "hook_0_2_rule": [
+    "Capture attention in the initial 2 seconds with a strong visual or problem statement.",
+    "Utilize an intriguing question or bold statement to engage viewers immediately.",
+    "Incorporate a surprising element or dynamic motion to captivate the audience early.",
+    "Clearly set context or propose a solution in the first 2 seconds to hook viewers.",
+    "Present a quick visual story that evokes curiosity within the first 2 seconds.",
+    "Use a high-energy opening to grasp the viewer's attention immediately.",
+    "Deploy captivating imagery or unexpected scenarios in the first 2 seconds.",
+    "Start with an auditory or visual cue that aligns closely with target audience interests."
+  ],
+  "pacing_editing_rules": [
+    "Maintain a brisk pace with cuts approximately every 1-3 seconds to keep energy high.",
+    "Vary shot lengths to prevent monotony and encourage viewer engagement.",
+    "Employ quick cuts and cross-cuts to retain audience attention through dynamic visuals.",
+    "Utilize fast cuts to enhance narrative flow and maintain viewer interest.",
+    "Ensure that pacing aligns closely with music beats to create an immersive experience.",
+    "Adapt pacing to fit narrative arcs, balancing between fast and slow segments.",
+    "Use jump cuts strategically to emphasize key points without losing the narrative.",
+    "Dynamic pacing should correlate with key moments for dramatic effect.",
+    "Incorporate short bursts of high-energy cuts followed by longer, calmer segments to keep viewers intrigued.",
+    "Employ rapid editing techniques to align with audience sensory expectations.",
+    "Adjust pacing based on audience demographic – faster for younger audiences, slightly slower for older viewing habits.",
+    "Integrate abrupt transitions to maintain high viewer engagement.",
+    "Vary rhythm and pacing to reflect the story's emotional tone effectively.",
+    "Use pacing to guide viewer focus, emphasizing specific details through strategic pause and action flows."
+  ]
+}

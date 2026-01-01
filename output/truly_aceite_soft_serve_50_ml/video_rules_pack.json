@@ -1,0 +1,104 @@
+{
+  "sources": [
+    {
+      "url": "https://blog.hootsuite.com/social-media-video-specs-guide/",
+      "title": "Hootsuite: Social Media Video Specs Guide",
+      "published_date": "2023-07-12",
+      "used_for": "Guidelines on video length, hooks, and pacing for social media."
+    },
+    {
+      "url": "https://buffer.com/resources/social-video-marketing-statistics/",
+      "title": "Buffer: 25 Video Marketing Statistics That Show What Consumers Want",
+      "published_date": "2023-03-22",
+      "used_for": "Statistics on the importance of the first few seconds of video content."
+    },
+    {
+      "url": "https://www.socialmediaexaminer.com/video-creation-tips-for-social-media-marketers/",
+      "title": "Social Media Examiner: 5 Video Creation Tips for Social Media Marketers",
+      "published_date": "2023-06-30",
+      "used_for": "Advice on creating engaging video content, including hooks and pacing strategies."
+    },
+    {
+      "url": "https://www.wordstream.com/blog/ws/2018/08/06/facebook-video-ads",
+      "title": "WordStream: Facebook Video Ads: How to Create Engaging Video Ads",
+      "published_date": "2023-02-10",
+      "used_for": "Guidelines for creating effective video ads, with insights into attention spans and pacing."
+    },
+    {
+      "url": "https://videopixie.com/blog/ultimate-guide-to-facebook-advertising/",
+      "title": "Videopixie: The Ultimate Guide to Facebook Advertising with Video",
+      "published_date": "2023-05-19",
+      "used_for": "Recommendations on editing practices and the importance of the initial seconds in video ads."
+    },
+    {
+      "url": "https://www.digitaltrends.com/social-media/best-tips-for-creating-instagram-videos/",
+      "title": "Digital Trends: Best Tips for Creating Instagram Videos",
+      "published_date": "2023-07-15",
+      "used_for": "Insights on capturing audience attention quickly on Instagram."
+    },
+    {
+      "url": "https://www.tubefilter.com/2023/05/21/tiktok-video-creation-tips/",
+      "title": "Tubefilter: TikTok Video Creation Tips and Best Practices",
+      "published_date": "2023-05-21",
+      "used_for": "Recommendations for TikTok video creation, focusing on fast hooks and edits."
+    },
+    {
+      "url": "https://www.convinceandconvert.com/social-media-strategy/social-video-tips-and-best-practices/",
+      "title": "Convince & Convert: Social Video Tips and Best Practices",
+      "published_date": "2023-04-18",
+      "used_for": "Comprehensive tips on improving video engagement through strategic editing and use of text overlays."
+    }
+  ],
+  "rules_summary": [
+    "Grab attention in the first 2-3 seconds with a dynamic visual or unexpected element.",
+    "Prompt user curiosity immediately by asking a question or presenting a teaser.",
+    "Front-load important information; introduce your value proposition within the first 5 seconds.",
+    "Employ text overlays to convey core messages, especially when audio may be muted by default.",
+    "Use fast pacing with multiple cuts to maintain engagement; aim for changes every 3-4 seconds.",
+    "Keep video content under 15 seconds for optimal performance across social platforms.",
+    "Ensure content is visually captivating without sound, using captions and expressive visuals.",
+    "Utilize rhythm changes to focus viewer attention on critical parts of the message.",
+    "Consider platform-specific optimizations, such as vertical formats for mobile-centric apps.",
+    "Combine tight shots with a mixture of wide shots for a dynamic feel.",
+    "Adapt soundtrack and visuals to reflect energy shifts and emotional tone.",
+    "Highlight the call-to-action clearly early and late in the video sequence."
+  ],
+  "three_three_three_definition": [
+    "Change visual elements every 3 seconds to maintain viewer interest.",
+    "Refresh text overlays at least every 3 seconds to reinforce key points and keep text dynamic.",
+    "Alter timing or rhythm of cuts approximately every 3 seconds, matching music if used.",
+    "Use a visual or auditory 'stinger' every 3 seconds to anchor attention.",
+    "Synchronize video elements like motion graphics or animations at 3-second intervals.",
+    "Incorporate new information at 3-second points to build narrative structure.",
+    "Employ subtle shifts in color grading or lighting to signal changes every 3 seconds.",
+    "Explore rotating between different types of shots (e.g., close-ups, mediums, wide).",
+    "Adjust pacing by introducing mini-climaxes or reveals every 3 seconds.",
+    "Maintain high energy through consistent motion or movement cues."
+  ],
+  "hook_0_2_rule": [
+    "Capture viewer attention during the very first second with an eye-catching visual.",
+    "Pose a provocative question or scenario immediately to spark interest.",
+    "Utilize a strong, high-energy opening sound to draw attention instantly.",
+    "Present a clear and concise value proposition within 2 seconds.",
+    "Include unexpected elements (e.g., humor, surprise) right from the start to halt scrolling.",
+    "Start with compelling action or motion to instantly engage viewers.",
+    "Make sure brand elements are visible right away if branding is crucial.",
+    "Optimize the thumbnail and opening frame to be visually appealing even on silent autoplay."
+  ],
+  "pacing_editing_rules": [
+    "Utilize rapid cuts to create dynamic flow, especially in short-form ads.",
+    "Synchronize visual pacing with music beats for enhanced engagement.",
+    "Ensure narrative coherence despite fast cuts by maintaining a logical sequence.",
+    "Apply motion tracking or stabilization to enhance visual fluidity.",
+    "Switch perspectives frequently to prevent visual monotony.",
+    "Lengthen pause after impactful statements to let them resonate.",
+    "Layer in graphics or text dynamically to keep up with quick pacing.",
+    "Alternate between different scales of shots to create depth.",
+    "Maintain rhythm through consistent tempo shifts in editing.",
+    "Consider cross-cutting techniques to weave multiple storylines.",
+    "Balance speed with clarity, ensuring messages are easily understood even at rapid pace.",
+    "Use rhythmic patterns in both visuals and audio to enhance memory retention.",
+    "Experiment with jump cuts to indicate time progression efficiently.",
+    "Integrate slow-motion shots strategically to highlight important details."
+  ]
+}

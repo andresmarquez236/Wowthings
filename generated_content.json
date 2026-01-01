@@ -1,0 +1,73 @@
+{
+    "pain_point_section": {
+        "headline": "¿Cansada de noches sin dormir?",
+        "subtext": "Las madrugadas interminables y el llanto constante pueden desgastar incluso a la madre más fuerte. Cada noche parece una batalla perdida cuando tu bebé no logra conciliar el sueño. ¿Qué pasaría si hubiera una solución suave y efectiva?",
+        "image_prompt": "A tired young mother, sitting on the edge of a bed in a dimly lit room, holding a crying baby. The room is softly illuminated by a small nightlight, creating a warm and intimate atmosphere. Photorealistic, high contrast lighting capturing the mother's exhaustion and the baby's distress."
+    },
+    "value_proposition": {
+        "propuesta_texto": "El descanso que tu bebé necesita, en minutos.",
+        "beneficios_rapidos": [
+            "Induce el sueño en 5 minutos",
+            "Material hipoalergénico seguro",
+            "Lavable y fácil de mantener"
+        ]
+    },
+    "us_vs_them": {
+        "title": "Nutria Zen vs. Otros Métodos",
+        "text": "Descubre por qué Nutria Zen es la elección preferida por las madres.",
+        "rows": [
+            {
+                "benefit": "Simulación de respiración rítmica",
+                "us": true,
+                "others": false
+            },
+            {
+                "benefit": "Luces suaves y música relajante",
+                "us": true,
+                "others": false
+            },
+            {
+                "benefit": "Fácil de lavar",
+                "us": true,
+                "others": false
+            }
+        ]
+    },
+    "benefits_columns": {
+        "columns": [
+            {
+                "title": "Sueño en Minutos",
+                "text": "Nuestra tecnología de respiración rítmica ayuda a calmar a tu bebé rápidamente, asegurando un sueño más profundo y reparador."
+            },
+            {
+                "title": "Material Seguro",
+                "text": "Fabricado con materiales hipoalergénicos, Nutria Zen es seguro para la piel sensible de tu bebé."
+            },
+            {
+                "title": "Comodidad Duradera",
+                "text": "Diseñado para ser lavable, manteniendo siempre la frescura y suavidad que tu bebé merece."
+            }
+        ]
+    },
+    "faq_section": {
+        "heading": "Preguntas Frecuentes",
+        "qa_list": [
+            {
+                "question": "¿Es seguro para recién nacidos?",
+                "answer": "Sí, Nutria Zen está hecho de materiales hipoalergénicos y es completamente seguro para bebés desde el nacimiento."
+            },
+            {
+                "question": "¿Cómo se limpia Nutria Zen?",
+                "answer": "Nutria Zen es totalmente lavable a máquina, lo que facilita su limpieza y mantenimiento."
+            },
+            {
+                "question": "¿Realmente ayuda a dormir en 5 minutos?",
+                "answer": "Muchos padres han reportado que la simulación de respiración y la música suave ayudan a calmar a sus bebés y a conciliar el sueño rápidamente."
+            }
+        ]
+    },
+    "review_highlight": {
+        "text": "Desde que usamos Nutria Zen, mi bebé duerme toda la noche. ¡Es un cambio de vida!",
+        "author": "Laura M."
+    }
+}

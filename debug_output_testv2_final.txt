@@ -1,0 +1,3 @@
+✅ Imágenes cargadas correctamente.
+🚀 Generando imagen...
+✅ Imagen guardada: ad_generado_v2_0.png

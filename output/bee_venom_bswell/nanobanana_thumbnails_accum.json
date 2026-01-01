@@ -1,0 +1,1541 @@
+{
+  "runs": [
+    {
+      "input_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/market_research_min.json",
+      "product_name": "Bee Venom Bswell",
+      "product_slug": "bee_venom_bswell",
+      "model": "gpt-5.2",
+      "results": [
+        {
+          "angle_rank": 1,
+          "angle_name": "Antiedad con micro‑lifting natural (veneno de abeja)",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A1_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel visiblemente más firme y",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A1_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel visiblemente más firme y",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A1_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel visiblemente más firme y",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle_rank": 2,
+          "angle_name": "Alternativa accesible frente a marcas premium de ‘bee venom’",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "bee_venom_bswell_A2_V1",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "product": "Bee Venom Bswell (frasco de vidrio 120g, tratamiento cosmético con veneno de abeja purificado)",
+                "additional_assets": "No additional assets provided; generate background/props only (non-branded)."
+              },
+              "prompt": "Create a high-conversion 1:1 ecommerce ad thumbnail for the product 'Bee Venom Bswell' only: a 120g glass jar cosmetic treatment. Photorealistic studio product shot, hero product centered and largest, ultra-sharp label area but with no added logos or new branding. Luxury-inspired look on a budget: clean white-to-warm-cream gradient background with subtle golden honey glow, soft shadow under the jar, a few abstract honey droplets/bokeh (non-realistic, non-food) to suggest premium skincare. Add a small elegant price-contrast visual element: a faint, generic 'premium serum' silhouette bottle in the far background blurred and desaturated (no logos, no readable text), to imply expensive alternatives without naming brands. High contrast, crisp edges, premium lighting, minimal clutter. Leave clear negative space top-left for headline and bottom corners for badges.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Lujo sin pagar de más",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product jar must be the largest element (occupy ~55–65% of frame height), centered; sharpest point on the jar front; background elements must be blurred and secondary.",
+                "text_legibility": "Maintain clean negative space behind text; ensure WCAG-like contrast; avoid placing text over highlights; keep all text inside 10% safe margins."
+              },
+              "negative_prompt": "Do not change the product type or container; no pump bottles, no tubes. No brand logos added, no new labels, no readable fake brand names. No watermarks. No copyrighted characters. No recognizable faces or people. No medical claims, no 'before/after' split images. No cluttered backgrounds, no low contrast, no excessive props, no busy patterns. No currency symbols or exact competitor prices. Avoid bees/insects photorealistic close-ups."
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "bee_venom_bswell_A2_V2",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "product": "Bee Venom Bswell (frasco de vidrio 120g, tratamiento cosmético con veneno de abeja purificado)",
+                "additional_assets": "No additional assets provided; generate background/props only (non-branded)."
+              },
+              "prompt": "Design a bold, high-contrast ecommerce thumbnail featuring ONLY the Bee Venom Bswell 120g glass jar as the hero. Background: split diagonal from matte black (top-right) to warm champagne gold (bottom-left) to signal premium. Add a subtle, abstract 'luxury receipt/price tag' graphic in the background with generic, unreadable lines (no numbers, no currency, no brands) to imply expensive skincare, kept very faint and out of focus. Product placed slightly right of center, large and sharp with glossy highlights. Add a soft golden rim light around the jar for premium feel. Reserve top-left for headline and bottom badges.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Resultados tipo spa, accesible",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Jar must dominate the frame and be the sharpest element; background graphics must be subtle and blurred; keep diagonal split behind product for depth.",
+                "text_legibility": "Use solid blocks behind headline; keep badges on flat color areas; avoid overlapping text with product edges; maintain 10% safe margin."
+              },
+              "negative_prompt": "No additional products, no competitor packaging, no readable brand names, no price numbers, no currency symbols. No faces, hands, or models. No bees/insects, no honeycomb photos. No watermarks, no QR codes. No exaggerated medical/clinical claims. No messy reflections that obscure the jar. No low-res, no motion blur."
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "bee_venom_bswell_A2_V3",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "product": "Bee Venom Bswell (frasco de vidrio 120g, tratamiento cosmético con veneno de abeja purificado)",
+                "additional_assets": "No additional assets provided; generate background/props only (non-branded)."
+              },
+              "prompt": "Create a clean, premium-minimal thumbnail with ONLY the Bee Venom Bswell 120g glass jar. Background: bright off-white with a soft marble-like gradient (abstract, not a real branded surface), plus a single elegant gold line frame around the edges (thin, modern). Add a small, blurred 'luxury shelf' vibe using two out-of-focus neutral skincare jar silhouettes in the far background (generic shapes, no labels, no logos) to imply high-end routine, but keep Bee Venom Bswell as the only sharp and prominent product. Place the hero jar slightly left, large, with crisp shadow and high clarity. Leave right side negative space for headline; badges at bottom.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Cuidado de lujo, smart buy",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Hero jar occupies ~60% height, sharpest element; background silhouettes must be heavily blurred and smaller; maintain premium minimalism.",
+                "text_legibility": "Headline on clean panel; ensure no overlap with jar; keep all overlays inside 10% safe margin; maintain strong contrast against background."
+              },
+              "negative_prompt": "Do not alter the product container or size; no pump/tube. No added logos, no readable text on background items. No people, faces, hands. No watermarks. No competitor brand references. No price numbers/currency. No busy marble texture, no harsh patterns. No medical claims or clinical charts. No insects or honeycomb imagery."
+            }
+          ]
+        },
+        {
+          "angle_rank": 3,
+          "angle_name": "Hidratación + ingredientes multifunción (HA, colágeno, propóleo)",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "bee_venom_bswell_A3_V1",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "product": "Bee Venom Bswell cosmetic cream in a clear glass jar, 120g, with a simple label reading 'Bee Venom Bswell' (no logos), metallic/gold lid; show as a real product photo cutout or photoreal render."
+              },
+              "prompt": "Create a high-conversion ecommerce square thumbnail (1080x1080) for a skincare product. Depict ONLY the product 'Bee Venom Bswell' as a clear glass jar (120g) with a minimal label that reads exactly 'Bee Venom Bswell' (no brand logo), with a metallic gold lid. Hero product centered and largest, ultra-sharp, glossy highlights, realistic glass reflections. Background: clean warm ivory-to-honey gradient with subtle bokeh. Add three small ingredient icons to the right side (not competing with product): a water droplet icon for hyaluronic acid, a collagen fiber swirl icon, and a propolis/honeycomb icon; keep them simple, generic, and unbranded. Add a soft light beam behind the jar to suggest glow. Overall look: premium, minimal, high contrast, strong depth, crisp edges, studio lighting, no clutter.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Hidratación + Glow",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product jar must be the largest and sharpest element; ingredient icons secondary and smaller; no other objects competing for attention.",
+                "text_legibility": "All text must be high-contrast, inside 10% safe margins, not overlapping key product label; use solid/boxed text treatments to remain readable on mobile."
+              },
+              "negative_prompt": "Do not add any other products, boxes, droppers, or extra jars. No brand logos, no watermarks, no QR codes, no seals, no fake certifications, no medical claims, no before/after skin photos, no faces or people, no hands, no bees or insects, no copyrighted characters. No messy bathroom scenes. Avoid low contrast, blur, noise, overexposure, distorted glass, unreadable label, misspelled text, or extra text beyond the 3 overlays."
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "bee_venom_bswell_A3_V2",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "product": "Bee Venom Bswell cosmetic cream in a clear glass jar, 120g, with a simple label reading 'Bee Venom Bswell' (no logos), metallic/gold lid; show as a real product photo cutout or photoreal render."
+              },
+              "prompt": "Design a clean, high-contrast square ecommerce thumbnail (1080x1080). Show ONLY the 'Bee Venom Bswell' clear glass jar (120g) with a minimal label reading exactly 'Bee Venom Bswell' (no logo), gold metallic lid. Place the jar slightly left-of-center, very large, ultra-sharp. Background: bright white with a diagonal honey-gold swoosh ribbon from top-right to bottom-left to create energy. On the right side, create a neat vertical stack of three minimal ingredient callout chips (no extra text inside chips): droplet icon (HA), collagen swirl icon, honeycomb/propolis icon; each chip in a small rounded square with subtle shadow. Add a faint glossy reflection under the jar for premium feel. Lighting: crisp studio, strong specular highlights, clean edges.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Rutina Express 1 Paso",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Jar dominates the frame (about 60–70% height). Right-side icons must remain clearly secondary and not exceed 20% visual weight.",
+                "text_legibility": "Headline and badges must not overlap the product label; ensure strong contrast against background ribbon; keep all text within safe margins and large enough for mobile feed."
+              },
+              "negative_prompt": "No additional skincare items, no boxes, no droppers, no props like towels or flowers. No faces, no hands, no bees/insects. No logos, no watermarks, no fake awards, no clinical charts, no extra text beyond the 3 overlays. Avoid clutter, low contrast, busy patterns, illegible label, misspellings, warped jar, or unrealistic reflections."
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "bee_venom_bswell_A3_V3",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "product": "Bee Venom Bswell cosmetic cream in a clear glass jar, 120g, with a simple label reading 'Bee Venom Bswell' (no logos), metallic/gold lid; show as a real product photo cutout or photoreal render."
+              },
+              "prompt": "Create a premium skincare ecommerce thumbnail (1080x1080) featuring ONLY the product 'Bee Venom Bswell' in a clear glass jar (120g) with a minimal label reading exactly 'Bee Venom Bswell' (no logo) and a gold metallic lid. Center the jar, very large, ultra-sharp. Background: deep charcoal/black with a soft golden halo behind the jar to emphasize luminosity. Add subtle abstract hydration particles (tiny light dots) around the halo, minimal and not distracting. Include three small, clean ingredient symbols arranged in a thin arc above the jar (droplet for HA, collagen swirl, honeycomb for propolis), monochrome gold line icons. Overall: luxury, high contrast, crisp studio lighting, strong highlights on glass and lid, clean negative space for text.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel Luminosa Todo‑en‑1",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "The jar must be the hero and sharpest; halo and particles must be subtle; icons must be small and not compete with the product.",
+                "text_legibility": "Headline must sit on the darkest clean area with high contrast; badges must be readable at small size; keep all text within 10% safe margins and avoid covering the label."
+              },
+              "negative_prompt": "No people, no faces, no hands. No bees/insects. No additional products or packaging. No logos, no watermarks, no QR codes, no fake certifications, no medical/clinical claims, no before-after images. Avoid busy backgrounds, lens distortion, blur, noise, illegible label, extra text, or incorrect product name."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "input_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/market_research_min.json",
+      "product_name": "Bee Venom Bswell",
+      "product_slug": "bee_venom_bswell",
+      "model": "gpt-5.2",
+      "results": [
+        {
+          "angle_rank": 1,
+          "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A1_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel más firme y con",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A1_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel más firme y con",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A1_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Piel más firme y con",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle_rank": 2,
+          "angle_name": "Lujo aspiracional y tendencia global (\"natural botox\" + K‑beauty) a precio accesible en Colombia",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A2_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Inspirado en rituales de lujo",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A2_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Inspirado en rituales de lujo",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A2_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Inspirado en rituales de lujo",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle_rank": 3,
+          "angle_name": "Accesibilidad y conveniencia: envío nacional y pago contraentrega",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A3_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Recíbelo en casa y págalo",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A3_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Recíbelo en casa y págalo",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "bee_venom_bswell_A3_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "prompt": "Create an original square (1:1) high-conversion ecommerce thumbnail. Make the product the largest and sharpest element. Clean modern layout, high contrast, soft bokeh background, no watermarks, no brand logos, no recognizable faces.",
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Recíbelo en casa y págalo",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

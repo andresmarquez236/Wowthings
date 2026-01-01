@@ -1,0 +1,428 @@
+{
+  "meta": {
+    "generated_at_utc": "2025-12-30T18:05:43.529359+00:00",
+    "model": "gpt-4o",
+    "market_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/market_research_min.json",
+    "caches": {
+      "hooks_pack": "output/mini_proyector_portátil_1080p/hooks_pack.json",
+      "trends_pack": "output/mini_proyector_portátil_1080p/trends_pack.json",
+      "video_rules_pack": "output/mini_proyector_portátil_1080p/video_rules_pack.json"
+    },
+    "product": {
+      "nombre_producto": "Producto",
+      "descripcion": "",
+      "garantia": "",
+      "precio": "",
+      "pais_objetivo": "Colombia"
+    }
+  },
+  "results": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Cine en casa accesible (100” en cuarto oscuro) vs TV grande",
+      "buyer_persona": "Parejas jóvenes y familias en apartamentos; estudiantes",
+      "ad_copy": {
+        "title": "Cine en casa sin comprar TV caro",
+        "primary_text": "Transforma tu habitación en un cine con pantalla gigante por menos de lo que cuesta un TV de alto precio. ¡Descubre cómo!",
+        "description": "Pantallas gigantes a precios accesibles, perfecta para espacios pequeños."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2 seconds",
+          "cadence_rule": "3 seconds",
+          "change_definition": "Change 2 of 3: Visual, Text, Rhythm"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Nuevo cine en casa por pocos pesos?",
+            "visual": "Close-up of surprised young couple looking towards the camera",
+            "voiceover": "¿Quieres un cine en tu casa por muy poco dinero?",
+            "rhythm_editing": "Fast-paced zoom-in",
+            "sfx_music": "Optimistic music swell",
+            "transition": "Quick jump cut to next scene",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "¡Pantalla gigante (≈100”) sin TV carísimo!",
+            "visual": "Wide angle of a room with a large projector screen",
+            "voiceover": "Obtén una pantalla gigante sin gastar en una TV enorme.",
+            "rhythm_editing": "Smooth pan across the screen",
+            "sfx_music": "Warm electronic",
+            "transition": "Swipe to next scene",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "A oscuras: Increíble nitidez",
+            "visual": "Overlay of vibrant movie scene in a dark room",
+            "voiceover": "Experimenta una nitidez impresionante incluso en la oscuridad.",
+            "rhythm_editing": "Slow reveal with an impactful cut",
+            "sfx_music": "Dramatic bass drop",
+            "transition": "Smash cut to next",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Ambiente: Pantallas más claras",
+            "visual": "Comparative shot of ambient light setup",
+            "voiceover": "Pantallas que funcionan incluso con luz ambiental.",
+            "rhythm_editing": "Jump cut between scenarios",
+            "sfx_music": "Light percussion beat",
+            "transition": "Fade to next shot",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Quédate seguro: Calidad 1080p",
+            "visual": "Close-up on 1080p stamp over high-resolution image",
+            "voiceover": "Calidad garantizada: auténtico 1080p que te sorprenderá.",
+            "rhythm_editing": "Whip pan to reveal stamp",
+            "sfx_music": "Confirmation chime",
+            "transition": "Camera flash effect",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "¡Desde COP $300k! Mucho menos que un TV",
+            "visual": "Overlay of comparison with TV price tag",
+            "voiceover": "¡Todo por menos de lo que piensas!",
+            "rhythm_editing": "Dancing price tags",
+            "sfx_music": "Energetic drum roll",
+            "transition": "Spin transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "¿Listo para tu cine en casa?",
+            "visual": "Young couple enjoying movie night at home",
+            "voiceover": "Hazlo posible hoy mismo.",
+            "rhythm_editing": "Slow-motion celebration",
+            "sfx_music": "Triumphant outro",
+            "transition": "Fade out",
+            "cta": "Compra ahora y vive la experiencia"
+          }
+        ],
+        "production_notes": [
+          "Use close-ups to capture viewers' reactions.",
+          "Utilize vibrant colors for visual pop.",
+          "Ensure text overlays are large and clear.",
+          "Include dynamic transitions for video flow.",
+          "Employ upbeat, rhythmic music that matches visuals.",
+          "Focus on UGC-style spontaneous shots.",
+          "Adjust lighting to highlight screen contrast.",
+          "Show joyful interactions and product in use.",
+          "Capture diverse scenes of functionality.",
+          "Incorporate ambient and dark room scenarios.",
+          "Visually emphasize the affordability and comparison.",
+          "Ensure consistent focus on quality and user experience."
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Before-and-After Reveal",
+        "Problem-Solution Dynamic",
+        "Unexpected Fact",
+        "Fear of Missing Out (FoMO)"
+      ],
+      "compliance_notes": [
+        "Avoid over-exaggeration of screen size for clarity.",
+        "Ensure the depiction of 'dark room' fidelity aligns with typical user expectations.",
+        "Stay within implied pricing without explicit figures.",
+        "Refrain from implying exclusivity that can't be guaranteed."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Portabilidad + streaming estable con TV Stick (sin dolores de cabeza)",
+      "buyer_persona": "Estudiantes, viajeros, familias que mueven el equipo entre habitaciones",
+      "ad_copy": {
+        "title": "¡Conecta y disfruta a donde vayas!",
+        "primary_text": "Olvídate de los problemas de streaming. Lleva tus apps favoritas contigo, de forma fluida y sin obstáculos, gracias a nuestro TV Stick.",
+        "description": "Streaming sin fallos, cada vez que lo desees."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "3-3-3 cadence: change visual, text, or audio every 3 seconds",
+          "change_definition": "Each beat must introduce at least two changes in visual, text message, or editing style."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Apps que fallan?",
+            "visual": "Close-up of frustrated face looking at glitching screen.",
+            "voiceover": "¿Apps que fallan?",
+            "rhythm_editing": "Quick zoom in",
+            "sfx_music": "Buzzer sound",
+            "transition": "Smash cut",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Lleva tu TV Stick",
+            "visual": "Shot of TV Stick being packed into a backpack",
+            "voiceover": "Lleva tu TV Stick a cualquier lugar.",
+            "rhythm_editing": "Calm music starts",
+            "sfx_music": "Soft swoosh",
+            "transition": "Slide transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Conecta en segundos",
+            "visual": "Hands plug TV Stick into hotel TV HDMI port",
+            "voiceover": "Conéctalo en segundos a cualquier TV.",
+            "rhythm_editing": "Snappy cuts",
+            "sfx_music": "Click sound",
+            "transition": "Whip pan",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Tus apps, sin problemas",
+            "visual": "Apps launching smoothly on TV",
+            "voiceover": "Disfruta tus apps, sin problemas.",
+            "rhythm_editing": "Steady zoom out",
+            "sfx_music": "Chime",
+            "transition": "Fade to white",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Funciona con Fire TV/Roku/Chromecast",
+            "visual": "Logos of Fire TV, Roku, Chromecast flashing",
+            "voiceover": "Compatible con Fire TV, Roku y Chromecast.",
+            "rhythm_editing": "Fast-paced cuts",
+            "sfx_music": "Tech sound",
+            "transition": "Flash transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Streaming sin pausas",
+            "visual": "Family enjoying smooth streaming on couch",
+            "voiceover": "Streaming sin pausas ni interrupciones.",
+            "rhythm_editing": "Smooth tracking",
+            "sfx_music": "Soft background beat",
+            "transition": "Pull out",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "¡Haz la prueba!",
+            "visual": "Close-up of person smiling holding the TV Stick",
+            "voiceover": "Descubrelo tú. ¡Haz la prueba!",
+            "rhythm_editing": "High-energy finale",
+            "sfx_music": "Uplifting note",
+            "transition": "Fade to black",
+            "cta": "¡Descubre más ahora!"
+          }
+        ],
+        "production_notes": [
+          "Start with a close-up shot using natural lighting to capture a relatable emotion.",
+          "Use clear, bold text for all overlays to ensure readability.",
+          "Incorporate soft background music from beat 2 to maintain a pleasant tone.",
+          "Transition using smooth fades or whip pans to align with sound effects for cohesion.",
+          "Show real-life usage scenarios, such as plugging into a hotel TV.",
+          "Keep edits snappy during app demonstration to portray efficiency and reliability.",
+          "Use dynamic angles, like overhead or close-up shots, for visual interest.",
+          "Sync text changes with visual cuts to guide the viewer's attention effectively.",
+          "Highlight compatibility by visually showing the logos of known streaming platforms.",
+          "End with a compelling call to action, inviting the viewer to engage further."
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Problem-Solution Dynamic",
+        "Pain Point Emphasis",
+        "Unexpected Fact",
+        "Show the benefits of the product in use",
+        "Utilize emotionally charged language to create a connection."
+      ],
+      "compliance_notes": [
+        "Ensure all claims about app compatibility are accurate.",
+        "Avoid using any logos without appropriate permissions.",
+        "Refrain from implying specific functionalities not guaranteed by the product.",
+        "All sound effects and music should be free of copyright issues."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Regalo ‘wow’ y tendencia social (TikTok/Prime Days)",
+      "buyer_persona": "Compradores de regalo (Navidad, grados, cumpleaños)",
+      "ad_copy": {
+        "title": "¡Haz del regalo una experiencia inolvidable!",
+        "primary_text": "Sorprende con el mini cine portátil que todos quieren para Navidad. ¡Ideal para cualquier ocasión!",
+        "description": "Un regalo que será tendencia en cada evento. No te quedes atrás."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0–2 segundos",
+          "cadence_rule": "Cambio cada 1-3 segundos de elementos de visual, texto o audio",
+          "change_definition": "Intercambio de visuales, superposición de texto o ritmo de audio cada 3 segundos"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "Regalo de la temporada 🎁",
+            "visual": "Unboxing de producto con colores vibrantes.",
+            "voiceover": "¿Buscar un regalo WOW?",
+            "rhythm_editing": "Rápido, primer plano de unboxing.",
+            "sfx_music": "Efecto de ‘¡Tada!’",
+            "transition": "14*Descubrir el valor con una gran revelación.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Presentamos: Mini Cine",
+            "visual": "Persona configurando el proyector portátil.",
+            "voiceover": "Conviértelo en un mini cine.",
+            "rhythm_editing": "Cambio rápido al otro ángulo.",
+            "sfx_music": "Música alegre y moderna.",
+            "transition": "Atención en el dispositivo funcionando.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Tendencia viral 🌐",
+            "visual": "Clips de reseñas positivas en redes.",
+            "voiceover": "Tendencia que todos comentan.",
+            "rhythm_editing": "Rápidas tomas entre clips de redes.",
+            "sfx_music": "Zumbido ligero de multitudes.",
+            "transition": "Corte a varias reseñas de usuarios.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Lleva la experiencia a casa",
+            "visual": "Projector desplegando amplia imagen en una pared.",
+            "voiceover": "Cine en la palma de tu mano.",
+            "rhythm_editing": "Zoom sobre la imagen proyectada.",
+            "sfx_music": "Efecto de expandir.",
+            "transition": "Ampliación de imagen proyectada.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Ideal para cualquier ocasión ✨",
+            "visual": "Familia usándolo en Navidad, amigos en una fiesta.",
+            "voiceover": "Sorprende a todos, en cualquier evento.",
+            "rhythm_editing": "Cortes rápidos entre diferentes escenarios.",
+            "sfx_music": "Risas y momentos alegres en off.",
+            "transition": "Superposición de texto con ocasión festiva.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Disponible solo en oferta 🎈",
+            "visual": "Texto de oferta especial sobre el proyector.",
+            "voiceover": "¡No lo dejes pasar!",
+            "rhythm_editing": "Zoom en la oferta.",
+            "sfx_music": "Sonido de campana de tienda.",
+            "transition": "Desenfoque y reenfoque en el texto de oferta.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "¡Consigue tu mini cine ahora! 🎬",
+            "visual": "Pantalla final con detalles de compra.",
+            "voiceover": "Aprovecha y adquiere el tuyo.",
+            "rhythm_editing": "Desvanecer a negro con llamada a la acción clara.",
+            "sfx_music": "Cierre musical fuerte para terminar.",
+            "transition": "Fundido a negro.",
+            "cta": "Comprar ahora"
+          }
+        ],
+        "production_notes": [
+          "Empezar con un primer plano para captar la atención de inmediato.",
+          "Utilizar colores contrastantes en la apertura para destacar.",
+          "Asegurar que el texto sea claro y legible, menos de 2 segundos.",
+          "Mantener una transición fluida con música moderna y activa.",
+          "Cambio frecuente de escenas para mantener la atención.",
+          "Añadir capas de sonido para profundidad (e.g., risas, efectos).",
+          "Integrar directamente clips de redes sociales para autenticidad.",
+          "Capas de texto en gran tamaño para asegurar lectura en móvil.",
+          "Usar luz natural para escenas familiares, ambiente acogedor.",
+          "Añadir interacciones humanas para conexión emocional.",
+          "Finalizar con un llamado visual potente ('Comprar ahora').",
+          "Iluminar productos con luz clara y directa para enfoque.",
+          "Usar cuadros con risas o momentos alegres comunes.",
+          "Evitamos elementos estáticos por más de 3 segundos."
+        ]
+      },
+      "hooks_used": [
+        "Unveiling the Solution",
+        "Fear of Missing Out (FoMO)",
+        "User-Generated Content",
+        "Pain Point Emphasis",
+        "Testimonial Spotlight",
+        "Success Story Highlight"
+      ],
+      "compliance_notes": [
+        "No se hacen declaraciones numéricas específicas.",
+        "No se menciona una oferta de garantía explícita para evitar malentendidos.",
+        "No se dan datos de precios específicos.",
+        "El video cumple con las normas de duración establecidas."
+      ]
+    }
+  ]
+}

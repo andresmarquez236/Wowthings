@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "run_date_iso": "2025-12-30",
+    "model": "GPT-4.1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "TAspersor De Riego I360",
+    "descripcion": "Aspersor de Jardín 360° – Potente, Estable y Divertido 🌱🚿\n¡Haz que tu jardín luzca siempre verde y saludable con este aspersor automático oscilante de 360°! Ideal para un riego uniforme y eficiente, ¡y también perfecto para que niños y mascotas se diviertan en días calurosos! 🧒🐶☀️\n\n🔧 Características Principales:\n💦 Potente riego automático: Brazos ajustables con boquillas de pulverización integradas para una cobertura uniforme y eficiente.\n\n🔄 Rotación 360°: Riega en todas las direcciones, alcanzando cada rincón de tu jardín sin esfuerzo.\n\n🌍 Cobertura de área extra grande: Ideal para jardines, céspedes y huertos. ¡Cubre más espacio con menos esfuerzo!\n\n🧱 Estabilidad garantizada: Fabricado con plástico ABS de alta calidad y polímero resistente al desgaste. No se vuelca ni se mueve durante el uso.\n\n🌧️ Simula lluvia natural: El patrón de riego es suave y uniforme, evitando encharcamientos y protegiendo el suelo.\n\n👨‍👩‍👧‍👦 ¡Diversión bajo el sol!\nAdemás de regar tus plantas, el aspersor puede convertirse en una divertida fuente de juegos acuáticos para los más pequeños y tus mascotas durante los días calurosos. 🏃‍♂️🐾💦\n\n✅ Fácil de usar, resistente, multifuncional y perfecto para cualquier temporada.\n¡Convierte tu jardín en un oasis de vida y alegría! 🌳🌞",
+    "garantia": "10 dias",
+    "precio": "COP 95000"
+  },
+  "resumen_corto": "Producto genérico tipo “aspersor giratorio 360° de 3 brazos”. Hay fuerte disponibilidad local (Homecenter, tiendas online) con amplio rango de precios (≈COP 24.900–239.359). Ventas potenciales en temporada seca y calor; ángulos más sólidos: riego uniforme 360°, facilidad de uso/compatibilidad y uso lúdico con niños/mascotas. Riesgos: alta competencia, poco “wow”, marca/modelo y garantía no verificables. Recomendado posicionarlo por facilidad + diversión + kits multiunidad y no por precio vs retail masivo.",
+  "product_fingerprint": {
+    "marca": "TAspersor (no verificada en fuentes)",
+    "modelo": "I360 (no verificado)",
+    "categoria": "Aspersor giratorio 360° de 3 brazos para jardín",
+    "specs_claims_clave": [
+      "Rotación 360°",
+      "3 brazos giratorios con múltiples boquillas (4–12 según variante)",
+      "Material plástico ABS (base/cabeza)",
+      "Entrada estándar 3/4\" (según variantes Pretul)",
+      "Presión típica 40–50 PSI (según Pretul)",
+      "Cobertura referida hasta 15 m o 50–75 m² (según tiendas)",
+      "Compatible con conectar varios aspersores en serie",
+      "Patrones de rocío tipo lluvia/niebla (según variantes)"
+    ],
+    "rango_precio_observado": "COP 24.900 – 239.359 (Colombia, retail online)",
+    "garantia_tipo": "Amplia variación por vendedor: 12 meses (Pretul/Homecenter), 90 días (Banurtec), 15 días devolución (MercadoSmart). No confirmado para TAspersor I360.",
+    "variantes_detectadas": [
+      "Con estaca 1 vía/2 vías (Pretul)",
+      "Sin estaca, base plástica aerodinámica",
+      "Brazos en ABS vs. aluminio (Pretul/Rehau)",
+      "Diferente número de boquillas (4/12)",
+      "Marcas: Pretul, Rehau, Total, genéricas"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Riego uniforme 360° para césped/jardín (simple y eficaz)",
+      "score_0a10": 8.2,
+      "buyer_persona": "Hogares con jardín pequeño/mediano que buscan regar sin esfuerzo",
+      "promesa": "Cobertura circular continua que alcanza esquinas y evita zonas secas con mínimo ajuste.",
+      "objecion_principal": "“Con manguera manual me basta/¿sí cubre bien?”",
+      "justificacion": "Hay múltiples listados en Colombia con especificaciones de 360°, 3 brazos y boquillas múltiples; se reporta cobertura hasta 15 m y 50–75 m², lo que valida el beneficio de riego uniforme para áreas caseras. Marcas retail (Pretul en Homecenter) y tiendas locales refuerzan que es un uso común y fácil en jardines domésticos. citeturn0search10turn0search0turn0search4",
+      "evidencia": [
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/619343/aspersor-de-riego-360-sin-estaca-area-de-16-metros/619343/",
+          "pais": "CO",
+          "match_note": "Coincide 360°, ABS, presión 40–50 PSI, entrada 3/4\" (misma categoría/uso).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://1megaclick.com/products/aspersor360-grados-riego",
+          "pais": "CO",
+          "match_note": "3 brazos, 12 boquillas, rotación automática 360°, cobertura hasta 15 m (misma arquitectura).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://safetytech.com.co/products/aspersor-rociador-jardin-360-fk23d-185",
+          "pais": "CO",
+          "match_note": "Describe base estable, 360°, conectar varios; misma solución funcional.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Diversión segura al sol: juegos de agua para niños y mascotas",
+      "score_0a10": 7.6,
+      "buyer_persona": "Familias con niños/pets buscando actividad refrescante en casa",
+      "promesa": "Convierte el riego en juego veraniego, con spray 360° suave tipo lluvia.",
+      "objecion_principal": "“¿Es seguro/resistente para niños?”",
+      "justificacion": "El uso lúdico es un posicionamiento frecuente en listados y en retailers internacionales (Walmart kids sprinkler; publicaciones locales mencionan uso recreativo). Esto valida el ángulo de diversión familiar en días calurosos. citeturn1search5turn4search5",
+      "evidencia": [
+        {
+          "url": "https://www.walmart.com/ip/16480059637",
+          "pais": "US",
+          "match_note": "Juguete/aspersor 360° para niños; confirma el uso lúdico (misma dinámica de spray).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.mercadolibre.com.co/aspersor-de-riego-rociador-de-agua-gira-360-3-brazos-jardin/p/MCO36878913",
+          "pais": "CO",
+          "match_note": "Listing local menciona disfrute de niños; 360°, ABS (misma categoría).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Instalación fácil y compatibilidad con mangueras estándar",
+      "score_0a10": 8,
+      "buyer_persona": "Usuarios sin experiencia en riego; arrendatarios",
+      "promesa": "Listo en minutos: conectar a manguera 3/4\" o adaptadores rápidos sin herramientas.",
+      "objecion_principal": "“No soy experto/¿funciona con mi manguera?”",
+      "justificacion": "Fuentes locales especifican entrada 3/4\" y conectores; otras tiendas confirman compatibilidad con mangueras tradicionales/rápidas. Baja fricción de instalación. citeturn0search10turn0search4turn0search1",
+      "evidencia": [
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/619343/aspersor-de-riego-360-sin-estaca-area-de-16-metros/619343/",
+          "pais": "CO",
+          "match_note": "Entrada 3/4\", presión 40–50 PSI; estándar doméstico.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://safetytech.com.co/products/aspersor-rociador-jardin-360-fk23d-185",
+          "pais": "CO",
+          "match_note": "Incluye conectores rápidos/roscados; enlazable a varias unidades.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://mercadosmart.com.co/product/aspersor-automatico-de-agua-para-jardin-sistema-de-riego-de-rotacion-de-360-grados-cobertura-de-area-grande-para-patio-cesped/",
+          "pais": "CO",
+          "match_note": "Compatibilidad con mangueras tradicionales y conector rápido.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Cobertura amplia con opción de enlazar varios aspersores",
+      "score_0a10": 6.8,
+      "buyer_persona": "Propietarios con áreas medianas que buscan ampliar cobertura",
+      "promesa": "Cubre más metros cuadrados uniendo 2–3 unidades; sin sistemas caros.",
+      "objecion_principal": "“Mi patio es grande, ¿se queda corto?”",
+      "justificacion": "Listados locales indican cobertura 50–75 m² y la posibilidad de conectar 2+ aspersores. Guías externas y fichas describen alcance (30 ft/≈9–15 m), validando la modularidad para áreas mayores. citeturn0search0turn1search4",
+      "evidencia": [
+        {
+          "url": "https://1megaclick.com/products/aspersor360-grados-riego",
+          "pais": "CO",
+          "match_note": "Indica 50–75 m² por unidad y conectar múltiples; 3 brazos/12 boquillas.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://waterlyst.com/articles/best-rotating-sprinklers",
+          "pais": "US",
+          "match_note": "Reseña técnica de aspersor 3 brazos/12 boquillas; alcance/área como referencia del formato.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Riego suave tipo lluvia + base estable (protege plantas tiernas)",
+      "score_0a10": 7,
+      "buyer_persona": "Huertos urbanos y jardineros que cuidan brotes/flores",
+      "promesa": "Patrón fino que no maltrata el sustrato y base estable que no ‘camina’.",
+      "objecion_principal": "“Temo encharcamientos o que se vuelque.”",
+      "justificacion": "Descripciones locales mencionan patrón ‘lluvia’/niebla y base aerodinámica estable; Homecenter y reseñas técnicas citan ABS y estabilidad para evitar caídas. citeturn4search0turn0search10",
+      "evidencia": [
+        {
+          "url": "https://urbasan.cl/producto/aspersor-regador-giratorio-360-3-brazos/",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "Describe ‘lluvia’ y base aerodinámica estable; 360°/3 brazos/ABS.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/619343/aspersor-de-riego-360-sin-estaca-area-de-16-metros/619343/",
+          "pais": "CO",
+          "match_note": "ABS y parámetros domésticos; misma tipología de producto.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Riega 360° sin mover la manguera: ¡cobertura pareja, cero zonas secas!",
+        "Instálalo en 1 minuto y olvídate: abre la llave y listo.",
+        "Llega a esquinas difíciles con spray uniforme y sin encharcar.",
+        "Optimiza tu tiempo: riega mientras haces otras tareas.",
+        "¿Patio mediano? Conecta 2 y duplica cobertura."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Plan anti-calor para peques y peludos: bruma 360° segura y divertida.",
+        "Convierte el jardín en parque acuático casero (sin piscina).",
+        "Spray suave tipo lluvia: ideal para juegos al sol.",
+        "Diversión y riego al mismo tiempo: dos pájaros de un tiro.",
+        "Finde en familia: conéctalo, corre y refréscate."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Compatible con manguera estándar 3/4\": sin herramientas, sin drama.",
+        "Incluye conectores rápidos: arma-tu-riego en minutos.",
+        "Tu primer sistema de riego por menos de lo que crees.",
+        "Ligero y portátil: llévalo a la huerta, terraza o antejardín.",
+        "Funciona con la presión de tu casa: sin bombas ni energía extra."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Cubre más por menos: enlaza 2–3 unidades y escala tu riego.",
+        "Hasta 15 m de alcance por unidad (según presión).",
+        "Ideal para céspedes largos o huertos en línea.",
+        "Amplía cobertura sin instalar tuberías ni programadores costosos.",
+        "Arma tu ‘kit de cobertura total’ según tu patio."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Lluvia fina que cuida brotes y flores delicadas.",
+        "Base estable que no se ‘camina’ con la presión.",
+        "Riega parejo sin maltratar el sustrato.",
+        "El ABS resiste sol y uso diario.",
+        "Perfecto para macizos, huertos y jardinería urbana."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "En Colombia hay temporadas secas (dic–mar y jul–ago) y lluviosas (abr–may, oct–nov), con variación por región. citeturn3search6turn3search4",
+      "En 2024 hubo racionamiento de agua en Bogotá por sequía (El Niño), lo que impulsa mensajes de uso responsable/eficiente del riego. citeturn3news12turn3news14",
+      "Para 2025, IDEAM reportó periodos de menos lluvias hasta marzo y escenarios de lluvias por debajo de lo normal en junio–julio en varias zonas, lo que puede elevar el interés por riego doméstico. citeturn3search1turn3search3turn3search2"
+    ],
+    "hipotesis": [
+      "Picos de demanda en olas de calor y vacaciones escolares (uso lúdico).",
+      "Mayor interés en kits multiunidad en meses secos en Andina/Caribe.",
+      "Mensajes de ‘uso eficiente del agua’ reducen fricción en ciudades con antecedentes de racionamiento."
+    ],
+    "correlacion_con_angulos": "Ángulo 1 (riego uniforme) es evergreen; Ángulo 2 (diversión) sube con calor/vacaciones; Ángulo 4 (enlazar varios) gana tracción en temporada seca; Ángulo 5 apela todo el año a huertos urbanos."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Riego uniforme 360° para césped/jardín doméstico; presencia retail valida el uso.",
+      "fuentes": [
+        "citeturn0search10",
+        "citeturn0search0"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Producto simple (conectar manguera y gira 360°); fotos/descripciones claras en retail.",
+      "fuentes": [
+        "citeturn0search10",
+        "citeturn0search4"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Amplia oferta en retail masivo (Homecenter, múltiples tiendas) sugiere mercado amplio, aunque limitado a hogares con jardín.",
+      "fuentes": [
+        "citeturn0search10",
+        "citeturn0search6"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Sugerir encuesta rápida a base local o test de anuncio con intención de compra.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Retail desde COP 24.900 (Homecenter) presiona PVP 95.000. Aunque hay mayorista ≈36.000–50.400, la competencia a 24.900 reduce margen potencial en marketplaces.",
+      "fuentes": [
+        "citeturn0search10",
+        "citeturn2search1"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Disponible en Homecenter y varias tiendas locales.",
+      "fuentes": [
+        "citeturn0search10",
+        "citeturn2search4"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Formato muy común; múltiples marcas genéricas y retail masivo.",
+      "fuentes": [
+        "citeturn2search3",
+        "citeturn0search8"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia de tendencia). Hay disponibilidad en Walmart/eBay pero sin señales de ‘trend’. Buscar Google Trends/ventas por categoría.",
+      "fuentes": [
+        "citeturn1search2",
+        "citeturn1search3"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia (Homecenter, múltiples ecom locales y marketplaces).",
+      "fuentes": [
+        "citeturn0search10",
+        "citeturn0search1"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia de ventas a nivel producto). Revisar reviews/ventas verificables por SKU en Amazon/ML.",
+      "fuentes": [
+        "citeturn4search2",
+        "citeturn1search2"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo? (repetido)",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Repetido en input.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (criterio subjetivo). Requiere preferencia personal/encuesta.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Numerosos listados, fotos y videos demostrativos; tutoriales/guías similares.",
+      "fuentes": [
+        "citeturn4search0",
+        "citeturn0search7"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso todo el año con picos en temporada seca/calor; respaldo climatológico general para Colombia.",
+      "fuentes": [
+        "citeturn3search6",
+        "citeturn3search1"
+      ]
+    },
+    {
+      "criterio": "total? (fila de control: NO siempre, se calcula en score_total)",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Control: este campo no se valida manualmente.",
+      "fuentes": []
+    }
+  ],
+  "score_total": {
+    "total_si": 5,
+    "total_criterios": 15,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Verificar existencia de marca/modelo ‘TAspersor I360’ (sitio oficial, registro de marca, SKU).",
+    "Confirmar garantía real del vendedor de TAspersor (política de cambios/tiempos).",
+    "Google Trends CO/CL/PE: ‘aspersor 360’, ‘aspersor jardín’ para validar estacionalidad/tendencia.",
+    "Test de precio PVP vs. Homecenter (oferta de valor: pack x2, envío, contraentrega).",
+    "Medir cobertura real (m²) y caudal a 40–50 PSI con video propio para diferenciarse.",
+    "Explorar bundles con conectores/estacas y upsell de temporizador mecánico.",
+    "Revisión de reseñas verificadas por SKU en Amazon/Mercado Libre para claims de durabilidad."
+  ],
+  "missing_data_flags": [
+    "Marca y modelo exactos (TAspersor I360) no confirmados en web.",
+    "Garantía ‘10 días’ del producto específico no verificada.",
+    "Especificaciones exactas (n° de boquillas, presión/cobertura) del modelo I360 no confirmadas.",
+    "Pruebas propias de alcance y estabilidad no disponibles."
+  ]
+}

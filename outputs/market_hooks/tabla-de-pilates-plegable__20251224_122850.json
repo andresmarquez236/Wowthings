@@ -1,0 +1,359 @@
+{
+  "resumen_corto": "Tabla de Pilates plegable (con bandas elásticas y soporte para ejercicios en casa). Precio de lanzamiento COP 169.900 y garantía declarada de 3 meses. En el mercado colombiano y LATAM existen muchas variantes plegables 5–15 en 1 con bandas y accesorios vendidas vía marketplaces (MercadoLibre, Ubuy) a precios notablemente mayores; por tanto el principal posicionamiento es precio/valor y conveniencia para entrenar en espacios pequeños.",
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo_id": "precio_valor",
+      "angulo": "Precio económico / mejor relación precio-valor",
+      "score_0_10": 9.2,
+      "buyer_persona": "Compradora/buscadora de oferta: mujer 25-45, trabaja y entrena en casa, prioriza precio y funcionalidad básica",
+      "promesa": "Entrena Pilates y tonifica en casa con una tabla plegable completa por COP 169.900 — mucho más barato que alternativas importadas.",
+      "objecion_resuelta": "¿Será de baja calidad por el precio? — muestra comparaciones de funcionalidades (bandas, plegado) y testimonios reales; ofrece garantía 3 meses.",
+      "disclaimer": "Comparaciones hechas con tablas reformer/plegables genéricas en marketplaces; no se ha analizado certificación de materiales del SKU específico.",
+      "evidencia_urls": [
+        "https://www.ubuy.com.co/sp/product/PTJHYE03U-pilates-reformer-set-multifunctional-reformers-board-15-in-1-foldable-ab-core-workout-exercise-reformers-set-board-solid-pilates-reformer-set-for?srsltid=AfmBOopjzZ_esaO3YwzV7IH7b4vbzqAJKRJV_IPm5E5ErDVWtlWn8sc7",
+        "https://www.ubuy.com.co/sp/product/Q1DRH9JJQ-pilates-reformer-89-foldable-pilates-machine-equipment-for-home-use-and-gym-workout-with-springs-and-jumpboard-pilates-equipment",
+        "https://articulo.mercadolibre.com.co/MCO-1574006487-tabla-de-pilates-juego-de-reformadores-de-pilates-6-en-1-_JM"
+      ]
+    },
+    {
+      "rank": 2,
+      "angulo_id": "ahorro_espacio",
+      "angulo": "Ahorro de espacio / plegable — ideal para apartamentos",
+      "score_0_10": 8.6,
+      "buyer_persona": "Profesional joven que vive en apartamento (25-35) y necesita equipo compacto",
+      "promesa": "Plegada ocupa poco espacio; la guardas bajo la cama o detrás de la puerta y entrenas en 2 minutos.",
+      "objecion_resuelta": "¿Se puede usar establemente en suelos de apartamento? — mostrar demo en sala/apartamento y puntos antideslizantes (si los tiene) o recomendaciones de uso.",
+      "disclaimer": "Especificaciones de antideslizamiento y medidas deben confirmarse para el SKU exacto.",
+      "evidencia_urls": [
+        "https://articulo.mercadolibre.com.ar/MLA-2452941838-maquina-reformer-de-pilates-vevor-para-gimnasio-en-casa-inc-color-_JM",
+        "https://articulo.mercadolibre.com.co/MCO-1568745857-tabla-de-pilates-6-en-1-maquina-plegable-para-ejercicio-_JM"
+      ]
+    },
+    {
+      "rank": 3,
+      "angulo_id": "multifuncionalidad_bandas",
+      "angulo": "Multifuncional + bandas elásticas incluidas — circuito cuerpo completo",
+      "score_0_10": 8.0,
+      "buyer_persona": "Persona que busca sustituto económico del reformer: principios/intermedios, 30-50 años, busca ejercicios para core y tonificación",
+      "promesa": "Una tabla plegable con bandas para hacer +10 ejercicios de core, glúteos, brazos y movilidad sin salir de casa.",
+      "objecion_resuelta": "¿Sirve para entrenamientos serios? — mostrar rutinas guiadas (30–60 s) y limitaciones (no reemplaza reformer profesional).",
+      "disclaimer": "Las capacidades de resistencia y número de ejercicios dependen del kit/versión; confirmar accesorios incluidos en el SKU.",
+      "evidencia_urls": [
+        "https://articulo.mercadolibre.com.co/MCO-1574006487-tabla-de-pilates-juego-de-reformadores-de-pilates-6-en-1-_JM",
+        "https://articulo.mercadolibre.com.co/MCO-1568733103-janua-tabla-pilates-2024-reformer-plegable-5-en-1-_JM"
+      ]
+    },
+    {
+      "rank": 4,
+      "angulo_id": "home_resoluciones",
+      "angulo": "Ideal para resoluciones / rutinas diarias (New Year / 30 días)",
+      "score_0_10": 7.6,
+      "buyer_persona": "Persona que hace resoluciones de año nuevo (20-45), busca iniciarse en rutinas de 10–20 minutos diarias",
+      "promesa": "Programa 30 días de pilates en casa que cabe en tu sala; rutina corta diaria + tabla por COP 169.900.",
+      "objecion_resuelta": "¿Mantendré la disciplina? — usar micro-retos y recordatorios, UGC de antes/después y pequeñas metas semanales.",
+      "disclaimer": "La efectividad depende de adherencia y técnica; no sustituye seguimiento profesional en lesiones.",
+      "evidencia_urls": [
+        "https://pmarketresearch.com/hc/pilates-studio-equipment-market",
+        "https://www.accio.com/business/seasonality_with_trend"
+      ]
+    },
+    {
+      "rank": 5,
+      "angulo_id": "garantia_calidad_percepcion",
+      "angulo": "Garantía corta / riesgo percibido — manejo de confianza y devoluciones",
+      "score_0_10": 5.2,
+      "buyer_persona": "Comprador cauteloso que prioriza garantía y servicio postventa (30-55 años)",
+      "promesa": "Garantía de 3 meses y canal de soporte para reclamaciones; política clara para devoluciones/daños (si aplica).",
+      "objecion_resuelta": "¿Qué pasa si se daña o llega defectuosa? — explicar pasos de RMA, fotos requeridas y tiempos de respuesta; ofrecer extensiones o seguro opcional como upsell.",
+      "disclaimer": "La garantía de 3 meses es la declarada; prácticas de devolución y tiempos de reparación deben documentarse por el vendedor.",
+      "evidencia_urls": [
+        "https://articulo.mercadolibre.com.co/MCO-1568745857-tabla-de-pilates-6-en-1-maquina-plegable-para-ejercicio-_JM",
+        "https://www.ubuy.com.co/sp/product/PTJHYE03U-pilates-reformer-set-multifunctional-reformers-board-15-in-1-foldable-ab-core-workout-exercise-reformers-set-board-solid-pilates-reformer-set-for?srsltid=AfmBOopjzZ_esaO3YwzV7IH7b4vbzqAJKRJV_IPm5E5ErDVWtlWn8sc7"
+      ]
+    }
+  ],
+  "hook_trends": {
+    "patrones_top": [
+      {
+        "pattern_id": "ugc_unboxing_demostracion",
+        "nombre": "Unboxing + demo rápida (UGC)",
+        "plantilla": "Creador abre caja (3s) → prueba 2 ejercicios (8–12s) → 'compré por X' + CTA (2–3s)",
+        "cuando_funciona": "Lanzamientos de producto, builds de confianza para equipos físicos.",
+        "evidencia_urls": [
+          "https://influencermarketinghub.com/ugc-video-ads/",
+          "https://creatify.ai/blog/tiktok-ads-complete-guide-to-creating-high-performing-creatives-in-2026"
+        ]
+      },
+      {
+        "pattern_id": "hook_3s_problema_solucion",
+        "nombre": "Hook 0–3s: problema claro + solución inmediata",
+        "plantilla": "Primer frame: problema ('No tengo espacio para entrenar') → Solución ('Esta tabla se pliega y cabe bajo la cama') → Demo",
+        "cuando_funciona": "Captura scroll en TikTok/Instagram; funciona para productos de conveniencia y ahorro de espacio.",
+        "evidencia_urls": [
+          "https://creatify.ai/blog/tiktok-ads-complete-guide-to-creating-high-performing-creatives-in-2026",
+          "https://viniomarketing.com/paid-ads/"
+        ]
+      },
+      {
+        "pattern_id": "before_after_resultados",
+        "nombre": "Before / After (micro-resultados)",
+        "plantilla": "Foto/video antes (sin fuerza/core débil) → 2–3 semanas de clips → resultado + testimonio corto",
+        "cuando_funciona": "Conversiones en ads, muestra beneficio tangible con timeline corto.",
+        "evidencia_urls": [
+          "https://influencermarketinghub.com/ugc-video-ads/"
+        ]
+      },
+      {
+        "pattern_id": "reto_30_dias",
+        "nombre": "Reto de 30 días / 'Desafío'",
+        "plantilla": "Presenta el reto (día 1) → clips de progreso → CTA para unirse y hashtag",
+        "cuando_funciona": "Genera UGC y retención post-compra; ideal para temporada de resoluciones.",
+        "evidencia_urls": [
+          "https://creatify.ai/blog/tiktok-ads-complete-guide-to-creating-high-performing-creatives-in-2026",
+          "https://www.accio.com/business/seasonality_with_trend"
+        ]
+      },
+      {
+        "pattern_id": "texto_overlay_hook",
+        "nombre": "Texto en pantalla como hook (e.g., 'Mira esto antes de comprar')",
+        "plantilla": "Texto grande + voz en off → demo → CTA",
+        "cuando_funciona": "Aumenta retención en primeras 3s; recomendado para mobile-first platforms.",
+        "evidencia_urls": [
+          "https://creatify.ai/blog/tiktok-ads-complete-guide-to-creating-high-performing-creatives-in-2026",
+          "https://www.lookatmyprofile.org/blog/the-lazy-creator-s-revolution-how-tiktok-s-slideshow-trend-i-1755475355638"
+        ]
+      },
+      {
+        "pattern_id": "spark_ads_creator_amplify",
+        "nombre": "Boost de contenido orgánico de creadores (Spark Ads / allowlisting)",
+        "plantilla": "Identifica 3 UGC ganadores → amplifica con presupuesto → test A/B de CTA",
+        "cuando_funciona": "Cuando ya existe contenido orgánico con alta retención; mantiene autenticidad en ads.",
+        "evidencia_urls": [
+          "https://influencermarketinghub.com/ugc-video-ads/",
+          "https://creatify.ai/blog/tiktok-ads-complete-guide-to-creating-high-performing-creatives-in-2026"
+        ]
+      },
+      {
+        "pattern_id": "slideshow_fotos_story",
+        "nombre": "Slideshow (fotos + captions) — baja producción, alta cadencia",
+        "plantilla": "3–6 fotos (uso, close-ups, packaging) + captions con hook + música trending",
+        "cuando_funciona": "Para creators con poco tiempo; útil en testing y en mercados con conexión limitada.",
+        "evidencia_urls": [
+          "https://www.lookatmyprofile.org/blog/the-lazy-creator-s-revolution-how-tiktok-s-slideshow-trend-i-1755475355638"
+        ]
+      },
+      {
+        "pattern_id": "precio_oferta_transparente",
+        "nombre": "Mostrar precio/ahorro en primer frame ('COP 169.900')",
+        "plantilla": "Frame 1: '¿Buscas tabla pilates por COP 169.900?' → demo → CTA",
+        "cuando_funciona": "Oferta directa para audiencias sensibles al precio; reduce fricción de compra.",
+        "evidencia_urls": [
+          "https://viniomarketing.com/paid-ads/",
+          "https://influencermarketinghub.com/ugc-video-ads/"
+        ]
+      }
+    ]
+  },
+  "hooks_por_angulo": [
+    {
+      "angulo_id": "precio_valor",
+      "hooks": [
+        "¿Buscas una tabla de pilates que no te deje en banca rota? COP 169.900 — mira esto.",
+        "Por menos de lo que gastas en 2 clases trae Pilates a casa: abre y entrena en 2 minutos.",
+        "POV: Compré una tabla plegable por COP 169.900 y ahora hago 10 minutos diarios — te muestro 3 ejercicios.",
+        "No pagues una reformer: 3 ejercicios que haces con esta tabla + bandas.",
+        "Oferta limitada: tabla plegable + bandas por COP 169.900 — envíos desde Bogotá.",
+        "¿Dudas por el precio? Mira 3 clientes reales usando la tabla en su sala."
+      ]
+    },
+    {
+      "angulo_id": "ahorro_espacio",
+      "hooks": [
+        "Vives en apartamento pequeño? Esta tabla se pliega y cabe detrás de la puerta — demo rápido.",
+        "Transforma tu sala en mini-estudio: despliega en 2 pasos y entrena 10 min.",
+        "Antes/Después: mi rincón de entrenamiento antes y después de esta tabla plegable.",
+        "Mini-tour: así guardo la tabla debajo de la cama (3 segundos).",
+        "¿Sin espacio? Prueba estos 5 movimientos que no necesitan más que la tabla.",
+        "Tip: Cómo colocar la tabla para que no resbale en pisos laminados."
+      ]
+    },
+    {
+      "angulo_id": "multifuncionalidad_bandas",
+      "hooks": [
+        "5 en 1: bandas, rodillo abdominal y push-up handles — 3 ejercicios para glúteos.",
+        "Rutina de 7 minutos para core usando solo la tabla y sus bandas (demo).",
+        "¿Puede reemplazar al reformer? Mira esto: comparo 3 movimientos iguales.",
+        "Ejercicio guiado: 10 reps por ejercicio — progresión para 4 semanas.",
+        "Unboxing + montaje en 45s: todo lo que trae la caja.",
+        "Entrena brazos y piernas sin pesas: 4 movimientos con las bandas."
+      ]
+    },
+    {
+      "angulo_id": "home_resoluciones",
+      "hooks": [
+        "Reto 30 días de pilates en casa — día 1 (empieza hoy).",
+        "Si tu resolución es moverte +: prueba esta rutina de 10 minutos con la tabla.",
+        "Antes/Después 2 semanas: mejora de postura usando la tabla 4 veces/semana.",
+        "¿Tienes poco tiempo? 10 min de pilates matutino para notar diferencia.",
+        "Únete al hashtag #30DiasTablaPilates y comparte tu video.",
+        "Mini-clase: rutina de movilidad para principiantes (con la tabla)."
+      ]
+    },
+    {
+      "angulo_id": "garantia_calidad_percepcion",
+      "hooks": [
+        "Garantía 3 meses + soporte: cómo reclamar si llega dañado (paso a paso).",
+        "No arriesgues: mira la inspección rápida que hago al recibir la tabla.",
+        "Extensión opcional de garantía (upsell) — 6 razones para proteger tu compra.",
+        "Política de cambio en 7 pasos: devoluciones y tiempos (explicación simple).",
+        "Testimonio honesto: la compré, se dañó y así me atendieron (caso real).",
+        "Consejos para cuidar la tabla y prolongar su vida útil."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "tipo": "mixto",
+    "hechos": [
+      "Búsqueda y demanda de equipos de fitness en casa muestran picos en enero por resoluciones de año nuevo. (picos repetidos en enero).",
+      "El mercado de equipos de pilates y reformers ha crecido y se vende principalmente por canales DTC y marketplaces en LATAM."
+    ],
+    "hipotesis": [
+      "Ventas/promociones aumentan en Nov–Dic (Black Friday/holiday gifting) y en enero (resoluciones).",
+      "Campañas con retos 30 días y UGC funcionan mejor en enero y picos post-holiday; promociones flash en noviembre aumentan conversión.",
+      "Promociones locales (envío gratuito) impactan más en ciudades grandes (Bogotá, Medellín, Cali)."
+    ],
+    "correlacion_angulos": [
+      {
+        "angulo_id": "precio_valor",
+        "nota": "Alta correlación: promociones de fin de año y enero favorecen ventas por precio bajo."
+      },
+      {
+        "angulo_id": "ahorro_espacio",
+        "nota": "Moderada: back-to-school y mudanzas (ago–sep) aumentan interés por soluciones compactas."
+      },
+      {
+        "angulo_id": "home_resoluciones",
+        "nota": "Alta correlación con enero y con picos de búsqueda de pilates."
+      },
+      {
+        "angulo_id": "multifuncionalidad_bandas",
+        "nota": "Constante a lo largo del año; más efectiva en campañas educativas y UGC."
+      },
+      {
+        "angulo_id": "garantia_calidad_percepcion",
+        "nota": "Mejor focalización fuera de picos (audiencia cautelosa necesita más tiempo para decidir)."
+      }
+    ]
+  },
+  "checklist_producto": {
+    "criterios": [
+      {
+        "criterio": "Es plegable (plegable declarado)",
+        "cumple": "SI",
+        "nota": "Entrada del producto indica 'Tabla plegable'.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Incluye bandas elásticas",
+        "cumple": "SI",
+        "nota": "Entrada del producto indica 'con bandas elásticas'.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Soporte para ejercicios en casa / diseñado para home workout",
+        "cumple": "SI",
+        "nota": "Descripción del producto indica soporte para ejercicios en casa.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Garantía documentada (3 meses)",
+        "cumple": "SI",
+        "nota": "Garantía proporcionada por el input del producto (3 meses).",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Precio publicado claro (COP 169.900)",
+        "cumple": "SI",
+        "nota": "Precio proporcionado en el input.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Precio competitivo frente a alternativas en marketplaces LATAM",
+        "cumple": "SI",
+        "nota": "Comparación con listings similares muestra precios mayormente superiores (ej. Ubuy COP ~780.351 para sets 15-in-1).",
+        "evidencia_urls": [
+          "https://www.ubuy.com.co/sp/product/PTJHYE03U-pilates-reformer-set-multifunctional-reformers-board-15-in-1-foldable-ab-core-workout-exercise-reformers-set-board-solid-pilates-reformer-set-for?srsltid=AfmBOopjzZ_esaO3YwzV7IH7b4vbzqAJKRJV_IPm5E5ErDVWtlWn8sc7"
+        ]
+      },
+      {
+        "criterio": "Superficie antideslizante especificada en ficha",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "No hay mención en el input; marketplaces indicaron antideslizante en algunas variantes, pero no se ha validado para este SKU.",
+        "evidencia_urls": [
+          "https://www.mercadolibre.com.co/cama-de-pilates-over-lu-tabla-pilates-violeta/p/MCO49948205"
+        ]
+      },
+      {
+        "criterio": "Capacidad de peso máxima especificada",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Input no incluye capacidad; algunas fichas similares sí declaran (ej. 300–400 lb) pero no es garantía para este SKU.",
+        "evidencia_urls": [
+          "https://articulo.mercadolibre.com.co/MCO-1568733103-janua-tabla-pilates-2024-reformer-plegable-5-en-1-_JM"
+        ]
+      },
+      {
+        "criterio": "Certificaciones de seguridad/material (CE, ISO u otra) especificadas",
+        "cumple": "NO",
+        "nota": "No hay evidencia que el SKU tenga certificaciones; la mayoría de listings de marketplace no muestran certificaciones.",
+        "evidencia_urls": [
+          "https://articulo.mercadolibre.com.co/MCO-1574006487-tabla-de-pilates-juego-de-reformadores-de-pilates-6-en-1-_JM"
+        ]
+      },
+      {
+        "criterio": "Política de devoluciones y días (30 días u otra) claramente definida",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Input no incluye política de devoluciones; marketplaces a menudo ofrecen 30 días, pero depende del vendedor.",
+        "evidencia_urls": [
+          "https://articulo.mercadolibre.com.co/MCO-1574006487-tabla-de-pilates-juego-de-reformadores-de-pilates-6-en-1-_JM"
+        ]
+      },
+      {
+        "criterio": "Incluye manual o guía de ejercicios",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Input menciona soporte para ejercicios pero no si incluye guía impresa o acceso a rutinas.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Envío disponible a todo el país (Colombia)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Input no indica cobertura logística; listings similares ofrecen envío nacional pero varía por vendedor.",
+        "evidencia_urls": [
+          "https://articulo.mercadolibre.com.co/MCO-1568745857-tabla-de-pilates-6-en-1-maquina-plegable-para-ejercicio-_JM"
+        ]
+      },
+      {
+        "criterio": "Soporte postventa / atención al cliente comprobable",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Garantía 3 meses declarada, pero no hay enlaces a canales de soporte ni SLA.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Recomendado/validado por profesionales (entrenadores o fisioterapeutas)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "No hay evidencia de validación profesional para este SKU específico.",
+        "evidencia_urls": []
+      },
+      {
+        "criterio": "Producto apto para rutinas de Pilates básicas (compatibilidad declarada)",
+        "cumple": "SI",
+        "nota": "Descripción del producto indica uso para ejercicios en casa y funcionalidades tipo reformer/tablero (uso común en fichas similares).",
+        "evidencia_urls": [
+          "https://pmarketresearch.com/hc/pilates-studio-equipment-market"
+        ]
+      }
+    ],
+    "total_si": 7,
+    "pasa_umbral_9_de_15": false
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "run_date_iso": "2025-12-30",
+    "model": "market-researcher-v1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Truly Aceite Soft Serve 50 Ml",
+    "descripcion": "Contenido 50 ML\n\nTRULY ACEITE UNICORNIO (SOFT SERVE) CON SELLO DE ORIGINALIDAD 1.1\n\nEvita el dolor de la irritación por afeitado y los vellos encarnados con nuestro nuevo aceite para después del afeitado Soft Serve. Formulado con una valiosa mezcla de péptidos, ácido hialurónico y fresa para exfoliar suavemente, hidratar y acelerar el proceso de curación de la piel.\nTu piel se mantendrá suave e hidratada durante días después del afeitado. Es la solución calmante con aroma a fresa que tu piel anhela.\nRasguños y quemaduras por afeitado: calma la inflamación y promueve la curación para un acabado más elegante.\nPiel seca y con picazón: hidrata profundamente y alivia para una piel nutrida y sedosa al tacto.\nPelos encarnados: elimina las células muertas y regula el sebo para prevenir protuberancias dolorosas.",
+    "garantia": "10 dias",
+    "precio": "COP 75000"
+  },
+  "resumen_corto": "Producto post-afeitado de Truly Beauty (Soft Serve After Shave Oil) con claims de aliviar irritación y vellos encarnados; valida por marca oficial y retailers globales. En Colombia hay oferta fragmentada (69.900–250.000 COP) y variantes de tamaño no consistentes; garantía de 10 días no verificada.",
+  "product_fingerprint": {
+    "marca": "Truly Beauty",
+    "modelo": "Soft Serve After Shave Oil",
+    "categoria": "Aceite post-afeitado corporal (after shave oil)",
+    "specs_claims_clave": [
+      "Péptidos",
+      "Ácido hialurónico",
+      "Extracto de fresa (AHAs)",
+      "Calma quemaduras/raspones por afeitado",
+      "Ayuda a prevenir vellos encarnados",
+      "Hidratación y suavidad por días",
+      "Aroma fresa + vainilla",
+      "Uso post-afeitado en cuerpo/axilas/bikini"
+    ],
+    "rango_precio_observado": "CO: COP $69.900 – $250.000 (online); MSRP internacional: US$33 / £26 aprox.",
+    "garantia_tipo": "Sitio oficial indica \"Money Back Guarantee\" (EE.UU.); en CO depende del vendedor (ej. 3 días por producto roto).",
+    "variantes_detectadas": [
+      "Estándar internacional 90 ml (Boots UK).",
+      "Mini ~19.8 g (set minis Boots).",
+      "Listado local 30 ml (varios comercios CO).",
+      "Listado local 50 ml (no confirmado).",
+      "Listado local 100 ml (no confirmado; posible error de ficha)."
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Alivio inmediato post-afeitado + prevención de vellos encarnados",
+      "score_0a10": 9.0,
+      "buyer_persona": "Mujer 18–35 que se afeita/depila piernas, axilas o bikini y sufre irritación/vellos encarnados",
+      "promesa": "Menos ardor y protuberancias tras el afeitado; piel suave e hidratada por días.",
+      "objecion_principal": "¿Realmente previene vellos encarnados o solo perfuma?",
+      "justificacion": "La marca oficial y Boots describen el producto con péptidos, ácido hialurónico y fresa para hidratar, calmar y ayudar a prevenir vellos encarnados tras el afeitado.",
+      "evidencia": [
+        {
+          "url": "https://www.trulybeauty.com/products/soft-serve-after-shave-oil",
+          "pais": "EE.UU.",
+          "match_note": "Página oficial del mismo modelo: ingredientes y claims coinciden (péptidos, HA, fresa).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.boots.com/truly-soft-serve-after-shave-oil-90ml-10366560",
+          "pais": "UK",
+          "match_note": "Retailer reconocido con el mismo nombre/modelo y tamaño 90 ml; repite los claims clave.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Experiencia sensorial femenina: aroma fresa + vainilla y piel ‘soft serve’",
+      "score_0a10": 7.5,
+      "buyer_persona": "Beauty lover que valora rutinas sensoriales y fragancias dulces",
+      "promesa": "Rutina placentera con olor a fresa y vainilla; piel brillante y suave ‘como helado cremoso’.",
+      "objecion_principal": "Temor a fragancias fuertes o irritantes.",
+      "justificacion": "Los listados oficiales y de retail señalan el perfil olfativo (fresa/vanilla) y uso post-afeitado; Target detalla notas y tamaño 3.1 oz (≈92 ml).",
+      "evidencia": [
+        {
+          "url": "https://www.trulybeauty.com/products/soft-serve-after-shave-oil",
+          "pais": "EE.UU.",
+          "match_note": "Describe fragancia de fresa y beneficios sensoriales.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.target.com/p/-/A-91307143",
+          "pais": "EE.UU.",
+          "match_note": "Ficha Ulta at Target del mismo producto (3.1 oz), menciona aroma fresa/vanilla y reseñas.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Cuidado de zonas sensibles (bikini/axilas) después de depilación/afeitado",
+      "score_0a10": 7.0,
+      "buyer_persona": "Mujer que busca confort en línea del bikini/axilas tras depilación con cera o rasurado",
+      "promesa": "Calma, hidrata y ayuda a evitar vellos encarnados en zonas delicadas.",
+      "objecion_principal": "¿Es seguro para áreas sensibles?",
+      "justificacion": "Las descripciones oficiales posicionan el producto para después del afeitado y contra vellos encarnados; vendedores en CO lo comunican para post-depilación.",
+      "evidencia": [
+        {
+          "url": "https://www.trulybeauty.com/products/soft-serve-after-shave-oil",
+          "pais": "EE.UU.",
+          "match_note": "Uso post-afeitado indicado por el fabricante.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://bebeautycol.com/products/truly-soft-serve-after-shave-oil",
+          "pais": "Colombia (proxy retail)",
+          "match_note": "Vendedor CO del mismo modelo lo comunica para post-depilación/afeitado (contenido listado 100 ml, posible inconsistencia).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Accesibilidad de precio en CO (desde ~70K–75K COP) vs importadores caros",
+      "score_0a10": 6.5,
+      "buyer_persona": "Compradora online en Colombia que compara precio/valor y busca ofertas",
+      "promesa": "Consigue el mismo producto desde ~70K–75K COP en tiendas locales online.",
+      "objecion_principal": "Posibles falsificaciones o tamaños no oficiales.",
+      "justificacion": "En CO se observan precios dispares para el mismo modelo: 69.900–75.000 COP en algunos sellers y hasta 250.000 COP en otros.",
+      "evidencia": [
+        {
+          "url": "https://tiendapapaya.co/products/truly-soft-serve-beauty-after-shave",
+          "pais": "Colombia",
+          "match_note": "Mismo modelo a $69.900 COP (no especifica ml).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.fullkbellos.com.co/products/soft-serve-after-shave-oil-truly-30ml",
+          "pais": "Colombia",
+          "match_note": "Mismo modelo listado a $75.000 COP con tamaño 30 ml; también indica garantía 3 días (vendedor).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://bebeautycol.com/products/truly-soft-serve-after-shave-oil",
+          "pais": "Colombia",
+          "match_note": "Mismo modelo listado a $250.000 COP; inconsistencia de contenido (100 ml).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Validación por retail internacional (Boots, Ulta/Target) y reviews",
+      "score_0a10": 6.5,
+      "buyer_persona": "Compradora que busca marcas probadas/‘virales’ disponibles en grandes retailers",
+      "promesa": "Producto con presencia en Boots UK y Ulta/Target en EE.UU., con reseñas y precio oficial claro.",
+      "objecion_principal": "¿Es marketing o realmente funciona?",
+      "justificacion": "La disponibilidad en cadenas reconocidas y reseñas aporta prueba social y reduce el riesgo percibido.",
+      "evidencia": [
+        {
+          "url": "https://www.boots.com/truly-soft-serve-after-shave-oil-90ml-10366560",
+          "pais": "UK",
+          "match_note": "Producto idéntico 90 ml, retailer top; confirma claims e ingredientes.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.ulta.com/p/soft-serve-after-shave-oil-pimprod2044469",
+          "pais": "EE.UU.",
+          "match_note": "Página Ulta con reseñas recientes del mismo producto.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.target.com/p/-/A-91307143",
+          "pais": "EE.UU.",
+          "match_note": "Ulta at Target con reseñas y tamaño 3.1 oz (≈92 ml).",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "¿Rasquiña y granitos después de rasurarte? 3 gotas y chao vellos encarnados.",
+        "Dile adiós al ardor post-afeitado: alivio inmediato, piel suave por días.",
+        "Axilas y bikini sin bumps: péptidos + hialurónico al rescate.",
+        "Soft Serve para tu piel: calma, hidrata y previene vellos enterrados.",
+        "Post-depilación sin drama: aplica, masajea y disfruta la suavidad.",
+        "Shave, aplica, olvídate de la irritación. Así de simple."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Tu ‘momentico’ de spa: fresa + vainilla y piel suavecito.",
+        "Oler rico y sentirte mejor: piel tipo ‘soft serve’ en segundos.",
+        "Glow dulce, cero grasa: aceite que se absorbe rápido.",
+        "Antojo de fresa (para la piel): hidrata y deja aroma delicioso.",
+        "Deja de sufrir, empieza a disfrutar tu post-afeitado (con olor brutal)."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Zona bikini sin ardor: confort real desde la primera pasada.",
+        "Axilas lisas, sin puntitos: bye irritación, hola confianza.",
+        "Post-cera sin enrojecimiento: fórmula pensada para piel sensible.",
+        "Tu ritual íntimo: calmar, hidratar y prevenir vellos encarnados.",
+        "Menos fricción, más suavidad: cuidado delicado donde más importa."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "¿Pagar de más? Encuéntralo desde $69.900–$75.000 COP online en CO.",
+        "Mismo Truly, mejor precio: compara y gana.",
+        "Precio honesto, resultado top: no necesitas importar.",
+        "Atrapa la oferta y dile adiós a la irritación (sin vaciar el bolsillo).",
+        "Compra smart: verifica tamaño y autenticidad, paga lo justo."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Lo venden en Boots y Ulta: señal de producto probado.",
+        "Validado por miles: reseñas + retail grande = cero miedo a probar.",
+        "Trend que sí funciona: péptidos + HA con sello Truly.",
+        "Si está en Ulta/Target, es por algo: calma y suaviza en serio.",
+        "Retail global, resultados locales: tráelo a tu rutina hoy."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Disponibilidad y precio oficial en retailers internacionales todo el año (Boots/Ulta).",
+      "El gasto en belleza y cuidado personal en Colombia crece y se mantiene esencial (ANDI/Infobae)."
+    ],
+    "hipotesis": [
+      "Demanda de post-afeitado tiende a subir en meses cálidos/vacacionales (mayor exposición de piel); evidencia global de picos de búsqueda de depilación en verano sirve como proxy.",
+      "En Colombia, picos potenciales alrededor de vacaciones (mitad de año y fin de año) por mayor frecuencia de depilación/afeitado."
+    ],
+    "correlacion_con_angulos": "Ángulos 1 y 3 (alivio post-afeitado y zonas sensibles) funcionan todo el año; en picos de depilación/verano pueden performar mejor. El ángulo 2 (sensorial) impulsa recompra y gifting en temporadas festivas."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Claims de alivio de irritación y prevención de vellos encarnados validados por fabricante y Boots.",
+      "fuentes": [
+        "https://www.trulybeauty.com/products/soft-serve-after-shave-oil",
+        "https://www.boots.com/truly-soft-serve-after-shave-oil-90ml-10366560"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Nombre y descripciones explican uso post-afeitado y beneficios clave.",
+      "fuentes": [
+        "https://www.trulybeauty.com/products/soft-serve-after-shave-oil"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso unisex/post-afeitado; presencia en retail masivo sugiere alcance amplio.",
+      "fuentes": [
+        "https://www.target.com/p/-/A-91307143",
+        "https://www.ulta.com/p/soft-serve-after-shave-oil-pimprod2044469"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – requerir encuesta/entrevista local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – se desconoce COGS/FOB y costos de importación/last mile en CO.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Se encuentra en múltiples ecommerce colombianos; no se confirma retail físico masivo local.",
+      "fuentes": [
+        "https://tiendapapaya.co/products/truly-soft-serve-beauty-after-shave",
+        "https://bebeautycol.com/products/truly-soft-serve-after-shave-oil"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Diferencial sensorial (fresa/vainilla) pero categoría con varias alternativas; no evidencia de unicidad técnica.",
+      "fuentes": [
+        "https://www.trulybeauty.com/products/soft-serve-after-shave-oil",
+        "https://www.boots.com/truly-soft-serve-after-shave-oil-90ml-10366560"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Presencia en Boots UK y Ulta/Target EE.UU.; reseñas y disponibilidad sostenida.",
+      "fuentes": [
+        "https://www.boots.com/truly-soft-serve-after-shave-oil-90ml-10366560",
+        "https://www.ulta.com/p/soft-serve-after-shave-oil-pimprod2044469"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Varias soluciones para vellos encarnados en CO (p. ej., Lycon Ingrown-X-it; import de Fur Oil).",
+      "fuentes": [
+        "https://lyconcolombia.com/products/solucion-vellos-encarnados-ingrown-x-it",
+        "https://www.mercadolibre.com.co/fur-oil-for-ingrown-hair-bikini-underarms-legs/p/MCO2027984086"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Disponibilidad en grandes retailers y reseñas indican tracción.",
+      "fuentes": [
+        "https://www.ulta.com/p/soft-serve-after-shave-oil-pimprod2044469",
+        "https://www.target.com/p/-/A-91307143"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo? (repetido)",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – requerir validación con potenciales compradoras CO.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – respuesta subjetiva; se requiere contexto de estrategia/margen.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Fotos, descripciones y reseñas en sitios oficiales y retailers.",
+      "fuentes": [
+        "https://www.trulybeauty.com/products/soft-serve-after-shave-oil",
+        "https://www.boots.com/truly-soft-serve-after-shave-oil-90ml-10366560"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso post-afeitado todo el año; demanda de cuidado personal en CO es estable y creciente.",
+      "fuentes": [
+        "https://www.infobae.com/colombia/2025/01/17/colombianos-gastaron-mas-de-200000-en-cosmeticos-y-productos-de-cuidado-personal-en-2024-se-preve-un-aumento-en-2025/"
+      ]
+    },
+    {
+      "criterio": "total? (fila de control: NO siempre, se calcula en score_total)",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Fila de control para cálculo automático.",
+      "fuentes": []
+    }
+  ],
+  "score_total": {
+    "total_si": 7,
+    "total_criterios": 15,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar tamaño exacto del frasco en Colombia (foto de empaque con ml/oz).",
+    "Validar política de garantía real de cada vendedor CO; contrastar con garantía oficial Truly (EE.UU.).",
+    "Verificación de autenticidad: ¿existe “sello de originalidad 1.1” oficial de Truly? Solicitar a fabricante.",
+    "Listar distribuidores/autorizados de Truly en CO o LATAM (Where to Buy / soporte de marca).",
+    "Revisión regulatoria: ¿requiere o posee registro/permiso INVIMA para importación y venta?",
+    "Mapeo de competencia directa en CO (Fur Oil, Lycon, First Aid Beauty Ingrown pads, etc.) con precios.",
+    "Medir demanda estacional en CO (Google Trends: ‘vellos encarnados’, ‘after shave oil’)."
+  ],
+  "missing_data_flags": [
+    "Tamaño 50 ml no confirmado por fuente oficial (standard observado: 90 ml; locales: 30 ml/100 ml).",
+    "Garantía 10 días no verificada (ejemplo local indica 3 días solo por daño).",
+    "‘Sello de originalidad 1.1’ no encontrado en fuentes oficiales de Truly.",
+    "Distribuidores/autorizados Truly en Colombia no identificados.",
+    "Registro/permiso INVIMA no verificado."
+  ]
+}

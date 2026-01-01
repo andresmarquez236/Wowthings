@@ -1,0 +1,1217 @@
+{
+  "schema_version": "aida_carousel_incremental_v1",
+  "generated_at_utc": "2025-12-30T19:54:13.179331+00:00",
+  "product": {
+    "nombre_producto": "Bee Venom Bswell",
+    "descripcion": "PRESENTACION EN VIDRIO 120g\n🐝 Bee Venom Bswell – Rejuvenecimiento Natural & Lifting Instantáneo\nBee Venom Bswell es un tratamiento cosmético avanzado que utiliza veneno de abeja purificado para estimular la producción natural de colágeno y elastina, logrando un efecto tensor que mejora la firmeza y suavidad de la piel desde las primeras aplicaciones.\n\nEs ideal para quienes buscan un producto antiedad potente, inspirado en tratamientos de lujo.\n\n✅ Beneficios principales\n✔ Efecto lifting y reafirmante\n✔ Reduce líneas de expresión y arrugas\n✔ Estimula la producción de colágeno\n✔ Mejora la elasticidad y firmeza\n✔ Hidrata profundamente\n✔ Aporta luminosidad y suavidad\n✔ Mejora textura y apariencia del rostro\n\n🐝 Ingredientes Clave\nVeneno de abeja purificado\nSimula una microestimulación que activa la regeneración de la piel sin dolor.\n\nPéptidos rejuvenecedores\n\nÁcido hialurónico\n\nAntioxidantes protectores\n\n🔬 Cómo funciona\nEl veneno de abeja actúa como un “micro-lifting” natural:\nEngaña a la piel simulando una microestimulación, activando defensas y aumentando la producción de colágeno y elastina.\nEsto reafirma, suaviza líneas y mejora el aspecto general del rostro de forma continua.\n\n🧴 Modo de uso\n1️⃣ Aplicar 1–2 veces al día sobre piel limpia\n2️⃣ Masajear hasta absorber\n3️⃣ Seguir con tu hidratante habitual",
+    "garantia": "10 dias",
+    "precio": "COP 69900",
+    "pais_objetivo": "Colombia"
+  },
+  "trend_cache_path": "output/bee_venom_bswell/trends_pack.json",
+  "hooks_cache_path": "output/bee_venom_bswell/hooks_pack.json",
+  "results_by_angle": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "buyer_persona": "Mujer 30–55 en Colombia, preocupada por líneas finas y firmeza, que busca alternativa cosmética a tratamientos in‑clinic",
+      "aida_strategy": {
+        "attention": "Abrir con un patrón interruptor visual que genere curiosidad: imagen nítida del frasco en primer plano y un titular que cuestione la posibilidad de un 'lifting' sin agujas.",
+        "interest": "Mostrar el mecanismo/sentido (micro‑estimulación natural) con un valor claro: textura vidrio premium + sensación de firmeza e hidratación. Usar metáfora visual (cuerda tensada suavemente detrás del frasco) para explicarlo sin texto largo.",
+        "desire": "Enmarcar el resultado deseado (piel más firme, textura mejorada) con un resultado tangible y suavizar objeciones (aviso de prueba de alergia y recomendación de prueba de parche) sin prometer garantías clínicas.",
+        "action": "CTA de baja fricción: instrucción clara para comprar/pedir hoy con dos opciones de pago y el precio visible. Incluir 'Envío gratis' y 'Pago contraentrega' como incentivos inmediatos."
+      },
+      "ad_copy": {
+        "title": "Bee Venom Bswell — Lifting natural sin agujas",
+        "primary_text": "Una alternativa antiedad inspirada en tratamientos de lujo. Textura en vidrio 120 g. Pide hoy con envío gratis y pago contraentrega. Recomendamos prueba de parche si tienes historial de alergias a productos de abejas.",
+        "description": "Piel con apariencia más firme y textura mejorada con uso continuo. Producto en presentación vidrio 120 g."
+      },
+      "carousel": {
+        "num_cards": 3,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention",
+            "goal": "Captar la mirada y despertar curiosidad sobre un 'lifting' sin agujas; posicionar el producto como premium y único.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "bee_venom_bswell_card1.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: Premium product studio close-up. Composition: single Bee Venom Bswell glass jar centered-left in three‑quarter angle, product occupying central 60% of canvas; background: soft warm studio bokeh, gentle gradation from warm top-left to cooler bottom-right. Lighting: soft, directional warm key light from top-left, subtle rim light to emphasize glass edge, high clarity on product, background blur heavy (bokeh) to ensure product is the sharpest element. Overlay placements (explicit anchors and percents): 1) Primary headline overlay anchored top_left at x=12%, y=12%, max_width=76%, max_height=18%; 2) Badge group anchored top_right at x=88%, y=14%, max_width=30%, max_height=12% containing two stacked badges; 3) Subheadline anchored bottom_left at x=12%, y=82%, max_width=76%, max_height=12%. Typography rules: bold sans serif (e.g., Montserrat/Inter), headlines weight 700, subheadline weight 600, all text white with strong dark stroke (2–4px) or 30% black shadow for legibility; rounded pill badges with white fill and subtle dark stroke. Product treatment: use provided cutout, slight shadow and reflection on surface; DO NOT change product label or create new markings. Composition rules: maintain consistent visual system across cards (warm soft studio light, shallow depth of field, rounded badge style), but vary framing per card. Make sure product is the absolute sharpest element; apply lens bokeh to background. Negative constraints: no faces, no people, no hands, no tattoos, no logos, no watermarks, no extra text beyond specified overlays, do not alter product model or label, no staged clinical equipment. Deliver layered output with separate alpha for product and text overlays.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "¿Lifting sin agujas?",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 76,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000033",
+                    "shadow": "0 6px 18px rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 30,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000022",
+                    "shadow": "0 4px 10px rgba(0,0,0,0.25)",
+                    "badge": "rounded_pill_white"
+                  }
+                },
+                {
+                  "id": "badge_contraentrega",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 26,
+                    "max_width_percent": 30,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000022",
+                    "shadow": "0 4px 10px rgba(0,0,0,0.25)",
+                    "badge": "rounded_pill_white"
+                  }
+                },
+                {
+                  "id": "subheadline",
+                  "text_exact": "Descubre Bee Venom Bswell",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 82,
+                    "max_width_percent": 76,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000022",
+                    "shadow": "0 6px 18px rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product-centric: jar is the sharpest, occupies central column. Background intentionally blurred with bokeh to create depth.",
+                "hierarchy": "Headline (top-left) > Badges (top-right) > Subheadline (bottom-left) > Product visual dominance.",
+                "text_safe_zone": "Reserve 10% margins on all sides (top/bottom/left/right). Place all overlays inside the central 80% area; avoid placing text within the outer 10% band.",
+                "text_never_cover_rule": "Never place or composite the product image over the defined text_safe_zone. The product must not overlap any overlay area; keep product within central 60–70% vertical strip, avoiding top 12% and bottom 12% overlay zones."
+              },
+              "negative_prompt": "no other product models, do not generate different jar or label, no faces, no people, no hands touching product, no logos, no watermarks, no extra text beyond specified overlays, no medical devices, no clinical scenes, no brand duplicates"
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Interest+Desire",
+            "goal": "Explicar el mecanismo clave (micro‑estimulación/peptidos/hialurónico) con una metáfora visual y enmarcar el resultado deseado: más firmeza y textura mejorada. Suavizar objeciones con recomendación de prueba de parche para alérgicos.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "bee_venom_bswell_card2.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: Conceptual mechanism + lifestyle detail. Composition: product on right third of frame, slightly rotated to show label; left two thirds contain a stylized visual metaphor: soft fabric or silk panel being gently tightened (visual metaphor for lifting) softly blurred behind but readable; lighting: soft warm key light from top-right, delicate fill from left, rim highlight for glass. Background: deep warm bokeh with subtle texture. Depth: shallow DOF; product is the sharpest element. Overlay placements: 1) Mechanism badge anchored center_left at x=22%, y=34%, max_width=48%, max_height=14%; 2) Benefit headline anchored center_left at x=22%, y=48%, max_width=56%, max_height=18%; 3) Small safety note anchored bottom_left at x=12%, y=86%, max_width=76%, max_height=10%. Typography: consistent bold sans serif (Montserrat/Inter), headline 700, sub 600; color white with dark soft stroke and 30% blurred shadow for legibility. Visual cues: include subtle dotted line or soft glow connecting metaphor to product indicating 'mecanismo'. Deliver layered PSD/PNG with separate text layers. Negative constraints: no faces, no testimonials with identifiable people, no logos, no watermarks, avoid making explicit medical claims or clinical before/after visuals.",
+              "text_overlays": [
+                {
+                  "id": "mechanism",
+                  "text_exact": "Micro‑lifting natural",
+                  "placement": {
+                    "anchor": "center_left",
+                    "x_percent": 22,
+                    "y_percent": 34,
+                    "max_width_percent": 48,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000033",
+                    "shadow": "0 6px 18px rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "benefit",
+                  "text_exact": "Firmeza y textura mejorada",
+                  "placement": {
+                    "anchor": "center_left",
+                    "x_percent": 22,
+                    "y_percent": 48,
+                    "max_width_percent": 56,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000033",
+                    "shadow": "0 6px 18px rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "safety_note",
+                  "text_exact": "¿Alergia a abejas? Haz prueba de parche",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 86,
+                    "max_width_percent": 76,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000022",
+                    "shadow": "0 4px 10px rgba(0,0,0,0.25)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product on right third (sharp), conceptual metaphor on left to create interest. Maintain the same warm lighting and bokeh as Card 1 for system consistency.",
+                "hierarchy": "Mechanism badge (top) > Benefit headline (middle) > Safety note (bottom) > Product visual prominence.",
+                "text_safe_zone": "Reserve 10% margins on all sides. Place main copy within central 80% area; avoid placing text over the outer 10% band.",
+                "text_never_cover_rule": "Do not overlay or composite product elements over any active text overlays. Keep the product fully visible and outside the text_safe_zone; product must not occlude or intersect text bounding boxes."
+              },
+              "negative_prompt": "no faces, no people, no influencer likenesses, no logos, no watermarks, no medical instruments, no before/after clinical photos, do not change product label, no extra text beyond overlays"
+            }
+          },
+          {
+            "card_index": 3,
+            "stage": "Action",
+            "goal": "Convert: instrucción clara para compra con CTA de baja fricción, mostrar precio y opciones de pago, reforzar envío gratis y pago contraentrega.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "bee_venom_bswell_card3.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: Direct purchase card with clear CTA. Composition: product centered, slightly elevated on reflective surface, camera straight-on at chest height; background: warm studio bokeh with vignette; lighting: key light front-top to maximize label legibility and glass sparkle. Overlay placements: 1) Price tag anchored top_center at x=50%, y=10%, max_width=60%, max_height=12%; 2) CTA button anchored bottom_center at x=50%, y=86%, max_width=76%, max_height=14%; 3) Secondary note anchored bottom_left at x=12%, y=78%, max_width=40%, max_height=10% (payment options/icons). Typography: bold sans serif (Montserrat/Inter), CTA text weight 800, price weight 700; CTA button style: rounded rectangle, solid contrasting color (warm coral/orange) with white bold text and soft drop shadow. Ensure product remains sharp and never overlaps CTA area. Provide layered export for web and mobile crops. Negative constraints: no faces, no hands, no logos, no watermarks, no extra text beyond overlays, do not alter product label or create false certifications.",
+              "text_overlays": [
+                {
+                  "id": "price",
+                  "text_exact": "COP 69.900",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 10,
+                    "max_width_percent": 60,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000033",
+                    "shadow": "0 6px 18px rgba(0,0,0,0.35)",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "cta",
+                  "text_exact": "Pide hoy — Compra ahora",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 86,
+                    "max_width_percent": 76,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000000",
+                    "shadow": "0 8px 24px rgba(0,0,0,0.35)",
+                    "badge": "rounded_button_coral"
+                  }
+                },
+                {
+                  "id": "payment_options",
+                  "text_exact": "Envío gratis • Pago contraentrega",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 78,
+                    "max_width_percent": 40,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#00000022",
+                    "shadow": "0 4px 10px rgba(0,0,0,0.25)",
+                    "badge": null
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Conversion-focused: clear price and CTA with product centered and prominent. Maintain consistent warm lighting and bokeh to match cards 1–2.",
+                "hierarchy": "Price (top) > Product visual > CTA (bottom) > Payment note (bottom-left).",
+                "text_safe_zone": "Reserve 10% margins on all sides. Place CTA and price within central 80% vertical band and avoid placing text in the outer 10% band.",
+                "text_never_cover_rule": "Do not place product overlapping the CTA or price overlays. The product must remain outside text_safe_zone and not intersect overlay bounding boxes."
+              },
+              "negative_prompt": "no other product models, do not alter label, no faces, no hands, no logos, no watermarks, no extra text beyond specified overlays, no false certifications, no clinical claims"
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Curiosity Gap",
+        "Problem-Solution",
+        "Value Proposition",
+        "Before-and-After Comparison (implied outcome)",
+        "Safety/Objection softening (patch test)",
+        "Urgency and low-friction CTA",
+        "Premium packaging/texture emphasis",
+        "Visual Metaphor (lifting)",
+        "Payment convenience (Pago contraentrega)",
+        "Free shipping incentive (Envío gratis)"
+      ],
+      "compliance_notes": [
+        "No medical claims or clinical efficacy percentages are stated. Messaging emphasizes perception and user-reported benefits and recommends a patch test for allergy concerns.",
+        "Do not use photos of people implying clinical results. Avoid before/after imagery that suggests guaranteed outcomes.",
+        "Price and presentation match merchant-provided data (COP 69.900, vidrio 120 g).",
+        "Badges included by default: 'Envío gratis' and 'Pago contraentrega'.",
+        "Ad creatives must include a short safety suggestion for users with bee‑product allergies (patch test)."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Lujo aspiracional y tendencia global (\"natural botox\" + K‑beauty) a precio accesible en Colombia",
+      "buyer_persona": "Compradora que sigue tendencias (reales, royals, K‑beauty) pero busca ticket medio (<$80.000 COP) y pago contraentrega",
+      "aida_strategy": {
+        "attention": "Abrir con una pregunta provocadora y visual premium que interrumpa el scroll: close-up dramático del frasco en vidrio con iluminación de estudio y fondo bokeh para crear curiosidad sobre 'lifting natural'.",
+        "interest": "Mostrar rápidamente el ritual y componente K‑beauty: disposición en tocador, texturas (seda, mármol) y un mensaje breve sobre la experiencia sensorial y origen 'inspirado en rituales de lujo'.",
+        "desire": "Enmarcar el resultado esperado con lenguaje aspiracional y suavizado (sin exagerar): 'piel más firme y luminosa', acompañando con visuales de textura y piel hidratada (sin rostros identificables). Introducir objeción: '¿Marketing o resultado real?' con micro-explicación sobre mecanismo (microestimulación) ya provista por la marca.",
+        "action": "CTA claro y de baja fricción: precio visible + instrucción 'Pide hoy, paga contraentrega' y recordatorio de 'Envío gratis'. Instrucción paso a paso corta (ej.: 'Pide → Recibe → Paga en puerta')."
+      },
+      "ad_copy": {
+        "title": "Bee Venom Bswell — Ritual de lujo al alcance",
+        "primary_text": "Inspirado en K‑beauty y rituales de lujo: un frasco en vidrio para cuidar la piel con un gesto diario. Pide hoy y paga contraentrega. Envío gratis a Colombia.",
+        "description": "Presentación en vidrio 120g • COP 69.900 • Pago contraentrega"
+      },
+      "carousel": {
+        "num_cards": 3,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention",
+            "goal": "Detener el scroll con una imagen premium que active curiosidad sobre un 'lifting natural' accesible.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "card1_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Studio product close-up, luxury mood: place the EXACT glass jar (Bee Venom Bswell) sharply in foreground center-left on a low matte pedestal. Scene archetype: high-end beauty studio shot. Composition: 35–45% frame occupied by product, camera low-angle (~15°) close-up (50mm equivalent), soft warm key light from top-left, subtle cool rim light from right to separate glass edges. Background: deep neutral tones with creamy bokeh (shallow depth of field f/2.0) — hint of blurred vanity objects (no logos). Textures in scene: silk cloth and a small clear droplet near base to add tactile curiosity. Ensure product is the sharpest element; background strongly blurred. Exact overlay placements to render in post: 1) Headline overlay anchor top_center at x=50 y=12 (percent). Max width 80% max height 18%. Text: '¿Lista para un lifting natural?'. 2) Product name small overlay anchor top_left x=12 y=10 max width 36% max height 10%. Text: 'Bee Venom Bswell'. 3) Badge A anchor top_right x=88 y=10 max width 18% max height 8%. Text: 'Envío gratis'. 4) Badge B anchor top_right x=88 y=20 max width 18% max height 8%. Text: 'Pago contraentrega'. Design rules: keep all overlays within top 10% safe margin, no overlay covering product area. Typography: bold sans serif (e.g., Montserrat or Inter), headline weight 800, product name weight 600. Color rules: primary text white #FFFFFF with soft black stroke 22% opacity or 35% drop shadow for legibility against bokeh. Export as 1080x1080, deliver PNG with transparent overlay layers where possible.",
+              "text_overlays": [
+                {
+                  "id": "headline_card1",
+                  "text_exact": "¿Lista para un lifting natural?",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 12,
+                    "max_width_percent": 80,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "rgba(0,0,0,0.22)",
+                    "shadow": "rgba(0,0,0,0.35) 8px 8px 18px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "product_name_card1",
+                  "text_exact": "Bee Venom Bswell",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 10,
+                    "max_width_percent": 36,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "rgba(0,0,0,0.22)",
+                    "shadow": "rgba(0,0,0,0.28) 6px 6px 12px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_card1",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 10,
+                    "max_width_percent": 18,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFEDD5",
+                    "stroke": "#BB8C4A",
+                    "shadow": "rgba(0,0,0,0.18) 4px 4px 10px",
+                    "badge": "pill_gold"
+                  }
+                },
+                {
+                  "id": "badge_pco_card1",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 20,
+                    "max_width_percent": 18,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#E6F7FF",
+                    "stroke": "#2A9FD6",
+                    "shadow": "rgba(0,0,0,0.18) 4px 4px 10px",
+                    "badge": "pill_blue"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product jar is the absolute visual focus (sharpest, highest contrast). Background has strong bokeh and low contrast to avoid competing elements.",
+                "hierarchy": "1) Product 2) Headline 3) Badges 4) Product name. Keep headline readable at 1.5s glance.",
+                "text_safe_zone": "Reserve top 10% and bottom 10% of the frame for overlays. Do NOT place text inside central product vertical column (center-left 30–50% width) or overlap the jar highlights.",
+                "text_never_cover_rule": "Never place or composite the product over any overlay/text area. Do not let product elements (reflections, glass edges) intersect the reserved text zones."
+              },
+              "negative_prompt": "Do not generate other product models or different packaging. No logos, brand marks, visible watermarks. No faces or identifiable people. No extra text beyond the specified overlays. No distracting props, no low-resolution noise, no incorrect product labels."
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Interest+Desire",
+            "goal": "Mostrar el ritual y explicar brevemente el mecanismo (microstimulación) de forma aspiracional y sensorial, mientras se suaviza la objeción '¿marketing?'.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "card2_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Lifestyle vanity scene inspired by K‑beauty ritual: medium-overhead composition (45°) showing the EXACT Bee Venom Bswell on a small marble tray with silk cloth, a ceramic spoon with a tiny cream dab, and a blurred open magazine in background. Lighting: soft natural daylight (diffused) combined with a gentle warm fill to create a premium, calming mood. Depth of field: moderate shallow (bokeh) so texture of jar and cream is clear but background soft. Composition variation vs card1: product centered, tray and textures create context. Include subtle caption area bottom-left for a short benefit line. Overlays to render: 1) Headline anchor top_center x=50 y=10 max_width=78 max_height=16. Text: 'Ritual estilo K‑beauty'. 2) Benefit short anchor bottom_left x=20 y=82 max_width=56 max_height=14. Text: 'Piel más firme y luminosa'. 3) Micro-explain anchor bottom_center x=50 y=90 max_width=80 max_height=10. Text: 'Micro‑estimulación que activa colágeno'. 4) Two badges top_right same positions as card1: 'Envío gratis' at x=88 y=10 and 'Pago contraentrega' at x=88 y=20. Typography: bold sans serif for headline (Montserrat 800), semi-bold for benefit (600). Use white or very light text with 30% dark shadow for legibility on varied background. Keep overlays within safe top/bottom 10% and left/right 10% margins.",
+              "text_overlays": [
+                {
+                  "id": "headline_card2",
+                  "text_exact": "Ritual estilo K‑beauty",
+                  "placement": {
+                    "anchor": "top_center",
+                    "x_percent": 50,
+                    "y_percent": 10,
+                    "max_width_percent": 78,
+                    "max_height_percent": 16
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "rgba(0,0,0,0.20)",
+                    "shadow": "rgba(0,0,0,0.30) 6px 6px 14px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "benefit_card2",
+                  "text_exact": "Piel más firme y luminosa",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 20,
+                    "y_percent": 82,
+                    "max_width_percent": 56,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFF8F0",
+                    "stroke": "rgba(0,0,0,0.18)",
+                    "shadow": "rgba(0,0,0,0.28) 5px 5px 12px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "microexplain_card2",
+                  "text_exact": "Micro‑estimulación que activa colágeno",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 90,
+                    "max_width_percent": 80,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 500,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "rgba(0,0,0,0.20)",
+                    "shadow": "rgba(0,0,0,0.26) 4px 4px 10px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_card2",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 10,
+                    "max_width_percent": 18,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFEDD5",
+                    "stroke": "#BB8C4A",
+                    "shadow": "rgba(0,0,0,0.18) 4px 4px 10px",
+                    "badge": "pill_gold"
+                  }
+                },
+                {
+                  "id": "badge_pco_card2",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 20,
+                    "max_width_percent": 18,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#E6F7FF",
+                    "stroke": "#2A9FD6",
+                    "shadow": "rgba(0,0,0,0.18) 4px 4px 10px",
+                    "badge": "pill_blue"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product in context (ritual) is primary; textures (silk, marble) support interest but remain soft/blurred in background.",
+                "hierarchy": "1) Product 2) Headline 3) Benefit line 4) Micro-explain 5) Badges.",
+                "text_safe_zone": "Reserve top 10% and bottom 10% and 10% left/right margins for overlays. Keep central product area free of text.",
+                "text_never_cover_rule": "No overlay should overlap the jar or its primary highlights; do not composite any text across the product glass or label."
+              },
+              "negative_prompt": "No different packaging. No faces or identifiable people in frame. No logos, watermarks, extra unauthorized text. Avoid clinical or medical visuals (e.g., syringes). No inaccurate product labels."
+            }
+          },
+          {
+            "card_index": 3,
+            "stage": "Action",
+            "goal": "Impulsar la conversión con precio visible, instrucción de compra simple y recordatorio de pago contraentrega y envío gratis.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "card3_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Action-focused scene: doorstep/comfy delivery vignette — the EXACT Bee Venom Bswell placed on a small wooden doorstep tray with soft morning light, slightly angled top-right camera (35°). Composition: product on lower-right third, shallow depth of field and warm highlights, background intentionally blurred to suggest home arrival (no faces, no logos). Add small props: neutral woven bag, tiny shipping tag (blank). Ensure product is sharp and clearly visible. Overlays to render: 1) Price tag anchor top_left x=12 y=10 max_width=34 max_height=12. Text: 'COP 69.900'. 2) CTA anchor bottom_center x=50 y=88 max_width=84 max_height=12. Text: 'Pide hoy • Paga contraentrega'. 3) Micro-instruction anchor bottom_center x=50 y=95 max_width=84 max_height=8. Text: 'Recibe en casa • Paga al recibir'. 4) Two badges top_right same as previous cards at x=88 y=10 and x=88 y=20. Typography: bold sans serif for price and CTA (Montserrat 800 for price, 700 for CTA). Colors: price in #FFF4E6 with subtle black stroke, CTA in white with 32% shadow for contrast. Keep all overlays inside 10% safe margins.",
+              "text_overlays": [
+                {
+                  "id": "price_card3",
+                  "text_exact": "COP 69.900",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 10,
+                    "max_width_percent": 34,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 800,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFF4E6",
+                    "stroke": "rgba(0,0,0,0.28)",
+                    "shadow": "rgba(0,0,0,0.36) 6px 6px 14px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "cta_card3",
+                  "text_exact": "Pide hoy • Paga contraentrega",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 84,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "rgba(0,0,0,0.26)",
+                    "shadow": "rgba(0,0,0,0.34) 6px 6px 14px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "microinstr_card3",
+                  "text_exact": "Recibe en casa • Paga al recibir",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 95,
+                    "max_width_percent": 84,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 500,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "rgba(0,0,0,0.20)",
+                    "shadow": "rgba(0,0,0,0.26) 4px 4px 10px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_card3",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 10,
+                    "max_width_percent": 18,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFEDD5",
+                    "stroke": "#BB8C4A",
+                    "shadow": "rgba(0,0,0,0.18) 4px 4px 10px",
+                    "badge": "pill_gold"
+                  }
+                },
+                {
+                  "id": "badge_pco_card3",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 20,
+                    "max_width_percent": 18,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Montserrat",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#E6F7FF",
+                    "stroke": "#2A9FD6",
+                    "shadow": "rgba(0,0,0,0.18) 4px 4px 10px",
+                    "badge": "pill_blue"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product remains sharp and primary; scene suggests delivery and low-friction purchase.",
+                "hierarchy": "1) Price 2) Product 3) CTA 4) Instruction 5) Badges.",
+                "text_safe_zone": "Top and bottom 10% reserved for overlays; ensure price and CTA reside wholly inside these margins. Keep product center-right area clear of text.",
+                "text_never_cover_rule": "Never overlay text on top of the jar or where label reflections occur. Do not crop the product into overlay regions."
+              },
+              "negative_prompt": "No faces, no identifiable people, no brand logos, no watermarks. Do not render any product variant other than the provided Bee Venom Bswell. No extra text outside specified overlays. No fabricated certifications or claims."
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Curiosity Gap",
+        "Trend Highlight (K‑beauty / natural botox vibe)",
+        "Value Proposition (lujo accesible)",
+        "Problem‑Solution (ritual antiedad simple)",
+        "Educational Content (micro‑estimulación idea)",
+        "Before‑and‑After implication (sensory texture emphasis)",
+        "Low‑Friction Purchase (pago contraentrega + envío gratis)"
+      ],
+      "compliance_notes": [
+        "All claims used are confined to language present in the provided product description or framed aspirationally; no new clinical or warranty claims were invented.",
+        "No faces, logos, or watermarks are allowed in imagery per constraints.",
+        "Do not state specific efficacy percentages, certifications, or medical promises not provided by the brand.",
+        "Badges 'Envío gratis' and 'Pago contraentrega' are included as requested and must be applied as overlay elements (not embedded into the product rendering).",
+        "Text overlays must remain inside the described safe zones (10% margins) and must not be occluded by the product."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Accesibilidad y conveniencia: envío nacional y pago contraentrega",
+      "buyer_persona": "Comprador masivo de e‑commerce colombiano que prefiere contraentrega y entregas rápidas",
+      "aida_strategy": {
+        "attention": "Generar un pattern‑interrupt visual que detenga el scroll con una composición cercana y dramática del frasco en primer plano, transmitiendo lujo accesible.",
+        "interest": "Mostrar el mecanismo/valor: comunicar visualmente que el producto estimula la regeneración (texto corto tomado de la descripción) y que su presentación en vidrio refleja calidad.",
+        "desire": "Enmarcar el resultado deseado (piel más firme, luminosa y textura mejorada) con un disparo lifestyle sin rostros y una línea que reduzca la fricción (compra segura).",
+        "action": "Empujar la acción con un CTA claro y de baja fricción: 'Pide hoy, paga al recibir' + instrucción simple para elegir Pago contraentrega; destacar precio y envío gratis."
+      },
+      "ad_copy": {
+        "title": "Bee Venom Bswell — Lifting natural en vidrio 120g",
+        "primary_text": "Reafirma y mejora la textura de tu piel con Bee Venom Bswell. Compra con envío gratis y paga al recibir. Sin riesgo, entrega nacional.",
+        "description": "Producto en vidrio 120g • Envío gratis • Pago contraentrega • COP 69900"
+      },
+      "carousel": {
+        "num_cards": 3,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention",
+            "goal": "Detener el scroll con un close‑up inusual y despertar curiosidad sobre el 'lifting natural' y la facilidad de compra.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "closeup_glass_jar_three_quarter_angle",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: high‑impact product close‑up (three‑quarter angled hero) on a matte stone tabletop. Composition: diagonal crop, jar front slightly rotated left, product sharply in focus (crisply detailed glass, label legible), extreme shallow depth of field with soft warm beige‑gold bokeh background. Lighting: warm rim light from top‑left, soft key fill from right, subtle specular highlights on glass to emphasize premium material. Mood: luxe yet accessible. Background: blurred (bokeh) with gentle cream and sand tones; no people, no faces, no logos in background. Pattern interrupt: apply a subtle diagonal motion blur vignette at image edges (not on product) to create curiosity gap. Make product the shapest element; use selective sharpening on label and jar rim. Overlay placements (exact anchors & percents): headline anchor top_left x_percent=12 y_percent=12 max_width_percent=76 max_height_percent=16; secondary line anchor top_left x_percent=12 y_percent=22 max_width_percent=60 max_height_percent=12; badge1 anchor bottom_left x_percent=12 y_percent=84 max_width_percent=36 max_height_percent=8; badge2 anchor bottom_left x_percent=52 y_percent=84 max_width_percent=36 max_height_percent=8; Composition instructions: maintain consistent visual system (warm lighting, soft bokeh) for entire carousel. Typography rules: bold geometric sans‑serif (e.g., Montserrat/Inter style), weight 700–800, uppercase for badges, sentence case for headlines; color: white fill with 18% black stroke (2px) and soft drop shadow (rgba(0,0,0,0.45) offset 0px/6px blur 18px) to ensure legibility on bokeh. Badge style: rounded rectangle, semi‑opaque deep‑gold fill (opacity 0.92) with thin darker stroke and white bold text. Text safe placement: keep all text inside 10% margins. Negative_prompt: \"Do not generate any other product model or bottle variant; no additional logos or brand marks; no watermarks; no faces or full bodies; avoid adding any extra text outside the specified overlays; do not create insects, people, or unrelated props; avoid clinical or medical devices; keep background free of legible signage.\"",
+              "text_overlays": [
+                {
+                  "id": "headline_1",
+                  "text_exact": "¿Listo para un lifting natural?",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 76,
+                    "max_height_percent": 16
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif (Montserrat/Inter style)",
+                    "weight": 800,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.45) 0px 6px 18px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "subline_1",
+                  "text_exact": "Reafirma y suaviza la piel",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 24,
+                    "max_width_percent": 60,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Medium Sans Serif",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.35) 0px 6px 14px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_1",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 84,
+                    "max_width_percent": 36,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#C79B4A",
+                    "stroke": "#8B6F2E",
+                    "shadow": "rgba(0,0,0,0.28) 0px 4px 10px",
+                    "badge": "rounded_gold"
+                  }
+                },
+                {
+                  "id": "badge_pago_1",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 52,
+                    "y_percent": 84,
+                    "max_width_percent": 36,
+                    "max_height_percent": 8
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#C79B4A",
+                    "stroke": "#8B6F2E",
+                    "shadow": "rgba(0,0,0,0.28) 0px 4px 10px",
+                    "badge": "rounded_gold"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product must be the sharpest element; maintain shallow depth of field so background is soft and non‑distracting.",
+                "hierarchy": "1) Jar (sharp) 2) Headline 3) Badges 4) Subline",
+                "text_safe_zone": "Reserve an outer margin of 10% on all sides for text. Place headlines within top 10–25% vertical band; badges within bottom 10–16% band. Do not exceed max_width_percent values.",
+                "text_never_cover_rule": "Never place or composite the product across any reserved text zone; the product must remain fully visible and must not overlap the 10% text margins."
+              },
+              "negative_prompt": "No other product variants, no logos, no watermarks, no faces, no extra text beyond defined overlays, no insects, no clinical equipment, no visible brand names other than the exact provided Bee Venom Bswell product image."
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Interest + Desire",
+            "goal": "Explicar brevemente el mecanismo y pintar el resultado deseado (piel más firme y luminosa), además de reducir la objeción mediante la garantía de compra segura.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "lifestyle_fingertip_texture_jar",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: lifestyle close‑up showing the Bee Venom Bswell glass jar on a vanity surface with a clean fingertip (no face visible) gently taking a small amount from the jar — focus on jar and fingertip only. Composition: shallow depth of field, jar and fingertip razor‑sharp, soft reflected highlights on glass, blurred mirror and soft towels in background. Lighting: soft diffused warm daylight from left, subtle rim light from back to separate subject from background. Visual mechanism: include a subtle graphic micro‑line or luminous arc near the fingertip (very minimal, non‑clinical) to suggest activation/stimulation without medical imagery. Keep scene clean, premium, and approachable. Background blur: strong bokeh with cream and muted green tones. Overlay placements: primary mechanism text anchor top_left x_percent=12 y_percent=10 max_width_percent=70 max_height_percent=16; benefit line anchor top_left x_percent=12 y_percent=22 max_width_percent=68 max_height_percent=12; trust line anchor bottom_left x_percent=12 y_percent=78 max_width_percent=60 max_height_percent=10; badges anchor bottom_left x_percent=12 y_percent=88 max_width_percent=36 max_height_percent=7 and x_percent=52 y_percent=88 max_width_percent=36 max_height_percent=7. Typography: same bold sans‑serif family; primary text weight 700, secondary 600; badges uppercase bold. Negative_prompt: \"Do not add faces, models, logos, watermarks, additional product variants, or extra marketing claims beyond provided overlays. Avoid clinical visuals (needles, devices).\"",
+              "text_overlays": [
+                {
+                  "id": "mechanism_2",
+                  "text_exact": "Estimula producción natural de colágeno",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 10,
+                    "max_width_percent": 70,
+                    "max_height_percent": 16
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.40) 0px 6px 16px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "benefit_2",
+                  "text_exact": "Piel más firme, luminosa y con mejor textura",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 22,
+                    "max_width_percent": 68,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Medium Sans Serif",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.32) 0px 4px 12px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "trustline_2",
+                  "text_exact": "Compra sin riesgo: paga al recibir",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 78,
+                    "max_width_percent": 60,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "SemiBold Sans Serif",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.34) 0px 5px 14px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_2",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 88,
+                    "max_width_percent": 36,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#C79B4A",
+                    "stroke": "#8B6F2E",
+                    "shadow": "rgba(0,0,0,0.26) 0px 3px 8px",
+                    "badge": "rounded_gold"
+                  }
+                },
+                {
+                  "id": "badge_pago_2",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 52,
+                    "y_percent": 88,
+                    "max_width_percent": 36,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#C79B4A",
+                    "stroke": "#8B6F2E",
+                    "shadow": "rgba(0,0,0,0.26) 0px 3px 8px",
+                    "badge": "rounded_gold"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Sharp focus on jar and fingertip; avoid faces. Keep micro‑activation graphic subtle and non‑clinical.",
+                "hierarchy": "1) Jar & fingertip 2) Mechanism headline 3) Benefit line 4) Trust line 5) Badges",
+                "text_safe_zone": "Keep text within 10% margins; primary messages top 10–25% band; trust and badges in bottom 10–16% band.",
+                "text_never_cover_rule": "Product and fingertip cannot overlap any defined text zones; do not place product elements over text overlays."
+              },
+              "negative_prompt": "Do not generate faces, other product variants, logos, watermarks, medical devices, extra text beyond overlays, or any claims beyond the provided product description."
+            }
+          },
+          {
+            "card_index": 3,
+            "stage": "Action",
+            "goal": "Convert con CTA clara y de baja fricción: indicar precio, envío gratis y cómo pagar al recibir; instrucción rápida para finalizar compra.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "hero_product_price_cta",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Bee Venom Bswell from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Scene archetype: clean hero shot with the Bee Venom Bswell jar centered-right on a reflective surface (subtle reflection), shallow depth of field, warm studio key light from top‑left and soft fill. Composition: product sharp and centered‑right with negative space on left for CTA elements. Background: soft cream/gold bokeh, no logos or text. Emphasize premium material of glass. Overlay placements: price badge anchor top_right x_percent=78 y_percent=12 max_width_percent=36 max_height_percent=10; primary CTA anchor center_left x_percent=14 y_percent=52 max_width_percent=64 max_height_percent=18; instruction anchor bottom_left x_percent=12 y_percent=80 max_width_percent=76 max_height_percent=12; badges anchor bottom_left x_percent=12 y_percent=90 max_width_percent=36 max_height_percent=7 and x_percent=52 y_percent=90 max_width_percent=36 max_height_percent=7. Typography: CTA heavy bold sans‑serif 800, white fill with 2px dark stroke; price uses semi‑bold with slight gold fill. Button style: rounded rectangle, deep‑gold fill with white bold text. Include micro instruction line: 'Agrega al carrito y selecciona Pago contraentrega'. Negative_prompt: \"No faces, no other product variants, no logos, no watermarks, do not add countdown timers or invented stock scarcity messages.\"",
+              "text_overlays": [
+                {
+                  "id": "price_3",
+                  "text_exact": "COP 69900",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 78,
+                    "y_percent": 12,
+                    "max_width_percent": 36,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "SemiBold Sans Serif",
+                    "weight": 700,
+                    "alignment": "right"
+                  },
+                  "style": {
+                    "fill": "#FFF5E6",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.34) 0px 4px 12px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "cta_3",
+                  "text_exact": "Pide hoy • Paga al recibir",
+                  "placement": {
+                    "anchor": "center_left",
+                    "x_percent": 14,
+                    "y_percent": 52,
+                    "max_width_percent": 64,
+                    "max_height_percent": 18
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.46) 0px 6px 18px",
+                    "badge": "rounded_button_gold"
+                  }
+                },
+                {
+                  "id": "instruction_3",
+                  "text_exact": "Agrega al carrito y elige 'Pago contraentrega'",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 80,
+                    "max_width_percent": 76,
+                    "max_height_percent": 12
+                  },
+                  "typography": {
+                    "font_family": "Regular Sans Serif",
+                    "weight": 600,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#0D0D0D",
+                    "shadow": "rgba(0,0,0,0.30) 0px 4px 12px",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge_envio_3",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 12,
+                    "y_percent": 90,
+                    "max_width_percent": 36,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#C79B4A",
+                    "stroke": "#8B6F2E",
+                    "shadow": "rgba(0,0,0,0.26) 0px 3px 8px",
+                    "badge": "rounded_gold"
+                  }
+                },
+                {
+                  "id": "badge_pago_3",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "bottom_left",
+                    "x_percent": 52,
+                    "y_percent": 90,
+                    "max_width_percent": 36,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "Bold Sans Serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#C79B4A",
+                    "stroke": "#8B6F2E",
+                    "shadow": "rgba(0,0,0,0.26) 0px 3px 8px",
+                    "badge": "rounded_gold"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product centered‑right, crystal‑sharp; CTA occupies left negative space for clear action pathway.",
+                "hierarchy": "1) CTA 2) Product 3) Price 4) Instruction 5) Badges",
+                "text_safe_zone": "Maintain 10% margins; place CTA in central left negative space to avoid covering product; price top right within safe margins.",
+                "text_never_cover_rule": "Do not place product over any text overlays; ensure full jar visibility and do not crop product into text zones."
+              },
+              "negative_prompt": "No additional text outside overlays, no other product models, no logos, no watermarks, no faces, no fabricated guarantees or warranty claims, no countdown timers or false scarcity."
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Curiosity Gap",
+        "Value Proposition (Pago contraentrega)",
+        "Problem‑Solution (antiedad accesible)",
+        "Trust & Convenience (Envío gratis + paga al recibir)",
+        "Educational Content (mecanismo breve: estimula colágeno)",
+        "Before‑and‑After Framing (resultado: firmeza y luminosidad)",
+        "Low‑friction CTA (instrucción clara: agrega al carrito)",
+        "Social Proof hint (implied popularity through approachable luxury tone)"
+      ],
+      "compliance_notes": [
+        "All product benefit language is taken from the provided product description; no new medical claims, performance numbers, certifications, or invented guarantees were added.",
+        "Price text uses the exact provided price string 'COP 69900'.",
+        "No faces, logos, watermarks, or extra text beyond defined overlays will be generated per constraints.",
+        "Badges 'Envío gratis' and 'Pago contraentrega' are included on every card as requested to reduce purchase friction."
+      ]
+    }
+  ]
+}

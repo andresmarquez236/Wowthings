@@ -1,0 +1,88 @@
+{
+  "sources": [
+    {
+      "url": "https://www.wordstream.com/blog/ws/2023/01/04/facebook-ad-examples",
+      "title": "21 Facebook Ad Examples & Why They Work",
+      "published_date": "2023-01-04",
+      "used_for": "Identifying high-performing patterns and hook archetypes."
+    },
+    {
+      "url": "https://adespresso.com/blog/facebook-ad-creative-recent-trends/",
+      "title": "5 Facebook Ad Creative Trends For 2023",
+      "published_date": "2023-01-10",
+      "used_for": "Discovering recent trends and archetypes in Facebook ad creatives."
+    },
+    {
+      "url": "https://blog.hootsuite.com/facebook-ads-guide/",
+      "title": "How to Create High-Converting Facebook Ads in 2023",
+      "published_date": "2023-02-15",
+      "used_for": "Guidance on creating high-converting Facebook ads and identifying hook styles."
+    },
+    {
+      "url": "https://www.bigcommerce.com/blog/facebook-advertising-trends/",
+      "title": "Top Facebook Advertising Trends for 2023",
+      "published_date": "2023-03-20",
+      "used_for": "Understanding emerging trends and patterns in Facebook advertising."
+    },
+    {
+      "url": "https://later.com/blog/instagram-ad-examples/",
+      "title": "8 Instagram Ad Examples You Need to See",
+      "published_date": "2023-04-12",
+      "used_for": "Examples and analysis of effective Instagram ad archetypes."
+    },
+    {
+      "url": "https://neilpatel.com/blog/instagram-ads/",
+      "title": "How to Create Instagram Ads That Actually Convert",
+      "published_date": "2023-05-05",
+      "used_for": "Insight into creating high-converting Instagram ads and hook tactics."
+    }
+  ],
+  "hook_archetypes": [
+    "Unveiling the Solution",
+    "Fear of Missing Out (FoMO)",
+    "Before-and-After Reveal",
+    "Success Story Highlight",
+    "Limited-Time Offer",
+    "Problem-Solution Dynamic",
+    "User-Generated Content",
+    "Exclusive Sneak Peek",
+    "Pain Point Emphasis",
+    "Testimonial Spotlight",
+    "Risk-Free Proposition",
+    "Unexpected Fact"
+  ],
+  "high_performing_patterns": [
+    "Start with a bold statement to grab attention.",
+    "Use a question that addresses a common pain point.",
+    "Showcase dramatic before-and-after visuals.",
+    "Leverage customer testimonials for credibility.",
+    "Highlight a limited-time offer with urgency.",
+    "Include an unexpected fact to pique curiosity.",
+    "Show the benefits of the product in use.",
+    "Utilize emotionally charged language to create a connection."
+  ],
+  "latin_es_templates": [
+    "¡Descubre la diferencia en segundos!",
+    "¿Listo para el cambio que siempre has querido?",
+    "Este es el secreto que estabas buscando.",
+    "Oferta exclusiva por tiempo limitado, ¡no te lo pierdas!",
+    "Historias de éxito que te inspirarán a dar el siguiente paso.",
+    "¿Por qué seguir esperando? Únete hoy mismo.",
+    "Transforma tu día a día en algo extraordinario.",
+    "La prueba está en los resultados. ¡Compruébalo!",
+    "Sorprendentemente fácil, increíblemente eficaz.",
+    "Da el primer paso hacia un nuevo tú.",
+    "Millones ya lo están disfrutando, ¿y tú?",
+    "Pequeños cambios, grandes resultados.",
+    "Tu oportunidad de transformar tu rutina.",
+    "Historias reales, resultados reales.",
+    "Confía en quienes ya lo han probado.",
+    "Mucho más que un producto, es una experiencia.",
+    "Haz de cada día un buen día.",
+    "No te conformes con menos, elige lo mejor.",
+    "Descubre lo que estabas buscando.",
+    "Hazlo posible, hazlo ahora.",
+    "¡Te sorprenderás con lo que obtienes!",
+    "Más allá de tus expectativas."
+  ]
+}

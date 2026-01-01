@@ -1,0 +1,336 @@
+{
+  "schema_version": "nanobanana_image_v1",
+  "generated_at_utc": "2025-12-30T22:22:18.563348+00:00",
+  "product": {
+    "nombre_producto": "Truly Aceite Soft Serve 50 Ml",
+    "descripcion": "Contenido 50 ML\n\nTRULY ACEITE UNICORNIO (SOFT SERVE) CON SELLO DE ORIGINALIDAD 1.1\n\nEvita el dolor de la irritación por afeitado y los vellos encarnados con nuestro nuevo aceite para después del afeitado Soft Serve. Formulado con una valiosa mezcla de péptidos, ácido hialurónico y fresa para exfoliar suavemente, hidratar y acelerar el proceso de curación de la piel.\nTu piel se mantendrá suave e hidratada durante días después del afeitado. Es la solución calmante con aroma a fresa que tu piel anhela.\nRasguños y quemaduras por afeitado: calma la inflamación y promueve la curación para un acabado más elegante.\nPiel seca y con picazón: hidrata profundamente y alivia para una piel nutrida y sedosa al tacto.\nPelos encarnados: elimina las células muertas y regula el sebo para prevenir protuberancias dolorosas.",
+    "garantia": "10 dias",
+    "precio": "COP 75000",
+    "pais_objetivo": "Colombia"
+  },
+  "results_by_angle": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Alivio inmediato post-afeitado: menos ardor y menos vellos encarnados",
+      "buyer_persona": "Mujer 18–34, piel sensible, se depila/afeita piernas, axilas y bikini; busca solución rápida al ardor y protuberancias",
+      "ad_copy": {
+        "title": "¡Bye, vellos encarnados!",
+        "primary_text": "Descubre el alivio inmediato post-afeitado con Truly Aceite Soft Serve. Olvídate del ardor y los vellos encarnados. Tu piel suave y nutrida como siempre has deseado. ¡Prueba ahora!",
+        "description": "Calma tu piel después del afeitado con Truly. Adiós ardor y protuberancias."
+      },
+      "single_image_prompt": {
+        "task": "image_generation",
+        "thumbnail": "https://example.com/path/to/thumbnail.jpg",
+        "variant": "default",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "required"
+        },
+        "prompt": "A serene bathroom setting with natural light streaming in through a frosted window, illuminating a bathroom vanity. On the countertop, the Truly Aceite Soft Serve bottle is prominently displayed, showing its label with the words 'Truly' and 'Aceite Soft Serve'. A reflection in the mirror reveals a smiling woman with glowing, hydrated skin gently touching her smooth cheek, suggesting satisfaction. The bottle is open with a small drop of oil, glowing in the soft light, about to be applied. The setting is elegant, with pastel hues and soft focus to create a soothing atmosphere.",
+        "text_overlays": [
+          {
+            "id": "headline-overlay",
+            "text_exact": "¡Piel sin drama!",
+            "placement": {
+              "anchor": "top_left",
+              "x_percent": 5,
+              "y_percent": 5,
+              "max_width_percent": 40,
+              "max_height_percent": 20
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 700,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": "#000000",
+              "shadow": null,
+              "badge": null
+            }
+          },
+          {
+            "id": "cta-overlay",
+            "text_exact": "Prueba ahora",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 70,
+              "y_percent": 80,
+              "max_width_percent": 25,
+              "max_height_percent": 15
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 500,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#d35269",
+              "stroke": null,
+              "shadow": null,
+              "badge": null
+            }
+          },
+          {
+            "id": "badge-overlay",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 5,
+              "y_percent": 80,
+              "max_width_percent": 30,
+              "max_height_percent": 15
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 500,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": "#000000",
+              "shadow": null,
+              "badge": null
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "The Truly Aceite Soft Serve bottle and its label should be the focal point.",
+          "hierarchy": "The product should be in the foreground, with the background elements less focused.",
+          "text_safe_zone": "Text should remain within the top left and bottom areas, avoiding the center where the product is placed.",
+          "text_never_cover_rule": "Text must not cover the bottle or label directly."
+        },
+        "negative_prompt": "Avoid cluttered backgrounds, harsh lighting, and any other products in view."
+      },
+      "hooks_used": [
+        "Chao vellos encarnados, hola piel de seda.",
+        "Post-afeitado sin ardor en 10 segundos.",
+        "Tu afeitada más cómoda: calma y sella hidratación."
+      ],
+      "compliance_notes": [
+        "Avoid medical claims beyond general soothing and moisturizing benefits.",
+        "Focus on after-shave comfort and hydration benefits."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Fórmula skincare-grade (péptidos + ácido hialurónico + fresa AHA) para piel suave por días",
+      "buyer_persona": "Skincare lovers 20–40 que valoran ingredientes ‘derma-like’ y resultados visibles en textura/irritación",
+      "ad_copy": {
+        "title": "Ciencia que se siente",
+        "primary_text": "Descubre el poder reparador de Truly Aceite Soft Serve, con péptidos y ácido hialurónico para una piel suave y calmada tras el afeitado. Ideal para quienes buscan resultados visibles con tecnología de skincare avanzada. ¡Despídete de la irritación y los vellos encarnados!",
+        "description": "Mejora la textura y suavidad de tu piel con ingredientes de skincare derma-like."
+      },
+      "single_image_prompt": {
+        "task": "Generate a high-impact visual ad focusing on skincare science and luxury.",
+        "thumbnail": "luxury_skincare_bottle_softserve.jpg",
+        "variant": "Skincare luxury-focused",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080px",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "Do not obscure product details or label."
+        },
+        "prompt": "A luxurious bathroom setting with marble and gold accents is the backdrop. The Truly Aceite Soft Serve 50 Ml bottle is prominently displayed in the foreground. Natural soft lighting highlights the bottle's sleek design and label, with droplets of water on it to suggest freshness and hydration. In the background, out of focus, a plush towel and a green plant add a touch of relaxation and natural elegance. The focus is on the product bottle, center of the image, with soft shadows creating depth.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Ciencia que se siente",
+            "placement": {
+              "anchor": "left",
+              "x_percent": 5,
+              "y_percent": 10,
+              "max_width_percent": 50,
+              "max_height_percent": 20
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": null,
+              "shadow": "2px 2px 5px rgba(0,0,0,0.5)",
+              "badge": null
+            }
+          },
+          {
+            "id": "badge_free_shipping",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 80,
+              "y_percent": 90,
+              "max_width_percent": 20,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": null,
+              "shadow": "1px 1px 3px rgba(0,0,0,0.3)",
+              "badge": "circle"
+            }
+          },
+          {
+            "id": "badge_cash_on_delivery",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 80,
+              "y_percent": 80,
+              "max_width_percent": 30,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#ffffff",
+              "stroke": null,
+              "shadow": "1px 1px 3px rgba(0,0,0,0.3)",
+              "badge": "rectangle"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "Product bottle centered with natural elegance, surrounded by luxury bathroom elements.",
+          "hierarchy": "Title > Product > Badges",
+          "text_safe_zone": "5% margin from edges",
+          "text_never_cover_rule": "Do not cover product bottle or brand name."
+        },
+        "negative_prompt": "No human models, clinical or sterile environments, clutter, or busy backgrounds."
+      },
+      "hooks_used": [
+        "Péptidos + HA + fresa: ciencia que se siente.",
+        "Skincare para tu post-shave: repara e hidrata."
+      ],
+      "compliance_notes": [
+        "The advertisement visually emphasizes luxury and skincare benefits without making unverified medical claims.",
+        "Text and visuals are focused on highlighting ingredient benefits and luxurious product positioning without implying unrealistic outcomes."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Experiencia sensorial ‘fresas con crema’ (+ rutina TikTok Pink) que fideliza la constancia",
+      "buyer_persona": "Gen Z y millennials que compran por aroma/ritual y estética ‘cute’ pero exigen funcionalidad",
+      "ad_copy": {
+        "title": "¡Dulce Cuidado Post-Afeitado! 🍓",
+        "primary_text": "Transforma tu rutina de afeitado con Truly Aceite Soft Serve. La mezcla perfecta de aroma a fresas, péptidos y ácido hialurónico para una piel extra suave y calmada. Descubre el secreto ‘Pink’ que realmente funciona!",
+        "description": "Cuidado post-afeitado con aroma a fresa que mima tu piel y calma las irritaciones. ¡Disfruta de una rutina sensorial y efectiva cada día!"
+      },
+      "single_image_prompt": {
+        "task": "image_generation",
+        "thumbnail": "https://example.com/placeholder_image.jpg",
+        "variant": "default",
+        "format": {
+          "aspect_ratio": "4:5",
+          "resolution": "1080x1350px",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "A prominent and untouched depiction of the Truly Aceite Soft Serve bottle."
+        },
+        "prompt": "A vibrant and whimsical scene capturing the essence of a luxurious post-shave experience. A bottle of Truly Aceite Soft Serve (clearly visible with its strawberry-themed label) sits on a fluffy cloud-like surface on a marble bathroom countertop, surrounded by fresh strawberries and soft pink rose petals. The background softly fades into a dreamy pink gradient, hinting at the 'fresas con crema' scent. Warm, natural light streams in from the right, illuminating the bottle and casting gentle shadows. Pink bokeh adds a touch of magic to the scene, emphasizing the sensory delight. The overall composition conveys a sweet, calming, and aesthetic experience, suitable for TikTok ritual shots.",
+        "text_overlays": [
+          {
+            "id": "overlay_1",
+            "text_exact": "¡Siente la Dulzura!",
+            "placement": {
+              "anchor": "top_center",
+              "x_percent": 50,
+              "y_percent": 10,
+              "max_width_percent": 60,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFC0CB",
+              "stroke": null,
+              "shadow": "#00000033",
+              "badge": null
+            }
+          },
+          {
+            "id": "overlay_2",
+            "text_exact": "Envío Gratis",
+            "placement": {
+              "anchor": "bottom_left",
+              "x_percent": 5,
+              "y_percent": 90,
+              "max_width_percent": 30,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#FF69B4",
+              "shadow": null,
+              "badge": "star"
+            }
+          },
+          {
+            "id": "overlay_3",
+            "text_exact": "Pago Contraentrega",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 95,
+              "y_percent": 90,
+              "max_width_percent": 40,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#FF69B4",
+              "shadow": null,
+              "badge": "star"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "Truly Aceite Soft Serve bottle",
+          "hierarchy": "Bottle in foreground, strawberries and petals surrounding, text overlays above and below in safe zones",
+          "text_safe_zone": "Top 20% and Bottom 20%",
+          "text_never_cover_rule": "Never cover the product bottle or prominent features like the strawberries."
+        },
+        "negative_prompt": "Avoid depicting any skin-related issues or imperfections around the product; keep the scene clean and aesthetically pleasing."
+      },
+      "hooks_used": [
+        "Aroma fresas con crema irresistible.",
+        "Rutina ‘Pink’: linda, efectiva y constante.",
+        "Huele rico, calma más: sí se puede."
+      ],
+      "compliance_notes": [
+        "Ensure no misleading medical claims about curing conditions.",
+        "The product's aesthetic should align with Gen Z and millennial aesthetic trends."
+      ]
+    }
+  ]
+}

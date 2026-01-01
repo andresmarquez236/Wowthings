@@ -1,0 +1,13 @@
+{
+    "theme": {
+        "id": 147297697844,
+        "name": "10x-theme-v2",
+        "created_at": "2025-10-17T20:18:10-05:00",
+        "updated_at": "2025-12-23T16:50:41-05:00",
+        "role": "main",
+        "theme_store_id": null,
+        "previewable": true,
+        "processing": false,
+        "admin_graphql_api_id": "gid://shopify/Theme/147297697844"
+    }
+}

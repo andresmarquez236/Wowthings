@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "generated_at_utc": "2025-12-30T19:56:08.550771+00:00",
+    "model": "gpt-4o",
+    "market_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/market_research_min.json",
+    "caches": {
+      "hooks_pack": "output/bee_venom_bswell/hooks_pack.json",
+      "trends_pack": "output/bee_venom_bswell/trends_pack.json",
+      "video_rules_pack": "output/bee_venom_bswell/video_rules_pack.json"
+    },
+    "product": {
+      "nombre_producto": "Bee Venom Bswell",
+      "descripcion": "PRESENTACION EN VIDRIO 120g\n🐝 Bee Venom Bswell – Rejuvenecimiento Natural & Lifting Instantáneo\nBee Venom Bswell es un tratamiento cosmético avanzado que utiliza veneno de abeja purificado para estimular la producción natural de colágeno y elastina, logrando un efecto tensor que mejora la firmeza y suavidad de la piel desde las primeras aplicaciones.\n\nEs ideal para quienes buscan un producto antiedad potente, inspirado en tratamientos de lujo.\n\n✅ Beneficios principales\n✔ Efecto lifting y reafirmante\n✔ Reduce líneas de expresión y arrugas\n✔ Estimula la producción de colágeno\n✔ Mejora la elasticidad y firmeza\n✔ Hidrata profundamente\n✔ Aporta luminosidad y suavidad\n✔ Mejora textura y apariencia del rostro\n\n🐝 Ingredientes Clave\nVeneno de abeja purificado\nSimula una microestimulación que activa la regeneración de la piel sin dolor.\n\nPéptidos rejuvenecedores\n\nÁcido hialurónico\n\nAntioxidantes protectores\n\n🔬 Cómo funciona\nEl veneno de abeja actúa como un “micro-lifting” natural:\nEngaña a la piel simulando una microestimulación, activando defensas y aumentando la producción de colágeno y elastina.\nEsto reafirma, suaviza líneas y mejora el aspecto general del rostro de forma continua.\n\n🧴 Modo de uso\n1️⃣ Aplicar 1–2 veces al día sobre piel limpia\n2️⃣ Masajear hasta absorber\n3️⃣ Seguir con tu hidratante habitual",
+      "garantia": "10 dias",
+      "precio": "COP 69900",
+      "pais_objetivo": "Colombia"
+    }
+  },
+  "results": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "buyer_persona": "Mujer 30–55 en Colombia, preocupada por líneas finas y firmeza, que busca alternativa cosmética a tratamientos in‑clinic",
+      "ad_copy": {
+        "title": "¡Adiós arrugas, hola Bee Venom! 🐝",
+        "primary_text": "Descubre el poder del veneno de abeja para una piel más firme y joven. Sin agujas, solo resultados naturales.",
+        "description": "Rejuvenecimiento visible desde las primeras semanas. ¡Pruébalo tú misma!"
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "Cadencia 3–3–3 cada 3 segundos.",
+          "change_definition": "Cambios visuales/textuales/ritmo cada 3s."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Piel sin firmeza? ¡Solución natural!",
+            "visual": "Close-up de piel con efecto de iluminación que simula firmeza.",
+            "voiceover": "¿Buscas algo natural para la firmeza de tu piel?",
+            "rhythm_editing": "Rápida entrada con iluminación brillante.",
+            "sfx_music": "Chime suave y brillante al inicio.",
+            "transition": "Fade-in rápido.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Bee Venom Bswell",
+            "visual": "Shot del producto en un entorno limpio y lujoso.",
+            "voiceover": "Descubre Bee Venom Bswell.",
+            "rhythm_editing": "Zoom-in al producto.",
+            "sfx_music": "Fondo musical calmante.",
+            "transition": "Zoom fade-in.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Micro-lifting sin agujas",
+            "visual": "Animación que ilustra la acción del veneno.",
+            "voiceover": "Nuestro micro-lifting natural sin agujas.",
+            "rhythm_editing": "Animación de veneno activando fibras.",
+            "sfx_music": "Música de fondo continúa.",
+            "transition": "Swipe lateral.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Resultados visibles en semanas.",
+            "visual": "Testimonio de mujer mostrando su piel.",
+            "voiceover": "Resultados visibles desde semanas de uso.",
+            "rhythm_editing": "Corte a testimonio UGC.",
+            "sfx_music": "Música de fondo inspiradora.",
+            "transition": "Cut rápido al testimonio.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Seguro incluso con alergias",
+            "visual": "Texto en pantalla resaltando seguridad para quienes tienen alergia al veneno.",
+            "voiceover": "Seguro incluso si tienes alergias.",
+            "rhythm_editing": "Enfatizar texto con animación rápida.",
+            "sfx_music": "Tono calmante.",
+            "transition": "Pulse animado en texto.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Garantía de 10 días",
+            "visual": "Texto sobre fondo del producto.",
+            "voiceover": "Y con garantía de 10 días.",
+            "rhythm_editing": "Pan sobre el producto con texto.",
+            "sfx_music": "Nota final de seguridad.",
+            "transition": "Pan horizontal lento.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Ordena ya y transforma tu piel 🛒",
+            "visual": "Imagen final del producto con call-to-action en pantalla.",
+            "voiceover": "Transforma tu piel ahora con Bee Venom Bswell.",
+            "rhythm_editing": "Ritmo acelerado para finalizar.",
+            "sfx_music": "Finalización musical enérgica.",
+            "transition": "Fade-out suave a negro.",
+            "cta": "CTA - Toca para comprar ahora"
+          }
+        ],
+        "production_notes": [
+          "Usar iluminación suave para resaltar textura.",
+          "Captar testimonios reales para autenticidad.",
+          "Utilizar texto en pantalla claramente visible.",
+          "Transiciones fluidas para mantener interés.",
+          "Ajustar ritmo con la música para sinergia.",
+          "Enfocar el producto de manera sofisticada.",
+          "Incluir subtítulos para visualización sin sonido.",
+          "Mostrar uso del producto en un escenario cotidiano.",
+          "Incorporar escenas de aplicación del producto para demostración.",
+          "Mantener el estilo visual en colores neutros y sofisticados."
+        ]
+      },
+      "hooks_used": [
+        "'Ep 1. Sienta la diferencia al instante.'",
+        "'¿Lidiando con la firmeza de la piel? Descubre tu solución.'",
+        "'¡Todo estado en los detalles!'",
+        "'Descubre la diferencia de Bee Venom.'",
+        "'¡Siente cómo tu piel renace!'"
+      ],
+      "compliance_notes": [
+        "Asegúrate de no afirmar resultados médicos definitivos, más bien resalta cómo el producto puede beneficiar en la apariencia de la piel.",
+        "Si bien el producto es seguro para personas con alergias, siempre recomienda probar en un área pequeña primero.",
+        "No uses la palabra 'curar', enfocarse en suavizar y mejorar apariencia. Recordar uso de 'según disponibilidad' para oferta. Verificar si hay derechos de música al utilizarla. Mantener la relación de aspecto 9:16 en todos los clips. Utilizar transiciones naturales y evitar cortes abruptos que puedan confundir al espectador. Incorporar subtítulos precisos para accesibilidad y contexto. Respetar la privacidad y derechos de cualquier contenido UGC usado. Válido para mercado en Colombia exclusivamente.",
+        "Confirmar que las afirmaciones en los testimonios estén acorde con los efectos generales observados durante su uso seguro."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Lujo aspiracional y tendencia global (\"natural botox\" + K‑beauty) a precio accesible en Colombia",
+      "buyer_persona": "Compradora que sigue tendencias (reales, royals, K‑beauty) pero busca ticket medio (<$80.000 COP) y pago contraentrega",
+      "ad_copy": {
+        "title": "Experimenta el 'Natural Botox' en Casa",
+        "primary_text": "Lujo de veneno de abeja accesible para ti. Conoce el secreto de la belleza K a nivel mundial.",
+        "description": "Inspiración de lujo ahora disponible en Colombia. ¡Prueba Bee Venom Bswell!"
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "Switch scenes or angles every 2-3 seconds",
+          "change_definition": "Visuals, text overlays, and rhythm should shift dynamically every 3 seconds."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Natural Botox?",
+            "visual": "Close-up on a fresh, glowing face applying cream.",
+            "voiceover": "Buscas algo más que una crema común?",
+            "rhythm_editing": "Quick zoom in on the face, fade in text.",
+            "sfx_music": "Upbeat intro tone, sound of bees buzzing",
+            "transition": "Smooth zoom in.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "'Lujo de Veneno de Abeja' al Alcance",
+            "visual": "Display of Bee Venom Bswell jar with subtle sparkle effects.",
+            "voiceover": "Bee Venom Bswell te da lujo y tendencia global.",
+            "rhythm_editing": "Text overlay fades in and out, sparkle effect.",
+            "sfx_music": "Background soft chime, gentle swoosh",
+            "transition": "Swipe left to product.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Efecto 'Natural Botox' al instante",
+            "visual": "Demonstration of product application on the skin.",
+            "voiceover": "Con el poder de un lifting natural.",
+            "rhythm_editing": "Close-up of skin tightening visibly.",
+            "sfx_music": "Gentle uplifting chords",
+            "transition": "Swipe up showing application.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Apreciado por Reales y K-Beauty",
+            "visual": "Clip of luxury influencers and beauty magazines.",
+            "voiceover": "Aclamado por las tendencias reales y K-beauty.",
+            "rhythm_editing": "Fast cut between influencers and magazines.",
+            "sfx_music": "Elegant harp strings",
+            "transition": "Flash cut to influencers.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Bee Venom: Inspirado en el Lujo",
+            "visual": "Smooth panning shot of Bee Venom Bswell jar open.",
+            "voiceover": "Inspirado por lo mejor del lujo.",
+            "rhythm_editing": "Slow pan with soft focus, text glide in.",
+            "sfx_music": "Soft ambient music",
+            "transition": "Dissolve to product jar.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Disponible en Colombia por $69,900",
+            "visual": "Image of the product with Colombian currency graphic.",
+            "voiceover": "A un precio que no puedes resistir.",
+            "rhythm_editing": "Fast cut to price display.",
+            "sfx_music": "Gentle cash register sound",
+            "transition": "Swipe down to offer.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "¡Consíguelo Ahora!",
+            "visual": "User scrolling happily through online shop, buying the product.",
+            "voiceover": "El lujo está a tu alcance. ¡Hazlo tuyo hoy!",
+            "rhythm_editing": "Slow zoom into screen, closing text flash.",
+            "sfx_music": "Upbeat crescendo note",
+            "transition": "Fade out to purchase screen.",
+            "cta": "Compra Ahora"
+          }
+        ],
+        "production_notes": [
+          "Use macro lens for opening shot to detail skin texture.",
+          "Soft lighting to create a luxurious and warm feel.",
+          "Captions for all voiceovers to enhance comprehension.",
+          "Dynamic text overlays on key beats for emphasis.",
+          "Highlight 'Before' and 'After' subtly during application demo.",
+          "Emulate influencer clips with overlays of real UGC style footage.",
+          "Align music changes with scene transitions.",
+          "Loop product visuals seamlessly from Beat 3 to Beat 7.",
+          "Ensure text overlays are bold and match the brand aesthetic.",
+          "Use natural ambient sounds (buzzing bees) subtly for thematic consistency.",
+          "Utilize split screen to show K-beauty influence.",
+          "Sync visual rhythm with upbeat music for energetic engagement.",
+          "Ensure visual consistency with K-beauty themes (floral, serene backgrounds).",
+          "Focus on hand application demonstration for relatability."
+        ]
+      },
+      "hooks_used": [
+        "'Struggling with [problem]? Discover your solution.'",
+        "'Here's why users are switching.'",
+        "'Heard it in your favorite vlog? Now try it yourself!'",
+        "'Learn the secret to effortless [benefit].'",
+        "'It's all in the details – take a closer look.'",
+        "'Enamórate de los resultados que todos están comentando.'"
+      ],
+      "compliance_notes": [
+        "Ensure no direct claims of 'Botox' effects without explanation of 'natural botox' as a metaphor.",
+        "Do not imply immediate results without specifying 'from the first applications' or similar phrasing.",
+        "Ensure clear disclaimers where necessary, especially around 'inspirado por'.",
+        "Use accessible pricing and availability terms based on real information."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Accesibilidad y conveniencia: envío nacional y pago contraentrega",
+      "buyer_persona": "Comprador masivo de e‑commerce colombiano que prefiere contraentrega y entregas rápidas",
+      "ad_copy": {
+        "title": "Recíbelo en casa, págalo al recibir 📦💳",
+        "primary_text": "Con Bee Venom Bswell, rejuvenece tu piel sin riesgos: entrega rápida y pago contraentrega en Colombia.",
+        "description": "Disfruta de un lifting instantáneo con confianza. Sin riesgo, sin fricciones."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2s",
+          "cadence_rule": "Switch scenes or angles every 2-3 seconds",
+          "change_definition": "Visuals should change approximately every 3 seconds to sustain engagement. Text overlays need regular updates every 3 seconds to drive key messages home. Rhythm and pacing should adapt at least every 3 seconds to match viewer attention spans."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¡Recíbelo en casa y págalo al recibir!",
+            "visual": "Close-up shot of Bee Venom Bswell jar being unboxed at a doorstep.",
+            "voiceover": "Now, rejuvenate at home!",
+            "rhythm_editing": "Fast-paced with upbeat intro music.",
+            "sfx_music": "Upbeat, welcoming music",
+            "transition": "Whip pan to next scene.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Transforma tu piel fácilmente.",
+            "visual": "Time-lapse of applying the cream on a face, showing instant lifting effect.",
+            "voiceover": "Instant lifting effect!",
+            "rhythm_editing": "Speed ramp to focus on skin transformation.",
+            "sfx_music": "Crescendo effect",
+            "transition": "Jump cut to next.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Pago contraentrega en toda Colombia.",
+            "visual": "Map overlay showing delivery reach across Colombia.",
+            "voiceover": "Delivered anywhere!",
+            "rhythm_editing": "Split-screen showing online order interface.",
+            "sfx_music": "Chime sound",
+            "transition": "Swipe left.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Confía en el poder del veneno de abeja.",
+            "visual": "Model applying cream with relaxed expression, focusing on the UE of ingredients.",
+            "voiceover": "Trust in bee venom technology.",
+            "rhythm_editing": "Slow-motion of application.",
+            "sfx_music": "Soft, soothing tones",
+            "transition": "Dissolve to next.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Luce firme y radiante.",
+            "visual": "Before-and-after shots of skin after use.",
+            "voiceover": "Firm and radiant!",
+            "rhythm_editing": "Quick cut to showcase transformation.",
+            "sfx_music": "Triumphant notes",
+            "transition": "Crossfade to next.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Sin riesgo: fácil devolución en 10 días.",
+            "visual": "Text pop-up with smiling customer holding product.",
+            "voiceover": "Risk-free guarantee.",
+            "rhythm_editing": "Quick zoom into smiling face.",
+            "sfx_music": "Gentle chime",
+            "transition": "Slide right.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Haz tu pedido hoy. Experimenta Bee Venom Bswell.",
+            "visual": "Call-to-action with website link and social icons.",
+            "voiceover": "Order yours now!",
+            "rhythm_editing": "Fade out with brand logo.",
+            "sfx_music": "Fading upbeat music",
+            "transition": "Fade out.",
+            "cta": "Swipe up to order"
+          }
+        ],
+        "production_notes": [
+          "Use vibrant lighting to highlight the product's appeal.",
+          "Text overlays should be clearly readable on mobile screens.",
+          "Incorporate dynamic zooms and pans to maintain energy.",
+          "Emphasize payment convenience and accessibility in text.",
+          "Ensure facial expressions convey confidence and satisfaction.",
+          "Utilize upbeat and positive background music.",
+          "Use captions for key messages for sound-off viewing.",
+          "Show diversity in models to resonate with a broader audience.",
+          "Highlight smooth texture and application delight.",
+          "End with strong brand visuals for recall."
+        ]
+      },
+      "hooks_used": [
+        "'¡No podrás creer lo que viene! 🔍'",
+        "'¿Lidiando con [problema]? Descubre tu solución.'",
+        "'Entra al mundo de posibilidades – tu viaje comienza ahora.'",
+        "'Quedan solo [XX] unidades – ¡asegura la tuya!'",
+        "'Descubre tu nuevo [producto] favorito.'",
+        "'Enamórate de los resultados que todos están comentando.'"
+      ],
+      "compliance_notes": [
+        "Ensure no claims of medical efficacy beyond cosmetic benefits.",
+        "Avoid any promises not supported by product credentials.",
+        "Pricing should be clearly stated as per availability.",
+        "Ensure music is royalty-free or appropriately licensed."
+      ]
+    }
+  ]
+}

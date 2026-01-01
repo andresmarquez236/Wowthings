@@ -1,0 +1,40 @@
+{
+  "product_dir": "output/bee_venom_bswell",
+  "thumbnails_json": "output/bee_venom_bswell/nanobanana_thumbnails_bee_venom_bswell.json",
+  "num_angulos": 1,
+  "used_ref_images": 3,
+  "max_ref_images": 5,
+  "rpm_limit": 6.0,
+  "models": [
+    "gemini-3-pro-image-preview"
+  ],
+  "results": [
+    {
+      "angle_rank": 1,
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "prompt_thumbnail_id": "bee_venom_bswell_A1_V1",
+      "out_file": "output/bee_venom_bswell/generated_thumbnails_gemini_4k/bee_venom_bswell_A1_V1__4k.png",
+      "model": "gemini-3-pro-image-preview",
+      "prompt_sent_file": "output/bee_venom_bswell/generated_thumbnails_gemini_4k/bee_venom_bswell_A1_V1__prompt_sent.json",
+      "used_ref_images": 3
+    },
+    {
+      "angle_rank": 1,
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "prompt_thumbnail_id": "bee_venom_bswell_A1_V2",
+      "out_file": "output/bee_venom_bswell/generated_thumbnails_gemini_4k/bee_venom_bswell_A1_V2__4k.png",
+      "model": "gemini-3-pro-image-preview",
+      "prompt_sent_file": "output/bee_venom_bswell/generated_thumbnails_gemini_4k/bee_venom_bswell_A1_V2__prompt_sent.json",
+      "used_ref_images": 3
+    },
+    {
+      "angle_rank": 1,
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "prompt_thumbnail_id": "bee_venom_bswell_A1_V3",
+      "out_file": "output/bee_venom_bswell/generated_thumbnails_gemini_4k/bee_venom_bswell_A1_V3__4k.png",
+      "model": "gemini-3-pro-image-preview",
+      "prompt_sent_file": "output/bee_venom_bswell/generated_thumbnails_gemini_4k/bee_venom_bswell_A1_V3__prompt_sent.json",
+      "used_ref_images": 3
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "resumen_corto": "Producto: “Tabla de Pilates Plegable” (tipo pilates board/reformer compacto) con bandas elásticas para entrenar en casa. En Colombia se comercializa ampliamente en marketplaces/retail como producto genérico/importe, con promesas de entrenamiento de core/cuerpo completo y ahorro de espacio. Tu precio (COP 169.900) compite en el rango bajo vs retail (p.ej. Falabella ~COP 202.900+), y la garantía de 3 meses está alineada con ofertas retail locales (3 meses).",
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo_id": "A1_core_postura_sin_gym",
+      "angulo": "Core + postura (bajo impacto) sin ir al gimnasio",
+      "score_0_10": 8.8,
+      "buyer_persona": "Mujer/hombre 25–45 con dolor lumbar leve o mala postura por oficina/teletrabajo; quiere bajo impacto, constancia en casa.",
+      "promesa": "Fortalece core y estabilidad con rutina corta en casa (sin saltos).",
+      "objecion_resuelta": "“No tengo tiempo / me aburro / me duele la espalda” → micro-rutinas guiadas y bajo impacto.",
+      "disclaimer": "NO_CONFIRMADO que incluya guía profesional/fisioterapia o que sea apto para rehabilitación clínica; evitar claims médicos.",
+      "evidencia_urls": [
+        "https://www.falabella.com.co/falabella-co/product/144530537/Tabla-De-Pilates-Plegable-Para-Ejercicio-Multifuncional",
+        "https://www.falabella.com.co/falabella-co/product/145591650/Tabla-De-Pilates-Multifuncional-Para-Un-Cuerpo-Tonificado/145591651",
+        "https://eratecnologia.co/products/tabla-de-pilates"
+      ]
+    },
+    {
+      "rank": 2,
+      "angulo_id": "A2_ahorro_espacio_apartamento",
+      "angulo": "Ahorro de espacio: “gimnasio plegable” para apartamento",
+      "score_0_10": 8.5,
+      "buyer_persona": "Vive en apartamento pequeño (Bogotá/Medellín/Cali), quiere equipo guardable y rápido de usar.",
+      "promesa": "Entrenas y lo guardas en minutos; no ocupa como una máquina grande.",
+      "objecion_resuelta": "“No tengo dónde meter aparatos” → plegable/portátil.",
+      "disclaimer": "NO_CONFIRMADO dimensiones exactas/tiempo de plegado de tu variante.",
+      "evidencia_urls": [
+        "https://shop.tiktok.com/view/product/1730077603964228478",
+        "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3369887353",
+        "https://articulo.mercadolibre.com.co/MCO-1578453473-tabla-de-pilates-multifuncional-plegable-para-ejercicio-en-c-_JM"
+      ]
+    },
+    {
+      "rank": 3,
+      "angulo_id": "A3_tonificacion_total_body_bandas",
+      "angulo": "Tonificación total body con bandas (cuerpo completo en casa)",
+      "score_0_10": 8.2,
+      "buyer_persona": "Principiante/intermedio que quiere “marcar” sin gimnasio; busca glúteo, abdomen, brazos.",
+      "promesa": "Más variedad que una colchoneta: tiras, empujas y deslizas con resistencia.",
+      "objecion_resuelta": "“Con mi peso no veo resultados” → progresión por resistencia/variaciones.",
+      "disclaimer": "NO_CONFIRMADO número real de ejercicios/variaciones que soporta tu producto; evitar prometer resultados específicos en días.",
+      "evidencia_urls": [
+        "https://articulo.mercadolibre.com.co/MCO-2862696832-tabla-de-pilates-multifuncional-plegable-para-entrenamiento-_JM",
+        "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763",
+        "https://www.mercadolibre.com.co/tabla-ejercicios-pilates-abdominales-entrenamiento-gym-casa/up/MCOU3407862199"
+      ]
+    },
+    {
+      "rank": 4,
+      "angulo_id": "A4_valor_vs_reformer_costoso",
+      "angulo": "Alternativa económica al reformer/estudio (valor percibido)",
+      "score_0_10": 7.7,
+      "buyer_persona": "Quiso entrar a pilates pero le parece caro estudio/clases o un reformer real; quiere probar en casa.",
+      "promesa": "Sensación “reformer-like”/multifunción sin pagar máquina grande.",
+      "objecion_resuelta": "“Pilates es muy caro” → producto accesible + rutinas.",
+      "disclaimer": "No afirmar que reemplaza un reformer profesional; es una alternativa compacta.",
+      "evidencia_urls": [
+        "https://articulo.mercadolibre.com.co/MCO-1578445869-tablero-de-pilates-reformer-plegable-15-en-1-para-hogar-_JM",
+        "https://articulo.mercadolibre.com.co/MCO-1600456839-tabla-reformadora-de-pilates-con-bandas-de-resistencia-maqu-_JM",
+        "https://www.falabella.com.co/falabella-co/product/144530537/Tabla-De-Pilates-Plegable-Para-Ejercicio-Multifuncional"
+      ]
+    },
+    {
+      "rank": 5,
+      "angulo_id": "A5_kit_completo_timer_phoneholder",
+      "angulo": "“Kit completo” (timer/soporte celular/accesorios) + hábito",
+      "score_0_10": 7.1,
+      "buyer_persona": "Comprador/a motivado por gadgets; hace rutinas con el celular y necesita “tracking”.",
+      "promesa": "Entrena con cronómetro/soporte y sigue videos fácil.",
+      "objecion_resuelta": "“No sé cómo usarla / necesito guía” → entreno con videos y timer.",
+      "disclaimer": "NO_CONFIRMADO que tu variante incluya temporizador/phone holder; este ángulo aplica solo si tu producto realmente lo trae.",
+      "evidencia_urls": [
+        "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3369887353",
+        "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763",
+        "https://shop.tiktok.com/view/product/1730077603964228478"
+      ]
+    }
+  ],
+  "hook_trends": {
+    "patrones_top": [
+      {
+        "pattern_id": "P1_microreto_7_14_dias",
+        "nombre": "Micro-reto (7/14 días) + resultado funcional",
+        "plantilla": "“Reto de {7/14} días: {acción simple} por {minutos} al día y siente {beneficio funcional}”",
+        "cuando_funciona": "UGC/Reels cuando el producto es fácil de usar y el beneficio es ‘sentir’ (energía, estabilidad) más que prometer transformación extrema.",
+        "evidencia_urls": [
+          "https://www.tiktok.com/tag/pilateschallenge",
+          "https://www.youtube.com/results?search_query=pilates+challenge+7+dias+espa%C3%B1ol"
+        ]
+      },
+      {
+        "pattern_id": "P2_before_after_funcional",
+        "nombre": "Before/After funcional (dolor/rigidez/energía)",
+        "plantilla": "“Antes: {problema cotidiano}. Después de {X} sesiones: {mejora medible o sensación}.”",
+        "cuando_funciona": "Para fitness bajo impacto; mejor que prometer pérdida de peso rápida.",
+        "evidencia_urls": [
+          "https://www.tiktok.com/tag/pilatesbeforeafter",
+          "https://www.youtube.com/results?search_query=before+after+pilates+core+espa%C3%B1ol"
+        ]
+      },
+      {
+        "pattern_id": "P3_demostracion_3_movimientos",
+        "nombre": "Demostración rápida: 3 movimientos (3x3)",
+        "plantilla": "“3 ejercicios en esta tabla para: (1) {zona}, (2) {zona}, (3) {zona}. Guarda para hacerlo hoy.”",
+        "cuando_funciona": "Ads cortos y orgánico; reduce fricción (“¿cómo se usa?”).",
+        "evidencia_urls": [
+          "https://www.youtube.com/results?search_query=pilates+board+workout+3+exercises",
+          "https://www.tiktok.com/tag/pilatesworkout"
+        ]
+      },
+      {
+        "pattern_id": "P4_objecion_plastico_estabilidad",
+        "nombre": "Objeción frontal: ‘¿Es plástico? ¿aguanta?’",
+        "plantilla": "“Sí, es {material}. Mira {test/uso real} + tips de seguridad para usarla bien.”",
+        "cuando_funciona": "Cuando el mercado comenta “se ve frágil”; mejora conversión en marketplaces.",
+        "evidencia_urls": [
+          "https://shop.tiktok.com/view/product/1730077603964228478",
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763"
+        ]
+      },
+      {
+        "pattern_id": "P5_apartamento_guardado",
+        "nombre": "Hook de espacio: ‘vive en un cajón’",
+        "plantilla": "“Vivo en apto y esto se guarda en {lugar}. Lo saco, entreno {minutos} y listo.”",
+        "cuando_funciona": "Colombia urbano; cuando el diferencial es plegable/portátil.",
+        "evidencia_urls": [
+          "https://shop.tiktok.com/view/product/1730077603964228478",
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3369887353"
+        ]
+      },
+      {
+        "pattern_id": "P6_comparativo_vs_gym",
+        "nombre": "Comparativo costo/tiempo vs gym o estudio",
+        "plantilla": "“Lo que pago en {1 mes de gym/clases} vs lo que me costó esto (y lo uso en casa).”",
+        "cuando_funciona": "Cuando precio es ‘entry’; evita atacar directamente marcas.",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/144530537/Tabla-De-Pilates-Plegable-Para-Ejercicio-Multifuncional",
+          "https://eratecnologia.co/products/tabla-de-pilates"
+        ]
+      },
+      {
+        "pattern_id": "P7_rutina_oficina_espalda",
+        "nombre": "Hook ‘oficina/teletrabajo’ (espalda/core)",
+        "plantilla": "“Si trabajas sentado: haz esto {5-10} min para activar core y soltar la espalda.”",
+        "cuando_funciona": "Reels educativos y ads con segmentación a oficina.",
+        "evidencia_urls": [
+          "https://eratecnologia.co/products/tabla-de-pilates",
+          "https://www.youtube.com/results?search_query=pilates+para+espalda+teletrabajo"
+        ]
+      },
+      {
+        "pattern_id": "P8_unboxing_armado_30s",
+        "nombre": "Unboxing + armado en 30s (anti-fricción)",
+        "plantilla": "“Llega así. La abro en {X} segundos y arranco con {1 ejercicio}.”",
+        "cuando_funciona": "Ecommerce; reduce devoluciones por expectativas.",
+        "evidencia_urls": [
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763",
+          "https://shop.tiktok.com/view/product/1730077603964228478"
+        ]
+      },
+      {
+        "pattern_id": "P9_principiantes_sin_saltar",
+        "nombre": "‘Para principiantes’ + bajo impacto",
+        "plantilla": "“Si odias saltar o estás empezando: esta rutina en tabla es para ti.”",
+        "cuando_funciona": "Audiencia con miedo a lesiones/rodillas.",
+        "evidencia_urls": [
+          "https://shop.tiktok.com/view/product/1729601707549037021",
+          "https://www.youtube.com/results?search_query=low+impact+pilates+beginner+espa%C3%B1ol"
+        ]
+      }
+    ]
+  },
+  "hooks_por_angulo": [
+    {
+      "angulo_id": "A1_core_postura_sin_gym",
+      "hooks": [
+        "Si trabajas sentado: 8 minutos al día en esta tabla para activar core y mejorar postura.",
+        "Tu espalda no necesita otro ‘motivón’: necesita un core fuerte (sin saltos).",
+        "Rutina express: core + glúteo + estabilidad en casa, sin máquinas enormes.",
+        "¿Cansado de empezar y dejar? Haz 1 circuito fácil en la tabla y marca la semana.",
+        "Pilates en casa: enfoque en control y estabilidad (ideal si no te gustan impactos).",
+        "Antes de acostarte: 6 minutos para soltar cadera y activar abdomen (con bandas).",
+        "Para principiantes: movimientos simples, resistencia gradual y control.",
+        "Si ya haces caminatas, esto es el complemento perfecto para fortalecer el centro.",
+        "No es “hacer abdominales”: es entrenar estabilidad para moverte mejor.",
+        "Tu meta 2026: postura + core. Empieza con una tabla plegable y una rutina corta."
+      ]
+    },
+    {
+      "angulo_id": "A2_ahorro_espacio_apartamento",
+      "hooks": [
+        "Vives en apartamento: esto se saca, se entrena y se guarda (sin invadir la sala).",
+        "Tu gimnasio en casa no tiene que verse como un gimnasio: tabla plegable + listo.",
+        "Entrena cuerpo completo y después… desaparece debajo de la cama (literal).",
+        "Si tu casa es pequeña, tu equipo también debería serlo: plegable y portátil.",
+        "De ‘no tengo espacio’ a ‘lo uso todos los días’: equipo que se guarda fácil.",
+        "Perfecto para quienes no quieren máquinas grandes: rutina completa en formato compacto.",
+        "El hábito gana: mientras menos estorbe, más lo usas.",
+        "Lo que más me gustó: no ocupa espacio, pero sí se siente el trabajo.",
+        "¿Equipo de ejercicio que no estorba? Sí existe: tabla plegable con bandas.",
+        "Para regalos: fitness útil y guardable (no otro aparato abandonado)."
+      ]
+    },
+    {
+      "angulo_id": "A3_tonificacion_total_body_bandas",
+      "hooks": [
+        "Una tabla + bandas = rutina de cuerpo completo (no solo abdomen).",
+        "Glúteo, brazos y core: 1 circuito, 1 equipo, en tu casa.",
+        "¿Sin pesas? Usa bandas y palancas: resistencia inteligente para tonificar.",
+        "Tu rutina se volvió aburrida: prueba estos 3 ejercicios en la tabla.",
+        "Si quieres “sentir” el entrenamiento sin ir al gym: esto te sirve.",
+        "Tonificación sin saltos: resistencia con bandas + control tipo pilates.",
+        "Cambia la intensidad sin cambiar de equipo: ajusta tu resistencia.",
+        "Lo mejor para empezar: movimientos guiados y progresión por resistencia.",
+        "Hazlo en pareja: uno sostiene el hábito del otro (si aplica a tu variante: NO_CONFIRMADO).",
+        "Entrenamiento completo cuando no tienes tiempo: 12–15 minutos y listo."
+      ]
+    },
+    {
+      "angulo_id": "A4_valor_vs_reformer_costoso",
+      "hooks": [
+        "¿Quieres pilates sin pagar estudio? Arranca con una tabla plegable en casa.",
+        "La alternativa compacta para entrenar estilo reformer (sin máquina gigante).",
+        "Lo que cuesta 1 mes de clases vs lo que pagas una vez por tu equipo en casa.",
+        "Pilates en casa sin complicarte: equipo accesible para comenzar ya.",
+        "No esperes a ‘tener plata para el reformer’: empieza con lo esencial.",
+        "Si el gym te queda lejos: tu sala puede ser tu estudio.",
+        "El mejor primer paso para entrar a pilates: equipo simple + constancia.",
+        "Si quieres probar antes de invertir grande: este formato te da variedad.",
+        "Ahorra tiempo de traslados: entrena cuando puedas, en casa.",
+        "Más fácil de usar y guardar que muchos aparatos: enfoque a constancia."
+      ]
+    },
+    {
+      "angulo_id": "A5_kit_completo_timer_phoneholder",
+      "hooks": [
+        "Pon el celular, activa el timer (si lo trae) y sigue la rutina: cero excusas.",
+        "Tu entrenamiento guiado en casa: soporte para videos + cronómetro (si aplica: NO_CONFIRMADO).",
+        "Si te motivan los gadgets: este equipo te ayuda a medir tiempo y avanzar.",
+        "Rutina ‘con cuenta regresiva’: 10 minutos y terminas (sin pensar).",
+        "Para quienes se distraen: timer + circuito fijo y listo.",
+        "Entrena con videos sin improvisar: arma tu rutina y repítela.",
+        "El hábito se construye con estructura: timer + rutina corta.",
+        "Guarda este circuito y hazlo 3 veces por semana (con timer).",
+        "El truco para ser constante: que el equipo te lo ponga fácil.",
+        "Tu mini-estudio en casa: guía en pantalla + resistencia con bandas."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "tipo": "mixto",
+    "hechos": [
+      "En retail Colombia se observan listados de “Tabla de Pilates Plegable” con garantía de 3 meses (p.ej., Falabella), lo que sugiere una categoría estable (no 100% estacional).",
+      "La categoría se vende como equipo “home workout” plegable/multifuncional en marketplaces (p.ej., Mercado Libre), indicando demanda recurrente."
+    ],
+    "hipotesis": [
+      "Picos de intención en enero–febrero (propósitos de año nuevo) y previo a vacaciones/mitad de año por objetivos estéticos (NO_CONFIRMADO sin series de búsqueda).",
+      "Mayor respuesta a creativos de ‘regalo útil’ en Nov–Dic (Black/fin de año) (NO_CONFIRMADO sin data de campañas).",
+      "En temporadas lluviosas locales podría subir el entrenamiento indoor (NO_CONFIRMADO; depende de ciudad/clima)."
+    ],
+    "correlacion_angulos": [
+      {
+        "angulo_id": "A1_core_postura_sin_gym",
+        "nota": "Más fuerte en enero–marzo (hábitos) y todo el año para teletrabajo/oficina (hipótesis + continuo)."
+      },
+      {
+        "angulo_id": "A2_ahorro_espacio_apartamento",
+        "nota": "Atemporal; se potencia en mudanzas/vida urbana y en fin de año cuando se reorganiza casa (hipótesis)."
+      },
+      {
+        "angulo_id": "A3_tonificacion_total_body_bandas",
+        "nota": "Más fuerte en pre-vacaciones y enero (hipótesis)."
+      },
+      {
+        "angulo_id": "A4_valor_vs_reformer_costoso",
+        "nota": "Más fuerte cuando suben costos percibidos de gym/clases (hipótesis)."
+      },
+      {
+        "angulo_id": "A5_kit_completo_timer_phoneholder",
+        "nota": "Depende de features reales; si existen, funciona todo el año con público ‘apps/videos’ (mixto)."
+      }
+    ]
+  },
+  "checklist_producto": {
+    "criterios": [
+      {
+        "criterio": "La promesa principal es clara (qué hace y para quién)",
+        "cumple": "SI",
+        "nota": "Categoría se comunica como tabla/reformer plegable para entreno en casa.",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/144530537/Tabla-De-Pilates-Plegable-Para-Ejercicio-Multifuncional",
+          "https://articulo.mercadolibre.com.co/MCO-2862696832-tabla-de-pilates-multifuncional-plegable-para-entrenamiento-_JM"
+        ]
+      },
+      {
+        "criterio": "Precio competitivo en Colombia (vs alternativas visibles)",
+        "cumple": "SI",
+        "nota": "Tu precio COP 169.900 parece por debajo de Falabella (COP 202.900+), y cerca de tiendas locales (~COP 160.000).",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/144530537/Tabla-De-Pilates-Plegable-Para-Ejercicio-Multifuncional",
+          "https://eratecnologia.co/products/tabla-de-pilates"
+        ]
+      },
+      {
+        "criterio": "Garantía competitiva (mínimo estándar categoría)",
+        "cumple": "SI",
+        "nota": "3 meses coincide con garantías vistas en Falabella y tiendas locales.",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/144530537/Tabla-De-Pilates-Plegable-Para-Ejercicio-Multifuncional",
+          "https://eratecnologia.co/products/tabla-de-pilates"
+        ]
+      },
+      {
+        "criterio": "Especificaciones técnicas completas (material, medidas, peso máx, componentes)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "No aportaste specs; en mercado varía (ABS/plástico; peso máx a veces declarado). Sin ficha técnica no se puede asegurar.",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/145591650/Tabla-De-Pilates-Multifuncional-Para-Un-Cuerpo-Tonificado/145591651",
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763"
+        ]
+      },
+      {
+        "criterio": "Peso máximo soportado claramente definido y realista",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Algunas fichas en retail muestran 120 kg, pero tu variante no está confirmada.",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/145591650/Tabla-De-Pilates-Multifuncional-Para-Un-Cuerpo-Tonificado/145591651"
+        ]
+      },
+      {
+        "criterio": "Diferenciador real vs genéricos (marca, accesorios extra, calidad)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "La categoría es altamente genérica en CO; sin marca/modelo y accesorios confirmados no hay diferenciador defendible.",
+        "evidencia_urls": [
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3297764388",
+          "https://articulo.mercadolibre.com.co/MCO-1578453473-tabla-de-pilates-multifuncional-plegable-para-ejercicio-en-c-_JM"
+        ]
+      },
+      {
+        "criterio": "Contenido de uso (guía/rutina/QR/videos propios) incluido",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Algunas ofertas mencionan soporte para teléfono/timer o sugieren videos; pero no confirmado para tu producto.",
+        "evidencia_urls": [
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3369887353",
+          "https://shop.tiktok.com/view/product/1729601707549037021"
+        ]
+      },
+      {
+        "criterio": "Seguridad: antideslizante/estabilidad (pads/base) especificada",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Retail menciona ‘antideslizante’ en algunas fichas, pero tu variante no confirmada.",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/145591650/Tabla-De-Pilates-Multifuncional-Para-Un-Cuerpo-Tonificado/145591651"
+        ]
+      },
+      {
+        "criterio": "Política de devoluciones clara (reduce riesgo percibido)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "No informaste política. Marketplaces suelen ofrecer devoluciones, pero depende del canal.",
+        "evidencia_urls": [
+          "https://articulo.mercadolibre.com.co/MCO-1578453473-tabla-de-pilates-multifuncional-plegable-para-ejercicio-en-c-_JM"
+        ]
+      },
+      {
+        "criterio": "Tiempo de entrega competitivo y claro (Colombia)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "No se indicó logística/tiempos. Algunas tiendas prometen 0–3 días hábiles, pero no aplica automáticamente a ti.",
+        "evidencia_urls": [
+          "https://eratecnologia.co/products/tabla-de-pilates"
+        ]
+      },
+      {
+        "criterio": "Prueba social (reseñas reales, UGC, calificación)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "En Mercado Libre hay publicaciones con pocas reseñas/ventas; sin pruebas de tu tienda/marca no se puede afirmar.",
+        "evidencia_urls": [
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763",
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3369887353"
+        ]
+      },
+      {
+        "criterio": "Claridad de ‘qué incluye’ (bandas, rodilleras, barra, etc.)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "El mercado varía bastante en componentes incluidos; tu descripción solo menciona bandas.",
+        "evidencia_urls": [
+          "https://articulo.mercadolibre.com.co/MCO-2862696832-tabla-de-pilates-multifuncional-plegable-para-entrenamiento-_JM",
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3256865763"
+        ]
+      },
+      {
+        "criterio": "Mensaje alineado a bajo impacto / principiantes (sin claims peligrosos)",
+        "cumple": "SI",
+        "nota": "La categoría se comunica como entrenamiento en casa y amigable a principiantes en listings comparables.",
+        "evidencia_urls": [
+          "https://shop.tiktok.com/view/product/1729601707549037021",
+          "https://www.mercadolibre.com.co/tabla-de-pilates-ejercicios-multifuncional-plegable-portatil/up/MCOU3369887353"
+        ]
+      },
+      {
+        "criterio": "Riesgo de reclamaciones por expectativas (material/plástico, fragilidad) mitigado",
+        "cumple": "NO",
+        "nota": "Sin ficha, sin video de uso real y sin peso máximo confirmado, alta probabilidad de objeción ‘se ve frágil’.",
+        "evidencia_urls": [
+          "https://shop.tiktok.com/view/product/1730077603964228478"
+        ]
+      },
+      {
+        "criterio": "Cumplimiento y transparencia de garantía (términos por defecto de fábrica)",
+        "cumple": "NO_CONFIRMADO",
+        "nota": "Sabemos que es 3 meses, pero no tenemos condiciones detalladas (qué cubre, proceso, soporte).",
+        "evidencia_urls": [
+          "https://www.falabella.com.co/falabella-co/product/145591650/Tabla-De-Pilates-Multifuncional-Para-Un-Cuerpo-Tonificado/145591651",
+          "https://eratecnologia.co/products/tabla-de-pilates"
+        ]
+      }
+    ],
+    "total_si": 4,
+    "pasa_umbral_9_de_15": false
+  }
+}
