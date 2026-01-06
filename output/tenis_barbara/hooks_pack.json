@@ -1,0 +1,67 @@
+{
+  "sources": [
+    {
+      "url": "https://blog.hootsuite.com/social-media-advertising-strategy-guide/",
+      "title": "The Complete Guide to Social Media Advertising in 2024",
+      "published_date": "2024-01-10",
+      "used_for": "Current trends in social media advertising, including popular hooks and archetypes."
+    },
+    {
+      "url": "https://www.socialmediatoday.com/news/how-to-make-effective-facebook-ads-meta-tips-2024/653427/",
+      "title": "How to Create Effective Facebook Ads: Top Tips for 2024",
+      "published_date": "2024-02-05",
+      "used_for": "Insights on Facebook ad strategies and high-performing patterns."
+    }
+  ],
+  "hook_archetypes": [
+    "Urgency/Scarcity",
+    "Relatable Story",
+    "Problem-Solution",
+    "Social Proof",
+    "Before and After",
+    "Mystery/Curiosity",
+    "Testimonial/Endorsement",
+    "Benefit Focus",
+    "Limited Time Offer",
+    "Exclusive Access",
+    "Surprise Elements",
+    "Transformation Journey",
+    "Contrarian Approach",
+    "Expert Endorsement",
+    "Trend/Culture Hooks"
+  ],
+  "high_performing_patterns": [
+    "\"Limited stock available - shop now!\"",
+    "\"The secret to... is finally here.\"",
+    "\"Join thousands who have already switched to...\"",
+    "\"Transform your... experience today.\"",
+    "\"Unveiling the future of...\"",
+    "\"This is why experts are raving about...\"",
+    "\"Revolutionize your routine with...\"",
+    "\"Unlock exclusive benefits with our membership.\"",
+    "\"Your journey to... starts here.\"",
+    "\"Discover what you’ve been missing.\"",
+    "\"Get ahead with this game-changer.\"",
+    "\"Why everyone is talking about... right now.\""
+  ],
+  "latin_es_templates": [
+    "\"¡Últimas unidades disponibles! ¡Compra ahora!\"",
+    "\"La solución que estabas esperando está aquí.\"",
+    "\"Únete a miles que ya han cambiado a...\"",
+    "\"Transforma tu experiencia de... hoy mismo.\"",
+    "\"Descubre el futuro de...\"",
+    "\"Este es el motivo por el que los expertos están hablando de...\"",
+    "\"Revoluciona tu rutina con...\"",
+    "\"Desbloquea beneficios exclusivos con nuestra membresía.\"",
+    "\"Tu camino hacia... comienza aquí.\"",
+    "\"Descubre lo que te has estado perdiendo.\"",
+    "\"Adelántate con este cambio de juego.\"",
+    "\"¿Por qué todos están hablando de... ahora mismo?\"",
+    "\"Acceso exclusivo por tiempo limitado.\"",
+    "\"Dale a tu rutina diaria un giro inesperado con...\"",
+    "\"Esto cambiará la forma en que ves...\"",
+    "\"No te quedes atrás, aprende más sobre...\"",
+    "\"Tu futuro descansa en tus manos.\"",
+    "\"Haz historia con cada compra que realices.\""
+  ]
+}

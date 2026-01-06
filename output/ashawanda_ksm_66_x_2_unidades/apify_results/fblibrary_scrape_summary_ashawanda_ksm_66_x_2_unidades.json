@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-01-06T00:56:42Z",
+  "product_name": "Ashawanda Ksm 66 X 2 Unidades",
+  "product_folder": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades",
+  "query_file": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades/querys_fblibrary_ashawanda_ksm_66_x_2_unidades.json",
+  "country": "CO",
+  "actor": "curious_coder/facebook-ads-library-scraper",
+  "run_input_meta": {
+    "urls_count": 30,
+    "scrapeAdDetails": false,
+    "limitPerSource": 80,
+    "count": null,
+    "period": "",
+    "scrapePageAds.activeStatus": "all",
+    "scrapePageAds.countryCode": "CO"
+  },
+  "apify": {
+    "dataset_id": "cIn50GvsyQQgw5M0N",
+    "run_id": "LKSi0bb1jthOlWVp2",
+    "startedAt": "2026-01-06T00:53:26.285000+00:00",
+    "finishedAt": "2026-01-06T00:56:35.903000+00:00",
+    "status": "SUCCEEDED"
+  },
+  "counts": {
+    "raw_items": 263,
+    "dedup_items": 133,
+    "unique_advertisers": 28
+  },
+  "files": {
+    "raw_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades/apify_results/fblibrary_ads_raw_ashawanda_ksm_66_x_2_unidades.jsonl",
+    "dedup_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades/apify_results/fblibrary_ads_dedup_ashawanda_ksm_66_x_2_unidades.jsonl",
+    "summary_json": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades/apify_results/fblibrary_scrape_summary_ashawanda_ksm_66_x_2_unidades.json"
+  },
+  "dedupe_strategy": "ukey = advertiser(pageId|pageName) + ad(adArchiveId|adId|hash(snapshot/body/title/link/img))"
+}

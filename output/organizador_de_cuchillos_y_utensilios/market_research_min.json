@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-05",
+    "model": "gpt-4.1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Organizador De Cuchillos Y Utensilios",
+    "descripcion": "✔️Aprovecha cada centímetro: 📏 Su diseño práctico y compacto optimiza el espacio, incluso en cocinas pequeñas\n\n.✔️Materiales de alta calidad: 💪 Resistentes al uso diario y a las altas temperaturas.\n\n✔️Fácil instalación: 🔧 Montaje sencillo, sin perforar, con adhesivos o tornillos incluidos.\n\n✔️Estilo moderno: 🎨 Añade un toque elegante a tu cocina con un diseño que se adapta a cualquier decoración.",
+    "garantia": "10 DIAS",
+    "precio": "$79.000"
+  },
+  "resumen_corto": "Organizador de pared para cuchillos y utensilios (barra magnética/riel con ganchos), enfoque en ahorro de espacio y montaje fácil (adhesivo 3M o tornillos). Mercado colombiano con amplia oferta y precios desde COP $20.900 hasta $116.990; garantías entre 5 días y 1 año según retailer.",
+  "product_fingerprint": {
+    "marca": "Genérico / multi-marca (p. ej., Metaltex, Tramontina, IKEA, Modern Innovations)",
+    "modelo": "Organizador de pared (barra magnética y/o riel con ganchos)",
+    "categoria": "Organización de cocina • Portacuchillos/riel utensilios de pared",
+    "specs_claims_clave": [
+      "Montaje adhesivo 3M o con tornillos incluidos",
+      "Ahorra espacio y libera mesón/encimera",
+      "Materiales: aluminio/acero inoxidable o madera de acacia con imanes",
+      "Longitudes comunes: 33–60 cm",
+      "Capacidad de carga típica: 10–30 lb (según variante)",
+      "Compatible con utensilios metálicos; cuchillos visibles y al alcance",
+      "Diseño moderno/minimalista; uso en cocina y otros espacios",
+      "Opciones con ganchos deslizables (multiuso)"
+    ],
+    "rango_precio_observado": "COP $20.900 – $116.990",
+    "garantia_tipo": "Retail CO: 5 días (tienda pequeña) a 1 año (grandes superficies)",
+    "variantes_detectadas": [
+      "Barra magnética INOX 33–38 cm",
+      "Riel con ganchos 40–60 cm",
+      "Versión madera acacia magnética (adhesivo + tornillos)",
+      "Con 6–8 ganchos metálicos",
+      "Doble fila de imanes (alta sujeción)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Ahorro de espacio y cocina ordenada (ideal cocinas pequeñas)",
+      "score_0a10": 8.8,
+      "buyer_persona": "Hogares en apartamentos pequeños y familias que buscan ordenar la cocina",
+      "promesa": "Ordena cuchillos y utensilios en la pared y libera espacio del mesón en minutos.",
+      "objecion_principal": "¿De verdad libera espacio y es práctico en el día a día?",
+      "justificacion": "Listados locales destacan organización visible y ahorro de espacio al montar en pared; retailers masivos (IKEA/Homecenter) venden soluciones equivalentes, validando la utilidad diaria.",
+      "evidencia": [
+        {
+          "url": "https://www.colombianatiendita.com/products/organizador-utensilios-cocina-pared-60cm",
+          "pais": "CO",
+          "match_note": "Riel 60 cm INOX con ganchos; declara ahorro de espacio y múltiples compartimentos.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.ikea.com/co/es/p/kungsfors-portacuchillos-magnetico-acero-inoxidable-40334921/",
+          "pais": "CO",
+          "match_note": "Portacuchillos/organizador de pared; mantiene mesón despejado; misma categoría.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/208309/barra-magnetica-aluminio-385-cm/208309/",
+          "pais": "CO",
+          "match_note": "Barra magnética 38,5 cm; cuchillos visibles y ordenados; mismo uso.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Instalación sin taladro (ideal para arriendo)",
+      "score_0a10": 8.5,
+      "buyer_persona": "Arrendatarios y quienes evitan perforaciones",
+      "promesa": "Instala sin agujeros con adhesivo fuerte o usa tornillos si lo prefieres.",
+      "objecion_principal": "¿El adhesivo realmente aguanta?",
+      "justificacion": "Variantes con montaje adhesivo 3M y/o tornillos son comunes; manuales y fichas de producto confirman ambas opciones.",
+      "evidencia": [
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-1599748233-hoshanho-soporte-magnetico-para-cuchillos-de-pared-y-utensi-_JM",
+          "pais": "CO",
+          "match_note": "Listing menciona cinta 3M opcional y tornillos incluidos; mismo tipo de producto.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.vevor.es/bloques-de-cuchillos-c_12393/vevor-soporte-magnetico-para-almacenamiento-de-cuchillos-24-montaje-en-pared-tira-de-cuchillos-madera-de-acacia-p_010994358177",
+          "pais": "Global",
+          "match_note": "VEVOR: montaje adhesivo o con tornillos; barra magnética con ganchos (varía).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://es.findthedeal.org/p/B0F42KM63N/",
+          "pais": "Global",
+          "match_note": "Agregador muestra variante con instalación sin perforar (cinta doble faz).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 3,
+      "angulo": "Seguridad y acceso: cuchillos visibles, secos y fuera del cajón",
+      "score_0a10": 8.2,
+      "buyer_persona": "Padres y aficionados a la cocina preocupados por seguridad y cuidado del filo",
+      "promesa": "Almacena cuchillos de forma segura, visibles y ventilados para cuidar el filo.",
+      "objecion_principal": "¿No es peligroso tener cuchillos a la vista?",
+      "justificacion": "Medios culinarios y tiendas explican ventajas: mejor ventilación, acceso y organización; páginas locales recalcan evitar desorden que causa accidentes.",
+      "evidencia": [
+        {
+          "url": "https://canelahogar.com.co/product/soporte-magnetico-utensilios-cocina-organizador-cuchillos/",
+          "pais": "CO",
+          "match_note": "Describe que el desorden de cuchillos puede causar accidentes; propone soporte en pared.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.foodandwine.com/imarku-magnetic-knife-holder-deal-amazon-11826413",
+          "pais": "Global",
+          "match_note": "Food & Wine: chefs recomiendan tiras magnéticas por seguridad/ventilación.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.bonappetit.com/story/best-knife-storage",
+          "pais": "Global",
+          "match_note": "Bon Appétit: recomendaciones y uso seguro; menciona adhesivos fuertes como alternativa.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Estética moderna y minimalista que eleva la cocina",
+      "score_0a10": 7.6,
+      "buyer_persona": "Usuarios que priorizan estética/orden visual (minimalismo)",
+      "promesa": "Acabados en INOX o madera que combinan con cualquier decoración.",
+      "objecion_principal": "¿Se ve ‘barato’ o desentona con mi cocina?",
+      "justificacion": "Fichas de producto resaltan diseño moderno; IKEA y Metaltex posicionan estas barras como soluciones que decoran y organizan.",
+      "evidencia": [
+        {
+          "url": "https://www.pamo.co/products/soporte-magnetico-para-cuchillos-de-34-cm",
+          "pais": "CO",
+          "match_note": "Metaltex MAGNETIKA: diseño moderno/minimalista y organización visible.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.ikea.com/co/es/p/hultarp-portacuchillos-magnetico-negro-38-cm-80444442/",
+          "pais": "CO",
+          "match_note": "IKEA HULTARP: diseño y materiales (aluminio), encaja con estilos.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.epicurious.com/expert-advice/best-knife-magnets-on-amazon-article",
+          "pais": "Global",
+          "match_note": "Selección ‘best of’ con foco en diseño (madera/INOX) y performance.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Multifunción 2-en-1 (cuchillos + utensilios/ ganchos/ toallero papel)",
+      "score_0a10": 7.4,
+      "buyer_persona": "Cocinas con muchos accesorios; buscan maximizar la pared",
+      "promesa": "Organiza cuchillos y utensilios en un solo sistema modular con ganchos.",
+      "objecion_principal": "¿Soporta el peso de varios utensilios?",
+      "justificacion": "Rieles/ganchos y barras ‘con hooks’ están disponibles; fichas indican cargas de 22–30 lb en rieles y 8 ganchos en barras magnéticas específicas.",
+      "evidencia": [
+        {
+          "url": "https://akitodocolombia.com/products/organizador-utensilios-de-cocina-en-pared",
+          "pais": "CO",
+          "match_note": "Riel con ganchos; menciona uso múltiple y toallero de papel; 40×5×6 cm; aluminio.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.walmart.com/ip/607267783",
+          "pais": "Global",
+          "match_note": "Modern Innovations 16\" con 8 ganchos; misma función multiuso.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.colombianatiendita.com/products/organizador-utensilios-cocina-pared-60cm",
+          "pais": "CO",
+          "match_note": "Riel 60 cm; multi-compartimentos y ganchos; 30 lb de capacidad.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Tu encimera, por fin libre: cuelga cuchillos y utensilios en 10 minutos.",
+        "Bye desorden: todo a la vista y al alcance (sin cajas ni cajones peligrosos).",
+        "Diseñado para cocinas pequeñas: usa la pared, gana espacio.",
+        "Organiza como chef: fila limpia de cuchillos y cucharones, cero caos.",
+        "Antes y después que se nota: más mesón, menos estrés al cocinar.",
+        "Optimiza metros cuadrados caros: orden premium en espacios compactos."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Arrienda tranquilo: pégalo con 3M, sin taladrar paredes.",
+        "Instala hoy, retira mañana: adhesivo fuerte o tornillos (tú eliges).",
+        "Sin polvo ni ruido: montaje limpio en 5 pasos.",
+        "Ideal para azulejo: pega, espera 24–48 h y listo.",
+        "¿Mudanza? Desmonta y te lo llevas completo.",
+        "Adiós permiso del arrendador: cero perforaciones, cero líos."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Cuchillos visibles y seguros: evita ‘sorpresas’ en el cajón.",
+        "Ventilación natural: se secan mejor y cuidan el filo.",
+        "Lejos de manos curiosas: ubícalos alto y ordenados.",
+        "Menos accidentes, más control: cada cuchillo tiene su lugar.",
+        "Acceso inmediato: agarra y cocina; sin buscar a ciegas.",
+        "Tu cocina más pro: orden + seguridad = fluidez total."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Look minimalista que suma a tu cocina (INOX/madera).",
+        "Orden que se ve: línea limpia de herramientas como deco funcional.",
+        "Combina con estilos nórdico e industrial sin esfuerzo.",
+        "Pared protagonista: pasa de ‘ocupada’ a ‘galería’ útil.",
+        "Menos bultos en el mesón, más diseño en la pared.",
+        "Upgrade visual en 1 tarde: instalación rápida y efecto wow sutil."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Todo en uno: cuchillos + espátulas + llaves + rollo de papel.",
+        "Ganchos deslizables que se adaptan a tu rutina.",
+        "Hasta 20–30 lb (según modelo): cuelga sin miedo.",
+        "Convierte pared ‘muerta’ en estación de trabajo.",
+        "Modular: agrega ganchos o combina con otro riel.",
+        "De la cocina al taller: organiza también herramientas."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Picos de compra en eventos ecommerce CO: Black Friday (28-30 nov 2025) y Cyber Monday; impulso a categorías de hogar. Fuentes periodísticas nacionales lo confirman.",
+      "Hot Sale Colombia (liderado por CCCE) tiene ediciones en marzo y octubre; foco en compras online con retailers de hogar.",
+      "Fin de año impulsa remodelación y compras para el hogar (nov–dic) por primas y festividades; análisis local lo respalda."
+    ],
+    "hipotesis": [
+      "Enero–febrero: ‘propósito de orden’ podría elevar búsquedas de organización del hogar.",
+      "Agosto–septiembre: ferias del hogar y temporada de mudanzas podrían favorecer compras de organización.",
+      "Campañas temáticas (Día de la Madre, vuelta a clases) podrían generar picos tácticos para cocina/orden."
+    ],
+    "correlacion_con_angulos": "Los picos de fin de año y eventos ecommerce favorecen mensajes de ‘upgrade estético’ y ‘aprovecha cada centímetro’. En Hot Sale/Black Friday funcionan bundles (ángulo 5: multifunción). Para enero, testeos con creatividad de ‘reset/organiza tu cocina’ (ángulos 1 y 3). Fuentes: El Colombiano/Infobae/Vanguardia (fechas BF 2025), Whirlpool-CCCE sobre Hot Sale, ACIS sobre remodelación fin de año."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Ordena y libera espacio; cuchillos visibles reducen caos en encimeras.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/product/208309/barra-magnetica-aluminio-385-cm/208309/",
+        "https://www.colombianatiendita.com/products/organizador-utensilios-cocina-pared-60cm"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso intuitivo (cuelga/pega y organiza); fichas y fotos lo muestran claramente.",
+      "fuentes": [
+        "https://akitodocolombia.com/products/organizador-utensilios-de-cocina-en-pared",
+        "https://www.ikea.com/co/es/p/kungsfors-portacuchillos-magnetico-acero-inoxidable-40334921/"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Presencia en grandes retailers (IKEA, Homecenter, Falabella/ML) sugiere demanda amplia.",
+      "fuentes": [
+        "https://www.ikea.com/co/es/p/hultarp-portacuchillos-magnetico-negro-38-cm-80444442/",
+        "https://www.homecenter.com.co/homecenter-co/product/208309/barra-magnetica-aluminio-385-cm/208309/"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Sugerido: encuesta rápida a red de 20 personas.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: ‘VERIFICADO INTERNAMENTE: El producto NO TIENE buen margen’.",
+      "fuentes": [
+        "Validación interna de costos"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Amplia disponibilidad en Homecenter, IKEA, Mercado Libre y tiendas locales.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/product/208309/barra-magnetica-aluminio-385-cm/208309/",
+        "https://www.ikea.com/co/es/p/kungsfors-portacuchillos-magnetico-acero-inoxidable-40334921/"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Producto estandarizado con múltiples marcas y variantes similares.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/soporte-magnetico-barra-de-iman-para-cuchillos-y-otros-38cms-color-negro/p/MCO27531306",
+        "https://www.pamo.co/products/soporte-magnetico-para-cuchillos-de-34-cm"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Baja",
+      "nota": "Cobertura reciente en medios culinarios de EE. UU. y listados ‘best of 2025’; indica interés sostenido, no necesariamente boom.",
+      "fuentes": [
+        "https://www.foodandwine.com/imarku-magnetic-knife-holder-deal-amazon-11826413",
+        "https://www.thespruceeats.com/best-magnetic-knife-holders-4800930"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia (grandes superficies y marketplaces).",
+      "fuentes": [
+        "https://www.homecenter.com.co/",
+        "https://www.mercadolibre.com.co/"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Altos volúmenes/valoraciones en Amazon/Walmart para barras magnéticas populares; proxy internacional.",
+      "fuentes": [
+        "https://www.fakespot.com/product/modern-innovations-24-inch-stainless-steel-magnetic-knife-bar-with-multipurpose-use-as-knife-holder-knife-magnetic-strip-kitchen-utensil-holder-tool-holder-art-supply-organizer-home-organizer",
+        "https://www.walmart.com/ip/218188276"
+      ]
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia objetiva para decisión personal).",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Abundantes fotos/manuales/videos de instalación y uso.",
+      "fuentes": [
+        "https://es.manuals.plus/hmmagnets/magnetic-holder-knife-manual",
+        "https://www.ikea.com/co/es/p/hultarp-portacuchillos-magnetico-negro-38-cm-80444442/"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Categoría estable en catálogo de IKEA/Homecenter por años; utilidad atemporal en cocina.",
+      "fuentes": [
+        "https://www.ikea.com/co/es/p/kungsfors-portacuchillos-magnetico-acero-inoxidable-40334921/",
+        "https://www.homecenter.com.co/homecenter-co/product/208309/barra-magnetica-aluminio-385-cm/208309/"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 8,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar marca/modelo exacto y SKU del producto ofrecido (para alinear ficha y garantía).",
+    "Test local: adherencia real en azulejo/porcelanato con cinta 3M (24–48 h) y carga máxima segura.",
+    "Verificación de material (INOX 304 vs 201 o aluminio) y resistencia a temperatura cerca de estufa.",
+    "Encuesta express (20–30 respuestas) para validar ‘compraría’ y objeciones reales (arriendo, espacio, estética).",
+    "Comparativa de precios CO vs competidores (IKEA/Homecenter/ML) y bundle con ganchos/repisas.",
+    "Política de garantía propia (10 días) vs mercado (5 días–1 año) y alineación con Estatuto del Consumidor.",
+    "Análisis de reseñas locales (+100) para performance real (fuerza imán, caída, oxidación)."
+  ],
+  "missing_data_flags": [
+    "Marca y modelo exacto no confirmados.",
+    "Capacidad de carga validada in situ (kg/lb) no documentada.",
+    "Especificación del adhesivo (3M original/carga por cm) no confirmada.",
+    "Resistencia al calor/óxido del material (grado INOX) no certificada.",
+    "Compatibilidad con cuchillos cerámicos/no ferromagnéticos no aclarada.",
+    "Detalles de garantía ‘10 DIAS’ (cobertura/procedimiento) no publicados."
+  ]
+}

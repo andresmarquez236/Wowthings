@@ -1,0 +1,327 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at_utc": "2026-01-06T02:44:37Z",
+  "product": {
+    "input_name": "Ashawanda Ksm 66 X 2 Unidades",
+    "folder_name": "ashawanda_ksm_66_x_2_unidades",
+    "search_country": "CO",
+    "canonical_product_name": "Ashwagandha KSM-66 5500 mg suplemento en softgels (pack x2)"
+  },
+  "filters": {
+    "lang_allowed": "es",
+    "allow_und": false,
+    "require_product_name_contained": true
+  },
+  "metrics": {
+    "producto_test": false,
+    "range_product_test": [
+      3,
+      7
+    ],
+    "scaling_threshold_ads": 4,
+    "scaling": [
+      {
+        "page_name": "Keyross Shop",
+        "num_samples": 9
+      },
+      {
+        "page_name": "Tienda Ceiba Negra",
+        "num_samples": 8
+      }
+    ]
+  },
+  "advertisers_total": 15,
+  "advertisers_ranked": [
+    {
+      "rank": 1,
+      "advertiser_key": "372611182592715",
+      "page_name": "Keyross Shop",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ads_total": 9,
+      "ads_candidate_same": 0,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "keyross.shop"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=586771187863561",
+        "https://www.facebook.com/ads/library/?id=1548839832928801",
+        "https://www.facebook.com/ads/library/?id=837216725608794",
+        "https://www.facebook.com/ads/library/?id=25085290704447413",
+        "https://www.facebook.com/ads/library/?id=1620669205587092",
+        "https://www.facebook.com/ads/library/?id=1397638575244794",
+        "https://www.facebook.com/ads/library/?id=1547105389861350",
+        "https://www.facebook.com/ads/library/?id=2695290387488647",
+        "https://www.facebook.com/ads/library/?id=1485475125854080"
+      ],
+      "sample_landing_urls": [
+        "https://keyross.shop/products/combo-vitalidad%E2%9A%A1nad-ashwagandha-citrato-de-magnesio%F0%9F%92%8A",
+        "https://keyross.shop/products/combo-energia-x3-%E2%9A%A1-nad-ashwagandha-ksm-66-omega-3%E2%9A%A1",
+        "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A"
+      ]
+    },
+    {
+      "rank": 2,
+      "advertiser_key": "858734803984442",
+      "page_name": "Tienda Ceiba Negra",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ads_total": 8,
+      "ads_candidate_same": 8,
+      "is_scaling_candidate_same": true,
+      "landing_domains": [
+        "u0jjj2-nb.myshopify.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1953641062701380",
+        "https://www.facebook.com/ads/library/?id=1515091782910556",
+        "https://www.facebook.com/ads/library/?id=892883653317465",
+        "https://www.facebook.com/ads/library/?id=1728471288109222",
+        "https://www.facebook.com/ads/library/?id=858140397194486",
+        "https://www.facebook.com/ads/library/?id=1377665957391956",
+        "https://www.facebook.com/ads/library/?id=893164376395167",
+        "https://www.facebook.com/ads/library/?id=812223898530276"
+      ],
+      "sample_landing_urls": [
+        "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1"
+      ]
+    },
+    {
+      "rank": 3,
+      "advertiser_key": "446784291851474",
+      "page_name": "Essencia & Estilo",
+      "page_profile_uri": "https://www.facebook.com/61567478272752/",
+      "ads_total": 3,
+      "ads_candidate_same": 2,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "esenciaestilo.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=2310598342699864",
+        "https://www.facebook.com/ads/library/?id=1433074245198677",
+        "https://www.facebook.com/ads/library/?id=2210544046021118"
+      ],
+      "sample_landing_urls": [
+        "https://esenciaestilo.com/products/aswagandha-energia"
+      ]
+    },
+    {
+      "rank": 4,
+      "advertiser_key": "359167814692573",
+      "page_name": "Vitalica",
+      "page_profile_uri": "https://www.facebook.com/VitalicaColombia/",
+      "ads_total": 3,
+      "ads_candidate_same": 2,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "tiendavitalica.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1476838396758651",
+        "https://www.facebook.com/ads/library/?id=1560921188376435",
+        "https://www.facebook.com/ads/library/?id=32560173093597444"
+      ],
+      "sample_landing_urls": [
+        "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas"
+      ]
+    },
+    {
+      "rank": 5,
+      "advertiser_key": "461882713667729",
+      "page_name": "Verde",
+      "page_profile_uri": "https://www.facebook.com/61566128122258/",
+      "ads_total": 2,
+      "ads_candidate_same": 2,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "facebook.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1237600351549744",
+        "https://www.facebook.com/ads/library/?id=1409569084082143"
+      ],
+      "sample_landing_urls": [
+        "https://facebook.com/61566128122258"
+      ]
+    },
+    {
+      "rank": 6,
+      "advertiser_key": "100609142217082",
+      "page_name": "Carol Barajas",
+      "page_profile_uri": "https://www.facebook.com/Carol-Barajas-100609142217082/",
+      "ads_total": 2,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "facebook.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=881869190887319",
+        "https://www.facebook.com/ads/library/?id=1353754792732940"
+      ],
+      "sample_landing_urls": [
+        "https://facebook.com/marketplace/item/26141222412137338/",
+        "https://facebook.com/marketplace/item/1406386054217570/"
+      ]
+    },
+    {
+      "rank": 7,
+      "advertiser_key": "138411552686701",
+      "page_name": "Go Emprender Digital",
+      "page_profile_uri": "https://www.facebook.com/61551816847871/",
+      "ads_total": 2,
+      "ads_candidate_same": 0,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=862870309821859",
+        "https://www.facebook.com/ads/library/?id=1432205901811320"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 8,
+      "advertiser_key": "803132049548982",
+      "page_name": "Haru Store Colombia",
+      "page_profile_uri": "https://www.facebook.com/61580822481111/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=733955652661637"
+      ],
+      "sample_landing_urls": []
+    },
+    {
+      "rank": 9,
+      "advertiser_key": "837905566068718",
+      "page_name": "Vlarosa",
+      "page_profile_uri": "https://www.facebook.com/61580069558596/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1650956315874377"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 10,
+      "advertiser_key": "630485733479067",
+      "page_name": "Compras todo col",
+      "page_profile_uri": "https://www.facebook.com/61574966707115/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "facebook.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1935187577058723"
+      ],
+      "sample_landing_urls": [
+        "https://facebook.com/61574966707115"
+      ]
+    },
+    {
+      "rank": 11,
+      "advertiser_key": "782927014904574",
+      "page_name": "Vitalabs Colombia",
+      "page_profile_uri": "https://www.facebook.com/vitalabscolombia/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1925390614683770"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 12,
+      "advertiser_key": "562195383624325",
+      "page_name": "VitalVida",
+      "page_profile_uri": "https://www.facebook.com/tiendavitalvida/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=816309204492394"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 13,
+      "advertiser_key": "109296457540205",
+      "page_name": "Nutrijema",
+      "page_profile_uri": "https://www.facebook.com/nutrijema/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "nutrijema.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=847689377947881"
+      ],
+      "sample_landing_urls": [
+        "https://nutrijema.com/products/ashwagandha"
+      ]
+    },
+    {
+      "rank": 14,
+      "advertiser_key": "412079525311273",
+      "page_name": "Svital",
+      "page_profile_uri": "https://www.facebook.com/svital.co/",
+      "ads_total": 1,
+      "ads_candidate_same": 0,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1796550924300917"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 15,
+      "advertiser_key": "614633918409540",
+      "page_name": "Pure Essence Store",
+      "page_profile_uri": "https://www.facebook.com/61577278271107/",
+      "ads_total": 1,
+      "ads_candidate_same": 0,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "pure-essence-store23.myshopify.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1368095194813804"
+      ],
+      "sample_landing_urls": [
+        "https://pure-essence-store23.myshopify.com/products/ashwagandha-ksm-66-premium-%F0%9F%8C%B1-%F0%9F%8E%81-magnesio-complex-de-regalo-duerme-respira-renace-%E2%9C%A8"
+      ]
+    }
+  ]
+}

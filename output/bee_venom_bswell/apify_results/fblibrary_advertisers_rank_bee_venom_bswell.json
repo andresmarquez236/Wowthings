@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at_utc": "2026-01-06T03:19:42Z",
+  "product": {
+    "input_name": "Bee Venom Bswell",
+    "folder_name": "bee_venom_bswell",
+    "search_country": "CO",
+    "canonical_product_name": "BSWELL Bee Venom Treatment Cream 60 g"
+  },
+  "filters": {
+    "lang_allowed": "es",
+    "allow_und": false,
+    "require_product_name_contained": true
+  },
+  "metrics": {
+    "producto_test": true,
+    "range_product_test": [
+      3,
+      7
+    ],
+    "scaling_threshold_ads": 4,
+    "scaling": [
+      {
+        "page_name": "Azul  Importaciones",
+        "num_samples": 6
+      },
+      {
+        "page_name": "PlazaStore",
+        "num_samples": 5
+      }
+    ]
+  },
+  "advertisers_total": 5,
+  "advertisers_ranked": [
+    {
+      "rank": 1,
+      "advertiser_key": "108939375502175",
+      "page_name": "Azul  Importaciones",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ads_total": 6,
+      "ads_candidate_same": 3,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=3597589243715584",
+        "https://www.facebook.com/ads/library/?id=1546011126733083",
+        "https://www.facebook.com/ads/library/?id=1412712227310557",
+        "https://www.facebook.com/ads/library/?id=861779836712228",
+        "https://www.facebook.com/ads/library/?id=1939385346658021",
+        "https://www.facebook.com/ads/library/?id=2092527241549659"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 2,
+      "advertiser_key": "276924395495822",
+      "page_name": "PlazaStore",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "ads_total": 5,
+      "ads_candidate_same": 5,
+      "is_scaling_candidate_same": true,
+      "landing_domains": [
+        "plazastore.com.co"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=695482779748940",
+        "https://www.facebook.com/ads/library/?id=843935258074261",
+        "https://www.facebook.com/ads/library/?id=1363211198795329",
+        "https://www.facebook.com/ads/library/?id=1374334767595715",
+        "https://www.facebook.com/ads/library/?id=1816629085883079"
+      ],
+      "sample_landing_urls": [
+        "https://plazastore.com.co/products/bee-venom-bswell"
+      ]
+    },
+    {
+      "rank": 3,
+      "advertiser_key": "683625601509268",
+      "page_name": "Kaddezshop",
+      "page_profile_uri": "https://www.facebook.com/Kaddezshop/",
+      "ads_total": 2,
+      "ads_candidate_same": 0,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1028494092748279",
+        "https://www.facebook.com/ads/library/?id=1199263435460954"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    },
+    {
+      "rank": 4,
+      "advertiser_key": "100881689524825",
+      "page_name": "Yercy Shop Colombia",
+      "page_profile_uri": "https://www.facebook.com/100087713274704/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "yercyshop.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1938450210032325"
+      ],
+      "sample_landing_urls": [
+        "https://yercyshop.com/products/bee-venom"
+      ]
+    },
+    {
+      "rank": 5,
+      "advertiser_key": "111604384002479",
+      "page_name": "MAPV Distribuidores",
+      "page_profile_uri": "https://www.facebook.com/MAPVDistribuidores/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1527803248436021"
+      ],
+      "sample_landing_urls": [
+        "https://api.whatsapp.com/send"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-05",
+    "model": "gpt-4.1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Batidora De Mano Electrica Ligera Hogar",
+    "descripcion": "",
+    "garantia": "10 DIAS Condiciones de GARANTÍAS\n\nImportante tener presente que no aplica garantía por Color o Modelo ya que se envía según disponibilidad y este producto no cuenta con variables.\n\nNo aplica Garantía por modelo o color en los productos que no cuentan con variable, se envían según disponibilidad, de igual manera no aplica garantía por intensidad de colores publicados en la imagen.\n\nNo aplica garantía sobre garantía\n\n* OJO en el caso de ser aprobada una garantía no se enviará el cambio hasta no recibir el producto sobre el cual se está aprobando la garantía, una vez recibido en un término de 24 a 48 horas se hace despacho del cambio\n\nCondiciones para montar una Garantía en la plataforma.\n\nToda garantía para ser procesada debe llevar la suficiente información con videos o fotos donde se pueda evidenciar el daño o mal funcionamiento de las mismas. Y debe llevar la guía de entrega con la que llego (Imagen de evidencia en el reporte). Además, la guía hace las veces de facturación para la reclamación de la orden.\n\nCondiciones para la devolución de un producto.\n\n* Para hacer efectiva la devolución, el producto debe entregarse debidamente protegido cuidando el estado del empaque original, incluir todos los documentos y/o manuales y accesorios (si aplica). Además, el estado de la guía debe encontrarse en ENTREGADO, para así mismo proceder.\n\nGarantías por piezas Faltantes\n\n* Piezas faltantes o productos rotos, dañados y con abollonaduras: Para realizar un proceso de garantía, cuentas con máximo 2 días para reportarla a partir de la recepción del producto, a través de la plataforma, en la cual se debe especificar y argumentar la novedad con evidencias (fotos y videos del estado de recibido del producto con su empaque y la foto o video de la guía de recibido).\n\nLey de retracto\n\n* Ley 1480 de 2011/ Para ejercer el derecho de retracto, el consumidor debe devolver el producto al proveedor en las mismas condiciones en que lo recibió. Los costos de transporte y otros que conlleve la devolución corren por cuenta del consumidor. El término máximo para ejercer el derecho de retracto será de cinco (5) días hábiles, contados a partir de la entrega del producto. Se anulará automáticamente el derecho a retracto si el producto fue usado. o no viene en las mismas condiciones de entrega, con sus accesorios, sellos de seguridad, manuales y lo que con lleve el mismo.\n\nNota: Nuestros productos cuentan con garantía legal por defectos de calidad o funcionamiento. Sin embargo, por tratarse de productos de uso personal, no aplica el derecho de retracto, es decir, no se aceptan devoluciones por arrepentimiento, talla incorrecta, gustos o similares, una vez el producto ha sido abierto o usado. (Art. 47 de la Ley 1480 de 2011)\n\nFallas de fábrica\n\n* Para realizar el reporte, cuentas con 30 días de garantía por funcionamiento y/o daños del producto que no estén relacionados con el correcto funcionamiento de este, es importante aportar las evidencias (video) donde el producto no este funcionando y se debe reportar mediante la plataforma.\n\nEn casos de Cambios o devolución de las garantías\n\n* En los casos que se apruebe una garantía por mal funcionamiento o cambio del producto. Se deberá enviar el producto inicial a nuestras bodegas. Una vez el producto llegue contaremos con 48 horas para el envió del producto por cambio o reparación de este.\n\nInformación Adicional\n\n📹 Requisito de evidencia en productos\n\nPara hacer efectiva la garantía es indispensable que el cliente remita un video de apertura (unboxing) realizado en el momento de recibir el pedido.\n\nEn dicho video debe observarse claramente:\n\n1. El estado del empaque externo.\n\n2. El proceso de apertura del paquete.\n\n3. El estado del producto al momento de sacarlo.\n\n4. El proceso de uso del producto, mostrando cómo se enciende o funciona, según sus especificaciones.\n\n*Este procedimiento es necesario para verificar si el producto llegó defectuoso por causas del transporte o bodega, y no por uso inadecuado por parte del cliente.\n\nEn caso de no contar con este video, no será posible hacer correctamente la validación de la garantía.*",
+    "precio": "$85.000"
+  },
+  "resumen_corto": "Producto genérico de batidora de mano 7 velocidades (180–260W) con accesorios básicos, muy ofertado en Colombia a bajo costo y alta competencia; garantías del vendedor cortas. Oportunidad en ángulos de precio-accesible, compacta/ligera y temporada navideña; bajo margen verificado.",
+  "product_fingerprint": {
+    "marca": "Genérica (variantes vistas: Scarlett, Skoedi, \"Genérica\")",
+    "modelo": "7 Speeds / HE-133 / DH-133 / 6616 (variantes similares)",
+    "categoria": "Batidora de mano eléctrica (no inmersión)",
+    "specs_claims_clave": [
+      "7 velocidades",
+      "Potencia 180–260W",
+      "Incluye 2 batidores + 2 ganchos para masa",
+      "Botón expulsión/seguridad",
+      "Diseño ligero/ergonómico",
+      "Uso doméstico 110V (CO) / 220V (LATAM proxy)",
+      "Accesorios aptos para lavavajillas (según vendedor)"
+    ],
+    "rango_precio_observado": "COP $27.900 – $85.000",
+    "garantia_tipo": "Vendedor 0–30 días (varía por tienda)",
+    "variantes_detectadas": [
+      "Genérica 7 Velocidades 260W (ML CO)",
+      "Scarlett 7 Velocidades (CO tiendas)",
+      "Skoedi 7 Velocidades (LATAM proxy)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Ahorro de tiempo y esfuerzo en repostería casera",
+      "score_0a10": 8.2,
+      "buyer_persona": "Hogares que preparan postres/masas ligeras (natilla, tortas, merengues)",
+      "promesa": "Bate y mezcla más rápido y parejo que a mano para recetas frecuentes.",
+      "objecion_principal": "¿Tiene suficiente potencia/calidad?",
+      "justificacion": "Las fichas del mismo tipo de producto en Colombia confirman 7 velocidades, 180–260W y accesorios (batidores y ganchos) para tareas comunes de repostería, destacando diseño ligero y fácil de usar; adecuado para mezclas ligeras y medias típicas del hogar. citeturn0search0turn0search1turn0search5",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.co/batidora-de-mano-electrica-7-velocidades-portatil-y-versatil/up/MCOU3319551274",
+          "pais": "CO",
+          "match_note": "Coincide: genérica, 7 velocidades, 260W, accesorios incluidos, uso doméstico.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-2817100218-batidora-de-mano-electrica-mixer-7-velocidades-260w-_JM",
+          "pais": "CO",
+          "match_note": "Coincide: 7 velocidades, accesorios, doméstico; potencia 260W reportada por vendedor.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://colmetecno.com/products/batidora-electrica-de-mano-7-velocidades-260w-multifuncional",
+          "pais": "CO",
+          "match_note": "Coincide: 7 velocidades, 260W, ligera/ergonómica.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Precio accesible como ‘entry-level’ frente a marcas premium",
+      "score_0a10": 7.9,
+      "buyer_persona": "Compradores sensibles a precio (primer electro para hornear; estudiantes)",
+      "promesa": "Obtén un mezclado básico por una fracción del precio de marcas reconocidas.",
+      "objecion_principal": "Temor a baja durabilidad.",
+      "justificacion": "El mismo tipo de batidora genérica se ofrece entre COP $27.900–$85.000 en comercios locales, mientras que marcas premium y de retail suelen costar varias veces más, mostrando una clara brecha de precio para tareas básicas. citeturn0search5turn5search1turn2search3",
+      "evidencia": [
+        {
+          "url": "https://colmetecno.com/products/batidora-electrica-de-mano-7-velocidades-260w-multifuncional",
+          "pais": "CO",
+          "match_note": "Precio bajo local; coincide especificación genérica 7 velocidades.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.elgigantedelhogar.com/batidora-de-mano-7-velocidades-master-1/p",
+          "pais": "CO",
+          "match_note": "Precio medio local $68.000 para 7 velocidades; producto genérico equivalente.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.kitchenaid.com.co/ofertas",
+          "pais": "CO",
+          "match_note": "Referencia de precios premium en Colombia (categoría batidoras); sirve como comparativo de rango.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Compacta y ligera: ideal para cocinas pequeñas y uso ocasional",
+      "score_0a10": 7.6,
+      "buyer_persona": "Hogares con poco espacio; jóvenes independientes; arrendatarios",
+      "promesa": "Fácil de guardar y manejar sin cansancio en mano.",
+      "objecion_principal": "¿Se sobrecalienta? ¿Resiste uso extendido?",
+      "justificacion": "Las descripciones del mismo producto resaltan ‘compacta’, ‘liviana’ y ‘ergonómica’, con 7 velocidades y accesorios desmontables, lo que ayuda en espacios reducidos y uso intermitente. citeturn0search0turn0search5",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.co/batidora-de-mano-electrica-7-velocidades-portatil-y-versatil/up/MCOU3319551274",
+          "pais": "CO",
+          "match_note": "Enuncia compacta/liviana; genérica 7 velocidades con ganchos.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://colmetecno.com/products/batidora-electrica-de-mano-7-velocidades-260w-multifuncional",
+          "pais": "CO",
+          "match_note": "Resalta ergonómica y peso liviano; misma configuración.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Kit completo para tareas básicas: batidores + ganchos",
+      "score_0a10": 7.2,
+      "buyer_persona": "Aprendices de repostería y familias que quieren ‘todo en uno’ económico",
+      "promesa": "Incluye lo necesario para batir, mezclar y amasar mezclas ligeras.",
+      "objecion_principal": "¿Los accesorios son durables?",
+      "justificacion": "Múltiples listados del mismo tipo indican 2 batidores y 2 ganchos junto con botón expulsor, aptos para la mayoría de preparaciones hogareñas. citeturn0search1turn0search2turn4search2",
+      "evidencia": [
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-2817100218-batidora-de-mano-electrica-mixer-7-velocidades-260w-_JM",
+          "pais": "CO",
+          "match_note": "Lista 2 batidores + 2 ganchos; 7 velocidades.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.mercadolibre.com.co/batidora-de-mano-electrica-mixer-7-velocidades--260w/up/MCOU3015604981",
+          "pais": "CO",
+          "match_note": "Misma configuración genérica; 7 velocidades, 250–260W.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.mercadolibre.cl/batidora-portatil-7-velocidades-multifuncional-multiuso-260w-color-blanco/p/MLC29136683",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "Modelo 7 vel/260W con accesorios; proxy de la misma línea genérica.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Temporada navideña y días de ofertas: picos de uso y compra",
+      "score_0a10": 6.9,
+      "buyer_persona": "Hogares que hacen natilla/buñuelos en diciembre; cazadores de ofertas",
+      "promesa": "Úsala para preparaciones típicas y aprovéchala en temporadas de descuento.",
+      "objecion_principal": "¿Realmente hay más demanda?",
+      "justificacion": "En Colombia, diciembre impulsa fuerte la preparación de postres tradicionales (natilla/buñuelos) y hay eventos de ofertas como Black Friday/Cyberlunes con foco en electrodomésticos, lo que facilita ventas y promociones del producto. citeturn3search2turn2search1turn2search0",
+      "evidencia": [
+        {
+          "url": "https://www.eluniversal.com.co/economica/2023/12/01/la-navidad-impulsa-las-ventas-de-natilla-y-bunuelos-hasta-en-un-90-en-colombia/",
+          "pais": "CO",
+          "match_note": "Incremento de consumo de preparaciones decembrinas que requieren mezcla/batido.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.eltiempo.com/economia/finanzas-personales/black-friday-2025-descuentos-de-hasta-el-48-en-electrodomesticos-de-marcas-reconocidas-3459106",
+          "pais": "CO",
+          "match_note": "Eventos de ofertas con electrodomésticos (incluye batidoras) en Black Friday.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.kalley.com.co/temporadas/cyberlunes/c/cyberlunes",
+          "pais": "CO",
+          "match_note": "Categoría ‘pequeños electrodomésticos’ activa en Cyberlunes.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Deja la cuchara: 7 velocidades que hacen la mezcla por ti.",
+        "Natilla, merengue o torta en minutos (sin dolor de brazo).",
+        "Potencia 180–260W para tus recetas del día a día.",
+        "Ligera y fácil: bate, mezcla y a otra cosa.",
+        "¿Horneas los fines? Esta batidora te rinde de sobra.",
+        "Menos grumos, más antojos: ajusta la velocidad y listo.",
+        "Tu aliada para novenas y postres sin complicarte."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Precio de entrada, resultados cumplidores.",
+        "Paga menos por lo esencial (desde $85.000).",
+        "La opción económica para empezar a hornear en casa.",
+        "¿KitchenAid te queda lejos? Arranca con esta.",
+        "Accesorios incluidos sin subir el ticket.",
+        "Cumple en lo básico sin romper el bolsillo.",
+        "Primera batidora para tu cocina: inteligente comprar bien."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Ligera, cabe en cualquier cajón.",
+        "Tu cocina es pequeña, tu batidora también.",
+        "Control cómodo: no te cansa la mano.",
+        "Sácala, bate y guárdala: así de simple.",
+        "Ergonómica y compacta para vivir en arriendo.",
+        "Menos bulto, más utilidad en la mesa.",
+        "Ideal para uso ocasional sin estorbar."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Incluye batidores y ganchos: lista para todo.",
+        "Expulsor rápido: cambia accesorios en un clic.",
+        "Del chantilly a la masa ligera con el mismo equipo.",
+        "7 velocidades, 4 accesorios: soluciones prácticas.",
+        "Aptos para lavado fácil: cocina sin enredos.",
+        "Todo en uno para tus primeras recetas.",
+        "De huevos a galletas con un solo set."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Temporada de natilla y buñuelos: que no falte batidora.",
+        "Aprovecha Black Friday/Cyberlunes y equípate.",
+        "Decembrina a tope: mezcla sin sudar.",
+        "Regalo útil (y a buen precio) para la cocina.",
+        "Lista para novenas y postres familiares.",
+        "Descuentos típicos de fin de año: ojo a las ofertas.",
+        "Compra hoy, úsala todo diciembre."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "En diciembre aumenta el consumo de postres tradicionales (natilla/buñuelos), lo que sugiere más uso de batidoras en el hogar. citeturn3search2",
+      "Eventos como Black Friday/Cyberlunes promueven electrodomésticos con descuentos relevantes en Colombia. citeturn2search1turn2search0"
+    ],
+    "hipotesis": [
+      "Picos adicionales en ‘Amor y Amistad’ (septiembre) y temporadas escolares por más repostería casera.",
+      "Mayor interés previo a fechas de reuniones familiares (Día de la Madre/Padre)."
+    ],
+    "correlacion_con_angulos": "El ángulo 5 (temporada y ofertas) se potencia en noviembre–diciembre; los ángulos 1–4 son atemporales pero reciben impulso por compras por promoción y mayor cocinado en casa en fin de año."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Reduce tiempo y esfuerzo de batir/mezclar en recetas caseras (7 vel + accesorios).",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/batidora-de-mano-electrica-7-velocidades-portatil-y-versatil/up/MCOU3319551274",
+        "https://colmetecno.com/products/batidora-electrica-de-mano-7-velocidades-260w-multifuncional"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso doméstico, funciones batir/mezclar claramente descritas por tiendas.",
+      "fuentes": [
+        "https://articulo.mercadolibre.com.co/MCO-2817100218-batidora-de-mano-electrica-mixer-7-velocidades-260w-_JM"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Amplia disponibilidad en retailers y marketplaces sugiere alcance masivo.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/k/batidora-de-mano",
+        "https://www.mercadolibre.com.co/"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) de intención de compra directa en red cercana.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen NO bueno (instrucción del cliente).",
+      "fuentes": [
+        "Validación interna de costos"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Se encuentra en Homecenter y MercadoLibre; fácil acceso.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/k/batidora-de-mano",
+        "https://articulo.mercadolibre.com.co/MCO-1413456663-batidora-de-mano-7-velocidades-electrica-multifuncion-_JM"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Producto comoditizado con múltiples variantes genéricas y marcas; sin diferencial claro.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/batidora-de-mano-electrica-mixer-7-velocidades--260w/up/MCOU3015604981",
+        "https://www.homecenter.com.co/homecenter-co/k/batidora-de-mano"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) sólida de tendencia reciente específica a este modelo genérico.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia: múltiples sellers y listados equivalentes.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/",
+        "https://www.homecenter.com.co/homecenter-co/k/batidora-de-mano"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) verificable de volúmenes de venta para esta referencia genérica.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia); criterio subjetivo sin base documental.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Abundantes fotos/vídeos en listings y reseñas de producto.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/batidora-de-mano-electrica-7-velocidades-portatil-y-versatil/up/MCOU3319551274",
+        "https://colmetecno.com/products/batidora-electrica-de-mano-7-velocidades-260w-multifuncional"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Electrodoméstico básico con oferta constante en retail; compra recurrente sin fuerte obsolescencia.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/k/batidora-de-mano",
+        "https://www.kitchenaid.com.co/ofertas"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 6,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "\"batidora de mano 7 velocidades 260W\" sitio:.co reseñas usuarios 2024..2026",
+    "\"Scarlett\" batidora 7 velocidades Colombia garantía vendedor meses",
+    "Comparativo precios batidora 7 velocidades genérica vs Oster/Imusa en CO (Éxito/Falabella/Homecenter)",
+    "Casos de postventa/quejas batidoras genéricas Colombia (SIC, foros)",
+    "Google Trends Colombia: \"batidora de mano\" vs \"batidora de inmersión\" 2019–2026",
+    "Voltaje real en listados CO (110V/220V) y riesgos por incompatibilidad eléctrica"
+  ],
+  "missing_data_flags": [
+    "Marca exacta y modelo del lote a vender (solo genérico)",
+    "Potencia real (varía 180–260W según vendedor)",
+    "Detalle de garantía del vendedor (días/meses, cobertura)",
+    "Manual en español y certificaciones eléctricas aplicables (RETIE/seguridad)",
+    "Calidad de materiales de accesorios (acero/recubrimiento)",
+    "Peso y dimensiones exactas",
+    "Voltaje específico para Colombia (110–120V) y tipo de enchufe"
+  ]
+}

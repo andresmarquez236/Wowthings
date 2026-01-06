@@ -1,0 +1,68 @@
+{
+  "trend_sources": [
+    {
+      "url": "https://www.hubspot.com/marketing-statistics",
+      "title": "Latest TikTok Marketing Statistics",
+      "published_date": "2023-10-01",
+      "used_for": "Understanding emerging trends and performance insights on short-form video marketing."
+    },
+    {
+      "url": "https://www.socialmediatoday.com/news/tiktok-insights-new-trends-to-have-on-your-radar/653028/",
+      "title": "TikTok Insights: New Trends to Have on Your Radar",
+      "published_date": "2023-09-25",
+      "used_for": "Capturing up-to-date content trends and successful strategies on TikTok."
+    },
+    {
+      "url": "https://later.com/blog/instagram-reels-strategy/",
+      "title": "Instagram Reels Strategy for 2023",
+      "published_date": "2023-08-15",
+      "used_for": "Strategies for increasing engagement and performance with Instagram Reels."
+    }
+  ],
+  "creative_patterns": [
+    "Integrate fast-paced scene changes every 2-3 seconds to maintain interest.",
+    "Showcase 'day-in-the-life' mini-vlogs for authenticity and relatability.",
+    "Utilize text overlays for emphasis on key points or calls to action.",
+    "Incorporate trending music tracks to ride popular audio waves.",
+    "Include close-up shots for product details or facial expressions.",
+    "Use first-person narrative to create personal connections with viewers.",
+    "Commonly use jump cuts to maintain a dynamic flow and grab attention.",
+    "Employ before-and-after transformations for compelling narratives.",
+    "Highlight user-generated content (UGC) to build community trust.",
+    "Incorporate unexpected twists or reveals to surprise viewers.",
+    "Utilize stop-motion techniques for unique and artistic presentation.",
+    "Blend animation effects for enhanced storytelling or explanatory visuals.",
+    "Include on-screen captions that match the video’s pacing.",
+    "Feature time-lapse sequences to showcase longer processes in a short time.",
+    "Use split-screen for comparison or dual perspective storytelling.",
+    "Leverage popular or branded hashtags to increase reach and discoverability."
+  ],
+  "cadence_rules": [
+    "Keep clips under 15 seconds for optimal engagement and retention.",
+    "Start with a hook within the first 3 seconds to capture attention.",
+    "Use rhythmic editing that syncs with background music beats.",
+    "Maintain a consistent color tone or filter throughout the video for brand cohesion.",
+    "Alternate between wide and tight shots to create visual variety.",
+    "End with a compelling CTA (Call To Action) in the last 2 seconds.",
+    "Employ soft transitions to not distract from the content flow.",
+    "Set pacing that matches the emotional arc of the video narrative.",
+    "Balance between audio commentary and music to ensure clarity and engagement.",
+    "Ensure text overlays are legible and duration matches reading speed.",
+    "Use visual countdowns for any time-sensitive information or suspense building.",
+    "Leverage looping videos where the first and last frame connect seamlessly."
+  ],
+  "do_not_do": [
+    "Avoid excessively long intros that delay core content delivery.",
+    "Do not rely heavily on effects that overshadow the core message.",
+    "Avoid cluttered frames with too many elements competing for attention.",
+    "Refrain from persistent background noise that distracts from main audio.",
+    "Do not use music that overpowers narration or significant sound cues.",
+    "Steer clear of overused stock footage that seems inauthentic.",
+    "Avoid inconsistent aspect ratios that disorient viewers.",
+    "Do not ignore platform-specific trends and filters that boost content visibility.",
+    "Avoid static shots that fail to create dynamic visual interest.",
+    "Do not place critical information in bottom thirds where UI elements may cover it.",
+    "Avoid using clickbait titles or thumbnails that misrepresent content.",
+    "Refrain from overly complex narratives that are hard to follow in short format."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-01-06T03:19:42Z",
+  "product_name": "Bee Venom Bswell",
+  "product_folder": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell",
+  "query_file": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/querys_fblibrary_bee_venom_bswell.json",
+  "country": "CO",
+  "actor": "curious_coder/facebook-ads-library-scraper",
+  "run_input_meta": {
+    "urls_count": 30,
+    "scrapeAdDetails": false,
+    "limitPerSource": 80,
+    "count": null,
+    "period": "",
+    "scrapePageAds.activeStatus": "all",
+    "scrapePageAds.countryCode": "CO"
+  },
+  "apify": {
+    "dataset_id": "n4zKWqCV6Qr0PRNTt",
+    "run_id": "nqb6awlz7au1obq5C",
+    "startedAt": "2026-01-06T03:17:49.739000+00:00",
+    "finishedAt": "2026-01-06T03:19:35.718000+00:00",
+    "status": "SUCCEEDED"
+  },
+  "counts": {
+    "raw_items": 137,
+    "dedup_items": 68,
+    "unique_advertisers": 19
+  },
+  "files": {
+    "raw_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/apify_results/fblibrary_ads_raw_bee_venom_bswell.jsonl",
+    "dedup_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/apify_results/fblibrary_ads_dedup_bee_venom_bswell.jsonl",
+    "summary_json": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/apify_results/fblibrary_scrape_summary_bee_venom_bswell.json"
+  },
+  "dedupe_strategy": "ukey = advertiser(pageId|pageName) + ad(adArchiveId|adId|hash(snapshot/body/title/link/img))"
+}

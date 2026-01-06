@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "url": "https://blog.hubspot.com/marketing/facebook-ads-tips",
+      "title": "The 10 Most Important Facebook Video Ad Tips for 2020, According to HubSpot Advertisers",
+      "published_date": "2020-01-03",
+      "used_for": "The first few seconds of an ad are crucial for capturing attention."
+    },
+    {
+      "url": "https://blog.bufferapp.com/create-quickly-facebook-video-ads-that-work",
+      "title": "How to Quickly Create Facebook Video Ads that Work",
+      "published_date": "2019-05-06",
+      "used_for": "Discussion on the importance of capturing attention in the first few seconds."
+    },
+    {
+      "url": "https://www.sproutmedia.co.uk/blog/how-long-does-your-video-content-actually-have-to-be",
+      "title": "How Long Does Your Video Content Actually Have to Be?",
+      "published_date": "2020-03-13",
+      "used_for": "The importance of the first few seconds in social media videos across platforms."
+    },
+    {
+      "url": "https://ads.tiktok.com/business/en/blog/how-to-make-best-ad",
+      "title": "How to Make the Best TikTok Ads | Official TikTok For Business",
+      "published_date": "2023-05-25",
+      "used_for": "Recommendations for TikTok ads, including pacing and hooks."
+    },
+    {
+      "url": "https://support.google.com/youtube/answer/9409632",
+      "title": "YouTube Creator Academy",
+      "published_date": "2020-05-01",
+      "used_for": "Guidelines for engaging YouTube videos."
+    }
+  ],
+  "rules_summary": [
+    "Capture attention within the first 2-3 seconds of the video to prevent viewers from scrolling away.",
+    "Use bold visuals and engaging content right at the start to hook viewers.",
+    "Introduce the key message or proposition within the first 5-10 seconds.",
+    "Text overlays should be used to reinforce key messages and ensure clarity, especially in sound-off environments.",
+    "Maintain a fast pace with quick cuts to sustain engagement, particularly on platforms like TikTok and Instagram.",
+    "Employ a rhythmic pattern of visual changes every 3 seconds to keep the video dynamic.",
+    "Use captions or text overlays to emphasize crucial information and facilitate understanding for viewers without sound.",
+    "Ensure that the video narrative aligns with the quick cuts and pacing to prevent confusion.",
+    "Consider using sound effects and music to complement quick visual changes, enhancing the emotional impact.",
+    "Craft content with the assumption that viewers may initially watch without sound, thus the visual storytelling must be compelling.",
+    "Video ads on Facebook and Instagram should focus on delivering clear messages quickly due to brief attention spans.",
+    "Align the video length with platform norms — shorter for platforms like TikTok, possibly longer for YouTube."
+  ],
+  "three_three_three_definition": [
+    "Implement the '3-3-3' heuristic by changing visual elements, text, or rhythm approximately every 3 seconds to avoid viewer fatigue.",
+    "Visual changes could involve shifts in camera angle, subject focus, or graphical elements.",
+    "Text overlays should refresh periodically to maintain viewer interest and highlight new information.",
+    "The rhythm of the video, informed by editing pace or musical beats, should evolve consistently to keep energy high.",
+    "This method aims to maintain engagement through constant and engaging visual or auditory updates."
+  ],
+  "hook_0_2_rule": [
+    "The initial 0-2 seconds are critical for capturing viewer attention in videos, especially on social media platforms.",
+    "Use visually striking or surprising elements immediately to draw viewers in and encourage them to continue watching.",
+    "Starting with a question or a bold statement can effectively intrigue the audience early.",
+    "Animations or motion graphics can add appeal in the first seconds to hook viewers.",
+    "Avoid starting with logos or branding; instead, start with captivating content.",
+    "Ensure the first second visually communicates the video’s essence or value proposition.",
+    "Experiment with novel editing techniques like reversed action or sped-up segments at the outset.",
+    "Content should be tailored to provoke curiosity or an emotional response to secure continued watching."
+  ],
+  "pacing_editing_rules": [
+    "Apply quick cuts and diverse scenes to maintain viewer engagement, especially critical in short videos.",
+    "Each scene should last no more than 3-5 seconds to avoid losing audience interest.",
+    "Use accelerated pacing in narrative and content delivery to match the fast nature of short-form content.",
+    "Vary the speed of cuts in line with the story to create emotional highs and lows.",
+    "Integrate music tracks with perceivable beats to guide the rhythm of edits and maintain flow.",
+    "Stagger visual intensity; build up and abruptly reduce to keep viewers attentive.",
+    "Combine static images with dynamic video to create textual or graphical breaks.",
+    "Blend live-action with animated elements to keep the visuals lively and captivating.",
+    "Edit the video to ensure coherence despite rapid cuts; maintain the narrative arc.",
+    "Pacing should match the platform's norms; TikTok can handle faster paces compared to YouTube.",
+    "Employ looping in edits to give content rewatchability and emphasize key points.",
+    "Opt for chromatic changes or filters every few seconds to introduce new visual flavors.",
+    "Strategically time pauses or stills for dramatic effect within a backdrop of fast pacing.",
+    "Incorporate user-generated content style clips to create relatability and fresh visual cues."
+  ]
+}

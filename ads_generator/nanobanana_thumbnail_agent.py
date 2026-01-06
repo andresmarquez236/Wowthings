@@ -211,13 +211,13 @@ def normalize_thumbnail_obj(
     input_assets["product_lock_rule"] = str(product_lock_rule)
     obj["input_assets"] = input_assets
 
-    # Prompt default si faltara
-    obj.setdefault(
-        "prompt",
-        "Create an original square (1:1) high-conversion ecommerce thumbnail. "
-        "Make the product the largest and sharpest element. Clean modern layout, high contrast, "
-        "soft bokeh background, no watermarks, no brand logos, no recognizable faces."
-    )
+    # Prompt default eliminada para forzar error si el LLM no la genera
+    # obj.setdefault(
+    #     "prompt",
+    #     "Create an original square (1:1) high-conversion ecommerce thumbnail. "
+    #     "Make the product the largest and sharpest element. Clean modern layout, high contrast, "
+    #     "soft bokeh background, no watermarks, no brand logos, no recognizable faces."
+    # )
 
     # composition_rules default si faltara
     comp = _ensure_dict(obj.get("composition_rules"))

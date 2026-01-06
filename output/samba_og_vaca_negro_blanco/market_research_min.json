@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-03",
+    "model": "GPT-4.1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Samba Og Vaca Negro Blanco",
+    "descripcion": "Diseño: Cuentan con una parte superior de piel sintética con un pronunciado estampado de vaca en tonos blanco roto y marrón oscuro/negro. [1.5, 1.8, 1.15]\nDetalles Adicionales: El forro y la plantilla son de cuero sintético rosa, lo que coincide con los tréboles y, a menudo, con los cordones adicionales que se venden por separado",
+    "garantia": "10 dias",
+    "precio": "COP 140000"
+  },
+  "resumen_corto": "El producto coincide con la adidas Samba OG ‘Cow Print’ (mujer) con forro rosa y suela gum, vista en 2025 como lanzamiento destacado (ASOS‑exclusive) y revendido en múltiples tiendas. En Colombia hay oferta heterogénea (149.900–599.950 COP), lo que sugiere competencia alta y riesgo de réplicas. Es muy “wow” y en tendencia, pero difícil justificar margen a COP 140.000 si es original.",
+  "product_fingerprint": {
+    "marca": "adidas Originals",
+    "modelo": "Samba OG 'Cow Print' (mujer) – probable SKU JR1256",
+    "categoria": "Zapatilla lifestyle / sneaker",
+    "specs_claims_clave": [
+      "Upper de pelo/ante sintético con estampado vaca (off‑white + marrón/dark brown)",
+      "Forro y plantilla en sintético rosa (matching Trefoil en lengüeta)",
+      "Tres tiras en cuero blanco (algunas variantes con rosa ‘Wonder Mauve’)",
+      "Cordones marrón estándar",
+      "Suela gum clásica",
+      "Lanzamiento 2025; nota de exclusividad ASOS en el colorway ‘Cow Print’",
+      "Silhouette Samba OG (no LT)"
+    ],
+    "rango_precio_observado": "CO: ~149.900–599.950 COP (Arell/Hype/OffClub/Tenisi). Global: MSRP US$120; reventa US$225–US$340.",
+    "garantia_tipo": "Variable por retailer (ej. 45 días money‑back en Zova House – proxy no‑CO). No hay ficha oficial confirmada en adidas.co para JR1256.",
+    "variantes_detectadas": [
+      "Samba OG ‘Cow Print’ JR1256 (Off‑White/Dark Brown; sockliner rosa)",
+      "Samba OG ‘Cow Print’ Dark Brown/Wonder Mauve/Cloud White (posible código KK2239; stripes rosas)",
+      "Samba LT ‘Cow Print’ JS3931 (long tongue; Off White/Lucid Pink/Gum) – variante distinta"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Trend + estética ‘cowboycore’/animal print con toque rosa",
+      "score_0a10": 8.7,
+      "buyer_persona": "Mujer 18–34 fashion‑forward (IG/TikTok) que busca statement sneakers",
+      "promesa": "El par ‘viral’ del año: Samba OG con print de vaca y acento rosa que eleva cualquier look sin perder el ADN clásico.",
+      "objecion_principal": "¿No será una moda pasajera?",
+      "justificacion": "La ola ‘cow print/ponyh‑hair’ en Sambas y el pack 2025 fue cubierta por medios de moda; además, se documenta el lanzamiento y estética con sockliner rosa.",
+      "evidencia": [
+        {
+          "url": "https://www.gq.com/story/adidas-samba-lt-cow-print-release-date",
+          "pais": "US",
+          "match_note": "Confirma ‘Cow Print Pack’ 2025 y tendencia western/cowboycore (variante LT, valida como contexto de tendencia de la línea).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.soleretriever.com/news/articles/adidas-samba-cow-print-pack-release-date-holiday-2025",
+          "pais": "US",
+          "match_note": "Pack con acentos rosa/chocolate; sitúa el fenómeno en Holiday 2025.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://sneakernews.com/2025/09/25/adidas-samba-cow-print-jr1256/",
+          "pais": "US",
+          "match_note": "Nota del colorway OG ‘Cow Print’ y sockliner rosa (JR1256).",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Escasez percibida/edición puntual (ASOS‑exclusive) + reventa",
+      "score_0a10": 7.9,
+      "buyer_persona": "Sneaker‑enthusiast y coleccionista que valora drops puntuales",
+      "promesa": "Asegura tu par ‘difícil de ver’ antes de que vuele: lanzamiento puntual con precios de reventa al alza.",
+      "objecion_principal": "¿De verdad es limitado? ¿No lo consigo después?",
+      "justificacion": "SneakerNews señala disponibilidad exclusiva en ASOS al lanzamiento; múltiples tiendas revenden a US$225–US$340, señal de demanda/escasez relativa.",
+      "evidencia": [
+        {
+          "url": "https://sneakernews.com/2025/09/25/adidas-samba-cow-print-jr1256/",
+          "pais": "US",
+          "match_note": "Indica ‘available now exclusively at ASOS’ para el drop.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://zovahouse.com/product/wmns-adidas-samba-og-cow-print/",
+          "pais": "US",
+          "match_note": "Precio de reventa ~US$225.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://sidekickslb.com/shoes/adidas-samba-og-cow-print/",
+          "pais": "LB",
+          "match_note": "Otro reseller con precio ~US$340, respalda reventa/escasez.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Diseño sensorial y ‘cute details’: pelo sintético + forro rosa + suela gum",
+      "score_0a10": 7.5,
+      "buyer_persona": "Consumidora estética/coquette que busca texturas y detalles ‘IG‑friendly’",
+      "promesa": "Texturas que se sienten y se ven: print peludo, interior rosa y suela gum que hacen match con outfits dulces o audaces.",
+      "objecion_principal": "¿Se ve demasiado ‘llamativo’ fuera de redes?",
+      "justificacion": "Fichas de producto describen upper de ‘faux cowhide’, forro rosa y suela gum; algunas variantes añaden acentos Wonder Mauve en stripes.",
+      "evidencia": [
+        {
+          "url": "https://rarefoot.com/product/JR1256/",
+          "pais": "HK",
+          "match_note": "Describe upper de pelo sintético, forro/plantilla rosa y gum.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://lilacblonde.com/products/adidas-samba-og-cow-print-dark-brown-wonder-mauve-womens",
+          "pais": "US",
+          "match_note": "Variante OG con stripes Wonder Mauve (rosa).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Versatilidad de estilismo: la silueta Samba es probada y combina con todo",
+      "score_0a10": 6.8,
+      "buyer_persona": "Urbana minimal‑chic que prioriza versatilidad y confort",
+      "promesa": "La base clásica que nunca falla (Samba) + un giro de personalidad (cow print).",
+      "objecion_principal": "¿Sigue de moda la Samba o ya pasó?",
+      "justificacion": "Medios de moda confirman que Samba se mantiene fuerte en 2025; la línea Samba es pilar del catálogo y se re‑edita constantemente.",
+      "evidencia": [
+        {
+          "url": "https://www.marieclaire.com/fashion/adidas-samba-sneaker-trend/",
+          "pais": "US",
+          "match_note": "Confirma vigencia de Samba en 2025.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.adidas.com/us/samba-long-tongue-shoes/JS3931.html",
+          "pais": "US",
+          "match_note": "Página oficial confirma variantes ‘Cow Print’ y color Off White/Lucid Pink/Gum (LT como contexto de familia).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.adidas.co/samba",
+          "pais": "CO",
+          "match_note": "Landing de Samba en Colombia; refuerza evergreen de la silueta.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Disponibilidad y compra local en Colombia (envío y financiación)",
+      "score_0a10": 5.9,
+      "buyer_persona": "Compradora en CO que busca facilidad de compra y pago a cuotas",
+      "promesa": "Cómpralas en Colombia con envío nacional y financiación (Sistecrédito/Addi), sin trámites de importación.",
+      "objecion_principal": "Temor a réplicas/tiendas no oficiales.",
+      "justificacion": "Múltiples retailers en CO muestran el modelo con pagos locales; la heterogeneidad de precios obliga a enfatizar autenticidad/garantía propia.",
+      "evidencia": [
+        {
+          "url": "https://hype.com.co/products/adidas-samba-og-cow-pink-mujer",
+          "pais": "CO",
+          "match_note": "Listado en HYPE (CO) con #JR1256 y precio 599.950 COP.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://offclub.com.co/products/adidas-samba-cow-print",
+          "pais": "CO",
+          "match_note": "OffClub (CO) con métodos Addi/Sistecrédito.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://tenisi.co/en/products/adidas-samba-cow",
+          "pais": "CO",
+          "match_note": "Tenisí (CO) muestra 149.900 COP y Sistecrédito; evidencia de dispersión de precios.",
+          "confianza": "Baja"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Del corral al street: las ‘Cow Print’ más virales del año 🐄✨",
+        "Samba clásica + acento rosa: tu look coquette con actitud.",
+        "¿Team ‘strawberry milk’ o ‘choco’? Lleva el vibe 2025 en tus pies.",
+        "Textura peludita, suela gum y likes asegurados.",
+        "Statement sneaker sin perder la esencia OG.",
+        "El print de vaca que combina con denim, faldas y cargos.",
+        "Cambia cordones y crea tu propio milk‑aesthetic."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Drop puntual. Stock real. Si te tardas, vuelan.",
+        "ASOS‑exclusive vibes, sin pagar aduana (CO).",
+        "Precio hoy < precio mañana: evita la reventa.",
+        "Coleccionistas: check SKU y asegura tu talla ya.",
+        "No esperes el ‘restock’: garantía de autenticidad o devolución.",
+        "Pocas pares, máximo impacto: decide antes del sold‑out.",
+        "Confirma tu par OG, no confundas con la LT."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Textura que se siente: pony‑hair sintético y forro rosa.",
+        "Detalles rosas que enamoran, suela gum que nunca falla.",
+        "Animal print fino, no “gritos”: equilibrio perfecto.",
+        "De sweet a bold: cambia outfit, no tus tenis.",
+        "Fotos y reels que se lucen sin filtros.",
+        "Comfort daily, look de pasarela.",
+        "Atrévete al print sin sacrificar combinabilidad."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "La base más versátil del clóset… con carácter.",
+        "Samba para todo, ‘Cow Print’ para destacar.",
+        "De oficina casual a plan nocturno, sin cambiar tenis.",
+        "El clásico 50s que 2025 sigue amando.",
+        "Si ya tienes Sambas, esta es tu ‘statement pair’.",
+        "Vintage soul, 2026‑ready.",
+        "Combina mejor con denim que tu chaqueta favorita."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Compra en Colombia: envíos rápidos y paga a cuotas.",
+        "Evita aduanas: recibe en casa con garantía local.",
+        "Stock limitado en CO: no esperes próxima importación.",
+        "Soporte por WhatsApp y cambios fáciles.",
+        "Tu talla, hoy. Mañana puede no estar.",
+        "Confirma autenticidad y factura: cero sorpresas.",
+        "Pagas menos que la reventa internacional."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Pack/colores ‘Cow Print’ comunicados para 2025 (ver GQ/SoleRetriever).",
+      "Nota de lanzamiento OG ‘Cow Print’ en septiembre 2025 (SneakerNews)."
+    ],
+    "hipotesis": [
+      "Picos de demanda Q4 (holiday) y promociones ‘regalo’ (pink accents).",
+      "Repunte en fechas tipo San Valentín/Día de la Madre por estética rosa.",
+      "Estabilidad en Q1/Q2 por vigencia de la silueta Samba, con micro‑picos por restocks."
+    ],
+    "correlacion_con_angulos": "El pico de Q3–Q4 refuerza los ángulos 1 (tendencia) y 2 (escasez); la silueta estable respalda el ángulo 4 (versatilidad)."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Producto de moda/estilo; no resuelve un ‘pain’ funcional claro.",
+      "fuentes": [
+        "https://www.adidas.co/samba"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Es un sneaker lifestyle; función clara (calzado urbano).",
+      "fuentes": [
+        "https://www.adidas.co/samba"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "La silueta es masiva, pero el print de vaca + rosa es nicho fashion.",
+      "fuentes": [
+        "https://www.marieclaire.com/fashion/adidas-samba-sneaker-trend/",
+        "https://www.soleretriever.com/news/articles/adidas-samba-cow-print-pack-release-date-holiday-2025"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – se requiere encuesta rápida o prueba A/B local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – a COP 140.000 parece bajo vs MSRP US$120 y reventa; falta COGS y canal de origen.",
+      "fuentes": [
+        "https://sneakernews.com/2025/09/25/adidas-samba-cow-print-jr1256/",
+        "https://zovahouse.com/product/wmns-adidas-samba-og-cow-print/"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Aunque nació como ASOS‑exclusive, hoy hay varios retailers (CO y global) ofertándolo.",
+      "fuentes": [
+        "https://sneakernews.com/2025/09/25/adidas-samba-cow-print-jr1256/",
+        "https://hype.com.co/products/adidas-samba-og-cow-pink-mujer"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Estética llamativa: print peludo + forro rosa + suela gum.",
+      "fuentes": [
+        "https://rarefoot.com/product/JR1256/"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Cobertura de tendencia 2025 (cow print/cowboycore y Sambas).",
+      "fuentes": [
+        "https://www.gq.com/story/adidas-samba-lt-cow-print-release-date",
+        "https://www.soleretriever.com/news/articles/adidas-samba-cow-print-pack-release-date-holiday-2025"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Múltiples listados en CO/externo; competencia y dispersion de precios alta.",
+      "fuentes": [
+        "https://hype.com.co/products/adidas-samba-og-cow-pink-mujer",
+        "https://offclub.com.co/products/adidas-samba-cow-print"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "No hay datos públicos de ventas del colorway; sí hay hype general de Samba, pero no prueba específica.",
+      "fuentes": [
+        "https://www.marieclaire.com/fashion/adidas-samba-sneaker-trend/"
+      ]
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Riesgo de réplicas/stock no oficial en CO y gran dispersión de precios.",
+      "fuentes": [
+        "https://tenisi.co/en/products/adidas-samba-cow",
+        "https://hype.com.co/products/adidas-samba-og-cow-pink-mujer"
+      ]
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Fotos/notas de lanzamiento en medios y tiendas varias.",
+      "fuentes": [
+        "https://sneakernews.com/2025/09/25/adidas-samba-cow-print-jr1256/",
+        "https://zovahouse.com/product/wmns-adidas-samba-og-cow-print/"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "La silueta es evergreen, pero el print ‘cow’ es tendencia 2025; riesgo de fatiga.",
+      "fuentes": [
+        "https://www.vogue.co.uk/article/best-adidas-trainers"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 4,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar EAN/UPC exacto de JR1256 y guía de autenticidad (comparar OG vs LT JS3931).",
+    "Revisar disponibilidad/stock en adidas Confirmed app y retailers oficiales en CO (Falabella, adidas.co) para validar precio oficial en COP.",
+    "Cotizar COGS real: importación minorista vs mayorista (aranceles/IVA y flete).",
+    "Análisis de demanda: Google Trends Colombia ‘Samba cow’, ‘Samba OG JR1256’ + escucha social en TikTok/IG.",
+    "Ver políticas de garantía/devolución en HYPE/OffClub/Arell (CO) y validar originalidad por factura y número de artículo.",
+    "Mapear competencia en CO con precios y tiempos de entrega; identificar señales de réplica."
+  ],
+  "missing_data_flags": [
+    "COGS/FOB no disponible para JR1256.",
+    "Garantía oficial en Colombia para este colorway no confirmada.",
+    "Stock/fecha de reposición en CO desconocidos.",
+    "Diferencias visuales clave OG JR1256 vs LT JS3931 para educación del cliente.",
+    "Demanda local (ventas/CTR) sin data; faltan tests creativos A/B.",
+    "Validación de proveedores con factura adidas/ASOS para asegurar autenticidad."
+  ]
+}

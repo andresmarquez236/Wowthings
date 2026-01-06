@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-03",
+    "model": "analyst-co-latam-v1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Maleta Con Capsula Para Mascotas",
+    "descripcion": "La Maleta De Lujo Para Mascotas Perro O Gato Tipo Nave de la marca Universal es el accesorio perfecto para aquellos amantes de las mascotas que desean viajar con estilo y comodidad. Con su diseño de Mochila Astronauta, esta maleta ofrece una experiencia única tanto para tu perro como para tu gato.\nCon una capacidad de soportar hasta 20 kg de peso máximo, esta maleta es ideal para mascotas de tamaño mediano. Además, cuenta con ventilación para garantizar la comodidad y seguridad de tu peludo amigo durante el viaje.\nEl tipo de transporte de esta maleta es en forma de bolso, lo que facilita su manejo y transporte. Ya sea que estés planeando un viaje en avión, en automóvil o simplemente una salida al parque, esta maleta te brindará la tranquilidad de saber que tu mascota estará segura y cómoda en todo momento.\nNo pierdas la oportunidad de brindarle a tu mascota la experiencia de viajar como todo un astronauta. ¡Adquiere ya la Maleta De Lujo Para Mascotas Perro O Gato Tipo Nave y disfruta de momentos inolvidables junto a tu fiel compañero!",
+    "garantia": "30 DIAS",
+    "precio": "$120.000"
+  },
+  "resumen_corto": "Producto tipo “mochila astronauta” (cápsula/burbuja) para gatos y perros pequeños, ampliamente disponible en Colombia (Homecenter/Falabella/tiendas locales) con variaciones (expandible, con ruedas). Rango de carga real observado: 6–12 kg según modelo; claim de 20 kg no confirmado. Precio en mercado CO: COP $89.900–$369.900. Garantía típica vendedor: 30 días (algunos 1 año en retail).",
+  "product_fingerprint": {
+    "marca": "Genérica/Universal (no fabricante único identificado)",
+    "modelo": "Mochila Astronauta / Cápsula burbuja",
+    "categoria": "Mochila transportadora para mascotas (gato/perro pequeño)",
+    "specs_claims_clave": [
+      "Ventana tipo burbuja transparente (PC/PMMA) intercambiable con rejilla",
+      "Material: tela Oxford + PVC/PC rígido",
+      "Dimensiones típicas ~42x30x25 cm (variantes cercanas 40–45 cm alto)",
+      "Múltiples orificios + mallas de ventilación (6–9)",
+      "Uso manos libres, salidas urbanas/vet",
+      "Peso recomendado observado: 6–9–12 kg según modelo",
+      "Variantes expandibles/plegables/ruedas",
+      "No universalmente “aprobado por aerolíneas”; depende de dimensiones de cada aerolínea"
+    ],
+    "rango_precio_observado": "COP $89.900 – $369.900",
+    "garantia_tipo": "Varía por vendedor (30 días marketplace; hasta 1 año en retail)",
+    "variantes_detectadas": [
+      "Clásica rígida con cúpula",
+      "Expandible (Halinfer y similares)",
+      "Plegable tela + cápsula",
+      "Con ruedas",
+      "Tallas S/L",
+      "Marcas retail: 52 Bits (seller), Halinfer (modelo 005)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Manos libres y traslados urbanos/veterinario con ventilación y vista panorámica",
+      "score_0a10": 8.5,
+      "buyer_persona": "Dueña/o de gato 22–38 años en ciudades (Bogotá/Medellín/Cali) que necesita llevar a su peludito al vet, taxi o caminatas cortas, busca comodidad y manos libres.",
+      "promesa": "Traslada a tu mascota de forma cómoda y segura en recorridos cortos, con buena ventilación y visión que reduce su ansiedad.",
+      "objecion_principal": "¿Se calienta o le falta ventilación?",
+      "justificacion": "Modelos locales incluyen múltiples orificios y mallas; dimensiones y materiales compatibles con transporte urbano corto. Tiendas CO lo ofrecen para paseos y vet.",
+      "evidencia": [
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/3043406/mochila-transportadora-mascotas-capsula-burbuja-perro-gato-negro/3043406/",
+          "pais": "CO",
+          "match_note": "Coincide con mochila cápsula con domo transparente, medidas 42x30x25 aprox, ventilación y uso para paseos/vet; seller local (Homecenter).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.mygiftboxcolombia.com/product-page/morral-astropet-sencillo-1",
+          "pais": "CO",
+          "match_note": "Morral cápsula para gatos/perros pequeños; menciona ventilaciones y uso en recorridos cortos, incluso en moto.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.wohlpet.com/producto/bolso-plegable-con-capsula-talla-l/",
+          "pais": "CO",
+          "match_note": "Variante plegable con cápsula y materiales Oxford/malla; alternativa al guacal tradicional.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Estilo ‘astronauta’ con factor WOW e ‘instagrammable’",
+      "score_0a10": 7.8,
+      "buyer_persona": "Pet parents jóvenes que buscan un look llamativo y contenido social con su gato/perro pequeño.",
+      "promesa": "Un diseño que llama la atención y luce increíble en fotos, sin sacrificar funcionalidad básica.",
+      "objecion_principal": "¿Es solo estética?",
+      "justificacion": "Sitios especializados recomiendan y muestran alta oferta de ‘bubble backpacks’; contenido y reseñas en medios de mascotas refuerzan popularidad global (proxy).",
+      "evidencia": [
+        {
+          "url": "https://www.chewy.com/education/cat/general/cat-backpacks",
+          "pais": "US (proxy)",
+          "match_note": "Artículo destaca ‘bubble backpacks’ como on-trend; mismo formato de cápsula con ventana.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.catster.com/lifestyle/best-bubble-backpacks-for-cats/",
+          "pais": "US (proxy)",
+          "match_note": "Listado 2025 de mejores bubble backpacks; refuerza tendencia y usos.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/764504/mochila-expandible-para-gatos-modelo-astronauta/764504",
+          "pais": "CO",
+          "match_note": "Modelo ‘Astronauta’ expandible; retail CO legitima la estética en mercado local.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Movilidad ligera para moto/bici/transporte público (recorridos cortos)",
+      "score_0a10": 7.2,
+      "buyer_persona": "Usuarios urbanos que se mueven en moto/bici y requieren transportar gatos o perros pequeños en trayectos breves.",
+      "promesa": "Llévalo seguro y con las manos libres en tus desplazamientos diarios.",
+      "objecion_principal": "¿Es estable y seguro en movimiento?",
+      "justificacion": "Tiendas locales sugieren uso en moto/recorridos cortos y como alternativa al guacal; ventilación y cierres refuerzan seguridad básica.",
+      "evidencia": [
+        {
+          "url": "https://www.mygiftboxcolombia.com/product-page/morral-astropet-sencillo-1",
+          "pais": "CO",
+          "match_note": "Menciona explícitamente practicidad para recorridos cortos en motocicleta.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.wohlpet.com/producto/bolso-plegable-con-capsula-talla-l/",
+          "pais": "CO",
+          "match_note": "Alternativa al guacal con cápsula, múltiples aperturas y materiales resistentes.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Espacio extra/expandible y opciones para gatos más grandes",
+      "score_0a10": 6.8,
+      "buyer_persona": "Dueños de gatos grandes (6–9 kg) que buscan mayor confort temporal en paradas o esperas.",
+      "promesa": "Más espacio interior con versiones expandibles o con ruedas para pausas y trayectos más largos.",
+      "objecion_principal": "¿Realmente soporta más peso?",
+      "justificacion": "Retail en CO vende variantes expandibles (Halinfer) con límite hasta 9 kg; también hay versión con ruedas en marketplaces.",
+      "evidencia": [
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/771791/maleta-tipo-capsula-espacial-expandible-para-mascotas-hasta-9-kilogramos/771791/",
+          "pais": "CO",
+          "match_note": "Halinfer expandible hasta 9 kg; misma categoría cápsula/astronauta.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/128782530/Maleta-capsula-con-ruedas-para-mascotas-transparente",
+          "pais": "CO",
+          "match_note": "Variante con ruedas (misma estética cápsula) vendida en Falabella CO.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Regalo para pet lovers (cumpleaños, Navidad, amor y amistad)",
+      "score_0a10": 6.3,
+      "buyer_persona": "Amigos/familiares de dueños de gatos que buscan un detalle útil y vistoso.",
+      "promesa": "Un regalo práctico y fotogénico que usarán en paseos y visitas al vet.",
+      "objecion_principal": "¿Es un producto de temporada?",
+      "justificacion": "Amplia disponibilidad en retail/marketplaces CO con precios de entrada; fuerte presencia en listados y contenidos; demanda asociada a viajes/fiestas.",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/138082651/Maleta-Para-Mascotas-Transporte-Con-Capsula-Perros-Y-Gatos/138082652",
+          "pais": "CO",
+          "match_note": "Producto cápsula con garantías y despacho local; precio accesible para regalo.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/764504/mochila-expandible-para-gatos-modelo-astronauta/764504",
+          "pais": "CO",
+          "match_note": "Disponibilidad retail nacional (Homecenter) facilita regalo/recogida en tienda.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Manos libres, peludito feliz: tu nueva forma de ir al vet.",
+        "Ventilación 360° + ventana panorámica = menos estrés, más paseo.",
+        "¿Taxi, SITP o a pie? Súbelo y listo.",
+        "Tu gato mirando el mundo; tú, con total control.",
+        "Base firme + correas acolchadas: comodidad para ambos.",
+        "Diseño compacto para pasillos, ascensores y clínicas.",
+        "Entrada lateral para acariciarlo sin abrir del todo.",
+        "Hecha para trayectos cortos: del apto al parque sin dramas."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "El look ‘astronauta’ que roba miradas en cada historia.",
+        "Burbuja panorámica: fotos brutales, mascota tranquila.",
+        "Tu outfit + su mochila = contenido ganador.",
+        "Más que transportarlo: conviértelo en tu copiloto con estilo.",
+        "Pantallazo seguro: diseño WOW que sí funciona.",
+        "Explora la ciudad con vibes futuristas (sin perder ventilación).",
+        "Tu peludo, protagonista del feed.",
+        "Domo intercambiable: burbuja o rejilla según el plan."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Paseos en moto sin manos ocupadas: check.",
+        "Ligera, estable y con bolsillos para snacks y boleta del vet.",
+        "Malla y orificios para que no se sofoque en el trancón.",
+        "Sube y baja del TransMi sin enredos.",
+        "Correas ajustables que no castigan la espalda.",
+        "Ideal para mandados con tu ‘peludito copiloto’.",
+        "Cierres resistentes: cero sustos en frenadas.",
+        "Para tramos cortos: del barrio a la clínica, fácil."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "¿Gato grandecito? Ve por la versión expandible.",
+        "Más aire y espacio en paradas: tu felino te lo agradece.",
+        "Backpack hoy, mini ‘túnel’ mañana (expandible).",
+        "Opciones con ruedas para aeropuertos/terminales.",
+        "Transparente, resistente y con más libertad interior.",
+        "Sube de tamaño sin perder el look espacial.",
+        "Piensa a futuro: crecen ellos, se adapta la mochila.",
+        "Halinfer/expandibles: confort extra sin gastar de más."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Regalo top para pet lovers (y su feed).",
+        "Útil, bonito y listo para sorprender.",
+        "Empaca amor: paseos, vet y fotos incluidas.",
+        "Precio que no rompe el marrano; emoción garantizada.",
+        "Disponible en retailers locales: llega a tiempo al evento.",
+        "Colores que combinan con cualquier estilo.",
+        "Unboxing con ‘wow’ asegurado.",
+        "El detalle que los hace salir más juntos."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "En Colombia las vacaciones escolares 2026 se concentran en mitad de año (junio-julio) y fin de año (diciembre-enero), periodos asociados a más viajes y salidas familiares (fuentes: Mineducación/Secretarías y prensa local).",
+      "Retail nacional vende estas mochilas todo el año (Homecenter/Falabella), con ofertas y variaciones de precio.",
+      "Políticas de aerolíneas (Avianca/LATAM) limitan medidas y peso para cabina; muchos modelos ‘cápsula’ superan alturas permitidas, por lo que no todos aplican para avión."
+    ],
+    "hipotesis": [
+      "La demanda sube en vacaciones (dic-ene y jun-jul) por viajes internos y obsequios.",
+      "Picos secundarios en fechas regalo (San Valentín/Amor y Amistad, Navidad).",
+      "En climas calurosos, usuarios preferirán versiones con más malla o rejilla por ventilación."
+    ],
+    "correlacion_con_angulos": "Ángulos 1 y 3 (movilidad urbana/vet) funcionan todo el año; ángulo 5 (regalo) crece en picos de fin de año y mitad de año; ángulo 4 (expandible) puede impulsar ticket en temporada de viajes; ángulo 2 (WOW) aprovecha momentos sociales/festivos para contenido."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Facilita transporte manos libres y controlado a vet/paseos cortos.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/product/3043406/mochila-transportadora-mascotas-capsula-burbuja-perro-gato-negro/3043406/",
+        "https://www.wohlpet.com/producto/bolso-plegable-con-capsula-talla-l/"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Función evidente: transportadora tipo mochila con ventana y ventilación.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138082651/Maleta-Para-Mascotas-Transporte-Con-Capsula-Perros-Y-Gatos/138082652"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Alta tenencia de mascotas en CO (≈60–67% hogares); producto dirigido a ese segmento amplio.",
+      "fuentes": [
+        "https://www.elcolombiano.com/negocios/dos-de-cada-tres-hogares-colombianos-tienen-mascota-cuanto-gastan-y-ahorran-HO29411402",
+        "https://forbes.co/2024/12/28/actualidad/colombia-es-el-segundo-pais-de-latam-en-el-que-mas-crecio-el-mercado-de-alimentos-para-mascotas-estudio/"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) Buscar encuestas/reseñas CO específicas de intención de compra.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) Se requiere costo importación/compra mayorista vs PVP CO.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138082651/Maleta-Para-Mascotas-Transporte-Con-Capsula-Perros-Y-Gatos/138082652",
+        "https://www.homecenter.com.co/homecenter-co/product/764504/mochila-expandible-para-gatos-modelo-astronauta/764504"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Está en Homecenter y Falabella con múltiples vendedores.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/product/3043406/mochila-transportadora-mascotas-capsula-burbuja-perro-gato-negro/3043406/",
+        "https://www.falabella.com.co/falabella-co/product/128782530/Maleta-capsula-con-ruedas-para-mascotas-transparente"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Diseño ‘astronauta’ con cúpula transparente genera ‘wow’ y contenido social.",
+      "fuentes": [
+        "https://www.chewy.com/education/cat/general/cat-backpacks",
+        "https://www.catster.com/lifestyle/best-bubble-backpacks-for-cats/"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Cobertura y ‘best-of’ en medios de mascotas de EE. UU.; alta oferta y reseñas (proxy).",
+      "fuentes": [
+        "https://www.catster.com/lifestyle/best-bubble-backpacks-for-cats/",
+        "https://thepetstaff.com/review/cat-backpacks/"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia en retail/marketplaces CO (Homecenter, Falabella, múltiples tiendas).",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138082651/Maleta-Para-Mascotas-Transporte-Con-Capsula-Perros-Y-Gatos/138082652",
+        "https://www.homecenter.com.co/homecenter-co/product/771791/maleta-tipo-capsula-espacial-expandible-para-mascotas-hasta-9-kilogramos/771791/"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) Se requieren datos de ventas/Rankings Amazon/retail auditables.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) Criterio subjetivo; no corresponde a verificación de mercado.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Abundantes fotos/videos, reseñas y fichas en retail y medios especializados.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/product/3043406/mochila-transportadora-mascotas-capsula-burbuja-perro-gato-negro/3043406/",
+        "https://www.catster.com/lifestyle/best-bubble-backpacks-for-cats/"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Uso todo el año pero sensibilidad a temporadas/‘trends’ y clima (ventilación).",
+      "fuentes": [
+        "https://ayuda.avianca.com/hc/es/articles/13091527349787--Puedo-volar-con-mi-mascota",
+        "https://www.latamairlines.com/py/es/centro-ayuda/preguntas/mascotas/transporte/viaje-avion"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 6,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar SKU/marca exacta ‘Universal’ para Colombia y su garantía específica.",
+    "Validar capacidad real de carga del modelo ofertado (la afirmación de 20 kg luce inexacta).",
+    "Cruce de dimensiones del modelo exacto vs. políticas de cabina Avianca/LATAM (medidas flexibles 55x35x25 cm Avianca; 40x28x25 cm LATAM para bolsos flexibles).",
+    "Estimar margen: cotizar costo mayorista (AliExpress/Alibaba/Faire) + aranceles vs PVP Colombia.",
+    "Buscar reseñas de compradores en Colombia (videos/ML/Google) que indiquen satisfacción, fallas o sobrecalentamiento.",
+    "Mapear estacionalidad con Google Trends CO para términos ‘mochila gato’, ‘transportadora cápsula’.",
+    "Identificar proveedores locales con despacho en 24–48h y garantías >30 días."
+  ],
+  "missing_data_flags": [
+    "Marca/Modelo ‘Universal’ no verificado en CO.",
+    "Peso máximo 20 kg no confirmado; evidencia sugiere 6–12 kg según variante.",
+    "Aprobación para cabina de avión no generalizable (depende dimensiones/aerolínea).",
+    "Costos y margen no verificados con proveedor real.",
+    "Datos de ventas históricas en CO no hallados (solo proxies/medios)."
+  ]
+}

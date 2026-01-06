@@ -1,0 +1,2590 @@
+{
+  "schema_version": "1.1.0",
+  "generated_at_utc": "2026-01-06T02:44:37Z",
+  "product": {
+    "input_name": "Ashawanda Ksm 66 X 2 Unidades",
+    "folder_name": "ashawanda_ksm_66_x_2_unidades",
+    "search_country": "CO",
+    "canonical_product_name": "Ashwagandha KSM-66 5500 mg suplemento en softgels (pack x2)",
+    "product_type": "Suplemento dietario/herbal adaptógeno en cápsulas blandas (softgels)",
+    "short_description": "Pack de 2 frascos de Ashwagandha KSM-66 en softgels de alta absorción, rotulado 5500 mg, 100 softgels por frasco, con claims de soporte para estrés/cortisol y origen Made in USA.",
+    "disambiguation_notes": "Diferenciadores clave: extracto estandarizado KSM-66 (no ashwagandha genérica), dosis rotulada 5500 mg, formato softgels (no cápsula dura/polvo/gomitas), 100 softgels por frasco, pack x2 unidades, claims en etiqueta (high absorption, relaxing mental & physical, cortisol/stress support), sello visual 100% original y Made in USA, distribución/branding Life & Natura Distribuidora."
+  },
+  "filters": {
+    "lang_allowed": "es",
+    "allow_und": false,
+    "require_product_name_contained": true,
+    "product_name_matcher": {
+      "canonical_norm": "ashwagandha ksm-66 5500 mg suplemento en softgels (pack x2)",
+      "core_tokens": [
+        "ashwagandha",
+        "ksm-66",
+        "5500",
+        "suplemento",
+        "softgels",
+        "pack"
+      ],
+      "core_phrases": [
+        "ashwagandha ksm-66",
+        "ashwagandha ksm-66 5500"
+      ],
+      "min_token_hits": 2
+    }
+  },
+  "input_files": {
+    "dedup_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades/apify_results/fblibrary_ads_dedup_ashawanda_ksm_66_x_2_unidades.jsonl",
+    "queries_json": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/ashawanda_ksm_66_x_2_unidades/querys_fblibrary_ashawanda_ksm_66_x_2_unidades.json"
+  },
+  "rules": {
+    "min_advertisers_for_test": 4,
+    "max_exact_advertisers": 7,
+    "scaling_ads_per_advertiser": 5
+  },
+  "anchors": {
+    "anchor_tokens": [
+      "ksm-66",
+      "2",
+      "5500mg",
+      "100",
+      "5500",
+      "66",
+      "ashwagandha",
+      "softgels",
+      "pack",
+      "suplemento"
+    ],
+    "score_thresholds": {
+      "candidate_same_product": 0.4,
+      "candidate_bundle": 0.25,
+      "drift": 0.2
+    },
+    "bundle_keywords": [
+      "combo",
+      "kit",
+      "bundle",
+      "pack",
+      "paquete",
+      "x2",
+      "2 unidades",
+      "dos unidades",
+      "3x",
+      "4x",
+      "set",
+      "incluye",
+      "regalo",
+      "gratis +",
+      "2 en 1",
+      "2x1"
+    ]
+  },
+  "summary": {
+    "stats": {
+      "input_ads_lines": 133,
+      "skipped_error_lines": 1,
+      "skipped_duplicate_ads": 0,
+      "skipped_lang": 92,
+      "skipped_product_name": 3,
+      "kept_ads": 37
+    },
+    "ads_total_after_filters": 37,
+    "advertisers_total": 15,
+    "advertisers_candidate_same": 11,
+    "advertisers_candidate_bundle": 6,
+    "scaling_advertisers_candidate_same": [
+      "858734803984442"
+    ],
+    "rule_evaluation_heuristic": {
+      "producto_test": false,
+      "test_candidate_by_advertisers": true,
+      "too_competitive_if_exact": true,
+      "scaling_detected": true,
+      "notes": "Heurístico: advertisers_candidate_same se basa en anchor_score + filtros. Para concluir 'exactamente el mismo producto' se recomienda validación multimodal del agente."
+    }
+  },
+  "advertisers": [
+    {
+      "advertiser_key": "858734803984442",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "counts": {
+        "ads_total": 8,
+        "ads_candidate_same": 8,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 8,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "u0jjj2-nb.myshopify.com"
+      ],
+      "landing_urls": [
+        "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1953641062701380",
+        "https://www.facebook.com/ads/library/?id=1515091782910556",
+        "https://www.facebook.com/ads/library/?id=892883653317465",
+        "https://www.facebook.com/ads/library/?id=1728471288109222",
+        "https://www.facebook.com/ads/library/?id=858140397194486",
+        "https://www.facebook.com/ads/library/?id=1377665957391956",
+        "https://www.facebook.com/ads/library/?id=893164376395167",
+        "https://www.facebook.com/ads/library/?id=812223898530276"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1953641062701380",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1953641062701380",
+          "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "💛 1 tarro: $64.000 🔥 Promo 2x3: paga 2 y lleva 3  Ceiba Negra  🚚 Envíos: 3 a 5 días hábiles 🛡️ Garantía: 30 días  Ceiba Negra  👉 Pídela en el link de la bio / botón Comprar.  Suplemento dietario. No es medicamento. No reemplaza una alimenta..."
+        },
+        {
+          "ad_id": "1515091782910556",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1515091782910556",
+          "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "💛 1 tarro: $64.000 🔥 Promo 2x3: paga 2 y lleva 3  Ceiba Negra  🚚 Envíos: 3 a 5 días hábiles 🛡️ Garantía: 30 días  Ceiba Negra  👉 Pídela en el link de la bio / botón Comprar.  Suplemento dietario. No es medicamento. No reemplaza una alimenta..."
+        },
+        {
+          "ad_id": "892883653317465",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=892883653317465",
+          "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "💛 1 tarro: $64.000 🔥 Promo 2x3: paga 2 y lleva 3  Ceiba Negra  🚚 Envíos: 3 a 5 días hábiles 🛡️ Garantía: 30 días  Ceiba Negra  👉 Pídela en el link de la bio / botón Comprar.  Suplemento dietario. No es medicamento. No reemplaza una alimenta..."
+        },
+        {
+          "ad_id": "1728471288109222",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1728471288109222",
+          "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "💛 1 tarro: $64.000 🔥 Promo 2x3: paga 2 y lleva 3  Ceiba Negra  🚚 Envíos: 3 a 5 días hábiles 🛡️ Garantía: 30 días  Ceiba Negra  👉 Pídela en el link de la bio / botón Comprar.  Suplemento dietario. No es medicamento. No reemplaza una alimenta..."
+        },
+        {
+          "ad_id": "858140397194486",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=858140397194486",
+          "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "💛 1 tarro: $64.000 🔥 Promo 2x3: paga 2 y lleva 3  Ceiba Negra  🚚 Envíos: 3 a 5 días hábiles 🛡️ Garantía: 30 días  Ceiba Negra  👉 Pídela en el link de la bio / botón Comprar.  Suplemento dietario. No es medicamento. No reemplaza una alimenta..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": true
+      }
+    },
+    {
+      "advertiser_key": "446784291851474",
+      "page_name": "Essencia & Estilo",
+      "page_id": "446784291851474",
+      "page_profile_uri": "https://www.facebook.com/61567478272752/",
+      "counts": {
+        "ads_total": 3,
+        "ads_candidate_same": 2,
+        "ads_candidate_bundle": 1,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 3,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "esenciaestilo.com"
+      ],
+      "landing_urls": [
+        "https://esenciaestilo.com/products/aswagandha-energia"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=2310598342699864",
+        "https://www.facebook.com/ads/library/?id=1433074245198677",
+        "https://www.facebook.com/ads/library/?id=2210544046021118"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "2310598342699864",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=2310598342699864",
+          "landing_url": "https://esenciaestilo.com/products/aswagandha-energia",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "Llegó el momento de cuidar también a la persona que siempre está resolviendo todo: tú. Ashwagandha KSM-66 es un suplemento que acompaña tu bienestar emocional y físico, ideal para mayores de 30 que viven a mil. Inclúyelo en tu rutina de aut..."
+        },
+        {
+          "ad_id": "1433074245198677",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1433074245198677",
+          "landing_url": "https://esenciaestilo.com/products/aswagandha-energia",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Sientes que el día se va en piloto automático? Ashwagandha KSM-66 puede acompañar tu bienestar mental y físico en jornadas llenas de responsabilidades, pantallas y pendientes. Ideal para quienes buscan sentirse más equilibrados en su rutin..."
+        },
+        {
+          "ad_id": "2210544046021118",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=2210544046021118",
+          "landing_url": "https://esenciaestilo.com/products/aswagandha-energia",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Sientes que el día se va en piloto automático? Ashwagandha KSM-66 puede acompañar tu bienestar mental y físico en jornadas llenas de responsabilidades, pantallas y pendientes. Ideal para quienes buscan sentirse más equilibrados en su rutin..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "359167814692573",
+      "page_name": "Vitalica",
+      "page_id": "359167814692573",
+      "page_profile_uri": "https://www.facebook.com/VitalicaColombia/",
+      "counts": {
+        "ads_total": 3,
+        "ads_candidate_same": 2,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 3,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "tiendavitalica.com"
+      ],
+      "landing_urls": [
+        "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1476838396758651",
+        "https://www.facebook.com/ads/library/?id=1560921188376435",
+        "https://www.facebook.com/ads/library/?id=32560173093597444"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1560921188376435",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1560921188376435",
+          "landing_url": "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Sientes que el estrés te está robando la calma? 💭  La Ashwagandha KSM-66 ayuda a equilibrar tu sistema nervioso, reducir la ansiedad y recuperar tu bienestar natural.   🌿Menos tensión, más tranquilidad.   Recuerda que, con nuestro método d..."
+        },
+        {
+          "ad_id": "32560173093597444",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=32560173093597444",
+          "landing_url": "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Sientes que el estrés te está robando la calma? 💭  La Ashwagandha KSM-66 ayuda a equilibrar tu sistema nervioso, reducir la ansiedad y recuperar tu bienestar natural.   🌿Menos tensión, más tranquilidad.   Recuerda que, con nuestro método d..."
+        },
+        {
+          "ad_id": "1476838396758651",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1476838396758651",
+          "landing_url": "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+          "anchor_score": 0.3,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Sientes que el estrés te está robando la calma? 💭  La Ashwagandha KSM-66 ayuda a equilibrar tu sistema nervioso, reducir la ansiedad y recuperar tu bienestar natural.   🌿Menos tensión, más tranquilidad.   Recuerda que, con nuestro método d..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "461882713667729",
+      "page_name": "Verde",
+      "page_id": "461882713667729",
+      "page_profile_uri": "https://www.facebook.com/61566128122258/",
+      "counts": {
+        "ads_total": 2,
+        "ads_candidate_same": 2,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 2,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "facebook.com"
+      ],
+      "landing_urls": [
+        "https://facebook.com/61566128122258"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1237600351549744",
+        "https://www.facebook.com/ads/library/?id=1409569084082143"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1237600351549744",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1237600351549744",
+          "landing_url": "https://facebook.com/61566128122258",
+          "anchor_score": 0.6,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌙 Super Magnesio + Melatonina + Ashwagandha KSM-66  ¿Problemas para dormir profundamente? 😴 Este suplemento natural combina Magnesio, Melatonina y Ashwagandha KSM-66, una fórmula avanzada diseñada para:  ✨ Relajarte física y mentalmente ✨ R..."
+        },
+        {
+          "ad_id": "1409569084082143",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1409569084082143",
+          "landing_url": "https://facebook.com/61566128122258",
+          "anchor_score": 0.6,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌙 Super Magnesio + Melatonina + Ashwagandha KSM-66  ¿Problemas para dormir profundamente? 😴 Este suplemento natural combina Magnesio, Melatonina y Ashwagandha KSM-66, una fórmula avanzada diseñada para:  ✨ Relajarte física y mentalmente ✨ R..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "100609142217082",
+      "page_name": "Carol Barajas",
+      "page_id": "100609142217082",
+      "page_profile_uri": "https://www.facebook.com/Carol-Barajas-100609142217082/",
+      "counts": {
+        "ads_total": 2,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 1,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 2,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "facebook.com"
+      ],
+      "landing_urls": [
+        "https://facebook.com/marketplace/item/26141222412137338/",
+        "https://facebook.com/marketplace/item/1406386054217570/"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=881869190887319",
+        "https://www.facebook.com/ads/library/?id=1353754792732940"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "881869190887319",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=881869190887319",
+          "landing_url": "https://facebook.com/marketplace/item/26141222412137338/",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "Punto Físico de Respaldo📍 Pago Contraentrega Bogotá & Soacha Entrega Inmediata🛵 100% Original Verificable✅ Envíos a Nivel Nacional Contraentrega Somos Distribuidores Directos  Learn more about this listing on Facebook Marketplace: https://f..."
+        },
+        {
+          "ad_id": "1353754792732940",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1353754792732940",
+          "landing_url": "https://facebook.com/marketplace/item/1406386054217570/",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "Punto Físico de Respaldo📍 Pago Contraentrega Bogotá & Soacha Entrega Inmediata🛵 100% Original Verificable✅ Envíos a Nivel Nacional Contraentrega Somos Distribuidores Directos  Learn more about this listing on Facebook Marketplace: https://f..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "803132049548982",
+      "page_name": "Haru Store Colombia",
+      "page_id": "803132049548982",
+      "page_profile_uri": "https://www.facebook.com/61580822481111/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [],
+      "landing_urls": [],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=733955652661637"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "733955652661637",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=733955652661637",
+          "landing_url": "",
+          "anchor_score": 0.8,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "😵‍💫 ¿Mucho estrés, ansiedad o cansancio mental? 🌿 Ashwagandha KSM-66 puede ayudarte a recuperar la calma  ✅ Reduce el estrés y el cortisol ✅ Relajación mental y física ✅ Alta absorción – 5500 mg ✅ 100 softgels 🇺🇸 Hecho en USA  💊 Modo de uso..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "837905566068718",
+      "page_name": "Vlarosa",
+      "page_id": "837905566068718",
+      "page_profile_uri": "https://www.facebook.com/61580069558596/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1650956315874377"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1650956315874377",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1650956315874377",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Buscas un suplemento natural para cuerpo y mente? Ashwagandha KSM-66 mejora tu sistema inmune, equilibrio hormonal y estado emocional 🌿 100% natural – sin químicos 📦 Envío GRATIS en Colombia – Escríbeme ahora"
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "630485733479067",
+      "page_name": "Compras todo col",
+      "page_id": "630485733479067",
+      "page_profile_uri": "https://www.facebook.com/61574966707115/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "facebook.com"
+      ],
+      "landing_urls": [
+        "https://facebook.com/61574966707115"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1935187577058723"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1935187577058723",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1935187577058723",
+          "landing_url": "https://facebook.com/61574966707115",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "Menos estrés. Más enfoque. Mejor versión de ti. Ashwagandha KSM-66 es el extracto más puro y potente. ✔ Reduce el estrés y la ansiedad ✔ Mejora el sueño profundo ✔ Aumenta energía y enfoque  🍃 Si tu mente descansa, tu cuerpo avanza."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "782927014904574",
+      "page_name": "Vitalabs Colombia",
+      "page_id": "782927014904574",
+      "page_profile_uri": "https://www.facebook.com/vitalabscolombia/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1925390614683770"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1925390614683770",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1925390614683770",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "✅ NAD+ Premium — Energía celular certificada ✅ Resveratrol Ultra — Protección antioxidante ✅ Ashwagandha KSM-66 — Manejo del estrés Es apoyo completo para tu cuerpo y mente con respaldo oficial. 💬 Consultá por la oferta del mes | Envío GRAT..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "562195383624325",
+      "page_name": "VitalVida",
+      "page_id": "562195383624325",
+      "page_profile_uri": "https://www.facebook.com/tiendavitalvida/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=816309204492394"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "816309204492394",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=816309204492394",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "La Ashwagandha KSM-66 ayuda al cuerpo a adaptarse al estrés, manteniendo la energía y el equilibrio emocional durante el día. Una fórmula natural perfecta para mejorar tu rendimiento físico y mental sin estimulantes. ✨ Compra segura | Envío..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "109296457540205",
+      "page_name": "Nutrijema",
+      "page_id": "109296457540205",
+      "page_profile_uri": "https://www.facebook.com/nutrijema/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "nutrijema.com"
+      ],
+      "landing_urls": [
+        "https://nutrijema.com/products/ashwagandha"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=847689377947881"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "847689377947881",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=847689377947881",
+          "landing_url": "https://nutrijema.com/products/ashwagandha",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "✨ ¿Sientes que te falta energía, enfoque o calma? La respuesta puede estar en una planta ancestral 🌱  La Ashwagandha KSM-66 te ayuda a equilibrar cuerpo y mente de forma natural: 💪 Aumenta tu energía y rendimiento físico 🧘‍♀️ Reduce el estr..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "372611182592715",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "counts": {
+        "ads_total": 9,
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 9,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 9,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "keyross.shop"
+      ],
+      "landing_urls": [
+        "https://keyross.shop/products/combo-vitalidad%E2%9A%A1nad-ashwagandha-citrato-de-magnesio%F0%9F%92%8A",
+        "https://keyross.shop/products/combo-energia-x3-%E2%9A%A1-nad-ashwagandha-ksm-66-omega-3%E2%9A%A1",
+        "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=586771187863561",
+        "https://www.facebook.com/ads/library/?id=1548839832928801",
+        "https://www.facebook.com/ads/library/?id=837216725608794",
+        "https://www.facebook.com/ads/library/?id=25085290704447413",
+        "https://www.facebook.com/ads/library/?id=1620669205587092",
+        "https://www.facebook.com/ads/library/?id=1397638575244794",
+        "https://www.facebook.com/ads/library/?id=1547105389861350",
+        "https://www.facebook.com/ads/library/?id=2695290387488647",
+        "https://www.facebook.com/ads/library/?id=1485475125854080"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "586771187863561",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=586771187863561",
+          "landing_url": "https://keyross.shop/products/combo-vitalidad%E2%9A%A1nad-ashwagandha-citrato-de-magnesio%F0%9F%92%8A",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "⚡ Más energía, más equilibrio, más bienestar ⚡  🌿 Ashwagandha KSM-66 para reducir el estrés, mejorar tu descanso y tu enfoque 💪 Citrato de Magnesio para fortalecer músculos, apoyar la recuperación y aumentar tu vitalidad 💎 Resveratrol para ..."
+        },
+        {
+          "ad_id": "1548839832928801",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1548839832928801",
+          "landing_url": "https://keyross.shop/products/combo-vitalidad%E2%9A%A1nad-ashwagandha-citrato-de-magnesio%F0%9F%92%8A",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "⚡ Más energía, más equilibrio, más bienestar ⚡  🌿 Ashwagandha KSM-66 para reducir el estrés, mejorar tu descanso y tu enfoque 💪 Citrato de Magnesio para fortalecer músculos, apoyar la recuperación y aumentar tu vitalidad 💎 Resveratrol para ..."
+        },
+        {
+          "ad_id": "837216725608794",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=837216725608794",
+          "landing_url": "https://keyross.shop/products/combo-energia-x3-%E2%9A%A1-nad-ashwagandha-ksm-66-omega-3%E2%9A%A1",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "💥 Más energía, más enfoque y menos estrés 💥  ⚡ NAD+ Resveratrol para mejorar tu energía celular y tu rendimiento diario 🧠 Omega 3 1300 mg para apoyar memoria, corazón y defensas 🌿 Ashwagandha KSM-66 para controlar el estrés y mejorar la cal..."
+        },
+        {
+          "ad_id": "25085290704447413",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=25085290704447413",
+          "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "💥 Más energía, más defensas, más tranquilidad 💥  ⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo 🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias 🌿 Ashwagandha KSM-66 para reduci..."
+        },
+        {
+          "ad_id": "1620669205587092",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1620669205587092",
+          "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "💥 Más energía, más defensas, más tranquilidad 💥  ⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo 🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias 🌿 Ashwagandha KSM-66 para reduci..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "138411552686701",
+      "page_name": "Go Emprender Digital",
+      "page_id": "138411552686701",
+      "page_profile_uri": "https://www.facebook.com/61551816847871/",
+      "counts": {
+        "ads_total": 2,
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 2,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 2,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=862870309821859",
+        "https://www.facebook.com/ads/library/?id=1432205901811320"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "862870309821859",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=862870309821859",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "¿Sufres de cansancio constante, estrés, ansiedad o insomnio? ¿Sientes que tu energía y tu ánimo no son los mismos de antes?  ✨ NAD+ con Resveratrol y Ashwagandha KSM-66 El combo ideal para apoyar: ⚡ Energía y vitalidad 🧠 Manejo del estrés y..."
+        },
+        {
+          "ad_id": "1432205901811320",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1432205901811320",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "¿Sufres de cansancio constante, estrés, ansiedad o insomnio? ¿Sientes que tu energía y tu ánimo no son los mismos de antes?  ✨ NAD+ con Resveratrol y Ashwagandha KSM-66 El combo ideal para apoyar: ⚡ Energía y vitalidad 🧠 Manejo del estrés y..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "412079525311273",
+      "page_name": "Svital",
+      "page_id": "412079525311273",
+      "page_profile_uri": "https://www.facebook.com/svital.co/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 1,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1796550924300917"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1796550924300917",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1796550924300917",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.3,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "😩 ¿Te sientes cansado, estresado y envejeciendo más rápido de lo que quisieras? Con el tiempo, tus células pierden energía y tu ADN se deteriora, causando agotamiento, estrés y pérdida de vitalidad.  🌿 La buena noticia: existe un pack natur..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "614633918409540",
+      "page_name": "Pure Essence Store",
+      "page_id": "614633918409540",
+      "page_profile_uri": "https://www.facebook.com/61577278271107/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 1,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "pure-essence-store23.myshopify.com"
+      ],
+      "landing_urls": [
+        "https://pure-essence-store23.myshopify.com/products/ashwagandha-ksm-66-premium-%F0%9F%8C%B1-%F0%9F%8E%81-magnesio-complex-de-regalo-duerme-respira-renace-%E2%9C%A8"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1368095194813804"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1368095194813804",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1368095194813804",
+          "landing_url": "https://pure-essence-store23.myshopify.com/products/ashwagandha-ksm-66-premium-%F0%9F%8C%B1-%F0%9F%8E%81-magnesio-complex-de-regalo-duerme-respira-renace-%E2%9C%A8",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "🧠 Ángulo estrés moderno + recompensa personal  😫 Estrés, fatiga, mente saturada… No es tu culpa. El mundo exige demasiado.  🌿 Pero ahora tienes una forma natural de recuperar el control: 💊 ASHWAGANDHA KSM-66 + MAGNESIO COMPLEX  🧘‍♀️ Libera ..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    }
+  ],
+  "ads": [
+    {
+      "ad_id": "881869190887319",
+      "advertiser_key": "100609142217082",
+      "lang": "es",
+      "page_name": "Carol Barajas",
+      "page_id": "100609142217082",
+      "page_profile_uri": "https://www.facebook.com/Carol-Barajas-100609142217082/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=881869190887319",
+      "landing_url": "https://facebook.com/marketplace/item/26141222412137338/",
+      "landing_domain": "facebook.com",
+      "start_date": "2026-01-04 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Combo ideal para tu descanso🙌🏼 Ashwagandha Ksm-66 + Nad+Resveratrol💥 Pago Contraentrega 80 mil",
+        "body": "Punto Físico de Respaldo📍\nPago Contraentrega Bogotá & Soacha\nEntrega Inmediata🛵\n100% Original Verificable✅\nEnvíos a Nivel Nacional Contraentrega\nSomos Distribuidores Directos\n\nLearn more about this listing on Facebook Marketplace: https://facebook.com/marketplace/item/26141222412137338/",
+        "caption": "",
+        "cta_text": "Contact us"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "100",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1353754792732940",
+      "advertiser_key": "100609142217082",
+      "lang": "es",
+      "page_name": "Carol Barajas",
+      "page_id": "100609142217082",
+      "page_profile_uri": "https://www.facebook.com/Carol-Barajas-100609142217082/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1353754792732940",
+      "landing_url": "https://facebook.com/marketplace/item/1406386054217570/",
+      "landing_domain": "facebook.com",
+      "start_date": "2026-01-04 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Ashwagandha Ksm-66🍃 Pago Contraentrega 40 mil🫶🏼",
+        "body": "Punto Físico de Respaldo📍\nPago Contraentrega Bogotá & Soacha\nEntrega Inmediata🛵\n100% Original Verificable✅\nEnvíos a Nivel Nacional Contraentrega\nSomos Distribuidores Directos\n\nLearn more about this listing on Facebook Marketplace: https://facebook.com/marketplace/item/1406386054217570/",
+        "caption": "",
+        "cta_text": "Contact us"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "100",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "733955652661637",
+      "advertiser_key": "803132049548982",
+      "lang": "es",
+      "page_name": "Haru Store Colombia",
+      "page_id": "803132049548982",
+      "page_profile_uri": "https://www.facebook.com/61580822481111/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=733955652661637",
+      "landing_url": "",
+      "landing_domain": null,
+      "start_date": "2026-01-01 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Ashwagandha KSM-66",
+        "body": "😵‍💫 ¿Mucho estrés, ansiedad o cansancio mental?\n🌿 Ashwagandha KSM-66 puede ayudarte a recuperar la calma\n\n✅ Reduce el estrés y el cortisol\n✅ Relajación mental y física\n✅ Alta absorción – 5500 mg\n✅ 100 softgels\n🇺🇸 Hecho en USA\n\n💊 Modo de uso:\n2 softgels al día\n\n📲 Escríbeme por WhatsApp\n🔥 ¡Pocas unidades!\n\n#Ashwagandha\n#AshwagandhaKSM66\n#ReducirEstres\n#ControlDelEstres\n#SaludNatural\n#BienestarDiario\n#RelajacionMental\n#SaludMental\n#SuplementosNaturales\n#VidaSaludable\n#Antiestres\n#Cortisol\n#HechoEnUSA\n#CompraPorWhatsApp\n#Colombia",
+        "caption": "",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.8,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "100",
+          "5500",
+          "66",
+          "ashwagandha",
+          "softgels",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "862870309821859",
+      "advertiser_key": "138411552686701",
+      "lang": "es",
+      "page_name": "Go Emprender Digital",
+      "page_id": "138411552686701",
+      "page_profile_uri": "https://www.facebook.com/61551816847871/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=862870309821859",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Combo Equilibrio y Energía",
+        "body": "¿Sufres de cansancio constante, estrés, ansiedad o insomnio?\n¿Sientes que tu energía y tu ánimo no son los mismos de antes?\n\n✨ NAD+ con Resveratrol y Ashwagandha KSM-66\nEl combo ideal para apoyar:\n⚡ Energía y vitalidad\n🧠 Manejo del estrés y la ansiedad\n😴 Mejor descanso \n💚 Bienestar general\n\n🔥 Combo especial $129.900\n🎁 Incluye obsequios exclusivos\n🚚 Envío gratis\n💵 Pago contra entrega\n⏳ Pocas unidades disponibles\n\n👇 Compra ahora\n👉 Da clic en WhatsApp",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1432205901811320",
+      "advertiser_key": "138411552686701",
+      "lang": "es",
+      "page_name": "Go Emprender Digital",
+      "page_id": "138411552686701",
+      "page_profile_uri": "https://www.facebook.com/61551816847871/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1432205901811320",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Combo Equilibrio y Energía",
+        "body": "¿Sufres de cansancio constante, estrés, ansiedad o insomnio?\n¿Sientes que tu energía y tu ánimo no son los mismos de antes?\n\n✨ NAD+ con Resveratrol y Ashwagandha KSM-66\nEl combo ideal para apoyar:\n⚡ Energía y vitalidad\n🧠 Manejo del estrés y la ansiedad\n😴 Mejor descanso \n💚 Bienestar general\n\n🔥 Combo especial $129.900\n🎁 Incluye obsequios exclusivos\n🚚 Envío gratis\n💵 Pago contra entrega\n⏳ Pocas unidades disponibles\n\n👇 Compra ahora\n👉 Da clic en WhatsApp",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "2310598342699864",
+      "advertiser_key": "446784291851474",
+      "lang": "es",
+      "page_name": "Essencia & Estilo",
+      "page_id": "446784291851474",
+      "page_profile_uri": "https://www.facebook.com/61567478272752/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=2310598342699864",
+      "landing_url": "https://esenciaestilo.com/products/aswagandha-energia",
+      "landing_domain": "esenciaestilo.com",
+      "start_date": "2025-12-29 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "¡Hoy Envío Gratis!",
+        "body": "Llegó el momento de cuidar también a la persona que siempre está resolviendo todo: tú.\nAshwagandha KSM-66 es un suplemento que acompaña tu bienestar emocional y físico, ideal para mayores de 30 que viven a mil.\nInclúyelo en tu rutina de autocuidado diario.",
+        "caption": "esenciaestilo.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1433074245198677",
+      "advertiser_key": "446784291851474",
+      "lang": "es",
+      "page_name": "Essencia & Estilo",
+      "page_id": "446784291851474",
+      "page_profile_uri": "https://www.facebook.com/61567478272752/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1433074245198677",
+      "landing_url": "https://esenciaestilo.com/products/aswagandha-energia",
+      "landing_domain": "esenciaestilo.com",
+      "start_date": "2025-12-29 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "¡Hoy Envío Gratis!",
+        "body": "¿Sientes que el día se va en piloto automático?\nAshwagandha KSM-66 puede acompañar tu bienestar mental y físico en jornadas llenas de responsabilidades, pantallas y pendientes.\nIdeal para quienes buscan sentirse más equilibrados en su rutina diaria.",
+        "caption": "esenciaestilo.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "586771187863561",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=586771187863561",
+      "landing_url": "https://keyross.shop/products/combo-vitalidad%E2%9A%A1nad-ashwagandha-citrato-de-magnesio%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-20 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 40% DE DESCUENTO! 🔥",
+        "body": "⚡ Más energía, más equilibrio, más bienestar ⚡\n\n🌿 Ashwagandha KSM-66 para reducir el estrés, mejorar tu descanso y tu enfoque\n💪 Citrato de Magnesio para fortalecer músculos, apoyar la recuperación y aumentar tu vitalidad\n💎 Resveratrol para revitalizar tu cuerpo, apoyar la salud celular y reforzar tus defensas\n\n💚 Un combo natural y completo para sentirte fuerte, activo y saludable todos los días 💚\n\n🎯 ¡PROMO LIMITADA POR HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1548839832928801",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1548839832928801",
+      "landing_url": "https://keyross.shop/products/combo-vitalidad%E2%9A%A1nad-ashwagandha-citrato-de-magnesio%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-20 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 40% DE DESCUENTO! 🔥",
+        "body": "⚡ Más energía, más equilibrio, más bienestar ⚡\n\n🌿 Ashwagandha KSM-66 para reducir el estrés, mejorar tu descanso y tu enfoque\n💪 Citrato de Magnesio para fortalecer músculos, apoyar la recuperación y aumentar tu vitalidad\n💎 Resveratrol para revitalizar tu cuerpo, apoyar la salud celular y reforzar tus defensas\n\n💚 Un combo natural y completo para sentirte fuerte, activo y saludable todos los días 💚\n\n🎯 ¡PROMO LIMITADA POR HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "2210544046021118",
+      "advertiser_key": "446784291851474",
+      "lang": "es",
+      "page_name": "Essencia & Estilo",
+      "page_id": "446784291851474",
+      "page_profile_uri": "https://www.facebook.com/61567478272752/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=2210544046021118",
+      "landing_url": "https://esenciaestilo.com/products/aswagandha-energia",
+      "landing_domain": "esenciaestilo.com",
+      "start_date": "2025-12-09 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "¡Hoy Envío Gratis!",
+        "body": "¿Sientes que el día se va en piloto automático?\nAshwagandha KSM-66 puede acompañar tu bienestar mental y físico en jornadas llenas de responsabilidades, pantallas y pendientes.\nIdeal para quienes buscan sentirse más equilibrados en su rutina diaria.",
+        "caption": "esenciaestilo.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "837216725608794",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=837216725608794",
+      "landing_url": "https://keyross.shop/products/combo-energia-x3-%E2%9A%A1-nad-ashwagandha-ksm-66-omega-3%E2%9A%A1",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-01 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más enfoque y menos estrés 💥\n\n⚡ NAD+ Resveratrol para mejorar tu energía celular y tu rendimiento diario\n🧠 Omega 3 1300 mg para apoyar memoria, corazón y defensas\n🌿 Ashwagandha KSM-66 para controlar el estrés y mejorar la calidad de tu sueño\n\n💚 Un combo diseñado para quienes quieren sentirse mejor cada día 💚\n\n🎯 ¡PROMO 3x1 SOLO POR HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1650956315874377",
+      "advertiser_key": "837905566068718",
+      "lang": "es",
+      "page_name": "Vlarosa",
+      "page_id": "837905566068718",
+      "page_profile_uri": "https://www.facebook.com/61580069558596/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1650956315874377",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-11-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Vlarosa",
+        "body": "¿Buscas un suplemento natural para cuerpo y mente?\nAshwagandha KSM-66 mejora tu sistema inmune, equilibrio hormonal y estado emocional\n🌿 100% natural – sin químicos\n📦 Envío GRATIS en Colombia – Escríbeme ahora",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "100",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "25085290704447413",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=25085290704447413",
+      "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-11-21 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más defensas, más tranquilidad 💥\n\n⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo\n🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias\n🌿 Ashwagandha KSM-66 para reducir estrés, mejorar tu sueño y equilibrar tu bienestar\n\n💚 Una combinación completa para sentirte fuerte, protegido y lleno de vitalidad cada día 💚\n\n🎯 ¡PROMO LIMITADA HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1935187577058723",
+      "advertiser_key": "630485733479067",
+      "lang": "es",
+      "page_name": "Compras todo col",
+      "page_id": "630485733479067",
+      "page_profile_uri": "https://www.facebook.com/61574966707115/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1935187577058723",
+      "landing_url": "https://facebook.com/61574966707115",
+      "landing_domain": "facebook.com",
+      "start_date": "2025-11-05 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "COMPRA YA! ENVIO GRATIS",
+        "body": "Menos estrés. Más enfoque. Mejor versión de ti.\nAshwagandha KSM-66 es el extracto más puro y potente.\n✔ Reduce el estrés y la ansiedad\n✔ Mejora el sueño profundo\n✔ Aumenta energía y enfoque\n\n🍃 Si tu mente descansa, tu cuerpo avanza.",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1796550924300917",
+      "advertiser_key": "412079525311273",
+      "lang": "es",
+      "page_name": "Svital",
+      "page_id": "412079525311273",
+      "page_profile_uri": "https://www.facebook.com/svital.co/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1796550924300917",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-09-21 07:00:00",
+      "end_date": "2026-01-04 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Svital",
+        "body": "😩 ¿Te sientes cansado, estresado y envejeciendo más rápido de lo que quisieras?\nCon el tiempo, tus células pierden energía y tu ADN se deteriora, causando agotamiento, estrés y pérdida de vitalidad.\n\n🌿 La buena noticia: existe un pack natural que lo cambia todo.\n\n🌱 Ashwagandha → calma el estrés y mejora tu sueño\n❤️ Resveratrol → protege tu corazón y rejuvenece tu piel\n⚡ NAD+ → acelera tu metabolismo y repara tu ADN y células\n\n✨ Los 3 juntos forman el Pack Definitivo de Bienestar y Vitalidad.\n\n🎁 Incluye libro digital del Dr. Frank Suárez GRATIS\n🚚 Envío gratis en todo el país\n💳 Pago contraentrega, sin riesgos\n\n🔥 Dale a tu cuerpo la oportunidad de renovarse desde hoy.",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.3,
+        "anchor_hits": [
+          "2",
+          "ashwagandha",
+          "pack"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1237600351549744",
+      "advertiser_key": "461882713667729",
+      "lang": "es",
+      "page_name": "Verde",
+      "page_id": "461882713667729",
+      "page_profile_uri": "https://www.facebook.com/61566128122258/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1237600351549744",
+      "landing_url": "https://facebook.com/61566128122258",
+      "landing_domain": "facebook.com",
+      "start_date": "2025-12-27 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Verde",
+        "body": "🌙 Super Magnesio + Melatonina + Ashwagandha KSM-66\n\n¿Problemas para dormir profundamente? 😴\nEste suplemento natural combina Magnesio, Melatonina y Ashwagandha KSM-66, una fórmula avanzada diseñada para:\n\n✨ Relajarte física y mentalmente\n✨ Reducir el estrés y la ansiedad\n✨ Mejorar la calidad de tu sueño\n✨ Fortalecer tu sistema nervioso\n\n👉 Modo de consumo: 2 cápsulas al día, preferiblemente en la noche antes de dormir.\n\n📦 Presentación: 100 cápsulas\n💰 Precio especial:\n\n1 frasco x $69.900\n\n2 frascos x $99.900\n\n3 frascos x $139.900\n\n🚚 Envío gratis | Pago contra entrega\n\n🌙 ¡Despídete de las noches de insomnio y despierta renovado cada mañana!",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.6,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "100",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1409569084082143",
+      "advertiser_key": "461882713667729",
+      "lang": "es",
+      "page_name": "Verde",
+      "page_id": "461882713667729",
+      "page_profile_uri": "https://www.facebook.com/61566128122258/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1409569084082143",
+      "landing_url": "https://facebook.com/61566128122258",
+      "landing_domain": "facebook.com",
+      "start_date": "2025-12-27 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "4,9/5 Envío GRATIS⭐",
+        "body": "🌙 Super Magnesio + Melatonina + Ashwagandha KSM-66\n\n¿Problemas para dormir profundamente? 😴\nEste suplemento natural combina Magnesio, Melatonina y Ashwagandha KSM-66, una fórmula avanzada diseñada para:\n\n✨ Relajarte física y mentalmente\n✨ Reducir el estrés y la ansiedad\n✨ Mejorar la calidad de tu sueño\n✨ Fortalecer tu sistema nervioso\n\n👉 Modo de consumo: 2 cápsulas al día, preferiblemente en la noche antes de dormir.\n\n📦 Presentación: 100 cápsulas\n💰 Precio especial:\n\n1 frasco x $69.900\n\n2 frascos x $99.900\n\n3 frascos x $139.900\n\n🚚 Envío gratis | Pago contra entrega\n\n🌙 ¡Despídete de las noches de insomnio y despierta renovado cada mañana!",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.6,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "100",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1620669205587092",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1620669205587092",
+      "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-21 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más defensas, más tranquilidad 💥\n\n⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo\n🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias\n🌿 Ashwagandha KSM-66 para reducir estrés, mejorar tu sueño y equilibrar tu bienestar\n\n💚 Una combinación completa para sentirte fuerte, protegido y lleno de vitalidad cada día 💚\n\n🎯 ¡PROMO LIMITADA HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1953641062701380",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1953641062701380",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1515091782910556",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1515091782910556",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "892883653317465",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=892883653317465",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1728471288109222",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1728471288109222",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "858140397194486",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=858140397194486",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1377665957391956",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1377665957391956",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "893164376395167",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=893164376395167",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "812223898530276",
+      "advertiser_key": "858734803984442",
+      "lang": "es",
+      "page_name": "Tienda Ceiba Negra",
+      "page_id": "858734803984442",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=812223898530276",
+      "landing_url": "http://u0jjj2-nb.myshopify.com/products/ashwagandha-americana-1",
+      "landing_domain": "u0jjj2-nb.myshopify.com",
+      "start_date": "2026-01-02 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Conoce Ashwagandha Americana con extracto KSM-66® (≈ 90 cápsulas), hecha en EE. UU. y libre de rellenos y aditivos. Ideal para acompañar tu bienestar diario: trabajo, estudio o entrenamiento. \nCeiba Negra",
+        "body": "💛 1 tarro: $64.000\n🔥 Promo 2x3: paga 2 y lleva 3 \nCeiba Negra\n\n🚚 Envíos: 3 a 5 días hábiles\n🛡️ Garantía: 30 días \nCeiba Negra\n\n👉 Pídela en el link de la bio / botón Comprar.\n\nSuplemento dietario. No es medicamento. No reemplaza una alimentación equilibrada. Si estás embarazada, en lactancia o bajo medicación, consulta a un profesional de salud.\n\n#CeibaNegra #Ashwagandha #KSM66 #Bienestar #RutinaSaludable #Equilibrio #Descanso #EnergíaNatural",
+        "caption": "ceiba-negra.myshopify.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1368095194813804",
+      "advertiser_key": "614633918409540",
+      "lang": "es",
+      "page_name": "Pure Essence Store",
+      "page_id": "614633918409540",
+      "page_profile_uri": "https://www.facebook.com/61577278271107/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1368095194813804",
+      "landing_url": "https://pure-essence-store23.myshopify.com/products/ashwagandha-ksm-66-premium-%F0%9F%8C%B1-%F0%9F%8E%81-magnesio-complex-de-regalo-duerme-respira-renace-%E2%9C%A8",
+      "landing_domain": "pure-essence-store23.myshopify.com",
+      "start_date": "2025-12-06 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "“Haz clic antes que se agote🎁 ”",
+        "body": "🧠 Ángulo estrés moderno + recompensa personal\n\n😫 Estrés, fatiga, mente saturada…\nNo es tu culpa. El mundo exige demasiado.\n\n🌿 Pero ahora tienes una forma natural de recuperar el control:\n💊 ASHWAGANDHA KSM-66 + MAGNESIO COMPLEX\n\n🧘‍♀️ Libera tensiones\n💤 Duerme mejor\n⚡ Recupera tu energía mental y física\n\n🎁 Hoy: $89.900 con el MAGNESIO DE REGALO\n🚚 Envío GRATIS | 💵 Pago Contra Entrega\n💥 Tu mente merece este descanso.",
+        "caption": "WWW.PUREESSENCE.COM",
+        "cta_text": "Order now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1925390614683770",
+      "advertiser_key": "782927014904574",
+      "lang": "es",
+      "page_name": "Vitalabs Colombia",
+      "page_id": "782927014904574",
+      "page_profile_uri": "https://www.facebook.com/vitalabscolombia/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1925390614683770",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-11-22 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Chatea con nosotros",
+        "body": "✅ NAD+ Premium — Energía celular certificada\n✅ Resveratrol Ultra — Protección antioxidante\n✅ Ashwagandha KSM-66 — Manejo del estrés\nEs apoyo completo para tu cuerpo y mente con respaldo oficial.\n💬 Consultá por la oferta del mes | Envío GRATIS",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "816309204492394",
+      "advertiser_key": "562195383624325",
+      "lang": "es",
+      "page_name": "VitalVida",
+      "page_id": "562195383624325",
+      "page_profile_uri": "https://www.facebook.com/tiendavitalvida/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=816309204492394",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-11-11 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Chatea con nosotros",
+        "body": "La Ashwagandha KSM-66 ayuda al cuerpo a adaptarse al estrés, manteniendo la energía y el equilibrio emocional durante el día.\nUna fórmula natural perfecta para mejorar tu rendimiento físico y mental sin estimulantes.\n✨ Compra segura | Envío gratis | Pagas al recibir.",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1476838396758651",
+      "advertiser_key": "359167814692573",
+      "lang": "es",
+      "page_name": "Vitalica",
+      "page_id": "359167814692573",
+      "page_profile_uri": "https://www.facebook.com/VitalicaColombia/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1476838396758651",
+      "landing_url": "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+      "landing_domain": "tiendavitalica.com",
+      "start_date": "2025-11-28 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "NUEVA ASHWAGANDHA KSM-66",
+        "body": "¿Sientes que el estrés te está robando la calma? 💭\n\nLa Ashwagandha KSM-66 ayuda a equilibrar tu sistema nervioso, reducir la ansiedad y recuperar tu bienestar natural. \n\n🌿Menos tensión, más tranquilidad. \n\nRecuerda que, con nuestro método de pago contra entrega, pagas solamente al recibir, también puedes pagar por Addi o Sistecredito 📦🚘\n\nPara más información visita nuestra página web👇\nhttps://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+        "caption": "https://www.tiendavitalica.com/products/ashwagandh...",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.3,
+        "anchor_hits": [
+          "ksm-66",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": false,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1560921188376435",
+      "advertiser_key": "359167814692573",
+      "lang": "es",
+      "page_name": "Vitalica",
+      "page_id": "359167814692573",
+      "page_profile_uri": "https://www.facebook.com/VitalicaColombia/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1560921188376435",
+      "landing_url": "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+      "landing_domain": "tiendavitalica.com",
+      "start_date": "2025-11-28 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "NUEVA ASHWAGANDHA KSM-66",
+        "body": "¿Sientes que el estrés te está robando la calma? 💭\n\nLa Ashwagandha KSM-66 ayuda a equilibrar tu sistema nervioso, reducir la ansiedad y recuperar tu bienestar natural. \n\n🌿Menos tensión, más tranquilidad. \n\nRecuerda que, con nuestro método de pago contra entrega, pagas solamente al recibir, también puedes pagar por Addi o Sistecredito 📦🚘\n\nPara más información visita nuestra página web👇\nhttps://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+        "caption": "https://www.tiendavitalica.com/products/ashwagandh...",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "32560173093597444",
+      "advertiser_key": "359167814692573",
+      "lang": "es",
+      "page_name": "Vitalica",
+      "page_id": "359167814692573",
+      "page_profile_uri": "https://www.facebook.com/VitalicaColombia/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=32560173093597444",
+      "landing_url": "https://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+      "landing_domain": "tiendavitalica.com",
+      "start_date": "2025-11-28 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "NUEVA ASHWAGANDHA KSM-66",
+        "body": "¿Sientes que el estrés te está robando la calma? 💭\n\nLa Ashwagandha KSM-66 ayuda a equilibrar tu sistema nervioso, reducir la ansiedad y recuperar tu bienestar natural. \n\n🌿Menos tensión, más tranquilidad. \n\nRecuerda que, con nuestro método de pago contra entrega, pagas solamente al recibir, también puedes pagar por Addi o Sistecredito 📦🚘\n\nPara más información visita nuestra página web👇\nhttps://www.tiendavitalica.com/products/ashwagandha-ksm-capsulas",
+        "caption": "https://www.tiendavitalica.com/products/ashwagandh...",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "847689377947881",
+      "advertiser_key": "109296457540205",
+      "lang": "es",
+      "page_name": "Nutrijema",
+      "page_id": "109296457540205",
+      "page_profile_uri": "https://www.facebook.com/nutrijema/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=847689377947881",
+      "landing_url": "https://nutrijema.com/products/ashwagandha",
+      "landing_domain": "nutrijema.com",
+      "start_date": "2025-11-09 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Nutrijema",
+        "body": "✨ ¿Sientes que te falta energía, enfoque o calma?\nLa respuesta puede estar en una planta ancestral 🌱\n\nLa Ashwagandha KSM-66 te ayuda a equilibrar cuerpo y mente de forma natural:\n💪 Aumenta tu energía y rendimiento físico\n🧘‍♀️ Reduce el estrés y la ansiedad\n🧠 Mejora la concentración y la claridad mental\n💚 Promueve un bienestar integral y un sueño reparador\n\nNosotros te la traemos en su forma más pura y certificada 🌿\n¡Descubre por qué todos están hablando del adaptógeno que transforma tu bienestar desde adentro!\n\n📦 Paga al recibir\n💳 Crédito Addi disponible\n🇨🇴 Distribuidores oficiales en Colombia\n\n👉 Desliza y siente el cambio con #AshwagandhaKSM66\n\n#Nutrijema #BienestarNatural #AshwagandhaColombia #CeroEstrés #VidaSaludable #Adaptógenos #EnergíaNatural #CuerpoYMente #SuplementosNaturales #EquilibrioInterior #SueñoProfundo #EstrésCero #SaludNatural",
+        "caption": "nutrijema.com",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "66",
+          "ashwagandha",
+          "suplemento"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1397638575244794",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1397638575244794",
+      "landing_url": "https://keyross.shop/products/combo-energia-x3-%E2%9A%A1-nad-ashwagandha-ksm-66-omega-3%E2%9A%A1",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-29 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más enfoque y menos estrés 💥\n\n⚡ NAD+ Resveratrol para mejorar tu energía celular y tu rendimiento diario\n🧠 Omega 3 1300 mg para apoyar memoria, corazón y defensas\n🌿 Ashwagandha KSM-66 para controlar el estrés y mejorar la calidad de tu sueño\n\n💚 Un combo diseñado para quienes quieren sentirse mejor cada día 💚\n\n🎯 ¡PROMO 3x1 SOLO POR HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1547105389861350",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1547105389861350",
+      "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-29 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más defensas, más tranquilidad 💥\n\n⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo\n🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias\n🌿 Ashwagandha KSM-66 para reducir estrés, mejorar tu sueño y equilibrar tu bienestar\n\n💚 Una combinación completa para sentirte fuerte, protegido y lleno de vitalidad cada día 💚\n\n🎯 ¡PROMO LIMITADA HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "2695290387488647",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=2695290387488647",
+      "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más defensas, más tranquilidad 💥\n\n⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo\n🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias\n🌿 Ashwagandha KSM-66 para reducir estrés, mejorar tu sueño y equilibrar tu bienestar\n\n💚 Una combinación completa para sentirte fuerte, protegido y lleno de vitalidad cada día 💚\n\n🎯 ¡PROMO LIMITADA HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1485475125854080",
+      "advertiser_key": "372611182592715",
+      "lang": "es",
+      "page_name": "Keyross Shop",
+      "page_id": "372611182592715",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1485475125854080",
+      "landing_url": "https://keyross.shop/products/combo-triple-bienestar%E2%9A%A1nad-ashwagandha-ksm-66-oil-of-oregano%F0%9F%92%8A",
+      "landing_domain": "keyross.shop",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🔥 ¡APROVECHA 50% DE DESCUENTO! 🔥",
+        "body": "💥 Más energía, más defensas, más tranquilidad 💥\n\n⚡ NAD+ Resveratrol para activar tu energía celular y revitalizar tu cuerpo\n🛡️ Aceite de Orégano para fortalecer tus defensas y protegerte de virus y bacterias\n🌿 Ashwagandha KSM-66 para reducir estrés, mejorar tu sueño y equilibrar tu bienestar\n\n💚 Una combinación completa para sentirte fuerte, protegido y lleno de vitalidad cada día 💚\n\n🎯 ¡PROMO LIMITADA HOY! 🎯\n🚚 Envío GRATIS a todo el país 🇨🇴\n💵 Pago contraentrega, sin riesgos",
+        "caption": "keyross.shop",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "ksm-66",
+          "2",
+          "66",
+          "ashwagandha"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    }
+  ],
+  "agent_queue": [
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "858734803984442",
+      "page_name": "Tienda Ceiba Negra",
+      "page_profile_uri": "https://www.facebook.com/61582412758493/",
+      "selected_ad_ids": [
+        "1953641062701380",
+        "1515091782910556",
+        "892883653317465"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 8,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "landing_domains": [
+          "u0jjj2-nb.myshopify.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "446784291851474",
+      "page_name": "Essencia & Estilo",
+      "page_profile_uri": "https://www.facebook.com/61567478272752/",
+      "selected_ad_ids": [
+        "2310598342699864",
+        "1433074245198677",
+        "2210544046021118"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 2,
+        "ads_candidate_bundle": 1,
+        "top_anchor_scores": [
+          0.5,
+          0.4,
+          0.4
+        ],
+        "landing_domains": [
+          "esenciaestilo.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "359167814692573",
+      "page_name": "Vitalica",
+      "page_profile_uri": "https://www.facebook.com/VitalicaColombia/",
+      "selected_ad_ids": [
+        "1560921188376435",
+        "32560173093597444",
+        "1476838396758651"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 2,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4,
+          0.4,
+          0.3
+        ],
+        "landing_domains": [
+          "tiendavitalica.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "461882713667729",
+      "page_name": "Verde",
+      "page_profile_uri": "https://www.facebook.com/61566128122258/",
+      "selected_ad_ids": [
+        "1237600351549744",
+        "1409569084082143"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 2,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.6,
+          0.6
+        ],
+        "landing_domains": [
+          "facebook.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "100609142217082",
+      "page_name": "Carol Barajas",
+      "page_profile_uri": "https://www.facebook.com/Carol-Barajas-100609142217082/",
+      "selected_ad_ids": [
+        "881869190887319",
+        "1353754792732940"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 1,
+        "top_anchor_scores": [
+          0.5,
+          0.5
+        ],
+        "landing_domains": [
+          "facebook.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "803132049548982",
+      "page_name": "Haru Store Colombia",
+      "page_profile_uri": "https://www.facebook.com/61580822481111/",
+      "selected_ad_ids": [
+        "733955652661637"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.8
+        ],
+        "landing_domains": []
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "837905566068718",
+      "page_name": "Vlarosa",
+      "page_profile_uri": "https://www.facebook.com/61580069558596/",
+      "selected_ad_ids": [
+        "1650956315874377"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.5
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "630485733479067",
+      "page_name": "Compras todo col",
+      "page_profile_uri": "https://www.facebook.com/61574966707115/",
+      "selected_ad_ids": [
+        "1935187577058723"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4
+        ],
+        "landing_domains": [
+          "facebook.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "782927014904574",
+      "page_name": "Vitalabs Colombia",
+      "page_profile_uri": "https://www.facebook.com/vitalabscolombia/",
+      "selected_ad_ids": [
+        "1925390614683770"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "562195383624325",
+      "page_name": "VitalVida",
+      "page_profile_uri": "https://www.facebook.com/tiendavitalvida/",
+      "selected_ad_ids": [
+        "816309204492394"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "109296457540205",
+      "page_name": "Nutrijema",
+      "page_profile_uri": "https://www.facebook.com/nutrijema/",
+      "selected_ad_ids": [
+        "847689377947881"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4
+        ],
+        "landing_domains": [
+          "nutrijema.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "372611182592715",
+      "page_name": "Keyross Shop",
+      "page_profile_uri": "https://www.facebook.com/61560887525265/",
+      "selected_ad_ids": [
+        "586771187863561",
+        "1548839832928801",
+        "837216725608794"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 9,
+        "top_anchor_scores": [
+          0.4,
+          0.4,
+          0.4
+        ],
+        "landing_domains": [
+          "keyross.shop"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "138411552686701",
+      "page_name": "Go Emprender Digital",
+      "page_profile_uri": "https://www.facebook.com/61551816847871/",
+      "selected_ad_ids": [
+        "862870309821859",
+        "1432205901811320"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 2,
+        "top_anchor_scores": [
+          0.4,
+          0.4
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "412079525311273",
+      "page_name": "Svital",
+      "page_profile_uri": "https://www.facebook.com/svital.co/",
+      "selected_ad_ids": [
+        "1796550924300917"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 1,
+        "top_anchor_scores": [
+          0.3
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "614633918409540",
+      "page_name": "Pure Essence Store",
+      "page_profile_uri": "https://www.facebook.com/61577278271107/",
+      "selected_ad_ids": [
+        "1368095194813804"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 1,
+        "top_anchor_scores": [
+          0.4
+        ],
+        "landing_domains": [
+          "pure-essence-store23.myshopify.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    }
+  ]
+}

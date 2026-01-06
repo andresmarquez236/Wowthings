@@ -1,9 +1,0 @@
-📂 Output directory: output/truly_aceite_soft_serve_50_ml
-
-🚀 Running market_research_agent.py...
-/Users/andresmarquez/Documents/Infinitylab/wow_agent/research/market_research_agent.py:303: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
-  data["meta"].setdefault("run_date_iso", datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"))
-✅ Guardado en output/truly_aceite_soft_serve_50_ml/market_research_min.json
-✅ Market research generated: output/truly_aceite_soft_serve_50_ml/market_research_min.json
-
-🎉 Checklist generation finished. Check output/truly_aceite_soft_serve_50_ml/market_research_min.json

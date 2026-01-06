@@ -1,0 +1,40 @@
+{
+  "product_dir": "output/tenis_barbara",
+  "thumbnails_json": "output/tenis_barbara/nanobanana_thumbnails_tenis_barbara.json",
+  "num_angulos": 1,
+  "used_ref_images": 3,
+  "max_ref_images": 5,
+  "rpm_limit": 6.0,
+  "models": [
+    "gemini-3-pro-image-preview"
+  ],
+  "results": [
+    {
+      "angle_rank": 1,
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "prompt_thumbnail_id": "tenis_barbara_A1_V1",
+      "out_file": "output/tenis_barbara/generated_thumbnails_gemini_4k/tenis_barbara_A1_V1__4k.png",
+      "model": "gemini-3-pro-image-preview",
+      "prompt_sent_file": "output/tenis_barbara/generated_thumbnails_gemini_4k/tenis_barbara_A1_V1__prompt_sent.json",
+      "used_ref_images": 3
+    },
+    {
+      "angle_rank": 1,
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "prompt_thumbnail_id": "tenis_barbara_A1_V2",
+      "out_file": "output/tenis_barbara/generated_thumbnails_gemini_4k/tenis_barbara_A1_V2__4k.png",
+      "model": "gemini-3-pro-image-preview",
+      "prompt_sent_file": "output/tenis_barbara/generated_thumbnails_gemini_4k/tenis_barbara_A1_V2__prompt_sent.json",
+      "used_ref_images": 3
+    },
+    {
+      "angle_rank": 1,
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "prompt_thumbnail_id": "tenis_barbara_A1_V3",
+      "out_file": "output/tenis_barbara/generated_thumbnails_gemini_4k/tenis_barbara_A1_V3__4k.png",
+      "model": "gemini-3-pro-image-preview",
+      "prompt_sent_file": "output/tenis_barbara/generated_thumbnails_gemini_4k/tenis_barbara_A1_V3__prompt_sent.json",
+      "used_ref_images": 3
+    }
+  ]
+}

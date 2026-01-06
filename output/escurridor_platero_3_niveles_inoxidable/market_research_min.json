@@ -1,0 +1,423 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-05",
+    "model": "gpt-4.1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Escurridor Platero 3 Niveles Inoxidable",
+    "descripcion": "Escurridor de trastes - Dimensiones aproximadas de 42 L x 23,5 W x 61 H (cm). Incluye rejilla principal de tres capas, soporte para palillos, rejilla para cuchillos y rejilla para tabla de cortar. Capacidad para almacenar platos, vajillas, botellas de condimentos, tablas de cortar, cuchillos y otros utensilios de cocina.\nEstructura escurridor - Diseño en forma de T con barra de soporte gruesa y pies giratorios ajustables en la parte inferior para controlar la altura y proporcionar estabilidad, evitando balanceo. Capacidad de soporte de hasta 120 libras.\nEscurridor de trastes acero inoxidable - Acabado con pintura de poliéster para hornear, ofreciendo protección multicapa, resistencia al desgaste y a la suciedad. Superficie de pintura lisa y resistente a la decoloración.\nEscurridor de trastes fácil limpieza - Rejilla del tazón curvo desmontable para una limpieza sencilla. Cada capa cuenta con una bandeja receptora de agua de material pp, evitando ensuciar la encimera.\nLibere espacio en la cocina - Diseño vertical que permite almacenar una mayor cantidad de vajilla, optimizando el espacio y contribuyendo a un entorno más organizado.",
+    "garantia": "10 DIAS",
+    "precio": "$135.000"
+  },
+  "resumen_corto": "Producto genérico y muy ofertado en Colombia (Falabella, tiendas DTC y Mercado Libre). Resuelve ahorro de espacio y organización en cocinas pequeñas, pero no es único ni difícil de conseguir. Materiales y claims varían (acero inoxidable vs. acero al carbono; 50–120 lb de carga declarada), lo que reduce confianza. Márgenes internos: NO (validación interna). Evergreen con picos en eventos de descuento (Black Friday/Hot Sale).",
+  "product_fingerprint": {
+    "marca": "Genérico (múltiples vendedores)",
+    "modelo": "3 niveles vertical 42x23–25x61–62 cm",
+    "categoria": "Escurreplatos / Organizador de cocina",
+    "specs_claims_clave": [
+      "3 niveles verticales",
+      "Material principal declarado: acero inoxidable (variantes en acero al carbono)",
+      "Dimensiones aprox: 42 x 23–25 x 61–62 cm",
+      "Accesorios: porta cubiertos/cuchillos/tabla de cortar",
+      "Bandejas recolectoras por nivel",
+      "Pies ajustables antideslizantes",
+      "Diseño en T / tubos gruesos (estabilidad)",
+      "Carga declarada: ~50–120 lb según vendedor",
+      "Recubrimiento anticorrosivo/pintura horneada",
+      "Fácil armado/desmontaje"
+    ],
+    "rango_precio_observado": "COP $64.900 – $175.900",
+    "garantia_tipo": "Variable por vendedor: 5 días (garantía mínima/retracto en ventas a distancia), 7–30 días en tiendas DTC, hasta 3 meses en retail (Falabella).",
+    "variantes_detectadas": [
+      "Acero inoxidable 304 (proxy Latam) vs. acero al carbono pintado",
+      "Color negro/pintado vs. cromado",
+      "De mesa vs. sobre lavaplatos (over-the-sink, proxy)",
+      "Tamaños cercanos (p.ej., 53 x 23,5 x 61 cm)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Ahorro de espacio para cocinas pequeñas (organización vertical)",
+      "score_0a10": 9,
+      "buyer_persona": "Hogares en apartamentos y cocinas pequeñas (Bogotá y principales ciudades)",
+      "promesa": "Duplica la capacidad de secado sin ocupar más mesón: 3 niveles, 42 x 23 cm de huella, 62 cm de alto.",
+      "objecion_principal": "¿Realmente cabe y no estorba?",
+      "justificacion": "Listados en CO muestran dimensiones compactas (42 x 23–25 x 61–62 cm) y diseño vertical para optimizar encimeras; estudios locales reportan viviendas y cocinas más pequeñas en Bogotá y tendencia a hogares de menor tamaño, reforzando la necesidad de soluciones verticales.",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/138584033/Escurridor-Inoxidable-Platero-3-Niveles-Gran-Capacidad/138584034",
+          "pais": "CO",
+          "match_note": "Coincide 3/3: 3 niveles, inox, 23 x 42 x 62 cm.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://titanshop.co/products/escurridor-de-platos-de-3-niveles",
+          "pais": "CO",
+          "match_note": "Coincide 3/3: 3 niveles, 42 x 23,5 x 61 cm, vertical.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.eltiempo.com/economia/sectores/bogota-tiene-las-viviendas-mas-pequenas-en-que-localidades-estan-734843",
+          "pais": "CO",
+          "match_note": "Contexto: apartamentos pequeños (48–68 m² en varias zonas).",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Encimera seca y limpieza fácil (bandejas recolectoras/PP)",
+      "score_0a10": 8,
+      "buyer_persona": "Personas que buscan higiene y fácil mantenimiento",
+      "promesa": "Menos charcos y encimera limpia: bandejas por nivel y piezas desmontables para limpieza rápida.",
+      "objecion_principal": "¿Las bandejas funcionan y no se oxidan?",
+      "justificacion": "Varios listados en CO resaltan bandejas recolectoras desmontables por nivel; fichas similares en retail internacional especifican charolas removibles y drenaje por nivel.",
+      "evidencia": [
+        {
+          "url": "https://canelahogar.com.co/product/locero-escurridor-inoxidable-platero-3-niveles-secaplatos/",
+          "pais": "CO",
+          "match_note": "Mismo producto/variante: 3 niveles, inox, bandejas recolectoras desmontables.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.tiendifyhome.com/products/escurridor-inoxidable-platero-3-niveles-gran-capacidad-negro",
+          "pais": "CO",
+          "match_note": "Lista “bandejas recoge agua extraíbles en cada nivel”.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.walmart.com/ip/15515501270",
+          "pais": "USA (proxy)",
+          "match_note": "3-tier con bandejas removibles, capacidad ~50 lb.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Durabilidad y resistencia a la corrosión (inox/recubrimiento)",
+      "score_0a10": 6.5,
+      "buyer_persona": "Compradores que temen al óxido y productos desechables",
+      "promesa": "Estructura metálica anticorrosiva que soporta uso diario.",
+      "objecion_principal": "¿Es realmente inoxidable (304) o pintado que termina oxidándose?",
+      "justificacion": "En CO se declara “acero inoxidable”; en LatAm (proxy) se especifica 304 y tubos gruesos. Hay evidencia de variabilidad de materiales; gestionar expectativa y educar: secado de bandejas y limpieza constante alarga vida útil.",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/138584033/Escurridor-Inoxidable-Platero-3-Niveles-Gran-Capacidad/138584034",
+          "pais": "CO",
+          "match_note": "Material declarado: acero inoxidable.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.realplaza.com/escurridor-organizador-de-acero-inoxidable-de-3-niveles---accesorios-1001397230/p",
+          "pais": "PE (proxy LatAm)",
+          "match_note": "Declara 304 y 110 lb de carga; coincide 3/3 (3 niveles, inox, bandejas).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.reddit.com/r/CrappyDesign/comments/mdnxnr",
+          "pais": "Global (user content)",
+          "match_note": "Riesgo de óxido en bandejas mal drenadas (contexto de uso).",
+          "confianza": "Baja"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Gran capacidad y estabilidad (tubos gruesos, pies ajustables)",
+      "score_0a10": 7,
+      "buyer_persona": "Familias que lavan a diario y necesitan más capacidad",
+      "promesa": "Soporta más utensilios en menos espacio, con base estable y pies nivelables.",
+      "objecion_principal": "¿De verdad aguanta el peso sin tambalear?",
+      "justificacion": "Claims de carga varían (50–120 lb) según vendedor; múltiples listings citan tubos gruesos/pies ajustables. Recomendar uso distribuido y no sobrecargar bandejas superiores.",
+      "evidencia": [
+        {
+          "url": "https://www.tiendifyhome.com/products/escurridor-inoxidable-platero-3-niveles-gran-capacidad-negro",
+          "pais": "CO",
+          "match_note": "Declara hasta 120 lb; coincide 3/3 (3 niveles, inox, bandejas).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.walmart.com/ip/15515501270",
+          "pais": "USA (proxy)",
+          "match_note": "3-tier con máx. ~50 lb; soporte estabilidad descrito.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://titanshop.co/products/escurridor-de-platos-de-3-niveles",
+          "pais": "CO",
+          "match_note": "20 kg (≈44 lb) en versión acero al carbono; aporta rango realista.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Armado sencillo y modularidad (accesorios laterales)",
+      "score_0a10": 6,
+      "buyer_persona": "Usuarios que buscan solución práctica, sin instalación",
+      "promesa": "Arma en minutos y ajusta accesorios (cuchillos/tabla/cubiertos) según tu cocina.",
+      "objecion_principal": "¿Trae todo y es realmente fácil de armar?",
+      "justificacion": "Vendedores CO destacan armado fácil y accesorios incluidos; marketplaces internacionales confirman ensamblaje rápido y accesorios de organización.",
+      "evidencia": [
+        {
+          "url": "https://www.tiendasteo.com/products/dryrack-compacto-3-niveles",
+          "pais": "CO",
+          "match_note": "Menciona “Fácil de armar y desmontar”; accesorios.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://pandu.com.co/products/escurridor-de-loza-3-niveles",
+          "pais": "CO",
+          "match_note": "Arme sencillo, bandejas y compartimentos.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.walmart.com/ip/15515501270",
+          "pais": "USA (proxy)",
+          "match_note": "Incluye utensil/knife/cutting board holders, easy assembly.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Tu mesón rinde por tres: 3 niveles en solo 23 cm de ancho.",
+        "Cocina pequeña, orden gigante.",
+        "Libera espacio YA: organiza platos, vasos y tablas en vertical.",
+        "Adiós al desorden: todo a la mano sin invadir tu mesón.",
+        "Optimiza tu cocina en 5 minutos (sin taladros).",
+        "Ideal para arriendo: cabe en cualquier encimera.",
+        "Orden vertical para cocinas reales (Bogotá style).",
+        "Más loza, menos caos: 3 pisos que sí se notan."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Cero charcos en tu mesón: bandejas recolectoras por nivel.",
+        "Lava, escurre y listo: encimera seca sin esfuerzo.",
+        "Bandejas desmontables: limpieza express en 30 segundos.",
+        "Menos bacterias, más orden: seca sin mojar la cocina.",
+        "Seco y reluciente: organiza sin goteos.",
+        "Tu fregadero, sin charquitos (ni trapos empapados).",
+        "Mantén tu mesón impecable, todos los días.",
+        "El upgrade higiénico que tu cocina pedía."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Estructura metálica hecha para el uso diario.",
+        "Más resistente que los plásticos de siempre.",
+        "Acabado anticorrosivo: diseñado para durar.",
+        "Inox donde importa, orden donde se nota.",
+        "Soporta la rutina, no la oxida.",
+        "Compra una vez, úsalo por años (cuídalo y te responde).",
+        "Tubos gruesos, menos preocupaciones.",
+        "Tu aliado diario contra el óxido y el desorden."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Capacidad XL: platos, ollas y más, sin perder estabilidad.",
+        "Pies nivelables: estable hasta en mesones irregulares.",
+        "Organiza por pisos sin tambalear.",
+        "Estructura sólida para uso rudo en casa.",
+        "Más platos, menos viajes al escurreplatos.",
+        "Tu cocina a full, con orden.",
+        "Carga inteligente: distribuye y gana espacio.",
+        "Soporte firme para el día a día."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Arma y usa en minutos (sin herramientas).",
+        "Accesorios que se adaptan a tu rutina.",
+        "Todo en su sitio: cuchillos, tabla, cubiertos.",
+        "Modular y práctico: cámbialo cuando quieras.",
+        "Instalación cero estrés: abre, arma y organiza.",
+        "Orden inmediato, sin obras.",
+        "Hecho para rotar accesorios según tu espacio.",
+        "El kit completo de organización de loza."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Producto de necesidad continua (lavado manual sigue siendo común en Colombia).",
+      "Eventos de alto consumo online impulsan hogar/cocina: Black Friday y Cyber Monday (28 nov. 2025 referencia) y Hot Sale (octubre).",
+      "Hogares más pequeños y más hogares unipersonales sostienen demanda de soluciones de organización todo el año."
+    ],
+    "hipotesis": [
+      "Picos en mudanzas/inicio de año y temporadas de equipamiento del hogar.",
+      "Promociones retail (Éxito/Falabella/ML) activan demanda por precio.",
+      "Contenido social de organización de cocina incentiva compras impulsivas."
+    ],
+    "correlacion_con_angulos": "El ángulo de ahorro de espacio (1) y limpieza (2) se potencian en picos promocionales (Black Friday/Hot Sale). Tendencia a viviendas más compactas refuerza el ángulo 1 todo el año. Fuentes de eventos: prensa CO sobre Black Friday y Hot Sale; vivienda pequeña: El Tiempo/Properati, Camacol."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Organiza y seca más loza en poco espacio, reduce desorden en encimeras.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138584033/Escurridor-Inoxidable-Platero-3-Niveles-Gran-Capacidad/138584034",
+        "https://canelahogar.com.co/product/locero-escurridor-inoxidable-platero-3-niveles-secaplatos/"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Uso evidente por fotos/fichas; no requiere instalación fija.",
+      "fuentes": [
+        "https://www.tiendifyhome.com/products/escurridor-inoxidable-platero-3-niveles-gran-capacidad-negro",
+        "https://www.walmart.com/ip/15515501270"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Presencia en grandes retailers/marketplaces CO y precio accesible.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138584033/Escurridor-Inoxidable-Platero-3-Niveles-Gran-Capacidad/138584034",
+        "https://www.mercadolibre.com.co/escurridor-de-platos-3-niveles-en-acero-inoxidable/up/MCOU3198968471"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) de intención de compra directa en nuestro entorno; se requieren encuestas internas.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen NO bueno (instrucción del cliente).",
+      "fuentes": [
+        "VALIDACIÓN INTERNA DE COSTOS"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Amplia oferta en Falabella y múltiples tiendas DTC/ML en CO.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138584033/Escurridor-Inoxidable-Platero-3-Niveles-Gran-Capacidad/138584034",
+        "https://articulo.mercadolibre.com.co/MCO-1588085999-escurridor-inoxidable-platero-3-niveles-gran-capacidad-negro-_JM"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Producto común con múltiples variantes; sin diferenciador único claro.",
+      "fuentes": [
+        "https://pandu.com.co/products/escurridor-de-loza-3-niveles",
+        "https://www.tiendawowi.com/products/escurridor-inoxidable-platero-3-niveles-gran-capacidad"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) de tendencias específicas en 3 niveles; hay artículos generales de dish racks/organización pero no de este modelo exacto.",
+      "fuentes": [
+        "https://www.foodnetwork.com/how-to/packages/shopping/product-reviews/best-dish-drying-racks"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia en CO (retail y DTC).",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/138584033/Escurridor-Inoxidable-Platero-3-Niveles-Gran-Capacidad/138584034",
+        "https://canelahogar.com.co/product/locero-escurridor-inoxidable-platero-3-niveles-secaplatos/"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) de ventas significativas de 3-tier específicos; referencias proxy con pocas calificaciones.",
+      "fuentes": [
+        "https://www.walmart.com/ip/15515501270"
+      ]
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "No, por bajo margen y variabilidad de materiales (inox vs. carbono).",
+      "fuentes": [
+        "https://titanshop.co/products/escurridor-de-platos-de-3-niveles",
+        "https://www.realplaza.com/escurridor-organizador-de-acero-inoxidable-de-3-niveles---accesorios-1001397230/p"
+      ]
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Múltiples fichas con fotos/videos/animaciones en e-commerce.",
+      "fuentes": [
+        "https://canelahogar.com.co/product/locero-escurridor-inoxidable-platero-3-niveles-secaplatos/",
+        "https://www.tiendifyhome.com/products/escurridor-inoxidable-platero-3-niveles-gran-capacidad-negro"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Necesidad permanente (lavado manual extendido); picos en eventos de descuento.",
+      "fuentes": [
+        "https://www.elcolombiano.com/negocios/black-friday-2025-fechas-descuentos-y-tiendas-colombia-BG30634764",
+        "https://www.portafolio.co/economia/covid-disparo-la-compra-de-electrodomesticos-inteligentes-en-el-pais-547366"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 6,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar composición real (304 vs 201) con pruebas magnéticas y certificados de proveedor/SKU.",
+    "Test de carga independiente (peso distribuido por nivel) y estabilidad con pies nivelables.",
+    "Comparar tasa de devoluciones por óxido en CO (Falabella/ML) y validar bandejas drenantes.",
+    "Mapear top-5 vendedores CO por unidades/mes y precio neto para estrategia de posicionamiento.",
+    "Explorar variante over-the-sink (3-tier) y su demanda en CO vs. de mesa.",
+    "Medir intención de compra (encuesta express a base de clientes) y aceptación de garantías (10 días vs. 30–90 días).",
+    "Verificar cumplimiento de retracto (5 días hábiles) y política de devoluciones del seller actual.",
+    "Identificar fotos y videos UGC en TikTok/Instagram de 3-tier en CO (palabras clave: escurreplatos 3 niveles Colombia)."
+  ],
+  "missing_data_flags": [
+    "Marca/SKU exactos del proveedor (sin esto hay alta variabilidad).",
+    "Composición de acero certificada (304/201 o acero al carbono con pintura).",
+    "Prueba de carga y estabilidad documentada.",
+    "Manual técnico y exploded view para repuestos.",
+    "Política de garantía del seller actual vs. legal (retracto) detallada.",
+    "Evidencia robusta de tendencia internacional específica para 3-tier.",
+    "Datos de ventas históricas (CO) por marketplace para validar demanda.",
+    "Fotos/vídeos UGC en Colombia usando el mismo modelo."
+  ]
+}

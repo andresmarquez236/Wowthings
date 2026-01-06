@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-03",
+    "model": "Analista de Mercado y Copy Strategist para Colombia y LATAM",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Hielera Con Parlante 2 En 1 Recargable 5",
+    "descripcion": "Hielera con Parlante 2 En 1 Recargable 5 litros RGB\nLleva la experiencia de tus reuniones a otro nivel con la Hielera con Parlante Recargable. Este innovador producto es la solución perfecta para quienes aman la música y las bebidas refrescantes, pero odian cargar con múltiples aparatos.\nDiseñada para ser el centro de atención, esta hielera no solo conserva el frío de tus bebidas gracias a su aislamiento térmico, sino que también incorpora un parlante para poner el ambiente donde quiera que vayas. Ya sea en un picnic, una tarde de piscina o una reunión en casa, las Luces RGB integradas crearán la atmósfera perfecta sin importar donde estes.\nCaracterísticas:\n- Libertad Total: Gracias a su batería recargable, no necesitas enchufes cerca.\n- Versatilidad de Audio: Múltiple tipo de conexión, ya sea vía Bluetooth o Simplemente inserta una tarjeta Micro SD con tu playlist favorita y listo.\n- Tamaño Perfecto: Con 5 Litros de capacidad, tienes espacio suficiente para tus latas o botellas personales y el hielo necesario.\n- Estilo Único: Su diseño moderno con iluminación LED la convierte en el accesorio más novedoso de la fiesta.\nFicha Técnica:\n- Producto: Hielera Speaker 2 en 1.\n- Capacidad: 5 Litros (Aprox. 6 latas estándar + hielo).\n- Conectividad: Bluetooth y Puerto para Tarjeta Micro SD.\n- Iluminación: Luces LED RGB integradas (Multicolor).\n- Batería: Recargable (Incluye cable de carga).\n- Material: Plástico (De grado alimenticio)\nNota: Las imágenes publicadas son de referencia, el producto real puede presentar ligeras variaciones",
+    "garantia": "10 DIAS Orden incompleta / Producto diferente / Producto averiado: En caso tal de recibir la orden incompleta o recibir un producto diferente al solicitado por la tienda, o roto se reenviará uno nuevamente sin ningún costo de flete. Cuenta con 10 días para solicitarlo. La garantía será valida para los siguientes casos:\n\nOrden incompleta\nMal funcionamiento\nProducto roto\nOrden diferente\nMal funcionamiento: Todos nuestros productos cuentan con garantía, en caso de presentar una falla el producto será cambiado siempre y cuando no se compruebe que haya sido por un mal uso por parte del cliente. Para este caso el periodo es de 30 días",
+    "precio": "$115.000"
+  },
+  "resumen_corto": "Producto genérico tipo “hielera con parlante” 2-en-1, 5L, LED RGB, Bluetooth, batería interna. En Colombia se oferta por varios retailers (Falabella, tiendas online y ML) con rangos de precio COP ~$61.000–$169.100. Variantes detectadas (J5211, K-036, HOG024) comparten 5L, LED RGB, BT, batería 1200 mAh y 5W aprox.; algunas cambian puertos (USB/MicroSD), autonomía (4–12 h) y medidas. Competencia alta, garantía típica vendedor 1 mes/30 días.",
+  "product_fingerprint": {
+    "marca": "Genérica (varía por vendedor)",
+    "modelo": "K-036 / J5211 / HOG024 (variantes detectadas)",
+    "categoria": "Hielera con parlante Bluetooth y luces LED (5L)",
+    "specs_claims_clave": [
+      "Capacidad 5 litros",
+      "Luces LED RGB multicolor",
+      "Bluetooth 5.0 (en varias publicaciones)",
+      "Batería interna recargable ~1200 mAh",
+      "Potencia parlante ~5W",
+      "Sonido 360° (claim frecuente)",
+      "Material PP/ABS + acrílico (grado alimenticio en varias)",
+      "Dimensiones aprox. 25 x 29 cm (varía por modelo)",
+      "Entradas USB y/o MicroSD (depende variante)"
+    ],
+    "rango_precio_observado": "CO: COP $61.000 – $169.100 (Falabella/Sintek/J&R). Proxies LATAM: CLP $17.990–$39.990; PEN S/81–111.",
+    "garantia_tipo": "Vendedor 1 mes / 30 días (Falabella/ML); algunas tiendas CO especifican 1 mes.",
+    "variantes_detectadas": [
+      "J5211 (ABS+acrílico, 5W, 1200 mAh, BT 5.0, USB) – CO",
+      "K-036 (5L, LED, BT, 4 h autonomía) – CO (ML)",
+      "HOG024 (5L, LED RGB, BT) – PE (ML/Ripley)",
+      "Capacidad 7L (algunas publicaciones) – CL/PE"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Fiesta 2-en-1 sin cables (hielera + parlante RGB)",
+      "score_0a10": 8,
+      "buyer_persona": "Jóvenes 18–35, socializadores de fines de semana; anfitriones de reuniones en casa.",
+      "promesa": "Pon la música y enfría las bebidas con un solo equipo portátil, luces RGB y conexión Bluetooth.",
+      "objecion_principal": "¿Suena suficiente y cuánto dura la batería?",
+      "justificacion": "Múltiples fichas confirman 5W de potencia, batería ~1200 mAh y 5L con LED RGB. Es un artículo diseñado para fiestas y reuniones, portátil y recargable.",
+      "evidencia": [
+        {
+          "url": "https://jyrtechnology.com.co/producto/j5211/",
+          "pais": "CO",
+          "match_note": "Mismo tipo 2-en-1; 5W, RGB, batería 1200 mAh, BT 5.0; medidas cercanas.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://simple.ripley.com.pe/hielera-coc024-blanco-transparente-cubeta-5l-parlante-bluetooth-luces-led-rgb-pmp20000694816",
+          "pais": "PE (proxy LATAM)",
+          "match_note": "Capacidad 5L, LED RGB, BT, batería 1200 mAh/10–12 h (claim).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/146625440/Parlante-Bafle-Portatil-Hielera-Cubeta-Luces-Bluetooth/146625441",
+          "pais": "CO",
+          "match_note": "Retail CO con especificaciones de uso y dimensiones; confirma disponibilidad masiva.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Regalo novedoso y memorable",
+      "score_0a10": 6.8,
+      "buyer_persona": "Compradores de regalos para cumpleaños, Amor y Amistad, Navidad, intercambios.",
+      "promesa": "Un detalle con ‘wow factor’ que arma el ambiente en segundos.",
+      "objecion_principal": "¿No es muy ‘gadget’? ¿Durabilidad/garantía corta?",
+      "justificacion": "Presencia del mismo concepto en varios retailers de CO y región sugiere aceptación como regalo llamativo; luces RGB y diseño transparente generan efecto sorpresa.",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/149604283/Hielera-Parlante-Bafle-Cubeta-Luces-Bluetooth-Usb/149604286",
+          "pais": "CO",
+          "match_note": "Producto similar vendido por gran retail; precios de acceso para regalo.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://simple.ripley.cl/hielera-parlante-cubetera-led-bluetooth-grande-7l-musical-mpm10001965683",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "Variantes 5–7L, RGB, BT; enfoque de ‘fiestas y celebraciones’.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-2945254846-hielera-parlante-recargable-con-luz-led-bluetooth-_JM",
+          "pais": "CO",
+          "match_note": "Modelo K-036 5L; ficha de regalo/fiesta y autonomía.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Parche outdoor: picnic, piscina y BBQ",
+      "score_0a10": 6.5,
+      "buyer_persona": "Parejas y grupos que salen a parques, piscina, playa o camping ligero.",
+      "promesa": "Ambiente y frío en exteriores sin enchufes.",
+      "objecion_principal": "Resistencia a salpicaduras y autonomía real.",
+      "justificacion": "Fichas destacan uso en exterior, autonomía 4–12 h según variante; una publicación menciona IP54 (proxy).",
+      "evidencia": [
+        {
+          "url": "https://articulo.mercadolibre.com.uy/parlante-hielera-bluetooth-recargable-con-luz-led-5-litros/up/MLUU2704053204",
+          "pais": "UY (proxy LATAM)",
+          "match_note": "Mismo tipo 5L RGB con batería; menciona IP54 y MicroSD/USB.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://simple.ripley.com.pe/hielera-coc024-blanco-transparente-cubeta-5l-parlante-bluetooth-luces-led-rgb-pmp20000694816",
+          "pais": "PE (proxy LATAM)",
+          "match_note": "Uso para eventos y reuniones; batería 1200 mAh 10–12 h (claim).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://jyrtechnology.com.co/producto/j5211/",
+          "pais": "CO",
+          "match_note": "BT 5.0, batería 1200 mAh; portable; mismo concepto 2-en-1.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Ambiente para bares, terrazas y mini eventos",
+      "score_0a10": 6.3,
+      "buyer_persona": "Dueños de bares pequeños, terrazas y organizadores de eventos caseros.",
+      "promesa": "Deco + luz RGB + música para mesas y barras sin cableado.",
+      "objecion_principal": "Volumen limitado (5W) y durabilidad en uso intensivo.",
+      "justificacion": "Retailers destacan uso en bares/fiestas; potencia 5W evidencia que es ambientación básica, no DJ.",
+      "evidencia": [
+        {
+          "url": "https://articulo.mercadolibre.cl/MLC-2789782060-cubeta-hielera-con-luz-led-5l-parlante-para-fiesta-bar-_JM",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "Enfoque explícito ‘fiesta/bar’; 5L, LED, BT.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/146625440/Parlante-Bafle-Portatil-Hielera-Cubeta-Luces-Bluetooth/146625441",
+          "pais": "CO",
+          "match_note": "Dimensiones y material ABS; orientado a ambientación, no audio profesional.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://jyrtechnology.com.co/producto/j5211/",
+          "pais": "CO",
+          "match_note": "Potencia 5W, RGB; confirma limitación de potencia para espacios pequeños.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 5,
+      "angulo": "Ahorra espacio y carga: llévate 1 equipo en vez de 2",
+      "score_0a10": 6.1,
+      "buyer_persona": "Usuarios prácticos que buscan minimizar bultos al salir.",
+      "promesa": "Menos peso y accesorios: un solo equipo para música y frío.",
+      "objecion_principal": "Capacidad real 5L vs. hielo + latas; limpieza y condensación.",
+      "justificacion": "Todas las publicaciones confirman integración parlante + hielera 5L; reduce llevar altavoz aparte.",
+      "evidencia": [
+        {
+          "url": "https://simple.ripley.cl/hielera-parlante-bluetooth-cubetera-led-rgb-grande-5lts-mpm10002110175",
+          "pais": "CL (proxy LATAM)",
+          "match_note": "Confirma 5L, RGB, BT en un solo equipo.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/149604283/Hielera-Parlante-Bafle-Cubeta-Luces-Bluetooth-Usb/149604286",
+          "pais": "CO",
+          "match_note": "Retail CO con precios y disponibilidad; mismo concepto 2-en-1.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://articulo.mercadolibre.com.pe/MPE-698260294-cubeta-hielera-de-5l-con-parlante-bluetooth-y-luces-led-rgb-_JM",
+          "pais": "PE (proxy LATAM)",
+          "match_note": "5L, RGB, BT; claim de sonido 360°; integración total.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Rumba sin enchufes: enfría tus polas y pon el beat en un solo toque.",
+        "La hielera que también es parlante: arma el parche en 10 segundos.",
+        "RGB + Bluetooth + hielo: tu fiesta portátil de 5 litros.",
+        "Menos cables, más fiesta: sonido 360° y bebidas frías.",
+        "Súbele al color: luces que bailan mientras compartes.",
+        "De la sala al balcón: música + frío sin cargar mil cosas."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "El regalo que todos usan en la primera reunión.",
+        "Sorprende con luces, música y hielos en una sola caja.",
+        "Para el amigo fiestero: útil, cool y sin complicarse.",
+        "No más regalos ‘meh’: esto sí prende la noche.",
+        "Un detalle con wow-factor (y presupuesto aterrizado).",
+        "Regala momentos: pruébala en el primer brindis."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Picnic, piscina o camping: pon la playlist y que no falte el hielo.",
+        "Hasta 5L de buen parche al aire libre.",
+        "Tu cooler con flow: resistente y listo para la aventura.",
+        "Sin tomas de corriente, sin drama: batería recargable.",
+        "De día a noche: RGB que acompaña el asado.",
+        "Liviana y práctica: cabe en el baúl y rinde la tarde."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Decora la barra y anima la mesa en un solo paso.",
+        "Ambiente con color y música sin instalaciones.",
+        "Ideal para terrazas: luz suave, sonido amable, cero cables.",
+        "Activa el mood: hielos fríos y beats ligeros.",
+        "Eventos express: llévala, enciéndela y a vender más tragos.",
+        "Tu mini ambientador portátil para cada mesa."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "2-en-1 real: menos bultos, más plan.",
+        "Ahorra espacio y energía: un solo equipo para todo.",
+        "Tu altavoz y tu hielera en una sola mano.",
+        "Simplifica el kit de la reunión: listo en segundos.",
+        "Menos limpiar, menos cargar, más disfrutar.",
+        "Práctica de verdad: entra en cualquier rincón."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Las fichas de retailers la posicionan para ‘fiestas, barbacoas, picnics y bares’ (uso social frecuente todo el año).",
+      "Se comercializa activamente en CO y LATAM con enfoque en reuniones y eventos (Falabella CO, Ripley CL/PE)."
+    ],
+    "hipotesis": [
+      "Picos de demanda en Diciembre–Enero (Navidad/Año Nuevo) y temporadas de vacaciones/puentes en CO.",
+      "Aumentos en meses cálidos o de mayor actividad outdoor local/regional; también fechas de regalo (Amor y Amistad, cumpleaños)."
+    ],
+    "correlacion_con_angulos": "Los picos potenciales favorecen los ángulos 1 (fiestas), 2 (regalos) y 3 (outdoor)."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Reduce bultos: combina hielera 5L + parlante BT para reuniones.",
+      "fuentes": [
+        "https://jyrtechnology.com.co/producto/j5211/",
+        "https://simple.ripley.com.pe/hielera-coc024-blanco-transparente-cubeta-5l-parlante-bluetooth-luces-led-rgb-pmp20000694816"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Título e imágenes dejan claro el 2-en-1 (hielera + parlante RGB).",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/146625440/Parlante-Bafle-Portatil-Hielera-Cubeta-Luces-Bluetooth/146625441",
+        "https://simple.ripley.cl/hielera-parlante-bluetooth-cubetera-led-rgb-grande-5lts-mpm10002110175"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Uso principalmente lúdico/fiestas; no cubre necesidad masiva diaria.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/149604283/Hielera-Parlante-Bafle-Cubeta-Luces-Bluetooth-Usb/149604286"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – Requiere testeo con audiencia objetivo.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen no atractivo.",
+      "fuentes": [
+        "Validación interna de costos"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Se vende en grandes retailers y marketplaces en CO.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/search?Ntt=hielera%20parlante",
+        "https://jyrtechnology.com.co/producto/j5211/"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Luces RGB + acrílico + parlante crean efecto llamativo de mesa.",
+      "fuentes": [
+        "https://simple.ripley.com.pe/hielera-coc024-blanco-transparente-cubeta-5l-parlante-bluetooth-luces-led-rgb-pmp20000694816",
+        "https://articulo.mercadolibre.com.co/MCO-2945254846-hielera-parlante-recargable-con-luz-led-bluetooth-_JM"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Presencia del mismo concepto en CL/PE/UY sugiere adopción regional.",
+      "fuentes": [
+        "https://simple.ripley.cl/hielera-parlante-cubetera-led-bluetooth-grande-7l-musical-mpm10001965683",
+        "https://www.mercadolibre.cl/cubeta-hielera-con-luces-led-y-parlante-bluetooth-5litros/up/MLCU3245453588"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Múltiples vendedores y variantes; alta competencia de precio.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/search?Ntt=hielera%20parlante",
+        "https://simple.ripley.cl/hielera-parlante-bluetooth-cubetera-led-rgb-grande-5lts-mpm10002110175"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – sin datos de ventas o reviews verificables.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – criterio subjetivo no demostrable.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Abundantes fotos/videos en listings y tiendas.",
+      "fuentes": [
+        "https://jyrtechnology.com.co/producto/j5211/",
+        "https://simple.ripley.com.pe/hielera-coc024-blanco-transparente-cubeta-5l-parlante-bluetooth-luces-led-rgb-pmp20000694816"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "Probable artículo de moda/estacional de ocio; sin evidencia de demanda sostenida.",
+      "fuentes": []
+    }
+  ],
+  "score_total": {
+    "total_si": 5,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "\"hielera parlante\" site:.co precio reseñas video",
+    "Modelo exacto \"K-036\" + reseñas + duración batería + dB SPL",
+    "\"J5211\" manual PDF + autonomía real + resistencia al agua",
+    "\"hielera parlante\" garantía Colombia 1 mes vs 30 días + política devoluciones",
+    "Pruebas comparativas 5W vs 10W en espacios abiertos (video YouTube)",
+    "Medición real de capacidad útil (latas + hielo) y pérdida de frío",
+    "Disponibilidad MicroSD/USB por variante y compatibilidad códecs"
+  ],
+  "missing_data_flags": [
+    "Duración real de batería con volumen 70–100%.",
+    "Resistencia al agua/salpicaduras (IP) para variantes vendidas en CO.",
+    "Confirmación de puerto MicroSD en la variante específica a vender.",
+    "Capacidad de aislamiento térmico real y tiempo de derretimiento del hielo.",
+    "Nivel de presión sonora (dB SPL) a 1 m.",
+    "Garantía exacta del vendedor/tienda del caso (10/30 días vs estándar 1 mes).",
+    "Precio y stock actuales del modelo específico en CO (oscila por variante)."
+  ]
+}

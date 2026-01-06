@@ -1,0 +1,84 @@
+{
+  "task": "meta_square_thumbnail",
+  "thumbnail": "tenis_barbara_A1_V1",
+  "variant": "with_text",
+  "format": {
+    "aspect_ratio": "1:1",
+    "resolution": "1080x1080",
+    "safe_margin_percent": 10
+  },
+  "input_assets": {
+    "product_lock_rule": "CRITICAL: The provided images are the EXACT product reference. You MUST generate the product exactly as shown in these reference images, maintaining its key visual features, logo placement (if any), and packaging details. Do NOT hallucinate a different model. CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+    "product": "Tenis Barbara (tenis de plataforma blancos, suela XL, cordones, material sintético; plantilla memory foam)",
+    "background_assets": "none"
+  },
+  "prompt": "Create a high-conversion ecommerce square thumbnail (1080x1080) featuring ONLY the 'Tenis Barbara' white platform sneakers for women. Photorealistic studio product shot: a pair of white platform sneakers with thick XL sole and lace-up closure, synthetic upper, clean white color. Hero product large (fills ~70% of frame), sharp focus, crisp edges, realistic shadows. Angle emphasis: visible thick platform sole (XL) and comfort cue for memory foam via subtle visual metaphor (soft gradient cushion under insole area, without adding extra objects that change product). Background: bright light-gray to white seamless gradient, high contrast. Add subtle floor reflection. Lighting: softbox key + rim light to define sole thickness. Composition leaves clear negative space top-left for headline and bottom corners for badges. No logos, no people, no extra footwear models.",
+  "text_overlays": [
+    {
+      "id": "headline",
+      "text_exact": "Suela XL + Suave",
+      "placement": {
+        "anchor": "bottom_center",
+        "x_percent": 50,
+        "y_percent": 88,
+        "max_width_percent": 92,
+        "max_height_percent": 14
+      },
+      "typography": {
+        "font_family": "Bold clean sans-serif",
+        "weight": 900,
+        "alignment": "center"
+      },
+      "style": {
+        "fill": "white",
+        "stroke": "dark outline (thick)",
+        "shadow": "subtle"
+      }
+    },
+    {
+      "id": "badge_free_shipping",
+      "text_exact": "Envío gratis",
+      "placement": {
+        "anchor": "top_left",
+        "x_percent": 12,
+        "y_percent": 12,
+        "max_width_percent": 28,
+        "max_height_percent": 10
+      },
+      "typography": {
+        "font_family": "Clean sans-serif",
+        "weight": 800,
+        "alignment": "center"
+      },
+      "style": {
+        "badge": "rounded sticker, solid color, high contrast",
+        "fill": "white"
+      }
+    },
+    {
+      "id": "badge_cod",
+      "text_exact": "Pago contraentrega",
+      "placement": {
+        "anchor": "top_right",
+        "x_percent": 88,
+        "y_percent": 14,
+        "max_width_percent": 34,
+        "max_height_percent": 10
+      },
+      "typography": {
+        "font_family": "Clean sans-serif",
+        "weight": 800,
+        "alignment": "center"
+      },
+      "style": {
+        "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+        "fill": "white"
+      }
+    }
+  ],
+  "composition_rules": {
+    "focus": "Product must be the largest and sharpest element; emphasize the XL platform sole thickness with a 3/4 angle; keep laces and sole texture crisp.",
+    "text_legibility": "All text must sit on clean negative space; maintain 10% safe margins; ensure contrast ratio high; avoid placing text over detailed shoe areas."
+  },
+  "negative_prompt": "watermark, brand logo, recognizable brand marks, copyrighted characters, faces, people, hands, feet wearing shoes, busy background, clutter, extra products, different shoe model, high heel, sandals, boots, incorrect color (non-white), text artifacts, misspelled Spanish, low resolution, blur, motion blur, overexposure, harsh glare, noisy image, AI distortions, deformed laces, duplicated soles, unrealistic proportions"
+}

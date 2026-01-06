@@ -1,0 +1,87 @@
+{
+  "sources": [
+    {
+      "url": "https://www.oberlo.com/blog/facebook-ad-examples",
+      "title": "19 Great Facebook Ad Examples You Wish You Made",
+      "published_date": "2024-01-15",
+      "used_for": "hook_archetypes, high_performing_patterns"
+    },
+    {
+      "url": "https://adespresso.com/blog/facebook-ad-copy-types/",
+      "title": "5 Facebook Ad Copy Types for Proven Success",
+      "published_date": "2024-02-20",
+      "used_for": "high_performing_patterns, latin_es_templates"
+    },
+    {
+      "url": "https://www.bigcommerce.com/blog/facebook-ad-examples/",
+      "title": "How to Write Facebook Ad Copy: 5 Real Examples to Inspire Your Next Campaign",
+      "published_date": "2024-03-05",
+      "used_for": "hook_archetypes, latin_es_templates"
+    }
+  ],
+  "hook_archetypes": [
+    "Question & Pain Point",
+    "Before-and-After",
+    "Social Proof",
+    "Urgency/Scarcity",
+    "Limited-time Offer",
+    "Dynamic Storytelling",
+    "Educational/Info-tainment",
+    "Influencer Testimonial",
+    "Seasonal Hook",
+    "Curiosity Gap",
+    "Humor/Sarcasm",
+    "Emotive/Empathetic",
+    "Exclusive Insider",
+    "Interactive Quiz/Poll",
+    "Environmentally Conscious Message",
+    "Local Community Focus",
+    "Transitional Life Stage",
+    "Nostalgia-Inspired",
+    "Mystery Box/Unboxing",
+    "Behind-the-Scenes Look",
+    "User-Generated Content",
+    "Hypothetical Scenario",
+    "Meme Culture Reference",
+    "Lifestyle Aspiration"
+  ],
+  "high_performing_patterns": [
+    "\"What's your biggest obstacle in ___? Here's how to conquer it.\"",
+    "\"Imagine yourself with ___, what difference would it make?\"",
+    "\"Discover why 100,000+ customers are choosing ___ today.\"",
+    "\"Only 24 hours left to secure your ___ at 50% off!\"",
+    "\"Watch how ___ transformed this incredible journey.\"",
+    "\"Did you know? 3 out of 5 people prefer ___ over other brands.\"",
+    "\"Hurry! This exclusive offer expires tonight.\"",
+    "\"See what makes ___ a must-have for savvy shoppers.\"",
+    "\"We challenge you! Can you spot the difference with ___?\"",
+    "\"Join our community of satisfied customers. Are you in?\"",
+    "\"The secret ingredient in ___ that elevates everything!\"",
+    "\"How would it feel to finally ___? Find out today!\"",
+    "\"Your week deserves a little ___. Treat yourself!\"",
+    "\"People can't believe their eyes after using ___. Try it!\""
+  ],
+  "latin_es_templates": [
+    "\"¿Cuál es tu mayor reto en ___? ¡Aquí te contamos cómo vencerlo!\"",
+    "\"Imagina tener ___, ¿qué diferencia crearía en tu vida?\"",
+    "\"Descubre por qué más de 100,000 personas eligen ___ cada día.\"",
+    "\"¡Solo 24 horas para obtener tu ___ con 50% de descuento!\"",
+    "\"Mira cómo ___ cambió esta increíble historia.\"",
+    "\"¿Sabías que 3 de cada 5 personas prefieren ___ sobre otras marcas?\"",
+    "\"¡Date prisa! Esta oferta exclusiva expira esta noche.\"",
+    "\"Descubre qué hace de ___ una elección indispensable para los compradores inteligentes.\"",
+    "\"¡Nos retamos! ¿Puedes notar la diferencia con ___?\"",
+    "\"Únete a nuestra comunidad de clientes satisfechos. ¿Estás dentro?\"",
+    "\"¡El ingrediente secreto en ___ que lo eleva todo!\"",
+    "\"¿Cómo se sentiría finalmente ___? ¡Descúbrelo hoy!\"",
+    "\"Tu semana merece un poco de ___. ¡Date un gusto!\"",
+    "\"Las personas no pueden creer sus ojos después de usar ___. ¡Pruébalo!\"",
+    "\"¡Llegó el momento de darle a tu vida el cambio que merece!\"",
+    "\"Encuentra lo que todos están buscando: ___.\"",
+    "\"¡Solo por tiempo limitado! Lleva ___ a un precio especial.\"",
+    "\"Vive una experiencia única con ___. ¡No te lo pierdas!\"",
+    "\"¿Quieres saber cuál es el secreto de muchos? Descubre ___.\"",
+    "\"Innovación, estilo y confort en una sola palabra: ___.\"",
+    "\"Revoluciona tu rutina diaria con ___. ¡Es hora de cambiar!\""
+  ]
+}

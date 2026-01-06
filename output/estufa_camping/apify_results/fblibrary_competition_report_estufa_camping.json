@@ -1,0 +1,208 @@
+{
+  "schema_version": "1.1.0",
+  "generated_at_utc": "2026-01-06T04:43:32Z",
+  "product": {
+    "input_name": "Estufa Camping",
+    "folder_name": "estufa_camping",
+    "search_country": "CO",
+    "canonical_product_name": "Estufa portátil de camping a gas butano tipo cartucho con encendido piezoeléctrico y rompevientos",
+    "product_type": "Cocinilla/estufa portátil de camping a gas (hornillo)",
+    "short_description": "Estufa de camping compacta para cocinar al aire libre, compatible con cartuchos de gas butano, con control de llama, encendido piezoeléctrico, rompevientos y estuche de transporte.",
+    "disambiguation_notes": "Distinguir de estufas de alcohol o de leña y de hornillos integrados al cartucho: este modelo usa gas butano tipo cartucho con manguera y regulador, incorpora encendido piezoeléctrico, rompevientos, soportes para ollas ajustables y suele incluir bolsa/estuche; peso aproximado 0.4 kg."
+  },
+  "filters": {
+    "lang_allowed": "es",
+    "allow_und": false,
+    "require_product_name_contained": true,
+    "product_name_matcher": {
+      "canonical_norm": "estufa portatil de camping a gas butano tipo cartucho con encendido piezoelectrico y rompevientos",
+      "core_tokens": [
+        "estufa",
+        "camping",
+        "gas",
+        "butano",
+        "con"
+      ],
+      "core_phrases": [
+        "estufa camping",
+        "estufa camping gas"
+      ],
+      "min_token_hits": 2
+    }
+  },
+  "input_files": {
+    "dedup_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping/apify_results/fblibrary_ads_dedup_estufa_camping.jsonl",
+    "queries_json": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping/querys_fblibrary_estufa_camping.json"
+  },
+  "rules": {
+    "min_advertisers_for_test": 4,
+    "max_exact_advertisers": 7,
+    "scaling_ads_per_advertiser": 5
+  },
+  "anchors": {
+    "anchor_tokens": [
+      "2x1",
+      "15",
+      "0",
+      "4",
+      "5",
+      "camping",
+      "estufa",
+      "gas",
+      "butano",
+      "con"
+    ],
+    "score_thresholds": {
+      "candidate_same_product": 0.4,
+      "candidate_bundle": 0.25,
+      "drift": 0.2
+    },
+    "bundle_keywords": [
+      "combo",
+      "kit",
+      "bundle",
+      "pack",
+      "paquete",
+      "x2",
+      "2 unidades",
+      "dos unidades",
+      "3x",
+      "4x",
+      "set",
+      "incluye",
+      "regalo",
+      "gratis +",
+      "2 en 1",
+      "2x1"
+    ]
+  },
+  "summary": {
+    "stats": {
+      "input_ads_lines": 27,
+      "skipped_error_lines": 1,
+      "skipped_duplicate_ads": 0,
+      "skipped_lang": 25,
+      "skipped_product_name": 0,
+      "kept_ads": 1
+    },
+    "ads_total_after_filters": 1,
+    "advertisers_total": 1,
+    "advertisers_candidate_same": 1,
+    "advertisers_candidate_bundle": 0,
+    "scaling_advertisers_candidate_same": [],
+    "rule_evaluation_heuristic": {
+      "producto_test": false,
+      "test_candidate_by_advertisers": false,
+      "too_competitive_if_exact": false,
+      "scaling_detected": false,
+      "notes": "Heurístico: advertisers_candidate_same se basa en anchor_score + filtros. Para concluir 'exactamente el mismo producto' se recomienda validación multimodal del agente."
+    }
+  },
+  "advertisers": [
+    {
+      "advertiser_key": "105341732243159",
+      "page_name": "Lo Enkuentras Colombia",
+      "page_id": "105341732243159",
+      "page_profile_uri": "https://www.facebook.com/100083245843560/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "loenkuentras.co"
+      ],
+      "landing_urls": [
+        "https://loenkuentras.co/products/estufa-electrica-dos-puestos?variant=41996737085527"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=25225958320439636"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "25225958320439636",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=25225958320439636",
+          "landing_url": "https://loenkuentras.co/products/estufa-electrica-dos-puestos?variant=41996737085527",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "Estufa electrica 2 puestos 👇✅ENVIÓ GRATIS y 30% DE DESCUENTO"
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    }
+  ],
+  "ads": [
+    {
+      "ad_id": "25225958320439636",
+      "advertiser_key": "105341732243159",
+      "lang": "es",
+      "page_name": "Lo Enkuentras Colombia",
+      "page_id": "105341732243159",
+      "page_profile_uri": "https://www.facebook.com/100083245843560/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=25225958320439636",
+      "landing_url": "https://loenkuentras.co/products/estufa-electrica-dos-puestos?variant=41996737085527",
+      "landing_domain": "loenkuentras.co",
+      "start_date": "2026-01-03 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "✅ENVIÓ GRATIS y PAGO CONTRAENTREGA",
+        "body": "Estufa electrica 2 puestos 👇✅ENVIÓ GRATIS y 30% DE DESCUENTO",
+        "caption": "loenkuentras.co",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "0",
+          "4",
+          "5",
+          "estufa",
+          "con"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    }
+  ],
+  "agent_queue": [
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "105341732243159",
+      "page_name": "Lo Enkuentras Colombia",
+      "page_profile_uri": "https://www.facebook.com/100083245843560/",
+      "selected_ad_ids": [
+        "25225958320439636"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.5
+        ],
+        "landing_domains": [
+          "loenkuentras.co"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    }
+  ]
+}

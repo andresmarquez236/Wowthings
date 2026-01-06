@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-05",
+    "model": "market-analyst-v1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Tripode Telefono Microfono Luz Rgb Ay49",
+    "descripcion": "Potencia tu contenido audiovisual con este micrófono profesional tipo escopeta con luz LED integrada, ideal para creadores de contenido, vloggers, periodistas y entusiastas del video. Diseñado para capturar sonido con una alta fidelidad y una iluminación óptima, este dispositivo te ofrece dos herramientas esenciales en un solo cuerpo compacto y portátil.\n\nEl micrófono cuenta con una directividad supercardioide que se enfoca en la fuente de sonido principal y reduce el ruido ambiente no deseado. Su respuesta de frecuencia de 50 Hz a 16 kHz permite una grabación clara, cálida y detallada de la voz. Además, gracias a su alta sensibilidad y bajo nivel de ruido, es perfecto para grabaciones tanto en interiores como en exteriores.\n\nComplementando el audio, el sistema incorpora una luz LED de 49 cuentas con una temperatura de color de 6500K, lo que proporciona una iluminación blanca neutra ideal para videos nítidos y profesionales. Su diseño liviano y recargable permite utilizarlo durante aproximadamente 1.5 horas a máxima potencia, ideal para sesiones rápidas y eficientes.\n\nEste equipo versátil, de canal mono y diseño compacto, es una solución todo en uno para quienes buscan practicidad sin sacrificar calidad.\n\nCaracterísticas técnicas del producto:\n\nMicrófono tipo escopeta de directividad supercardioide\nRespuesta de frecuencia de 50 Hz a 16 kHz\nSensibilidad de -45 dB ± 3 dB, con ganancia de +20 dB ± 2 dB\nNivel de ruido equivalente: 24 dBA\nPresión sonora máxima: 130 dB (THD ≤ 1.5% a 1 kHz)\nImpedancia de salida: 200 Ohm ± 30%\nCanal mono\nModelo: AY-49\nTemperatura de color: 6500 K ± 200 K\nCantidad de LEDs: 49\nPotencia de iluminación: 5W\nDuración de la batería: hasta 1.5 horas al 100% de brillo\nTamaño: 78.5 mm x 66.5 mm x 30.5 mm\nPeso: aproximadamente 300 g",
+    "garantia": "10 DIAS",
+    "precio": "$105.000"
+  },
+  "resumen_corto": "El AY-49 es un kit genérico de vlogging (luz 49 LED 6500K, micrófono TRRS tipo shotgun y mini trípode) ampliamente distribuido en LATAM, con variantes (AY-49/AY-49X/AY-49U) que comparten formato y la mayoría de specs. Es un commodity: muchos vendedores, precios bajos y garantías dispares (3–6 meses en retail LATAM; en este caso 10 días). Fortalezas: solución 3-en-1, audio direccional (-45 dB, SPL máx. 130 dB) y luz 5W con autonomía cercana a 1,5 h. Debilidades: calidad “genérica”, fuertes sustitutos (Boya, Ulanzi, Maono), y claim RGB no confirmado. En CO el encaje es por precio/portabilidad, pero margen interno es bajo (descartado). Tendencia favorecida por alto uso de redes y video corto en Colombia. citeturn0search6turn0search0turn2search4turn4search2turn5search1",
+  "product_fingerprint": {
+    "marca": "Genérico (variantes vistas: HYU, KREED)",
+    "modelo": "AY-49 (variantes AY-49X, AY-49U, AY-49C)",
+    "categoria": "Kit de vlogging para smartphone (trípode + micrófono + luz LED)",
+    "specs_claims_clave": [
+      "Luz LED 49 perlas, ~5W",
+      "Temperatura de color 6500K ±200K (algunas variantes 5600K)",
+      "Autonomía luz ~1,5 h a máxima potencia",
+      "Micrófono condensador supercardioide TRRS 3,5 mm",
+      "Sensibilidad mic ~-45 dB ±3 dB",
+      "SPL máx. ~130 dB, ruido eq ~24 dBA",
+      "Impedancia salida ~200 Ω ±30%",
+      "Canal mono",
+      "Dimensiones aprox. del módulo 78.5 × 66.5 × 30.5 mm",
+      "Peso kit ~300–350 g"
+    ],
+    "rango_precio_observado": "CLP $16.990; PEN S/57.99–149.90; (CO sin precio consistente público; interno reportado COP $105.000).",
+    "garantia_tipo": "Variable por vendedor (retail LATAM 3–6 meses; este caso reporta 10 días).",
+    "variantes_detectadas": [
+      "AY-49 (5W, 6500K, pilas AA/AAA según vendedor)",
+      "AY-49X (algunas fichas indican 7W y/o 5600K)",
+      "AY-49U (7W, 2–3 h)",
+      "AY-49C (idéntico formato, naming comercial)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Estudio de bolsillo 3-en-1 para creadores móviles",
+      "score_0a10": 8.2,
+      "buyer_persona": "Creador/a de contenido en Instagram/TikTok (18–34), emprendedores que graban con celular",
+      "promesa": "Todo lo que necesitas (luz + audio + estabilidad) en un kit compacto que cabe en la mochila y se arma en 60 segundos.",
+      "objecion_principal": "¿La calidad es suficiente frente a marcas reconocidas?",
+      "justificacion": "El set AY-49 integra mini trípode, micrófono TRRS tipo shotgun y luz de 49 LED 6500K (≈5W) con autonomía cercana a 1,5 h, validado en listados CO/CL/PE. La propuesta 3-en-1 reduce fricción y costo de entrada para grabar vlogs, lives y reels con teléfono. citeturn0search6turn0search0turn2search2",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.co/kit-estabilizador-soporte-celular-luz-led-vlog-video-ay49-color-negro/p/MCO35710792",
+          "pais": "CO",
+          "match_note": "Modelo AY-49; especifica 49 LED, 5W, 6500K, 1.5 h, mic -45 dB, canal mono.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.casadelacarcasa.cl/product/kit-video-making-ay-49-soporte-tripode-microfono-luz",
+          "pais": "CL",
+          "match_note": "AY-49 con trípode, mic y luz 49 LED 6500K 5W (formato idéntico).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196",
+          "pais": "PE",
+          "match_note": "Modelo AY-49; luz 49 LED, kit completo.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Audio direccional que limpia tu voz en la calle",
+      "score_0a10": 7.9,
+      "buyer_persona": "Periodistas móviles, creadores de entrevistas callejeras, vendedores en vivo",
+      "promesa": "Tu voz delante del ruido: capta al sujeto y reduce ambiente para entrevistas nítidas.",
+      "objecion_principal": "¿Realmente aísla el ruido en exteriores?",
+      "justificacion": "Las fichas del AY-49/AY-49X describen cápsula condensador supercardioide, sensibilidad aprox. -45 dB y SPL máx. 130 dB, parámetros típicos de mic tipo shotgun económico para foco frontal. Esto mejora inteligibilidad respecto al mic del teléfono. citeturn3search1turn3search2",
+      "evidencia": [
+        {
+          "url": "https://es.scribd.com/document/809521267/5dec281b-d2ee-41f6-af54-17d0974c1008",
+          "pais": "PE (proxy)",
+          "match_note": "Catálogo mayorista: AY-49X/AY-49 con respuesta 50 Hz–16 kHz, -45 dB, SPL 130 dB, mono.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://cmshop.pk/shop/page/6/?per_page=24&per_row=6&shop_view=list&stock_status=instock",
+          "pais": "PK (proxy)",
+          "match_note": "AY-49U/H con mismos parámetros de mic y 49 LED; valida patrón de la línea AY-49.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Iluminación instantánea y uniforme (49 LED 6500K)",
+      "score_0a10": 7.6,
+      "buyer_persona": "Vloggers, maquilladores/as, docentes online",
+      "promesa": "Luz blanca neutra que elimina sombras duras y te hace ver pro al instante.",
+      "objecion_principal": "¿Alcanza la potencia y la batería para sesiones rápidas?",
+      "justificacion": "Las tiendas confirman 49 LED a 6500K con ~5W y autonomía ~1,5 h a máxima potencia; ajuste de niveles según vendedor. Suficiente para primeros planos, lives y shorts. citeturn0search0turn2search4",
+      "evidencia": [
+        {
+          "url": "https://www.casadelacarcasa.cl/product/kit-video-making-ay-49-soporte-tripode-microfono-luz",
+          "pais": "CL",
+          "match_note": "6500K y 49 LED; potencia 5W; formato AY-49.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.mercadolibre.com.uy/estabilizador-ay-49-celular-kit-grabacion-tripode-microfono-led-color-negro/p/MLU27123782",
+          "pais": "UY (proxy)",
+          "match_note": "AY-49 con 49 LED; indica 1,5 h a máxima potencia.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Solución económica para emprendedores y pymes que venden por video",
+      "score_0a10": 7.4,
+      "buyer_persona": "Emprendedores que hacen demostraciones, lives de venta y servicio al cliente",
+      "promesa": "Mejora tu conversión en redes sin invertir en equipo caro ni complejo.",
+      "objecion_principal": "¿Hay suficiente respaldo/garantía?",
+      "justificacion": "AY-49 se vende masivamente en retail de la región (Ripley/Paris/ML) con garantías de 3–6 meses según país; en CO hay oferta amplia tipo marketplace. Es una puerta de entrada de bajo costo para video-commerce. citeturn4search2turn0search1turn0search6",
+      "evidencia": [
+        {
+          "url": "https://simple.ripley.cl/video-making-vlog-tripod-kit-ay-49x-con-microfono-y-luz-mpm10002722336",
+          "pais": "CL (proxy)",
+          "match_note": "AY-49X vendido por retail; control remoto, luz 49 LED; garantía retail.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196",
+          "pais": "PE (proxy)",
+          "match_note": "AY-49 con garantía 3 meses; valida presencia retail.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.mercadolibre.com.co/kit-estabilizador-soporte-celular-luz-led-vlog-video-ay49-color-negro/p/MCO35710792",
+          "pais": "CO",
+          "match_note": "Modelo AY-49 disponible en ML CO (oferta marketplace).",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Plug-and-play universal (TRRS 3,5 mm) listo para crear hoy",
+      "score_0a10": 7.1,
+      "buyer_persona": "Usuarios de smartphone que quieren iniciar en vlogging sin curva técnica",
+      "promesa": "Conecta, prende y graba: audio y luz listos sin apps ni configuración compleja.",
+      "objecion_principal": "¿Compatibilidad con iPhone/Android recientes?",
+      "justificacion": "El mic usa jack 3,5 mm TRRS (requiere dongle en iPhone/Android sin jack). El kit incluye soporte universal y control BT en algunas variantes; múltiples vendedores confirman configuración simple. citeturn4search2",
+      "evidencia": [
+        {
+          "url": "https://simple.ripley.cl/video-making-vlog-tripod-kit-ay-49x-con-microfono-y-luz-mpm10002722336",
+          "pais": "CL (proxy)",
+          "match_note": "Especifica jack 3,5 mm, soporte universal y control BT (en variante X).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.casadelacarcasa.cl/product/kit-video-making-ay-49-soporte-tripode-microfono-luz",
+          "pais": "CL (proxy)",
+          "match_note": "Confirma montaje en zapata y compatibilidad con smartphones.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Tu estudio de bolsillo: luz + mic + trípode por menos de lo que crees.",
+        "Graba reels pro en 60 segundos. Sin enredos, sin equipo caro.",
+        "¿Lives esta noche? Cámbiate a un kit que sí resuelve (sin gastar de más).",
+        "Crea en la oficina, la U o el bus: monta y graba de una.",
+        "Menos bulto, más contenido: todo en un solo kit.",
+        "Kit todo en uno para creadores que no paran (y bolsillos que cuidan).",
+        "Tu celular + AY-49 = videos que venden (o enamoran).",
+        "Del bolso al vivo en 1 minuto. Así de fácil."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Tu voz arriba del ruido: entrevistas nítidas en la calle.",
+        "Dile adiós al audio del celular: suena como pro sin serlo.",
+        "Reels con voz clara, incluso en pleno centro.",
+        "Más señal, menos ruido: que te escuchen, no el tráfico.",
+        "Audio direccional que salva tus tomas en exteriores.",
+        "Testimonios y vox pop limpios, sin posproducción.",
+        "Sonido que convence: ideal para venta en vivo."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Luz blanca que favorece piel y producto (49 LED listos).",
+        "Chao sombras duras: prende y te ves mejor al instante.",
+        "Tu cara iluminada, tus ventas arriba.",
+        "3 niveles de brillo para que siempre salgas bien.",
+        "Vídeos nítidos aunque la luz del cuarto sea fatal.",
+        "Look pro sin lámparas gigantes.",
+        "Ilumina, graba y publica. Así de simple."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Vende más por video sin gastar en estudio.",
+        "Tu vitrina ahora es TikTok/IG: arráncale con este kit.",
+        "Haz demos y lives que se entiendan (y conviertan).",
+        "Equipo práctico para pymes que necesitan resultados ya.",
+        "Graba catálogos, historias y atención al cliente sin complicarte.",
+        "Menos dudas, más ventas: que te oigan y te vean bien.",
+        "Kit de entrada para video-commerce rentable."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Conecta y graba: cero curva técnica.",
+        "Funciona con tu cel (con adaptador si no tienes jack).",
+        "Controla el encuadre y dale REC sin pedir favores.",
+        "Soporte universal + trípode: estabilidad sin lío.",
+        "Ideal para empezar hoy mismo tu canal o marca personal.",
+        "Plug-and-play para que el foco seas tú, no el equipo.",
+        "Compatible con iOS/Android (con dongle donde aplique)."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Alto uso diario de redes en Colombia (≈3h20–3h25 por persona), sosteniendo demanda de equipos de creación. citeturn5search0turn5search1",
+      "TikTok/Instagram con base de usuarios grande y en crecimiento en CO (TikTok ~32M adultos, IG ~20,4M). citeturn5search1"
+    ],
+    "hipotesis": [
+      "Picos de demanda en temporadas de descuentos (Black Friday/Cyber, Navidad), regreso a clases/universidad y lanzamientos de creadores.",
+      "Eventos locales (ferias, elecciones, festivales) aumentan compra para cobertura móvil."
+    ],
+    "correlacion_con_angulos": "El uso intensivo de redes favorece ángulos de rapidez (3-en-1) y profesionalización mínima (audio direccional, luz instantánea). Temporadas pico apalancan ofertas para pymes/emprendedores."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Mejora audio/iluminación/estabilidad en creación móvil, problema común en creadores y pymes.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/kit-estabilizador-soporte-celular-luz-led-vlog-video-ay49-color-negro/p/MCO35710792",
+        "https://www.casadelacarcasa.cl/product/kit-video-making-ay-49-soporte-tripode-microfono-luz"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Formato 3-en-1 evidente (trípode+mic+luz) en listados.",
+      "fuentes": [
+        "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196",
+        "https://www.casadelacarcasa.cl/product/kit-video-making-ay-49-soporte-tripode-microfono-luz"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Base masiva de usuarios de redes en CO incrementa público objetivo para herramientas de creación.",
+      "fuentes": [
+        "https://www.itsitio.com/co/informes/informe-datareportal-colombia-2025-como-y-cuanto-usan-los-colombianos-internet-y-redes-sociales/"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia cualitativa de intención de compra en entorno cercano). Siguiente búsqueda: encuestas rápidas o test de smoke landing en nicho local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen bajo (descartado).",
+      "fuentes": []
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Se encuentra ampliamente en retail/marketplaces LATAM (Ripley/Paris/ML).",
+      "fuentes": [
+        "https://simple.ripley.cl/video-making-vlog-tripod-kit-ay-49x-con-microfono-y-luz-mpm10002722336",
+        "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Producto genérico con múltiples marcas y variantes; no presenta innovación diferencial clara frente a alternativas.",
+      "fuentes": [
+        "https://www.mercadolibre.com.uy/estabilizador-ay-49-celular-kit-grabacion-tripode-microfono-led-color-negro/p/MLU27123782",
+        "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Listado como “Más vendido” y con posiciones altas en ML (UY/CL) sugiere demanda; presencia extendida en retail.",
+      "fuentes": [
+        "https://www.mercadolibre.com.uy/estabilizador-ay-49-celular-kit-grabacion-tripode-microfono-led-color-negro/p/MLU27123782",
+        "https://www.mercadolibre.cl/estabilizador-ay-49-celular-kit-grabacion-tripode-microfono-led-color-negro/p/MLC27123782"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Múltiples vendedores y variantes (AY-49/AY-49X/AY-49U) en distintos países; alta competencia.",
+      "fuentes": [
+        "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196",
+        "https://simple.ripley.cl/video-making-vlog-tripod-kit-ay-49x-con-microfono-y-luz-mpm10002722336"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "“Más vendido” y +ventas reportadas en ML (UY/CL).",
+      "fuentes": [
+        "https://www.mercadolibre.com.uy/estabilizador-ay-49-celular-kit-grabacion-tripode-microfono-led-color-negro/p/MLU27123782",
+        "https://www.mercadolibre.cl/estabilizador-ay-49-celular-kit-grabacion-tripode-microfono-led-color-negro/p/MLC27123782"
+      ]
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Análisis costo/beneficio vs. alternativas de marca (Boya/Ulanzi) y garantía corta declarada (10 días) reduce intención de compra.",
+      "fuentes": [
+        "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196"
+      ]
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Múltiples listados con fotos/vídeos y reseñas en retailers/marketplaces.",
+      "fuentes": [
+        "https://www.casadelacarcasa.cl/product/kit-video-making-ay-49-soporte-tripode-microfono-luz",
+        "https://simple.ripley.com.pe/mini-kit-de-grabacion-microfono-luz-led-tripode-ay-49-pmp20000765196"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Demanda sostenida por uso intensivo de redes y contenido de video; no depende de moda puntual.",
+      "fuentes": [
+        "https://www.itsitio.com/co/informes/informe-datareportal-colombia-2025-como-y-cuanto-usan-los-colombianos-internet-y-redes-sociales/"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 7,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "\"AY-49\" reseñas en YouTube Colombia (pruebas de audio comparativas).",
+    "Precio COP actualizado en Colombia (ML.co + tiendas .co) y variación por variante X/U/C.",
+    "Garantía del vendedor en CO (días/meses) y política de devoluciones.",
+    "Validar si existe versión realmente RGB del AY-49 (nombre puede inducir a error).",
+    "Benchmarks vs. alternativas Boya BY-MM1 + Ulanzi VL49/VL66: calidad y precio.",
+    "Confirmar tipo de alimentación de la luz por variante (AA, AAA o recargable USB).",
+    "Identificar fabricante OEM y SKUs para control de calidad y fichas técnicas oficiales."
+  ],
+  "missing_data_flags": [
+    "Claim RGB no confirmado (las evidencias muestran luz blanca 6500K con niveles, no RGB).",
+    "Precio exacto en COP por variante y tienda en Colombia no consolidado.",
+    "Garantía en Colombia (este caso 10 días) inconsistente con retail LATAM (3–6 meses).",
+    "Tipo de batería de la luz varía por vendedor (AA/AAA/recargable).",
+    "Marca/fabricante OEM no identificado; mayoría de listados como genérico."
+  ]
+}

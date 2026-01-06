@@ -1,0 +1,35 @@
+{
+  "timestamp_utc": "2026-01-06T04:43:32Z",
+  "product_name": "Estufa Camping",
+  "product_folder": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping",
+  "query_file": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping/querys_fblibrary_estufa_camping.json",
+  "country": "CO",
+  "actor": "curious_coder/facebook-ads-library-scraper",
+  "run_input_meta": {
+    "urls_count": 30,
+    "scrapeAdDetails": false,
+    "limitPerSource": 80,
+    "count": null,
+    "period": "",
+    "scrapePageAds.activeStatus": "all",
+    "scrapePageAds.countryCode": "CO"
+  },
+  "apify": {
+    "dataset_id": "1z6WkhCXatwcjwyTX",
+    "run_id": "sJiritSxzma4t92rS",
+    "startedAt": "2026-01-06T04:41:56.629000+00:00",
+    "finishedAt": "2026-01-06T04:43:25.790000+00:00",
+    "status": "SUCCEEDED"
+  },
+  "counts": {
+    "raw_items": 54,
+    "dedup_items": 27,
+    "unique_advertisers": 10
+  },
+  "files": {
+    "raw_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping/apify_results/fblibrary_ads_raw_estufa_camping.jsonl",
+    "dedup_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping/apify_results/fblibrary_ads_dedup_estufa_camping.jsonl",
+    "summary_json": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/estufa_camping/apify_results/fblibrary_scrape_summary_estufa_camping.json"
+  },
+  "dedupe_strategy": "ukey = advertiser(pageId|pageName) + ad(adArchiveId|adId|hash(snapshot/body/title/link/img))"
+}

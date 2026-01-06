@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-03",
+    "model": "Analista de Mercado y Copy Strategist para Colombia y LATAM",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Medias Compresion Cremallera",
+    "descripcion": "Medias elásticas de compresión elaboradas para ayudar a mejorar la circulación de las piernas.\nRecomendadas para: Piernas cansadas o hinchadas. Varices, Dolor en las piernas\nQuienes tienen mucho tiempo sentados o de pie. Viajes prolongados.\nMáxima comodidad y confort\nSOLAMENTE MANEJO MEDIA SM NO ´PIDAN XL , SOLO SM",
+    "garantia": "10 DIAS",
+    "precio": "$60.000"
+  },
+  "resumen_corto": "En Colombia existe oferta amplia de medias de compresión con cremallera (15–20 mmHg) a la rodilla, unisex, con precios típicos entre $37.900 y $79.800 COP y garantías de tienda cercanas a 30 días. Producto soluciona un problema claro (hinchazón, varices, viajes), pero no es único ni de difícil acceso y hay muchos competidores. Con enfoque correcto (viajes, varices, facilidad de uso por zipper), puede traccionar, aunque el checklist estricto no alcanza 9/13 por falta de evidencia de margen y diferenciación.",
+  "product_fingerprint": {
+    "marca": "Genérico (equivalentes locales: Medivaric / No-Varix / Zip Sox)",
+    "modelo": "Media de compresión con cremallera 15–20 mmHg (a la rodilla)",
+    "categoria": "Medias de compresión terapéuticas",
+    "specs_claims_clave": [
+      "Compresión graduada 15–20 mmHg",
+      "Cremallera lateral ZIP para fácil postura",
+      "Altura: a la rodilla",
+      "Unisex",
+      "Dedos libres (open toe) y/o punta cerrada (según variante)",
+      "Materiales: poliamida/nylon + spandex/elastano (composiciones típicas 89–90% poliamida/nylon; 10% hilo caucho; <1% elastano)",
+      "Tallas frecuentes: S, M, L, XL o S/M y L/XL",
+      "Colores frecuentes: beige y negro (algunos azul)",
+      "Beneficios declarados: alivio de cansancio/pesadez, mejora del retorno venoso, disminuye hinchazón",
+      "Uso: trabajo de pie/sentado y viajes prolongados"
+    ],
+    "rango_precio_observado": "CO: $37.900 – $79.800 COP (outliers: $10.900 – $99.900 COP)",
+    "garantia_tipo": "Varía por tienda; común: 30 días por defectos (ej. marketplaces/tiendas locales)",
+    "variantes_detectadas": [
+      "Dedos libres vs punta cerrada",
+      "Colores: beige/negro/azul",
+      "Tallas S–M–L–XL o S/M & L/XL",
+      "Marcas: Medivaric, No-Varix y genéricos"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Viajes prolongados: prevención de hinchazón y apoyo al retorno venoso",
+      "score_0a10": 8.7,
+      "buyer_persona": "Viajeros frecuentes (vuelos +4 h, ejecutivos, migrantes, turistas) 25–65+",
+      "promesa": "Piernas más ligeras y menos hinchadas en vuelos/ trayectos largos con compresión moderada y zipper fácil de poner.",
+      "objecion_principal": "¿Realmente sirven en vuelos? ¿Son cómodas horas seguidas?",
+      "justificacion": "Organizaciones de salud recomiendan medias de compresión para reducir riesgo de problemas venosos en viajes largos; el producto coincide en compresión 15–20 mmHg y formato a la rodilla. Mercado colombiano tiene picos de viajes en mitad y fin de año, lo que habilita ventanas de alto interés.",
+      "evidencia": [
+        {
+          "url": "https://www.heart.org/en/news/2024/06/05/es-cierto-que-necesitas-medias-de-compresion-en-vuelos-largos",
+          "pais": "US",
+          "match_note": "AHA (nota en español) sugiere medias de compresión en vuelos largos; aplica al uso; categoría coincide (compresión para viaje).",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://espanol.kaiserpermanente.org/es/health-wellness/health-encyclopedia/he.c%C3%B3mo-prevenir-la-trombosis-venosa-profunda-a-causa-de-viajar.abk8826",
+          "pais": "US",
+          "match_note": "Kaiser: recomienda considerar medias de compresión en viajes largos; refuerza el ángulo viaje.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://sendaigroup.com.co/products/medias-de-compresion-zip-sox-rodilla-cremallera-unisex-15-20-mmhg",
+          "pais": "CO",
+          "match_note": "Producto CO con 15–20 mmHg, zipper y rodilla; mismo tipo/uso; valida fingerprint y disponibilidad local.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Alivio diario para várices, piernas cansadas e hinchazón",
+      "score_0a10": 8.4,
+      "buyer_persona": "Adultos 35–70+, mujeres posparto/embarazo (bajo consejo médico), personas con insuficiencia venosa leve",
+      "promesa": "Alivio de dolor y pesadez en las piernas con compresión graduada 15–20 mmHg que favorece el retorno venoso.",
+      "objecion_principal": "¿No es muy caliente o difícil de poner?",
+      "justificacion": "Tiendas ortopédicas y marcas locales comunican beneficios claros (retorno venoso, control de varices/hinchazón) en 15–20 mmHg. La cremallera reduce la fricción al colocarlas.",
+      "evidencia": [
+        {
+          "url": "https://medivaric.com.co/producto/medias-de-compresion-mediana-unisex-rodilla-con-cierre-punta-cerrada15-20-mmhg/",
+          "pais": "CO",
+          "match_note": "Medivaric CO: compresión 15–20 mmHg, con cierre; beneficios: retorno venoso, disminuye hinchazón; match de especificaciones.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://suministrosmedicos.co/product/medias-de-compresion-con-cremallera-medivaric/",
+          "pais": "CO",
+          "match_note": "Tienda CO: medial 15–20 mmHg con zipper y claims de alivio; valida disponibilidad y claims locales.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://ortopedicosmediclick.com/product/media-compresion-media-cremallera/",
+          "pais": "CO",
+          "match_note": "CO: 15–20 mmHg, con cremallera; lista beneficios cotidianos; coincide con fingerprint.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 3,
+      "angulo": "Facilidad de uso para adultos mayores o movilidad limitada (cremallera)",
+      "score_0a10": 7.9,
+      "buyer_persona": "Mayores de 55+, cuidadores, pacientes con dolor lumbar/limitación para agacharse",
+      "promesa": "Póntelas sin esfuerzo gracias al cierre lateral: menos lucha al vestir, más adherencia al uso terapéutico.",
+      "objecion_principal": "¿La cremallera lastima o se daña?",
+      "justificacion": "Múltiples fichas técnicas destacan la cremallera como facilitador de postura; algunas incluyen protección de piel/zipper de calidad (YKK en referencias internacionales).",
+      "evidencia": [
+        {
+          "url": "https://www.promedicos.co/products/medias-de-compresion-cremallera",
+          "pais": "CO",
+          "match_note": "CO: “Cremallera lateral que facilita su postura”; 15–20 mmHg; talón anatómico; coincide con el producto.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://sendaigroup.com.co/products/medias-de-compresion-zip-sox-rodilla-cremallera-unisex-15-20-mmhg",
+          "pais": "CO",
+          "match_note": "CO: zipper facilita postura; dedos libres; talla S/M y L/XL; match con fingerprint.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://presadee.com/products/closed-toe-15-20-mmhg-moderate-zipper-compression-knee-length-circulation-sock",
+          "pais": "US",
+          "match_note": "Referencia internacional con zipper YKK y protección interna; sustenta ángulo de facilidad/seguridad del cierre.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Trabajo de pie o sentado muchas horas (retail, BPO, salud, docencia)",
+      "score_0a10": 7.4,
+      "buyer_persona": "Personal de salud, docentes, call centers, retail, vigilantes, estilistas",
+      "promesa": "Reduce fatiga y pesadez al final de la jornada con compresión moderada cómoda todo el día.",
+      "objecion_principal": "¿Aprieta demasiado en pantorrilla ancha?",
+      "justificacion": "Fuentes médicas recomiendan compresión ligera-moderada para estar muchas horas de pie/sentado; tiendas locales comunican este uso. Es clave el ajuste/talla correcto.",
+      "evidencia": [
+        {
+          "url": "https://espanol.kaiserpermanente.org/es/health-wellness/health-encyclopedia/he.preventing-deep-vein-thrombosis-from-travel.abk8826",
+          "pais": "US",
+          "match_note": "Consejos de movilidad y compresión por sedentarismo prolongado; extrapolable a jornadas largas sentadas.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://aortopedicos.co/product/medias-de-compresion-progresiva-ref-15-20-mmhg/",
+          "pais": "CO",
+          "match_note": "CO: 15–20 mmHg indicadas para estar mucho tiempo de pie o sentado; valida uso laboral.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://ortopedicosmediclick.com/product/media-compresion-media-cremallera/",
+          "pais": "CO",
+          "match_note": "CO: beneficios para cansancio y venas; formato zipper favorece adherencia en uso diario.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Tendencia y prueba social internacional (categoría compresión y subcategoría zipper)",
+      "score_0a10": 6.8,
+      "buyer_persona": "Compradores guiados por reseñas y best-sellers; e-commerce savvy",
+      "promesa": "Producto probado en mercados grandes con miles de reseñas; formato con cierre aparece en listados ‘best of’ 2025.",
+      "objecion_principal": "“Si hay tantas opciones, ¿por qué elegir este?”",
+      "justificacion": "La categoría ‘compression socks’ es superventas en Amazon/medios; la variante con cremallera aparece en rankings y guías 2025; útil como ancla de confianza (no como único diferenciador).",
+      "evidencia": [
+        {
+          "url": "https://www.verywellfit.com/best-calf-compression-sleeves-4159197",
+          "pais": "US",
+          "match_note": "Guía 2025 de compresión (categoría amplia) con alta popularidad en retail; prueba social de la categoría.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://footwind.net/best-zipper-compression-socks/",
+          "pais": "US",
+          "match_note": "Listado 2025 específico de zipper compression socks; sustenta subcategoría del producto.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.bestreviews.guide/zippered-compression-socks",
+          "pais": "US",
+          "match_note": "Ranking ‘Zippered Compression Socks 2025’; refuerza presencia y variedad de oferta.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Vuelas 4+ horas? Evita piernas hinchadas: compresión 15–20 mmHg con zipper fácil.",
+        "Tu aliado de viaje: póntelas en 10 segundos antes del vuelo y siente la diferencia al aterrizar.",
+        "Viaja ligero, piernas ligeras: compresión que ayuda al retorno venoso en trayectos largos.",
+        "Menos fatiga en bus/avión, más disfrute en destino. ¡Lleva tu par S/M!",
+        "Checklist de viaje inteligente: pasaporte, botella, medias de compresión con cierre.",
+        "Tu ‘seguro’ para las escalas: confort continuo sin quitarte el calzado (puntera abierta).",
+        "Piernas activas, riesgo abajo: compresión moderada recomendada para viajes largos."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Despídete de la pesadez: compresión graduada que alivia varices e hinchazón.",
+        "¿Piernas cansadas al final del día? Pruébalas 7 días y nota el cambio.",
+        "Soporte donde lo necesitas: tobillo firme, pantorrilla ligera.",
+        "Más retorno venoso, menos molestia: siente el alivio desde la primera semana.",
+        "Diseñadas para uso diario: suaves, discretas y transpirables.",
+        "Open toe para mayor frescura: usa tus sandalias sin problema."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Colócalas sin lucha: cierre lateral que facilita la postura (ideal para adulto mayor).",
+        "Adiós a la ‘batalla’ con las medias: súbelas con el zipper y listo.",
+        "Zip-guard cómodo: cierre protegido para que no irrite la piel.",
+        "Más adherencia al tratamiento porque son más fáciles de poner y quitar.",
+        "Para cuidadores: menos tiempo vistiéndose, más tiempo viviendo.",
+        "Talón anatómico y compresión estable: soporte todo el día."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Si pasas 8–10 horas de pie o sentado, tus piernas piden compresión.",
+        "Turno largo, piernas frescas: energía hasta el cierre.",
+        "Call center, retail, salud: reduce la fatiga sin sacrificar comodidad.",
+        "Se nota al final del día: menos hinchazón en tobillos y pantorrillas.",
+        "Elige tu talla S/M y siente la diferencia desde la primera jornada.",
+        "Respirables y discretas bajo uniforme o jean."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Lo que funciona se nota: tendencia global con miles de reseñas.",
+        "Formato con cremallera: el upgrade práctico en compresión.",
+        "Vistas en rankings 2025: zipper socks que facilitan el día a día.",
+        "Compra informada: compresión validada y diseño pensado para usar más.",
+        "No es moda, es salud inteligente: únete al club de las piernas ligeras."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Recomendación sanitaria de usar compresión en viajes largos (vuelos/bus) por riesgo de TVP; útil en fechas de alto flujo de pasajeros en Colombia.",
+      "Picos de movilidad en mitad de año (jun-jul) y fin de año (dic-ene) reportados por autoridades/medios, lo que puede elevar el interés.",
+      "Uso diario por varices/cansancio es atemporal (enfermedad venosa crónica y oficios de pie/sentado)."
+    ],
+    "hipotesis": [
+      "Demanda incremental durante Semana Santa y vacaciones de mitad/fin de año por mayor volumen de viajes.",
+      "Promos ‘pre-vacaciones’ y ‘regreso a clases’ pueden detonar compras preventivas.",
+      "Clima cálido podría favorecer variantes open-toe por confort térmico."
+    ],
+    "correlacion_con_angulos": "El ángulo de “Viajes prolongados” se beneficia de temporadas altas (jun-jul, dic-ene); los ángulos de “varices/uso diario” y “trabajo de pie/sentado” son evergreen durante todo el año. Fuentes: AHA/Kaiser (viajes), MinCIT/medios (alzas de tráfico)."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Ayuda a mitigar hinchazón, pesadez y apoya retorno venoso; recomendado para viajes y síntomas leves de insuficiencia venosa.",
+      "fuentes": [
+        "https://medivaric.com.co/producto/medias-de-compresion-mediana-unisex-rodilla-con-cierre-punta-cerrada15-20-mmhg/",
+        "https://www.heart.org/en/news/2024/06/05/es-cierto-que-necesitas-medias-de-compresion-en-vuelos-largos"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Beneficios y uso son claros en fichas (15–20 mmHg, zipper facilita postura).",
+      "fuentes": [
+        "https://www.promedicos.co/products/medias-de-compresion-cremallera",
+        "https://sendaigroup.com.co/products/medias-de-compresion-zip-sox-rodilla-cremallera-unisex-15-20-mmhg"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Aplica a viajeros, trabajadores de pie/sentados, adultos con pesadez/varices leves; gran base potencial.",
+      "fuentes": [
+        "https://espanol.kaiserpermanente.org/es/health-wellness/health-encyclopedia/he.c%C3%B3mo-prevenir-la-trombosis-venosa-profunda-a-causa-de-viajar.abk8826",
+        "https://www.mincit.gov.co/prensa/noticias/turismo/julio-un-mes-record-en-llegadas-de-turistas-extran"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Sugerido: encuesta rápida (IG/WhatsApp) y test A/B con 20–50 clicks locales.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Sugerido: cotizar zipper socks 15–20 mmHg en Alibaba/Faire y calcular COGS aterrizado vs PVP $60.000.",
+      "fuentes": [
+        "https://sportssurge.alibaba.com/guides/compression-socks",
+        "https://www.tagcowholesale.com/collections/compression-socks"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Se encuentra en retail/marketplaces (Farmatodo/Falabella) y múltiples e-commerces locales.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/140747901/Medias-De-Compresion-Zip-Sox-Unisex-Con-Cierre",
+        "https://www.farmatodo.com.co/producto/226300647-medias-de-compresion"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "La cremallera es práctica pero ampliamente ofertada; baja diferenciación.",
+      "fuentes": [
+        "https://cimexcolombiasas.com/producto/medias-rodilla-zipper-socks/",
+        "https://suministrosmedicos.co/product/medias-de-compresion-con-cremallera-medivaric/"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Categoría compresión con fuerte tracción en retail y medios; subcategoría zipper listada en ‘best of’ 2025.",
+      "fuentes": [
+        "https://www.verywellfit.com/best-compression-socks-4158612",
+        "https://footwind.net/best-zipper-compression-socks/"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia en CO (múltiples tiendas, marketplaces y marcas).",
+      "fuentes": [
+        "https://sendaigroup.com.co/products/medias-de-compresion-zip-sox-rodilla-cremallera-unisex-15-20-mmhg",
+        "https://www.promedicos.co/products/medias-de-compresion-cremallera"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia de ventas específicas para ‘zipper’). Sugerido: revisar rankings y BSR Amazon de “zipper compression socks”.",
+      "fuentes": [
+        "https://www.bestreviews.guide/zippered-compression-socks",
+        "https://footwind.net/best-zipper-compression-socks/"
+      ]
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (criterio subjetivo sin evidencia). Probar validación interna con test de uso/calidad y comparativo local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Abundantes fotos/fichas locales con especificaciones y variantes (open/closed toe, tallas, colores).",
+      "fuentes": [
+        "https://medivaric.com.co/producto/medias-de-compresion-mediana-unisex-rodilla-con-cierre-punta-cerrada15-20-mmhg/",
+        "https://www.promedicos.co/products/medias-de-compresion-cremallera"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso continuo por varices/cansancio y oficios; además reaparece en picos de viaje.",
+      "fuentes": [
+        "https://espanol.kaiserpermanente.org/es/health-wellness/health-encyclopedia/he.c%C3%B3mo-prevenir-la-trombosis-venosa-profunda-a-causa-de-viajar.abk8826",
+        "https://www.heart.org/en/news/2024/06/05/es-cierto-que-necesitas-medias-de-compresion-en-vuelos-largos"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 7,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Cotizar costo mayorista específico de ‘zipper compression socks 15–20 mmHg’ (Alibaba/AliExpress/1688) y calcular margen real en CO.",
+    "Validar necesidad y estado de registro sanitario (INVIMA) para la variante con cremallera del proveedor a vender.",
+    "Auditar calidad: comprobar estabilidad de compresión (mmHg) tras 10–20 lavadas; pedir ficha técnica/materiales certificada.",
+    "Revisar reseñas locales (Mercado Libre, Falabella, Google) de la variante zipper para conocer fallas del cierre y tallaje.",
+    "Google Trends CO: interés por “medias de compresión” y “medias con cremallera” por ciudad/temporada.",
+    "Test A/B de creativos por ángulo (viajes vs. varices vs. facilidad de uso) con hooks propuestos; medir CTR y CPA.",
+    "Definir política de garantía clara (p. ej., 30 días por defecto de fábrica) para competir con mercado."
+  ],
+  "missing_data_flags": [
+    "Costo unitario (COGS) del proveedor real del cliente (zipped 15–20 mmHg).",
+    "Certificación/registro sanitario del producto exacto (INVIMA) y ficha técnica de compresión.",
+    "Durabilidad de la cremallera (tipo/YKK) y pruebas de uso.",
+    "Composición exacta del producto del cliente y variante (open toe/closed toe).",
+    "Política de garantía del cliente (actual 10 días) frente a estándar de mercado (≈30 días).",
+    "Única talla disponible (S/M) puede limitar conversión: falta validación de tallajes en audiencia objetivo."
+  ]
+}

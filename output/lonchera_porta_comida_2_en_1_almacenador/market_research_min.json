@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-05",
+    "model": "assistant.v1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Lonchera Porta Comida 2 En 1 Almacenador",
+    "descripcion": "CaracteríSticas Principales:\n\nDiseño de dos niveles para separar comidas y evitar derrames.\n\nA prueba de fugas y resistente a deformaciones.\n\nCompacta y portátil, fácil de transportar en bolso o mochila.\n\nFabricada en acero inoxidable, material duradero y de alta calidad.\n\nTapa hermética para conservar la temperatura por más tiempo.\n\nIdeal para oficina, universidad, picnic o viajes.\n\nColor: Beige con verde.\n\nTamaño: 15 cm x 14 cm aprox. (5,91\" x 5,51\").\n\n🧾 Especificaciones TéCnicas:\n\nMaterial: Acero inoxidable.\n\nTipo: Térmica, 2 en 1.\n\nPropiedades: A prueba de fugas, portátil, resistente.",
+    "garantia": "10 DIAS  GarantíA Del Vendedor: 1 Mes\n\nPOLÍTICAS DE GARANTÍA, CAMBIOS Y CAUSALES DE DEVOLUCIÓN:\n\nPedido incompleto: Solicitaste más de una unidad y recibes menos.\n\nMalfuncionamiento: El producto no cumple su función o presenta defecto (no por mal uso).\n\nProducto roto: Llega dañado por transporte o embalaje inadecuado.\n\nProducto equivocado: Recibes algo diferente a lo solicitado.\n\n📸 Para tramitar cualquier garantía, envía fotos o videos claros mostrando la inconformidad.\nEl producto debe devolverse completo, con todas sus piezas y buen embalaje.",
+    "precio": "$99.000"
+  },
+  "resumen_corto": "Producto genérico tipo bento de 2 niveles con interior en acero inoxidable y exterior plástico/ABS. Hay oferta activa en Colombia y LATAM (Falabella, Mercado Libre) con capacidades 1.2–1.5 L, precios observados COP ~$79.500–$89.990 y garantía típica de 30 días por defecto de fábrica. Útil y masivo, pero con competencia alta, poco factor WOW y margen interno verificado bajo. Apto para ángulos de ‘anti‑derrames’, ‘meal‑prep saludable’ y ‘regreso a clases’, con estacionalidad pico en enero y julio (Calendario A/B en Colombia).",
+  "product_fingerprint": {
+    "marca": "Genérico (coincidencias: GENERICO / WELL BEING como proxy LATAM)",
+    "modelo": "Bento 2 niveles (variantes WBLB003G/A como proxy LATAM)",
+    "categoria": "Lonchera térmica/bento de acero inoxidable 2 niveles",
+    "specs_claims_clave": [
+      "2 niveles apilables",
+      "Interior en acero inoxidable (304 en varias fichas)",
+      "Exterior plástico/ABS",
+      "Capacidad 1.2–1.5 L",
+      "Dimensiones aprox. 23 x 14 x 13 cm",
+      "Tapa a presión con broches + sello de silicona",
+      "A prueba de fugas (según fichas ML)",
+      "No apto microondas (acero)",
+      "Uso oficina/escuela/picnic",
+      "Colores: verde/azul/beige (variantes)"
+    ],
+    "rango_precio_observado": "COP $79.500 – $89.990 (Falabella CO; ML CO sin precio consistente visible)",
+    "garantia_tipo": "Vendedor 1 mes (defectos de fábrica)",
+    "variantes_detectadas": [
+      "1200 ml / 1400 ml / 1500 ml",
+      "Colores: verde/azul/chocolate",
+      "Modelos proxy WELL BEING WBLB003A/G (PE)"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Anti‑derrames y separación de sabores (oficina/uni)",
+      "score_0a10": 8.3,
+      "buyer_persona": "Oficinistas y estudiantes que cargan comida con salsas/sopas",
+      "promesa": "Lleva tu almuerzo con salsas o caldo sin accidentes y mantén platos separados hasta comer.",
+      "objecion_principal": "¿De verdad es hermética / a prueba de fugas?",
+      "justificacion": "Las fichas colombianas de ML para bento 2 niveles en acero 304 indican ‘sello impermeable’ + broches y anillo de silicona; Falabella CO valida formato 2 niveles con interior de acero y 1.5 L (espacio suficiente para separar porciones).",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.co/fiambrera-bento-de-acero-inoxidable-de-1200-ml-2-niveles/p/MCO2009530236",
+          "pais": "CO",
+          "match_note": "Coincide con fingerprint: 2 niveles, acero 304, sello impermeable y broches.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-1322360173-lonchera-porta-comida-2-niveles-fiambrera-con-cubiertos-_JM",
+          "pais": "CO",
+          "match_note": "Especifica 2 niveles, acero 304, sellos/ventila; misma tipología.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412",
+          "pais": "CO",
+          "match_note": "Confirma 2 niveles, interior acero, 1.5 L y medidas (mismo formato).",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Meal‑prep saludable y reutilizable (eco + ahorro)",
+      "score_0a10": 7.6,
+      "buyer_persona": "Adultos que quieren llevar comida casera y reducir desechables",
+      "promesa": "Pasa de desechables a acero 304 reutilizable; organiza porciones para comer mejor y gastar menos.",
+      "objecion_principal": "¿Es realmente ‘food‑grade’ y más duradero que plástico?",
+      "justificacion": "Múltiples fichas CO mencionan acero 304; reportes de mercado señalan crecimiento en loncheras aisladas/SS por salud/sustentabilidad (proxy categoría).",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.co/b-aa-lonchera-bento-contenedor-de-alimentos-1200-ml/p/MCO2029184542",
+          "pais": "CO",
+          "match_note": "Ficha indica acero inoxidable 304, 1200 ml, 2 niveles.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.fortunebusinessinsights.com/insulated-lunch-box-market-103864",
+          "pais": "Global (proxy)",
+          "match_note": "Tendencia de mercado hacia reutilizables/aisladas; soporte al ángulo eco/meal‑prep (no es el mismo SKU).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://es.haowulife.com/%C2%BFVale-la-pena-comprar-una-lonchera-de-acero-inoxidable-Lo-que-debes-saber-antes-de-decidir-id45216696.html",
+          "pais": "Global (proxy)",
+          "match_note": "Artículo informativo sobre ventajas de acero inoxidable (seguridad/durabilidad). Proxy de categoría.",
+          "confianza": "Baja"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 3,
+      "angulo": "Compacta y portátil para el día a día",
+      "score_0a10": 7.2,
+      "buyer_persona": "Commuters (transporte público), estudiantes y padres",
+      "promesa": "Cabe en el morral y viaja contigo; suficiente capacidad para una comida completa sin abultar.",
+      "objecion_principal": "¿No será muy grande/pesada para la mochila?",
+      "justificacion": "Falabella CO publica dimensiones ~23 x 14 x 13.3 cm y 1.5 L; ML CO reporta 21.5 x 11.5 x 11 cm en otra variante de 2 niveles.",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412",
+          "pais": "CO",
+          "match_note": "Dimensiones y 1.5 L confirman portabilidad en formato 2 niveles.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-1322358551-portacomidas-lonchera-2-nivel-hermetico-apto-para-microondas-_JM",
+          "pais": "CO",
+          "match_note": "Medidas 21.5 x 11.5 x 11 cm (variante similar 2 niveles).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 4,
+      "angulo": "Mantiene temperatura por más tiempo (sin microondas)",
+      "score_0a10": 6.5,
+      "buyer_persona": "Usuarios sin acceso a microondas o que llevan trayectos largos",
+      "promesa": "Tapa con sello y cuerpo en acero que ayudan a conservar calor/frío por horas en trayectos.",
+      "objecion_principal": "¿Cuánto tiempo real conserva la temperatura?",
+      "justificacion": "Varias fichas LATAM mencionan ‘térmica’ y 3–4 h (proxy), y CO indica ‘no microondas’ por ser acero; posicionar como ‘conserva por más tiempo’ sin prometer termos al vacío.",
+      "evidencia": [
+        {
+          "url": "https://www.mercadolibre.com.pe/lonchera-taper-termico--alimentos-acero-inoxidable-2-nivel/up/MPEU3238186479",
+          "pais": "PE (proxy)",
+          "match_note": "Afirma 3–4 h de rendimiento térmico; misma tipología 2 niveles acero.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.mercadolibre.com.co/fiambrera-bento-de-acero-inoxidable-de-12-l-2-niveles-azul/p/MCO2016996877",
+          "pais": "CO",
+          "match_note": "Confirma no microondas y junta a prueba de fugas; soporte a claim prudente.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Regreso a clases y uso escolar/universitario",
+      "score_0a10": 6.2,
+      "buyer_persona": "Padres de calendario A y B, universitarios",
+      "promesa": "Listo para el back‑to‑school: separa snacks/comida y evita derrames en el morral.",
+      "objecion_principal": "¿De verdad vale más que una lonchera plástica barata?",
+      "justificacion": "La temporada escolar en CO arranca a finales de enero (calendario A) y a finales de julio/agosto (calendario B); el producto está listado en la categoría escolar y es reutilizable.",
+      "evidencia": [
+        {
+          "url": "https://elpais.com/america-colombia/2025-01-01/calendario-escolar-2025-en-colombia-regreso-a-clases-vacaciones-y-fechas-importantes.html?outputType=amp",
+          "pais": "CO",
+          "match_note": "Calendario A con regreso a clases en enero; soporte estacional.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.colombia.com/actualidad/nacionales/calendario-escolar-colombia-2025-fechas-clave-del-regreso-a-clases-para-colegios-calendario-b-527470",
+          "pais": "CO",
+          "match_note": "Calendario B con inicio a finales de julio/agosto; soporte estacional.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412",
+          "pais": "CO",
+          "match_note": "Producto se ofrece bajo ‘Escolares’; coincide 2 niveles/acero.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Se acabaron los derrames en el morral: sellado 360° y 2 niveles.",
+        "Salsas sí, regueros no: tu almuerzo llega intacto.",
+        "Separado pero juntos: proteína abajo, snacks arriba.",
+        "¿Sopa en TransMi? Tranquilo, no se riega.",
+        "Adiós mezclas raras: sabores aislados hasta la hora de comer.",
+        "Broches + silicona: el combo anti‑accidentes.",
+        "Tu bolso, no tuppers sueltos: todo en una sola pieza.",
+        "Ofi/uni sin drama: come como en casa, sin desorden.",
+        "Ábrela y listo: ventilación para abrir fácil, sin vacío.",
+        "Hecha para moverse: asa y cierre firme pa’ la jornada."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Pásate a acero 304: reusable, limpio y sin olores.",
+        "Come mejor, gasta menos: arma tu meal‑prep.",
+        "Di no al desechable: tu lonchera te dura años.",
+        "Porciones smart: controla lo que comes, sin improvisar.",
+        "Eco sin esfuerzo: lava, reutiliza y repite.",
+        "Menos delivery, más ahorro a fin de mes.",
+        "Saludable fuera de casa: tu comida, tus reglas.",
+        "Para ofi, gym y campus: un hábito que pega.",
+        "Tu upgrade del tupper plástico.",
+        "Hecha para uso diario: resistente a la rutina."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Cabe en tu mochila, rinde como almuerzo completo.",
+        "Tamaño práctico, capacidad ganadora.",
+        "Porta y listo: ligera pero resistente.",
+        "Del metro a la oficina, sin bulto.",
+        "Pack compacto: 2 niveles en formato mini.",
+        "Menos espacio, más orden.",
+        "Se va contigo: aula, ofi o picnic.",
+        "No más bolsas extras: todo en una.",
+        "Dimensiones pensadas para morral.",
+        "Pequeña por fuera, completa por dentro."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Sin microondas, sin problema: conserva por más tiempo.",
+        "Tu comida caliente hasta el break (sin complicarte).",
+        "Aísla mejor que el plástico: acero que rinde.",
+        "Trayectos largos sin perder el toque.",
+        "Tapa hermética = calor que se queda.",
+        "Frío o caliente: tú decides.",
+        "Ideal para rutas y campus sin micro.",
+        "Menos filas, más tiempo para ti.",
+        "Dile sí a las sopas on‑the‑go.",
+        "Mantén la frescura hasta la comida."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Back‑to‑school listo: cero derrames en la maleta.",
+        "Lunch organizado para tus pelados.",
+        "Snacks arriba, almuerzo abajo: fácil para el recreo.",
+        "Más resistente que el plástico del cole.",
+        "A prueba de trote: va y viene todos los días.",
+        "Universidad sin gastar de más: lleva lo tuyo.",
+        "Aliada de loncheras saludables.",
+        "Menos empaques, más ahorro.",
+        "Combina con botella y bolsa térmica.",
+        "Checklist escolar: ✔️ resistente, ✔️ práctica, ✔️ reusable."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Regreso a clases calendario A: mayoría de regiones arrancan entre el 20–31 de enero; picos de compra escolar en enero. Fuente: El País CO (2025).",
+      "Calendario B: inicio a finales de julio/agosto; segundo pico estacional de compras. Fuente: Colombia.com (jul 2025)."
+    ],
+    "hipotesis": [
+      "Año nuevo y mitad de año impulsan hábitos de meal‑prep y compras de contenedores.",
+      "Clima y trayectos urbanos favorecen formatos sellados y portátiles.",
+      "Promos back‑to‑school en retail empujan categoría bento/portacomidas."
+    ],
+    "correlacion_con_angulos": "Los picos de enero y julio/agosto favorecen campañas de ‘anti‑derrames’ y ‘kit regreso a clases’. En meses intermedios funcionan mensajes de ‘meal‑prep saludable’ y ‘portabilidad diaria’ (ángulos 2 y 3)."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Resuelve transporte de alimentos con separación y sello anti‑derrames.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/fiambrera-bento-de-acero-inoxidable-de-1200-ml-2-niveles/p/MCO2009530236",
+        "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Título/descr. en retail explican 2 niveles y uso como porta comida.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Uso transversal (oficina/escuela). Mercado global de loncheras aisladas en crecimiento.",
+      "fuentes": [
+        "https://www.fortunebusinessinsights.com/insulated-lunch-box-market-103864"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – Sugerido: encuesta rápida a red local o prueba piloto.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen insuficiente para rentabilidad objetivo.",
+      "fuentes": [
+        "Validación interna de costos (documento interno)"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Disponible en Falabella CO y múltiples listados en Mercado Libre CO.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412",
+        "https://articulo.mercadolibre.com.co/MCO-1322360173-lonchera-porta-comida-2-niveles-fiambrera-con-cubiertos-_JM"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Producto comoditizado con muchas variantes similares; sin innovación distintiva.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/fiambrera-bento-de-acero-inoxidable-de-1200-ml-2-niveles/p/MCO2009530236",
+        "https://www.falabella.com.co/falabella-co/product/143085166/Lonchera-Termica-Con-2-Portacomidas-De-Acero-Inoxidable/143085167"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) específica para este SKU genérico; los reportes globales son proxy de categoría.",
+      "fuentes": [
+        "https://www.databridgemarketresearch.com/reports/global-stainless-steel-lunchbox-market"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia en marketplaces (varios sellers y variantes).",
+      "fuentes": [
+        "https://articulo.mercadolibre.com.co/MCO-1322358551-portacomidas-lonchera-2-nivel-hermetico-apto-para-microondas-_JM",
+        "https://www.falabella.com.co/falabella-co/product/143085166/Lonchera-Termica-Con-2-Portacomidas-De-Acero-Inoxidable/143085167"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – Buscar ‘best sellers’ específicos de 2 niveles acero 304 en Amazon/retail con datos públicos.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – Requiere criterio subjetivo/brief comercial.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Retail con galería y video demo (proxy LATAM) del mismo tipo de lonchera.",
+      "fuentes": [
+        "https://www.realplaza.com/lonchera-de-metal-de-2-niveles-641720/p",
+        "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "SI",
+      "confianza": "Baja",
+      "nota": "Uso todo el año en oficina/escuela; picos en temporadas escolares pero con demanda continua. Evidencia indirecta por disponibilidad constante en retail.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/121860411/Lonchera-Portacomidas-2-Niveles-Interior-En-Acero-Inoxidable-Verde/121860412"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 5,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "\"lonchera acero 304 2 niveles\" site:mercadolibre.com.co con precio visible (filtrar vendedores locales)",
+    "\"lonchera 2 niveles acero\" site:falabella.com.co con stock y ficha técnica completa (retención térmica, apto lavavajillas)",
+    "Google Trends CO: consultas ‘lonchera bento’, ‘lonchera acero inoxidable’ por estacionalidad",
+    "Amazon US/ES: best sellers ‘stainless steel 2-tier lunch box’ (buscar datos públicos de ventas)",
+    "YouTube ES/CO: reseñas ‘lonchera acero 2 niveles 304’ con pruebas de fugas/retención",
+    "Validar certificaciones (BPA‑free, grado alimenticio) del proveedor/SKU exacto",
+    "Benchmark de precios en COP por capacidad (1200 ml vs 1500 ml)",
+    "Test propio: minutos de retención de calor/frío y prueba de fugas (video)"
+  ],
+  "missing_data_flags": [
+    "Marca/SKU exacto del producto a vender",
+    "Tiempo de retención térmica medido (no proxy)",
+    "Certificaciones de material (304, BPA‑free) del SKU exacto",
+    "Precio de compra/proveedor (margen real)",
+    "Prueba de hermeticidad en uso real (video reseña)",
+    "Compatibilidad lavavajillas (tapas/estructura) del SKU exacto"
+  ]
+}

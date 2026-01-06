@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at_utc": "2026-01-06T04:43:32Z",
+  "product": {
+    "input_name": "Estufa Camping",
+    "folder_name": "estufa_camping",
+    "search_country": "CO",
+    "canonical_product_name": "Estufa portátil de camping a gas butano tipo cartucho con encendido piezoeléctrico y rompevientos"
+  },
+  "filters": {
+    "lang_allowed": "es",
+    "allow_und": false,
+    "require_product_name_contained": true
+  },
+  "metrics": {
+    "producto_test": false,
+    "range_product_test": [
+      3,
+      7
+    ],
+    "scaling_threshold_ads": 4,
+    "scaling": []
+  },
+  "advertisers_total": 1,
+  "advertisers_ranked": [
+    {
+      "rank": 1,
+      "advertiser_key": "105341732243159",
+      "page_name": "Lo Enkuentras Colombia",
+      "page_profile_uri": "https://www.facebook.com/100083245843560/",
+      "ads_total": 1,
+      "ads_candidate_same": 1,
+      "is_scaling_candidate_same": false,
+      "landing_domains": [
+        "loenkuentras.co"
+      ],
+      "sample_ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=25225958320439636"
+      ],
+      "sample_landing_urls": [
+        "https://loenkuentras.co/products/estufa-electrica-dos-puestos?variant=41996737085527"
+      ]
+    }
+  ]
+}

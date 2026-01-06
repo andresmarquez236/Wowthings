@@ -77,18 +77,11 @@ def run_script(script_name: str, output_dir: str):
 def main():
     # 1. Define Product Parameters
     # ---------------------------------------------------------
-    PRODUCT_NAME = "Truly Aceite Soft Serve 50 Ml"
-    PRODUCT_DESC =""" Contenido 50 ML
-
-TRULY ACEITE UNICORNIO (SOFT SERVE) CON SELLO DE ORIGINALIDAD 1.1
-
-Evita el dolor de la irritación por afeitado y los vellos encarnados con nuestro nuevo aceite para después del afeitado Soft Serve. Formulado con una valiosa mezcla de péptidos, ácido hialurónico y fresa para exfoliar suavemente, hidratar y acelerar el proceso de curación de la piel.
-Tu piel se mantendrá suave e hidratada durante días después del afeitado. Es la solución calmante con aroma a fresa que tu piel anhela.
-Rasguños y quemaduras por afeitado: calma la inflamación y promueve la curación para un acabado más elegante.
-Piel seca y con picazón: hidrata profundamente y alivia para una piel nutrida y sedosa al tacto.
-Pelos encarnados: elimina las células muertas y regula el sebo para prevenir protuberancias dolorosas. """
+    PRODUCT_NAME = "Tenis Barbara"
+    PRODUCT_DESC =""" Tenis de plataforma, calzado urbano y casual.
+Características: Suela gruesa, cierre con cordones, material principal sintético (comúnmente)."""
     WARRANTY = "10 dias"
-    PRICE = "COP 75000"
+    PRICE = "COP 150000"
     # ---------------------------------------------------------
 
     # 2. Setup Paths

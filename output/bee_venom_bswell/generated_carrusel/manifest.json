@@ -1,0 +1,49 @@
+{
+  "product_name": "bee_venom_bswell",
+  "generated_at_utc": "2026-01-01T22:53:54Z",
+  "image_size": "4K",
+  "aspect_ratio": "1:1",
+  "model_candidates": [
+    "gemini-3-pro-image-preview"
+  ],
+  "max_ref_images": 5,
+  "inputs": {
+    "carrusel_json": "output/bee_venom_bswell/nanobanana_carrusel_bee_venom_bswell.json",
+    "product_images_dir": "output/bee_venom_bswell/product_images"
+  },
+  "outputs": [
+    {
+      "angle_index": 1,
+      "angle_id": "ANGLE_1",
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "card_index": 1,
+      "stage": "Attention",
+      "goal": "Captar la mirada y despertar curiosidad sobre un 'lifting' sin agujas; posicionar el producto como premium y único.",
+      "thumbnail_field": "bee_venom_bswell_card1.jpg",
+      "output_path": "output/bee_venom_bswell/generated_carrusel/angle_01/bee_venom_bswell_card1.png",
+      "model_used": "gemini-3-pro-image-preview"
+    },
+    {
+      "angle_index": 1,
+      "angle_id": "ANGLE_1",
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "card_index": 2,
+      "stage": "Interest+Desire",
+      "goal": "Explicar el mecanismo clave (micro‑estimulación/peptidos/hialurónico) con una metáfora visual y enmarcar el resultado deseado: más firmeza y textura mejorada. Suavizar objeciones con recomendación de prueba de parche para alérgicos.",
+      "thumbnail_field": "bee_venom_bswell_card2.jpg",
+      "output_path": "output/bee_venom_bswell/generated_carrusel/angle_01/bee_venom_bswell_card2.png",
+      "model_used": "gemini-3-pro-image-preview"
+    },
+    {
+      "angle_index": 1,
+      "angle_id": "ANGLE_1",
+      "angle_name": "Antiedad con \"micro‑lifting\" natural (veneno de abeja) respaldado por evidencia preliminar",
+      "card_index": 3,
+      "stage": "Action",
+      "goal": "Convert: instrucción clara para compra con CTA de baja fricción, mostrar precio y opciones de pago, reforzar envío gratis y pago contraentrega.",
+      "thumbnail_field": "bee_venom_bswell_card3.jpg",
+      "output_path": "output/bee_venom_bswell/generated_carrusel/angle_01/bee_venom_bswell_card3.png",
+      "model_used": "gemini-3-pro-image-preview"
+    }
+  ]
+}

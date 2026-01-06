@@ -1,0 +1,1075 @@
+{
+  "schema_version": "1.1.0",
+  "generated_at_utc": "2026-01-06T03:19:42Z",
+  "product": {
+    "input_name": "Bee Venom Bswell",
+    "folder_name": "bee_venom_bswell",
+    "search_country": "CO",
+    "canonical_product_name": "BSWELL Bee Venom Treatment Cream 60 g",
+    "product_type": "Crema tópica de tratamiento (veneno de abeja)",
+    "short_description": "Crema tópica en frasco de 60 g a base de veneno de abeja (Bee Venom), con textura ligera no grasa, rápida absorción y aroma natural y suave.",
+    "disambiguation_notes": "Distinguir por: marca BSWELL con logo de abeja y panal; presentación en frasco (jar) con tapa metálica; etiqueta Bee Venom Treatment Cream; contenido neto 60 gr; uso exclusivamente tópico. Claims visibles: 100% natural ingredients, no pain no scars, rápida absorción/no grasa. No confundir con suplementos de veneno de abeja, sérums faciales o parches."
+  },
+  "filters": {
+    "lang_allowed": "es",
+    "allow_und": false,
+    "require_product_name_contained": true,
+    "product_name_matcher": {
+      "canonical_norm": "bswell bee venom treatment cream 60 g",
+      "core_tokens": [
+        "bswell",
+        "bee",
+        "venom",
+        "60"
+      ],
+      "core_phrases": [
+        "bswell bee",
+        "bswell bee venom",
+        "bswell bee venom treatment cream 60 g"
+      ],
+      "min_token_hits": 2
+    }
+  },
+  "input_files": {
+    "dedup_jsonl": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/apify_results/fblibrary_ads_dedup_bee_venom_bswell.jsonl",
+    "queries_json": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/bee_venom_bswell/querys_fblibrary_bee_venom_bswell.json"
+  },
+  "rules": {
+    "min_advertisers_for_test": 4,
+    "max_exact_advertisers": 7,
+    "scaling_ads_per_advertiser": 5
+  },
+  "anchors": {
+    "anchor_tokens": [
+      "60",
+      "60g",
+      "2x1",
+      "100",
+      "crema",
+      "venom",
+      "bee",
+      "bswell",
+      "veneno",
+      "abeja"
+    ],
+    "score_thresholds": {
+      "candidate_same_product": 0.4,
+      "candidate_bundle": 0.25,
+      "drift": 0.2
+    },
+    "bundle_keywords": [
+      "combo",
+      "kit",
+      "bundle",
+      "pack",
+      "paquete",
+      "x2",
+      "2 unidades",
+      "dos unidades",
+      "3x",
+      "4x",
+      "set",
+      "incluye",
+      "regalo",
+      "gratis +",
+      "2 en 1",
+      "2x1"
+    ]
+  },
+  "summary": {
+    "stats": {
+      "input_ads_lines": 68,
+      "skipped_error_lines": 1,
+      "skipped_duplicate_ads": 0,
+      "skipped_lang": 37,
+      "skipped_product_name": 15,
+      "kept_ads": 15
+    },
+    "ads_total_after_filters": 15,
+    "advertisers_total": 5,
+    "advertisers_candidate_same": 4,
+    "advertisers_candidate_bundle": 1,
+    "scaling_advertisers_candidate_same": [
+      "276924395495822"
+    ],
+    "rule_evaluation_heuristic": {
+      "producto_test": true,
+      "test_candidate_by_advertisers": true,
+      "too_competitive_if_exact": false,
+      "scaling_detected": true,
+      "notes": "Heurístico: advertisers_candidate_same se basa en anchor_score + filtros. Para concluir 'exactamente el mismo producto' se recomienda validación multimodal del agente."
+    }
+  },
+  "advertisers": [
+    {
+      "advertiser_key": "276924395495822",
+      "page_name": "PlazaStore",
+      "page_id": "276924395495822",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "counts": {
+        "ads_total": 5,
+        "ads_candidate_same": 5,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 5,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "plazastore.com.co"
+      ],
+      "landing_urls": [
+        "https://plazastore.com.co/products/bee-venom-bswell"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=695482779748940",
+        "https://www.facebook.com/ads/library/?id=843935258074261",
+        "https://www.facebook.com/ads/library/?id=1363211198795329",
+        "https://www.facebook.com/ads/library/?id=1374334767595715",
+        "https://www.facebook.com/ads/library/?id=1816629085883079"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "695482779748940",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=695482779748940",
+          "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!  Descubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se me..."
+        },
+        {
+          "ad_id": "843935258074261",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=843935258074261",
+          "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!  Descubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se me..."
+        },
+        {
+          "ad_id": "1363211198795329",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1363211198795329",
+          "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!  Descubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se me..."
+        },
+        {
+          "ad_id": "1374334767595715",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1374334767595715",
+          "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!  Descubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se me..."
+        },
+        {
+          "ad_id": "1816629085883079",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1816629085883079",
+          "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!  Descubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se me..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": true
+      }
+    },
+    {
+      "advertiser_key": "108939375502175",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "counts": {
+        "ads_total": 6,
+        "ads_candidate_same": 3,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 6,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=3597589243715584",
+        "https://www.facebook.com/ads/library/?id=1546011126733083",
+        "https://www.facebook.com/ads/library/?id=1412712227310557",
+        "https://www.facebook.com/ads/library/?id=861779836712228",
+        "https://www.facebook.com/ads/library/?id=1939385346658021",
+        "https://www.facebook.com/ads/library/?id=2092527241549659"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1546011126733083",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1546011126733083",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Cansada de la PIEL SENSIBLE que arde y se irrita? 😩 Bee Venom BsWell es la solución de cuidado completo que tu piel necesita. Formulada para calmar y proteger desde el primer uso, restaurando el equilibrio natural de tu barrera cutánea. Id..."
+        },
+        {
+          "ad_id": "1412712227310557",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1412712227310557",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¡La crema que todas están AMANDO para pieles sensibles! Más de 10.000 clientes ya sienten la diferencia. Bee Venom BsWell es tu aliado para una piel que se ve y se siente mejor. Calma, protege y uniformiza.  ¡Las unidades se agotan rápido! ..."
+        },
+        {
+          "ad_id": "1939385346658021",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1939385346658021",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¡La crema que todas están AMANDO para pieles sensibles! Más de 10.000 clientes ya sienten la diferencia. Bee Venom BsWell es tu aliado para una piel que se ve y se siente mejor. Calma, protege y uniformiza.  ¡Las unidades se agotan rápido! ..."
+        },
+        {
+          "ad_id": "3597589243715584",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=3597589243715584",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.3,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Buscas un tono de piel más UNIFORME en el rostro y las manos? 👩‍🔬✨ Cuerpo Bee Venom BsWell te ayuda a recuperar la apariencia lisa y joven. Su avanzada fórmula cosmética trabaja en la textura, favoreciendo la suavidad de cicatrices (antigu..."
+        },
+        {
+          "ad_id": "861779836712228",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=861779836712228",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.3,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Cansada de la PIEL SENSIBLE que arde y se irrita? 😩 Bee Venom BsWell es la solución de cuidado completo que tu piel necesita. Formulada para calmar y proteger desde el primer uso, restaurando el equilibrio natural de tu barrera cutánea. Id..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "100881689524825",
+      "page_name": "Yercy Shop Colombia",
+      "page_id": "100881689524825",
+      "page_profile_uri": "https://www.facebook.com/100087713274704/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "yercyshop.com"
+      ],
+      "landing_urls": [
+        "https://yercyshop.com/products/bee-venom"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1938450210032325"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1938450210032325",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1938450210032325",
+          "landing_url": "https://yercyshop.com/products/bee-venom",
+          "anchor_score": 0.6,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "🐝 La naturaleza cuida de ti. ✨ Esta crema combina el poder del veneno de abejas con ingredientes naturales para atenuar manchas y devolverle a tu piel su brillo natural. 👉🏻 https://yercyshop.com/products/bee-venom"
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "111604384002479",
+      "page_name": "MAPV Distribuidores",
+      "page_id": "111604384002479",
+      "page_profile_uri": "https://www.facebook.com/MAPVDistribuidores/",
+      "counts": {
+        "ads_total": 1,
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 1,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1527803248436021"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1527803248436021",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1527803248436021",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.5,
+          "flags": {
+            "candidate_same_product": true,
+            "candidate_bundle": false,
+            "candidate_drift": false,
+            "is_bundle": false
+          },
+          "snippet": "¿Terminas tus días con el cuerpo \"molido\" y rígido? 😫🛑  Nada es más frustrante que querer seguir activo, entrenar o simplemente moverte con libertad y sentir que tus músculos no responden. Ignorar esas molestias solo hace que te detengas po..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    },
+    {
+      "advertiser_key": "683625601509268",
+      "page_name": "Kaddezshop",
+      "page_id": "683625601509268",
+      "page_profile_uri": "https://www.facebook.com/Kaddezshop/",
+      "counts": {
+        "ads_total": 2,
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 2,
+        "ads_candidate_drift": 0,
+        "ads_lang_es": 2,
+        "ads_lang_en": 0,
+        "ads_lang_und": 0
+      },
+      "landing_domains": [
+        "api.whatsapp.com"
+      ],
+      "landing_urls": [
+        "https://api.whatsapp.com/send"
+      ],
+      "ad_library_urls": [
+        "https://www.facebook.com/ads/library/?id=1028494092748279",
+        "https://www.facebook.com/ads/library/?id=1199263435460954"
+      ],
+      "top_ads": [
+        {
+          "ad_id": "1199263435460954",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1199263435460954",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.4,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "La belleza natural tiene un secreto 🐝💛 La crema Bee Venom estimula la producción de colágeno y deja tu piel firme, suave y luminosa.  🌼 Hidrata • Rejuvenece • Revitaliza 🔥 ¡Aprovecha el 50% OFF por tiempo limitado!  🚚 Envío GRATIS + 💵 Pago ..."
+        },
+        {
+          "ad_id": "1028494092748279",
+          "ad_library_url": "https://www.facebook.com/ads/library/?id=1028494092748279",
+          "landing_url": "https://api.whatsapp.com/send",
+          "anchor_score": 0.3,
+          "flags": {
+            "candidate_same_product": false,
+            "candidate_bundle": true,
+            "candidate_drift": false,
+            "is_bundle": true
+          },
+          "snippet": "La belleza natural tiene un secreto 🐝💛 La crema Bee Venom estimula la producción de colágeno y deja tu piel firme, suave y luminosa.  🌼 Hidrata • Rejuvenece • Revitaliza 🔥 ¡Aprovecha el 50% OFF por tiempo limitado!  🚚 Envío GRATIS + 💵 Pago ..."
+        }
+      ],
+      "flags": {
+        "is_scaling_candidate_same": false
+      }
+    }
+  ],
+  "ads": [
+    {
+      "ad_id": "695482779748940",
+      "advertiser_key": "276924395495822",
+      "lang": "es",
+      "page_name": "PlazaStore",
+      "page_id": "276924395495822",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=695482779748940",
+      "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+      "landing_domain": "plazastore.com.co",
+      "start_date": "2025-10-21 07:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Envío gratis, pagas al recibir en casa",
+        "body": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!\n\nDescubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se merece!\n\n✅ Reduce la inflamación y alivia molestias\n✅ Estimula el colágeno y mejora la firmeza\n✅ Regenera tejidos y atenúa marcas\n✅ Hidrata profundamente sin dejar grasa\n✅ Textura ligera y aroma natural\n🚚 Envío GRATIS y pagas al recibir\n\n¡Pruébala hoy y siente el cambio en tu piel! 💛",
+        "caption": "https://plazastore.com.co",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "843935258074261",
+      "advertiser_key": "276924395495822",
+      "lang": "es",
+      "page_name": "PlazaStore",
+      "page_id": "276924395495822",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=843935258074261",
+      "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+      "landing_domain": "plazastore.com.co",
+      "start_date": "2025-10-20 07:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Envío gratis, pagas al recibir en casa",
+        "body": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!\n\nDescubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se merece!\n\n✅ Reduce la inflamación y alivia molestias\n✅ Estimula el colágeno y mejora la firmeza\n✅ Regenera tejidos y atenúa marcas\n✅ Hidrata profundamente sin dejar grasa\n✅ Textura ligera y aroma natural\n🚚 Envío GRATIS y pagas al recibir\n\n¡Pruébala hoy y siente el cambio en tu piel! 💛",
+        "caption": "https://plazastore.com.co",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1363211198795329",
+      "advertiser_key": "276924395495822",
+      "lang": "es",
+      "page_name": "PlazaStore",
+      "page_id": "276924395495822",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1363211198795329",
+      "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+      "landing_domain": "plazastore.com.co",
+      "start_date": "2025-10-20 07:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Envío gratis, pagas al recibir en casa",
+        "body": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!\n\nDescubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se merece!\n\n✅ Reduce la inflamación y alivia molestias\n✅ Estimula el colágeno y mejora la firmeza\n✅ Regenera tejidos y atenúa marcas\n✅ Hidrata profundamente sin dejar grasa\n✅ Textura ligera y aroma natural\n🚚 Envío GRATIS y pagas al recibir\n\n¡Pruébala hoy y siente el cambio en tu piel! 💛",
+        "caption": "https://plazastore.com.co",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1374334767595715",
+      "advertiser_key": "276924395495822",
+      "lang": "es",
+      "page_name": "PlazaStore",
+      "page_id": "276924395495822",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1374334767595715",
+      "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+      "landing_domain": "plazastore.com.co",
+      "start_date": "2025-10-21 07:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Envío gratis, pagas al recibir en casa",
+        "body": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!\n\nDescubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se merece!\n\n✅ Reduce la inflamación y alivia molestias\n✅ Estimula el colágeno y mejora la firmeza\n✅ Regenera tejidos y atenúa marcas\n✅ Hidrata profundamente sin dejar grasa\n✅ Textura ligera y aroma natural\n🚚 Envío GRATIS y pagas al recibir\n\n¡Pruébala hoy y siente el cambio en tu piel! 💛",
+        "caption": "https://plazastore.com.co",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1816629085883079",
+      "advertiser_key": "276924395495822",
+      "lang": "es",
+      "page_name": "PlazaStore",
+      "page_id": "276924395495822",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1816629085883079",
+      "landing_url": "https://plazastore.com.co/products/bee-venom-bswell",
+      "landing_domain": "plazastore.com.co",
+      "start_date": "2025-10-20 07:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Envío gratis, pagas al recibir en casa",
+        "body": "🌿 Bee Venom BsWell: ¡El poder natural que tu piel necesita!\n\nDescubre la crema que desinflama, regenera y mejora la firmeza desde las primeras aplicaciones. Ideal para pieles sensibles, secas o con molestias leves. ¡Cuida tu piel como se merece!\n\n✅ Reduce la inflamación y alivia molestias\n✅ Estimula el colágeno y mejora la firmeza\n✅ Regenera tejidos y atenúa marcas\n✅ Hidrata profundamente sin dejar grasa\n✅ Textura ligera y aroma natural\n🚚 Envío GRATIS y pagas al recibir\n\n¡Pruébala hoy y siente el cambio en tu piel! 💛",
+        "caption": "https://plazastore.com.co",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1938450210032325",
+      "advertiser_key": "100881689524825",
+      "lang": "es",
+      "page_name": "Yercy Shop Colombia",
+      "page_id": "100881689524825",
+      "page_profile_uri": "https://www.facebook.com/100087713274704/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1938450210032325",
+      "landing_url": "https://yercyshop.com/products/bee-venom",
+      "landing_domain": "yercyshop.com",
+      "start_date": "2025-10-10 07:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "🐝 CREMA VENENO DE ABEJAS 🍯",
+        "body": "🐝 La naturaleza cuida de ti.\n✨ Esta crema combina el poder del veneno de abejas con ingredientes naturales para atenuar manchas y devolverle a tu piel su brillo natural. 👉🏻 https://yercyshop.com/products/bee-venom",
+        "caption": "yercyshop.com",
+        "cta_text": "Learn more"
+      },
+      "match": {
+        "anchor_score": 0.6,
+        "anchor_hits": [
+          "100",
+          "crema",
+          "venom",
+          "bee",
+          "veneno",
+          "abeja"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "3597589243715584",
+      "advertiser_key": "108939375502175",
+      "lang": "es",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=3597589243715584",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS Y PAGO EN CASA",
+        "body": "¿Buscas un tono de piel más UNIFORME en el rostro y las manos? 👩‍🔬✨\nCuerpo Bee Venom BsWell te ayuda a recuperar la apariencia lisa y joven. Su avanzada fórmula cosmética trabaja en la textura, favoreciendo la suavidad de cicatrices (antiguas o recientes) y mejorando visiblemente el aspecto de las manchas de la edad en las manos. Un solo producto, múltiples beneficios. 🍯👌\nCaracterísticas \n🎯 Mejora la apariencia de cicatrices.\n🎯 Ayuda con las manchas oscuras del rostro, axilas, entrepierna, codos y manos.\n🎯 Cuidado completo y avanzado.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.3,
+        "anchor_hits": [
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": false,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1546011126733083",
+      "advertiser_key": "108939375502175",
+      "lang": "es",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1546011126733083",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS Y PAGO EN CASA",
+        "body": "¿Cansada de la PIEL SENSIBLE que arde y se irrita? 😩\nBee Venom BsWell es la solución de cuidado completo que tu piel necesita. Formulada para calmar y proteger desde el primer uso, restaurando el equilibrio natural de tu barrera cutánea. Ideal para quienes buscan confort inmediato y una reducción visible del enrojecimiento. ✨💧\nCaracterísticas \n🌟 Calma la irritación y la inflamación.\n🌟 Deja la piel suave y protegida.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "60",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1412712227310557",
+      "advertiser_key": "108939375502175",
+      "lang": "es",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1412712227310557",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-30 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS Y PAGO EN CASA",
+        "body": "¡La crema que todas están AMANDO para pieles sensibles!\nMás de 10.000 clientes ya sienten la diferencia. Bee Venom BsWell es tu aliado para una piel que se ve y se siente mejor. Calma, protege y uniformiza. \n¡Las unidades se agotan rápido! No te quedes sin la tuya.\n✅ Resultados visibles en suavidad.\n✅ Aprobada para pieles fatigadas.\n✅ Stock limitado.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "861779836712228",
+      "advertiser_key": "108939375502175",
+      "lang": "es",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=861779836712228",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-24 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS Y PAGO EN CASA",
+        "body": "¿Cansada de la PIEL SENSIBLE que arde y se irrita? 😩\nBee Venom BsWell es la solución de cuidado completo que tu piel necesita. Formulada para calmar y proteger desde el primer uso, restaurando el equilibrio natural de tu barrera cutánea. Ideal para quienes buscan confort inmediato y una reducción visible del enrojecimiento. ✨💧\nCaracterísticas \n🌟 Calma la irritación y la inflamación.\n🌟 Deja la piel suave y protegida.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.3,
+        "anchor_hits": [
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": false,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1939385346658021",
+      "advertiser_key": "108939375502175",
+      "lang": "es",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1939385346658021",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-23 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS Y PAGO EN CASA",
+        "body": "¡La crema que todas están AMANDO para pieles sensibles!\nMás de 10.000 clientes ya sienten la diferencia. Bee Venom BsWell es tu aliado para una piel que se ve y se siente mejor. Calma, protege y uniformiza. \n¡Las unidades se agotan rápido! No te quedes sin la tuya.\n✅ Resultados visibles en suavidad.\n✅ Aprobada para pieles fatigadas.\n✅ Stock limitado.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "2092527241549659",
+      "advertiser_key": "108939375502175",
+      "lang": "es",
+      "page_name": "Azul  Importaciones",
+      "page_id": "108939375502175",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=2092527241549659",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-23 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS Y PAGO EN CASA",
+        "body": "¿Buscas un tono de piel más UNIFORME en el rostro y las manos? 👩‍🔬✨\nCuerpo Bee Venom BsWell te ayuda a recuperar la apariencia lisa y joven. Su avanzada fórmula cosmética trabaja en la textura, favoreciendo la suavidad de cicatrices (antiguas o recientes) y mejorando visiblemente el aspecto de las manchas de la edad en las manos o en el rostro.  Un solo producto, múltiples beneficios. 🍯👌\nCaracterísticas \n🎯 Mejora la apariencia de cicatrices.\n🎯 Ayuda con las manchas oscuras del rostro, axilas, entrepierna, codos y manos.\n🎯 Cuidado completo y avanzado.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.3,
+        "anchor_hits": [
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": false,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1527803248436021",
+      "advertiser_key": "111604384002479",
+      "lang": "es",
+      "page_name": "MAPV Distribuidores",
+      "page_id": "111604384002479",
+      "page_profile_uri": "https://www.facebook.com/MAPVDistribuidores/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1527803248436021",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-12-09 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "Piel Suave en Minutos ✨",
+        "body": "¿Terminas tus días con el cuerpo \"molido\" y rígido? 😫🛑\n\nNada es más frustrante que querer seguir activo, entrenar o simplemente moverte con libertad y sentir que tus músculos no responden. Ignorar esas molestias solo hace que te detengas por más tiempo, afectando tu rendimiento y tu ánimo. 📉\n\n¡Recupera tu ritmo con Bee Venom Bswell! 🐝💪 Nuestra fórmula avanzada de apiterapia brinda una sensación de alivio y confort a tus zonas cansadas, mientras cuida tu piel de forma 100% natural. Es el aliado que tus músculos necesitan para que nada te pare. 🚀\n\n📦 Beneficios exclusivos: ✅ Ingredientes orgánicos. ✅ Envío GRATIS a todo el país. 🚚 ✅ Paga en casa al recibir (Contra entrega). 🏠\n\n👇 ¡Vuelve a la acción! Toca el botón para pedir en WhatsApp.",
+        "caption": "WhatsApp",
+        "cta_text": "Send WhatsApp message"
+      },
+      "match": {
+        "anchor_score": 0.5,
+        "anchor_hits": [
+          "60",
+          "100",
+          "venom",
+          "bee",
+          "bswell"
+        ],
+        "is_bundle": false,
+        "candidate_same_product": true,
+        "candidate_bundle": false,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1028494092748279",
+      "advertiser_key": "683625601509268",
+      "lang": "es",
+      "page_name": "Kaddezshop",
+      "page_id": "683625601509268",
+      "page_profile_uri": "https://www.facebook.com/Kaddezshop/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1028494092748279",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-11-18 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS",
+        "body": "La belleza natural tiene un secreto 🐝💛\nLa crema Bee Venom estimula la producción de colágeno y deja tu piel firme, suave y luminosa.\n\n🌼 Hidrata • Rejuvenece • Revitaliza\n🔥 ¡Aprovecha el 50% OFF por tiempo limitado!\n\n🚚 Envío GRATIS + 💵 Pago contra entrega",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.3,
+        "anchor_hits": [
+          "crema",
+          "venom",
+          "bee"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    },
+    {
+      "ad_id": "1199263435460954",
+      "advertiser_key": "683625601509268",
+      "lang": "es",
+      "page_name": "Kaddezshop",
+      "page_id": "683625601509268",
+      "page_profile_uri": "https://www.facebook.com/Kaddezshop/",
+      "ad_library_url": "https://www.facebook.com/ads/library/?id=1199263435460954",
+      "landing_url": "https://api.whatsapp.com/send",
+      "landing_domain": "api.whatsapp.com",
+      "start_date": "2025-11-19 08:00:00",
+      "end_date": "2026-01-05 08:00:00",
+      "is_active": true,
+      "text": {
+        "title": "ENVIO GRATIS",
+        "body": "La belleza natural tiene un secreto 🐝💛\nLa crema Bee Venom estimula la producción de colágeno y deja tu piel firme, suave y luminosa.\n\n🌼 Hidrata • Rejuvenece • Revitaliza\n🔥 ¡Aprovecha el 50% OFF por tiempo limitado!\n\n🚚 Envío GRATIS + 💵 Pago contra entrega",
+        "caption": "api.whatsapp.com",
+        "cta_text": "Shop now"
+      },
+      "match": {
+        "anchor_score": 0.4,
+        "anchor_hits": [
+          "60",
+          "crema",
+          "venom",
+          "bee"
+        ],
+        "is_bundle": true,
+        "candidate_same_product": false,
+        "candidate_bundle": true,
+        "candidate_drift": false
+      }
+    }
+  ],
+  "agent_queue": [
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "276924395495822",
+      "page_name": "PlazaStore",
+      "page_profile_uri": "https://www.facebook.com/61557361204813/",
+      "selected_ad_ids": [
+        "695482779748940",
+        "843935258074261",
+        "1363211198795329"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 5,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4,
+          0.4,
+          0.4
+        ],
+        "landing_domains": [
+          "plazastore.com.co"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "108939375502175",
+      "page_name": "Azul  Importaciones",
+      "page_profile_uri": "https://www.facebook.com/100091365895518/",
+      "selected_ad_ids": [
+        "1546011126733083",
+        "1412712227310557",
+        "1939385346658021"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 3,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.4,
+          0.4,
+          0.4
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "100881689524825",
+      "page_name": "Yercy Shop Colombia",
+      "page_profile_uri": "https://www.facebook.com/100087713274704/",
+      "selected_ad_ids": [
+        "1938450210032325"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.6
+        ],
+        "landing_domains": [
+          "yercyshop.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "111604384002479",
+      "page_name": "MAPV Distribuidores",
+      "page_profile_uri": "https://www.facebook.com/MAPVDistribuidores/",
+      "selected_ad_ids": [
+        "1527803248436021"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 1,
+        "ads_candidate_bundle": 0,
+        "top_anchor_scores": [
+          0.5
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    },
+    {
+      "task_type": "VALIDATE_PRODUCT_MATCH",
+      "advertiser_key": "683625601509268",
+      "page_name": "Kaddezshop",
+      "page_profile_uri": "https://www.facebook.com/Kaddezshop/",
+      "selected_ad_ids": [
+        "1199263435460954",
+        "1028494092748279"
+      ],
+      "why_selected": {
+        "ads_candidate_same": 0,
+        "ads_candidate_bundle": 2,
+        "top_anchor_scores": [
+          0.4,
+          0.3
+        ],
+        "landing_domains": [
+          "api.whatsapp.com"
+        ]
+      },
+      "expected_output_labels": [
+        "EXACT_MATCH",
+        "SAME_FAMILY_DIFF_VARIANT",
+        "BUNDLE_OR_KIT",
+        "DRIFT_UNRELATED"
+      ]
+    }
+  ]
+}

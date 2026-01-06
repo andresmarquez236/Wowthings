@@ -184,8 +184,8 @@ MARKET_MIN_SCHEMA: Dict[str, Any] = {
 
         "checklist": {
             "type": "array",
-            "minItems": 15,
-            "maxItems": 15,
+            "minItems": 13,
+            "maxItems": 13,
             "items": {
                 "type": "object",
                 "additionalProperties": False,
@@ -204,8 +204,8 @@ MARKET_MIN_SCHEMA: Dict[str, Any] = {
             "type": "object",
             "additionalProperties": False,
             "properties": {
-                "total_si": {"type": "integer", "minimum": 0, "maximum": 15},
-                "total_criterios": {"type": "integer", "enum": [15]},
+                "total_si": {"type": "integer", "minimum": 0, "maximum": 13},
+                "total_criterios": {"type": "integer", "enum": [13]},
                 "cumple_9_de_15": {"type": "boolean"},
             },
             "required": ["total_si", "total_criterios", "cumple_9_de_15"],
@@ -241,10 +241,12 @@ def run_market_research_agent_min(
     precio: str,
     model: str = "gpt-5",
     max_output_tokens: int = 16384,
+    margin_goodness: bool = None,
+    competitors_goodness: bool = None,
 ) -> Dict[str, Any]:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    # Checklist EXACTO (15 filas) como lo pediste
+    # Checklist EXACTO (13 filas) como lo pediste
     checklist_criterios = [
         "Soluciona un problema?",
         "Se entiende su funcionalidad rapidamente?",
@@ -256,22 +258,33 @@ def run_market_research_agent_min(
         "Esta en tendencia en otros paises o en otros mercados?",
         "Existen pocos competidores vendiendolo?",
         "Tiene antecedente de buenas ventas en otros paises otros mercados?",
-        "Algun amigo o familiar estaria dispuesto a comprarlo? (repetido)",
         "Tu comprarias el producto?",
         "Tiene multimedia en internet a la que puedas acceder facilmente?",
-        "Es un producto evergreen?",
-        "total? (fila de control: NO siempre, se calcula en score_total)"
+        "Es un producto evergreen?"
     ]
+
+    margin_note = "No hay datos internos. Debes investigar y estimar."
+    if margin_goodness is True:
+        margin_note = "VERIFICADO INTERNAMENTE: El producto TIENE buen margen (>30k y >17%). Para el criterio 'Tiene un buen margen?', DEBES marcar SI y citar 'Validación interna de costos'."
+    elif margin_goodness is False:
+        margin_note = "VERIFICADO INTERNAMENTE: El producto NO TIENE buen margen. Para el criterio 'Tiene un buen margen?', DEBES marcar NO y citar 'Validación interna de costos'."
+
+    competitors_note = "No hay datos de Spy Agent. Debes investigar y estimar."
+    if competitors_goodness is True:
+        competitors_note = "VERIFICADO EXTERNAMENTE por Spy Agent (<4 ads escalando): Existen pocos competidores. Para 'Existen pocos competidores vendiendolo?', DEBES marcar SI y citar 'Análisis de Ad Library'."
+    elif competitors_goodness is False:
+        competitors_note = "VERIFICADO EXTERNAMENTE por Spy Agent (>4 ads escalando): Mercado saturado/escalando. Para 'Existen pocos competidores vendiendolo?', DEBES marcar NO y citar 'Análisis de Ad Library'."
 
     user_payload = {
         "nombre_producto": nombre_producto.strip(),
         "descripcion": descripcion.strip(),
         "garantia": garantia.strip(),
         "precio": precio.strip(),
+        "informacion_margen_verificada": margin_note,
+        "informacion_competidores_verificada": competitors_note,
         "checklist_criterios_obligatorios": checklist_criterios,
-        "regla_minima": "Debe cumplir >= 9 de 15. Calificar MUY DURO. Si no hay evidencia, marcar NO + nota No confirmado.",
+        "regla_minima": "Debe cumplir >= 9 de 13. Calificar MUY DURO. Si no hay evidencia, marcar NO + nota No confirmado.",
     }
-
     resp = client.responses.create(
         model=model,
         tools=[{"type": "web_search"}],
@@ -320,8 +333,27 @@ if __name__ == "__main__":
     parser.add_argument("--warranty", required=True, help="Warranty info")
     parser.add_argument("--price", required=True, help="Price info")
     parser.add_argument("--output", required=True, help="Output JSON path")
+    parser.add_argument("--margin_ok", help="Is margin confirmed good? (true/false)")
+    parser.add_argument("--competitors_ok", help="Are competitors few/confirmed good? (true/false)")
     
     args = parser.parse_args()
+
+    # Parse boolean flags
+    margin_good = None
+    if args.margin_ok:
+        lower = args.margin_ok.lower().strip()
+        if lower == "true":
+            margin_good = True
+        elif lower == "false":
+            margin_good = False
+
+    competitors_good = None
+    if args.competitors_ok:
+        lower = args.competitors_ok.lower().strip()
+        if lower == "true":
+            competitors_good = True
+        elif lower == "false":
+            competitors_good = False
 
     out = run_market_research_agent_min(
         nombre_producto=args.product,
@@ -330,6 +362,8 @@ if __name__ == "__main__":
         precio=args.price,
         model="gpt-5",
         max_output_tokens=16384,
+        margin_goodness=margin_good,
+        competitors_goodness=competitors_good,
     )
     save_json(out, args.output)
     print(f"✅ Guardado en {args.output}")

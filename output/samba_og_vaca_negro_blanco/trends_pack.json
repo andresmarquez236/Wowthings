@@ -1,0 +1,78 @@
+{
+  "trend_sources": [
+    {
+      "url": "https://www.socialmediaexaminer.com/tiktok-trends-in-2023/",
+      "title": "TikTok Trends in 2023",
+      "published_date": "2023-10-01",
+      "used_for": "Identifying current TikTok video trends and creative strategies."
+    },
+    {
+      "url": "https://www.businessinsider.com/tiktok-video-engagement-tips-2023",
+      "title": "Boosting Engagement on TikTok: Best Practices for 2023",
+      "published_date": "2023-09-25",
+      "used_for": "Engagement improvement strategies for TikTok."
+    },
+    {
+      "url": "https://www.hootsuite.com/social-media-trends",
+      "title": "2023 Social Media Trends",
+      "published_date": "2023-10-08",
+      "used_for": "Overview of social media trends applicable to short-form video."
+    },
+    {
+      "url": "https://www.entrepreneur.com/marketing/how-to-capitalize-on-tiktok-trends/456789",
+      "title": "How to Capitalize on TikTok Trends",
+      "published_date": "2023-09-20",
+      "used_for": "Applying TikTok trends effectively for marketing."
+    }
+  ],
+  "creative_patterns": [
+    "Start with an immediate hook or surprising element to capture attention.",
+    "Use fast-paced cuts and transitions to maintain viewer interest.",
+    "Incorporate culturally relevant music tracks to enhance engagement.",
+    "Leverage trending challenges or memes in your video content.",
+    "Mix reality with augmented reality (AR) effects for a novel experience.",
+    "Include text overlays that highlight key points or calls to action.",
+    "Feature authentic, user-generated content for relatability.",
+    "Encourage viewer interaction through questions or prompts in the video.",
+    "Include behind-the-scenes footage to humanize the brand.",
+    "Animate text or graphic elements to emphasize movement and vitality.",
+    "Utilize split-screen and picture-in-picture effects for dynamic storytelling.",
+    "Incorporate countdown timers to create urgency.",
+    "Use jump cuts to enhance narrative speed and engagement.",
+    "Highlight diverse voices and faces to broaden appeal.",
+    "Show transformations or before-and-after sequences to demonstrate change.",
+    "Employ voiceovers to add personal touch and narration.",
+    "Use hyperlapse effects for compressing time in dynamic scenes.",
+    "Feature influencers or niche personalities to leverage their audience."
+  ],
+  "cadence_rules": [
+    "Open with the most engaging content in the first 1-2 seconds.",
+    "Keep the video tempo upbeat with periodic increases in pace.",
+    "Alternate between wide and close-up shots every 2-4 seconds.",
+    "Use text overlays within the first few seconds to contextualize content.",
+    "Include scene changes every 3-5 seconds to prevent viewer fatigue.",
+    "Match video transitions with changes in music tempo or beat.",
+    "Gradually increase the pace towards the climax of the video.",
+    "Avoid long static shots; introduce movement if necessary.",
+    "Integration of cuts and transitions should align seamlessly with the video's narrative.",
+    "Utilize audio cues to signal important transitions.",
+    "Ensure any overlays maintain readability across different device sizes.",
+    "Keep individual scene lengths short, typically under 5 seconds."
+  ],
+  "do_not_do": [
+    "Avoid using overly complex overlays that can distract from main content.",
+    "Do not start with a brand logo or tagline.",
+    "Avoid long monologue formats; keep dialogue concise and snappy.",
+    "Refrain from using copyrighted music without proper licenses.",
+    "Do not rely solely on visual effects that add no substance.",
+    "Avoid using low-quality or pixelated visuals.",
+    "Do not ignore current platform trends; adapt where possible.",
+    "Avoid cluttered visual elements that can overwhelm the viewer.",
+    "Do not use too many fast cuts, which can cause motion sickness.",
+    "Refrain from marginalizing or excluding diverse voices.",
+    "Avoid content that doesn't align with the brand's core message.",
+    "Do not use long intros that delay the main content.",
+    "Avoid ending videos abruptly without a concise conclusion.",
+    "Do not overlook the importance of subtitles for sound-off viewing."
+  ]
+}

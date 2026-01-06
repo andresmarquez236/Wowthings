@@ -1,0 +1,385 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-06",
+    "model": "Analista de Mercado & Copy LATAM v1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Estufa Camping",
+    "descripcion": "Una de las situaciones más comunes al ir a acampar en la montaña, son las fogatas, la cual te permitirá cocinar tus alimentos o incluso tener una velada cálida alrededor de una fogata incluso hasta romántica o bohemia bajo la luz de la luna o terrorífica contando historias de espanto.\nESTUFA CAMPING DE GAS BUTANO\nEXCELENTE ESTUFA CON SISTEMA ROMPEVIENTOS PARA UNA MAYOR FACILIDAD DE OPERACIÓN AL AIRE LIBRE\nLA ESTUFA CUENTA CON UN SISTEMA QUE LE PERMITE AJUSTARSE A DIVERSOS TAMAÑOS DE OLLAS PARA UN MEJOR APROVECHAMIENTO DEL CALOR Y BRINDAR UNA MAYOR EFICIENCIA EN EL CONSUMO DE GAS.\nENCENDIDO AUTOMÁTICO PIZOELECTRICO\nINCLUYE:\n\n*Estufa portátil\n* ESTUCHE PARA FÁCIL ALMACENAMIENTO.\n* Todo en un Solo Envió\n* Practica segura y portátil.",
+    "garantia": "10 DIAS",
+    "precio": "$75.000"
+  },
+  "resumen_corto": "Estufa portátil de camping a gas butano (1 quemador) con encendido piezoeléctrico, estuche/maletín y rompevientos. Mercado colombiano altamente competido y con amplio acceso en retail; tendencia de camping/glamping creciente pero producto no es único. Margen verificado: bajo.",
+  "product_fingerprint": {
+    "marca": "Genérico/varios",
+    "modelo": "Estufa camping 1 quemador (mini plegable EN417 o tipo valija MSF-1A)",
+    "categoria": "Outdoor > Cocina de campamento > Estufas a gas butano",
+    "specs_claims_clave": [
+      "Gas butano de cartucho 220–227 g (EN417 o MSF-1A)",
+      "Encendido automático piezoeléctrico",
+      "Incluye estuche/maletín de transporte",
+      "Rompevientos/cortaviento integrado o maletín como rompevientos",
+      "Llama regulable",
+      "Estructura compacta y portátil (algunas plegables)",
+      "Material acero/aluminio",
+      "Potencia aprox. 2.2 kW / 2.200 Kcal/h",
+      "Compatible con ollas de varios tamaños"
+    ],
+    "rango_precio_observado": "COP $29.900–$206.000 (listados CO recientes; según variante/marca)",
+    "garantia_tipo": "Variable por vendedor (este listing: 10 días)",
+    "variantes_detectadas": [
+      "Mini plegable de rosca (cartucho EN417) con piezo y estuche",
+      "Tipo valija/cassette (cartucho MSF‑1A 227 g) con piezo y maletín",
+      "Dual fuel (butano/propano) con piezo y maletín"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Cocina segura sin fogatas en zonas reguladas",
+      "score_0a10": 8.5,
+      "buyer_persona": "Parejas y grupos que visitan Parques Nacionales/áreas protegidas",
+      "promesa": "Prepara comida caliente sin fogata donde está restringida y sin complicarte.",
+      "objecion_principal": "¿Es realmente permitido usar estufa? ¿Y el gas se consigue fácil?",
+      "justificacion": "Parques Nacionales recomiendan evitar fogatas y acampar solo en sitios autorizados; una estufa portátil con cartucho reduce el impacto y cumple con la práctica de cocinar sin fogata. Los cartuchos de butano 227 g están disponibles en Homecenter Colombia.",
+      "evidencia": [
+        {
+          "url": "https://old.parquesnacionales.gov.co/portal/es/recomendaciones-cuando-visitas-un-parque-nacional-natural-de-colombia/",
+          "pais": "CO",
+          "match_note": "Regla oficial: evitar fogatas/camping solo en sitios autorizados; refuerza necesidad de estufa.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/92186/cartucho-butano-para-estufa/92186/",
+          "pais": "CO",
+          "match_note": "Cartucho butano 227 g Nautika; confirma disponibilidad local para estufas portátiles.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/455334/cartucho-gas-butano-para-estufa/455334/",
+          "pais": "CO",
+          "match_note": "Cartucho butano Handy Stove 227 g; segunda referencia de abastecimiento.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Rinde y enciende al instante: potencia + rompevientos",
+      "score_0a10": 8.1,
+      "buyer_persona": "Campistas que cocinan en clima andino (viento/lluvia)",
+      "promesa": "Hierve agua rápido y protege la llama del viento para cocinar sin frustrarte.",
+      "objecion_principal": "¿Realmente protege del viento y calienta rápido?",
+      "justificacion": "Modelos con 2.2 kW hierben 1 L en ~5 min y algunos usan el maletín como rompevientos; versión MT500 incluye cortaviento integrado. En temporada de lluvias (mar–jun) el rompevientos es clave.",
+      "evidencia": [
+        {
+          "url": "https://www.decathlon.com.co/p/313081-99429-estufa-a-gas-para-camping-encendido-piezoelectrico-quechua-100.html",
+          "pais": "CO",
+          "match_note": "Quechua 100: 2200W, maletín que sirve de rompevientos, encendido PIEZO.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.decathlon.com.co/p/310238-10047-estufa-a-gas-ligera-y-compacta-para-camping-forclaz-mt500.html",
+          "pais": "CO",
+          "match_note": "Forclaz MT500: cortaviento integrado y piezo; refuerza claim.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.ideam.gov.co/sala-de-prensa/noticia/primera-temporada-de-mas-lluvias-en-el-pais-2025",
+          "pais": "CO",
+          "match_note": "IDEAM: temporada de lluvias (mar–jun); apoya la relevancia del rompevientos.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 3,
+      "angulo": "Ligera y compacta: tu cocina cabe en el morral",
+      "score_0a10": 7.6,
+      "buyer_persona": "Mochileros/trekkers que cuidan peso/espacio",
+      "promesa": "Menos de 500 g y con estuche: llévala sin sentirla.",
+      "objecion_principal": "¿Soporta ollas y es estable siendo tan pequeña?",
+      "justificacion": "Listados locales reportan peso ~416 g, piezo integrado, patas plegables y estuche; pensada para ollas pequeñas/medianas al aire libre.",
+      "evidencia": [
+        {
+          "url": "https://canelahogar.com.co/product/fogon-portatil-a-gas-estufa-camping-encendido-automatico/",
+          "pais": "CO",
+          "match_note": "Mini estufa piezo + estuche; 416 g; soportes plegables.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://colombia.bioweb.co/products/mini-estufa-para-camping-compacto-con-piezoelectrico",
+          "pais": "CO",
+          "match_note": "Mini estufa de aleación Al/Acero; piezo; compacta; estuche.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Fácil para principiantes: un clic y regula la llama",
+      "score_0a10": 7.2,
+      "buyer_persona": "Familias y nuevos campistas que buscan simplicidad",
+      "promesa": "Encendido automático y control de llama sin fósforos.",
+      "objecion_principal": "¿Es seguro el encendido piezo y tiene control de presión?",
+      "justificacion": "Numerosos listados en CO detallan piezo y válvula de seguridad/regulación de llama. Manuales de marcas comunes describen el uso seguro del piezo.",
+      "evidencia": [
+        {
+          "url": "https://articulo.mercadolibre.com.co/MCO-454938831-fogon-estufa-calentador-portatil-camping-encendi-automa-gas-_JM",
+          "pais": "CO",
+          "match_note": "Listing CO: piezo + válvula regulable; incluye estuche.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://es.manuals.plus/chef-master/chef-master-15000-btu-portable-butane-camping-stove-user-manual",
+          "pais": "US",
+          "match_note": "Manual con instrucciones de uso de piezo y seguridad (proxy técnica).",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Listo para emergencias (uso en exteriores/ventilado)",
+      "score_0a10": 6.8,
+      "buyer_persona": "Hogares que arman kit de emergencia y van a paseos ocasionales",
+      "promesa": "Cocina básica cuando falla el servicio, siempre en exterior o zonas ventiladas.",
+      "objecion_principal": "¿Es seguro para el hogar?",
+      "justificacion": "Vendedores locales recomiendan para emergencias en zonas ventiladas; autoridades de preparación (Ready.gov) advierten no usar estufas de campamento en interiores, útil como guideline de seguridad.",
+      "evidencia": [
+        {
+          "url": "https://colombia.yaxa.co/products/lot45-estufa-de-camping-portatil-de-propano-o-butano-8000-btu-1-estufa-de-campamento-de-un-solo-quemador-con-estuche-de-transporte-estufa-portatil/",
+          "pais": "CO",
+          "match_note": "Listing CO: sugiere uso para emergencias en zonas bien ventiladas.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.ready.gov/es/kit-de-winterready-para-compartir-en-redes-sociales",
+          "pais": "US",
+          "match_note": "Autoridad: NO usar estufas de campamento en interiores; soporte de seguridad (proxy normativa).",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Sin fogata, sí comida caliente. Tu campamento, tus reglas (y las del parque).",
+        "Cocina en zona autorizada: cero ceniza, cero multas, todo sabor.",
+        "Plan Tayrona o Chingaza: estufa lista, fogata no necesaria.",
+        "Cartuchos 227 g se consiguen fácil: lleva 1 y olvídate.",
+        "Menos humo, más estrellas: cocina limpia al aire libre.",
+        "Checklist del guardaparques: estufa ✔ fogata ✘"
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Que sople el viento: tu llama sigue firme.",
+        "5 minutos y agua hirviendo: café listo en la neblina andina.",
+        "Rompevientos integrado: clima impredecible, cocina predecible.",
+        "Lluvia afuera, calor en la olla: rendimiento estable.",
+        "Potencia 2.2 kW: sal de la espera y entra al desayuno.",
+        "Tu maletín también te cubre del viento. Pro tip."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Tu cocina pesa menos que una botella de agua.",
+        "Cabe en el morral, rinde en la montaña.",
+        "De la maleta a la llama en segundos.",
+        "Menos peso, más kilómetros (y mejor comida).",
+        "Compacta pero estable: soportes que sí aguantan.",
+        "Olvida el leño: gas, clic y a comer."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Un clic. Fuego. A cocinar.",
+        "Llama regulable: de hervir a sofreír sin drama.",
+        "Sin fósforos, sin estrés: piezo al rescate.",
+        "Ideal para primerizos: simple y segura.",
+        "Encendido rápido, hambre resuelta.",
+        "Control total: llama justa, gas que rinde."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Tu plan B en el baúl (úsala siempre en exterior).",
+        "Emergencias pasan; comer bien también.",
+        "Sin luz no es sin comida: cocina afuera y resuelve.",
+        "Ligera, con maletín: sale en segundos.",
+        "Checklist del kit: agua, linterna, estufa (exterior).",
+        "Familia tranquila: menú caliente y seguro."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "IDEAM: primera temporada de lluvias en CO va de mediados de marzo a mediados de junio (2025); condiciones húmedas favorecen rompevientos/cortaviento.",
+      "Parques Nacionales: evitar fogatas y camping solo en sitios autorizados (regla estable).",
+      "Crecimiento de turismo y naturaleza en CO 2024 (CST DANE/Portafolio) sostiene demanda outdoor."
+    ],
+    "hipotesis": [
+      "Picos de venta en vacaciones (dic-ene, jun-jul, Semana Santa).",
+      "Mayor conversión en época seca por restricciones a fogatas y riesgo de incendios; la estufa reemplaza la fogata.",
+      "Lluvia incrementa la necesidad de rompevientos y soluciones de encendido rápido."
+    ],
+    "correlacion_con_angulos": "Ángulo 2 gana fuerza en temporadas de lluvia; Ángulo 1 (sin fogatas) y 5 (emergencias) resaltan en épocas secas con riesgo de incendios y en picos vacacionales."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Cocinar sin fogata en sitios regulados y con bajo impacto.",
+      "fuentes": [
+        "https://old.parquesnacionales.gov.co/portal/es/recomendaciones-cuando-visitas-un-parque-nacional-natural-de-colombia/",
+        "https://www.decathlon.com.co/p/313081-99429-estufa-a-gas-para-camping-encendido-piezoelectrico-quechua-100.html"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Producto simple: 1 quemador, piezo, olla arriba; claridad en fichas de retail.",
+      "fuentes": [
+        "https://www.decathlon.com.co/p/313081-99429-estufa-a-gas-para-camping-encendido-piezoelectrico-quechua-100.html",
+        "https://canelahogar.com.co/product/fogon-portatil-a-gas-estufa-camping-encendido-automatico/"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Nicho outdoor; el turismo crece pero no es consumo masivo general.",
+      "fuentes": [
+        "https://www.portafolio.co/economia/cuenta-satelite-de-turismo-2024-gasto-turistico-en-colombia-alcanzo-88-5-billones-631879"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – requerir encuesta/sondeo local.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen bajo (dato del cliente).",
+      "fuentes": [
+        "Validación interna de costos"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Disponible en Decathlon, Homecenter/Falabella y múltiples e‑commerce.",
+      "fuentes": [
+        "https://www.decathlon.com.co/p/313081-99429-estufa-a-gas-para-camping-encendido-piezoelectrico-quechua-100.html",
+        "https://homecenter.falabella.com.co/homecenter-co/product/119410985/Estufa-Para-Camping-a-Gas-Portatil-Handy-Stove-Negro/119410988?exp=homecenter"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Producto comoditizado con muchas variantes similares.",
+      "fuentes": [
+        "https://www.mercadolibre.com.co/estufa-de-gas-butano-portatil-negocio-camping-negro-1-quemador-llama-ajustable/p/MCO47610449"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Tendencia camping/glamping al alza; mercado de equipos crece globalmente.",
+      "fuentes": [
+        "https://koa.com/north-american-camping-report/",
+        "https://www.globenewswire.com/news-release/2025/01/21/3012395/0/en/Camping-Equipment-Market-to-Reach-US-87-71-Billion-By-2033-Astute-Analytica.html"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Mercado saturado/escalando. Verificado externamente: Análisis de Ad Library + múltiples sellers.",
+      "fuentes": [
+        "Análisis de Ad Library (keyword: estufa camping, country=CO)",
+        "https://www.mercadolibre.com.co/mas-vendidos/MCO374471"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia) – buscar rankings/ventas Amazon/ML internacionales específicas de estufas butano.",
+      "fuentes": []
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "No, por margen bajo y alta competencia reportada.",
+      "fuentes": [
+        "Validación interna de costos",
+        "Análisis de Ad Library (keyword: estufa camping, country=CO)"
+      ]
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Tutoriales/guías y listados con fotos/videos son abundantes.",
+      "fuentes": [
+        "https://es.manuals.plus/chef-master/chef-master-15000-btu-portable-butane-camping-stove-user-manual",
+        "https://canelahogar.com.co/product/fogon-portatil-a-gas-estufa-camping-encendido-automatico/"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Demanda sujeta a temporadas/vacaciones y clima; uso en emergencias es ocasional.",
+      "fuentes": [
+        "https://www.ideam.gov.co/sala-de-prensa/noticia/primera-temporada-de-mas-lluvias-en-el-pais-2025",
+        "https://portal.gestiondelriesgo.gov.co/Paginas/Noticias/2025/Comienza-primera-temporada-de-lluvias-en-el-pais-Ideam-y-UNGRD-adoptan-medidas-de-prevencion.aspx"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 4,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Auditar Facebook Ad Library con términos 'estufa camping', 'estufa butano', país CO y capturas de ads activos/volumen.",
+    "Verificar normas y certificaciones aplicables en CO (p. ej., cumplimiento EN417/EN17476 o equivalentes locales) en las variantes genéricas.",
+    "Recolectar datos de ventas/rankings en Amazon (US/MX/ES) y Mercado Libre (MX/AR/CL) para 'butane camping stove'.",
+    "Mapear precios promedio de cartucho 227 g en CO 2024–2026 y disponibilidad por ciudad.",
+    "Encuestar rápida (100–200 respuestas) sobre intención de compra para validar criterio de 'amigos/familia comprarían'.",
+    "Comparar tasas de devolución/garantía por vendedor (10–30 días) y fallas comunes."
+  ],
+  "missing_data_flags": [
+    "Certificación de seguridad del modelo exacto ofrecido (normas EN/ISO o equivalentes locales).",
+    "Evidencia cuantitativa de ventas internacionales específicas de estufas butano (ranking/cifras).",
+    "Listado oficial de ads activos (capturas) para documentar saturación con mayor precisión.",
+    "Costeo detallado por unidad (FOB/last mile) que justifique margen bajo reportado.",
+    "Política de garantía del vendedor confirmada por escrito (10 días) y condiciones."
+  ]
+}

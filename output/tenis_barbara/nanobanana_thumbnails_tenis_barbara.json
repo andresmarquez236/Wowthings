@@ -1,0 +1,788 @@
+{
+  "input_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/tenis_barbara/market_research_min.json",
+  "product_name": "Tenis Barbara",
+  "product_slug": "tenis_barbara",
+  "model": "gpt-5.2",
+  "results": [
+    {
+      "angle_rank": 1,
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "prompts": [
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A1_V1",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "product": "Tenis Barbara (tenis de plataforma blancos, suela XL, cordones, material sintético; plantilla memory foam)",
+            "background_assets": "none"
+          },
+          "prompt": "Create a high-conversion ecommerce square thumbnail (1080x1080) featuring ONLY the 'Tenis Barbara' white platform sneakers for women. Photorealistic studio product shot: a pair of white platform sneakers with thick XL sole and lace-up closure, synthetic upper, clean white color. Hero product large (fills ~70% of frame), sharp focus, crisp edges, realistic shadows. Angle emphasis: visible thick platform sole (XL) and comfort cue for memory foam via subtle visual metaphor (soft gradient cushion under insole area, without adding extra objects that change product). Background: bright light-gray to white seamless gradient, high contrast. Add subtle floor reflection. Lighting: softbox key + rim light to define sole thickness. Composition leaves clear negative space top-left for headline and bottom corners for badges. No logos, no people, no extra footwear models.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Suela XL + Suave",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Product must be the largest and sharpest element; emphasize the XL platform sole thickness with a 3/4 angle; keep laces and sole texture crisp.",
+            "text_legibility": "All text must sit on clean negative space; maintain 10% safe margins; ensure contrast ratio high; avoid placing text over detailed shoe areas."
+          },
+          "negative_prompt": "watermark, brand logo, recognizable brand marks, copyrighted characters, faces, people, hands, feet wearing shoes, busy background, clutter, extra products, different shoe model, high heel, sandals, boots, incorrect color (non-white), text artifacts, misspelled Spanish, low resolution, blur, motion blur, overexposure, harsh glare, noisy image, AI distortions, deformed laces, duplicated soles, unrealistic proportions"
+        },
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A1_V2",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "product": "Tenis Barbara (tenis de plataforma blancos, suela XL, cordones, material sintético; plantilla memory foam)",
+            "background_assets": "none"
+          },
+          "prompt": "Design a photorealistic ecommerce thumbnail (1:1, 1080x1080) showing ONLY the Tenis Barbara white platform sneakers. Composition: one shoe in side profile foreground to showcase the thick XL platform sole; second shoe slightly behind at 30% scale for depth. Ultra-sharp product, clean synthetic white upper, lace-up. Add a subtle comfort cue: a soft, translucent 'cushion wave' glow near the insole opening (do not add separate objects). Background: split-tone diagonal gradient (top-left white, bottom-right very light beige) for warmth and contrast. Lighting: bright, clean, with gentle shadow under sole to communicate stability (not heavy). Leave top-center space for headline; badges at bottom-left and bottom-right. No logos, no people, no props.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Más altura, cero tacón",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Side profile must clearly show the XL platform sole height; keep sole edge and tread sharp; product occupies ~75% of frame.",
+            "text_legibility": "Headline must not overlap the shoe; use banner/stroke to ensure readability; keep badges fully inside safe margin and away from shadows."
+          },
+          "negative_prompt": "watermark, brand logo, trademark stripes, copyrighted characters, faces, models, legs, hands, lifestyle scene, street background, messy textures, extra accessories, different sneaker design, colored accents, non-white shoes, heel shoes, platform sandals, inaccurate materials, warped sole, blurry edges, low contrast, illegible text, random letters, compression artifacts"
+        },
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A1_V3",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "product": "Tenis Barbara (tenis de plataforma blancos, suela XL, cordones, material sintético; plantilla memory foam)",
+            "background_assets": "none"
+          },
+          "prompt": "Generate a clean, high-contrast ecommerce thumbnail (1080x1080, 1:1) featuring ONLY the Tenis Barbara white platform sneakers. Hero: single shoe angled 45 degrees, toe pointing to bottom-left, sole facing viewer to highlight thick XL platform. Add a second faint, out-of-focus duplicate silhouette behind as a soft shadow echo (not an extra product, just a background silhouette) to create 'presence' without clutter. Background: pure white with a bold soft gray circular spotlight behind the shoe for separation. Lighting: crisp studio with rim light to outline the sole and upper; realistic shadow under shoe. Leave top-right negative space for headline; badges bottom-left and bottom-right. No logos, no people, no props.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Memory foam todo el día",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Shoe must dominate frame and be tack-sharp; angle must make the XL sole visually obvious; keep background minimal to maximize product prominence.",
+            "text_legibility": "Use high-contrast label behind headline; ensure no overlap with shoe edges; maintain 10% safe margin; avoid thin fonts and busy textures behind text."
+          },
+          "negative_prompt": "watermark, brand logos, recognizable brand marks, copyrighted characters, faces, people, feet, hands, lifestyle environment, additional products, shoebox, props, colored patterns, non-white sneaker, wrong model, exaggerated platform height claims, blurry, low-res, over-sharpening halos, glare, noise, distorted laces, malformed sole, unreadable text, spelling errors"
+        }
+      ]
+    },
+    {
+      "angle_rank": 2,
+      "angle_name": "Hecho en Colombia y directo de fábrica (valor local + soporte cercano)",
+      "prompts": [
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A2_V1",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "product": "Tenis Barbara (tenis de plataforma urbano/casual, cierre con cordones, material sintético, color blanco talco/blanco)",
+            "background_assets": "Clean studio gradient background (no logos)",
+            "props": "None (optional subtle shadow only)"
+          },
+          "prompt": "Create a high-contrast ecommerce thumbnail for Meta (1:1). Feature ONLY the product: a women's white platform sneaker (Tenis Barbara) with thick platform sole and lace-up closure, synthetic upper. Studio product photography look, ultra-sharp, realistic materials, crisp edges, soft natural shadow under the shoe. Composition: 3/4 angle hero shoe large (fills ~70% of frame), slightly tilted to show platform thickness and laces. Background: clean light-to-mid gray gradient with subtle vignette for contrast. Add a small secondary shoe behind and blurred (same exact model) to suggest pair, but keep the front shoe the sharpest and largest. Lighting: softbox key light + rim light to separate from background. No logos, no extra accessories, no people.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Directo de fábrica CO",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Product must be the hero: largest element, centered-left, tack-sharp; secondary shoe (if used) must be smaller and slightly blurred; no competing objects.",
+            "text_legibility": "All text must sit on solid/contrasting shapes; maintain safe margins; ensure WCAG-like contrast; avoid placing text over detailed shoe areas."
+          },
+          "negative_prompt": "brand logos, watermarks, copyrighted characters, recognizable faces, people, hands, flags, map outlines, leather claim, genuine leather text, quality certifications, fake seals, cluttered background, busy patterns, low contrast, motion blur, out of frame, cropped shoe, extra shoes beyond a subtle blurred pair, wrong product type (boots, heels, sandals), different color than white, metallic elements, excessive reflections, text artifacts, misspelled Spanish, QR codes"
+        },
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A2_V2",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "product": "Tenis Barbara (tenis de plataforma urbano/casual, cierre con cordones, material sintético, color blanco talco/blanco)",
+            "background_assets": "Clean white background with subtle shadow",
+            "props": "Minimal abstract shapes (non-branded)"
+          },
+          "prompt": "Design a clean, high-conversion Meta square thumbnail. Depict ONLY the Tenis Barbara: women's white platform sneaker, synthetic upper, lace-up, thick platform sole. Use bright white background with a soft gray ground shadow. Add two minimal abstract geometric shapes (light gray) behind the shoe to create depth without distraction. Camera: close-up side profile emphasizing the thick platform sole; shoe fills ~75% of frame, centered. Lighting: high-key studio, crisp detail, realistic texture. No logos, no people, no extra products.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Hecho en Colombia",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Single shoe dominates frame; keep edges fully visible; emphasize platform thickness and laces; background elements must be faint and behind the shoe.",
+            "text_legibility": "Headline on banner; badges on clean negative space; avoid overlapping the shoe; keep all text inside safe margin and readable at mobile size."
+          },
+          "negative_prompt": "logos, brand marks, watermarks, copyrighted characters, faces, people, hands, Colombian flag, map of Colombia, WhatsApp logo, leather claims, 'cuero' text, certification stamps, busy props, patterned background, low resolution, noise, blur, overexposure, harsh glare, incorrect shoe (non-platform, different silhouette), non-white colorways, extra footwear items, text glitches"
+        },
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A2_V3",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "product": "Tenis Barbara (tenis de plataforma urbano/casual, cierre con cordones, material sintético, color blanco talco/blanco)",
+            "background_assets": "Dark charcoal gradient background",
+            "props": "Subtle light streaks (abstract)"
+          },
+          "prompt": "Create a premium, high-contrast ecommerce thumbnail (1:1) featuring ONLY the Tenis Barbara: women's white platform sneaker, synthetic upper, lace-up, thick platform sole. Use a dark charcoal-to-black gradient background for strong contrast. Place the shoe large and centered, 3/4 front angle to show toe box, laces, and platform height. Add a subtle rim light and soft reflection on the ground (very faint) to feel premium. Include minimal abstract light streaks in the background (very subtle, not distracting). Ultra-sharp product, realistic materials, clean studio look. No logos, no people.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Sin intermediarios",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Shoe must be the brightest and sharpest element; occupy ~70–80% of frame; background streaks must remain subtle and behind the product.",
+            "text_legibility": "Use high-contrast containers behind text; keep overlays away from shoe details; ensure readability on dark background and within safe margins."
+          },
+          "negative_prompt": "any logo, watermark, brand name, copyrighted characters, faces, people, hands, WhatsApp logo, flags, maps, leather claims, 'cuero' wording, fake guarantee seals, clutter, excessive reflections, lens flare over product, low contrast, blur, cropped shoe, wrong sneaker type, colored accents, extra products, text artifacts, unreadable typography"
+        }
+      ]
+    },
+    {
+      "angle_rank": 3,
+      "angle_name": "Blanco versátil y tendencia global en plataformas",
+      "prompts": [
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A3_V1",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product": "Tenis Barbara (tenis de plataforma blanco talco, cordones, material sintético; sin logos)",
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "background": "Studio seamless light-gray to white gradient",
+            "props": "None (no extra products)"
+          },
+          "prompt": "Create a high-contrast ecommerce square thumbnail (1080x1080) featuring ONLY the 'Tenis Barbara' women's platform sneakers in talc-white. Show a clean 3/4 angle pair (both shoes) with the platform sole clearly visible, ultra-sharp product detail, soft studio shadow, and a minimal light-gray/white gradient background. Add subtle fashion-forward graphic accents: thin black contour lines and a small abstract wave shape behind the shoes (non-branded). Lighting: bright, crisp, premium, no glare blowouts. The sneakers must be the largest element and centered slightly right to leave space for text on the left. No logos, no people, no faces.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Blanco que va con todo",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Product must be the hero: shoes occupy ~60–70% of frame, sharpest element; platform sole clearly visible; no competing objects.",
+            "text_legibility": "All text inside 10% safe margins; strong contrast (dark panel behind headline); avoid placing text over detailed shoe areas; minimum font size readable on mobile."
+          },
+          "negative_prompt": "Any brand logos, swooshes, stripes, trademark shapes, watermarks, QR codes, copyrighted characters, recognizable faces or people, busy backgrounds, extra shoes beyond the pair, additional products (bags, jeans, socks), dirt/scuffs, yellowed whites, low resolution, motion blur, overexposure, harsh reflections, illegible text, misspelled Spanish, price tags, fake reviews, claims about measurements (cm) or weight, claims about materials beyond 'synthetic', medical/orthopedic claims."
+        },
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A3_V2",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product": "Tenis Barbara (tenis de plataforma blanco talco, cordones, material sintético; sin logos)",
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "background": "Clean off-white background with subtle paper texture",
+            "props": "Minimal abstract pedestal shadow only (no physical pedestal)"
+          },
+          "prompt": "Design a fashion-trend ecommerce thumbnail in 1:1 showing ONLY the Tenis Barbara talc-white platform sneakers. Use a top-down diagonal composition: one shoe slightly overlapping the other, toe pointing to bottom-right, emphasizing the bold platform silhouette. Background: off-white with very subtle paper texture and a faint gray shadow ellipse under the shoes. Add a minimal 'trend' graphic: thin black arrow + small label-like line (no brand names) pointing to the platform sole area. Keep the product ultra-sharp, high contrast, clean whites, natural laces, no logos. Leave clear negative space on the top-right for headline text.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Plataforma bold, look limpio",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Shoes occupy ~65% of frame; crisp edges and texture; platform sole highlighted by angle and lighting; no other objects.",
+            "text_legibility": "Keep headline on clean background area; ensure outline/contrast; badges not overlapping shoes; all text within 10% safe margin."
+          },
+          "negative_prompt": "Logos/branding of any kind, watermarks, people or faces, lifestyle scenes, street backgrounds, clutter, additional footwear models, colored shoes, metallic/glossy patent look, exaggerated platform height, fake stitching details, text artifacts, unreadable typography, price/discount claims, claims about being 'original' of other brands, measurements in cm, medical/comfort guarantees not provided."
+        },
+        {
+          "task": "meta_square_thumbnail",
+          "thumbnail": "tenis_barbara_A3_V3",
+          "variant": "with_text",
+          "format": {
+            "aspect_ratio": "1:1",
+            "resolution": "1080x1080",
+            "safe_margin_percent": 10
+          },
+          "input_assets": {
+            "product": "Tenis Barbara (tenis de plataforma blanco talco, cordones, material sintético; sin logos)",
+            "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+            "background": "High-contrast split background: left matte black, right warm white",
+            "props": "Abstract soft spotlight gradient only"
+          },
+          "prompt": "Create a bold, high-conversion split-background thumbnail (1080x1080). Show ONLY the Tenis Barbara talc-white platform sneakers as the hero, positioned slightly left of center, 3/4 angle with both shoes visible. Background split vertically: left side matte black, right side warm white; add a soft spotlight gradient behind the shoes to make the white sneakers pop. Lighting: crisp studio, strong edge separation, no harsh glare. Add minimal fashion graphics: a thin white wave line crossing the split subtly behind the shoes (non-branded). Reserve clean space on the right (white side) for headline and badges.",
+          "text_overlays": [
+            {
+              "id": "headline",
+              "text_exact": "Blanco tendencia total",
+              "placement": {
+                "anchor": "bottom_center",
+                "x_percent": 50,
+                "y_percent": 88,
+                "max_width_percent": 92,
+                "max_height_percent": 14
+              },
+              "typography": {
+                "font_family": "Bold clean sans-serif",
+                "weight": 900,
+                "alignment": "center"
+              },
+              "style": {
+                "fill": "white",
+                "stroke": "dark outline (thick)",
+                "shadow": "subtle"
+              }
+            },
+            {
+              "id": "badge_free_shipping",
+              "text_exact": "Envío gratis",
+              "placement": {
+                "anchor": "top_left",
+                "x_percent": 12,
+                "y_percent": 12,
+                "max_width_percent": 28,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, solid color, high contrast",
+                "fill": "white"
+              }
+            },
+            {
+              "id": "badge_cod",
+              "text_exact": "Pago contraentrega",
+              "placement": {
+                "anchor": "top_right",
+                "x_percent": 88,
+                "y_percent": 14,
+                "max_width_percent": 34,
+                "max_height_percent": 10
+              },
+              "typography": {
+                "font_family": "Clean sans-serif",
+                "weight": 800,
+                "alignment": "center"
+              },
+              "style": {
+                "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                "fill": "white"
+              }
+            }
+          ],
+          "composition_rules": {
+            "focus": "Sneakers are the largest and sharpest element; strong contrast against split background; platform sole clearly visible; no distractions.",
+            "text_legibility": "Place text only on the clean white half; maintain safe margins; ensure sufficient contrast and spacing between headline and badges."
+          },
+          "negative_prompt": "Any brand logos, trademark patterns, watermarks, people/faces/hands, busy textures, additional products, colored accents on shoes, dirty or worn shoes, over-stylized CGI, extreme perspective distortion, lens flare, unreadable or extra text beyond overlays, price/discount stickers, claims about durability or measurements not provided, copyrighted characters."
+        }
+      ]
+    }
+  ]
+}

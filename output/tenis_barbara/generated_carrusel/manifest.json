@@ -1,0 +1,38 @@
+{
+  "product_name": "tenis_barbara",
+  "generated_at_utc": "2026-01-04T00:42:42Z",
+  "image_size": "4K",
+  "aspect_ratio": "1:1",
+  "model_candidates": [
+    "gemini-3-pro-image-preview"
+  ],
+  "max_ref_images": 5,
+  "inputs": {
+    "carrusel_json": "output/tenis_barbara/nanobanana_carrusel_tenis_barbara.json",
+    "product_images_dir": "output/tenis_barbara/product_images"
+  },
+  "outputs": [
+    {
+      "angle_index": 1,
+      "angle_id": "ANGLE_1",
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "card_index": 1,
+      "stage": "Attention+Interest",
+      "goal": "Capturar la atención con el diseño de plataforma destacando la altura, mientras introduces el confort de la plantilla.",
+      "thumbnail_field": "tenis_barbara_plataforma",
+      "output_path": "output/tenis_barbara/generated_carrusel/angle_01/tenis_barbara_plataforma.png",
+      "model_used": "gemini-3-pro-image-preview"
+    },
+    {
+      "angle_index": 1,
+      "angle_id": "ANGLE_1",
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "card_index": 2,
+      "stage": "Desire+Action",
+      "goal": "Highlight the benefits of style and comfort combined with an urge to purchase.",
+      "thumbnail_field": "tenis_barbara_comodidad",
+      "output_path": "output/tenis_barbara/generated_carrusel/angle_01/tenis_barbara_comodidad.png",
+      "model_used": "gemini-3-pro-image-preview"
+    }
+  ]
+}

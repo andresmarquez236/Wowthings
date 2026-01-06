@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "generated_at_utc": "2026-01-04T00:35:53.178690+00:00",
+    "model": "gpt-4o",
+    "market_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/tenis_barbara/market_research_min.json",
+    "caches": {
+      "hooks_pack": "output/tenis_barbara/hooks_pack.json",
+      "trends_pack": "output/tenis_barbara/trends_pack.json",
+      "video_rules_pack": "output/tenis_barbara/video_rules_pack.json"
+    },
+    "product": {
+      "nombre_producto": "Tenis Barbara",
+      "descripcion": "Tenis de plataforma, calzado urbano y casual.\nCaracterísticas: Suela gruesa, cierre con cordones, material principal sintético (comúnmente).",
+      "garantia": "10 dias",
+      "precio": "COP 150000",
+      "pais_objetivo": "Colombia"
+    }
+  },
+  "results": [
+    {
+      "angle_id": "ANGLE_1",
+      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
+      "buyer_persona": "Mujer 18–35 que busca verse más alta sin usar tacón y caminar cómoda todo el día",
+      "ad_copy": {
+        "title": "Camina alto y cómodo",
+        "primary_text": "Siente la altura y comodidad todo el día con Tenis Barbara. Potencia tu estilo sin sacrificar confort.",
+        "description": "Tenis de plataforma con plantilla memory foam para un día sin cansancio."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2 segundos",
+          "cadence_rule": "Cada 3 segundos, cambiar visual/proposicion/ritmo",
+          "change_definition": "El cambio puede envolver sujetos visuales, superposición de texto, o ritmo."
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¿Cansada de tacones incómodos?",
+            "visual": "Mujer joven poniendo cara de dolor mientras se quita tacones altos.",
+            "voiceover": "Cansada de tacones incómodos?",
+            "rhythm_editing": "Jump cut para acentuar el momento incómodo.",
+            "sfx_music": "Música ligeramente tensa.",
+            "transition": "Zoom rápido al rostro para aumentar el énfasis.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Descubre Tenis Barbara!",
+            "visual": "Primer plano de Tenis Barbara; enfoque en la suela gruesa y cierre con cordones.",
+            "voiceover": "Descubre Tenis Barbara...",
+            "rhythm_editing": "Transition rápida al mostrar el producto.",
+            "sfx_music": "Cambio a música alegre y motivadora.",
+            "transition": "Whip pan.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "¡Altura sin esfuerzo!",
+            "visual": "Mujer caminando por la calle, luciendo segura y cómoda con los Tenis Barbara.",
+            "voiceover": "Altura sin esfuerzo!",
+            "rhythm_editing": "Jump cuts rápidos de diferentes ángulos mientras camina.",
+            "sfx_music": "Continúa música alegre y motivadora.",
+            "transition": "Corte directo.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Comodidad de memory foam",
+            "visual": "Toma cercana de la mujer sonriendo y mirando sus zapatos; primeros planos de la plantilla interior.",
+            "voiceover": "Comodidad de memory foam.",
+            "rhythm_editing": "Mantén ritmo dinámico con un barrido suave.",
+            "sfx_music": "Ritmo musical se mantiene consistente.",
+            "transition": "Match cut.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "¿Preocupada por la pesadez?",
+            "visual": "Mujer probándose los tenis, levanta el pie mostrando ligereza.",
+            "voiceover": "¿Preocupada por la pesadez?",
+            "rhythm_editing": "Cortes rápidos de sus pies levantándose.",
+            "sfx_music": "Música mantiene continuidad suavemente.",
+            "transition": "Drop down cut.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Camina ligera, todo el día.",
+            "visual": "Secuencia de la mujer recorriendo diferentes ambientes, desde el parque hasta el centro comercial.",
+            "voiceover": "Camina ligera, todo el día.",
+            "rhythm_editing": "Rotación de escenas a alta velocidad.",
+            "sfx_music": "Sube el ritmo para finalizar con energía.",
+            "transition": "Wipe rápido.",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "¡Compra ahora en línea!",
+            "visual": "Pantalla final mostrando logo y sitio web para compra de los Tenis Barbara.",
+            "voiceover": "Compra ahora, en línea.",
+            "rhythm_editing": "Zoom out a logo y sitio web.",
+            "sfx_music": "Fade out en la música alegre.",
+            "transition": "Desvanecer a negro.",
+            "cta": "¡Compra ahora en línea!"
+          }
+        ],
+        "production_notes": [
+          "Usar luz natural cálida para resaltar el ambiente casual y cercano.",
+          "Capturas en exteriores para destacar versatilidad.",
+          "Mantener alineación de texto con eye-line del sujeto para mejor legibilidad.",
+          "Emplear estabilización de video para escenas en movimiento.",
+          "Uso de una cámara de acción para tomas en movimiento cercano al suelo.",
+          "Texto en pantalla grande y legible, de color contrastante.",
+          "Mantener la música en un volumen que no opaque el voiceover.",
+          "Incluir tomas de cuerpo completo y close-ups para diversidad visual.",
+          "Alternar entre narración y texto silencioso para mantener atención.",
+          "Incluir un fondant animado al inicio de cada escenaivelar cada bisual meystargar la atención."
+        ]
+      },
+      "hooks_used": [
+        "\"La solución que estabas esperando está aquí.\"",
+        "\"Únete a miles que ya han cambiado a...\"",
+        "\"Transforma tu experiencia de... hoy mismo.\"",
+        "\"Revoluciona tu rutina con...\"",
+        "\"Descubre lo que te has estado perdiendo.\"",
+        "\"Esto cambiará la forma en que ves...\""
+      ],
+      "compliance_notes": [
+        "No se incluyen afirmaciones médicas o de salud no verificadas.",
+        "Las declaraciones de comodidad se basan en características físicas de los productos.",
+        "No se mencionan datos no proporcionados sobre unidades disponibles o descuentos.",
+        "El texto y las afirmaciones visuales se centran en las características y descripciones de productos proporcionadas."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Hecho en Colombia y directo de fábrica (valor local + soporte cercano)",
+      "buyer_persona": "Compradora que valora producción nacional, precio justo y atención por WhatsApp",
+      "ad_copy": {
+        "title": "Compra local, apoya Colombia 🇨🇴👟",
+        "primary_text": "Procura productos colombianos con calidad garantizada y soporte cercano. ¡Descubre Tenis Barbara ahora!",
+        "description": "Hecho con amor, directo de fábrica. Sin intermediarios."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "0-2 seconds",
+          "cadence_rule": "3–3–3 cadence: change visual, text, or rhythm every 3 seconds",
+          "change_definition": "Visual, text overlay, and rhythm/tempo change"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "Compras directas de fábrica colombiana 🇨🇴",
+            "visual": "Close-up of Tenis Barbara being worn, bright vibrant colors, in motion",
+            "voiceover": "Locally-made, directly from the factory!",
+            "rhythm_editing": "Fast cut",
+            "sfx_music": "Upbeat Colombian music intro",
+            "transition": "Quick cross dissolve",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "¿Dudas sobre calidad? Descúbrelo tú misma.",
+            "visual": "User generating content - gallery style unboxing of the sneakers at home",
+            "voiceover": "Wonder about quality? Discover for yourself.",
+            "rhythm_editing": "Light jump cut",
+            "sfx_music": "Continues",
+            "transition": "Swipe transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Material sintético, estilo único.",
+            "visual": "Close-up of the thick sole and stitching details",
+            "voiceover": "Synthetic material, unique style.",
+            "rhythm_editing": "Slow zoom in",
+            "sfx_music": "Enhanced beat",
+            "transition": "Zoom cut",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Apoya lo local, recibe un trato especial.",
+            "visual": "Model walking confidently in the sneakers on a busy Colombian city street",
+            "voiceover": "Support local, get special treatment.",
+            "rhythm_editing": "Panning shot",
+            "sfx_music": "Flow into chorus",
+            "transition": "Whip pan",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "Lanzamientos frecuentes y asistencia directa.",
+            "visual": "Chat overlay showing WhatsApp customer service conversation",
+            "voiceover": "Frequent releases, direct assistance.",
+            "rhythm_editing": "Text pop",
+            "sfx_music": "Flow",
+            "transition": "Text wipe",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "10 días de garantía. ¡Compra ahora!",
+            "visual": "User-generated content showcasing different outfits with the sneakers",
+            "voiceover": "Ten days warranty. Shop now!",
+            "rhythm_editing": "Quick cuts between outfits",
+            "sfx_music": "Music swell",
+            "transition": "Spin transition",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Explora Tenis Barbara. Soporte por WhatsApp.",
+            "visual": "Bright call-to-action screen with WhatsApp logo and sneaker image",
+            "voiceover": "Explore Tenis Barbara today.",
+            "rhythm_editing": "Pause on call-to-action",
+            "sfx_music": "Music fade out",
+            "transition": "Fade out",
+            "cta": "Explora ahora"
+          }
+        ],
+        "production_notes": [
+          "Start with an eye-catching visual of the product in use within the first second.",
+          "Use bright, vibrant colors to highlight the local Colombian aspect.",
+          "Incorporate Colombian music to emphasize local production.",
+          "Utilize close-up and dynamic shots to keep visual interest high.",
+          "Include text overlays to reinforce key points and engage sound-off viewers.",
+          "Employ user-generated content to build trust and authenticity.",
+          "Highlight unique product features like the thick sole to address quality concerns.",
+          "Leverage a compelling call-to-action in the last 2 seconds."
+        ]
+      },
+      "hooks_used": [
+        "Apoya lo local y recibe un trato especial.",
+        "Material sintético, estilo único.",
+        "Compras directas de fábrica colombiana.",
+        "Descúbrelo tú misma.",
+        "Lanzamientos frecuentes y asistencia directa.",
+        "10 días de garantía. ¡Compra ahora!"
+      ],
+      "compliance_notes": [
+        "Ensure that all product claims align with given information and avoid unverifiable claims.",
+        "Be sensitive to linguistic accuracy when using Colombian cultural references.",
+        "When promoting product attributes, ensure clarity about materials like 'sintético'.",
+        "Avoid misleading claims about the extent of the 'direct' support offered."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Blanco versátil y tendencia global en plataformas",
+      "buyer_persona": "Fashion-first que quiere un par blanco que combine con todo y esté ‘en tendencia’",
+      "ad_copy": {
+        "title": "Tenis Barbara: en tendencia, siempre a la moda",
+        "primary_text": "¿Buscas un look blanco que nunca falla? ¡Descubre los Tenis Barbara! Plataforma y estilo que van con todo.",
+        "description": "Un must-have para el closet de cualquier amante de la moda. En tendencia y clásicos."
+      },
+      "video": {
+        "duration_seconds": 20,
+        "format": {
+          "aspect_ratio": "9:16",
+          "resolution": "1080x1920"
+        },
+        "structure_rules": {
+          "hook_window": "First 0-2 seconds",
+          "cadence_rule": "3-3-3 cadence: Change at least 2 elements every 3 seconds",
+          "change_definition": "Change can involve visual subject, on-screen text, and rhythm/editing style"
+        },
+        "beats": [
+          {
+            "beat_id": "B1",
+            "t_start": 0,
+            "t_end": 2,
+            "on_screen_text": "¡Increíble look blanco!",
+            "visual": "Close-up of model wearing Tenis Barbara in a trendy setting.",
+            "voiceover": "Looking for that perfect white sneaker that never goes out of style?",
+            "rhythm_editing": "Quick punch-in to focus on the sneaker's platform.",
+            "sfx_music": "Upbeat trendy music",
+            "transition": "Quick fade to next scene",
+            "cta": ""
+          },
+          {
+            "beat_id": "B2",
+            "t_start": 2,
+            "t_end": 5,
+            "on_screen_text": "Combina con todo",
+            "visual": "Cut to model walking through different cityscapes seamlessly.",
+            "voiceover": "Introducing the Tenis Barbara: white, versatile, and on-trend!",
+            "rhythm_editing": "Jump cuts with different backgrounds at each step.",
+            "sfx_music": "Continuing upbeat music",
+            "transition": "Whip pan to color palette on screen",
+            "cta": ""
+          },
+          {
+            "beat_id": "B3",
+            "t_start": 5,
+            "t_end": 8,
+            "on_screen_text": "Onda global en plataforma",
+            "visual": "Show sneakers from different angles, highlighting platform.",
+            "voiceover": "Embrace the global bold platform trend effortlessly.",
+            "rhythm_editing": "Smooth rotating shots of the sneaker.",
+            "sfx_music": "Continues",
+            "transition": "Zoom out to reveal casual outfit match",
+            "cta": ""
+          },
+          {
+            "beat_id": "B4",
+            "t_start": 8,
+            "t_end": 11,
+            "on_screen_text": "Cautiva en cada paso",
+            "visual": "Model stepping confidently, sneaker on cobblestones.",
+            "voiceover": "Step out with confidence and style.",
+            "rhythm_editing": "Slow-motion step to highlight the sole.",
+            "sfx_music": "Beat drops",
+            "transition": "Cut to testimonial",
+            "cta": ""
+          },
+          {
+            "beat_id": "B5",
+            "t_start": 11,
+            "t_end": 14,
+            "on_screen_text": "¡En tendencia, siempre!",
+            "visual": "Dynamic montage of street fashion shots with sneakers.",
+            "voiceover": "Always on trend, always in style!",
+            "rhythm_editing": "Fast-paced cuts synchronizing with music beats.",
+            "sfx_music": "Building tempo",
+            "transition": "Cut to logo",
+            "cta": ""
+          },
+          {
+            "beat_id": "B6",
+            "t_start": 14,
+            "t_end": 17,
+            "on_screen_text": "Lo que todos quieren",
+            "visual": "User-generated content clips praising the sneakers.",
+            "voiceover": "Join the trend everyone is talking about.",
+            "rhythm_editing": "Social media styled jump cuts.",
+            "sfx_music": "Tempo continues",
+            "transition": "Overlay of 'Shop Now'",
+            "cta": ""
+          },
+          {
+            "beat_id": "B7",
+            "t_start": 17,
+            "t_end": 20,
+            "on_screen_text": "Compra los tuyos hoy",
+            "visual": "Final shot of sneakers in store setting, close-up of box.",
+            "voiceover": "Get your pair today, as long as supplies last.",
+            "rhythm_editing": "Smooth pull-out focusing on product branding.",
+            "sfx_music": "Concludes with catchy beat",
+            "transition": "Fade-out",
+            "cta": "Buy now!"
+          }
+        ],
+        "production_notes": [
+          "Use vibrant lighting to make the white sneakers pop.",
+          "Incorporate on-screen text for every beat to support voiceover.",
+          "Maintain a high energy pace with quick cuts.",
+          "Leverage B-roll of urban environments to reflect versatility.",
+          "Position main scenes using center framing for focused attention.",
+          "Highlight platform feature through low-angle shots.",
+          "Use user-generated clips for social proof and relatability.",
+          "Ensure clear and bold typography for text overlays.",
+          "Incorporate rhythmic editing synced with music beat drops.",
+          "Capture the confidence and fashion-forward look in model expressions."
+        ]
+      },
+      "hooks_used": [
+        "\"Why everyone is talking about... right now.\"",
+        "\"Transform your... experience today.\"",
+        "\"Discover what you’ve been missing.\"",
+        "\"Your journey to... starts here.\"",
+        "\"Unveiling the future of...\""
+      ],
+      "compliance_notes": [
+        "Ensure the 'always on trend' claim is general and not quantifiable.",
+        "User-generated content should be authentic and permission-based.",
+        "Avoid suggesting the sneaker never goes out of style without substantiating attributes. ",
+        "Include clear indication of limited availability with 'as long as supplies last'."
+      ]
+    }
+  ]
+}

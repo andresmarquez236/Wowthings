@@ -48,7 +48,7 @@ except Exception:
 
 load_dotenv()
 
-MODEL = os.getenv("AIDA_AGENT_MODEL", "gpt-5-mini")
+MODEL = os.getenv("AIDA_AGENT_MODEL", "gpt-4o")
 MARKET_PATH = os.getenv("MARKET_RESEARCH_PATH", "output/market_research_min.json")
 OUTPUT_DIR = os.getenv("OUTPUT_DIR", "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -83,7 +83,13 @@ def get_output_text(resp: Any) -> str:
     if hasattr(resp, "choices") and resp.choices:
         content = resp.choices[0].message.content
         if not content:
-            raise RuntimeError("El modelo retornó contenido vacío (choices[0].message.content is None/Empty).")
+            # Check for refusal (Structured Outputs/Safety)
+            refusal = getattr(resp.choices[0].message, "refusal", None)
+            if refusal:
+                raise RuntimeError(f"El modelo rechazó la respuesta (Refusal): {refusal}")
+            
+            # Dump full message for debug
+            raise RuntimeError(f"El modelo retornó contenido vacío (content is None/Empty). Msg: {resp.choices[0].message}")
         return content
 
     # fallback scan

@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "run_date_iso": "2026-01-05",
+    "model": "GPT-4.1",
+    "locale_priority": "CO_first_then_LATAM"
+  },
+  "input": {
+    "nombre_producto": "Proyector De Astronauta Sentado",
+    "descripcion": "Importante tener presente que no aplica garantía por Color o Modelo, ya que se envía según disponibilidad y este producto no cuenta con variables.\n\nPROYECTOR DE ASTRONAUTA SENTADO\n\nProyector de estrella astronauta control, proyector de luz nocturna para niños de estrellas de techo de galaxia, proyector espacial ajustable para dormitorio, guardería y habitación de niños. La bonita cabeza de la lámpara robot astronauta se puede girar y desmontar. Tiene un brazo giratorio de 360°. A medida que la cabeza gira, puedes ajustar fácilmente el ángulo de proyección El proyector de estrellas Galaxy Night Light es un dispositivo versátil y encantador que trae las maravillas del cielo nocturno a tu hogar.\n\nMEDIDAS: 13 CM ANCHO 8 C M DE ALTO 10 CM DE LARGO (Agregar 1 cm a cada lado para embalaje)\n\nPESO: 165 GRAMOS (AGREGAR 100 GRAMOS POR EMBALAJE)\n\nMATERIAL PLÁSTICO\n\nproducto genérico",
+    "garantia": "10 DIAS GARANTÍAS\n\nImportante tener presente que no aplica garantía por Color o Modelo ya que se envía según disponibilidad y este producto no cuenta con variables.\n\no No aplica garantía sobre garantía.\n\nCondiciones para la devolución de un producto.\n\n· Para hacer efectiva la devolución, el producto debe entregarse debidamente protegido, cuidando el estado del empaque original, incluir todos los documentos y/o manuales y accesorios (si aplica). Además, el estado de la guía debe encontrarse en ENTREGADO, para así mismo proceder.\n\nGarantías por piezas Faltantes\n\n· Piezas faltantes o productos rotos, dañados y con abollonaduras: Para realizar un proceso de garantía, cuentas con máximo 2 días para reportarla a partir de la recepción del producto, a través de la plataforma, en la cual se debe especificar y argumentar la novedad con evidencias (fotos y videos del estado de recibido del producto con su empaque y la foto o video de la guía de recibido)\n\nLey de retracto\n\n· Ley 1480 de 2011/ Para ejercer el derecho de retracto, el consumidor debe devolver el producto al proveedor en las mismas condiciones en que lo recibió. Los costos de transporte y otros que conlleve la devolución corren por cuenta del consumidor. El término máximo para ejercer el derecho de retracto será de cinco (5) días hábiles, contados a partir de la entrega del producto. Se anulará automáticamente el derecho a retracto si el producto fue usado. o no viene en las mismas condiciones de entrega, con sus accesorios, sellos de seguridad, manuales y lo que conlleve el mismo.\nFallas de fábrica\n\n· Para realizar el reporte, cuentas con 30 días de garantía por funcionamiento y/o daños del producto que no estén relacionados con el correcto funcionamiento de este, es importante aportar las evidencias (video) donde el producto no este funcionando y se debe reportar mediante la plataforma.\n\nEn casos de cambios o devolución de las garantías.\n\n· En los casos que se apruebe una garantía por mal funcionamiento o cambio del producto. Se deberá enviar el producto inicial a nuestras bodegas. Una vez el producto llegue contaremos con 48 horas para el envió del producto por cambio o reparación de este.",
+    "precio": "$95.000"
+  },
+  "resumen_corto": "Producto genérico muy extendido en Colombia (Falabella, Homecenter, marketplaces). Alto atractivo visual y de regalo; bajo margen (validación interna). Estacionalidad marcada (picos Navidad/Amor y Amistad). Variantes múltiples (con/ sin Bluetooth, batería/USB). Riesgo de canibalización por alta competencia y precios bajos.",
+  "product_fingerprint": {
+    "marca": "Genérico (múltiples vendedores)",
+    "modelo": "Astronauta sentado / Mini Astronauta (aprox. 120 x 113 x 228 mm en algunas fichas)",
+    "categoria": "Luz nocturna / Proyector de galaxia y estrellas",
+    "specs_claims_clave": [
+      "LED RGB con nebulosa + estrellas verdes",
+      "Cabeza magnética giratoria 360°",
+      "Brazos articulables",
+      "Control remoto incluido",
+      "Temporizador 45/90 min (según ficha)",
+      "Alimentación USB 5V 1A; potencia ~5W",
+      "Distancia proyección ~2 m (según ficha)",
+      "Material ABS/PC/PVC",
+      "Uso: dormitorio, sala de juegos, cine en casa"
+    ],
+    "rango_precio_observado": "COP $49.900–$150.000",
+    "garantia_tipo": "Vendedor/marketplace 1–3 meses (varía); algunos listados 30 días; Homecenter 1 mes",
+    "variantes_detectadas": [
+      "Con parlante Bluetooth",
+      "Sin parlante",
+      "Con batería recargable vs. solo USB",
+      "Colores de carcasa (blanco/negro)",
+      "Tamaños mini/estándar"
+    ]
+  },
+  "top_5_angulos": [
+    {
+      "rank": 1,
+      "angulo": "Ritual de sueño infantil y ambiente tranquilo para dormir",
+      "score_0a10": 8.5,
+      "buyer_persona": "Madres y padres con hijos de 3–10 años en CO (Bogotá, Medellín, Cali)",
+      "promesa": "Crea un cielo estrellado relajante con brillo regulable y temporizador para acompañar el sueño sin pantallas.",
+      "objecion_principal": "¿Es demasiado luminoso o distrae? ¿De verdad ayuda a dormir?",
+      "justificacion": "Las fichas locales confirman modos de nebulosa, brillo ajustable y temporizador 45/90 min; se posiciona como luz nocturna para acompañar a niños a dormir. Coincide 100% con el fingerprint (control, 360°, uso dormitorio).",
+      "evidencia": [
+        {
+          "url": "https://tiendaupcolombia.com/products/proyector-de-galaxias-luna-astronauta",
+          "pais": "CO",
+          "match_note": "Menciona 8 nebulosas, estrellas verdes, temporizador 45/90 y uso para acompañar a niños a dormir; mismo formato astronauta 360°.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://colombia.yaxa.co/products/proyector-de-estrellas-de-astronauta-luz-de-galaxia-proyector-de-360-space-buddy-proyector-de-cielo-led-luz-nocturna-proyector-de-espacio/",
+          "pais": "CO",
+          "match_note": "Control remoto, ajuste de brillo, temporizador 45/90 min; diseño astronauta cabeza 360°. Coincide con fingerprint.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/700267/astronauta-proyector-de-estrellas-aurora-galaxia-luz-led/700267/",
+          "pais": "CO",
+          "match_note": "Homecenter: efecto galaxia, cabeza 360°, 1 mes garantía; especifica 5W y uso relajante. Mismo producto/variante genérica.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 2,
+      "angulo": "Ambiente para citas, cine en casa y momentos románticos",
+      "score_0a10": 7.5,
+      "buyer_persona": "Parejas 18–35, jóvenes que acondicionan cuarto/sala",
+      "promesa": "Convierte cualquier habitación en una galaxia para noches de cine o una cita en casa sin gastar mucho.",
+      "objecion_principal": "¿Se ve ‘pro’ o se siente juguete? ¿Molesta la luz?",
+      "justificacion": "Las descripciones locales incluyen ‘citas románticas’ y ‘ambiente tranquilo y romántico’. Brillo regulable y control remoto reducen fricción. Coincide con fingerprint (control, ajustes, 360°).",
+      "evidencia": [
+        {
+          "url": "https://tiendaupcolombia.com/products/proyector-de-galaxias-luna-astronauta",
+          "pais": "CO",
+          "match_note": "Usos: noches de cine y citas románticas, control remoto, brillo; mismo formato astronauta.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/product/700267/astronauta-proyector-de-estrellas-aurora-galaxia-luz-led/700267/",
+          "pais": "CO",
+          "match_note": "Texto: ‘ambiente tranquilo y romántico’; coincide con el mismo tipo y specs.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    },
+    {
+      "rank": 3,
+      "angulo": "Setup gamer/streaming y fondo estético para contenido",
+      "score_0a10": 7.0,
+      "buyer_persona": "Gamers, streamers y creadores de contenido (18–30)",
+      "promesa": "Fondo con efecto ‘galaxy’ para streams, reels y fotos; rotación 360° para encuadre perfecto.",
+      "objecion_principal": "¿Se ve bien en cámara? ¿Es fácil de dirigir al cuadro?",
+      "justificacion": "Listados mencionan uso en sala de juegos/gaming room; cabeza magnética 360° facilita direccionar la proyección. Coincide con fingerprint (360°, control).",
+      "evidencia": [
+        {
+          "url": "https://www.walmart.com/ip/17670774859",
+          "pais": "US (proxy LATAM)",
+          "match_note": "Título incluye ‘TikTok Viral’, ‘Bedroom Gaming Room Atmosphere Lamp’; mismo formato astronauta con 360° y control.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://hitcolombia.co/products/proyector-de-astronauta",
+          "pais": "CO",
+          "match_note": "Menciona 8 efectos de nebulosa; cabeza 360°; mismo producto en tienda CO.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Regalo llamativo y accesible (Navidad, Amor y Amistad, cumpleaños)",
+      "score_0a10": 7.0,
+      "buyer_persona": "Compradores de regalos 18–45 (detalles para pareja, niños, amigos)",
+      "promesa": "Regalo ‘wow’ por menos de $150.000 COP con alta percepción de valor y uso inmediato.",
+      "objecion_principal": "¿Es moda pasajera? ¿Se usa solo una vez?",
+      "justificacion": "Múltiples tiendas CO lo posicionan como regalo; precios 49.900–150.000 COP; artículos y listados lo asocian con épocas de regalo y viralidad en redes (proxy).",
+      "evidencia": [
+        {
+          "url": "https://www.falabella.com.co/falabella-co/product/129527595/Proyector-De-Estrellas-Galaxia-Astronauta-Nebulosa/129527596",
+          "pais": "CO",
+          "match_note": "Precio < $100.000 en marketplace reconocido; mismo modelo genérico.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://www.mercadolibre.com.co/regalos-romanticos-galaxia-proyector-de-estrellas/p/MCO2000680899",
+          "pais": "CO",
+          "match_note": "Categoría ‘Regalos románticos’ con texto de ocasión; coincide con formato astronauta y uso regalo.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.yahoo.com/lifestyle/bought-galaxy-projector-went-viral-154640043.html",
+          "pais": "US (proxy LATAM)",
+          "match_note": "Nota sobre ‘galaxy projector’ viral en TikTok y como regalo; apoyo de tendencia estacional.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Comodidad y control: mando a distancia, temporizador y cabeza 360°",
+      "score_0a10": 6.5,
+      "buyer_persona": "Usuarios prácticos que buscan ‘fácil de usar’ (padres ocupados, universitarios)",
+      "promesa": "Enciende, ajusta brillo/color y programa auto-apagado; dirige la proyección sin mover la base.",
+      "objecion_principal": "¿Trae control? ¿Tiene temporizador real?",
+      "justificacion": "Fichas locales confirman control remoto, temporizador 45/90 y cabeza 360°. Coincide al menos con 3 puntos del fingerprint.",
+      "evidencia": [
+        {
+          "url": "https://tiendaupcolombia.com/products/proyector-de-galaxias-luna-astronauta",
+          "pais": "CO",
+          "match_note": "Control remoto, brillo/velocidad, temporizador 45/90; mismo formato.",
+          "confianza": "Alta"
+        },
+        {
+          "url": "https://colombia.yaxa.co/products/proyector-de-estrellas-de-astronauta-luz-de-galaxia-proyector-de-360-space-buddy-proyector-de-cielo-led-luz-nocturna-proyector-de-espacio/",
+          "pais": "CO",
+          "match_note": "Ajuste de brillo y temporizador; coincide con diseño astronauta 360°.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Alta"
+    }
+  ],
+  "hooks_por_angulo": [
+    {
+      "rank_angulo": 1,
+      "hooks": [
+        "Buenas noches sin pantallas: estrellas ON, pelis OFF.",
+        "Tu peque bajo un cielo estrellado (y tú con descanso).",
+        "Programa 45/90 min y que Morfeo haga el resto.",
+        "Luz suave, sueño tranquilo: prueba el modo baja intensidad.",
+        "Ritual de sueño en 3 pasos: encender, atenuar, auto‑off.",
+        "Cabeza 360°: proyecta al techo, no a los ojos.",
+        "Control remoto desde la cama: cero levantadas.",
+        "Night light que sí encanta: sin ruidos, sin enredos.",
+        "Ideal para cuentos antes de dormir (modo nebulosa).",
+        "Regálale calma a su cuarto en 10 segundos."
+      ]
+    },
+    {
+      "rank_angulo": 2,
+      "hooks": [
+        "Convierte tu sala en galaxia para la peli de hoy.",
+        "Cita en casa + atmósfera aurora = plan ganador.",
+        "Brillo a tu gusto: romántico sin deslumbrar.",
+        "Ambientazo con presupuesto chill (desde $49.900).",
+        "De cena normal a noche ‘wow’ en un click.",
+        "Setea color ‘nebula’ y deja que fluya la charla.",
+        "Sin instalaciones: enchufa, apunta y disfruta.",
+        "Fotos con vibra cósmica para recordar la noche.",
+        "Deco + luz + mood en un solo gadget.",
+        "Tu playlist + luces: momento perfecto."
+      ]
+    },
+    {
+      "rank_angulo": 3,
+      "hooks": [
+        "Fondo ‘galaxy’ que destaca en streams y reels.",
+        "Rotación 360° para encuadrar tu setup exacto.",
+        "Modo nebulosa estable = menos flicker en cámara.",
+        "Sube el vibe de tu cuarto gamer sin gastar de más.",
+        "De pared plana a escena épica en segundos.",
+        "Tu branding, tu color: ajusta brillo y tono.",
+        "Silencioso y listo para live largo.",
+        "Haz b‑rolls con efecto espacio en segundos.",
+        "Ideal para unboxing y tomas nocturnas.",
+        "Level up estético sin mods permanentes."
+      ]
+    },
+    {
+      "rank_angulo": 4,
+      "hooks": [
+        "Regalo ganador por menos de $150k: ‘wow’ garantizado.",
+        "Para Navidad, Amor y Amistad o cumple: siempre sorprende.",
+        "Un detalle para niños y adultos (sin talla ni color).",
+        "Lista de regalos: check con galaxia en la sala.",
+        "De ‘¿qué llevo?’ a ‘¡lo amaron!’ en un click.",
+        "Entrega rápida y sin complicarte tallas.",
+        "Expresión: ‘¡Qué nota!’ asegurada al abrir.",
+        "Útil todo el año: deco, peli, fiestas.",
+        "Empaque ligero, fácil de envolver y enviar.",
+        "Regala momentos, no cosas: cielos en el techo."
+      ]
+    },
+    {
+      "rank_angulo": 5,
+      "hooks": [
+        "Controla todo desde el sofá: color, brillo y tiempo.",
+        "Auto‑apagado = cero sustos a medianoche.",
+        "Cabeza 360°: apunta exacto sin mover la base.",
+        "Cinco toques y listo: cero curva de aprendizaje.",
+        "Modo ‘baja’ para dormir, ‘alta’ para fiesta.",
+        "Sin tornillos ni taladros: plug & play.",
+        "Cable USB universal: conéctalo donde sea.",
+        "Ajustes rápidos para cambiar el mood al instante.",
+        "Mando incluido: no dependes del celular.",
+        "Configura y olvídate: vuelve solo al off."
+      ]
+    }
+  ],
+  "estacionalidad": {
+    "clasificacion": "Mixto",
+    "hechos": [
+      "Retail colombiano lo oferta todo el año (Falabella/Homecenter) con precios de entrada bajos, facilitando compra por impulso y regalo. citeturn3search0turn4search1",
+      "Asociación directa a regalos (Navidad/San Valentín/Amor y Amistad) en listados y guías; picos en temporada. citeturn6search6turn8search5",
+      "Cobertura mediática y listados ‘under $100 ahead of the holidays’ refuerzan compras navideñas (proxy). citeturn7search3",
+      "Menciones de ‘TikTok viral’ mantienen demanda por moda/estética (proxy). citeturn1search8"
+    ],
+    "hipotesis": [
+      "Pico fuerte en diciembre (Navidad) y repunte en septiembre (Amor y Amistad en Colombia). citeturn8search3",
+      "Micro‑picos en cumpleaños y Día del Niño/niñez (según campañas locales). citeturn8search4"
+    ],
+    "correlacion_con_angulos": "Ángulo 4 (regalo) se fortalece en Navidad y Amor y Amistad; Ángulo 1 (sueño infantil) mantiene ventas constantes (evergreen parcial); Ángulo 2/3 (romance/gamer) crece en fines de semana, vacaciones y eventos de streaming."
+  },
+  "checklist": [
+    {
+      "criterio": "Soluciona un problema?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Principalmente decorativo/ambiental; no hay evidencia clínica sólida de mejora del sueño.",
+      "fuentes": [
+        "https://tiendaupcolombia.com/products/proyector-de-galaxias-luna-astronauta"
+      ]
+    },
+    {
+      "criterio": "Se entiende su funcionalidad rapidamente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Uso simple: enchufar, controlar brillo/color, temporizador 45/90, cabeza 360°.",
+      "fuentes": [
+        "https://tiendaupcolombia.com/products/proyector-de-galaxias-luna-astronauta",
+        "https://colombia.yaxa.co/products/proyector-de-estrellas-de-astronauta-luz-de-galaxia-proyector-de-360-space-buddy-proyector-de-cielo-led-luz-nocturna-proyector-de-espacio/"
+      ]
+    },
+    {
+      "criterio": "Se le puede vender a una audiencia masiva?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Apto para niños y adultos; precio accesible en cadenas y marketplaces masivos.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/product/129527595/Proyector-De-Estrellas-Galaxia-Astronauta-Nebulosa/129527596",
+        "https://www.homecenter.com.co/homecenter-co/product/700267/astronauta-proyector-de-estrellas-aurora-galaxia-luz-led/700267/"
+      ]
+    },
+    {
+      "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Sugerido: encuesta rápida en audiencia objetivo o social proof local cuantificado.",
+      "fuentes": [
+        "No confirmado"
+      ]
+    },
+    {
+      "criterio": "Tiene un buen margen?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Validación interna de costos: margen no atractivo.",
+      "fuentes": [
+        "Validación interna de costos"
+      ]
+    },
+    {
+      "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Se vende en Homecenter y Falabella (marketplace), fácil acceso en CO.",
+      "fuentes": [
+        "https://www.homecenter.com.co/homecenter-co/product/700267/astronauta-proyector-de-estrellas-aurora-galaxia-luz-led/700267/",
+        "https://www.falabella.com.co/falabella-co/product/124881579/Astronauta-Proyector-De-Estrellas-Aurora-Galaxia-Luz-Led"
+      ]
+    },
+    {
+      "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "El efecto ‘wow’ existe, pero ya es un commodity con muchos vendedores; no es único.",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/search?Ntt=proyector%20astronauta"
+      ]
+    },
+    {
+      "criterio": "Esta en tendencia en otros paises o en otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "‘Galaxy/Astronaut projector’ con tracción en TikTok Shop y listados que mencionan ‘viral’.",
+      "fuentes": [
+        "https://shop.tiktok.com/view/product/1729478558750052520",
+        "https://www.yahoo.com/lifestyle/bought-galaxy-projector-went-viral-154640043.html"
+      ]
+    },
+    {
+      "criterio": "Existen pocos competidores vendiendolo?",
+      "cumple": "NO",
+      "confianza": "Alta",
+      "nota": "Alta competencia en CO (Falabella, Homecenter, múltiples tiendas y ML).",
+      "fuentes": [
+        "https://www.falabella.com.co/falabella-co/search?Ntt=proyector%20astronauta",
+        "https://www.mercadolibre.com.co/"
+      ]
+    },
+    {
+      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+      "cumple": "SI",
+      "confianza": "Media",
+      "nota": "Volúmenes de ventas en TikTok Shop (miles vendidos) y ‘TikTok viral’ en retail US (proxy).",
+      "fuentes": [
+        "https://shop.tiktok.com/view/product/1729478558750052520",
+        "https://www.walmart.com/ip/17670774859"
+      ]
+    },
+    {
+      "criterio": "Tu comprarias el producto?",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Criterio subjetivo del evaluador, no verificable.",
+      "fuentes": [
+        "No confirmado"
+      ]
+    },
+    {
+      "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
+      "cumple": "SI",
+      "confianza": "Alta",
+      "nota": "Abundantes fotos/videos en tiendas CO y plataformas; demostraciones embebidas.",
+      "fuentes": [
+        "https://hitcolombia.co/products/proyector-de-astronauta-con-parlante",
+        "https://tiendaupcolombia.com/products/proyector-de-galaxias-luna-astronauta"
+      ]
+    },
+    {
+      "criterio": "Es un producto evergreen?",
+      "cumple": "NO",
+      "confianza": "Media",
+      "nota": "Mixto con picos en temporadas de regalo (Navidad/Amor y Amistad); no 100% evergreen.",
+      "fuentes": [
+        "https://www.space.com/technology/best-star-projectors-under-100-dollars",
+        "https://www.elpais.com.co/colombia/dia-del-amor-y-la-amistad-2025-en-colombia-fecha-significado-y-tradiciones-2815.html"
+      ]
+    }
+  ],
+  "score_total": {
+    "total_si": 5,
+    "total_criterios": 13,
+    "cumple_9_de_15": false
+  },
+  "next_searches": [
+    "Confirmar variante exacta a vender: con/sin parlante Bluetooth; USB vs. batería recargable (buscar ‘manual/sku’ del proveedor).",
+    "Verificar tasa de devoluciones/defectos locales (consultar reseñas en Falabella/Homecenter por ‘proyector astronauta’).",
+    "Comparar márgenes reales por canal (ML vs. tienda propia) y costos logísticos en ciudades principales.",
+    "Probar captura UGC local (reels/TikTok CO) para validar ángulos 2 y 3 con CTR/engagement.",
+    "Revisar certificaciones de seguridad (láser/clase) y advertencias para uso infantil en fichas CO.",
+    "Analizar histórico de precio ML/Homecenter Q1–Q4 para mapear estacionalidad real CO."
+  ],
+  "missing_data_flags": [
+    "Garantía del producto en esta oferta concreta (entrada dice 10 días; retailers CO suelen ofrecer 30–90 días).",
+    "Definición exacta de temporizador (45/90) y si aplica a todas las variantes que se venden.",
+    "Confirmación de potencia real (5W) y distancia de proyección según el lote/ proveedor.",
+    "Peso y dimensiones definitivas del empaque para costos de envío.",
+    "Si la variante incluye o no Bluetooth parlante (múltiples listados muestran ambas)."
+  ]
+}

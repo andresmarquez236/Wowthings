@@ -1,0 +1,71 @@
+{
+  "sources": [
+    {
+      "url": "https://www.thinkwithgoogle.com/marketing-resources/video/6-sec-bumper-ads/",
+      "title": "Best practices for creating successful bumper ads on YouTube",
+      "published_date": "2018-09-01",
+      "used_for": "fast pacing, first 2-3 seconds, introducing proposition"
+    },
+    {
+      "url": "https://blog.hootsuite.com/facebook-video-ads/",
+      "title": "Facebook video ads: Best practices",
+      "published_date": "2020-07-10",
+      "used_for": "text overlays/captions, first 2-3 seconds"
+    },
+    {
+      "url": "https://business.instagram.com/a/best-practices-ads",
+      "title": "Instagram Ad Best Practices",
+      "published_date": "2021-05-20",
+      "used_for": "pacing, proposition, text overlays/captions"
+    },
+    {
+      "url": "https://blog.bufferapp.com/video-marketing-tips",
+      "title": "Video marketing tips for social media",
+      "published_date": "2019-03-15",
+      "used_for": "pacing, first 2-3 seconds, text overlays/captions"
+    }
+  ],
+  "rules_summary": [
+    "Capture attention within first 2-3 seconds.",
+    "Keep visuals dynamic; change shot or perspective every few seconds.",
+    "Introduce brand proposition early, ideally within first 5 seconds.",
+    "Make use of text overlays to reinforce message.",
+    "Maintain quick pacing; minimize static visuals.",
+    "Engage viewers through high contrast or lively colors.",
+    "Use captions to ensure understanding without sound.",
+    "Include brand elements early for recognition.",
+    "Focus on a single message and avoid clutter.",
+    "Adapt music or rhythm to retain engagement.",
+    "Ensure visual and text changes every 2-4 seconds to sustain attention.",
+    "Avoid complex scenes that require long attention span."
+  ],
+  "three_three_three_definition": [
+    "Alter visual elements every 3 seconds to keep engagement high.",
+    "Change text overlays or captions to introduce new information every 3 seconds.",
+    "Modify rhythm or music intensity every 3 seconds for dynamic flow.",
+    "Shift camera angles or zoom level to create a sense of motion.",
+    "Engage multiple senses by aligning visual, auditory, and textual shifts."
+  ],
+  "hook_0_2_rule": [
+    "Start with a bold, eye-catching visual or action.",
+    "Use bright colors or large text to capture immediate focus.",
+    "Establish the central theme or problem quickly.",
+    "Include a recognizable brand element right at the beginning."
+  ],
+  "pacing_editing_rules": [
+    "Keep shots under 5 seconds to maintain rhythm.",
+    "Utilize fast cuts to maintain viewer interest.",
+    "Transition frequently between scenes or settings every few seconds.",
+    "Ensure audio pacing matches video cuts for coherent experience.",
+    "Avoid long shots or extensive dialogues that slow pace.",
+    "Incorporate quick zooms or pans to maintain a sense of motion.",
+    "Echo visual changes with matched audio cues.",
+    "Utilize b-roll or cutaways to maintain visual interest.",
+    "Combine rapid edits with stable elements to avoid motion sickness.",
+    "Ensure no static frame exceeds 3 seconds.",
+    "Incorporate animations or text transitions to invigorate stale scenes.",
+    "Balance action with brief pauses to prevent fatigue.",
+    "Employ rhythmic editing to sync with music beats.",
+    "Refresh visuals or context within the impending 3-second window."
+  ]
+}
