@@ -11,6 +11,11 @@ import subprocess
 import sys
 import pandas as pd
 from typing import Dict, Any, List
+import os
+import sys
+
+from utils.logger import setup_logger
+logger = setup_logger("CheckListGen_Auto")
 
 # Import our new data source & update functions
 from info_products import get_filtered_products, update_product_status, log_study_result, download_product_images
@@ -21,43 +26,43 @@ parent_dir = os.path.dirname(current_dir)
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-try:
-    from spy_agent.apy_fb_library_agent import run_spy_flow
-    from spy_agent.process_info import slugify
-except ImportError as e:
-    print(f"⚠️ Could not import Spy Agent modules: {e}")
-    run_spy_flow = None
-    slugify = None
+    try:
+        from spy_agent.apy_fb_library_agent import run_spy_flow
+        from spy_agent.process_info import slugify
+    except ImportError as e:
+        logger.warning(f"Could not import Spy Agent modules: {e}")
+        run_spy_flow = None
+        slugify = None
 
-# Configuration
-BASE_OUTPUT_DIR = "output"
+    # Configuration
+    BASE_OUTPUT_DIR = "output"
 
-def safe_filename(name: str) -> str:
-    return "".join([c if c.isalnum() else "_" for c in name]).lower()
+    def safe_filename(name: str) -> str:
+        return "".join([c if c.isalnum() else "_" for c in name]).lower()
 
-def run_agent_for_product(product_name: str, description: str, warranty: str, price: str, margin_ok: bool = None, competitors_ok: bool = None) -> Dict[str, Any]:
-    """Runs the market_research_agent.py via subprocess and returns the parsed JSON."""
-    
-    clean_name = product_name
-    if clean_name.lower().startswith("ejemplo:"):
-        clean_name = clean_name[8:].strip()
-    
-    product_safe = safe_filename(clean_name)
-    product_output_dir = os.path.join(BASE_OUTPUT_DIR, product_safe)
-    os.makedirs(product_output_dir, exist_ok=True)
-    
-    market_research_file = os.path.join(product_output_dir, "market_research_min.json")
-    
-    research_script = os.path.join("research", "market_research_agent.py")
-    if not os.path.exists(research_script):
-        print(f"❌ Script not found: {research_script}")
-        return {}
+    def run_agent_for_product(product_name: str, description: str, warranty: str, price: str, margin_ok: bool = None, competitors_ok: bool = None) -> Dict[str, Any]:
+        """Runs the market_research_agent.py via subprocess and returns the parsed JSON."""
+        
+        clean_name = product_name
+        if clean_name.lower().startswith("ejemplo:"):
+            clean_name = clean_name[8:].strip()
+        
+        product_safe = safe_filename(clean_name)
+        product_output_dir = os.path.join(BASE_OUTPUT_DIR, product_safe)
+        os.makedirs(product_output_dir, exist_ok=True)
+        
+        market_research_file = os.path.join(product_output_dir, "market_research_min.json")
+        
+        research_script = os.path.join("research", "market_research_agent.py")
+        if not os.path.exists(research_script):
+            logger.error(f"Script not found: {research_script}")
+            return {}
 
-    env = os.environ.copy()
-    env["PYTHONPATH"] = os.getcwd()
+        env = os.environ.copy()
+        env["PYTHONPATH"] = os.getcwd()
 
-    cmd = [
-        sys.executable, research_script,
+        cmd = [
+            sys.executable, research_script,
         "--product", product_name,
         "--desc", description,
         "--warranty", warranty,
@@ -72,21 +77,21 @@ def run_agent_for_product(product_name: str, description: str, warranty: str, pr
         cmd.extend(["--competitors_ok", str(competitors_ok).lower()])
 
     try:
-        print(f"   🚀 Running agent for: {product_name}...")
+        logger.info(f"Running agent for: {product_name}...")
         subprocess.run(cmd, env=env, check=True, text=True, capture_output=True) 
         
         if os.path.exists(market_research_file):
             with open(market_research_file, 'r', encoding='utf-8') as f:
                 return json.load(f)
         else:
-            print("   ❌ Output file not created.")
+            logger.error("Output file not created.")
             return {}
     except subprocess.CalledProcessError as e:
-        print(f"   ❌ Execution failed: {e}")
-        print(f"   🔴 Stderr: {e.stderr}")
+        logger.error(f"Execution failed: {e}")
+        logger.error(f"Stderr: {e.stderr}")
         return {}
     except Exception as e:
-        print(f"   ❌ Unexpected error: {e}")
+        logger.error(f"Unexpected error: {e}")
         return {}
 
 def parse_currency(val: str) -> float:
@@ -123,10 +128,10 @@ def run_spy_and_get_competitor_status(product_name: str, product_desc: str) -> b
     False otherwise (or None if failed).
     """
     if not run_spy_flow or not slugify:
-        print("   ⚠️ Spy Agent not available. Assuming competitor check failed (None).")
+        logger.warning("Spy Agent not available. Assuming competitor check failed (None).")
         return None
 
-    print(f"   🕵️ Running Spy Agent for: {product_name}...")
+    logger.info(f"Running Spy Agent for: {product_name}...")
     try:
         # Run the full flow (Research -> Apify -> Process)
         run_spy_flow(
@@ -143,7 +148,7 @@ def run_spy_and_get_competitor_status(product_name: str, product_desc: str) -> b
         report_path = os.path.join(BASE_OUTPUT_DIR, product_slug, "apify_results", f"fblibrary_advertisers_rank_{product_slug}.json")
         
         if not os.path.exists(report_path):
-            print(f"   ⚠️ Spy report not found at: {report_path}")
+            logger.warning(f"Spy report not found at: {report_path}")
             return None
 
         with open(report_path, 'r', encoding='utf-8') as f:
@@ -155,31 +160,31 @@ def run_spy_and_get_competitor_status(product_name: str, product_desc: str) -> b
         # Additional logging
         scaling_list = metrics.get("scaling", [])
         scaling_names = [s.get('page_name', 'Unknown') for s in scaling_list]
-        print(f"   ℹ️ Spy Agent Result: producto_test={producto_test}. Scaling: {len(scaling_list)} ({', '.join(scaling_names)})")
+        logger.info(f"Spy Agent Result: producto_test={producto_test}. Scaling: {len(scaling_list)} ({', '.join(scaling_names)})")
         
         return producto_test
 
     except Exception as e:
-        print(f"   ❌ Error running Spy Agent: {e}")
+        logger.error(f"Error running Spy Agent: {e}")
         return None
 
 def main():
-    print(f"📡 Fetching products from info_products.py...")
+    logger.info("Fetching products from info_products.py...")
     try:
         # Returns list of tuples: (row_index, row_data)
         products_data = get_filtered_products()
     except Exception as e:
-        print(f"❌ Error fetching products: {e}")
+        logger.error(f"Error fetching products: {e}")
         return
 
     total_products = len(products_data)
-    print(f"🔎 Found {total_products} products to process (Filtered 'SI').")
+    logger.info(f"Found {total_products} products to process (Filtered 'SI').")
 
     # Mapping Updated for New Columns (A-L)
     for i, (row_idx, row) in enumerate(products_data):
         # Safety check for length (Need at least up to Warranty/Index 8)
         if len(row) < 9:
-            print(f"⚠️ Row {row_idx} has insufficient data. Skipping: {row}")
+            logger.warning(f"Row {row_idx} has insufficient data. Skipping: {row}")
             continue
 
         p_name = str(row[2]).strip()
@@ -195,12 +200,12 @@ def main():
         profit_val = parse_percentage(p_profit_raw)
         
         is_good_margin = (margin_val > 30000) and (profit_val > 17)
-        print(f"   💰 Margin Analysis: Val={margin_val}, Profit={profit_val}% -> Good? {is_good_margin}")
+        logger.info(f"Margin Analysis: Val={margin_val}, Profit={profit_val}% -> Good? {is_good_margin}")
 
         if not p_name: 
             continue
 
-        print(f"\n[{i+1}/{total_products}] Processing Row {row_idx}: {p_name}")
+        logger.info(f"[{i+1}/{total_products}] Processing Row {row_idx}: {p_name}")
         
         # 0. DOWNLOAD IMAGES FROM DRIVE
         # Replicate naming logic from research_product_querys.py to ensure it finds them
@@ -208,14 +213,14 @@ def main():
         spy_folder_name = p_name.lower().strip().replace(" ", "_")
         images_dir = os.path.join(BASE_OUTPUT_DIR, spy_folder_name, "product_images")
         
-        print(f"   📥 Ensuring images exist in: {images_dir}")
+        logger.info(f"Ensuring images exist in: {images_dir}")
         download_product_images(p_name, images_dir)
         
         # 1. RUN SPY AGENT FIRST
         competitors_ok = run_spy_and_get_competitor_status(p_name, p_desc)
         
         if competitors_ok is None:
-             print("   ⚠️ Spy Agent run failed or inconclusive. Proceeding without competitor check.")
+             logger.warning("Spy Agent run failed or inconclusive. Proceeding without competitor check.")
 
         # 2. RUN MARKET RESEARCH AGENT (Passing competitors_ok)
         data = run_agent_for_product(
@@ -228,7 +233,7 @@ def main():
         )
         
         if not data:
-            print("   ⚠️ No data returned. Skipping update.")
+            logger.warning("No data returned. Skipping update.")
             continue
 
         # Extract info
@@ -241,12 +246,12 @@ def main():
         try:
             update_product_status(row_idx, study_done="SI", approved_status=approved_str)
         except Exception as e:
-            print(f"   ❌ Failed to update product status: {e}")
+            logger.error(f"Failed to update product status: {e}")
 
         # 4. Log Result to 'Resultados_Estudio'
         res_row = {
             "Nombre Producto": p_name,
-            "APROBADO (>9/13)": approved_str,
+            "APROBADO (>9/12)": approved_str,
             "Precio": p_price,
             "Total SI": score_info.get("total_si", 0)
         }
@@ -258,9 +263,9 @@ def main():
         try:
             log_study_result(res_row)
         except Exception as e:
-            print(f"   ❌ Failed to log study result: {e}")
+            logger.error(f"Failed to log study result: {e}")
 
-    print("\n✅ All processing completed.")
+    logger.info("All processing completed.")
 
 if __name__ == "__main__":
     main()

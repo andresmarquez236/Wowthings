@@ -14,6 +14,12 @@ from PIL import Image, ImageOps
 from google import genai
 from google.genai import types
 
+import sys
+sys.path.append(os.getcwd())
+
+from utils.logger import setup_logger
+logger = setup_logger("MiniaturaGen_V1")
+
 
 # ---------------------------
 # Utilidades base
@@ -341,13 +347,13 @@ def generate_one_image_4k(
 
                 code, up = _safe_get_code_status(e)
                 if code == 429 or "RESOURCE_EXHAUSTED" in up:
-                    print(f"⚠️ 429/Quota en '{model_name}'. Backoff {wait_s:.1f}s (attempt {attempt}/{retries})")
+                    logger.warning(f"429/Quota en '{model_name}'. Backoff {wait_s:.1f}s (attempt {attempt}/{retries})")
                 else:
-                    print(f"⚠️ Error retriable en '{model_name}'. Backoff {wait_s:.1f}s (attempt {attempt}/{retries})")
+                    logger.warning(f"Error retriable en '{model_name}'. Backoff {wait_s:.1f}s (attempt {attempt}/{retries})")
 
                 time.sleep(wait_s)
 
-        print(f"… agoté retries en '{model_name}', probando siguiente modelo")
+        logger.warning(f"… agoté retries en '{model_name}', probando siguiente modelo")
 
     raise RuntimeError(f"No se pudo generar imagen con ningún modelo. Último error: {last_err}")
 
@@ -471,7 +477,7 @@ def run_product_generation(
             out_path = out_dir / f"{prompt_id}__4k.png"
 
             if out_path.exists() and not overwrite:
-                print(f"[SKIP] Ya existe {out_path.name}")
+                logger.info(f"[SKIP] Ya existe {out_path.name}")
                 results.append({
                     "angle_rank": angle_rank,
                     "angle_name": angle_name,
@@ -505,7 +511,7 @@ def run_product_generation(
             img4k = ensure_square_4k(img)
             img4k.save(out_path, format="PNG", optimize=False)
 
-            print(f"[OK] angle={angle_rank} prompt={prompt_id} -> {out_path.name} | model={used_model}")
+            logger.info(f"[OK] angle={angle_rank} prompt={prompt_id} -> {out_path.name} | model={used_model}")
 
             results.append({
                 "angle_rank": angle_rank,

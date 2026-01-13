@@ -9,6 +9,8 @@ from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
+from utils.logger import setup_logger
+logger = setup_logger("MarketResearch_V1")
 
 
 # =========================
@@ -22,7 +24,7 @@ Entregar SOLO un JSON final (estricto) con:
 1) top_5_angulos (rankeados, score 0-10, buyer_persona, justificación con evidencia)
 2) hooks_por_angulo (hooks en tendencia y optimizados para el producto y ese ángulo)
 3) estacionalidad (hechos vs hipótesis + correlación con ángulos)
-4) checklist (15 criterios SI/NO) con calificación MUY DURA y total (apunta a >=9/15)
+4) checklist (12 criterios SI/NO) con calificación MUY DURA y total (apunta a >=9/12)
 
 HERRAMIENTAS (OBLIGATORIO):
 - Usa web_search para investigar.
@@ -184,8 +186,8 @@ MARKET_MIN_SCHEMA: Dict[str, Any] = {
 
         "checklist": {
             "type": "array",
-            "minItems": 13,
-            "maxItems": 13,
+            "minItems": 12,
+            "maxItems": 12,
             "items": {
                 "type": "object",
                 "additionalProperties": False,
@@ -204,8 +206,8 @@ MARKET_MIN_SCHEMA: Dict[str, Any] = {
             "type": "object",
             "additionalProperties": False,
             "properties": {
-                "total_si": {"type": "integer", "minimum": 0, "maximum": 13},
-                "total_criterios": {"type": "integer", "enum": [13]},
+                "total_si": {"type": "integer", "minimum": 0, "maximum": 12},
+                "total_criterios": {"type": "integer", "enum": [12]},
                 "cumple_9_de_15": {"type": "boolean"},
             },
             "required": ["total_si", "total_criterios", "cumple_9_de_15"],
@@ -246,7 +248,7 @@ def run_market_research_agent_min(
 ) -> Dict[str, Any]:
     client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    # Checklist EXACTO (13 filas) como lo pediste
+    # Checklist EXACTO (12 filas) como lo pediste
     checklist_criterios = [
         "Soluciona un problema?",
         "Se entiende su funcionalidad rapidamente?",
@@ -257,7 +259,7 @@ def run_market_research_agent_min(
         "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
         "Esta en tendencia en otros paises o en otros mercados?",
         "Existen pocos competidores vendiendolo?",
-        "Tiene antecedente de buenas ventas en otros paises otros mercados?",
+        # "Tiene antecedente de buenas ventas en otros paises otros mercados?",  <-- REMOVED
         "Tu comprarias el producto?",
         "Tiene multimedia en internet a la que puedas acceder facilmente?",
         "Es un producto evergreen?"
@@ -283,7 +285,7 @@ def run_market_research_agent_min(
         "informacion_margen_verificada": margin_note,
         "informacion_competidores_verificada": competitors_note,
         "checklist_criterios_obligatorios": checklist_criterios,
-        "regla_minima": "Debe cumplir >= 9 de 13. Calificar MUY DURO. Si no hay evidencia, marcar NO + nota No confirmado.",
+        "regla_minima": "Debe cumplir >= 9 de 12. Calificar MUY DURO. Si no hay evidencia, marcar NO + nota No confirmado.",
     }
     resp = client.responses.create(
         model=model,
@@ -366,4 +368,4 @@ if __name__ == "__main__":
         competitors_goodness=competitors_good,
     )
     save_json(out, args.output)
-    print(f"✅ Guardado en {args.output}")
+    logger.info(f"Guardado en {args.output}")

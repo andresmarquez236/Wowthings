@@ -1,6 +1,6 @@
 {
   "schema_version": "nanobanana_image_v1",
-  "generated_at_utc": "2026-01-04T00:33:14.272876+00:00",
+  "generated_at_utc": "2026-01-08T00:00:44.034046+00:00",
   "product": {
     "nombre_producto": "Tenis Barbara",
     "descripcion": "Tenis de plataforma, calzado urbano y casual.\nCaracterísticas: Suela gruesa, cierre con cordones, material principal sintético (comúnmente).",
@@ -11,345 +11,368 @@
   "results_by_angle": [
     {
       "angle_id": "ANGLE_1",
-      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
-      "buyer_persona": "Mujer 18–35 que busca verse más alta sin usar tacón y caminar cómoda todo el día",
+      "angle_name": "Altura que estiliza sin tacón (plataforma discreta)",
+      "buyer_persona": "Mujer 18-34 urbana que busca verse más alta y estilizada sin usar tacones",
       "ad_copy": {
-        "title": "Altura sin esfuerzo",
-        "primary_text": "Añade centímetros a tu look y camina suave todo el día con los Tenis Barbara. No más sacrificios por estilo: plataforma XL y plantilla memory foam para máxima comodidad.",
-        "description": "Consigue el look que deseas sin comprometer el confort."
+        "title": "Estilo y altura sin esfuerzo",
+        "primary_text": "Sube tu estilo con los Tenis Barbara. Ofrecen una sutil plataforma que alarga tu figura sin perder la comodidad. Perfectos para tu día a día sin preocuparte por lucir exagerada.",
+        "description": "Alarga tu figura con los Tenis Barbara: comodidad y estilo sin tacones."
       },
       "single_image_prompt": {
-        "task": "Generate an image for social media ad.",
-        "thumbnail": "bright_light_urban_casual.jpg",
-        "variant": "v1",
+        "task": "Create a visually appealing and modern image focused on style and subtle height elevation for Tenis Barbara.",
+        "thumbnail": "https://link.to/thumbnail-image.jpg",
+        "variant": "fashion-real-life",
         "format": {
           "aspect_ratio": "1:1",
           "resolution": "1080x1080px",
-          "safe_margin_percent": 10
+          "safe_margin_percent": 5
         },
         "input_assets": {
-          "product_lock_rule": "Always show the product in realistic usage context."
+          "product_lock_rule": "Ensure the Tenis Barbara is the central focus, with visible branding or distinct features highlighted."
         },
-        "prompt": "Create a vibrant street-style scene featuring a young Latina woman wearing the Tenis Barbara, emphasizing the elevated platform. She is walking confidently on a busy urban sidewalk, with focus on her smiling expression as she looks casually stylish. Capture the texture and color of the shoes in detail, highlighting the platform height and the synthetic material. The surroundings should include blurred city motion to convey a sense of effortless movement. Use bright, natural daylight to enhance the setting.",
+        "prompt": "A fashionable urban setting during golden hour, showcasing a young woman confidently walking down a stylish street wearing the Tenis Barbara. The focus is on the sneakers with their platform subtly highlighted by the angle and lighting. The background includes soft, blurred city elements, with warm sunlight creating a trendy and elevated look for the entire scene.",
         "text_overlays": [
           {
             "id": "headline",
-            "text_exact": "Siente el poder",
+            "text_exact": "Más altura, más estilo",
             "placement": {
-              "anchor": "TOP_CENTER",
+              "anchor": "bottom",
               "x_percent": 50,
-              "y_percent": 5,
-              "max_width_percent": 90,
+              "y_percent": 90,
+              "max_width_percent": 80,
               "max_height_percent": 10
             },
             "typography": {
-              "font_family": "Arial",
+              "font_family": "Montserrat",
               "weight": 700,
               "alignment": "center"
             },
             "style": {
               "fill": "#FFFFFF",
-              "stroke": null,
-              "shadow": "#000000",
+              "stroke": "#000000",
+              "shadow": "#00000050",
               "badge": null
             }
           },
           {
             "id": "cta",
-            "text_exact": "¡Cómpralos ahora!",
+            "text_exact": "Compra ya",
             "placement": {
-              "anchor": "BOTTOM_CENTER",
-              "x_percent": 50,
-              "y_percent": 85,
-              "max_width_percent": 60,
-              "max_height_percent": 10
+              "anchor": "bottom_right",
+              "x_percent": 90,
+              "y_percent": 95,
+              "max_width_percent": 15,
+              "max_height_percent": 5
             },
             "typography": {
-              "font_family": "Arial",
+              "font_family": "Montserrat",
               "weight": 600,
               "alignment": "center"
             },
             "style": {
-              "fill": "#FFFFFF",
+              "fill": "#FF0000",
               "stroke": null,
-              "shadow": null,
-              "badge": "circle"
+              "shadow": "#00000050",
+              "badge": "rect_rounded_red"
             }
           },
           {
             "id": "badge",
             "text_exact": "Envío gratis",
             "placement": {
-              "anchor": "BOTTOM_LEFT",
-              "x_percent": 10,
-              "y_percent": 90,
-              "max_width_percent": 25,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Arial",
-              "weight": 600,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#FF0000",
-              "stroke": null,
-              "shadow": null,
-              "badge": null
-            }
-          },
-          {
-            "id": "badge",
-            "text_exact": "Pago contraentrega",
-            "placement": {
-              "anchor": "BOTTOM_RIGHT",
-              "x_percent": 90,
-              "y_percent": 90,
-              "max_width_percent": 25,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Arial",
-              "weight": 600,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#FF0000",
-              "stroke": null,
-              "shadow": null,
-              "badge": null
-            }
-          }
-        ],
-        "composition_rules": {
-          "focus": "The woman's confident expression and the height of the platform shoes.",
-          "hierarchy": "Focus on footwear, then on the woman's overall vibe in the urban setting.",
-          "text_safe_zone": "Top 10% and bottom 10% for primary text overlays.",
-          "text_never_cover_rule": "Product details and woman's expression should remain unobstructed."
-        },
-        "negative_prompt": "Avoid dark and moody tones, overly crowded scenes, or elements that obscure the shoes."
-      },
-      "hooks_used": [
-        "Plataforma XL que estiliza tus looks sin cansarte",
-        "Camina suave, luce poderosa: Barbara lo hace por ti"
-      ],
-      "compliance_notes": [
-        "Do not claim medical benefits."
-      ]
-    },
-    {
-      "angle_id": "ANGLE_2",
-      "angle_name": "Hecho en Colombia y directo de fábrica (valor local + soporte cercano)",
-      "buyer_persona": "Compradora que valora producción nacional, precio justo y atención por WhatsApp",
-      "ad_copy": {
-        "title": "Calzado Colombiano a tu Alcance",
-        "primary_text": "Descubre Tenis Barbara, hechos en Colombia con soporte directo. Compra local y luce un estilo global. No pagues más por menos, ¡paga por calidad!",
-        "description": "Apoya lo nuestro con cada paso. Cómodos, a precio justo y con atención por WhatsApp."
-      },
-      "single_image_prompt": {
-        "task": "Create a Thumb-stopping image ad for Tenis Barbara focused on their Colombian origin, fair price, and direct support.",
-        "thumbnail": "tenis_barbara_thumb.jpg",
-        "variant": "local_production_highlight.jpg",
-        "format": {
-          "aspect_ratio": "1:1",
-          "resolution": "1080x1080px",
-          "safe_margin_percent": 5
-        },
-        "input_assets": {
-          "product_lock_rule": "Must showcase Tenis Barbara prominently with emphasis on design."
-        },
-        "prompt": "An image of the Tenis Barbara shoes prominently displayed on a light, textured background reminiscent of Colombian textiles or traditional designs. The sneakers are positioned slightly at an angle to showcase the thick sole and overall design. In the foreground, a subtle but clear Colombian flag badge is visible. Bright, natural lighting highlights the shoe's details and texture. A subtle shadow creates depth under the shoes.",
-        "text_overlays": [
-          {
-            "id": "headline",
-            "text_exact": "Hecho en Colombia",
-            "placement": {
-              "anchor": "top_center",
-              "x_percent": 50,
-              "y_percent": 5,
-              "max_width_percent": 90,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Arial",
-              "weight": 700,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#FF5733",
-              "stroke": null,
-              "shadow": "2px 2px 5px rgba(0,0,0,0.3)",
-              "badge": null
-            }
-          },
-          {
-            "id": "cta",
-            "text_exact": "¡Compra ya!",
-            "placement": {
-              "anchor": "bottom_center",
-              "x_percent": 50,
-              "y_percent": 90,
-              "max_width_percent": 80,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Arial",
-              "weight": 700,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#28A745",
-              "stroke": null,
-              "shadow": "2px 2px 5px rgba(0,0,0,0.3)",
-              "badge": null
-            }
-          }
-        ],
-        "composition_rules": {
-          "focus": "To highlight the Tenis Barbara at the center of the image with the flag and textures complementing the layout.",
-          "hierarchy": "1. Product, 2. Hecho en Colombia headline, 3. CTA",
-          "text_safe_zone": "Ensure all text is within the central 80% of the image, allowing visibility across platforms.",
-          "text_never_cover_rule": "Text should not cover the main areas of the sneakers, especially the sole."
-        },
-        "negative_prompt": "Avoid cluttered backgrounds or any elements that detract from the shoes. Do not use dark or muted lighting."
-      },
-      "hooks_used": [
-        "Directo de fábrica: precio justo y soporte real por WhatsApp",
-        "Hechas en Colombia, pensadas para tu día a día",
-        "Compra local con estilo global (hecho en Bucaramanga)"
-      ],
-      "compliance_notes": [
-        "Ensure no medical claims are made about the product.",
-        "Focus on the local production benefits and support."
-      ]
-    },
-    {
-      "angle_id": "ANGLE_3",
-      "angle_name": "Blanco versátil y tendencia global en plataformas",
-      "buyer_persona": "Fashion-first que quiere un par blanco que combine con todo y esté ‘en tendencia’",
-      "ad_copy": {
-        "title": "Eleva tu estilo con Barbara",
-        "primary_text": "Haz que tus pasos hablen por sí solos con los Tenis Barbara: la silueta blanca que transforma cualquier outfit y nunca pasa de moda.",
-        "description": "Lleva el look urbano con las plataformas que todos quieren. ¡Descubre el poder del blanco talco!"
-      },
-      "single_image_prompt": {
-        "task": "Create a fashionable and modern promotional image for social media.",
-        "thumbnail": "modern_platform_shoes_white",
-        "variant": "2024Q1_angle_3_hw_fashion",
-        "format": {
-          "aspect_ratio": "1:1",
-          "resolution": "1080x1080",
-          "safe_margin_percent": 5
-        },
-        "input_assets": {
-          "product_lock_rule": "Use only official product images"
-        },
-        "prompt": "A pair of white platform sneakers (Tenis Barbara) elegantly placed against a stylish, urban background. The scene should be vibrant, highlighting the shoes with professional lighting that casts a soft glow accentuating their clean, minimalistic design. The background can suggest a fashionable street style vibe or a modern wardrobe setting, suggesting versatility. Use a blend of natural daylight and soft studio lights to create a crisp and inviting atmosphere. Focus should be on the shoes, ensuring they are the focal point of the image, with the background slightly blurred to add depth and emphasis.",
-        "text_overlays": [
-          {
-            "id": "headline",
-            "text_exact": "Estilo que trasciende",
-            "placement": {
               "anchor": "top_left",
               "x_percent": 10,
               "y_percent": 10,
-              "max_width_percent": 80,
-              "max_height_percent": 15
+              "max_width_percent": 20,
+              "max_height_percent": 8
             },
             "typography": {
               "font_family": "Montserrat",
-              "weight": 700,
+              "weight": 600,
               "alignment": "left"
             },
             "style": {
               "fill": "#FFFFFF",
-              "stroke": "#000000",
-              "shadow": "rgba(0,0,0,0.5)",
+              "stroke": null,
+              "shadow": "#00000050",
+              "badge": "circle_green"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "The primary focus is on the sneakers, with the top third of the image containing the model's torso, while the bottom two-thirds feature the sneakers prominently.",
+          "hierarchy": "Sneakers are the main focus, followed by the model's posture suggesting confidence, and finally the street styling that suggests urban living.",
+          "text_safe_zone": "Ensure text overlays are in the top and bottom areas, avoiding the center where the sneakers are displayed.",
+          "text_never_cover_rule": "Text should never cover the sneakers or the model's lower body."
+        },
+        "negative_prompt": "Avoid cluttered backgrounds and overly complex cityscapes that distract from the product."
+      },
+      "hooks_used": [
+        "Piernas más largas en segundos. Plataforma discreta, efecto WOW.",
+        "Sube tu confianza, no los centímetros del tacón."
+      ],
+      "compliance_notes": [
+        "Avoid direct medical claims about posture or orthopedic benefits.",
+        "Ensure no over-exaggeration of shoe dimensions beyond their true size."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Comodidad todo el día (plantilla memory foam + suela gruesa)",
+      "buyer_persona": "Estudiante/office casual que camina mucho y prioriza confort sin perder estilo",
+      "ad_copy": {
+        "title": "Comodidad que dura todo el día",
+        "primary_text": "Olvídate de pies cansados. Con los Tenis Barbara, la plantilla memory foam y suela gruesa aseguran suavidad en cada paso, desde el aula hasta la oficina. Ideal para quienes buscan estilo sin sacrificar confort.",
+        "description": "Descubre la fusión perfecta entre moda y comodidad con los Tenis Barbara."
+      },
+      "single_image_prompt": {
+        "task": "GEN_IMAGE",
+        "thumbnail": "https://example.com/image-preview.jpg",
+        "variant": "default",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080",
+          "safe_margin_percent": 10
+        },
+        "input_assets": {
+          "product_lock_rule": "Fixed angle, showing full shoe from side, close-up of texture."
+        },
+        "prompt": "A pair of stylish platform sneakers, prominently displayed in an urban setting. The sneakers, vibrant white with clean lines, rest on a smooth sidewalk with a softly blurred cityscape background. A subtle shadow casts from the shoes, emphasizing the memory foam and chunky sole design. Sunlight reflects gently on the surface, highlighting the synthetic material. The scene conveys a feeling of modern comfort and youthful energy.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "Comodidad todo el día",
+            "placement": {
+              "anchor": "top",
+              "x_percent": 50,
+              "y_percent": 10,
+              "max_width_percent": 80,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Helvetica",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#000000 2px 2px 4px",
               "badge": null
             }
           },
           {
             "id": "cta",
-            "text_exact": "Compra ahora",
+            "text_exact": "¡Compra ahora!",
             "placement": {
-              "anchor": "bottom_center",
+              "anchor": "bottom",
               "x_percent": 50,
               "y_percent": 90,
               "max_width_percent": 60,
-              "max_height_percent": 10
+              "max_height_percent": 8
             },
             "typography": {
-              "font_family": "Montserrat",
+              "font_family": "Helvetica",
               "weight": 600,
               "alignment": "center"
             },
             "style": {
-              "fill": "#FFFFFF",
-              "stroke": "#000000",
-              "shadow": "rgba(0,0,0,0.5)",
-              "badge": null
+              "fill": "#FFD700",
+              "stroke": null,
+              "shadow": "#000000 1px 1px 3px",
+              "badge": "rounded"
             }
           },
           {
             "id": "badge_free_shipping",
             "text_exact": "Envío gratis",
             "placement": {
-              "anchor": "top_right",
-              "x_percent": 90,
-              "y_percent": 5,
-              "max_width_percent": 25,
-              "max_height_percent": 10
+              "anchor": "bottom-left",
+              "x_percent": 15,
+              "y_percent": 85,
+              "max_width_percent": 20,
+              "max_height_percent": 8
             },
             "typography": {
-              "font_family": "Montserrat",
-              "weight": 600,
-              "alignment": "center"
+              "font_family": "Helvetica",
+              "weight": 700,
+              "alignment": "left"
             },
             "style": {
-              "fill": "#F3C614",
+              "fill": "#FF6347",
               "stroke": null,
               "shadow": null,
-              "badge": "circle"
+              "badge": "ribbon"
             }
           },
           {
-            "id": "badge_cash_delivery",
-            "text_exact": "Pago contraEntrega",
+            "id": "badge_cod",
+            "text_exact": "Pago contraentrega",
             "placement": {
-              "anchor": "bottom_right",
+              "anchor": "bottom-right",
               "x_percent": 85,
-              "y_percent": 95,
-              "max_width_percent": 35,
-              "max_height_percent": 10
+              "y_percent": 85,
+              "max_width_percent": 20,
+              "max_height_percent": 8
             },
             "typography": {
-              "font_family": "Montserrat",
-              "weight": 600,
-              "alignment": "center"
+              "font_family": "Helvetica",
+              "weight": 700,
+              "alignment": "right"
             },
             "style": {
-              "fill": "#F3C614",
+              "fill": "#FF6347",
               "stroke": null,
               "shadow": null,
-              "badge": "rectangle"
+              "badge": "ribbon"
             }
           }
         ],
         "composition_rules": {
-          "focus": "The sneakers (Tenis Barbara)",
-          "hierarchy": "Main focus is on the shoes, text overlays should not distract from the product",
-          "text_safe_zone": "Overlay text within provided margin zones",
-          "text_never_cover_rule": "Do not cover the sneakers or logo with text"
+          "focus": "Center on the sneaker showing side profile with emphasis on sole and foam texture.",
+          "hierarchy": "Sneaker -> Headline -> CTA -> Badges",
+          "text_safe_zone": "10% inside from edges",
+          "text_never_cover_rule": "Never cover the shoe's sole and memory foam texture."
         },
-        "negative_prompt": "Avoid cluttered backgrounds or any other apparel that might distract from the main product."
+        "negative_prompt": "Avoid cluttered backgrounds and low-light settings."
       },
       "hooks_used": [
-        "El par blanco que combina con todo (de verdad)",
-        "Trend alert: plataformas que elevan tu outfit"
+        "Plantilla memory foam: pisa suave todo el día.",
+        "Más amortiguación, menos cansancio. Así de simple.",
+        "Suela chunky estable: comodidad real, no solo moda."
       ],
       "compliance_notes": [
-        "Ensure the product image used is from official sources.",
-        "Avoid any health or excessive comfort claims related to the footwear."
+        "Ensure that all claims regarding comfort are based on product features and user testimonials without using medical language.",
+        "The image must focus on lifestyle appeal without implying specific health outcomes."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Versatilidad de outfit (blanco que combina con todo)",
+      "buyer_persona": "Mujer que busca un par “comodín” para universidad, oficina casual y salidas",
+      "ad_copy": {
+        "title": "¡Combina Con Todo!",
+        "primary_text": "Descubre la versatilidad de los Tenis Barbara. Perfectos para cualquier ocasión: universidad, oficina casual o salidas entre amigas. Elegancia sin esfuerzo y estilo ilimitado con un solo par.",
+        "description": "De jeans a vestido, siempre lista con los Tenis Barbara."
+      },
+      "single_image_prompt": {
+        "task": "Create an eye-catching and stylish image showcasing the Barbara sneakers.",
+        "thumbnail": "https://path/to/your/image.jpg",
+        "variant": "1",
+        "format": {
+          "aspect_ratio": "1:1",
+          "resolution": "1080x1080",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "Product must be clearly visible and central in the composition."
+        },
+        "prompt": "A stylish woman in an urban setting, effortlessly transitioning from day to night outfits with Barbara sneakers. She stands confidently on a street, surrounded by a blurred, bustling cityscape that suggests versatility and motion. The high contrast lighting highlights the pristine white sneakers she's wearing, making them the focal point. The composition is balanced, with her outfit seamlessly transitioning from casual jeans and a t-shirt to a smart-casual dress with a jacket, suggesting adaptability and elegance. Sunlight streams through tall buildings casting soft shadows, enhancing the urban chic vibe.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "¡Combina Con Todo!",
+            "placement": {
+              "anchor": "top",
+              "x_percent": 50,
+              "y_percent": 10,
+              "max_width_percent": 80,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Poppins",
+              "weight": 700,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#000000 2px 2px 3px",
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "Compra Ahora",
+            "placement": {
+              "anchor": "bottom",
+              "x_percent": 50,
+              "y_percent": 90,
+              "max_width_percent": 40,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Poppins",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#000000 2px 2px 3px",
+              "badge": null
+            }
+          },
+          {
+            "id": "badge1",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "bottom-left",
+              "x_percent": 10,
+              "y_percent": 90,
+              "max_width_percent": 30,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Poppins",
+              "weight": 600,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#FFD700",
+              "stroke": null,
+              "shadow": null,
+              "badge": "ribbon"
+            }
+          },
+          {
+            "id": "badge2",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom-right",
+              "x_percent": 90,
+              "y_percent": 90,
+              "max_width_percent": 40,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Poppins",
+              "weight": 600,
+              "alignment": "right"
+            },
+            "style": {
+              "fill": "#FFD700",
+              "stroke": null,
+              "shadow": null,
+              "badge": "ribbon"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "The sneakers should be the clear focal point, with the model's outfit suggesting versatility.",
+          "hierarchy": "Sneakers > Outfit transitions > Urban background",
+          "text_safe_zone": "Ensure text overlays stay within top 15% and bottom 15% of the image to avoid clutter and maintain visual harmony.",
+          "text_never_cover_rule": "Do not cover the sneakers or main outfit elements in the center of the image."
+        },
+        "negative_prompt": "Blurred sneakers, dark or dingy settings, cluttered backgrounds, overly dramatic shadows."
+      },
+      "hooks_used": [
+        "Blanco que combina con todo (literal).",
+        "De la U a la oficina casual sin cambiarte los tenis.",
+        "Limpios = elegantes. Súmale una chaqueta y listo."
+      ],
+      "compliance_notes": [
+        "Ensure text overlays do not obscure the product."
       ]
     }
   ]

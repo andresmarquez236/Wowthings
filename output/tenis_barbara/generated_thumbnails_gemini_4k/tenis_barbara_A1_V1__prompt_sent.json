@@ -8,15 +8,15 @@
     "safe_margin_percent": 10
   },
   "input_assets": {
+    "product": "Tenis Barbara (tenis blancos de plataforma, urbano/casual, cierre con cordones, material sintético)",
     "product_lock_rule": "CRITICAL: The provided images are the EXACT product reference. You MUST generate the product exactly as shown in these reference images, maintaining its key visual features, logo placement (if any), and packaging details. Do NOT hallucinate a different model. CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
-    "product": "Tenis Barbara (tenis de plataforma blancos, suela XL, cordones, material sintético; plantilla memory foam)",
-    "background_assets": "none"
+    "additional_assets": "None"
   },
-  "prompt": "Create a high-conversion ecommerce square thumbnail (1080x1080) featuring ONLY the 'Tenis Barbara' white platform sneakers for women. Photorealistic studio product shot: a pair of white platform sneakers with thick XL sole and lace-up closure, synthetic upper, clean white color. Hero product large (fills ~70% of frame), sharp focus, crisp edges, realistic shadows. Angle emphasis: visible thick platform sole (XL) and comfort cue for memory foam via subtle visual metaphor (soft gradient cushion under insole area, without adding extra objects that change product). Background: bright light-gray to white seamless gradient, high contrast. Add subtle floor reflection. Lighting: softbox key + rim light to define sole thickness. Composition leaves clear negative space top-left for headline and bottom corners for badges. No logos, no people, no extra footwear models.",
+  "prompt": "Create a high-conversion 1:1 ecommerce thumbnail for women’s white platform sneakers (Tenis Barbara). Studio product photography look. Show ONE pair of the exact white platform lace-up sneakers, synthetic upper, thick platform sole, minimal urban style, no logos. Hero product large and sharp, 3/4 angle, slightly elevated to emphasize the discreet platform height. Background: clean light-to-mid gray gradient with subtle shadow under the shoes for stability. Add a minimal vertical measuring guide silhouette behind the shoe (abstract, not a person) to suggest visual height, with soft blur so the shoe remains the sharpest element. Lighting: crisp softbox, high contrast edges, clean whites without clipping. Leave clear space top-left for headline and top-right for badges. No people, no faces, no extra products.",
   "text_overlays": [
     {
       "id": "headline",
-      "text_exact": "Suela XL + Suave",
+      "text_exact": "Altura sin tacón",
       "placement": {
         "anchor": "bottom_center",
         "x_percent": 50,
@@ -77,8 +77,8 @@
     }
   ],
   "composition_rules": {
-    "focus": "Product must be the largest and sharpest element; emphasize the XL platform sole thickness with a 3/4 angle; keep laces and sole texture crisp.",
-    "text_legibility": "All text must sit on clean negative space; maintain 10% safe margins; ensure contrast ratio high; avoid placing text over detailed shoe areas."
+    "focus": "Product must be the largest and sharpest element; platform sole clearly visible; no competing props.",
+    "text_legibility": "All text must sit on clean negative space with high contrast; keep within 10% safe margins; avoid overlapping key shoe details."
   },
-  "negative_prompt": "watermark, brand logo, recognizable brand marks, copyrighted characters, faces, people, hands, feet wearing shoes, busy background, clutter, extra products, different shoe model, high heel, sandals, boots, incorrect color (non-white), text artifacts, misspelled Spanish, low resolution, blur, motion blur, overexposure, harsh glare, noisy image, AI distortions, deformed laces, duplicated soles, unrealistic proportions"
+  "negative_prompt": "Do not add brand logos, watermarks, store names, or copyrighted elements. No people, no faces, no hands, no models. No extra shoes beyond one pair. No exaggerated XL platform, no high heels, no different sneaker model. No busy backgrounds, no clutter, no low contrast, no blur on product, no harsh reflections, no overexposed whites, no incorrect colors (must be white sneaker). No misleading claims like exact cm height, comfort tech not provided, or medical/orthopedic claims."
 }

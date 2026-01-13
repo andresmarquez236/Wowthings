@@ -19,8 +19,8 @@ import logging
 from typing import Optional, List
 
 # Configurar logging
-logging.basicConfig(level=logging.INFO, format="[%(asctime)s] [SPY-AGENT] %(message)s")
-logger = logging.getLogger(__name__)
+from utils.logger import setup_logger
+logger = setup_logger("SpyAgent_Orchestrator")
 
 # Importar funciones de los scripts hermanos
 try:

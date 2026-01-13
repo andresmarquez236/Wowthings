@@ -781,6 +781,791 @@
           ]
         }
       ]
+    },
+    {
+      "input_path": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/output/samba_og_vaca_negro_blanco/market_research_min.json",
+      "product_name": "Samba Og Vaca Negro Blanco",
+      "product_slug": "samba_og_vaca_negro_blanco",
+      "model": "gpt-5.2",
+      "results": [
+        {
+          "angle_rank": 1,
+          "angle_name": "Tendencia ‘cowboycore’ y edición con estampado vaca + forro rosa (look viral)",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "samba_og_vaca_negro_blanco_A1_V1",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product": "Samba Og Vaca Negro Blanco (tenis estilo Samba OG con estampado vaca blanco roto + marrón oscuro/negro, forro/plantilla rosa, suela gum)",
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "background": "Studio gradient (warm beige to off-white)",
+                "props": "None (no hats, no lassos, no extra products)",
+                "notes": "No logos/branding; no faces; no watermarks."
+              },
+              "prompt": "Create a high-conversion 1:1 ecommerce thumbnail. Show ONLY the product: a Samba OG-style sneaker with cow print upper (off-white base with dark brown/black cow patches), gum sole, and visible pink synthetic leather lining/insock. No brand logos. Hero product large and razor-sharp, 3/4 angle facing right, slight top-down view to reveal the pink lining. Clean studio lighting with crisp shadow, high contrast, premium texture detail. Background: smooth warm beige-to-off-white gradient with subtle vignette. Add space on upper-left for headline and on lower-left for badges. Photorealistic, ultra-detailed, sharp edges, no clutter.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "LOOK WESTERN VIRAL",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product must be the largest and sharpest element; shoe occupies ~65–75% of frame; keep cow print, gum sole, and pink lining clearly visible.",
+                "text_legibility": "All text must sit on high-contrast shapes; keep within 10% safe margins; avoid overlapping key product details; minimum headline height ~90px for 1080x1080."
+              },
+              "negative_prompt": "brand logos, adidas logo, trefoil, three stripes branding, watermark, QR code, copyrighted characters, recognizable faces, people, hands holding product, busy background, extra shoes, extra products, cowboy hat, lasso, denim clothing, text on shoe, low resolution, blur, motion blur, overexposure, harsh glare, clutter, illegible text, misspelled Spanish, distorted shoe shape, wrong colorway, no pink lining, no gum sole"
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "samba_og_vaca_negro_blanco_A1_V2",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product": "Samba Og Vaca Negro Blanco (tenis estilo Samba OG con estampado vaca blanco roto + marrón oscuro/negro, forro/plantilla rosa, suela gum)",
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "background": "Clean off-white with subtle pink glow halo behind shoe",
+                "props": "Abstract shadow only (no physical props)",
+                "notes": "No logos/branding; no faces; no watermarks."
+              },
+              "prompt": "Design a clean, high-contrast 1:1 ecommerce thumbnail featuring ONLY one Samba OG-style cow print sneaker: off-white upper with dark brown/black cow patches, gum sole, and clearly visible pink lining/insock. No brand logos. Place the shoe centered, slightly angled left (toe toward bottom-right), with a soft pink halo glow behind it to emphasize the pink lining and create a viral fashion vibe. Use crisp studio lighting, sharp texture, realistic materials, minimal background. Reserve top-center for headline and bottom-right for two stacked badges. Photorealistic, premium, sharp.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "SAMBA VACA TREND",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Single shoe only; keep it centered and dominant (~70% frame). Ensure cow print pattern and gum sole are crisp; pink lining must be visible from collar opening.",
+                "text_legibility": "Headline must not touch shoe edges; use outline/banner to maintain readability on light background; badges must be large enough to read on mobile and kept inside safe margin."
+              },
+              "negative_prompt": "any brand logo, adidas, trefoil, three stripes branding, watermark, people, faces, hands, multiple shoes, shoebox, props, cowboy imagery, patterned background, excessive glow, neon artifacts, blur, noise, wrong colors, missing pink lining, missing gum sole, distorted anatomy, text overlapping product, tiny unreadable badges"
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "samba_og_vaca_negro_blanco_A1_V3",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product": "Samba Og Vaca Negro Blanco (tenis estilo Samba OG con estampado vaca blanco roto + marrón oscuro/negro, forro/plantilla rosa, suela gum)",
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "background": "Dark charcoal studio backdrop with subtle spotlight gradient",
+                "props": "None",
+                "notes": "No logos/branding; no faces; no watermarks."
+              },
+              "prompt": "Create a bold, high-conversion 1:1 thumbnail with a dark premium look. Show ONLY one Samba OG-style cow print sneaker (off-white with dark brown/black cow patches), gum sole, and visible pink lining/insock. No brand logos. Place shoe large on the right side, 3/4 angle facing left, with dramatic softbox lighting to make the cow print pop and the gum sole glow slightly. Background: dark charcoal gradient spotlight. Leave clean negative space on the left for headline and badges. Photorealistic, ultra-sharp, high contrast, minimal.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "OUTFIT QUE DESTACA",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Shoe must be the hero and sharpest element; occupy ~70% of frame on right; ensure pink lining is visible at collar and gum sole edge is clear.",
+                "text_legibility": "Use high-contrast white headline on dark background; keep text away from shoe silhouette; badges must be readable at small sizes and remain within 10% safe margin."
+              },
+              "negative_prompt": "logos, adidas branding, trefoil, three stripes branding, watermark, people, faces, hands, extra shoes, shoebox, props, cowboy hat, lasso, denim, clutter, reflections that hide pattern, blur, low-res, grain, wrong print (leopard/zebra), wrong lining color (not pink), wrong sole (not gum), deformed shoe, illegible text"
+            }
+          ]
+        },
+        {
+          "angle_rank": 2,
+          "angle_name": "Precio-valor accesible vs. retail oficial de Sambas en Colombia",
+          "prompts": [
+            {
+              "prompt": "Create a high-conversion square (1:1) ecommerce thumbnail. Clean studio scene with soft gradient background and subtle bokeh. Place the product very large and ultra sharp in the center. High contrast, premium look, no clutter.",
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "samba_og_vaca_negro_blanco_A2_V1",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "El look del momento por",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "prompt": "Create a lifestyle square (1:1) ecommerce thumbnail. Cozy indoor scene with soft warm lighting and blurred background. Product is the hero on a simple surface, ultra sharp; background softly blurred (bokeh). No recognizable faces.",
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "samba_og_vaca_negro_blanco_A2_V2",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "El look del momento por",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            },
+            {
+              "prompt": "Create a benefit-focused square (1:1) ecommerce thumbnail. Minimal modern scene with a clear visual metaphor that supports the angle promise (no text beyond overlays). Product is largest and sharpest element. High contrast, clean composition.",
+              "negative_prompt": "No watermarks, no brand logos, no copyrighted characters, no recognizable faces, no extra text beyond specified overlays.",
+              "task": "meta_square_thumbnail",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "thumbnail": "samba_og_vaca_negro_blanco_A2_V3",
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element."
+              },
+              "composition_rules": {
+                "focus": "Product must be the sharpest and largest element; background soft bokeh.",
+                "text_legibility": "If text is not readable, adjust ONLY contrast and brightness (do not change composition)."
+              },
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "El look del momento por",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "angle_rank": 3,
+          "angle_name": "Versatilidad para outfits: contraste blanco/negro + acentos rosa",
+          "prompts": [
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "samba_og_vaca_negro_blanco_A3_V1",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product": "Samba Og Vaca Negro Blanco (tenis estilo Samba OG con estampado vaca blanco/negro o blanco roto/marrón oscuro, 3 bandas blancas, forro/plantilla rosa, suela gum)",
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "background_assets": "Studio gradient background only (no extra products).",
+                "props": "Minimal wardrobe cues as abstract shapes only (denim-blue block, black skirt silhouette shape), no logos, no text on props."
+              },
+              "prompt": "Create a high-conversion 1:1 ecommerce thumbnail. Hero product: a pair of low-top Samba OG–style sneakers with cow print upper (off-white base with dark brown/black cow patches), three white side stripes (no brand logo), gum sole, and visible pink synthetic leather lining/insole. Show the pair at a dynamic 3/4 angle, slightly overlapping, with the nearest shoe largest and razor-sharp. Background: clean high-contrast studio gradient from soft off-white to light gray with subtle denim-blue and black abstract blocks suggesting easy outfit pairing. Add a small pink accent glow near the collar to hint the pink lining. Lighting: crisp softbox, strong edge highlights, realistic shadows, premium catalog look. Leave clear negative space top-left for headline and bottom corners for badges. No people, no faces, no logos, no watermark.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Eleva tus básicos fácil",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Product must be the largest and sharpest element; shoes occupy ~65–75% of frame; emphasize cow print contrast and pink lining detail; keep background and abstract blocks soft and secondary.",
+                "text_legibility": "Maintain clean negative space behind text; ensure headline contrast ratio is high; keep all text inside 10% safe margins; avoid placing text over busy cow print areas."
+              },
+              "negative_prompt": "brand logos, adidas trefoil, three-stripe trademark logo marks, watermarks, QR codes, copyrighted characters, recognizable faces, people, hands, busy patterns behind text, extra shoes beyond the pair, additional products, boxes with branding, price tags, low resolution, blur on product, overexposed highlights, distorted shoe shape, incorrect colors (no red/blue uppers), non-gum sole, missing pink lining, text artifacts, misspelled Spanish text"
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "samba_og_vaca_negro_blanco_A3_V2",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product": "Samba Og Vaca Negro Blanco (tenis estilo Samba OG con estampado vaca blanco/negro o blanco roto/marrón oscuro, 3 bandas blancas, forro/plantilla rosa, suela gum)",
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "background_assets": "Split-tone background only.",
+                "props": "None (no extra items)."
+              },
+              "prompt": "Design a clean, high-contrast 1:1 ecommerce thumbnail featuring ONLY the described Samba OG–style cow print sneakers (off-white with dark brown/black cow patches), three white side stripes without any brand logo, gum sole, and visible pink lining. Composition: bold split background—left side matte black, right side warm off-white—creating a black/white styling cue. Place the pair centered with a slight diagonal tilt; front shoe large and sharp, rear shoe slightly behind. Add a subtle pink rim light on the inner collar to highlight the pink lining. Lighting: premium studio, crisp reflections, realistic shadow on a faint floor plane. Reserve top-center space for headline and bottom area for two badges. No people, no faces, no logos, no watermark.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Combina con todo hoy",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Center the shoes as the hero; ensure cow print texture and gum sole are clearly visible; keep split background flat and non-distracting; product occupies ~70% of frame.",
+                "text_legibility": "Use solid banners/badges; avoid overlapping text with the shoes; keep headline on clean background area; ensure badges do not touch edges and remain within 10% safe margin."
+              },
+              "negative_prompt": "any brand logo, adidas text, trefoil, watermark, copyrighted graphics, recognizable faces, models, hands, lifestyle scene, clutter, additional footwear, incorrect pattern (leopard/zebra), incorrect lining color (not pink), non-gum sole, excessive motion blur, noisy background, illegible text, spelling errors, compression artifacts"
+            },
+            {
+              "task": "meta_square_thumbnail",
+              "thumbnail": "samba_og_vaca_negro_blanco_A3_V3",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product": "Samba Og Vaca Negro Blanco (tenis estilo Samba OG con estampado vaca blanco/negro o blanco roto/marrón oscuro, 3 bandas blancas, forro/plantilla rosa, suela gum)",
+                "product_lock_rule": "CRITICAL: Depict ONLY the exact product described in the provided data. Do NOT change the model/category. Do NOT add brand logos. Keep the product as the hero element.",
+                "background_assets": "Minimal studio background with subtle outfit icons.",
+                "props": "Three minimal line icons (jeans, skirt, dress) as generic outlines only, no logos."
+              },
+              "prompt": "Create a 1080x1080 high-conversion thumbnail. Feature ONLY the described Samba OG–style cow print sneakers: off-white upper with dark brown/black cow patches, three white side stripes (no brand logo), gum sole, and visible pink lining/insole. Place the pair large in the foreground on a clean light-gray studio background with a soft vignette. Add three tiny generic outline icons (jeans, skirt, dress) arranged vertically on the right side, very subtle, to communicate versatility without adding products. Add a soft pink accent circle behind the heel area to echo the pink lining. Lighting: sharp, premium catalog, high micro-contrast on texture, natural shadow. Keep top-left clear for headline; bottom corners for badges. No people, no faces, no logos, no watermark.",
+              "text_overlays": [
+                {
+                  "id": "headline",
+                  "text_exact": "Rompe looks básicos",
+                  "placement": {
+                    "anchor": "bottom_center",
+                    "x_percent": 50,
+                    "y_percent": 88,
+                    "max_width_percent": 92,
+                    "max_height_percent": 14
+                  },
+                  "typography": {
+                    "font_family": "Bold clean sans-serif",
+                    "weight": 900,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "white",
+                    "stroke": "dark outline (thick)",
+                    "shadow": "subtle"
+                  }
+                },
+                {
+                  "id": "badge_free_shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "top_left",
+                    "x_percent": 12,
+                    "y_percent": 12,
+                    "max_width_percent": 28,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, solid color, high contrast",
+                    "fill": "white"
+                  }
+                },
+                {
+                  "id": "badge_cod",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "top_right",
+                    "x_percent": 88,
+                    "y_percent": 14,
+                    "max_width_percent": 34,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "Clean sans-serif",
+                    "weight": 800,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "badge": "rounded sticker, slightly smaller than 'Envío gratis', high contrast",
+                    "fill": "white"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "Shoes dominate the frame (~75%); ensure cow print and pink lining are clearly visible; keep icons tiny and low-contrast so they never compete with the product.",
+                "text_legibility": "Headline must sit on clean background area; use stroke/shadow to maintain readability; keep badges separated from product edges; all text within 10% safe margin and not overlapping busy textures."
+              },
+              "negative_prompt": "logos, brand marks, adidas, trefoil, watermark, QR code, copyrighted characters, recognizable faces, people, hands, busy lifestyle background, extra products, shoe box branding, wrong shoe model, high heels, boots, incorrect colors, missing cow print, missing pink lining, non-gum sole, low-res, blur, text glitches, misspellings"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

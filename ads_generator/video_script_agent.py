@@ -45,6 +45,11 @@ from typing import Any, Dict, List, Callable, Optional
 
 from dotenv import load_dotenv
 from openai import OpenAI
+import sys
+sys.path.append(os.getcwd())
+
+from utils.logger import setup_logger
+logger = setup_logger("AdsGen_Video_V1")
 
 # ---- compat error type
 try:
@@ -128,7 +133,8 @@ def parse_json_or_dump(raw: str, dump_path: str) -> Dict[str, Any]:
     except Exception:
         with open(dump_path, "w", encoding="utf-8") as f:
             f.write(raw)
-        raise RuntimeError(f"❌ JSON inválido. RAW guardado en: {dump_path}")
+        logger.error(f"JSON inválido. RAW guardado en: {dump_path}")
+        raise RuntimeError(f"JSON inválido. RAW guardado en: {dump_path}")
 
 def safe_responses_create(**kwargs):
     try:
@@ -684,9 +690,9 @@ def main():
 
         upsert_accum(accum_path, angle_result, meta)
 
-        print(f"✅ OK: {angle_norm['angle_id']} actualizado.")
-        print(f"📌 Caches: {HOOKS_CACHE_PATH} | {TRENDS_CACHE_PATH} | {VIDEO_RULES_CACHE_PATH}")
-        print(f"📄 Output acumulado: {accum_path}")
+        logger.info(f"OK: {angle_norm['angle_id']} actualizado.")
+        logger.info(f"Caches: {HOOKS_CACHE_PATH} | {TRENDS_CACHE_PATH} | {VIDEO_RULES_CACHE_PATH}")
+        logger.info(f"Output acumulado: {accum_path}")
 
 if __name__ == "__main__":
     main()

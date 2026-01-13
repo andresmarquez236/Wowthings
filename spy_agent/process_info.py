@@ -33,6 +33,9 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 from urllib.parse import urlparse
 
+from utils.logger import setup_logger
+logger = setup_logger("SpyAgent_ProcessInfo")
+
 
 # =============================
 # CONFIG (ENTRADAS)

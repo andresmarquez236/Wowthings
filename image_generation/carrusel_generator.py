@@ -13,6 +13,13 @@ from PIL import Image
 from google import genai
 from google.genai import types
 
+# Add root to sys.path to allow imports if needed
+import sys
+sys.path.append(os.getcwd())
+
+from utils.logger import setup_logger
+logger = setup_logger("CarruselGen_V1")
+
 
 # ----------------------------
 # Utilidades de archivos
@@ -88,7 +95,7 @@ def load_reference_images(product_dir: Path, max_ref_images: int) -> List[Image.
         try:
             images.append(Image.open(p))
         except Exception as e:
-            print(f"⚠️ No pude abrir imagen {p.name}: {e}")
+            logger.warning(f"No pude abrir imagen {p.name}: {e}")
 
     if not images:
         raise RuntimeError(f"No se pudo cargar ninguna imagen válida desde: {img_dir}")
@@ -221,13 +228,13 @@ def generate_with_retries(
             except Exception as e:
                 last_err = e
                 if _is_rate_limit_error(e) and attempt < max_retries:
-                    print(f"   ⚠️ Quota/Rate limit con '{model}' (intento {attempt}/{max_retries}). Backoff...")
+                    logger.warning(f"Quota/Rate limit con '{model}' (intento {attempt}/{max_retries}). Backoff...")
                     _sleep_backoff(attempt)
                     continue
                 # error no rate-limit o ya sin retries
                 break
 
-        print(f"   ❌ Falló modelo '{model}'. Probando siguiente si existe...")
+        logger.warning(f"Falló modelo '{model}'. Probando siguiente si existe...")
 
     raise RuntimeError(f"No se pudo generar imagen con ningún modelo. Último error: {last_err}")
 
@@ -258,6 +265,8 @@ def run_carrusel_generation(
     print(f"📦 Producto: {product_name}")
     print(f"📁 Product dir: {product_dir}")
     print(f"🧾 Carrusel JSON: {carrusel_json_path.name}")
+    logger.info(f"Producto: {product_name}")
+    logger.info(f"Carrusel JSON: {carrusel_json_path.name}")
 
     with open(carrusel_json_path, "r", encoding="utf-8") as f:
         carrusel_data = json.load(f)
@@ -269,7 +278,7 @@ def run_carrusel_generation(
 
     # Cargar imágenes de referencia (una vez por producto)
     ref_images = load_reference_images(product_dir=product_dir, max_ref_images=max_ref_images)
-    print(f"🖼️ Ref images cargadas: {len(ref_images)} (max={max_ref_images})")
+    logger.info(f"Ref images cargadas: {len(ref_images)} (max={max_ref_images})")
 
     # Cliente
     if not api_key:
@@ -306,23 +315,19 @@ def run_carrusel_generation(
         carousel = angle_obj.get("carousel", {})
         cards = carousel.get("cards", [])
         if not cards:
-            print(f"⚠️ Sin cards para {angle_id}. Saltando.")
+            logger.warning(f"Sin cards para {angle_id}. Saltando.")
             continue
 
         # Ordenar por card_index
         cards = sorted(cards, key=lambda c: int(c.get("card_index", 999999)))
 
-        print(f"\n🎯 Ángulo {a_idx}/{len(selected)}: {angle_id}")
-        if angle_name:
-            print(f"   🧠 {angle_name}")
-        print(f"   🧩 Cards: {len(cards)}")
-        print(f"   📂 Output: {angle_out}")
+        logger.info(f"Ángulo {a_idx}/{len(selected)}: {angle_id} - Cards: {len(cards)}")
 
         for card in cards:
             card_index = int(card.get("card_index", 0))
             nb_prompt_obj = card.get("nanobanana_prompt")
             if not isinstance(nb_prompt_obj, dict):
-                print(f"   ⚠️ Card {card_index}: nanobanana_prompt inválido. Saltando.")
+                logger.warning(f"Card {card_index}: nanobanana_prompt inválido. Saltando.")
                 continue
 
             # USAR EL OBJETO COMPLETO COMO STRING JSON
@@ -330,15 +335,21 @@ def run_carrusel_generation(
 
             # Nombre sugerido: usar "thumbnail" si existe, si no, Axx_Cyy
             thumb_name = str(nb_prompt_obj.get("thumbnail", "")).strip()
+            
+            # Sanitize: ignore placeholders like 'reference_image_url'
+            if "reference" in thumb_name.lower() or "image_url" in thumb_name.lower() or "http" in thumb_name:
+                thumb_name = ""
+            
             if thumb_name:
                 base = Path(thumb_name).stem
-                out_name = f"{base}.png"
+                # Always prepend Angle/Card to ensure uniqueness and avoid overwrites
+                out_name = f"A{a_idx:02d}_C{card_index:02d}_{base}.png"
             else:
                 out_name = f"A{a_idx:02d}_C{card_index:02d}.png"
 
             out_path = angle_out / out_name
 
-            print(f"   🚀 Generando Card {card_index} -> {out_name}")
+            logger.info(f"Generando Card {card_index} -> {out_name}")
 
             used_model, img_bytes = generate_with_retries(
                 client=client,
@@ -367,15 +378,15 @@ def run_carrusel_generation(
                 }
             )
 
-            print(f"   ✅ Guardado: {out_path}")
+            logger.info(f"Guardado: {out_path}")
 
     # Guardar manifest
     manifest_path = out_root / "manifest.json"
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, ensure_ascii=False, indent=2)
 
-    print(f"\n🧾 Manifest guardado: {manifest_path}")
-    print("✅ Carrusel generado.")
+    logger.info(f"Manifest guardado: {manifest_path}")
+    logger.info("Carrusel generado.")
 
 
 # ----------------------------

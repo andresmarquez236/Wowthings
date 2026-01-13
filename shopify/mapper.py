@@ -13,6 +13,15 @@ def map_payload_to_shopify_structure(shopify_json, ai_content):
     final_json = json.loads(json.dumps(shopify_json))
     sections = final_json['sections']
 
+    def _ensure_html(text):
+        if not text: return ""
+        text = text.strip()
+        # Si ya empieza con tags permitidos, lo dejamos
+        if text.startswith("<p") or text.startswith("<ul") or text.startswith("<ol") or text.startswith("<h"):
+            return text
+        # Si no, lo envolvemos en <p>
+        return f"<p>{text}</p>"
+
     # ==========================================
     # 1. HERO SECTION (Sección 'main')
     # ==========================================
@@ -133,6 +142,19 @@ def map_payload_to_shopify_structure(shopify_json, ai_content):
                 col['settings']['text'] = f"<p>{social_data[i]['review']}</p>"
 
     # ==========================================
+    # 5.1. SOCIAL PROOF (Image With Text)
+    # ID: 78161370-bfb0-428e-adf1-f106aca5123b
+    # ==========================================
+    social_img_data = ai_content.get('social_proof_image_with_text', {})
+    section_social_img = sections.get('78161370-bfb0-428e-adf1-f106aca5123b')
+    if section_social_img:
+        for block in section_social_img['blocks'].values():
+            if block['type'] == 'heading':
+                block['settings']['heading'] = social_img_data.get('heading', 'Resultados Reales')
+            if block['type'] == 'text':
+                block['settings']['text'] = _ensure_html(social_img_data.get('text', ''))
+
+    # ==========================================
     # 6. COMPETITOR COMPARISON (Tabla)
     # ID: 435217f9-0491-4e04-93de-8fa3a5a996db
     # ==========================================
@@ -183,5 +205,27 @@ def map_payload_to_shopify_structure(shopify_json, ai_content):
             if i < len(questions_list):
                 row['settings']['heading'] = questions_list[i]['q']
                 row['settings']['row_content'] = f"<p>{questions_list[i]['a']}</p>"
+
+    # ==========================================
+    # 9. EXTRA INFO TABS (Que Incluye, Como se usa, etc)
+    #Keys: collapsible_tab_AUafHX, collapsible_tab_NKgDKr, etc.
+    # ==========================================
+    extra_data = ai_content.get('extra_info_tabs', {})
+    
+    # A. Que Incluye
+    if 'collapsible_tab_AUafHX' in sections.get('main', {}).get('blocks', {}):
+        sections['main']['blocks']['collapsible_tab_AUafHX']['settings']['content'] = _ensure_html(extra_data.get('whats_included', ''))
+
+    # B. Como se usa
+    if 'collapsible_tab_NKgDKr' in sections.get('main', {}).get('blocks', {}):
+        sections['main']['blocks']['collapsible_tab_NKgDKr']['settings']['content'] = _ensure_html(extra_data.get('how_to_use', ''))
+
+    # C. Información de Envío
+    if 'c11bfb2f-901d-4b03-90cf-b6b766353d13' in sections.get('main', {}).get('blocks', {}):
+        sections['main']['blocks']['c11bfb2f-901d-4b03-90cf-b6b766353d13']['settings']['content'] = _ensure_html(extra_data.get('shipping_info', ''))
+
+    # D. Devoluciones (Warranty)
+    if 'e6778313-45ad-4d6d-8260-2498242a6df0' in sections.get('main', {}).get('blocks', {}):
+         sections['main']['blocks']['e6778313-45ad-4d6d-8260-2498242a6df0']['settings']['content'] = _ensure_html(extra_data.get('warranty_info', ''))
 
     return final_json

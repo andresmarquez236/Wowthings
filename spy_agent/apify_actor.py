@@ -34,6 +34,9 @@ from urllib.parse import quote_plus, urlparse, parse_qs
 from dotenv import load_dotenv
 from apify_client import ApifyClient
 
+from utils.logger import setup_logger
+logger = setup_logger("SpyAgent_ApifyActor")
+
 load_dotenv()
 
 
@@ -405,13 +408,13 @@ def run_apify_actor(
     dedup_out = apify_results_dir / f"fblibrary_ads_dedup_{folder_name}.jsonl"
     summary_out = apify_results_dir / f"fblibrary_scrape_summary_{folder_name}.json"
 
-    print(f"[{_now_iso()}] Product: {name}")
-    print(f"[{_now_iso()}] Folder: {product_dir}")
-    print(f"[{_now_iso()}] Query file: {query_path}")
-    print(f"[{_now_iso()}] Country: {norm_country} (scrapePageAds.countryCode={scrape_country})")
-    print(f"[{_now_iso()}] Actor: {APIFY_ACTOR}")
-    print(f"[{_now_iso()}] Queries: {len(queries)} | URLs: {len(urls)}")
-    print(f"[{_now_iso()}] params: limitPerSource={limit_per_source}, details={scrape_ad_details}")
+    logger.info(f"Product: {name}")
+    logger.info(f"Folder: {product_dir}")
+    logger.info(f"Query file: {query_path}")
+    logger.info(f"Country: {norm_country} (scrapePageAds.countryCode={scrape_country})")
+    logger.info(f"Actor: {APIFY_ACTOR}")
+    logger.info(f"Queries: {len(queries)} | URLs: {len(urls)}")
+    logger.info(f"params: limitPerSource={limit_per_source}, details={scrape_ad_details}")
 
     try:
         result = run_actor_and_save(
@@ -461,16 +464,16 @@ def run_apify_actor(
         # Serialización segura con DateTimeEncoder
         summary_out.write_text(json.dumps(summary, cls=DateTimeEncoder, ensure_ascii=False, indent=2), encoding="utf-8")
 
-        print(f"[{_now_iso()}] DONE ✅")
-        print(f"  - RAW items:   {summary['counts']['raw_items']}")
-        print(f"  - DEDUP items: {summary['counts']['dedup_items']}")
-        print(f"  - Advertisers: {summary['counts']['unique_advertisers']}")
-        print(f"  - Summary: {summary_out}")
+        logger.info("DONE")
+        logger.info(f"  - RAW items:   {summary['counts']['raw_items']}")
+        logger.info(f"  - DEDUP items: {summary['counts']['dedup_items']}")
+        logger.info(f"  - Advertisers: {summary['counts']['unique_advertisers']}")
+        logger.info(f"  - Summary: {summary_out}")
         
         return summary
 
     except Exception as e:
-        print(f"Error executing Apify actor: {e}")
+        logger.error(f"Error executing Apify actor: {e}")
         raise e
 
 

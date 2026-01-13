@@ -1,6 +1,6 @@
 {
   "schema_version": "aida_carousel_incremental_v1",
-  "generated_at_utc": "2026-01-04T00:32:49.507975+00:00",
+  "generated_at_utc": "2026-01-07T23:59:18.339229+00:00",
   "product": {
     "nombre_producto": "Tenis Barbara",
     "descripcion": "Tenis de plataforma, calzado urbano y casual.\nCaracterísticas: Suela gruesa, cierre con cordones, material principal sintético (comúnmente).",
@@ -13,18 +13,262 @@
   "results_by_angle": [
     {
       "angle_id": "ANGLE_1",
-      "angle_name": "Altura y comodidad diaria (plataforma + plantilla memory foam)",
-      "buyer_persona": "Mujer 18–35 que busca verse más alta sin usar tacón y caminar cómoda todo el día",
+      "angle_name": "Altura que estiliza sin tacón (plataforma discreta)",
+      "buyer_persona": "Mujer 18-34 urbana que busca verse más alta y estilizada sin usar tacones",
       "aida_strategy": {
-        "attention": "Destacar la altura adicional que ofrece el diseño de plataforma con una suela XL.",
-        "interest": "Resaltar la comodidad diaria que proporciona la plantilla memory foam, ideal para largas caminatas.",
-        "desire": "Enfatizar cómo la combinación de altura y comodidad mejora tanto la presencia visual como el confort durante todo el día.",
-        "action": "Motivar a la compra inmediata destacando las facilidades de pago y envío, junto con una CTA clara para comprar ahora."
+        "attention": "Captivate with the modern urban sneaker look and unique textured platform.",
+        "interest": "Show the immediate impact of increased height without discomfort.",
+        "desire": "Portray the effortless style and physical benefit in everyday settings.",
+        "action": "Encourage immediate interaction with a sense of urgency to try the stylish transformation."
       },
       "ad_copy": {
-        "title": "Eleva tu Look con Máxima Comodidad",
-        "primary_text": "Descubre cómo los Tenis Barbara te ofrecen altura y confort en cada paso. Camina con confianza gracias a su plataforma y plantilla memory foam.",
-        "description": "Perfectos para el día a día, los Tenis Barbara combinan estilo y comodidad. No esperes más para probarlos."
+        "title": "Eleva tu estilo sin tacones",
+        "primary_text": "Descubre cómo los Tenis Barbara te dan altura y estilo con comodidad. Perfectos para el día a día sin comprometer elegancia.",
+        "description": "La solución ideal para verte más alta y estilizada. No pierdas la oportunidad de transformar tu look diario."
+      },
+      "carousel": {
+        "num_cards": 2,
+        "cards": [
+          {
+            "card_index": 1,
+            "stage": "Attention/Interest",
+            "goal": "Capture attention with the vibrant look of the sneakers and pique interest showing the height increase.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "attention-interest_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Show a side view of a person wearing the Tenis Barbara sneakers standing on an urban sidewalk. Focus on the sneaker's sleek design and the unique platform height. Use vibrant lighting to highlight the texture and colors, ensuring the sneakers are the sharpest element. Incorporate a warm cityscape in the background, featuring a slightly blurred effect to draw attention to the product.",
+              "text_overlays": [
+                {
+                  "id": "attention-text",
+                  "text_exact": "¡Aumenta tu altura al instante!",
+                  "placement": {
+                    "anchor": "left",
+                    "x_percent": 10,
+                    "y_percent": 85,
+                    "max_width_percent": 80,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "bold sans serif",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#333333",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge-shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "right",
+                    "x_percent": 80,
+                    "y_percent": 10,
+                    "max_width_percent": 20,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "sans serif",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD700",
+                    "stroke": null,
+                    "shadow": null,
+                    "badge": "round"
+                  }
+                },
+                {
+                  "id": "badge-cash",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "right",
+                    "x_percent": 80,
+                    "y_percent": 20,
+                    "max_width_percent": 20,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "sans serif",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD700",
+                    "stroke": null,
+                    "shadow": null,
+                    "badge": "round"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "The sneakers",
+                "hierarchy": "Product is the visual focus",
+                "text_safe_zone": "bottom 20% for overlays",
+                "text_never_cover_rule": "Product should not cover text zone"
+              },
+              "negative_prompt": "wrong product model, logos, watermarks, faces, extra text beyond overlays"
+            }
+          },
+          {
+            "card_index": 2,
+            "stage": "Desire/Action",
+            "goal": "Stimulate desire by showing style benefits and simplify the purchase decision process with direct CTAs.",
+            "nanobanana_prompt": {
+              "task": "meta_square_carousel_card",
+              "thumbnail": "desire-action_thumbnail.jpg",
+              "variant": "with_text",
+              "format": {
+                "aspect_ratio": "1:1",
+                "resolution": "1080x1080",
+                "safe_margin_percent": 10
+              },
+              "input_assets": {
+                "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
+              },
+              "prompt": "Display a lifestyle scene with a person confidently walking through a chic urban area wearing the Tenis Barbara sneakers. Highlight the style and comfort of the footwear, focusing on the seamless integration of the platform into everyday outfits. Use natural lighting to evoke a sense of tranquility and offer a softly blurred background featuring urban elements.",
+              "text_overlays": [
+                {
+                  "id": "desire-text",
+                  "text_exact": "Estilo y comodidad todo el día",
+                  "placement": {
+                    "anchor": "left",
+                    "x_percent": 10,
+                    "y_percent": 85,
+                    "max_width_percent": 80,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "bold sans serif",
+                    "weight": 700,
+                    "alignment": "left"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#333333",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "action-text",
+                  "text_exact": "Compra ahora y transforma tu look",
+                  "placement": {
+                    "anchor": "right",
+                    "x_percent": 50,
+                    "y_percent": 50,
+                    "max_width_percent": 90,
+                    "max_height_percent": 10
+                  },
+                  "typography": {
+                    "font_family": "bold sans serif",
+                    "weight": 700,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#333333",
+                    "badge": null
+                  }
+                },
+                {
+                  "id": "badge-shipping",
+                  "text_exact": "Envío gratis",
+                  "placement": {
+                    "anchor": "right",
+                    "x_percent": 80,
+                    "y_percent": 10,
+                    "max_width_percent": 20,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "sans serif",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD700",
+                    "stroke": null,
+                    "shadow": null,
+                    "badge": "round"
+                  }
+                },
+                {
+                  "id": "badge-cash",
+                  "text_exact": "Pago contraentrega",
+                  "placement": {
+                    "anchor": "right",
+                    "x_percent": 80,
+                    "y_percent": 20,
+                    "max_width_percent": 20,
+                    "max_height_percent": 7
+                  },
+                  "typography": {
+                    "font_family": "sans serif",
+                    "weight": 600,
+                    "alignment": "center"
+                  },
+                  "style": {
+                    "fill": "#FFD700",
+                    "stroke": null,
+                    "shadow": null,
+                    "badge": "round"
+                  }
+                }
+              ],
+              "composition_rules": {
+                "focus": "The sneakers and the walkway",
+                "hierarchy": "Product is the visual focus",
+                "text_safe_zone": "bottom 20% for overlays",
+                "text_never_cover_rule": "Product should not cover text zone"
+              },
+              "negative_prompt": "wrong product model, logos, watermarks, faces, extra text beyond overlays"
+            }
+          }
+        ]
+      },
+      "hooks_used": [
+        "Benefit Focus",
+        "Problem-Solution",
+        "Relatable Story",
+        "Transformation Journey",
+        "Trend/Culture Hooks",
+        "Surprise Elements"
+      ],
+      "compliance_notes": [
+        "Ad copy maintains literal truth without unsupported claims.",
+        "Ensures product benefits are emphasized without exaggeration.",
+        "Guarantee terms are not misleading and accurately represented."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_2",
+      "angle_name": "Comodidad todo el día (plantilla memory foam + suela gruesa)",
+      "buyer_persona": "Estudiante/office casual que camina mucho y prioriza confort sin perder estilo",
+      "aida_strategy": {
+        "attention": "Interrupción visual mostrando un tenis en un entorno urbano flotando, generando curiosidad.",
+        "interest": "Destacar la plantilla de memory foam con una visualización llamativa, enfatizando su suavidad.",
+        "desire": "Enfatizar el beneficio de comodidad todo el día mediante una imagen de alguien caminando con facilidad en un entorno urbano.",
+        "action": "Invitar a realizar la compra con un llamado directo a la acción como \"Compra ahora y camina con estilo\"."
+      },
+      "ad_copy": {
+        "title": "Descubre la comodidad de los Tenis Barbara",
+        "primary_text": "Camina con estilo y comodidad todo el día gracias a la plantilla memory foam de los Tenis Barbara. No dejes que tus pies te detengan. ¡Haz tuyo tu par ahora mismo!",
+        "description": "Comodidad y estilo se unen en los Tenis Barbara. Perfectos para quienes buscan lo último en calzado urbano y casual."
       },
       "carousel": {
         "num_cards": 2,
@@ -32,10 +276,10 @@
           {
             "card_index": 1,
             "stage": "Attention+Interest",
-            "goal": "Capturar la atención con el diseño de plataforma destacando la altura, mientras introduces el confort de la plantilla.",
+            "goal": "Captar la atención de personas que valoran el confort y mostrar el valor de la plantilla memory foam.",
             "nanobanana_prompt": {
               "task": "meta_square_carousel_card",
-              "thumbnail": "tenis_barbara_plataforma",
+              "thumbnail": "image_card1.png",
               "variant": "with_text",
               "format": {
                 "aspect_ratio": "1:1",
@@ -45,102 +289,80 @@
               "input_assets": {
                 "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
               },
-              "prompt": "A pair of Tenis Barbara displayed prominently with strong lighting enhancing their thick platform sole, set against a tastefully blurred urban street scene. The image includes a dynamic angle that highlights both the height of the platform and the texture of the memory foam material. Typography is bold sans serif with strong stroke and shadow for text clarity.",
+              "prompt": "A dynamic urban scene with Tenis Barbara prominently floating in the center, creating a playful yet stylish atmosphere. The background includes a softly blurred urban street to emphasize focus on the shoe. Bright, natural lighting enhances the sharp details of the shoe, drawing attention to its design. Use bold sans-serif typography with strong shadows for the text overlay, positioned in the lower third with safe margins to ensure visibility. No faces or logos should be present. Keep the composition sleek and focused, maintaining a modern aesthetic.",
               "text_overlays": [
                 {
-                  "id": "text1",
-                  "text_exact": "Eleva tu estilo",
+                  "id": "title_1",
+                  "text_exact": "Descubre la comodidad",
                   "placement": {
-                    "anchor": "top_left",
-                    "x_percent": 10,
-                    "y_percent": 10,
+                    "anchor": "bottom",
+                    "x_percent": 50,
+                    "y_percent": 90,
                     "max_width_percent": 80,
-                    "max_height_percent": 10
+                    "max_height_percent": 20
                   },
                   "typography": {
                     "font_family": "sans-serif",
                     "weight": 700,
-                    "alignment": "left"
+                    "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFFFFF",
+                    "fill": "#ffffff",
                     "stroke": "#000000",
-                    "shadow": "#00000088",
+                    "shadow": "#333333",
                     "badge": null
                   }
                 },
                 {
-                  "id": "text2",
-                  "text_exact": "Comodidad XL",
-                  "placement": {
-                    "anchor": "bottom_left",
-                    "x_percent": 10,
-                    "y_percent": 85,
-                    "max_width_percent": 80,
-                    "max_height_percent": 10
-                  },
-                  "typography": {
-                    "font_family": "sans-serif",
-                    "weight": 700,
-                    "alignment": "left"
-                  },
-                  "style": {
-                    "fill": "#FFFFFF",
-                    "stroke": "#000000",
-                    "shadow": "#00000088",
-                    "badge": null
-                  }
-                },
-                {
-                  "id": "badge1",
+                  "id": "badge_1",
                   "text_exact": "Envío gratis",
                   "placement": {
-                    "anchor": "top_right",
-                    "x_percent": 80,
+                    "anchor": "top-left",
+                    "x_percent": 10,
                     "y_percent": 10,
-                    "max_width_percent": 20,
+                    "max_width_percent": 30,
                     "max_height_percent": 10
                   },
                   "typography": {
                     "font_family": "sans-serif",
                     "weight": 700,
-                    "alignment": "right"
+                    "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": "#000000",
+                    "fill": "#ffffff",
+                    "stroke": null,
                     "shadow": null,
-                    "badge": "round"
+                    "badge": "#28a745"
                   }
                 },
                 {
-                  "id": "badge2",
+                  "id": "badge_2",
                   "text_exact": "Pago contraentrega",
                   "placement": {
-                    "anchor": "bottom_right",
-                    "x_percent": 80,
-                    "y_percent": 85,
-                    "max_width_percent": 20,
+                    "anchor": "top-right",
+                    "x_percent": 90,
+                    "y_percent": 10,
+                    "max_width_percent": 40,
                     "max_height_percent": 10
                   },
                   "typography": {
                     "font_family": "sans-serif",
                     "weight": 700,
-                    "alignment": "right"
+                    "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": "#000000",
+                    "fill": "#ffffff",
+                    "stroke": null,
                     "shadow": null,
-                    "badge": "round"
+                    "badge": "#ffc107"
                   }
                 }
               ],
               "composition_rules": {
-                "focus": "Tenis Barbara platform sole",
-                "hierarchy": "product -> text -> background",
-                "text_safe_zone": "Upper and lower thirds",
-                "text_never_cover_rule": "Product must not overlap upper or lower thirds."
+                "focus": "Tenis Barbara",
+                "hierarchy": "Product, Headline, Badges",
+                "text_safe_zone": "lower third with safe margins",
+                "text_never_cover_rule": "The product must not cover any text zone."
               },
               "negative_prompt": "wrong product model, logos, watermarks, faces, extra text beyond overlays"
             }
@@ -148,10 +370,10 @@
           {
             "card_index": 2,
             "stage": "Desire+Action",
-            "goal": "Highlight the benefits of style and comfort combined with an urge to purchase.",
+            "goal": "Generar deseo y motivar al usuario a comprar los tenis mostrando el beneficio de caminar cómodamente.",
             "nanobanana_prompt": {
               "task": "meta_square_carousel_card",
-              "thumbnail": "tenis_barbara_comodidad",
+              "thumbnail": "image_card2.png",
               "variant": "with_text",
               "format": {
                 "aspect_ratio": "1:1",
@@ -161,102 +383,80 @@
               "input_assets": {
                 "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
               },
-              "prompt": "The Tenis Barbara perfectly in focus with a subtle urban backdrop, featuring a viewer's perspective from slightly above to showcase both the platform and memory foam features. The composition uses soothing lighting to enhance the sense of comfort. Typography is bold sans serif with strong stroke and shadow for text clarity.",
+              "prompt": "A dynamic scene of an individual effortlessly walking through a vibrant urban landscape while wearing the Tenis Barbara. The focus is on the shoes, showing their use in a real-world context. The background is softly blurred with the city enhancing the perception of movement and daily life integration. Bright, airy lighting should capture the mood of comfort and ease. Use bold sans-serif typography for the overlay text, placed in the lower-third text-safe area. No faces or logos should be present. The composition should balance smoothly between storytelling and product showcase.",
               "text_overlays": [
                 {
-                  "id": "text1",
-                  "text_exact": "Estilo sin esfuerzo",
+                  "id": "title_2",
+                  "text_exact": "Camina todo el día",
                   "placement": {
-                    "anchor": "top_left",
-                    "x_percent": 10,
-                    "y_percent": 10,
+                    "anchor": "bottom",
+                    "x_percent": 50,
+                    "y_percent": 90,
                     "max_width_percent": 80,
-                    "max_height_percent": 10
+                    "max_height_percent": 20
                   },
                   "typography": {
                     "font_family": "sans-serif",
                     "weight": 700,
-                    "alignment": "left"
+                    "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFFFFF",
+                    "fill": "#ffffff",
                     "stroke": "#000000",
-                    "shadow": "#00000088",
+                    "shadow": "#333333",
                     "badge": null
                   }
                 },
                 {
-                  "id": "text2",
+                  "id": "cta_1",
                   "text_exact": "Compra ahora",
                   "placement": {
-                    "anchor": "bottom_left",
-                    "x_percent": 10,
-                    "y_percent": 85,
-                    "max_width_percent": 80,
+                    "anchor": "bottom-right",
+                    "x_percent": 90,
+                    "y_percent": 90,
+                    "max_width_percent": 30,
                     "max_height_percent": 10
                   },
                   "typography": {
                     "font_family": "sans-serif",
                     "weight": 700,
-                    "alignment": "left"
+                    "alignment": "right"
                   },
                   "style": {
-                    "fill": "#FFFFFF",
-                    "stroke": "#000000",
-                    "shadow": "#00000088",
-                    "badge": null
+                    "fill": "#ffffff",
+                    "stroke": null,
+                    "shadow": null,
+                    "badge": "#0069d9"
                   }
                 },
                 {
-                  "id": "badge1",
+                  "id": "badge_1",
                   "text_exact": "Envío gratis",
                   "placement": {
-                    "anchor": "top_right",
-                    "x_percent": 80,
+                    "anchor": "top-left",
+                    "x_percent": 10,
                     "y_percent": 10,
-                    "max_width_percent": 20,
+                    "max_width_percent": 30,
                     "max_height_percent": 10
                   },
                   "typography": {
                     "font_family": "sans-serif",
                     "weight": 700,
-                    "alignment": "right"
+                    "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": "#000000",
+                    "fill": "#ffffff",
+                    "stroke": null,
                     "shadow": null,
-                    "badge": "round"
-                  }
-                },
-                {
-                  "id": "badge2",
-                  "text_exact": "Pago contraentrega",
-                  "placement": {
-                    "anchor": "bottom_right",
-                    "x_percent": 80,
-                    "y_percent": 85,
-                    "max_width_percent": 20,
-                    "max_height_percent": 10
-                  },
-                  "typography": {
-                    "font_family": "sans-serif",
-                    "weight": 700,
-                    "alignment": "right"
-                  },
-                  "style": {
-                    "fill": "#FFD700",
-                    "stroke": "#000000",
-                    "shadow": null,
-                    "badge": "round"
+                    "badge": "#28a745"
                   }
                 }
               ],
               "composition_rules": {
-                "focus": "Tenis Barbara from above",
-                "hierarchy": "product -> text -> background",
-                "text_safe_zone": "Upper and lower thirds",
-                "text_never_cover_rule": "Product must not overlap upper or lower thirds."
+                "focus": "Tenis Barbara in use",
+                "hierarchy": "Product, Headline, CTAs, Badges",
+                "text_safe_zone": "lower third with safe margins",
+                "text_never_cover_rule": "The product must not cover any text zone."
               },
               "negative_prompt": "wrong product model, logos, watermarks, faces, extra text beyond overlays"
             }
@@ -268,307 +468,40 @@
         "Problem-Solution",
         "Benefit Focus",
         "Limited Time Offer",
-        "Exclusive Access",
-        "Surprise Elements"
+        "Surprise Elements",
+        "Transformation Journey"
       ],
       "compliance_notes": [
-        "No invented specifications were used.",
-        "Default badges applied as user constraints did not specify otherwise.",
-        "Copy and visual elements aligned with user-provided product details and constraints."
-      ]
-    },
-    {
-      "angle_id": "ANGLE_2",
-      "angle_name": "Hecho en Colombia y directo de fábrica (valor local + soporte cercano)",
-      "buyer_persona": "Compradora que valora producción nacional, precio justo y atención por WhatsApp",
-      "aida_strategy": {
-        "attention": "Romper el patrón con una imagen visual vibrante y un mensaje claro de 'Hecho en Colombia' para atraer a personas que valoran la producción nacional.",
-        "interest": "Exponer cómo comprar directamente del fabricante ofrece beneficios únicos y accesibles para este producto.",
-        "desire": "Enfocar en la calidad y el estilo de los Tenis Barbara, resaltando la exclusividad de la compra directa con envío nacional y soporte.",
-        "action": "Ofrecer un llamado a la acción claro con indicaciones sencillas para proceder a la compra con pago seguro y envío gratuito."
-      },
-      "ad_copy": {
-        "title": "Descubre Estilo Colombiano",
-        "primary_text": "Hecho en Colombia, directo de fábrica. Beneficios únicos a tu alcance.",
-        "description": "Calzado de plataforma urbana y casual con la confianza de un fabricante local. Compra hoy con entrega directa."
-      },
-      "carousel": {
-        "num_cards": 2,
-        "cards": [
-          {
-            "card_index": 1,
-            "stage": "Attention+Interest",
-            "goal": "Atraer la atención y generar interés destacando la fabricación local y el acceso directo al producto.",
-            "nanobanana_prompt": {
-              "task": "meta_square_carousel_card",
-              "thumbnail": "placeholder_url_1",
-              "variant": "with_text",
-              "format": {
-                "aspect_ratio": "1:1",
-                "resolution": "1080x1080",
-                "safe_margin_percent": 10
-              },
-              "input_assets": {
-                "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
-              },
-              "prompt": "A vibrant and eye-catching scene featuring the Tenis Barbara in the foreground as the main focus, sharply in view with a softly blurred Colombian landscape in the background to emphasize local production. The lighting is bright and cheerful, evoking a sense of pride and positivity. Typography is bold sans serif, emphasizing the national production. Include two default badges positioned thoughtfully in the safe zone. Ensure overlay text does not cover product.",
-              "text_overlays": [
-                {
-                  "id": "overlay1",
-                  "text_exact": "Hecho en Colombia",
-                  "placement": {
-                    "anchor": "bottom_left",
-                    "x_percent": 10,
-                    "y_percent": 80,
-                    "max_width_percent": 80,
-                    "max_height_percent": 20
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "left"
-                  },
-                  "style": {
-                    "fill": "#ffffff",
-                    "stroke": "#000000",
-                    "shadow": "#333333",
-                    "badge": null
-                  }
-                },
-                {
-                  "id": "overlay2",
-                  "text_exact": "Compra directa del fabricante",
-                  "placement": {
-                    "anchor": "top_right",
-                    "x_percent": 70,
-                    "y_percent": 10,
-                    "max_width_percent": 60,
-                    "max_height_percent": 20
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "right"
-                  },
-                  "style": {
-                    "fill": "#ffffff",
-                    "stroke": null,
-                    "shadow": "#333333",
-                    "badge": null
-                  }
-                },
-                {
-                  "id": "badge1",
-                  "text_exact": "Envío gratis",
-                  "placement": {
-                    "anchor": "top_left",
-                    "x_percent": 5,
-                    "y_percent": 5,
-                    "max_width_percent": 30,
-                    "max_height_percent": 15
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "center"
-                  },
-                  "style": {
-                    "fill": "#000000",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "standard"
-                  }
-                },
-                {
-                  "id": "badge2",
-                  "text_exact": "Pago contraentrega",
-                  "placement": {
-                    "anchor": "top_left",
-                    "x_percent": 5,
-                    "y_percent": 20,
-                    "max_width_percent": 30,
-                    "max_height_percent": 15
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "center"
-                  },
-                  "style": {
-                    "fill": "#000000",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "standard"
-                  }
-                }
-              ],
-              "composition_rules": {
-                "focus": "product sharpness",
-                "hierarchy": "product > badges > text",
-                "text_safe_zone": "bottom left 20% and top 20%",
-                "text_never_cover_rule": "Product must not cover any bottom left text area"
-              },
-              "negative_prompt": "Avoid wrong product model, logos, watermarks, faces, extra text beyond overlays."
-            }
-          },
-          {
-            "card_index": 2,
-            "stage": "Desire+Action",
-            "goal": "Que el consumidor desee los zapatos no solo por su estilo, sino por la forma fácil de comprarlos y recibirlos.",
-            "nanobanana_prompt": {
-              "task": "meta_square_carousel_card",
-              "thumbnail": "placeholder_url_2",
-              "variant": "with_text",
-              "format": {
-                "aspect_ratio": "1:1",
-                "resolution": "1080x1080",
-                "safe_margin_percent": 10
-              },
-              "input_assets": {
-                "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
-              },
-              "prompt": "A sophisticated and modern setting featuring the Tenis Barbara in a stylish environment, sharply in focus as the center of the composition. Background is minimally blurred to draw attention to the product. Warm, inviting lighting enhances the desirability of the shoes. Typography uses bold sans serif with clear and direct messaging for action. Include two default badges visible within the safe zone without covering text content.",
-              "text_overlays": [
-                {
-                  "id": "overlay1",
-                  "text_exact": "Calidad y estilo únicos",
-                  "placement": {
-                    "anchor": "bottom_center",
-                    "x_percent": 50,
-                    "y_percent": 85,
-                    "max_width_percent": 80,
-                    "max_height_percent": 10
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "center"
-                  },
-                  "style": {
-                    "fill": "#ffffff",
-                    "stroke": "#000000",
-                    "shadow": "#333333",
-                    "badge": null
-                  }
-                },
-                {
-                  "id": "overlay2",
-                  "text_exact": "Compra ahora, entrega directa",
-                  "placement": {
-                    "anchor": "bottom_center",
-                    "x_percent": 50,
-                    "y_percent": 95,
-                    "max_width_percent": 80,
-                    "max_height_percent": 10
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "center"
-                  },
-                  "style": {
-                    "fill": "#ffffff",
-                    "stroke": "#000000",
-                    "shadow": "#333333",
-                    "badge": null
-                  }
-                },
-                {
-                  "id": "badge1",
-                  "text_exact": "Envío gratis",
-                  "placement": {
-                    "anchor": "top_right",
-                    "x_percent": 80,
-                    "y_percent": 5,
-                    "max_width_percent": 30,
-                    "max_height_percent": 15
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "center"
-                  },
-                  "style": {
-                    "fill": "#000000",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "standard"
-                  }
-                },
-                {
-                  "id": "badge2",
-                  "text_exact": "Pago contraentrega",
-                  "placement": {
-                    "anchor": "top_right",
-                    "x_percent": 80,
-                    "y_percent": 20,
-                    "max_width_percent": 30,
-                    "max_height_percent": 15
-                  },
-                  "typography": {
-                    "font_family": "Sans-serif",
-                    "weight": 700,
-                    "alignment": "center"
-                  },
-                  "style": {
-                    "fill": "#000000",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "standard"
-                  }
-                }
-              ],
-              "composition_rules": {
-                "focus": "product sharpness",
-                "hierarchy": "product > text > badges",
-                "text_safe_zone": "bottom center 15%",
-                "text_never_cover_rule": "Product must not cover any bottom center text area"
-              },
-              "negative_prompt": "Avoid wrong product model, logos, watermarks, faces, extra text beyond overlays."
-            }
-          }
-        ]
-      },
-      "hooks_used": [
-        "Hecho en Colombia como garantía de calidad local",
-        "Compra directa sin intermediarios",
-        "Nacionalidad del fabricante como valor añadido",
-        "Exclusividad y estilo diferenciado",
-        "Beneficios directos al consumidor final",
-        "Calidad del fabricante colombiano",
-        "Soporte y servicio cercano y personalizado"
-      ],
-      "compliance_notes": [
-        "Ensure 'Hecho en Colombia' is factual.",
-        "Avoid misleading claims regarding 'compra directa' and its benefits not contextually supported.",
-        "Consumer benefits should align with product features and selling points without invention."
+        "Ensure the Tenis Barbara is accurately depicted as per the provided reference image.",
+        "Maintain consistent use of typography and placement for overlays across all cards.",
+        "Avoid any alterations to the product appearance that may mislead consumers."
       ]
     },
     {
       "angle_id": "ANGLE_3",
-      "angle_name": "Blanco versátil y tendencia global en plataformas",
-      "buyer_persona": "Fashion-first que quiere un par blanco que combine con todo y esté ‘en tendencia’",
+      "angle_name": "Versatilidad de outfit (blanco que combina con todo)",
+      "buyer_persona": "Mujer que busca un par “comodín” para universidad, oficina casual y salidas",
       "aida_strategy": {
-        "attention": "Generate curiosity by highlighting the unique visual appeal and trend of platform sneakers while disrupting typical footwear ads.",
-        "interest": "Address the versatility through visual storytelling, showcasing how these sneakers fit into daily wear moments and current fashion trends.",
-        "desire": "Frame the shoes in relatable daily life settings, softening the objection of fleeting trends by positioning them as in vogue yet timeless.",
-        "action": "Encourage immediate purchase with a clear call-to-action, leveraging default badge offers for a seamless conversion."
+        "attention": "Utiliza un patrón de interrupción mostrando una combinación de outfits desde casual hasta formal.",
+        "interest": "Demuestra cómo un solo par de tenis puede complementar cada estilo de forma impecable.",
+        "desire": "Enfatiza los beneficios de poseer un calzado versátil que se adapta a múltiples ocasiones, suavizando la objeción de que \"los blancos se ven básicos\".",
+        "action": "Cierra con un llamado claro a la acción para comprar los tenis y disfrutar de su versatilidad y conveniencia."
       },
       "ad_copy": {
-        "title": "Barbára - Completa tu look con estilo",
-        "primary_text": "Descubre el toque final que tu closet necesita. Las plataformas blancas que no pasan de moda.",
-        "description": "Un calzado versátil que va con todo y refleja tendencias globales. ¡Atrévete a destacar!"
+        "title": "Tenis que se adaptan a todo tu armario",
+        "primary_text": "Desde la universidad hasta una salida nocturna, los Tenis Barbara son tu aliado perfecto para cualquier ocasión. ¡Combina con todo!",
+        "description": "Descubre la versatilidad que estabas buscando con los Tenis Barbara."
       },
       "carousel": {
         "num_cards": 2,
         "cards": [
           {
-            "card_index": 1,
-            "stage": "Attention+Interest",
-            "goal": "Capture attention with a visually striking image that interrupts patterns and build interest through the depiction of versatility and trend alignment.",
+            "card_index": 0,
+            "stage": "Attention + Interest",
+            "goal": "Captar la atención mostrando la versatilidad de los tenis al combinar con múltiples estilos y capturar el interés demostrando sus múltiples usos.",
             "nanobanana_prompt": {
               "task": "meta_square_carousel_card",
-              "thumbnail": "product_closeup_scene",
+              "thumbnail": "tenis_barbara_versatility_1",
               "variant": "with_text",
               "format": {
                 "aspect_ratio": "1:1",
@@ -578,91 +511,91 @@
               "input_assets": {
                 "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
               },
-              "prompt": "Close-up of a pair of stylish white platform sneakers (Tenis Barbara) sharply in focus in an urban setting. The background is softly blurred, showcasing a bustling city environment suggesting versatility. The lighting is bright and modern, highlighting the shoes' texture and design details. Composition rules include well-defined diagonal lines leading to the sneakers.",
+              "prompt": "A series of outfits arranged around a pair of white platform sneakers in sharp focus. The outfits include casual, business casual, and evening wear, each represented as floating around the central sneaker. Soft focus on background, creating a bokeh world where the viewer's eye is drawn to the sneaker as the centerpiece. Bright, even lighting across the composition. Titles placed near each outfit cluster, without covering the sneaker. Typography bold sans serif with stroke for depth and clear visibility.",
               "text_overlays": [
                 {
-                  "id": "hook_1",
-                  "text_exact": "¡La tendencia que buscabas!",
+                  "id": "p1",
+                  "text_exact": "¡Combina con todo!",
                   "placement": {
-                    "anchor": "center_left",
-                    "x_percent": 10,
-                    "y_percent": 20,
-                    "max_width_percent": 30,
-                    "max_height_percent": 20
+                    "anchor": "center_bottom",
+                    "x_percent": 50,
+                    "y_percent": 90,
+                    "max_width_percent": 80,
+                    "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
-                    "alignment": "left"
+                    "alignment": "center"
                   },
                   "style": {
                     "fill": "#FFFFFF",
                     "stroke": "#000000",
-                    "shadow": "#666666",
+                    "shadow": "#000000",
                     "badge": null
                   }
                 },
                 {
-                  "id": "badge_ship",
+                  "id": "p2",
                   "text_exact": "Envío gratis",
                   "placement": {
-                    "anchor": "bottom_right",
-                    "x_percent": 70,
-                    "y_percent": 85,
-                    "max_width_percent": 20,
+                    "anchor": "top_left",
+                    "x_percent": 10,
+                    "y_percent": 10,
+                    "max_width_percent": 30,
                     "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
                     "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "round"
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#000000",
+                    "badge": "default"
                   }
                 },
                 {
-                  "id": "badge_cod",
+                  "id": "p3",
                   "text_exact": "Pago contraentrega",
                   "placement": {
-                    "anchor": "bottom_left",
-                    "x_percent": 10,
-                    "y_percent": 85,
-                    "max_width_percent": 20,
+                    "anchor": "top_right",
+                    "x_percent": 90,
+                    "y_percent": 10,
+                    "max_width_percent": 40,
                     "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
                     "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "round"
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#000000",
+                    "badge": "default"
                   }
                 }
               ],
               "composition_rules": {
-                "focus": "product",
-                "hierarchy": "product > scene > text",
-                "text_safe_zone": "center_bottom_quarter",
-                "text_never_cover_rule": "Ensure product image never overlaps with text areas."
+                "focus": "The sneakers are the sharpest element, centered among the outfit compositions.",
+                "hierarchy": "Sneakers first, followed by the surrounding outfits.",
+                "text_safe_zone": "10% edge margins all around the card",
+                "text_never_cover_rule": "No product or critical visuals should place text within the text_safe_zone."
               },
               "negative_prompt": "wrong product model, logos, watermarks, faces, extra text beyond overlays"
             }
           },
           {
-            "card_index": 2,
-            "stage": "Desire+Action",
-            "goal": "Appeal to the need of fitting in fashionably yet uniquely and drive action with an immediate call to purchase.",
+            "card_index": 1,
+            "stage": "Desire + Action",
+            "goal": "Increase desire by picturing scenarios and close the deal with a clear call to action to purchase.",
             "nanobanana_prompt": {
               "task": "meta_square_carousel_card",
-              "thumbnail": "lifestyle_scene",
+              "thumbnail": "tenis_barbara_purchase_1",
               "variant": "with_text",
               "format": {
                 "aspect_ratio": "1:1",
@@ -672,102 +605,102 @@
               "input_assets": {
                 "product_lock_rule": "CRITICAL: Use ONLY the exact Tenis Barbara from the provided reference image. Do NOT generate a different model/variant. Prefer cutout/masking and compositing into a NEW scene."
               },
-              "prompt": "A person walking in stylish white platform sneakers (Tenis Barbara) through a chic city walkway. The scene is slightly blurred around the sneakers to evoke movement and fashion-forward energy. The lighting emphasizes a fashionable aura, casting a stylish glow.",
+              "prompt": "A scene with a pair of white platform sneakers in focus, placed next to a mini suitcase and a cute handbag, suggesting readiness to go out. Soft vacation-like background blur fading into the distance. Sneakers are sharp, positioned prominently. Bright, engaging lighting suggests a fresh start. The text overlay is within safe zones, ensuring clear communication. Typography is bold sans serif for effortless reading and impact.",
               "text_overlays": [
                 {
-                  "id": "hook_2",
-                  "text_exact": "Atrévete a destacarte.",
+                  "id": "p1",
+                  "text_exact": "Listos para todo momento",
                   "placement": {
-                    "anchor": "center_right",
-                    "x_percent": 60,
-                    "y_percent": 20,
-                    "max_width_percent": 30,
-                    "max_height_percent": 20
+                    "anchor": "center_bottom",
+                    "x_percent": 50,
+                    "y_percent": 90,
+                    "max_width_percent": 80,
+                    "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
-                    "alignment": "right"
+                    "alignment": "center"
                   },
                   "style": {
                     "fill": "#FFFFFF",
                     "stroke": "#000000",
-                    "shadow": "#333333",
+                    "shadow": "#000000",
                     "badge": null
                   }
                 },
                 {
-                  "id": "cta",
-                  "text_exact": "Compra ahora",
+                  "id": "p2",
+                  "text_exact": "¡Compra ahora!",
                   "placement": {
-                    "anchor": "bottom_center",
+                    "anchor": "center_top",
                     "x_percent": 50,
-                    "y_percent": 90,
+                    "y_percent": 10,
                     "max_width_percent": 40,
                     "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
                     "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFA500",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "rect"
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#000000",
+                    "badge": null
                   }
                 },
                 {
-                  "id": "badge_ship",
+                  "id": "p3",
                   "text_exact": "Envío gratis",
                   "placement": {
                     "anchor": "top_left",
                     "x_percent": 10,
-                    "y_percent": 5,
-                    "max_width_percent": 20,
+                    "y_percent": 10,
+                    "max_width_percent": 30,
                     "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
                     "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "round"
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#000000",
+                    "badge": "default"
                   }
                 },
                 {
-                  "id": "badge_cod",
+                  "id": "p4",
                   "text_exact": "Pago contraentrega",
                   "placement": {
                     "anchor": "top_right",
-                    "x_percent": 70,
-                    "y_percent": 5,
-                    "max_width_percent": 20,
+                    "x_percent": 90,
+                    "y_percent": 10,
+                    "max_width_percent": 40,
                     "max_height_percent": 10
                   },
                   "typography": {
-                    "font_family": "bold sans serif",
+                    "font_family": "Sans Serif",
                     "weight": 700,
                     "alignment": "center"
                   },
                   "style": {
-                    "fill": "#FFD700",
-                    "stroke": null,
-                    "shadow": null,
-                    "badge": "round"
+                    "fill": "#FFFFFF",
+                    "stroke": "#000000",
+                    "shadow": "#000000",
+                    "badge": "default"
                   }
                 }
               ],
               "composition_rules": {
-                "focus": "product",
-                "hierarchy": "product > text > scene",
-                "text_safe_zone": "center_bottom_third",
-                "text_never_cover_rule": "Ensure product image maintains prominence and does not overlap text zones."
+                "focus": "The sneakers prominently located, surrounded by travel-related items to inspire action.",
+                "hierarchy": "Sneakers are first, followed by the travel purse and suitcase.",
+                "text_safe_zone": "10% edge margins all around the card",
+                "text_never_cover_rule": "No product or essential visuals should place text within the text_safe_zone."
               },
               "negative_prompt": "wrong product model, logos, watermarks, faces, extra text beyond overlays"
             }
@@ -775,16 +708,17 @@
         ]
       },
       "hooks_used": [
-        "\"La tendencia que buscabas!\"",
-        "\"Atrévete a destacarte.\"",
-        "\"Compra ahora\"",
-        "\"Envío gratis\"",
-        "\"Pago contraentrega\""
+        "Benefit Focus",
+        "Problem-Solution",
+        "Transformation Journey",
+        "Testimonial/Endorsement",
+        "Relatable Story",
+        "Trend/Culture Hooks"
       ],
       "compliance_notes": [
-        "Ensure no use of celebrity endorsements or testimonials without permission.",
-        "Avoid statements that imply guaranteed personal benefits.",
-        "Do not use performance numbers or exaggerated marketing claims."
+        "Ensure no unverified performance claims or bestseller status in conveying messages.",
+        "Adhere to accurate textual descriptions and promotions without stating invalid guarantees.",
+        "Refrain from including non-compliant visual elements such as brand logos or watermarks."
       ]
     }
   ]

@@ -2,10 +2,14 @@ import gspread
 from google.oauth2.service_account import Credentials
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
-from googleapiclient.http import MediaIoBaseDownload
-from typing import List, Any, Tuple
+from googleapiclient.http import MediaIoBaseDownload, MediaFileUpload
+from typing import List, Any, Tuple, Dict, Optional
+from typing import List, Any, Tuple, Dict
 import io
 import os
+
+from utils.logger import setup_logger
+logger = setup_logger("InfoProducts")
 
 # Constants
 SERVICE_ACCOUNT_FILE = "gen-lang-client-0178743357-82f8fdac6954.json"
@@ -42,7 +46,7 @@ def download_product_images(product_name: str, local_output_dir: str) -> bool:
     """
     PARENT_FOLDER_ID = "1QquAjl4BJsr0mR2s19ZXKIY0PTjl62CO"
     
-    print(f"   ☁️ Drive: Searching for folder '{product_name}'...")
+    logger.info(f"Drive: Searching for folder '{product_name}'...")
     service = get_drive_service()
     
     # 1. Search for folder
@@ -58,20 +62,20 @@ def download_product_images(product_name: str, local_output_dir: str) -> bool:
         # Let's try 'contains' if exact match fails, or assume exact match is required as per user instructions.
         # Check user prompt: "hay que buscar la carpeta con el nombre del producto".
         # Let's try a broader search just in case: name contains product_name
-        print(f"   ⚠️ Exact match not found. Trying contains '{product_name}'...")
+        logger.warning(f"Exact match not found. Trying contains '{product_name}'...")
         q_broad = f"'{PARENT_FOLDER_ID}' in parents and name contains '{query_name}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
         results_broad = service.files().list(q=q_broad, fields="files(id, name)").execute()
         folders = results_broad.get('files', [])
         
         if not folders:
-            print(f"   ❌ Drive folder for '{product_name}' not found.")
+            logger.error(f"Drive folder for '{product_name}' not found.")
             return False
             
     # Use the first found folder
     folder = folders[0]
     folder_id = folder['id']
     folder_real_name = folder['name']
-    print(f"   ✅ Found folder: {folder_real_name} (ID: {folder_id})")
+    logger.info(f"Found folder: {folder_real_name} (ID: {folder_id})")
     
     # 2. List images in that folder
     q_imgs = f"'{folder_id}' in parents and mimeType contains 'image/' and trashed = false"
@@ -79,7 +83,7 @@ def download_product_images(product_name: str, local_output_dir: str) -> bool:
     files = results_imgs.get('files', [])
     
     if not files:
-        print("   ⚠️ No images found in the Drive folder.")
+        logger.warning("No images found in the Drive folder.")
         return False
         
     # 3. Download images
@@ -92,21 +96,74 @@ def download_product_images(product_name: str, local_output_dir: str) -> bool:
         # Avoid duplicates or just overwrite? Overwrite is safer to ensure latest.
         file_path = os.path.join(local_output_dir, file_name)
         
-        # print(f"      ⬇️ Downloading {file_name}...")
+        # logger.debug(f"Downloading {file_name}...")
         request = service.files().get_media(fileId=file_id)
         fh = io.BytesIO()
         downloader = MediaIoBaseDownload(fh, request)
         done = False
         while done is False:
             status, done = downloader.next_chunk()
-            # print(f"Download {int(status.progress() * 100)}%.")
             
         with open(file_path, "wb") as f:
             f.write(fh.getbuffer())
         count += 1
         
-    print(f"   ✅ Downloaded {count} images to {local_output_dir}")
+    logger.info(f"Downloaded {count} images to {local_output_dir}")
     return True
+
+def upload_folder_to_drive(local_folder_path: str, parent_folder_id: str = "1U4lWIeqyKojgG-KDFwataZtiNkhxqNTe"):
+    """
+    Recursively uploads a local folder to Google Drive.
+    """
+    service = get_drive_service()
+    
+    folder_name = os.path.basename(local_folder_path)
+    logger.info(f"(Drive) Uploading '{folder_name}' to Drive ID: {parent_folder_id}")
+
+    # 1. Check if folder already exists in parent
+    q = f"'{parent_folder_id}' in parents and name = '{folder_name}' and mimeType = 'application/vnd.google-apps.folder' and trashed = false"
+    existing = service.files().list(q=q, fields="files(id)").execute().get('files', [])
+    
+    if existing:
+        drive_folder_id = existing[0]['id']
+        logger.info(f"Folder '{folder_name}' exists (ID: {drive_folder_id}). Merging contents.")
+    else:
+        # Create folder
+        file_metadata = {
+            'name': folder_name,
+            'mimeType': 'application/vnd.google-apps.folder',
+            'parents': [parent_folder_id]
+        }
+        folder = service.files().create(body=file_metadata, fields='id').execute()
+        drive_folder_id = folder.get('id')
+        logger.info(f"Created Drive Folder: {folder_name} (ID: {drive_folder_id})")
+        
+    # 2. Upload files and recurse folders
+    for item in os.listdir(local_folder_path):
+        item_path = os.path.join(local_folder_path, item)
+        
+        if os.path.isfile(item_path):
+            # Check if file exists to avoid duplicates? Or overwrite? 
+            # Simple check: name matches
+            q_file = f"'{drive_folder_id}' in parents and name = '{item}' and trashed = false"
+            params = {'q': q_file, 'fields': 'files(id)'}
+            exist_files = service.files().list(**params).execute().get('files', [])
+            
+            if exist_files:
+                # Skip or Update? Let's skip to save time/bandwidth unless needed.
+                logger.info(f"File '{item}' already exists. Skipping.")
+                continue
+                
+            logger.info(f"Uploading file: {item}")
+            media = MediaFileUpload(item_path, resumable=True)
+            file_metadata = {'name': item, 'parents': [drive_folder_id]}
+            service.files().create(body=file_metadata, media_body=media, fields='id').execute()
+            
+        elif os.path.isdir(item_path):
+            # Recurse
+            upload_folder_to_drive(item_path, parent_folder_id=drive_folder_id)
+            
+    logger.info(f"Upload of '{folder_name}' completed.")
 
 def get_filtered_products() -> List[Tuple[int, List[Any]]]:
     """
@@ -158,7 +215,7 @@ def update_product_status(row_idx: int, study_done: str = "SI", approved_status:
     # K -> Col 11, L -> Col 12
     ws.update_cell(row_idx, 11, study_done)
     ws.update_cell(row_idx, 12, approved_status)
-    print(f"✅ Updated Row {row_idx}: Estudio={study_done}, Estado={approved_status}")
+    logger.info(f"Updated Row {row_idx}: Estudio={study_done}, Estado={approved_status}")
 
 def log_study_result(result_data: dict):
     """
@@ -174,7 +231,7 @@ def log_study_result(result_data: dict):
         # Create if not exists (Optional, usually we expect it to exist)
         ws_res = spreadsheet.add_worksheet(title=WORKSHEET_RESULTS, rows=1000, cols=20)
         # Add Header
-        header = ["Nombre Producto", "Aprobado (9/13)"] + [k for k in result_data.keys() if k not in ["Nombre Producto", "APROBADO (>9/13)", "Total SI", "Score"]]
+        header = ["Nombre Producto", "Aprobado (9/12)"] + [k for k in result_data.keys() if k not in ["Nombre Producto", "APROBADO (>9/12)", "Total SI", "Score"]]
         ws_res.append_row(header)
 
     # Prepare values row based on header if possible, or just dump dict values in specific order?
@@ -192,35 +249,198 @@ def log_study_result(result_data: dict):
     
     row_values = [
         result_data.get("Nombre Producto", ""),
-        result_data.get("APROBADO (>9/13)", "")
+        result_data.get("APROBADO (>9/12)", "")
     ]
     
     # Add other keys sorted or constant
     # We filter out the ones we already added
-    ignored = {"Nombre Producto", "APROBADO (>9/13)", "Status", "Precio", "Garantia", "Total SI"}
+    ignored = {"Nombre Producto", "APROBADO (>9/12)", "Status", "Precio", "Garantia", "Total SI"}
     
     others = [str(v) for k, v in result_data.items() if k not in ignored]
     
     row_values.extend(others)
     
     ws_res.append_row(row_values)
-    print(f"📝 Logged result for: {result_data.get('Nombre Producto', 'Unknown')}")
+    logger.info(f"Logged result for: {result_data.get('Nombre Producto', 'Unknown')}")
 
 def main():
-    print("🚀 Fetching and filtering products...")
+    logger.info("Fetching and filtering products...")
     
     try:
         filtered_items = get_filtered_products()
         
-        print(f"\n✅ Found {len(filtered_items)} products with 'SI' in Column E:\n")
+        logger.info(f"Found {len(filtered_items)} products with 'SI' in Column E:")
         for idx, row in filtered_items:
-            print(f"Row {idx}: {row}")
+            logger.info(f"Row {idx}: {row}")
             
             # Test update on only the first one if run directly?
             # update_product_status(idx, "SI", "TEST_PENDING")
             
     except Exception as e:
-        print(f"❌ Error: {e}")
+        logger.error(f"Error: {e}")
+
+
+def get_approved_products_for_ads() -> List[Dict[str, Any]]:
+    """
+    Scans 'Resultados_Estudio' for products that:
+    1. Have 'Agentes Ads Gen' != 'SI' (not yet processed).
+    2. Have 'Aprobado Calculado' == 'SI' OR 'Aprobado Manual' == 'SI'.
+    
+    Returns a list of dicts with full product details fetched from 'Info_Productos'.
+    """
+    client = get_google_sheet_client()
+    spreadsheet = client.open_by_url(SHEET_URL)
+    
+    # 1. Read Results Sheet
+    try:
+        ws_res = spreadsheet.worksheet(WORKSHEET_RESULTS)
+    except gspread.exceptions.WorksheetNotFound:
+        logger.error("'Resultados_Estudio' worksheet not found.")
+        return []
+
+    # Get all values to leverage headers
+    rows = ws_res.get_all_values()
+    if not rows:
+        return []
+        
+    headers = [h.strip() for h in rows[0]]
+    
+    # Identify column indices (0-based)
+    try:
+        idx_name = headers.index("Nombre Producto")
+        # 'Aprobado Calculado' usually matches 'Aprobado (>9/12)' or similar, let's be flexible or exact based on user prompt.
+        # User said: "Aprobado Calculado" and "Aprobado Manual".
+        # Let's inspect headers if possible, but assuming standard names from prompt.
+        # Actually, my previous code writes "Aprobado (9/12)".
+        # User prompt implies "Aprobado Calculado" might be that column or a new one?
+        # "Aprobado Calculado, Aprobado Manual, Agentes Ads Gen" are the last 3 columns mentioned.
+        # Let's look for them by name.
+        
+        # Check if 'Agentes Ads Gen' exists, if not, maybe we need to rely on position?
+        # User said: "en la primera fila estan las columnas: ... Aprobado Calculado, Aprobado Manual, Agentes Ads Gen"
+        # Since I am not generating those last specific columns in `log_study_result` yet (I generate "Aprobado (9/12)"), 
+        # I assume they might be added manually or by another process, OR I should look for loosely matching names.
+        # "Aprobado (9/12)" corresponds to "Aprobado Calculado" likely.
+        
+        idx_calc = -1
+        for i, h in enumerate(headers):
+            if "Aprobado" in h and "Manual" not in h and "Agentes" not in h:
+                idx_calc = i
+                break
+        
+        try:
+            idx_manual = headers.index("Aprobado Manual")
+        except ValueError:
+            idx_manual = -1
+            
+        try:
+            idx_agents = headers.index("Agentes Ads Gen")
+        except ValueError:
+            # If not found, maybe valid to assume NOT PROCESSED?
+            # Or assume it is the last column?
+            # Let's be safe: if not found, we can't filter by it, or we assume empty.
+            idx_agents = -1
+
+    except ValueError as e:
+        logger.error(f"Key column missing in Resultados_Estudio: {e}")
+        return []
+
+    candidates = []
+    
+    # Iterate rows (skipping header)
+    for i, row in enumerate(rows[1:]):
+        row_idx = i + 2 # 1-based index (Header is 1, so first data row is 2)
+        
+        # Safe get value
+        val_name = row[idx_name] if len(row) > idx_name else ""
+        if not val_name: continue
+        
+        val_calc = (row[idx_calc] if idx_calc != -1 and len(row) > idx_calc else "").strip().upper()
+        val_manual = (row[idx_manual] if idx_manual != -1 and len(row) > idx_manual else "").strip().upper()
+        val_agents = (row[idx_agents] if idx_agents != -1 and len(row) > idx_agents else "").strip().upper()
+        
+        # LOGIC: 
+        # IF Agentes Ads Gen == "SI" -> SKIP
+        if val_agents == "SI":
+            continue
+            
+        # ELSE IF (Calc == SI OR Manual == SI) -> PROCESS
+        is_approved = (val_calc == "SI") or (val_manual == "SI")
+        
+        if is_approved:
+            logger.info(f"Found Candidate: {val_name} (Row {row_idx})")
+            
+            # Now fetch details from Info_Productos
+            details = get_product_details_by_name(val_name, spreadsheet)
+            if details:
+                details['results_row_idx'] = row_idx
+                # We need column index for 'Agentes Ads Gen' to update it later. 
+                # If it doesn't exist in sheet, we might need to append it? 
+                # For now, assumes it exists or we append to row info?
+                # User instructions imply columns verify existence.
+                candidates.append(details)
+            else:
+                logger.warning(f"Details not found in Info_Productos for '{val_name}'")
+
+    return candidates
+
+def get_product_details_by_name(product_name: str, spreadsheet: gspread.Spreadsheet) -> Dict[str, Any]:
+    """
+    Searches for 'product_name' in 'Info_Productos' (Column C) and returns dict with:
+    Nombre, Precio, Descripcion, Garantia.
+    """
+    ws_info = spreadsheet.worksheet(WORKSHEET_INFO)
+    
+    # Search in Column C (Index 3). Get all values of Col C?
+    # Getting all is faster than find() if many rows? Or find is okay.
+    try:
+        cell = ws_info.find(product_name, in_column=3) # Column C is 3
+    except gspread.exceptions.CellNotFound:
+        return {}
+        
+    if not cell:
+        return {}
+        
+    row_values = ws_info.row_values(cell.row)
+    
+    # Columns map (0-based from row_values):
+    # A(0): Campana, B(1): ID, C(2): Nombre, D(3): Precio, E(4): Test ...
+    # H(7): Desc, I(8): Garantia ...
+    
+    # Make sure list is long enough
+    def get_col(idx):
+        return row_values[idx] if len(row_values) > idx else ""
+        
+    return {
+        "nombre_producto": get_col(2),
+        "precio": get_col(3),
+        "descripcion": get_col(7), # H
+        "garantia": get_col(8)     # I
+    }
+
+def mark_ads_gen_completed(results_row_idx: int):
+    """
+    Updates 'Agentes Ads Gen' column to 'SI' for the specified row in 'Resultados_Estudio'.
+    """
+    client = get_google_sheet_client()
+    spreadsheet = client.open_by_url(SHEET_URL)
+    ws_res = spreadsheet.worksheet(WORKSHEET_RESULTS)
+    
+    # Find column index for "Agentes Ads Gen"
+    headers = ws_res.row_values(1)
+    try:
+        col_idx = headers.index("Agentes Ads Gen") + 1 # 1-based for gspread update_cell
+    except ValueError:
+        # If not found, assume it is the column after "Aprobado Manual" or simply append header?
+        # Let's try to find "Aprobado Manual" and go +1? Or just append to row?
+        # Safer: Find it or fail gracefully (or add it).
+        # User implies it exists. If not, let's append it to header if we are the first run?
+        # Doing dynamic header update is risky.
+        logger.error("Could not find column 'Agentes Ads Gen' to update.")
+        return
+
+    ws_res.update_cell(results_row_idx, col_idx, "SI")
+    logger.info(f"Marked row {results_row_idx} as Completed (Agentes Ads Gen = SI)")
 
 if __name__ == "__main__":
     main()

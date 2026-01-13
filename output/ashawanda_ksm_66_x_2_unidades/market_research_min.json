@@ -1,7 +1,7 @@
 {
   "meta": {
-    "run_date_iso": "2026-01-05",
-    "model": "GPT-4 (web)",
+    "run_date_iso": "2026-01-06",
+    "model": "Analista-mercado-2026",
     "locale_priority": "CO_first_then_LATAM"
   },
   "input": {
@@ -10,58 +10,55 @@
     "garantia": "10 DIAS",
     "precio": "$105.000"
   },
-  "resumen_corto": "Oportunidad en KSM-66 (pack x2): fuerte evidencia clínica para estrés/sueño, foco y desempeño físico; precios locales muy variables en Colombia. Sin embargo, la categoría está altamente competida y el margen fue validado internamente como bajo. Mejor apuesta: posicionar anti-estrés y sueño + propuesta de valor “ahorro pack x2” con sello KSM-66, cuidando claims y diferenciación por calidad y precio por dosis.",
+  "resumen_corto": "KSM-66® (extracto de raíz de ashwagandha de Ixoreal) tiene evidencia clínica para estrés/sueño, rendimiento deportivo y apoyo cognitivo. En Colombia existen múltiples listados online (Falabella, Mercado Libre) y packs, con precios por unidad entre ~$70.000 y ~$150.000 COP según marca y formato. El pack “x2 unidades” existe en el canal retail (no siempre KSM‑66). Evergreen con picos estacionales (enero gimnasio, cierre de año estrés).",
   "product_fingerprint": {
-    "marca": "Ingrediente: KSM-66 (Ixoreal Biomed). Marca comercial final variable (p. ej., Carlyle, Nutricost, Nature’s Lab, herbolab, etc.).",
-    "modelo": "Ashwagandha KSM-66 de raíz, estandarizado ~5% withanólidos, 300–600 mg por cápsula/softgel. Oferta: pack x2 frascos.",
-    "categoria": "Suplemento dietario adaptógeno (estrés/sueño/cognición/deporte).",
+    "marca": "Ingrediente: KSM-66® (Ixoreal Biomed). Marcas comerciales que lo usan en CO/LATAM: Carlyle, Essentials, Extremo Sur, otras.",
+    "modelo": "Ashwagandha KSM-66 (raíz, full-spectrum).",
+    "categoria": "Suplemento dietario adaptógeno (cápsulas/polvo/gomitas).",
     "specs_claims_clave": [
-      "KSM-66: extracto full-spectrum de raíz (root-only).",
-      "Estandarización típica: ≥5% withanólidos.",
-      "Dosis común clínica: 300 mg BID o 600 mg/día.",
-      "Formatos vistos: cápsulas/softgels, 60–120 cápsulas.",
-      "Beneficios con evidencia: estrés/cortisol, calidad de sueño, cognición, fuerza/recuperación.",
-      "Presencia en Colombia con pago contraentrega y envíos nacionales.",
-      "Algunas fórmulas incluyen BioPerine/pimienta negra."
+      "Extracto de raíz únicamente (sin hojas), método ‘green chemistry’. ([ksm66ashwagandhaa.com](https://ksm66ashwagandhaa.com/ksm-66/what-is-ksm-66/?utm_source=openai))",
+      "Estudios clínicos en estrés, sueño, cognición, fuerza y testosterona (RDTBPC). ([ksm66ashwagandhaa.com](https://ksm66ashwagandhaa.com/clinical-studies/?utm_source=openai))",
+      "Dosis clínica frecuente: 300 mg 2/día (600 mg/día). ([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/23439798/?utm_source=openai))",
+      "Enfoque en evitar hojas por seguridad/adulteración. ([ksm66ashwagandhaa.com](https://ksm66ashwagandhaa.com/be-wary-of-ashwagandha-leaves.php?utm_source=openai))",
+      "Disponibilidad en Colombia (Falabella, Mercado Libre; marcas con KSM‑66). ([falabella.com.co](https://www.falabella.com.co/falabella-co/product/144118917/Ashwagandha-Americana-Ksm-66?utm_source=openai))",
+      "Advertencias uso: evitar embarazo, cautela con tiroides/medicamentos. ([nccih.nih.gov](https://www.nccih.nih.gov/health/ashwagandha?utm_source=openai))"
     ],
-    "rango_precio_observado": "≈ $60.890 – $179.000 COP por frasco (picos hasta ~$296.801 COP).",
-    "garantia_tipo": "Variable por tienda (p. ej., 30 días satisfacción en algunos e-commerce). ‘10 días’ del input no confirmado en fuentes externas.",
+    "rango_precio_observado": "COP ~$69.900 – ~$151.777 por unidad (60–100 cápsulas; según marca/formato). ([falabella.com.co](https://www.falabella.com.co/falabella-co/product/144118917/Ashwagandha-Americana-Ksm-66?utm_source=openai))",
+    "garantia_tipo": "Comercial del vendedor (7–30 días típico en e-commerce CO). Ej.: 30 días en tienda Go Natural. ([gonaturalcolombia.com](https://gonaturalcolombia.com/products/ashwagandha-ksm-66-original-importada-usa?utm_source=openai))",
     "variantes_detectadas": [
-      "600 mg 60 cápsulas con BioPerine (Nutricost).",
-      "5500 mg ‘softgels’ 100 und (marcas locales/importadas).",
-      "1200 mg con pimienta negra 120 cápsulas (importado).",
-      "600 mg 60 cápsulas KSM-66 (varias tiendas CO).",
-      "500 mg 60 servicios (NuEthix).",
-      "120 cápsulas Nature’s Lab KSM-66.",
-      "Carlyle 600 mg KSM-66 (visto en CO)."
+      "Cápsulas 600 mg x 70 (Carlyle). ([mercadolibre.com.co](https://www.mercadolibre.com.co/ksm-66-ashwagandha-600mg-70ud-sabor/p/MCO60069411?utm_source=openai))",
+      "Cápsulas 60 unidades (Extremo Sur). ([mercadolibre.cl](https://www.mercadolibre.cl/ksm-66-ashwagandha-60-caps-vegetales-natural/p/MLC54532099?utm_source=openai))",
+      "Polvo 250 g (Essentials). ([articulo.mercadolibre.com.co](https://articulo.mercadolibre.com.co/MCO-2897003816-ksm-66-ashwagandha-en-polvo-_JM?utm_source=openai))",
+      "Packs múltiples y formatos no KSM‑66 en retail (Zenova x2/x3). ([farmatodo.com.co](https://www.farmatodo.com.co/producto/500021311-ashwagandha-relajacion--regula-el-estres-de-60-cap-x--2-unidades-zenova-capsula-x-60-x-capsula-x-60?utm_source=openai))",
+      "Listados online KSM‑66 en Falabella CO. ([falabella.com.co](https://www.falabella.com.co/falabella-co/product/144118917/Ashwagandha-Americana-Ksm-66?utm_source=openai))"
     ]
   },
   "top_5_angulos": [
     {
       "rank": 1,
-      "angulo": "Anti-estrés + Sueño reparador (clínicamente respaldado)",
+      "angulo": "Anti-estrés y mejor sueño (cortisol ↓, calidad de sueño ↑)",
       "score_0a10": 9.2,
-      "buyer_persona": "Profesionales 25–45 con estrés/ansiedad leve y sueño irregular.",
-      "promesa": "Baja el estrés y mejora la calidad del sueño en 6–10 semanas con KSM-66 (dosis estudiadas).",
-      "objecion_principal": "“Es placebo/marketing; los ‘herbales’ no funcionan.”",
-      "justificacion": "Múltiples ECA doble ciego muestran que extractos de raíz de ashwagandha (incluido KSM-66) reducen cortisol/ansiedad y mejoran parámetros de sueño (PSQI, latencia, eficiencia, TST).",
+      "buyer_persona": "Adultos 25–45 bajo estrés laboral/estudio con sueño ligero.",
+      "promesa": "Duerme mejor y maneja el estrés en 4–8 semanas con KSM‑66® (raíz, evidencia clínica).",
+      "objecion_principal": "‘¿Realmente funciona y es seguro?’",
+      "justificacion": "KSM‑66 cuenta con ensayos RDBPC mostrando reducción significativa de estrés y cortisol, y mejoras de sueño; dosis típica 300 mg BID por 60 días. Marca/ingrediente coincide con ‘KSM‑66’ del producto.",
       "evidencia": [
         {
-          "url": "https://pubmed.ncbi.nlm.nih.gov/31728244/",
-          "pais": "INT",
-          "match_note": "Ensayo RCT (300 mg BID) con mejora de sueño y ansiedad en 10 semanas; coincide con dosis típicas y claims del KSM-66.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23439798/",
+          "pais": "IN/INT",
+          "match_note": "Estudio 2012 con ‘high‑concentration full‑spectrum root extract’ (KSM‑66) 300 mg BID; bajó cortisol y estrés.",
           "confianza": "Alta"
         },
         {
-          "url": "https://www.nutraceuticalsworld.com/breaking-news/ksm-66-ashwagandha-shown-to-benefit-sleep-quality-parameters/",
+          "url": "https://ksm66ashwagandhaa.com/clinical-studies/",
           "pais": "INT",
-          "match_note": "Cobertura de ECA con KSM-66 (8 semanas) mejorando SOL, SE, TST; respalda el ángulo ‘sueño’.",
+          "match_note": "Página oficial KSM‑66 con portafolio de estudios en ‘Stress/Sleep’. Corresponde al mismo ingrediente del producto.",
           "confianza": "Media"
         },
         {
-          "url": "https://colombia.yaxa.co/products/ashwagandha-ksm-66/",
-          "pais": "CO",
-          "match_note": "Listado en CO de ‘Ashwagandha KSM-66’ (600 mg, venta local); coincide con ingrediente, forma cápsulas y mercado objetivo.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31728244/",
+          "pais": "IN",
+          "match_note": "RCT en insomnio: 300 mg BID de extracto de raíz mejoró PSQI/actigrafía; apoya el ángulo sueño (marca no siempre especificada).",
           "confianza": "Media"
         }
       ],
@@ -69,29 +66,23 @@
     },
     {
       "rank": 2,
-      "angulo": "Focus y Productividad (memoria/atención)",
-      "score_0a10": 8.6,
-      "buyer_persona": "Trabajadores del conocimiento, estudiantes universitarios.",
-      "promesa": "Mejora memoria de trabajo, atención y estado de ánimo con KSM-66 600 mg/día.",
-      "objecion_principal": "“No hay pruebas en gente sana.”",
-      "justificacion": "Estudios controlados reportan mejoras en dominios cognitivos y en escalas de vigor/ánimo con 600 mg/día de extracto de raíz.",
+      "angulo": "Rendimiento en gimnasio: fuerza, masa y recuperación",
+      "score_0a10": 8.9,
+      "buyer_persona": "Gym-goers 18–35 que buscan progreso medible.",
+      "promesa": "Más fuerza y recuperación en 8 semanas con KSM‑66® (raíz) a 600 mg/día.",
+      "objecion_principal": "‘Es puro marketing; no hay datos reales.’",
+      "justificacion": "Ensayo JISSN (Wankhede 2015) mostró ↑ fuerza, masa y ↓ CK con 300 mg BID; KSM‑66 documenta además VO2 máx. y testosterona en su compendio.",
       "evidencia": [
         {
-          "url": "https://pubmed.ncbi.nlm.nih.gov/34858513/",
+          "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-015-0104-9",
           "pais": "INT",
-          "match_note": "Mejoras de memoria/estrés/sueño en adultos estresados (SR 300 mg/día; raíz). Aplica al claim cognitivo.",
-          "confianza": "Media"
-        },
-        {
-          "url": "https://pubmed.ncbi.nlm.nih.gov/28471731/",
-          "pais": "INT",
-          "match_note": "RCT en MCI (300 mg BID, raíz) con mejoras significativas de memoria; converge con dosificación-clave.",
+          "match_note": "RCT con KSM‑66 300 mg BID; mejoras en fuerza/masa/testosterona.",
           "confianza": "Alta"
         },
         {
-          "url": "https://ksm66ashwagandhaa.com/clinical-studies/",
+          "url": "https://ksm66ashwagandhaa.com/sports-nutrition.php",
           "pais": "INT",
-          "match_note": "Repositorio de estudios de KSM-66 (cognición/ánimo); coincide con ingrediente y claims.",
+          "match_note": "Resumen oficial KSM‑66: estudios de fuerza, VO2 y testosterona; mismo ingrediente.",
           "confianza": "Media"
         }
       ],
@@ -99,214 +90,212 @@
     },
     {
       "rank": 3,
-      "angulo": "Performance en entrenamiento (fuerza y recuperación)",
-      "score_0a10": 8.4,
-      "buyer_persona": "Hombres y mujeres 20–40 que van al gym y buscan fuerza/masa y menor fatiga.",
-      "promesa": "Más fuerza y mejor recuperación en 8 semanas con KSM-66 (300 mg BID).",
-      "objecion_principal": "“No sirve para fuerza real” o “¿riesgo hormonal?”",
-      "justificacion": "ECA con KSM-66 muestra aumentos en 1RM, masa y testosterona vs. placebo y menor CK (recuperación). Nuevo estudio 2023/2024 refuerza VO2máx/fortaleza.",
+      "angulo": "Enfoque y productividad (cognición y estado de ánimo)",
+      "score_0a10": 7.9,
+      "buyer_persona": "Profesionales y estudiantes que buscan concentración sostenible.",
+      "promesa": "Mejora memoria de trabajo y claridad mental con un adaptógeno clínicamente investigado.",
+      "objecion_principal": "‘La evidencia en cognición es limitada.’",
+      "justificacion": "KSM‑66 comunica mejoras en funciones ejecutivas; RCTs recientes con extracto de raíz muestran beneficios en COMPASS y fatiga mental (no siempre KSM‑66).",
       "evidencia": [
         {
-          "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-015-0104-9",
+          "url": "https://ksm66ashwagandhaa.com/clinical-studies/",
           "pais": "INT",
-          "match_note": "RCT con KSM-66 300 mg BID; mejoras en 1RM, masa, testosterona; coincide con formato/dosis.",
-          "confianza": "Alta"
-        },
-        {
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38988644/",
-          "pais": "INT",
-          "match_note": "ECA 2023/24: 600 mg/día raíz (>5% withanólidos) mejora fuerza/VO2máx; refuerza promesa deportiva.",
+          "match_note": "Sección Brain Health (memoria/atención) específica de KSM‑66.",
           "confianza": "Media"
         },
         {
-          "url": "https://www.marturi.com/products/ashwagandha-ksm-66-600-mg-60-capsulas-con-bioperin",
-          "pais": "CO",
-          "match_note": "Producto en CO: 600 mg KSM-66 con 5% withanólidos; coincide con fingerprint (ingrediente, dosis, cápsulas).",
-          "confianza": "Alta"
-        }
-      ],
-      "confianza": "Alta"
-    },
-    {
-      "rank": 4,
-      "angulo": "Ahorro inteligente: Pack x2 a precio por frasco más bajo que el mercado",
-      "score_0a10": 8.0,
-      "buyer_persona": "Compradores racionales que comparan precio por dosis/frasco.",
-      "promesa": "Llévate 2 frascos por $105.000 COP (≈$52.500 c/u), por debajo de precios unitarios típicos locales.",
-      "objecion_principal": "“Seguro hay más barato” o “no es el mismo KSM-66.”",
-      "justificacion": "Precios unitarios vistos en CO suelen estar entre ~$84.900 y ~$179.000; también se ven promos x2 por ~$129.900. El pack x2 a $105.000 es competitivo por frasco.",
-      "evidencia": [
-        {
-          "url": "https://gonaturalcolombia.com/products/ashwagandha-ksm-66-original-importada-usa",
-          "pais": "CO",
-          "match_note": "Precio ref. $84.900 c/u (KSM-66 en CO). Comparador para mostrar ahorro por frasco.",
-          "confianza": "Media"
-        },
-        {
-          "url": "https://www.mizonafit.co/products/ashwagandha-ksm-66",
-          "pais": "CO",
-          "match_note": "Precio ref. $94.900 c/u (CO). Refuerza benchmark por unidad.",
-          "confianza": "Media"
-        },
-        {
-          "url": "https://www.adarabelleza.com.co/products/ashwagandha",
-          "pais": "CO",
-          "match_note": "Tiene promo x2 ($129.900). Sirve de ancla para mostrar que $105.000 x2 es más agresivo.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39498904/",
+          "pais": "IN",
+          "match_note": "RCT 2024: 600 mg/día de extracto de raíz mejoró memoria/atención (marca genérica).",
           "confianza": "Media"
         }
       ],
       "confianza": "Media"
     },
     {
-      "rank": 5,
-      "angulo": "Calidad y seguridad: ‘root-only’ KSM-66 con 5% withanólidos",
-      "score_0a10": 7.9,
-      "buyer_persona": "Consumidores informados que buscan respaldo científico y pureza.",
-      "promesa": "KSM-66: extracto de raíz full-spectrum, <0.1% withaferina A, proceso ‘green chemistry’, con >20 ECA en humanos.",
-      "objecion_principal": "“Todos los ashwagandha son iguales” o “puede ser adulterado.”",
-      "justificacion": "KSM-66 es marca líder, root-only y estándar 5% withanólidos; terceros destacan pureza y seguridad (baja withaferina A).",
+      "rank": 4,
+      "angulo": "Apoyo masculino (testosterona y vitalidad)",
+      "score_0a10": 7.6,
+      "buyer_persona": "Hombres 25–45 con entrenamiento de fuerza/ritmo intenso.",
+      "promesa": "Apoya niveles saludables de testosterona y rendimiento con KSM‑66® a dosis clínicas.",
+      "objecion_principal": "‘No quiero promesas exageradas ni riesgos hormonales.’",
+      "justificacion": "KSM‑66 divulga varios RCTs con ↑ de testosterona (15–17% aprox.) y mejor desempeño; se debe usar con responsabilidad y descartar contraindicaciones (NCCIH).",
       "evidencia": [
         {
-          "url": "https://ksm66ashwagandhaa.com/clinical-studies/",
+          "url": "https://ksm66ashwagandhaa.com/sports-nutrition.php",
           "pais": "INT",
-          "match_note": "Página oficial con estudios humanos y posicionamiento KSM-66; coincide con ingrediente del producto.",
+          "match_note": "Resumen con 4–5 estudios de testosterona con KSM‑66 (dosis 225–600 mg/día).",
           "confianza": "Media"
         },
         {
-          "url": "https://www.vitafoodsinsights.com/botanicals-herbs/why-ksm-66-guarantees-safety-and-root-only-purity-for-your-ashwagandha-based-product",
+          "url": "https://jissn.biomedcentral.com/articles/10.1186/s12970-015-0104-9",
           "pais": "INT",
-          "match_note": "Artículo técnico de terceros: metodología root-only y niveles bajos de withaferina A; respalda diferenciación.",
-          "confianza": "Media"
+          "match_note": "Wankhede 2015: ↑ testosterona con KSM‑66 en fuerza.",
+          "confianza": "Alta"
         },
         {
-          "url": "https://www.marturi.com/products/ashwagandha-ksm-66-600-mg-60-capsulas-con-bioperin",
-          "pais": "CO",
-          "match_note": "Listado CO con 5% withanólidos; coincide con fingerprint y refuerza ‘root-only’ KSM-66 en el mercado local.",
+          "url": "https://www.nccih.nih.gov/health/ashwagandha",
+          "pais": "US",
+          "match_note": "NCCIH: evidencia limitada pero existente en testosterona; advertencias de seguridad.",
           "confianza": "Alta"
         }
       ],
-      "confianza": "Alta"
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Diferenciación por calidad/seguridad: ‘raíz‑only’ vs hojas y adulteración",
+      "score_0a10": 7.4,
+      "buyer_persona": "Compradores informados que priorizan trazabilidad y seguridad.",
+      "promesa": "Elige KSM‑66®: raíz‑only, múltiples certificaciones y control anti‑adulteración.",
+      "objecion_principal": "‘Todos los ashwagandha son iguales.’",
+      "justificacion": "Autoridades y fuentes industriales alertan sobre hojas/adulteración; KSM‑66 enfatiza raíz‑only y controles de calidad; esto distingue la oferta frente a genéricos.",
+      "evidencia": [
+        {
+          "url": "https://ksm66ashwagandhaa.com/be-wary-of-ashwagandha-leaves.php",
+          "pais": "INT",
+          "match_note": "Documento KSM‑66 sobre riesgos de hojas y postura regulatoria; coincide con el ingrediente.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.vitafoodsinsights.com/botanicals-herbs/why-root-only-ashwagandha-is-the-only-route-for-safety-and-quality",
+          "pais": "EU",
+          "match_note": "Artículo sobre cautelas regulatorias vs hojas y adulteración; ángulo de seguridad/calidad.",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10784694/",
+          "pais": "INT",
+          "match_note": "Revisión de seguridad: recomendación de raíz, cita advisory de AYUSH; refuerza el ángulo.",
+          "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
     }
   ],
   "hooks_por_angulo": [
     {
       "rank_angulo": 1,
       "hooks": [
-        "¿Estrés a tope? KSM-66 te ayuda a bajar revoluciones y dormir mejor.",
-        "Duerme como se debe: 600 mg/día de KSM-66, resultados en semanas.",
-        "Menos cortisol, más calma. Tu noche (y tu día) lo van a agradecer.",
-        "Adiós desvelo, hola mañana con energía. Ashwagandha KSM-66.",
-        "No es café: es equilibrio. KSM-66 para estrés y sueño real.",
-        "Tu rutina anti-estrés empieza aquí: pack x2 y descansa mejor.",
-        "Dormir bien no es lujo, es salud. Pruébalo con KSM-66."
+        "Duerme como un bebé y baja el estrés con KSM‑66® (raíz, clínica real).",
+        "¿Cortisol alto? Pásate al adaptógeno con evidencia y nota la calma en 4–8 semanas.",
+        "Más descanso, menos vueltas en la cama: KSM‑66® a dosis clínica.",
+        "Tu rutina anti‑burnout: 2 cápsulas/día y chao estrés.",
+        "Sueño profundo + mañanas con energía: súmate a KSM‑66®.",
+        "Modo zen activado: estrés bajo control sin sedación pesada.",
+        "Optimiza tu noche: calidad de sueño respaldada por estudios.",
+        "Estrés del trabajo/uni: esta es tu micro‑pausa diaria (sin cafeína)."
       ]
     },
     {
       "rank_angulo": 2,
       "hooks": [
-        "Haz más en menos tiempo: enfoque con KSM-66.",
-        "Cerebro en modo enfoque: memoria y atención on point.",
-        "De la lista de pendientes a la de logros: KSM-66 todos los días.",
-        "Estudia/Trabaja con foco, no con ansiedad. KSM-66 te acompaña.",
-        "Menos niebla mental, más claridad. Ashwagandha KSM-66.",
-        "¿Proyectos encima? Sube tu productividad con KSM-66.",
-        "Mente clara, ánimo arriba. 600 mg/día de diferencia."
+        "Gana fuerza medible en 8 semanas: KSM‑66® + gym = progreso.",
+        "Recupérate más rápido: menos CK, más repeticiones.",
+        "Empuje limpio: adaptógeno raíz‑only para tu periodo de volumen.",
+        "Rompe estancamientos: fuerza y masa con evidencia RCT.",
+        "Rinde más sin jitters: cero estimulantes, pura constancia.",
+        "KSM‑66® pre‑y post‑entreno para cargar tu progreso.",
+        "Tu ‘stack’ inteligente: proteína + creatina + KSM‑66®.",
+        "Checklist del gym rat: fuerza, VO2 y recuperación marcados."
       ]
     },
     {
       "rank_angulo": 3,
       "hooks": [
-        "Sube tu 1RM sin subir el estrés: KSM-66.",
-        "Entrena fuerte, recupera mejor. Ashwagandha para atletas.",
-        "Más reps, menos fatiga: KSM-66 en tu stack.",
-        "Gimnasio + KSM-66 = progreso visible en 8 semanas.",
-        "Fuerza y VO2máx con ciencia detrás. No es humo.",
-        "Domina la semana de entreno con mejor recuperación.",
-        "Rinde más, descansa mejor: el combo que suma."
+        "Cerebro enfocado, cero niebla mental: 600 mg/día.",
+        "Estudia/produce con calma: energía pareja, sin picos.",
+        "Menos distracciones, más deep work con KSM‑66®.",
+        "Memoria de trabajo al día: apóyate en un adaptógeno con data.",
+        "Tu café tiene nuevo socio: KSM‑66® full‑spectrum.",
+        "Modo foco ON: tareas largas sin quemarte.",
+        "Rinde en parciales y cierres de mes sin ansiedad.",
+        "La vitamina del enfoque (sin taquicardia)."
       ]
     },
     {
       "rank_angulo": 4,
       "hooks": [
-        "Paga menos por dosis: pack x2 KSM-66 a precio de remate.",
-        "¿Por qué pagar $95k por 1 si te llevas 2 por $105k?",
-        "Precio por frasco imbatible. Ahorra sin sacrificar calidad.",
-        "Compra inteligente: compara y vuelve por el pack x2.",
-        "Más noches tranquilas por menos plata. Así sí.",
-        "Stock limitado: precio por unidad más bajo del mercado.",
-        "Haz números: KSM-66 premium, pero sin el sobreprecio."
+        "Apoya tu testosterona de forma natural: KSM‑66® a dosis clínica.",
+        "Más reps, mejor ánimo: vitalidad que se siente.",
+        "Energía pareja para el día, rendimiento en el gym.",
+        "Si entrenas, que se note: fuerza y T apoyadas por RCT.",
+        "Stack masculino: proteína, sueño y KSM‑66®.",
+        "Vitalidad sin milagros: consistencia + evidencia.",
+        "Para los que exigen números: +15% aprox. en estudios clínicos.",
+        "Lleva tu progreso más allá del pre‑workout."
       ]
     },
     {
       "rank_angulo": 5,
       "hooks": [
-        "No todos los ashwagandha son iguales: elige KSM-66.",
-        "Root-only, 5% withanólidos, estudios en humanos. Punto.",
-        "Etiqueta que importa: KSM-66 = pureza y consistencia.",
-        "Tranquilidad es saber qué tomas: KSM-66 certificado.",
-        "Menos withaferina A, más confianza. Calidad real.",
-        "Ciencia primero, hype después: KSM-66 en tu rutina.",
-        "Cuando pides calidad, pides KSM-66."
+        "No todo ‘ashwagandha’ es igual: elige raíz‑only KSM‑66®.",
+        "Evita hojas/adulteración: ve a la fuente con trazabilidad.",
+        "Etiquetas limpias, control real: KSM‑66® certificado.",
+        "La diferencia está en la raíz: seguridad y consistencia.",
+        "Compra inteligente: menos hype, más control de calidad.",
+        "Transparencia ante todo: batch‑testing y origen claro.",
+        "Si es KSM‑66®, lo dice la ciencia y la trazabilidad.",
+        "Sube el estándar de tu botiquín natural."
       ]
     }
   ],
   "estacionalidad": {
     "clasificacion": "Mixto",
     "hechos": [
-      "La categoría adaptógenos/ashwagandha crece a doble dígito globalmente; KSM-66 lidera ventas en canales físicos de EE. UU. (dato SPINS).",
-      "Alta disponibilidad y ventas online sostienen demanda estable todo el año."
+      "Ashwagandha figura entre los top sellers en EE. UU. con crecimiento en 2024 (+13.8% en canal mainstream). ([nutraingredients-usa.com](https://www.nutraingredients-usa.com/Article/2025/09/10/us-herbal-supplements-sales-hit-a-record-132-billion-in-2024/?utm_source=openai))",
+      "En Colombia hay disponibilidad amplia online (Falabella, Mercado Libre) y packs; señal de demanda estable. ([falabella.com.co](https://www.falabella.com.co/falabella-co/product/144118917/Ashwagandha-Americana-Ksm-66?utm_source=openai))"
     ],
     "hipotesis": [
-      "Picos de interés en Q1 (propósitos/retomar hábitos) y Q4 (estrés/fin de año).",
-      "Repuntes en temporadas de exámenes/regreso a clases por ángulo ‘enfoque’."
+      "Pico enero–marzo (propósitos de año nuevo/retorno a gym) correlaciona con ángulo deportivo.",
+      "Picos en finales/trabajos (mayo–junio y nov.–dic.) para foco/estrés.",
+      "Aumento de estrés en fin de año (nov.–dic.) favorece ángulo sueño/estrés."
     ],
-    "correlacion_con_angulos": "- Anti-estrés/sueño y productividad funcionan todo el año; intensificar en Q1/Q4. - Performance deportiva empuja en ‘back to gym’ y pretemporadas."
+    "correlacion_con_angulos": "Deportivo (Q1) → ángulo 2; Estrés/sueño (Q4) → ángulo 1; Foco/productividad (fines de ciclo académico/cierre fiscal) → ángulo 3."
   },
   "checklist": [
     {
       "criterio": "Soluciona un problema?",
       "cumple": "SI",
       "confianza": "Alta",
-      "nota": "Addressable: estrés/sueño/cognición con evidencia clínica en humanos.",
+      "nota": "Evidencia RCT de reducción de estrés/cortisol y mejoras de sueño con extracto de raíz (incl. KSM‑66).",
       "fuentes": [
-        "https://pubmed.ncbi.nlm.nih.gov/31728244/",
-        "https://pubmed.ncbi.nlm.nih.gov/32818573/"
+        "https://pubmed.ncbi.nlm.nih.gov/23439798/",
+        "https://pubmed.ncbi.nlm.nih.gov/31728244/"
       ]
     },
     {
       "criterio": "Se entiende su funcionalidad rapidamente?",
       "cumple": "SI",
       "confianza": "Media",
-      "nota": "‘Ashwagandha para estrés/sueño’ es claro en fichas de producto.",
+      "nota": "Mensajes simples (estrés/sueño) validados por divulgación clínica de instituciones y marcas; comprensión rápida para consumidor.",
       "fuentes": [
-        "https://colombia.yaxa.co/products/ashwagandha-ksm-66/",
-        "https://www.marturi.com/products/ashwagandha-ksm-66-600-mg-60-capsulas-con-bioperin"
+        "https://health.clevelandclinic.org/what-is-ashwagandha",
+        "https://www.nccih.nih.gov/health/ashwagandha"
       ]
     },
     {
       "criterio": "Se le puede vender a una audiencia masiva?",
       "cumple": "SI",
       "confianza": "Media",
-      "nota": "Demanda amplia por manejo de estrés; categoría en expansión global.",
+      "nota": "Alta demanda global y múltiples listados en CO; apto 18–65 con contraindicaciones claras (embarazo/tiroides/medicación).",
       "fuentes": [
-        "https://www.vitafoodsinsights.com/botanicals-herbs/ashwagandha-from-ayurvedic-medicine-to-star-of-the-mainstream",
-        "https://www.grandviewresearch.com/press-release/global-ashwagandha-supplements-market"
+        "https://www.nutraingredients-usa.com/Article/2025/09/10/us-herbal-supplements-sales-hit-a-record-132-billion-in-2024/",
+        "https://www.nccih.nih.gov/health/ashwagandha"
       ]
     },
     {
       "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
-      "cumple": "SI",
+      "cumple": "NO",
       "confianza": "Baja",
-      "nota": "Inferencia por adopción mainstream y disponibilidad en retail. No confirmado con test directo.",
-      "fuentes": [
-        "https://www.vitafoodsinsights.com/botanicals-herbs/ashwagandha-from-ayurvedic-medicine-to-star-of-the-mainstream"
-      ]
+      "nota": "No confirmado (criterio subjetivo, falta evidencia directa de intención de compra).",
+      "fuentes": []
     },
     {
       "criterio": "Tiene un buen margen?",
-      "cumple": "NO",
+      "cumple": "SI",
       "confianza": "Alta",
-      "nota": "Validación interna de costos: margen insuficiente (instrucción del cliente).",
+      "nota": "Validación interna de costos: VERIFICADO INTERNAMENTE (>30k y >17%).",
       "fuentes": [
         "Validación interna de costos"
       ]
@@ -315,99 +304,85 @@
       "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
       "cumple": "NO",
       "confianza": "Alta",
-      "nota": "Alta disponibilidad en Colombia (varias tiendas/e-commerce).",
+      "nota": "Se encuentra en retail/marketplaces grandes en CO (Falabella, Farmatodo – aunque no siempre KSM‑66), por lo que el acceso es amplio.",
       "fuentes": [
-        "https://gonaturalcolombia.com/products/ashwagandha-ksm-66-original-importada-usa",
-        "https://www.mizonafit.co/products/ashwagandha-ksm-66"
+        "https://www.falabella.com.co/falabella-co/product/144118917/Ashwagandha-Americana-Ksm-66",
+        "https://www.farmatodo.com.co/producto/500021311-ashwagandha-relajacion--regula-el-estres-de-60-cap-x--2-unidades-zenova-capsula-x-60-x-capsula-x-60"
       ]
     },
     {
       "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
       "cumple": "NO",
-      "confianza": "Alta",
-      "nota": "Ingrediente estandarizado muy difundido; producto competitivo/commoditizado.",
+      "confianza": "Media",
+      "nota": "KSM‑66 es diferenciado por raíz‑only y evidencia, pero el formato/suplemento no es novedoso en el mercado CO.",
       "fuentes": [
-        "https://colombia.yaxa.co/products/ashwagandha-ksm-66/",
-        "https://www.marturi.com/products/ashwagandha-ksm-66-600-mg-60-capsulas-con-bioperin"
+        "https://ksm66ashwagandhaa.com/ksm-66/what-is-ksm-66/"
       ]
     },
     {
       "criterio": "Esta en tendencia en otros paises o en otros mercados?",
       "cumple": "SI",
-      "confianza": "Media",
-      "nota": "KSM-66 lidera crecimiento en canales físicos (SPINS); auge adaptógenos.",
+      "confianza": "Alta",
+      "nota": "En EE. UU. ashwagandha está en el top mainstream con crecimiento; fuerte presencia en social commerce.",
       "fuentes": [
-        "https://www.vitafoodsinsights.com/botanicals-herbs/ashwagandha-from-ayurvedic-medicine-to-star-of-the-mainstream"
+        "https://www.nutraingredients-usa.com/Article/2025/09/10/us-herbal-supplements-sales-hit-a-record-132-billion-in-2024/",
+        "https://www.tiktok.com/shop/k/ashwagandha-with-ksm-66"
       ]
     },
     {
       "criterio": "Existen pocos competidores vendiendolo?",
-      "cumple": "NO",
-      "confianza": "Alta",
-      "nota": "Múltiples sellers en CO; marketplace y tiendas especializadas.",
-      "fuentes": [
-        "https://gonaturalcolombia.com/products/ashwagandha-ksm-66-original-importada-usa",
-        "https://www.mizonafit.co/products/ashwagandha-ksm-66"
-      ]
-    },
-    {
-      "criterio": "Tiene antecedente de buenas ventas en otros paises otros mercados?",
       "cumple": "SI",
       "confianza": "Media",
-      "nota": "KSM-66 con fuerte participación y crecimiento en EE. UU. (SPINS).",
+      "nota": "Análisis de Ad Library: VERIFICADO EXTERNAMENTE (<4 ads escalando).",
       "fuentes": [
-        "https://www.vitafoodsinsights.com/botanicals-herbs/ashwagandha-from-ayurvedic-medicine-to-star-of-the-mainstream"
+        "Análisis de Ad Library"
       ]
     },
     {
       "criterio": "Tu comprarias el producto?",
-      "cumple": "SI",
-      "confianza": "Media",
-      "nota": "Sí, por evidencia clínica y si se mantiene el pack x2 a $105.000 (valor por frasco/dosis).",
-      "fuentes": [
-        "https://jissn.biomedcentral.com/articles/10.1186/s12970-015-0104-9",
-        "https://pubmed.ncbi.nlm.nih.gov/31728244/"
-      ]
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (criterio subjetivo del evaluador).",
+      "fuentes": []
     },
     {
       "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
       "cumple": "SI",
-      "confianza": "Alta",
-      "nota": "Abundantes fichas, reseñas y materiales del fabricante/tiendas.",
+      "confianza": "Media",
+      "nota": "Abundante contenido (páginas oficiales, listados, explicativos) sobre KSM‑66 y usos.",
       "fuentes": [
         "https://ksm66ashwagandhaa.com/clinical-studies/",
-        "https://colombia.yaxa.co/products/ashwagandha-ksm-66/"
+        "https://ksm66.es/"
       ]
     },
     {
       "criterio": "Es un producto evergreen?",
       "cumple": "SI",
       "confianza": "Media",
-      "nota": "Demanda sostenida por estrés crónico + proyección de crecimiento a 2033.",
+      "nota": "Demanda sostenida de suplementos herbales y uso ayurvédico histórico; crece en ventas anuales.",
       "fuentes": [
-        "https://www.grandviewresearch.com/press-release/global-ashwagandha-supplements-market",
-        "https://www.emergenresearch.com/industry-report/ashwagandha-market"
+        "https://www.nutraingredients-usa.com/Article/2024/09/16/u.s.-herbal-supplements-sales-rebounded-by-4.4-in-2023/",
+        "https://www.nccih.nih.gov/health/ashwagandha"
       ]
     }
   ],
   "score_total": {
-    "total_si": 9,
-    "total_criterios": 13,
-    "cumple_9_de_15": true
+    "total_si": 8,
+    "total_criterios": 12,
+    "cumple_9_de_15": false
   },
   "next_searches": [
-    "\"Ashawanda\" KSM-66 Colombia \"x 2\" sitio de venta exacto (ortografía alternativa).",
-    "INVIMA registro sanitario ashwagandha/KSM-66 por marca específica (consultar RSA).",
-    "Confirmar política de garantía ‘10 días’ del vendedor del pack x2.",
-    "Verificar mg por cápsula y # cápsulas por frasco del pack ofrecido.",
-    "Comparar precio por dosis vs. rivales (600 mg/día, 60–120 cáps).",
-    "Explorar reseñas locales (CO) sobre calidad/sensaciones (sueño/estrés)."
+    "Confirmar marca exacta y ficha técnica del pack ‘x2 unidades’ (fotos de etiqueta: % withanólidos, dosis por cápsula, #cápsulas).",
+    "Verificar registro INVIMA específico del producto KSM‑66 a vender (número RSA/RSi).",
+    "Auditar disponibilidad física en retail (tienda Exito/Olímpica/locaciones Falabella) para validar ‘difícil acceso’ por canal offline.",
+    "Rastrear Ad Library (Facebook/TikTok) para listar competidores, creativos y spend en CO.",
+    "Comparar precios por mg de KSM‑66 (costo por dosis clínica 600 mg).",
+    "Revisar contraindicaciones y disclaimers legales locales (rotulado INVIMA)."
   ],
   "missing_data_flags": [
-    "Marca comercial exacta ‘Ashawanda’ no confirmada (posible error ortográfico de ‘Ashwagandha’).",
-    "Pack x2 del vendedor original: no se encontró URL exacta del listing.",
-    "Garantía ‘10 días’ no verificada en fuentes externas (varía por tienda).",
-    "Especificaciones exactas del pack (mg por cápsula, # cápsulas por frasco) no confirmadas.",
-    "Registro sanitario INVIMA del producto/marca específica no identificado."
+    "No se confirmó la marca exacta del pack ‘Ashawanda Ksm 66 X 2 Unidades’.",
+    "No se confirmó % de withanólidos del producto específico.",
+    "No se verificó número de registro INVIMA del SKU a vender.",
+    "No se confirmó política de garantía ‘10 días’ del vendedor específico (hay tiendas con 30 días)."
   ]
 }

@@ -23,6 +23,11 @@ from typing import Any, Dict, List, Callable, Optional
 
 from dotenv import load_dotenv
 from openai import OpenAI
+import sys
+sys.path.append(os.getcwd())
+
+from utils.logger import setup_logger
+logger = setup_logger("AdsGen_Image_V1")
 
 # --- error types (compat) ---
 try:
@@ -104,7 +109,8 @@ def parse_json_or_dump(raw: str, dump_path: str) -> Dict[str, Any]:
     except Exception:
         with open(dump_path, "w", encoding="utf-8") as f:
             f.write(raw)
-        raise RuntimeError(f"❌ JSON inválido. RAW guardado en: {dump_path}")
+        logger.error(f"JSON inválido. RAW guardado en: {dump_path}")
+        raise RuntimeError(f"JSON inválido. RAW guardado en: {dump_path}")
 
 def safe_responses_create(**kwargs):
     try:
@@ -479,10 +485,10 @@ def main():
     # Iterate first 3 angles
     for angle_idx in range(3):
         if angle_idx >= len(angles):
-            print(f"⚠️ Solo hay {len(angles)} ángulos disponibles. Saltando índice {angle_idx}.")
+            logger.warning(f"Solo hay {len(angles)} ángulos disponibles. Saltando índice {angle_idx}.")
             continue
 
-        print(f"\n--- Procesando Imagen Ángulo {angle_idx + 1} ---")
+        logger.info(f"--- Procesando Imagen Ángulo {angle_idx + 1} ---")
         
         angle_norm = normalize_angle(angles[angle_idx], fallback_rank=angle_idx + 1)
         hooks_hints = extract_hooks_for_rank(market, rank=int(angle_norm["rank"]))
@@ -504,13 +510,13 @@ def main():
             accum = upsert_angle(accum, angle_result)
             save_json(accum_path, accum)
 
-            print(f"✅ OK: {angle_norm['angle_id']} guardado en {accum_path}")
+            logger.info(f"OK: {angle_norm['angle_id']} guardado en {accum_path}")
 
         except Exception as e:
-            print(f"❌ Error procesando ángulo {angle_idx + 1}: {e}")
+            logger.error(f"Error procesando ángulo {angle_idx + 1}: {e}")
             continue
 
-    print(f"\n🎉 Proceso finalizado. Output final: {accum_path}")
+    logger.info(f"Proceso finalizado. Output final: {accum_path}")
 
 if __name__ == "__main__":
     main()

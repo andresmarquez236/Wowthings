@@ -1,6 +1,6 @@
 {
   "schema_version": "nanobanana_image_v1",
-  "generated_at_utc": "2026-01-04T00:02:11.161999+00:00",
+  "generated_at_utc": "2026-01-07T23:43:49.165506+00:00",
   "product": {
     "nombre_producto": "Samba Og Vaca Negro Blanco",
     "descripcion": "Diseño: Cuentan con una parte superior de piel sintética con un pronunciado estampado de vaca en tonos blanco roto y marrón oscuro/negro. [1.5, 1.8, 1.15]\nDetalles Adicionales: El forro y la plantilla son de cuero sintético rosa, lo que coincide con los tréboles y, a menudo, con los cordones adicionales que se venden por separado",
@@ -11,346 +11,347 @@
   "results_by_angle": [
     {
       "angle_id": "ANGLE_1",
-      "angle_name": "Trend + estética ‘cowboycore’/animal print con toque rosa",
-      "buyer_persona": "Mujer 18–34 fashion‑forward (IG/TikTok) que busca statement sneakers",
+      "angle_name": "Tendencia ‘cowboycore’ y edición con estampado vaca + forro rosa (look viral)",
+      "buyer_persona": "Mujer 18–30 fashion/IG-TikTok; amantes de tendencias y animal print",
       "ad_copy": {
-        "title": "Tus sneakers más virales 🐄✨",
-        "primary_text": "Las Samba OG Vaca Negro Blanco con print de vaca y acento rosa son el must-have para llevar tu estilo a otro nivel. ¡Dales ese toque chic que hará que todos miren tus pies! No te pierdas esta tendencia que sigue pisando fuerte y combinando con tus outfits favoritos.",
-        "description": "Atrévete a marcar la diferencia con el estilo más cool del año. ¡Compra ahora y transforma tu look con las sneakers más virales!"
+        "title": "El Look Western del Año",
+        "primary_text": "Lleva el cowboycore a tus pies con los Samba Og Vaca Negro Blanco. Combina con todo y destaca con su forro rosa. ¿Estás lista para ser tendencia?",
+        "description": "Consigue el look western viral con Samba y su distintivo estampado de vaca. ¡Haz match con denim o cualquier tendencia!"
       },
       "single_image_prompt": {
-        "task": "Generate a single image ad.",
-        "thumbnail": "sneaker_feature.png",
-        "variant": "SINGLE_IMAGE_AD_SCHEMA",
+        "task": "Generate a thumb-stopping image of the Samba Og Vaca Negro Blanco sneakers highlighting their unique cow print and pink lining.",
+        "thumbnail": "image_of_cow_print_sneakers.jpg",
+        "variant": "style_1",
         "format": {
-          "aspect_ratio": "1:1",
-          "resolution": "1080x1080px",
+          "aspect_ratio": "16:9",
+          "resolution": "1080x1920",
           "safe_margin_percent": 10
         },
         "input_assets": {
-          "product_lock_rule": "ensure that the product is clearly visible"
+          "product_lock_rule": "No cropping or obstruction of the sneakers, must be the focal point."
         },
-        "prompt": "A close-up image of the Samba OG sneakers with a bold cow pattern, dominating the frame with the sneakers as the central focus. The image should capture the unique black and white aesthetic, and highlight the soft pink synthetic leather lining and accents. The background should subtly blend in with a modern, minimalist urban setting to accentuate a trendy streetwear vibe. The lighting should be bright and clear, emphasizing the textures and details of the product.",
+        "prompt": "Capture an urban chic scene where a young woman is confidently striding in a vibrant city backdrop. The Samba Og Vaca Negro Blanco sneakers are the clear focus, showcased on her feet. The sneakers stand out with their cow pattern and unique pink lining. The environment should be buzzing with energy, with blurred city lights and a faint graffiti art background. The lighting is bright and professional, casting subtle shadows that emphasize textures and details of the shoes.",
         "text_overlays": [
           {
-            "id": "headline1",
-            "text_exact": "Viral y Únicas",
+            "id": "headline",
+            "text_exact": "El Look Western del Año",
             "placement": {
               "anchor": "top_center",
               "x_percent": 50,
-              "y_percent": 10,
+              "y_percent": 5,
               "max_width_percent": 80,
-              "max_height_percent": 15
+              "max_height_percent": 10
             },
             "typography": {
-              "font_family": "Montserrat",
+              "font_family": "Arial",
               "weight": 700,
               "alignment": "center"
             },
             "style": {
               "fill": "#FFFFFF",
-              "stroke": "#000000",
-              "shadow": "#333333",
+              "stroke": null,
+              "shadow": "rgba(0,0,0,0.5) 3px 3px 2px",
               "badge": null
             }
           },
           {
-            "id": "badge1",
-            "text_exact": "Envío gratis",
+            "id": "cta",
+            "text_exact": "¡Compra ahora!",
             "placement": {
-              "anchor": "bottom_left",
-              "x_percent": 15,
+              "anchor": "bottom_center",
+              "x_percent": 50,
               "y_percent": 90,
-              "max_width_percent": 30,
+              "max_width_percent": 60,
               "max_height_percent": 10
             },
             "typography": {
-              "font_family": "Montserrat",
-              "weight": 600,
+              "font_family": "Arial",
+              "weight": 700,
               "alignment": "center"
             },
             "style": {
-              "fill": "#FFFFFF",
+              "fill": "#FF5050",
               "stroke": null,
-              "shadow": "#333333",
-              "badge": "star"
+              "shadow": null,
+              "badge": null
             }
           },
           {
-            "id": "badge2",
-            "text_exact": "Pago contraentrega",
+            "id": "badge_1",
+            "text_exact": "Envío gratis",
             "placement": {
-              "anchor": "bottom_right",
-              "x_percent": 85,
+              "anchor": "bottom_left",
+              "x_percent": 10,
               "y_percent": 90,
               "max_width_percent": 30,
-              "max_height_percent": 10
+              "max_height_percent": 8
             },
             "typography": {
-              "font_family": "Montserrat",
+              "font_family": "Arial",
               "weight": 600,
               "alignment": "center"
             },
             "style": {
               "fill": "#FFFFFF",
-              "stroke": null,
-              "shadow": "#333333",
-              "badge": "star"
+              "stroke": "#FF5050",
+              "shadow": "rgba(0,0,0,0.25) 2px 2px 2px",
+              "badge": "circle"
+            }
+          },
+          {
+            "id": "badge_2",
+            "text_exact": "Pago contraentrega",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 90,
+              "y_percent": 90,
+              "max_width_percent": 30,
+              "max_height_percent": 8
+            },
+            "typography": {
+              "font_family": "Arial",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": "#FF5050",
+              "shadow": "rgba(0,0,0,0.25) 2px 2px 2px",
+              "badge": "circle"
             }
           }
         ],
         "composition_rules": {
-          "focus": "product_center",
-          "hierarchy": "product->headline->badges",
-          "text_safe_zone": "10%",
-          "text_never_cover_rule": "Do not cover the sneakers"
+          "focus": "sneakers in sharp focus against a dynamic, blurred urban backdrop",
+          "hierarchy": "sneakers as primary focus, followed by lighting effects and then text overlays",
+          "text_safe_zone": "Top 20% and bottom 20% of image",
+          "text_never_cover_rule": "sneakers or model's legs"
         },
-        "negative_prompt": "Avoid cluttered backgrounds or any elements that distract from the sneakers."
+        "negative_prompt": "Avoid any rural or farm-like backdrops; do not include any elements that aren't modern or fashion-forward."
       },
       "hooks_used": [
-        "Del corral al street: las ‘Cow Print’ más virales del año 🐄✨",
-        "Samba clásica + acento rosa: tu look coquette con actitud.",
-        "Textura peludita, suela gum y likes asegurados.",
-        "Statement sneaker sin perder la esencia OG."
+        "Samba Vaca: el look western que está arrasando",
+        "Forro rosa + print vaca = outfit viral al instante"
       ],
       "compliance_notes": [
-        "Ensure no medical claims are made about the product."
+        "Avoid using exaggerated claims about trend-setting without supportive data.",
+        "Ensure any text overlays do not obscure the shoes unnecessarily."
       ]
     },
     {
       "angle_id": "ANGLE_2",
-      "angle_name": "Escasez percibida/edición puntual (ASOS‑exclusive) + reventa",
-      "buyer_persona": "Sneaker‑enthusiast y coleccionista que valora drops puntuales",
+      "angle_name": "Precio-valor accesible vs. retail oficial de Sambas en Colombia",
+      "buyer_persona": "Jóvenes 16–34 que quieren el look Samba sin pagar >600k",
       "ad_copy": {
-        "title": "¡Atrapa el exclusivo ahora!",
-        "primary_text": "¿Buscas lo exclusivo? Las Samba Og Vaca Negro Blanco son el lanzamiento que todo coleccionista debe asegurar. Aprovecha antes que vuelen, ¡queda stock limitado!",
-        "description": "Lanzamiento exclusivo y limitado. No esperes al restock. ¡Compra ahora y asegura tus zapatos 'Cow Print'! Garantía de satisfacción o devolución."
+        "title": "Estilo sin romper el bolsillo",
+        "primary_text": "¡Descubre el look del momento sin pagar más de 600k! Conquista las calles con las Samba Og Vaca Negro Blanco a solo $140.000. Calidad y estilo al mejor precio.",
+        "description": "Consigue el estilo del año al mejor precio: ¡Samba Og Vaca ya es tuyo por $140.000! Disfruta de calidad y diseño sin gastar de más, ¡oferta por tiempo limitado!"
       },
       "single_image_prompt": {
-        "task": "generate",
-        "thumbnail": "Shoe with unique cow print design trending limited",
-        "variant": "exclusive_limited_sneaker_campaign",
+        "task": "Generate a single, eye-catching image ad focusing on affordability and style of Samba sneakers.",
+        "thumbnail": "",
+        "variant": "",
         "format": {
           "aspect_ratio": "1:1",
-          "resolution": "1080x1080px",
-          "safe_margin_percent": 5
+          "resolution": "1080x1080",
+          "safe_margin_percent": 10
         },
         "input_assets": {
-          "product_lock_rule": "locked"
+          "product_lock_rule": "do_not_crop"
         },
-        "prompt": "A stylish display of the 'Samba Og Vaca Negro Blanco' sneakers prominently featuring the unique cow print design. The scene includes the sneakers on a clean, minimalist concrete surface with subtle reflections emphasizing the synthetic leather and pink accents. Bright, professional lighting casts soft shadows to enhance the texture and contrast, making the sneakers the clear focal point. The angle creates a sense of exclusivity and premium quality, with the sneaker positioned to highlight the cow pattern and pink details.",
+        "prompt": "A pair of Samba Og Vaca Negro Blanco sneakers are prominently displayed against a vibrant backdrop of youthful street culture. The shoes are set on a slightly reflective surface to emphasize their design, with a dramatic, soft spotlight highlighting the intricate cow print and synthetic pink leather lining. The atmosphere should feel energetic and urban, with ambient city life elements subtly blurred to draw focus to the product. Use high contrast lighting to create a visually appealing effect, ensuring the sneakers are perfectly centered in the frame.",
         "text_overlays": [
           {
             "id": "headline",
-            "text_exact": "¡Exclusivo, limitado!",
-            "placement": {
-              "anchor": "n",
-              "x_percent": 50,
-              "y_percent": 10,
-              "max_width_percent": 80,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Montserrat",
-              "weight": 700,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#FFFFFF",
-              "stroke": "#000000",
-              "shadow": "#000000",
-              "badge": null
-            }
-          },
-          {
-            "id": "cta",
-            "text_exact": "Compra ahora, ¡vuelan!",
-            "placement": {
-              "anchor": "s",
-              "x_percent": 50,
-              "y_percent": 90,
-              "max_width_percent": 80,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Montserrat",
-              "weight": 700,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#FF4081",
-              "stroke": null,
-              "shadow": "#000000",
-              "badge": null
-            }
-          },
-          {
-            "id": "badge_shipping",
-            "text_exact": "Envío gratis",
-            "placement": {
-              "anchor": "sw",
-              "x_percent": 10,
-              "y_percent": 90,
-              "max_width_percent": 30,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Montserrat",
-              "weight": 600,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#00FF00",
-              "stroke": null,
-              "shadow": "#000000",
-              "badge": "circle"
-            }
-          },
-          {
-            "id": "badge_payment",
-            "text_exact": "Pago contraentrega",
-            "placement": {
-              "anchor": "se",
-              "x_percent": 90,
-              "y_percent": 90,
-              "max_width_percent": 30,
-              "max_height_percent": 10
-            },
-            "typography": {
-              "font_family": "Montserrat",
-              "weight": 600,
-              "alignment": "center"
-            },
-            "style": {
-              "fill": "#00FF00",
-              "stroke": null,
-              "shadow": "#000000",
-              "badge": "circle"
-            }
-          }
-        ],
-        "composition_rules": {
-          "focus": "sneakers",
-          "hierarchy": "sneakers, headline, CTA, badges",
-          "text_safe_zone": "within the frame's margins",
-          "text_never_cover_rule": "important product features"
-        },
-        "negative_prompt": "busy background, multiple products, human model"
-      },
-      "hooks_used": [
-        "Drop puntual. Stock real. Si te tardas, vuelan.",
-        "ASOS‑exclusive vibes, sin pagar aduana (CO).",
-        "Precio hoy < precio mañana: evita la reventa."
-      ],
-      "compliance_notes": [
-        "Ensure that all claims related to scarcity and exclusivity are supported by factual data and comply with local advertising guidelines."
-      ]
-    },
-    {
-      "angle_id": "ANGLE_3",
-      "angle_name": "Diseño sensorial y ‘cute details’: pelo sintético + forro rosa + suela gum",
-      "buyer_persona": "Consumidora estética/coquette que busca texturas y detalles ‘IG‑friendly’",
-      "ad_copy": {
-        "title": "¡Haz Match con lo ‘Cute’! \r",
-        "primary_text": "Con los Samba Og Vaca Negro Blanco, siente la textura única del pelo sintético y enamórate de los detalles rosados. ¡Perfectos para un estilo dulce o audaz!",
-        "description": "Transforma cada paso en una declaración de estilo con el toque equilibrado del animal print. ¡Atrévete y destaca sin exagerar! \r"
-      },
-      "single_image_prompt": {
-        "task": "generate",
-        "thumbnail": "colorful-footwear-with-contrasting-details.jpg",
-        "variant": "A",
-        "format": {
-          "aspect_ratio": "16:9",
-          "resolution": "1080x1920",
-          "safe_margin_percent": 5
-        },
-        "input_assets": {
-          "product_lock_rule": "must_use_as_is"
-        },
-        "prompt": "A carefully composed shot of the Samba Og Vaca Negro Blanco sneakers, showcasing the unique faux pony-hair texture and pink synthetic leather interior lining. The sneakers are placed against a softly lit pastel pink background that complements the shoe's accents. Use dramatic soft lighting to highlight the texture and colors, creating a highly aesthetic and modern flat lay. Capture the gum sole detail distinctly. Place the sneakers slightly off-center for dynamic composition.",
-        "text_overlays": [
-          {
-            "id": "headline",
-            "text_exact": "¡Haz Match con lo ‘Cute’!",
+            "text_exact": "Estilo $140.000",
             "placement": {
               "anchor": "top_center",
               "x_percent": 50,
               "y_percent": 10,
-              "max_width_percent": 90,
-              "max_height_percent": 20
+              "max_width_percent": 80,
+              "max_height_percent": 10
             },
             "typography": {
-              "font_family": "Montserrat",
+              "font_family": "Arial",
               "weight": 700,
               "alignment": "center"
             },
             "style": {
-              "fill": "#FF69B4",
+              "fill": "#ffffff",
               "stroke": null,
-              "shadow": "rgba(0,0,0,0.3)",
+              "shadow": "#000000",
               "badge": null
             }
           },
           {
             "id": "cta",
-            "text_exact": "Compra Ahora",
+            "text_exact": "Compra ahora y ahorra",
             "placement": {
-              "anchor": "bottom_right",
-              "x_percent": 85,
-              "y_percent": 95,
-              "max_width_percent": 10,
-              "max_height_percent": 5
+              "anchor": "bottom_center",
+              "x_percent": 50,
+              "y_percent": 90,
+              "max_width_percent": 80,
+              "max_height_percent": 10
             },
             "typography": {
-              "font_family": "Montserrat",
+              "font_family": "Arial",
               "weight": 600,
-              "alignment": "right"
+              "alignment": "center"
             },
             "style": {
-              "fill": "#212121",
+              "fill": "#ffffff",
               "stroke": null,
-              "shadow": null,
-              "badge": "Envío gratis"
+              "shadow": "#000000",
+              "badge": "cta"
             }
           },
           {
-            "id": "badges",
-            "text_exact": "Pago contraentrega",
+            "id": "badge_free_shipping",
+            "text_exact": "Envío gratis",
             "placement": {
               "anchor": "bottom_left",
-              "x_percent": 15,
-              "y_percent": 95,
-              "max_width_percent": 20,
-              "max_height_percent": 5
+              "x_percent": 10,
+              "y_percent": 90,
+              "max_width_percent": 15,
+              "max_height_percent": 10
             },
             "typography": {
-              "font_family": "Montserrat",
+              "font_family": "Arial",
               "weight": 500,
-              "alignment": "left"
+              "alignment": "center"
             },
             "style": {
-              "fill": "#FF69B4",
-              "stroke": "#FFFFFF",
-              "shadow": "rgba(0,0,0,0.3)",
-              "badge": null
+              "fill": "#ffffff",
+              "stroke": "#ff0000",
+              "shadow": null,
+              "badge": "free_shipping"
             }
           }
         ],
         "composition_rules": {
-          "focus": "sneakers center frame",
-          "hierarchy": "sneaker textures primary, text secondary",
-          "text_safe_zone": "top 20% and bottom 10%",
-          "text_never_cover_rule": "never cover sneaker details"
+          "focus": "Central prominence of the sneakers.",
+          "hierarchy": "Sneakers, headline, CTAs, ambient elements.",
+          "text_safe_zone": "All text placed within 10% margins.",
+          "text_never_cover_rule": "Ensure the sneakers remain unobstructed by text."
         },
-        "negative_prompt": "cluttered background, low lighting, distracting elements"
+        "negative_prompt": "Do not include distracting urban elements or irrelevant branding."
       },
       "hooks_used": [
-        "Textura que se siente: pony‑hair sintético y forro rosa.",
-        "De sweet a bold: cambia outfit, no tus tenis."
+        "El look del año, sin pagar 600k",
+        "Samba ‘vaca’ a precio de ganga: $140.000",
+        "Más estilo, menos gasto: llévalas hoy"
       ],
       "compliance_notes": [
-        "Ensure that the ad does not make any unwarranted performance or health claims.",
-        "Avoid inducing unnecessary impulse buying by focusing on aesthetic qualities."
+        "Ensure all claims made in the ad are verifiable and accurate.",
+        "Avoid using restricted language pertaining to quality claims."
+      ]
+    },
+    {
+      "angle_id": "ANGLE_3",
+      "angle_name": "Versatilidad para outfits: contraste blanco/negro + acentos rosa",
+      "buyer_persona": "Mujeres que combinan básicos (denim, faldas, vestidos) con un toque statement",
+      "ad_copy": {
+        "title": "Versatilidad en cada paso",
+        "primary_text": "Transforma tus básicos con un toque audaz. Las Samba Og Vaca Negro Blanco son el must-have que eleva cualquier look sin esfuerzo. ¡Atrévete a destacar con estilo! #MixComoUnaPro",
+        "description": "Rompe la monotonía y eleva tu estilo con las Samba Og. Diseño único que combina con todo."
+      },
+      "single_image_prompt": {
+        "task": "High-performance ad image creation",
+        "thumbnail": "https://example.com/image_thumbnail.jpg",
+        "variant": "SINGLE_IMAGE_AD",
+        "format": {
+          "aspect_ratio": "1.91:1",
+          "resolution": "1080x566",
+          "safe_margin_percent": 5
+        },
+        "input_assets": {
+          "product_lock_rule": "Must show product clearly with key design features visible."
+        },
+        "prompt": "A stylish and impactful streetwear scene showcasing the Samba Og Vaca Negro Blanco shoes. The shoes are highlighted prominently on a wooden bench in a park, spotlit by natural golden hour light. The bench is surrounded by diverse, urban greenery. The shoes' synthetic upper with bold cow print in black and white stands out. The pink synthetic leather lining is subtly visible, adding a pop of color. Show background activity with people walking and cycling, blurred to keep focus on the shoes. High contrast and vibrant colors to highlight the shoes' unique design and versatile style.",
+        "text_overlays": [
+          {
+            "id": "headline",
+            "text_exact": "¡Atrévete a destacar!",
+            "placement": {
+              "anchor": "top_left",
+              "x_percent": 5,
+              "y_percent": 5,
+              "max_width_percent": 40,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 700,
+              "alignment": "left"
+            },
+            "style": {
+              "fill": "#FFFFFF",
+              "stroke": null,
+              "shadow": "#000000",
+              "badge": null
+            }
+          },
+          {
+            "id": "cta",
+            "text_exact": "Compra ahora",
+            "placement": {
+              "anchor": "bottom_right",
+              "x_percent": 50,
+              "y_percent": 90,
+              "max_width_percent": 30,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FF69B4",
+              "stroke": null,
+              "shadow": "#000000",
+              "badge": null
+            }
+          },
+          {
+            "id": "badge",
+            "text_exact": "Envío gratis",
+            "placement": {
+              "anchor": "top_right",
+              "x_percent": 80,
+              "y_percent": 5,
+              "max_width_percent": 15,
+              "max_height_percent": 10
+            },
+            "typography": {
+              "font_family": "Montserrat",
+              "weight": 600,
+              "alignment": "center"
+            },
+            "style": {
+              "fill": "#FFD700",
+              "stroke": null,
+              "shadow": "#000000",
+              "badge": "circle"
+            }
+          }
+        ],
+        "composition_rules": {
+          "focus": "Direct focus on the shoes with secondary elements providing contextual background.",
+          "hierarchy": "Product > Headline > CTA > Badge",
+          "text_safe_zone": "Respect 5% margin on edges for text placement.",
+          "text_never_cover_rule": "Do not cover the shoes especially their cow print design."
+        },
+        "negative_prompt": "Avoid showing any other brands or logos. Exclude people directly modeling the shoes to maintain focus on the product."
+      },
+      "hooks_used": [
+        "Blanco/negro que combina con todo (y un toque rosa)",
+        "Tu básico con personalidad: print vaca",
+        "Del minimal al bold en un paso"
+      ],
+      "compliance_notes": [
+        "Ensure no comparatives with other brands are explicitly stated.",
+        "Avoid exaggerated claims about versatility without direct demonstrations in the image."
       ]
     }
   ]

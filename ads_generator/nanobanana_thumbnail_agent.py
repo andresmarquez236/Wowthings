@@ -11,6 +11,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Para que funcione el import de fix_format aunque ejecutes desde otro cwd
+from utils.logger import setup_logger
+logger = setup_logger("AdsGen_Thumb_V1")
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SCRIPT_DIR)
 
@@ -52,6 +55,7 @@ def get_openai_client():
     try:
         from openai import OpenAI
     except ImportError as e:
+        logger.error(f"Instala openai: pip install --upgrade openai. Error: {e}")
         raise RuntimeError("Instala openai: pip install --upgrade openai") from e
     return OpenAI()
 
@@ -494,7 +498,7 @@ def generate_three_for_angle(
 
         except Exception as e:
             last_error = str(e)
-            print(f"DEBUG: Attempt {attempt} failed. Error: {last_error}")
+            logger.warning(f"Attempt {attempt} failed. Error: {last_error}")
 
             messages.append({
                 "role": "user",
@@ -508,7 +512,7 @@ def generate_three_for_angle(
             })
 
     # Si aún así falla, NO CRASHEA: devuelve templates válidos
-    print(f"DEBUG: Fallback engaged for angle {angle_rank}. Last error: {last_error}")
+    logger.warning(f"Fallback engaged for angle {angle_rank}. Last error: {last_error}")
     return fallback_templates(
         product_slug=product_slug,
         angle_rank=angle_rank,
@@ -603,7 +607,7 @@ def main():
             "prompts": thumbs
         })
 
-        print(f"✅ Angle {angle.get('rank')} listo: 3 prompts generados.")
+        logger.info(f"Angle {angle.get('rank')} listo: 3 prompts generados.")
 
     run_item = {
         "input_path": INPUT_JSON_PATH,
@@ -617,8 +621,8 @@ def main():
     safe_json_dump(per_product_path, run_item)
     append_to_accum(ACCUM_PATH, run_item)
 
-    print(f"\n📦 Guardado producto: {per_product_path}")
-    print(f"📦 Actualizado acumulado: {ACCUM_PATH}")
+    logger.info(f"Guardado producto: {per_product_path}")
+    logger.info(f"Actualizado acumulado: {ACCUM_PATH}")
 
     return all_angles_results
 

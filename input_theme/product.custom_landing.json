@@ -3,10 +3,10 @@
         "main": {
             "type": "main-product",
             "blocks": {
-                "custom_liquid_9XDG7p": {
+                "custom_liquid_BzPYct": {
                     "type": "custom_liquid",
                     "settings": {
-                        "custom_liquid": "<div class=\"review-container\">\n  <div class=\"stars\">\n    {% for i in (1..5) %}\n      <span class=\"star\">\u2605</span>\n    {% endfor %}\n  </div>\n  <span class=\"review-text\">+560 REVIEWS</span>\n</div>\n\n<style>\n  .review-container {\n    display: flex;\n    align-items: center;\n    font-family: Arial, sans-serif;\n    font-size: 18px;\n    font-weight: bold;\n    margin-top: 10px;\n    margin-bottom: 0;\n  }\n\n  .stars {\n    color: #FFD700; /* Color dorado */\n    font-size: 17px; /* Corregido el error de 17x */\n    display: flex;\n    align-items: center;\n  }\n\n  .star {\n    margin-right: 2px;\n  }\n\n  .review-text {\n    margin-left: 8px;\n    color: #000;\n    font-size: 14px;\n    font-weight: bold;\n  }\n</style>"
+                        "custom_liquid": "<div class=\"lp-rating\" aria-label=\"Calificaci\u00f3n 5 de 5 basada en m\u00e1s de 560 rese\u00f1as\">\n  <div class=\"lp-rating__stars\" aria-hidden=\"true\">\n    <span>\u2605</span><span>\u2605</span><span>\u2605</span><span>\u2605</span><span>\u2605</span>\n  </div>\n  <span class=\"lp-rating__meta\">\n    <span class=\"lp-rating__score\">5.0</span>\n    <span class=\"lp-rating__dot\">\u2022</span>\n    <span class=\"lp-rating__count\">+560 rese\u00f1as</span>\n  </span>\n</div>\n\n<style>\n  #shopify-section-main .lp-rating{\n    display:flex; align-items:center; gap:10px;\n    margin:10px 0 6px;\n    font-family: var(--lp-font, var(--font-body-family));\n  }\n  #shopify-section-main .lp-rating__stars{\n    display:flex; gap:2px;\n    color: var(--lp-star, #f5c542);\n    font-size: 16px;\n    line-height: 1;\n    transform: translateY(-0.5px);\n  }\n  #shopify-section-main .lp-rating__meta{\n    display:flex; align-items:center; gap:8px;\n    color: var(--lp-text, #111);\n    font-size: 13px;\n    font-weight: 700;\n    letter-spacing: -0.1px;\n  }\n  #shopify-section-main .lp-rating__score{\n    font-family: var(--lp-heading-font, var(--font-heading-family));\n    font-weight: 800;\n  }\n  #shopify-section-main .lp-rating__dot{\n    opacity:.35;\n    font-weight:900;\n  }\n  #shopify-section-main .lp-rating__count{\n    color: var(--lp-muted, rgba(17,17,17,.65));\n    font-weight: 700;\n  }\n</style>"
                     }
                 },
                 "title": {
@@ -139,7 +139,7 @@
                 }
             },
             "block_order": [
-                "custom_liquid_9XDG7p",
+                "custom_liquid_BzPYct",
                 "title",
                 "d57f30db-f1f3-4fd5-a089-2c2e9533ba3d",
                 "text_gazJkx",
@@ -174,7 +174,7 @@
                 "badge_background": "#ffffff",
                 "textbadge_background": "#000000",
                 "badge_text": "capitalize",
-                "stickybutton": true,
+                "stickybutton": false,
                 "stickybuttontext": "Select Colors",
                 "atcicon": true,
                 "atcsavings": false,
@@ -191,7 +191,7 @@
                 "gallery_layout": "thumbnail",
                 "media_position": "left",
                 "image_zoom": "lightbox",
-                "mobile_thumbnails": "hide",
+                "mobile_thumbnails": "show",
                 "hide_variants": false,
                 "enable_video_looping": false,
                 "padding_top": 0,
@@ -348,7 +348,7 @@
                 "8f4c5208-c742-4fe0-9e42-8cc758a77b8c"
             ],
             "settings": {
-                "title": "(NO USAR TITULO)",
+                "title": "",
                 "heading_size": "h1",
                 "image_width": "full",
                 "image_ratio": "adapt",
@@ -410,7 +410,7 @@
                 "background_style": "primary",
                 "button_label": "",
                 "button_link": "",
-                "color_scheme": "inverse",
+                "color_scheme": "background-1",
                 "columns_mobile": "1",
                 "swipe_on_mobile": true,
                 "padding_top": 36,
@@ -447,8 +447,8 @@
                 "desktop_content_alignment": "left",
                 "content_layout": "no-overlap",
                 "color_scheme": "background-1",
-                "image_behavior": "none",
-                "mobile_content_alignment": "left",
+                "image_behavior": "ambient",
+                "mobile_content_alignment": "center",
                 "padding_top": 36,
                 "padding_bottom": 36
             }

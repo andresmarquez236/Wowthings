@@ -28,6 +28,9 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
     1. **The 'Switch' Method:** Address the user's current pain (Before) and the dream outcome (After).
     2. **Objection Killing:** Every FAQ and Benefit must proactively address a doubt (Price, Trust, Speed, Difficulty).
     3. **Specificity:** Do not say "High Quality". Say "Made with 100% Organic Cotton".
+    4. **Constraints:**
+        - **FAQs:** Generate SINGLE, DISTINCT questions. Do not combine multiple questions in one.
+        - **Benefits:** Titles max 40 chars. Descriptions max 140 chars (approx 20 words). Concise and punchy.
     
     [LANGUAGE]
     Spanish (Neutral/Latinoamérica) - Persuasive and Direct.
@@ -70,10 +73,10 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
         }},
         "detailed_benefits": {{
             "columns": [
-                {{ "title": "String", "description": "String" }},
-                {{ "title": "String", "description": "String" }},
-                {{ "title": "String", "description": "String" }},
-                {{ "title": "String", "description": "String" }}
+                {{ "title": "String (Max 40 chars)", "description": "String (Max 140 chars)" }},
+                {{ "title": "String (Max 40 chars)", "description": "String (Max 140 chars)" }},
+                {{ "title": "String (Max 40 chars)", "description": "String (Max 140 chars)" }},
+                {{ "title": "String (Max 40 chars)", "description": "String (Max 140 chars)" }}
             ]
         }},
         "social_proof_deep": {{
@@ -83,6 +86,11 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
                 {{ "name": "String", "review": "String" }}
             ],
             "highlight_section": {{ "heading": "String", "text": "String" }}
+        }},
+        "social_proof_image_with_text": {{
+            "heading": "String (Short powerful testimony title)",
+            "text": "String (the testimonial text explaining the photo result)",
+            "image_prompt": "String (Description of the user photo)"
         }},
         "competitor_comparison": {{
             "title": "String",
@@ -106,11 +114,17 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
         "faq_section": {{
             "heading": "String",
             "questions": [
-                {{ "q": "String", "a": "String" }},
-                {{ "q": "String", "a": "String" }},
-                {{ "q": "String", "a": "String" }},
-                {{ "q": "String", "a": "String" }}
+                {{ "q": "String (Unique question)", "a": "String" }},
+                {{ "q": "String (Unique question)", "a": "String" }},
+                {{ "q": "String (Unique question)", "a": "String" }},
+                {{ "q": "String (Unique question)", "a": "String" }}
             ]
+        }},
+        "extra_info_tabs": {{
+            "whats_included": "String (List content in HTML <ul><li> format)",
+            "how_to_use": "String (Step-by-step instructions in HTML <p> or <ol> format)",
+            "shipping_info": "String (Shipping policy, times, carriers)",
+            "warranty_info": "String (Warranty text and return policy)"
         }},
         "image_prompts": {{
             "hero_background": "String (English)",
@@ -120,7 +134,7 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
         }}
     }}
     """
-
+    
     print(f"🚀 Iniciando generación Neural para: {product_name}...")
 
     try:

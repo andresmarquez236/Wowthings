@@ -15,6 +15,9 @@ import subprocess
 import sys
 from typing import Dict, Any
 
+from utils.logger import setup_logger
+logger = setup_logger("CheckListGen")
+
 # Configuration
 BASE_OUTPUT_DIR = "output"
 
@@ -59,16 +62,16 @@ Además de regar tus plantas, el aspersor puede convertirse en una divertida fue
     product_output_dir = os.path.join(BASE_OUTPUT_DIR, product_safe)
     os.makedirs(product_output_dir, exist_ok=True)
     
-    print(f"📂 Output directory: {product_output_dir}")
+    logger.info(f"Output directory: {product_output_dir}")
     
     market_research_file = os.path.join(product_output_dir, "market_research_min.json")
 
     # 3. Run Market Research Agent
-    print("\n🚀 Running market_research_agent.py...")
+    logger.info("Running market_research_agent.py...")
     research_script = os.path.join("research", "market_research_agent.py")
     
     if not os.path.exists(research_script):
-        print(f"❌ Script not found: {research_script}")
+        logger.error(f"Script not found: {research_script}")
         return
 
     env = os.environ.copy()
@@ -85,12 +88,12 @@ Además de regar tus plantas, el aspersor puede convertirse en una divertida fue
 
     try:
         subprocess.run(cmd, env=env, check=True, text=True)
-        print(f"✅ Market research generated: {market_research_file}")
+        logger.info(f"Market research generated: {market_research_file}")
     except subprocess.CalledProcessError as e:
-        print(f"❌ Market research failed with exit code {e.returncode}.")
+        logger.error(f"Market research failed with exit code {e.returncode}.")
         return
 
-    print(f"\n🎉 Checklist generation finished. Check {market_research_file}")
+    logger.info(f"Checklist generation finished. Check {market_research_file}")
 
 if __name__ == "__main__":
     main()

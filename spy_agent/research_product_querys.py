@@ -35,6 +35,9 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from pydantic import BaseModel, Field, confloat, conint, field_validator
 
+from utils.logger import setup_logger
+logger = setup_logger("SpyAgent_ResearchQuerys")
+
 
 # Cargar entorno (API Key)
 load_dotenv()
@@ -210,9 +213,9 @@ def run_research_step(
         # Por ahora, lanzamos error claro.
         raise FileNotFoundError(f"La carpeta de imágenes '{images_dir}' no existe. Asegúrate de que las imágenes estén ahí.")
 
-    print(f"[{name}] Iniciando investigación...")
-    print(f"  - Images: {images_dir}")
-    print(f"  - Model: {model}")
+    logger.info(f"[{name}] Iniciando investigación...")
+    logger.info(f"  - Images: {images_dir}")
+    logger.info(f"  - Model: {model}")
 
     result = run_research(
         name=name,
@@ -235,7 +238,7 @@ def run_research_step(
     with open(json_path, "w", encoding="utf-8") as f:
         f.write(json.dumps(result.model_dump(), ensure_ascii=False, indent=2))
     
-    print(f"✅ Investigación completada. Resultado guardado en: {json_path}")
+    logger.info(f"Investigación completada. Resultado guardado en: {json_path}")
     return json_path
 
 
@@ -263,7 +266,7 @@ def main():
         )
 
     except Exception as e:
-        print(f"Error durante la ejecución: {e}")
+        logger.error(f"Error durante la ejecución: {e}")
 
 
 if __name__ == "__main__":
