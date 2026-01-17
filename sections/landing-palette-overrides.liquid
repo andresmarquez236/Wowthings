@@ -1,64 +1,97 @@
 {% comment %}
   Landing Palette Overrides (scoped per template instance)
   - Adds a unique class to <html> so CSS only applies to this landing.
-  - Overrides Dawn-like CSS variables + forces primary CTA colors.
+  - Forces Dawn-like variables + CTA vars using !important.
 {% endcomment %}
 
-{% liquid
-  assign cls = 'landing-palette-' | append: section.id | handleize
-%}
+{%- assign cls = 'palette-' | append: section.id | handleize -%}
 
 <script>
   (function () {
-    try {
-      document.documentElement.classList.add('{{ cls }}');
-    } catch (e) {}
+    var cls = '{{ cls }}';
+    console.log('🎨 Visual Injection: Applying class', cls);
+    try { 
+      document.documentElement.classList.add(cls); 
+      document.body.classList.add(cls);
+    } catch (e) {
+      console.error('Visual Injection Error:', e);
+    }
   })();
 </script>
 
 <style>
-  /* ========== Scoped palette variables ========== */
-  .{{ cls }}{
-    --landing-accent-1: {{ section.settings.accent_1.red }}, {{ section.settings.accent_1.green }}, {{ section.settings.accent_1.blue }};
-    --landing-accent-2: {{ section.settings.accent_2.red }}, {{ section.settings.accent_2.green }}, {{ section.settings.accent_2.blue }};
-    --landing-text:     {{ section.settings.text.red }}, {{ section.settings.text.green }}, {{ section.settings.text.blue }};
-    --landing-bg-1:     {{ section.settings.background_1.red }}, {{ section.settings.background_1.green }}, {{ section.settings.background_1.blue }};
-    --landing-bg-2:     {{ section.settings.background_2.red }}, {{ section.settings.background_2.green }}, {{ section.settings.background_2.blue }};
-
-    --landing-cta-bg:   {{ section.settings.button_background.red }}, {{ section.settings.button_background.green }}, {{ section.settings.button_background.blue }};
-    --landing-cta-text: {{ section.settings.button_label.red }}, {{ section.settings.button_label.green }}, {{ section.settings.button_label.blue }};
-    --landing-cta-hover:{{ section.settings.button_hover.red }}, {{ section.settings.button_hover.green }}, {{ section.settings.button_hover.blue }};
+  /* Ensure our new wrappers are block-level and handle backgrounds properly */
+  .image-with-text__outer, .multicolumn__outer {
+    width: 100%;
+    display: block;
+  }
+  
+  /* ========== Scoped palette variables (on <html> or <body>) ========== */
+  html.{{ cls }}, body.{{ cls }} {
+    /* Optimization: Use 'color_to_rgb' to handle both Hex Strings and Color Objects */
+    --landing-accent-1: {{ section.settings.accent_1 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    --landing-accent-2: {{ section.settings.accent_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    --landing-text:     {{ section.settings.text | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    --landing-bg-1:     {{ section.settings.background_1 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    --landing-bg-2:     {{ section.settings.background_2 | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    
+    --landing-cta-bg:   {{ section.settings.button_background | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    --landing-cta-text: {{ section.settings.button_label | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    --landing-cta-hover:{{ section.settings.button_hover | color_to_rgb | remove: 'rgb(' | remove: ')' }};
+    
+    /* Variables Base de Dawn (compatibilidad) */
+    --color-base-accent-1: var(--landing-accent-1) !important;
+    --color-base-accent-2: var(--landing-accent-2) !important;
+    --color-base-text: var(--landing-text) !important;
+    --color-base-background-1: var(--landing-bg-1) !important;
+    --color-base-background-2: var(--landing-bg-2) !important;
+    --color-base-solid-button-labels: var(--landing-cta-text) !important;
+    --color-base-solid-button: var(--landing-cta-bg) !important;
   }
 
-  /* ========== Map Dawn-like scheme classes to landing palette ========== */
-  .{{ cls }} .color-background-1{
-    --color-background: var(--landing-bg-1);
-    --color-foreground: var(--landing-text);
+  /* Override schemes specific to this landing */
+  html.{{ cls }} .color-background-1, body.{{ cls }} .color-background-1,
+  html.{{ cls }} .color-scheme-background-1, body.{{ cls }} .color-scheme-background-1 {
+    --color-background: var(--landing-bg-1) !important;
+    --gradient-background: rgb(var(--landing-bg-1)) !important;
+    --color-foreground: var(--landing-text) !important;
+    color: rgb(var(--landing-text));
   }
-  .{{ cls }} .color-background-2{
-    --color-background: var(--landing-bg-2);
-    --color-foreground: var(--landing-text);
+  
+  html.{{ cls }} .color-background-2, body.{{ cls }} .color-background-2,
+  html.{{ cls }} .color-scheme-background-2, body.{{ cls }} .color-scheme-background-2 {
+    --color-background: var(--landing-bg-2) !important;
+    --gradient-background: rgb(var(--landing-bg-2)) !important;
+    --color-foreground: var(--landing-text) !important;
+    color: rgb(var(--landing-text));
   }
-  .{{ cls }} .color-accent-1{
-    --color-background: var(--landing-accent-1);
-    --color-foreground: 255, 255, 255;
+  
+  html.{{ cls }} .color-accent-1, body.{{ cls }} .color-accent-1,
+  html.{{ cls }} .color-scheme-accent-1, body.{{ cls }} .color-scheme-accent-1 {
+    --color-background: var(--landing-accent-1) !important;
+    --gradient-background: rgb(var(--landing-accent-1)) !important;
+    --color-foreground: var(--landing-bg-1) !important;
+    color: rgb(var(--landing-bg-1));
   }
-  .{{ cls }} .color-accent-2{
-    --color-background: var(--landing-accent-2);
-    --color-foreground: var(--landing-text);
+  
+  /* CTA Buttons override */
+  html.{{ cls }} .button--primary, body.{{ cls }} .button--primary,
+  html.{{ cls }} .shopify-payment-button__button--unbranded,
+  html.{{ cls }} .shopify-payment-button__button--branded {
+     background-color: rgb(var(--landing-cta-bg)) !important;
+     color: rgb(var(--landing-cta-text)) !important;
+     border-color: rgb(var(--landing-cta-bg)) !important;
+  }
+  
+  html.{{ cls }} .button--primary:hover, 
+  html.{{ cls }} .shopify-payment-button__button--unbranded:hover {
+     background-color: rgb(var(--landing-cta-hover)) !important;
+     border-color: rgb(var(--landing-cta-hover)) !important;
   }
 
-  /* ========== Force CTA colors (works even if theme vars differ) ========== */
-  .{{ cls }} .button.button--primary,
-  .{{ cls }} .shopify-payment-button__button--unbranded{
-    background: rgb(var(--landing-cta-bg)) !important;
-    color: rgb(var(--landing-cta-text)) !important;
-    border-color: rgb(var(--landing-cta-bg)) !important;
-  }
-  .{{ cls }} .button.button--primary:hover,
-  .{{ cls }} .shopify-payment-button__button--unbranded:hover{
-    background: rgb(var(--landing-cta-hover)) !important;
-    border-color: rgb(var(--landing-cta-hover)) !important;
+  /* Fix gradients if needed */
+  html.{{ cls }} .gradient {
+    background-attachment: initial !important; 
   }
 </style>
 

@@ -1,0 +1,617 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  {%- if section.settings.lp_use_custom_colors -%}
+    .lp-cch-{{ section.id }} {
+      --lp-bg: {{ section.settings.lp_bg }};
+      --lp-text: {{ section.settings.lp_text }};
+      --lp-heading: {{ section.settings.lp_heading }};
+    }
+    .lp-cch-{{ section.id }} { background-color: var(--lp-bg) !important; }
+    .lp-cch-{{ section.id }} .page-width { background-color: transparent !important; }
+    .lp-cch-{{ section.id }} h2.title { color: var(--lp-heading) !important; }
+    .lp-cch-{{ section.id }} .comparison-table td .comparison-table__row-name h3,
+    .lp-cch-{{ section.id }} .comparison-table th,
+    .lp-cch-{{ section.id }} .comparison-table__brand-name { color: var(--lp-heading) !important; }
+    
+    .lp-cch-{{ section.id }} p, 
+    .lp-cch-{{ section.id }} .rte,
+    .lp-cch-{{ section.id }} .comparison-table td { color: var(--lp-text) !important; }
+
+    /* Ensure table rows don't have conflicting backgrounds */
+    .lp-cch-{{ section.id }} .comparison-table tbody td:not(.comparison-table__row-name) { background: transparent !important; }
+  {%- endif -%}
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} lp-cch-{{ section.id }}">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="compare-chart-content{% if section.settings.layout == 'table_first' %} compare-chart-content--table-first{% endif %}{% if section.settings.title == blank and section.settings.text == blank %} compare-chart-content--no-content{% endif %}">
+      {%- unless section.settings.title == blank and section.settings.text == blank -%}
+        <div class="content-container center">
+          {%- unless section.settings.title == blank -%}
+            <h2 class="title {{ section.settings.heading_size }}">
+              {{ section.settings.title | escape }}
+            </h2>
+          {%- endunless -%}
+          {%- unless section.settings.text == blank -%}
+            {{ section.settings.text }}
+          {%- endunless -%}
+          {%- if section.settings.button_label != blank -%}
+            <a
+              {% if section.settings.link %}
+                href="{{ section.settings.link }}"
+              {% else %}
+                role="link" aria-disabled="true"
+              {% endif %}
+              class="button mb-1em {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+            >
+              {{- section.settings.button_label | escape -}}
+            </a>
+          {%- endif -%}
+        </div>
+      {%- endunless -%}
+      <div class="comparison-table-container">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>&nbsp</th>
+              <th align="center" class="comparison-table__logo">
+                {%- if section.settings.logo != blank -%}
+                  {%- assign logo_width = section.settings.logo_width -%}
+                  {%- assign logo_height = logo_width | divided_by: section.settings.logo.aspect_ratio -%}
+                  {{
+                    section.settings.logo
+                    | image_url: width: 200
+                    | image_tag:
+                      widths: '50, 100, 150, 200, 250, 300, 400, 500',
+                      width: logo_width,
+                      height: logo_height,
+                      alt: shop.name
+                  }}
+                {%- else -%}
+                  <span class="comparison-table__brand-name">
+                    {% if section.settings.us_label == blank %}
+                      {{ shop.name }}
+                    {% else %}
+                      {{ section.settings.us_label }}
+                    {% endif %}
+                  </span>
+                {%- endif -%}
+              </th>
+              <th class="comparison-table__others" align="center">{{ section.settings.others_label }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {%- for block in section.blocks -%}
+              <tr>
+                <td align="center" class="comparison-table__row-name color-{{ section.settings.benefit_color_scheme }}">
+                  <h3>{{ block.settings.benefit }}</h3>
+                </td>
+                <td align="center" class="color-{{ section.settings.icon_cells_color_scheme }}">
+                  {%- if block.settings.us -%}
+                    <svg
+                      class="comparison-table__checkmark"
+                      id="Layer_3"
+                      data-name="Layer 3"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 25.45 25.43"
+                    >
+                      <defs><style>.cls-1{fill:{{ section.settings.checkmark_color }};}</style></defs><polygon class="cls-1" points="25.45 0 24.06 0 9.5 15.27 2.12 10.24 0 12.55 9.28 25.43 25.45 2.48 25.45 0"/>
+                    </svg>
+                  {%- else -%}
+                    <div class="comparison-table__x"><span></span><span></span></div>
+                  {%- endif -%}
+                </td>
+                <td align="center" class="color-{{ section.settings.icon_cells_color_scheme }}">
+                  {%- if block.settings.others -%}
+                    <svg
+                      class="comparison-table__checkmark"
+                      id="Layer_3"
+                      data-name="Layer 3"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 25.45 25.43"
+                    >
+                      <defs><style>.cls-1{fill:{{ section.settings.checkmark_color }};}</style></defs><polygon class="cls-1" points="25.45 0 24.06 0 9.5 15.27 2.12 10.24 0 12.55 9.28 25.43 25.45 2.48 25.45 0"/>
+                    </svg>
+                  {%- else -%}
+                    <div class="comparison-table__x"><span></span><span></span></div>
+                  {%- endif -%}
+                </td>
+              </tr>
+            {%- endfor -%}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": "Compare Chart",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "default": "Compare chart",
+            "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "default": "<p>Talk about how and why is your brand better than the others.</p>",
+            "label": "Text"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
+          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+          "default": false
+        },
+        {
+            "type": "select",
+            "id": "layout",
+            "options": [
+                {
+                    "value": "table_first",
+                    "label": "Table first"
+                },
+                {
+                    "value": "table_second",
+                    "label": "Table second"
+                }
+            ],
+            "default": "table_second",
+            "label": "Desktop table placement"
+        },
+        {
+            "type": "select",
+            "id": "color_scheme",
+            "options": [
+            {
+                "value": "accent-1",
+                "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+                "value": "accent-2",
+                "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+                "value": "background-1",
+                "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+                "value": "background-2",
+                "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+                "value": "inverse",
+                "label": "t:sections.all.colors.inverse.label"
+            }
+            ],
+            "default": "background-1",
+            "label": "t:sections.all.colors.label"
+        },
+        {
+          "type": "header",
+          "content": "Table"
+        },
+        {
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+        },
+        {
+          "type": "range",
+          "id": "logo_width",
+          "min": 25,
+          "max": 125,
+          "step": 5,
+          "unit": "px",
+          "label": "Logo width",
+          "default": 75
+        },
+        {
+          "type": "text",
+          "id": "us_label",
+          "label": "Us custom label"
+        },
+        {
+          "type": "text",
+          "id": "others_label",
+          "label": "Competitors label",
+          "default": "OTHERS"
+        },
+        {
+            "type": "select",
+            "id": "benefit_color_scheme",
+            "options": [
+            {
+                "value": "accent-1",
+                "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+                "value": "accent-2",
+                "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+                "value": "background-1",
+                "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+                "value": "background-2",
+                "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+                "value": "inverse",
+                "label": "t:sections.all.colors.inverse.label"
+            }
+            ],
+            "default": "accent-1",
+            "label": "Benefit cells color scheme"
+        },
+        {
+          "type": "color",
+          "id": "checkmark_color",
+          "default": "#53AF01",
+          "label": "Checkmark color"
+        },
+        {
+            "type": "select",
+            "id": "icon_cells_color_scheme",
+            "options": [
+            {
+                "value": "accent-1",
+                "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+                "value": "accent-2",
+                "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+                "value": "background-1",
+                "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+                "value": "background-2",
+                "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+                "value": "inverse",
+                "label": "t:sections.all.colors.inverse.label"
+            }
+            ],
+            "default": "background-1",
+            "label": "Icon cells color scheme"
+        },
+        {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+        },
+        {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+        },
+        {
+          "type": "header",
+          "content": "LP: Colores personalizados"
+        },
+        {
+          "type": "checkbox",
+          "id": "lp_use_custom_colors",
+          "label": "Usar colores LP (override)",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "lp_bg",
+          "label": "Fondo sección",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "lp_text",
+          "label": "Color texto",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "lp_heading",
+          "label": "Color títulos",
+          "default": "#000000"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "row",
+            "name": "Table row",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "benefit",
+                    "default": "Benefit",
+                    "label": "Benefit"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "us",
+                    "default": true,
+                    "label": "Us"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "others",
+                    "default": false,
+                    "label": "Others"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Compare chart",
+            "blocks": [
+                {
+                "type": "row"
+                },
+                {
+                "type": "row"
+                },
+                {
+                "type": "row"
+                }
+            ]
+        }
+    ],
+    "disabled_on": {
+        "groups": ["header", "footer"]
+    }
+}
+{% endschema %}
+
+
+
+
+
+<style>
+.compare-chart-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  column-gap: 5rem;
+}
+.compare-chart-content--no-content {
+  grid-template-columns: repeat(1, 1fr);
+}
+@media screen and (max-width: 900px) {
+  .compare-chart-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 900px) {
+  .compare-chart-content--table-first .comparison-table-container {
+    order: -1;
+  }
+}
+
+.compare-chart-content .content-container .title {
+  margin-top: 0;
+}
+.comparison-table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 50rem;
+}
+.comparison-table {
+  flex-grow: 1;
+  border-spacing: 0;
+}
+.comparison-table tbody {
+  box-shadow: 0.5rem 0.5rem 1rem rgba(var(--color-foreground), 0.2),
+    0 0 0 0.2rem rgba(var(--color-foreground), 0.07);
+  border-radius: 2rem;
+}
+.comparison-table td {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  box-shadow: inset 0 -0.1rem 0 0 rgba(var(--color-foreground), 0.05),
+    inset 0 0.1rem 0 0 rgba(var(--color-foreground), 0.05);
+}
+.comparison-table img {
+  vertical-align: middle;
+}
+.comparison-table th {
+  padding: 0.5rem 0.2rem;
+  font-size: 1.6rem;
+}
+.comparison-table__brand-name {
+  font-size: 1.8rem;
+}
+.comparison-table tbody tr:first-of-type .comparison-table__row-name {
+  border-radius: 2rem 0 0 0;
+}
+.comparison-table tbody tr:last-of-type .comparison-table__row-name {
+  border-radius: 0 0 0 2rem;
+}
+.comparison-table tbody tr:first-of-type td:last-child {
+  border-radius: 0 2rem 0 0;
+}
+.comparison-table tbody tr:last-of-type td:last-child {
+  border-radius: 0 0 2rem 0;
+}
+.comparison-table tbody td:not(.comparison-table__row-name) {
+  /*   background: rgb(var(--color-base-background-1)); */
+  padding: 1rem 2rem;
+}
+.comparison-table__x {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.comparison-table__checkmark {
+  width: 2rem;
+  vertical-align: middle;
+  margin: auto;
+  display: inline-block;
+}
+.comparison-table__x span {
+  content: "";
+  display: block;
+  height: 0.3rem;
+  width: 1.8rem;
+  background: rgb(var(--color-foreground));
+  border-radius: 1rem;
+  transform: rotate(45deg);
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.comparison-table__x span:nth-child(2) {
+  position: absolute;
+  transform: rotate(-45deg);
+}
+.comparison-table .comparison-table__row-name h3 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+.rte:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.rte > p:first-child {
+  margin-top: 0;
+}
+
+.rte > p:last-child {
+  margin-bottom: 0;
+}
+
+.rte table {
+  table-layout: fixed;
+}
+
+@media screen and (min-width: 750px) {
+  .rte table td {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.rte img {
+  height: auto;
+  max-width: 100%;
+  border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
+  border-radius: var(--media-radius);
+  box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
+  margin-bottom: var(--media-shadow-vertical-offset);
+}
+
+.rte ul,
+.rte ol {
+  list-style-position: inside;
+  padding-left: 2rem;
+}
+
+.rte li {
+  list-style: inherit;
+}
+
+.rte li:last-child {
+  margin-bottom: 0;
+}
+
+.rte a {
+  color: rgba(var(--color-link), var(--alpha-link));
+  text-underline-offset: 0.3rem;
+  text-decoration-thickness: 0.1rem;
+  transition: text-decoration-thickness var(--duration-short) ease;
+}
+
+.rte a:hover {
+  color: rgb(var(--color-link));
+  text-decoration-thickness: 0.2rem;
+}
+
+.rte blockquote {
+  display: inline-flex;
+}
+
+.rte blockquote > * {
+  margin: -0.5rem 0 -0.5rem 0;
+}
+
+
+
+</style>

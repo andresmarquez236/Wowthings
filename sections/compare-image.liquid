@@ -1,0 +1,396 @@
+{%- style -%}
+  {%- if section.settings.lp_use_custom_colors -%}
+    .lp-ci-{{ section.id }} {
+      --lp-bg: {{ section.settings.lp_bg | color_to_rgb }};
+      --lp-text: {{ section.settings.lp_text | color_to_rgb }};
+      --lp-heading: {{ section.settings.lp_heading | color_to_rgb }};
+    }
+    .lp-ci-{{ section.id }}.eating_health { background-color: var(--lp-bg) !important; }
+    /* Override bg-white if present */
+    .lp-ci-{{ section.id }}.bg-white { background-color: var(--lp-bg) !important; }
+    
+    .lp-ci-{{ section.id }} h2, 
+    .lp-ci-{{ section.id }} h4 { color: var(--lp-heading) !important; }
+    
+    .lp-ci-{{ section.id }} p, 
+    .lp-ci-{{ section.id }} .eating_content, 
+    .lp-ci-{{ section.id }} .eating_header { color: var(--lp-text) !important; }
+  {%- endif -%}
+{%- endstyle -%}
+<div class="lp-ci-{{ section.id }} eating_health bg-white">
+    <div class="page-width">
+        <div class="eating_header text-center">
+            <h2>{{section.settings.title}}</h2>
+            {{section.settings.text}}
+        </div>
+        <div class="feature-row">
+            <div class="grid">
+                <div class="grid__item medium-up--one-quarter small-hide">
+                    {% for block in section.blocks limit: 2%}
+                        <div class="eating_col">
+                                <div class="eating_icon">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}"/>
+                                </div>
+                                <div class="eating_content">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="grid__item medium-up--two-quarters">
+                    <div class="FeatureText__ImageWrapper c-image-sliders FeatureText__ContentWrapper" data-before-after-image-container>
+                        <div class="c-image-sliders__comparison" style="padding-bottom: {{ 1 | divided_by: section.settings.image1.aspect_ratio | times: 100 }}%;">
+                              <figure class="c-image-sliders__figure"
+                                 style="background: url({{section.settings.image2 | img_url: 'master'}})">
+                                  <div class="c-image-sliders__handle" data-image-slider-handle="" style="left: 50%;"></div>
+                                  <div class="c-image-sliders__divisor" data-image-slider-divisor=""
+                                      style="background: url({{section.settings.image1 | img_url: 'master'}})">
+                                  </div>
+                              </figure>
+                              <input type="range" min="0" max="100" value="50" class="c-image-sliders__slider" data-image-slider-range="">
+                            <div class="c-image-sliders__labels">
+                                <p class="c-image-sliders__before">{{section.settings.before}}</p>
+                                <p class="c-image-sliders__after">{{section.settings.after}}</p>
+                              </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="grid__item medium-up--one-quarter small-hide">
+                    {% for block in section.blocks offset: 2%}
+                        <div class="eating_col">
+                                <div class="eating_icon">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}">
+                                </div>
+                                <div class="eating_content">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+              <div class="grid__item-new mrk-flex-small medium-up--one-quarter medium-hide large-up-hide">
+                    {% for block in section.blocks %}
+                        <div class="eating_col_mobile">
+                                <div class="eating_icon_mobile">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}"/>
+                                </div>
+                                <div class="eating_content_mobile">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.querySelectorAll("[data-before-after-image-container]").forEach(t => {
+          const e = t.querySelector("[data-image-slider-divisor]"),
+              i = t.querySelector("[data-image-slider-handle]"),
+              n = t.querySelector("[data-image-slider-range]"),
+              o = () => {
+                  i.style.left = n.value + "%", e.style.width = n.value + "%"
+              };
+          n.addEventListener("input", () => {
+              o()
+          }), window.onload = () => {
+              o()
+          }
+      });
+</script>
+{% schema %}
+{
+  "name": "Compare Image",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Before Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "After Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Hair removal just got waaaaay easier"
+        },
+       {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Not all trips to the wax salon ends with a pleasant experience because things can get pretty hairy (get it?) during the whole process. Meet Bleame Crystal Hair Eraser  – the easiest, painless hair removal for a smooth skin instantly!</p>"
+       },
+       {
+            "type": "text",
+            "id": "before",
+            "label": "Before",
+            "default": "Before"
+          },
+          {
+            "type": "text",
+            "id": "after",
+            "label": "After",
+            "default": "After"
+          },
+        { "type": "header", "content": "LP: Colores personalizados" },
+        { "type": "checkbox", "id": "lp_use_custom_colors", "label": "Usar colores LP (override)", "default": true },
+        { "type": "color", "id": "lp_bg", "label": "Fondo sección", "default": "#ffffff" },
+        { "type": "color", "id": "lp_text", "label": "Color texto", "default": "#212121" },
+        { "type": "color", "id": "lp_heading", "label": "Color títulos", "default": "#111111" }
+  ],
+  "blocks": [
+        {
+            "type": "text",
+            "name": "Text Block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Easy to Use"
+                },
+               {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text",
+                "default": "<p>Simply rub it to your skin in circular motion for a hair-free body!</p>"
+               }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Compare Image"
+        }
+    ]
+}
+{% endschema %}
+
+
+
+
+
+<style>
+/* compare  */
+.c-image-sliders__comparison {
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    position: relative;
+    background: #fbc7ba;
+}.c-image-sliders__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50.7rem;
+    width: 100%;
+    margin: 0 auto 3rem;
+    justify-content: flex-end;
+}.c-image-sliders__figure {
+    position: absolute;
+    background-size: cover !important;
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.qmr-compare {position: relative;}
+[data-before-after-image-container] {
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 0;
+}
+.c-image-sliders__handle {
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 1;
+    background: #fbfbfb;
+    opacity: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: grab;
+    display: block !important;
+}.c-image-sliders__divisor {
+    background-size: cover !important;
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    height: 100%;
+}.c-image-sliders__divisor::before, .c-image-sliders__divisor::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0.3rem;
+    transform: translateX(50%);
+    height: 50%;
+    background: black;
+    opacity: 70%;
+    z-index: 3;
+}.c-image-sliders__divisor::before {
+    top: 0;
+}.c-image-sliders__divisor::after {
+    bottom: 0;
+}.c-image-sliders__handle::before {
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 24'%3E%3Cpath d='m11.94 21.758-9.647-9.646 9.647-9.647' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    content: "";
+    width: 25px;
+    height: 100%;
+    cursor: grab;
+    position: absolute;
+    background-position: center;
+    left: 0
+}
+.c-image-sliders__handle::after {
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 13 24'%3E%3Cpath d='m1.667 2.465 9.647 9.647-9.647 9.646' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-size: 12px;
+    content: "";
+    width: 25px;
+    height: 100%;
+    cursor: grab;
+    position: absolute;
+    background-position: center;
+    right: 0;
+}
+@media only screen and (min-width: 750px){
+.c-image-sliders__handle {
+    width: 60px;
+    height: 60px;
+}}
+.c-image-sliders input[type=range] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    width: calc(100% + 50px);
+    z-index: 3;
+    opacity: 0;
+    height: 6.2rem;
+    height: 100%;
+}
+    input.c-image-sliders__slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 200px;
+  cursor: pointer;
+    background:black
+}
+ .qmr-compare input.slider {
+	 -moz-appearance: none;
+	 -webkit-appearance: none;
+	 border: none;
+	 background: transparent;
+	 cursor: col-resize;
+	 height: 100vw;
+	 left: 0;
+	 margin: 0;
+	 outline: none;
+	 padding: 0;
+	 position: relative;
+	 top: -100vw;
+	 width: 100%;
+}
+ .qmr-compare .compare {
+	 background-size: cover !important;
+	 bottom: 0;
+	 border-right: 5px solid rgba(255, 255, 255, 0.7);
+	 box-shadow: 10px 0 15px -13px #000;
+	 height: 100%;
+	 max-width: 98.6%;
+	 min-width: 0.6%;
+	 overflow: visible;
+	 position: absolute;
+	 width: 50%;
+	 animation: first 2s 1 normal ease-in-out 0.1s;
+	 -webkit-animation: first 2s 1 normal ease-in-out 0.1s;
+}
+ @keyframes first {
+	 0% {
+		 width: 0%;
+	}
+	 50% {
+		 width: 80%;
+	}
+	 100% {
+		 width: 50%;
+	}
+}
+ @-webkit-keyframes first {
+	 0% {
+		 width: 0%;
+	}
+	 50% {
+		 width: 80%;
+	}
+	 100% {
+		 width: 50%;
+	}
+}
+.c-image-sliders__labels {
+display: flex;
+    text-align: center;
+    background: #fff;
+    opacity: 80%;
+    padding: 0;
+    height: 26px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    width: 100%;
+}
+.c-image-sliders__before, .c-image-sliders__after {
+    width: 50%;
+    color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+/* end compare */
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>

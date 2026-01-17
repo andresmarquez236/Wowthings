@@ -1,7 +1,9 @@
 import os
-import json
 import requests
 from dotenv import load_dotenv
+from utils.logger import setup_logger
+
+logger = setup_logger("Shopify.Uploader")
 
 load_dotenv()
 
@@ -20,7 +22,7 @@ def upload_to_shopify(local_filepath, shopify_filename):
     theme_id = os.getenv("THEME_ID")
     
     if not all([shop_url, access_token, theme_id]):
-        print("❌ Error: Faltan credenciales en .env para la subida.")
+        logger.error("Faltan credenciales en .env para la subida.")
         return False
 
     # 2. Preparar el Endpoint
@@ -32,7 +34,7 @@ def upload_to_shopify(local_filepath, shopify_filename):
             # Leemos como texto puro porque Shopify espera un string en el campo 'value'
             content_string = f.read()
     except FileNotFoundError:
-        print(f"❌ Error: No encuentro el archivo local: {local_filepath}")
+        logger.error(f"No encuentro el archivo local: {local_filepath}")
         return False
 
     # 4. Crear el Payload (La carga útil)
@@ -50,14 +52,14 @@ def upload_to_shopify(local_filepath, shopify_filename):
     }
 
     # 5. Enviar Request (PUT)
-    print(f"☁️ Subiendo a Shopify: {shopify_filename} ...")
+    logger.info(f"Subiendo a Shopify: {shopify_filename} ...")
     response = requests.put(url, headers=headers, json=payload)
 
     # 6. Validar Resultado
     if response.status_code in [200, 201]:
-        print(f"✅ ¡DEPLOY EXITOSO! Landing disponible en el tema {theme_id}")
+        logger.info(f"¡DEPLOY EXITOSO! Landing disponible en el tema {theme_id}")
         return True
     else:
-        print(f"❌ Error en la subida ({response.status_code}):")
-        print(response.text)
+        logger.error(f"Error en la subida ({response.status_code}):")
+        logger.error(response.text)
         return False

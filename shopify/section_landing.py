@@ -1,6 +1,9 @@
 import json
 import os
 import re
+from utils.logger import setup_logger
+
+logger = setup_logger("Shopify.SectionLanding")
 
 def extract_content(landing_page_path):
     """
@@ -139,10 +142,10 @@ def save_extracted_content(landing_page_path):
     Orchestrates extraction and saving to the correct location.
     """
     
-    print(f"📂 Extrayendo contenido de: {landing_page_path}")
+    logger.info(f"Extrayendo contenido de: {landing_page_path}")
     
     if not os.path.exists(landing_page_path):
-        print(f"❌ Error: El archivo {landing_page_path} no existe.")
+        logger.error(f"Error: El archivo {landing_page_path} no existe.")
         return
 
     extracted_data = extract_content(landing_page_path)
@@ -196,7 +199,7 @@ def save_extracted_content(landing_page_path):
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(extracted_data, f, indent=4, ensure_ascii=False)
         
-    print(f"✅ Contenido extraído y guardado en: {output_path}")
+    logger.info(f"Contenido extraído y guardado en: {output_path}")
 
 if __name__ == "__main__":
     # Default behavior for testing or direct execution

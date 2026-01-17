@@ -442,5 +442,122 @@ def mark_ads_gen_completed(results_row_idx: int):
     ws_res.update_cell(results_row_idx, col_idx, "SI")
     logger.info(f"Marked row {results_row_idx} as Completed (Agentes Ads Gen = SI)")
 
+def get_products_ready_for_landing() -> List[Dict[str, Any]]:
+    """
+    Scans 'Resultados_Estudio' for products that:
+    1. Have 'Agentes Ads Gen' == 'SI' (Ads generation completed).
+    2. Have 'Landing Auto Gen' != 'SI' (Landing not yet generated).
+    
+    Returns a list of dicts with full product details fetched from 'Info_Productos'.
+    """
+    client = get_google_sheet_client()
+    spreadsheet = client.open_by_url(SHEET_URL)
+    
+    try:
+        ws_res = spreadsheet.worksheet(WORKSHEET_RESULTS)
+    except gspread.exceptions.WorksheetNotFound:
+        logger.error("'Resultados_Estudio' worksheet not found.")
+        return []
+
+    rows = ws_res.get_all_values()
+    if not rows:
+        return []
+        
+    headers = [h.strip() for h in rows[0]]
+    
+    try:
+        idx_name = headers.index("Nombre Producto")
+        
+        # Check for 'Agentes Ads Gen'
+        try:
+            idx_ads_gen = headers.index("Agentes Ads Gen")
+        except ValueError:
+            # If not found, we can't process
+            logger.warning("'Agentes Ads Gen' column not found. Cannot filter ready products.")
+            return []
+
+        # Check for 'Landing Auto Gen' - This might be new, so index lookup is key
+        # User said "Columna R" (index 17 if 0-based), but safer to look for header first
+        # If header doesn't exist, we might check Column R directly if we trust the user?
+        # Let's try to find header "Landing Auto Gen" or "Landing Gen".
+        # If not, we will assume it is the column AFTER Agentes Ads Gen or check Col R (Index 17).
+        
+        idx_landing_gen = -1
+        possible_headers = ["Landing Auto Gen", "Landing Gen", "Estado Landing"]
+        for ph in possible_headers:
+            if ph in headers:
+                idx_landing_gen = headers.index(ph)
+                break
+        
+        if idx_landing_gen == -1:
+            # Fallback: User said Columna R. A=0... R=17.
+            # Let's verify if we have enough columns.
+            if len(headers) > 17:
+                # Just a heuristic warning
+                logger.warning("Header 'Landing Auto Gen' not found. Checking Column R (Index 17).")
+                idx_landing_gen = 17
+            else:
+                 # If sheet is smaller, maybe we assume 18th column?
+                 idx_landing_gen = 17
+    
+    except ValueError as e:
+        logger.error(f"Key column missing: {e}")
+        return []
+
+    candidates = []
+    
+    for i, row in enumerate(rows[1:]):
+        row_idx = i + 2
+        
+        val_name = row[idx_name] if len(row) > idx_name else ""
+        if not val_name: continue
+        
+        val_ads = (row[idx_ads_gen] if len(row) > idx_ads_gen else "").strip().upper()
+        val_landing = (row[idx_landing_gen] if len(row) > idx_landing_gen else "").strip().upper()
+        
+        # CONDITION: Ads Gen == SI  AND Landing Gen != SI
+        if val_ads == "SI" and val_landing != "SI":
+            logger.info(f"Found Landing Candidate: {val_name} (Row {row_idx})")
+            
+            details = get_product_details_by_name(val_name, spreadsheet)
+            if details:
+                details['results_row_idx'] = row_idx
+                # Pass the column index so we know where to write later if needed (though we recap it in mark func)
+                candidates.append(details)
+            else:
+                logger.warning(f"Details not found in Info_Productos for '{val_name}'")
+
+    return candidates
+
+def mark_landing_gen_completed(results_row_idx: int):
+    """
+    Updates 'Landing Auto Gen' column (Col R) to 'SI'.
+    """
+    client = get_google_sheet_client()
+    spreadsheet = client.open_by_url(SHEET_URL)
+    ws_res = spreadsheet.worksheet(WORKSHEET_RESULTS)
+    
+    # Try to find header "Landing Auto Gen"
+    headers = ws_res.row_values(1)
+    col_idx = -1
+    
+    possible_headers = ["Landing Auto Gen", "Landing Gen"]
+    for ph in possible_headers:
+        if ph in headers:
+            col_idx = headers.index(ph) + 1
+            break
+            
+    if col_idx == -1:
+        # Fallback to Column R (18)
+        col_idx = 18
+        # Validate if header exists at 18? If not, maybe we should write it?
+        if len(headers) < 18:
+            # Write header if missing?
+            # ws_res.update_cell(1, 18, "Landing Auto Gen")
+            pass
+
+    ws_res.update_cell(results_row_idx, col_idx, "SI")
+    logger.info(f"Marked row {results_row_idx} as Landing Gen Completed (Col {col_idx} = SI)")
+
 if __name__ == "__main__":
     main()

@@ -1,0 +1,509 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  {%- if section.settings.lp_use_custom_colors -%}
+    .lp-pct-{{ section.id }} {
+      --lp-bg: {{ section.settings.lp_bg }};
+      --lp-text: {{ section.settings.lp_text }};
+      --lp-heading: {{ section.settings.lp_heading }};
+      --lp-accent: {{ section.settings.lp_accent }};
+    }
+    .lp-pct-{{ section.id }} { background-color: var(--lp-bg) !important; }
+    .lp-pct-{{ section.id }} .page-width { background-color: transparent !important; }
+    .lp-pct-{{ section.id }} .page-width .title { color: var(--lp-heading) !important; }
+    .lp-pct-{{ section.id }} p, 
+    .lp-pct-{{ section.id }} .rte { color: var(--lp-text) !important; }
+    
+    /* Override Ring Colors - Fix for RGB/HEX mismatch */
+    .lp-pct-{{ section.id }} .content-and-percentages {
+       --percent-accent: var(--lp-accent) !important;
+       --color-button: var(--lp-accent) !important;
+    }
+    .lp-pct-{{ section.id }} .percentages__percentage p { color: var(--lp-accent) !important; }
+
+    /* Override Gradient to support HEX variable (Original uses rgb() wrapper) */
+    .lp-pct-{{ section.id }} .percentages__percentage::before {
+      background: conic-gradient(
+        from 0deg at 50% 50%,
+        var(--lp-accent) 0%,
+        var(--lp-accent) var(--percentage),
+        var(--lp-bg) var(--percentage),
+        var(--lp-bg) 100%
+      ) !important;
+    }
+  {%- endif -%}
+{%- endstyle -%}
+
+<div class="color-{{ section.settings.color_scheme }} lp-pct-{{ section.id }}">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="content-and-percentages{% if section.settings.layout == 'percentages_first' %} content-and-percentages--percentages-first{% endif %}{% if section.settings.title == blank and section.settings.text == blank and section.settings.image == blank %} content-and-percentages--no-content{% endif %}">
+      {%- unless section.settings.title == blank
+        and section.settings.text == blank
+        and section.settings.image == blank
+      -%}
+        <div class="content-container center">
+          {%- unless section.settings.title == blank -%}
+            <h2 class="title {{ section.settings.heading_size }}">
+              {{ section.settings.title | escape }}
+            </h2>
+          {%- endunless -%}
+          {%- unless section.settings.text == blank -%}
+            {{ section.settings.text }}
+          {%- endunless -%}
+          {%- unless section.settings.image == blank -%}
+            <div class="content-and-percentages__image">
+              {{ section.settings.image | image_url: width: 1000 | image_tag: loading: 'lazy', width: 600 }}
+            </div>
+          {%- endunless -%}
+        </div>
+      {%- endunless -%}
+      <div class="percentages-container">
+        <div class="percentages">
+          {%- unless section.settings.percentages_headline == blank -%}
+            <h3 class="title {{ section.settings.percentages_headline_size }} {% if section.settings.percentages_headline_alignment == 'center' %} center{% endif %}">
+              {{ section.settings.percentages_headline | escape }}
+            </h3>
+          {%- endunless -%}
+          <div class="percentages__rows-container">
+            {%- for row in section.blocks -%}
+              <div class="percentages__row">
+                <div class="percentages__percentage" style="--percentage: {{ row.settings.percentage }}%">
+                  <p>{{ row.settings.percentage }}%</p>
+                </div>
+                <div class="percentages__text">
+                  {{ row.settings.row_text }}
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+          {%- unless section.settings.caption == blank -%}
+            <div class="percentages__caption">
+              {{ section.settings.caption }}
+            </div>
+          {%- endunless -%}
+          {%- if section.settings.button_label != blank -%}
+            <a
+              {% if section.settings.link %}
+                href="{{ section.settings.link }}"
+              {% else %}
+                role="link" aria-disabled="true"
+              {% endif %}
+              class="button btn--mt-center {% if section.settings.button_style_secondary %}button--secondary{% else %}button--primary{% endif %}"
+            >
+              {{- section.settings.button_label | escape -}}
+            </a>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": "Percentages",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "default": "percentages",
+            "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+            "type": "richtext",
+            "id": "text",
+            "default": "<p>Talk about percentages of your customers and how your product improved their life.</p>",
+            "label": "Text"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        },
+        {
+          "type": "select",
+          "id": "color_scheme",
+          "options": [
+            {
+              "value": "accent-1",
+              "label": "t:sections.all.colors.accent_1.label"
+            },
+            {
+              "value": "accent-2",
+              "label": "t:sections.all.colors.accent_2.label"
+            },
+            {
+              "value": "background-1",
+              "label": "t:sections.all.colors.background_1.label"
+            },
+            {
+              "value": "background-2",
+              "label": "t:sections.all.colors.background_2.label"
+            },
+            {
+              "value": "inverse",
+              "label": "t:sections.all.colors.inverse.label"
+            }
+          ],
+          "default": "background-1",
+          "label": "t:sections.all.colors.label"
+        },
+        {
+            "type": "select",
+            "id": "layout",
+            "options": [
+                {
+                    "value": "percentages_first",
+                    "label": "percentages first"
+                },
+                {
+                    "value": "percentages_second",
+                    "label": "percentages second"
+                }
+            ],
+            "default": "percentages_second",
+            "label": "Desktop percentages placement"
+        },
+        {
+          "type": "header",
+          "content": "percentages"
+        },
+        {
+            "type": "text",
+            "id": "percentages_headline",
+            "default": "percentages heading",
+            "label": "percentages heading"
+        },
+        {
+            "type": "select",
+            "id": "percentages_headline_size",
+            "options": [
+                {
+                    "value": "h3",
+                    "label": "Small"
+                },
+                {
+                    "value": "h2",
+                    "label": "Medium"
+                },
+                {
+                    "value": "h1",
+                    "label": "Large"
+                }
+            ],
+            "default": "h2",
+            "label": "percentages heading size"
+        },
+        {
+            "type": "select",
+            "id": "percentages_headline_alignment",
+            "options": [
+                {
+                    "value": "left",
+                    "label": "Left"
+                },
+                {
+                    "value": "center",
+                    "label": "Center"
+                }
+            ],
+            "default": "left",
+            "label": "percentages heading alignment"
+        },
+        {
+            "type": "richtext",
+            "id": "caption",
+            "default": "<p>Caption about the percentages and/or link for their proof.</p>",
+            "label": "Caption"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:sections.slideshow.blocks.slide.settings.button_label.label",
+          "info": "t:sections.slideshow.blocks.slide.settings.button_label.info"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "t:sections.slideshow.blocks.slide.settings.link.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary",
+          "label": "t:sections.slideshow.blocks.slide.settings.secondary_style.label",
+          "default": false
+        },
+        {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+        },
+        {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+        },
+        {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+        },
+        {
+          "type": "header",
+          "content": "LP: Colores personalizados"
+        },
+        {
+          "type": "checkbox",
+          "id": "lp_use_custom_colors",
+          "label": "Usar colores LP (override)",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "lp_bg",
+          "label": "Fondo sección",
+          "default": "#ffffff"
+        },
+        {
+          "type": "color",
+          "id": "lp_text",
+          "label": "Color texto",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "lp_heading",
+          "label": "Color títulos",
+          "default": "#000000"
+        },
+        {
+          "type": "color",
+          "id": "lp_accent",
+          "label": "Color anillos (accent)",
+          "default": "#000000"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "row",
+            "name": "Result row",
+            "settings": [
+                {
+                    "type": "range",
+                    "id": "percentage",
+                    "min": 0,
+                    "max": 100,
+                    "default": 90,
+                    "step": 1,
+                    "label": "Percentage"
+                },
+                {
+                    "type": "richtext",
+                    "id": "row_text",
+                    "default": "<p>Noticed that this product has significantly improved their life.</p>",
+                    "label": "Result"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Percentages",
+            "blocks": [
+                {
+                "type": "row"
+                },
+                {
+                "type": "row"
+                },
+                {
+                "type": "row"
+                }
+            ]
+        }
+    ],
+    "disabled_on": {
+        "groups": ["header", "footer"]
+    }
+}
+{% endschema %}
+
+
+
+
+
+
+
+
+<style>
+.content-and-percentages {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  column-gap: 5rem;
+}
+.content-and-percentages--no-content {
+  grid-template-columns: repeat(1, 1fr);
+}
+@media screen and (max-width: 900px) {
+  .content-and-percentages {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (min-width: 900px) {
+  .content-and-percentages--percentages-first .percentages-container {
+    order: -1;
+  }
+}
+
+.content-and-percentages .content-container .title,
+.percentages-container .title {
+  margin-top: 0;
+}
+.percentages-container .title {
+  margin-bottom: 1.5rem;
+}
+.content-and-percentages__image {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.content-and-percentages__image img {
+  max-width: 100%;
+}
+
+.percentages__rows-container {
+  margin-bottom: 1rem;
+}
+.percentages__percentage {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  position: relative;
+  --border-width: 0.7rem;
+  flex-shrink: 0;
+  margin-right: 2rem;
+  z-index: 0;
+}
+/* Usa el color del botón/CTA como color de los porcentajes */
+{% comment %} .content-and-percentages {
+  --percent-accent: var(--color-button);
+} {% endcomment %}
+
+.content-and-percentages {
+  --percent-accent: var(--landing-cta-bg, var(--color-button));
+}
+
+.percentages__percentage::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  z-index: -2;
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    rgb(var(--percent-accent)) 0%,
+    rgb(var(--percent-accent)) var(--percentage),
+    rgb(var(--color-background)) var(--percentage),
+    rgb(var(--color-background)) 100%
+  );
+}
+{% comment %} .color-accent-1 .percentages__percentage::before,
+.color-accent-2 .percentages__percentage::before {
+  background: conic-gradient(
+    from 0deg at 50% 50%,
+    rgb(var(--color-foreground)) 0%,
+    rgb(var(--color-foreground)) var(--percentage),
+    rgb(var(--color-background)) var(--percentage),
+    rgb(var(--color-background)) 100%
+  );
+} {% endcomment %}
+.percentages__percentage::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: var(--border-width);
+  left: var(--border-width);
+  bottom: var(--border-width);
+  right: var(--border-width);
+  border-radius: 50%;
+  z-index: -1;
+  background: rgb(var(--color-background));
+}
+.percentages__percentage p {
+  margin: 0;
+  color: rgb(var(--percent-accent));
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.color-accent-1 .percentages__percentage p,
+.color-accent-2 .percentages__percentage p {
+  color: rgb(var(--color-foreground));
+}
+
+.percentages__row {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgba(var(--color-foreground), 0.05);
+}
+.percentages__row:first-of-type {
+  border-top: 2px solid rgba(var(--color-foreground), 0.05);
+}
+.percentages__text p {
+  margin: 0;
+}
+
+.percentages__caption p {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+
+</style>

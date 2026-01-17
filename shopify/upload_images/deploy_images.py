@@ -5,6 +5,9 @@ import mimetypes
 from pathlib import Path
 import requests
 from dotenv import load_dotenv
+from utils.logger import setup_logger
+
+logger = setup_logger("Shopify.DeployImages")
 
 load_dotenv()
 
@@ -18,6 +21,7 @@ MULTICOLUMN_SECTION_ID = os.getenv("MULTICOLUMN_SECTION_ID", "50f8db15-9a00-4bfb
 BEFORE_FILENAME = "before_image.png"
 AFTER_FILENAME  = "after_image.png"
 PAIN_FILENAME   = "pain_image.png"
+FEATURED_REVIEW_FILENAME = "featured_review_1.png"
 
 BENEFITS_DIRNAME = "benefits_images"      # Folder for benefits (first multicolumn)
 SOCIAL_DIRNAME   = "social_proof_images"  # Folder for social proof (second multicolumn)
@@ -32,19 +36,53 @@ def require_env(*keys):
         raise RuntimeError(f"❌ Faltan variables en .env: {', '.join(missing)}")
 
 
-def graphql(shop_url: str, access_token: str, query: str, variables: dict):
+def graphql(shop_url: str, access_token: str, query: str, variables: dict, retries: int = 5, backoff_factor: int = 2):
     url = f"https://{shop_url}/admin/api/{API_VERSION}/graphql.json"
     headers = {
         "X-Shopify-Access-Token": access_token,
         "Content-Type": "application/json",
     }
-    r = requests.post(url, headers=headers, json={"query": query, "variables": variables}, timeout=60)
-    if r.status_code != 200:
-        raise RuntimeError(f"❌ GraphQL HTTP {r.status_code}: {r.text}")
-    payload = r.json()
-    if "errors" in payload:
-        raise RuntimeError(f"❌ GraphQL errors: {payload['errors']}")
-    return payload["data"]
+    
+    for attempt in range(retries):
+        try:
+            r = requests.post(url, headers=headers, json={"query": query, "variables": variables}, timeout=60)
+            
+            if r.status_code == 429:
+                # Rate limit
+                sleep_time = backoff_factor ** attempt
+                logger.warning(f"Rate limit generated (429). Retrying in {sleep_time}s...")
+                time.sleep(sleep_time)
+                continue
+                
+            if r.status_code >= 500:
+                # Server error
+                sleep_time = backoff_factor ** attempt
+                logger.warning(f"Server error ({r.status_code}). Retrying in {sleep_time}s...")
+                time.sleep(sleep_time)
+                continue
+                
+            if r.status_code != 200:
+                 raise RuntimeError(f"❌ GraphQL HTTP {r.status_code}: {r.text}")
+                 
+            payload = r.json()
+            if "errors" in payload:
+                # Business logic error, usually not transient, but check throttle
+                if "Throttled" in str(payload['errors']):
+                     sleep_time = backoff_factor ** attempt
+                     logger.warning(f"Shopify Throttled. Retrying in {sleep_time}s...")
+                     time.sleep(sleep_time)
+                     continue
+                raise RuntimeError(f"❌ GraphQL errors: {payload['errors']}")
+            
+            return payload["data"]
+            
+        except requests.exceptions.RequestException as e:
+            # Network-level errors (DNS, Timeout, Connection Refused)
+            sleep_time = backoff_factor ** attempt
+            logger.warning(f"Network error: {e}. Retrying {attempt+1}/{retries} in {sleep_time}s...")
+            time.sleep(sleep_time)
+    
+    raise RuntimeError(f"❌ Failed to execute GraphQL query after {retries} attempts.")
 
 
 STAGED_UPLOADS_CREATE = """
@@ -114,7 +152,7 @@ def upload_image_to_shopify_files(image_path: Path, shop_url: str, access_token:
 
     file_size_mb = image_path.stat().st_size / (1024 * 1024)
     if file_size_mb > 4:
-        print(f"⚠️ Imagen {image_path.name} pesa {file_size_mb:.2f}MB. Comprimiendo...")
+        logger.warning(f"Imagen {image_path.name} pesa {file_size_mb:.2f}MB. Comprimiendo...")
         from PIL import Image
         with Image.open(image_path) as img:
             if img.mode in ('RGBA', 'P'): img = img.convert('RGB')
@@ -125,7 +163,7 @@ def upload_image_to_shopify_files(image_path: Path, shop_url: str, access_token:
             # Save compressed temp file
             temp_path = image_path.with_suffix(".compressed.jpg")
             img.save(temp_path, "JPEG", quality=80, optimize=True)
-            print(f"📉 Comprimida a: {temp_path.stat().st_size / (1024*1024):.2f}MB")
+            logger.info(f"Comprimida a: {temp_path.stat().st_size / (1024*1024):.2f}MB")
             
             # Recursive call with smaller file, then clean up
             try:
@@ -185,7 +223,7 @@ def upload_image_to_shopify_files(image_path: Path, shop_url: str, access_token:
     # If not present in fileCreate response, we rely on the `node` query in `wait_for_mediaimage_url`?
     # Actually, fileCreate V2 usually returns 'filename'.
     remote_filename = f.get("filename") or final_name
-    print(f"   ✅ Uploaded as: {remote_filename} (ID: {media_id})")
+    logger.info(f"   ✅ Uploaded as: {remote_filename} (ID: {media_id})")
 
     # 4) esperar url final
     ready = wait_for_mediaimage_url(shop_url, access_token, media_id)
@@ -212,13 +250,13 @@ def upload_to_shopify_theme_asset(local_filepath: str, shopify_filename: str):
     payload = {"asset": {"key": shopify_filename, "value": content_string}}
     headers = {"X-Shopify-Access-Token": access_token, "Content-Type": "application/json"}
 
-    print(f"☁️ Subiendo template JSON al tema: {shopify_filename} ...")
+    logger.info(f"Subiendo template JSON al tema: {shopify_filename} ...")
     r = requests.put(url, headers=headers, json=payload, timeout=60)
 
     if r.status_code in (200, 201):
-        print("✅ Template JSON subido correctamente.")
+        logger.info("Template JSON subido correctamente.")
         return True
-    print(f"❌ Error subiendo template JSON ({r.status_code}): {r.text}")
+    logger.error(f"Error subiendo template JSON ({r.status_code}): {r.text}")
     return False
 
 
@@ -230,10 +268,10 @@ def upload_folder_images_to_files(folder: Path, shop_url: str, access_token: str
         files = [p for p in files if filter_keyword in p.name]
         
     if not files:
-        print(f"⚠️ No hay imágenes en {folder} con filtro '{filter_keyword}' (o carpeta vacía).")
+        logger.warning(f"No hay imágenes en {folder} con filtro '{filter_keyword}' (o carpeta vacía).")
         return [], []
 
-    print(f"⬆️ Subiendo {len(files)} imágenes de {folder.name}...")
+    logger.info(f"Subiendo {len(files)} imágenes de {folder.name}...")
     uploads = []
     for p in files:
         uploads.append(upload_image_to_shopify_files(p, shop_url, access_token, unique_prefix))
@@ -313,7 +351,7 @@ def patch_multicolumn_section(template: dict, multicolumn_sid: str, image_refs: 
         block_order = list(blocks.keys())
 
     if len(image_refs) < len(block_order):
-        print(f"⚠️ OJO: Hay {len(block_order)} blocks pero solo {len(image_refs)} imágenes. Se asignarán las primeras {len(image_refs)}.")
+        logger.warning(f"OJO: Hay {len(block_order)} blocks pero solo {len(image_refs)} imágenes. Se asignarán las primeras {len(image_refs)}.")
     
     # Iterate based on image count to fill available blocks
     for i, bid in enumerate(block_order):
@@ -330,10 +368,22 @@ def patch_multicolumn_section(template: dict, multicolumn_sid: str, image_refs: 
 
 def patch_sections(template: dict, out_json_path: Path,
                    before_ref: str, after_ref: str, pain_ref: str, 
-                   benefits_refs: list[str], social_refs: list[str], second_iwt_ref: str):
+                   benefits_refs: list[str], social_refs: list[str], second_iwt_ref: str,
+                   featured_review_ref: str = None):
     
     data = template
     sections = data.get("sections", {})
+
+    # 0) Patch Featured Review in Main Section
+    if "main" in sections:
+        main_sec = sections["main"]
+        blocks = main_sec.get("blocks", {})
+        # Find block of type 'featuredreview'
+        for bid, b in blocks.items():
+             if b.get("type") == "featuredreview":
+                 b.setdefault("settings", {})["reviewimage"] = featured_review_ref
+                 logger.info(f"Main Section: featuredreview patched: {bid}")
+                 break
 
     compare_sid = find_compare_section_id(data)
     if not compare_sid or compare_sid not in sections:
@@ -357,26 +407,26 @@ def patch_sections(template: dict, out_json_path: Path,
          
     if not mc_benefits_sid: raise KeyError("❌ No encuentro multicolumn (benefits) después del pain.")
     patch_multicolumn_section(data, mc_benefits_sid, benefits_refs)
-    print(f"🔧 multicolumn benefits patched: {mc_benefits_sid}")
+    logger.info(f"multicolumn benefits patched: {mc_benefits_sid}")
 
     # 4) Social Proof Multicolumn (ANCHOR: Benefits)
     # The next multicolumn after benefits is Social Proof
     mc_social_sid = find_next_section_of_type(data, after_sid=mc_benefits_sid, types={"multicolumn"})
     if not mc_social_sid: raise KeyError("❌ No encuentro multicolumn (social proof) después del benefits.")
     patch_multicolumn_section(data, mc_social_sid, social_refs)
-    print(f"🔧 multicolumn social proof patched: {mc_social_sid}")
+    logger.info(f"multicolumn social proof patched: {mc_social_sid}")
 
     # 5) Second Image-With-Text (ANCHOR: Social Proof)
     # The next IWT after social proof is the Featured Case
     second_iwt_sid = find_next_section_of_type(data, after_sid=mc_social_sid, types=IMAGE_WITH_TEXT_TYPES)
     if not second_iwt_sid: raise KeyError("❌ No encontré la segunda image-with-text después del social proof.")
     sections[second_iwt_sid].setdefault("settings", {})["image"] = second_iwt_ref
-    print(f"🔧 second image-with-text patched: {second_iwt_sid}")
+    logger.info(f"second image-with-text patched: {second_iwt_sid}")
 
     out_json_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"🧩 JSON parcheado guardado en: {out_json_path}")
-    print(f"🔧 compare-image patched: {compare_sid}")
-    print(f"🔧 image-with-text (pain) patched: {pain_sid}")
+    logger.info(f"JSON parcheado guardado en: {out_json_path}")
+    logger.info(f"compare-image patched: {compare_sid}")
+    logger.info(f"image-with-text (pain) patched: {pain_sid}")
     return out_json_path
 
 
@@ -391,7 +441,7 @@ def deploy_pipeline(product_folder: str = None):
     if not product_folder:
         product_folder = sys.argv[1] if len(sys.argv) > 1 else "samba_og_vaca_negro_blanco"
     
-    print(f"🚀 Iniciando despliegue de imágenes para: {product_folder}")
+    logger.info(f"Iniciando despliegue de imágenes para: {product_folder}")
 
     IMAGES_DIR = Path(f"output/{product_folder}/resultados_landing")
     slug = product_folder.replace("_", "-")
@@ -411,10 +461,10 @@ def deploy_pipeline(product_folder: str = None):
     for p in [before_path, after_path, pain_path, TEMPLATE_JSON]:
         if not p.exists(): raise FileNotFoundError(f"❌ No existe: {p}")
 
-    print(f"📂 Recursos encontrados en: {IMAGES_DIR}")
+    logger.info(f"Recursos encontrados en: {IMAGES_DIR}")
 
     # UPLOADS: CORE
-    print("⬆️ Subiendo BEFORE / AFTER / PAIN...")
+    logger.info("Subiendo BEFORE / AFTER / PAIN...")
     before_up = upload_image_to_shopify_files(before_path, shop_url, access_token, unique_prefix=slug)
     after_up  = upload_image_to_shopify_files(after_path,  shop_url, access_token, unique_prefix=slug)
     pain_up   = upload_image_to_shopify_files(pain_path,   shop_url, access_token, unique_prefix=slug)
@@ -426,7 +476,7 @@ def deploy_pipeline(product_folder: str = None):
     benefits_dir = IMAGES_DIR / BENEFITS_DIRNAME / "finals_images"
     if not benefits_dir.exists():
         # Fallback to main dir if finals doesn't exist (e.g. evaluator didn't run)
-        print(f"⚠️ finals_images no existe en {benefits_dir}, intentando carpeta padre...")
+        logger.warning(f"finals_images no existe en {benefits_dir}, intentando carpeta padre...")
         benefits_dir = IMAGES_DIR / BENEFITS_DIRNAME
         benefits_uploads, benefits_refs = upload_folder_images_to_files(benefits_dir, shop_url, access_token, filter_keyword="A_macro_hero", unique_prefix=slug)
     else:
@@ -440,10 +490,20 @@ def deploy_pipeline(product_folder: str = None):
     
     # UPLOADS: SECOND IWT (The Hero)
     second_iwt_path = IMAGES_DIR / SOCIAL_DIRNAME / SECOND_IWT_FILENAME
-    print(f"⬆️ Subiendo Second IWT: {SECOND_IWT_FILENAME}...")
+    logger.info(f"Subiendo Second IWT: {SECOND_IWT_FILENAME}...")
     if not second_iwt_path.exists(): raise FileNotFoundError(f"❌ No existe Second IWT: {second_iwt_path}")
     second_iwt_up = upload_image_to_shopify_files(second_iwt_path, shop_url, access_token, unique_prefix=slug)
     second_iwt_ref = second_iwt_up["shopify_ref"]
+
+    # UPLOADS: FEATURED REVIEW (Profile Pic)
+    featured_review_path = IMAGES_DIR / "featured_review_image" / FEATURED_REVIEW_FILENAME
+    featured_review_ref = ""
+    if featured_review_path.exists():
+        logger.info(f"Subiendo Featured Review: {FEATURED_REVIEW_FILENAME}...")
+        fr_up = upload_image_to_shopify_files(featured_review_path, shop_url, access_token, unique_prefix=slug)
+        featured_review_ref = fr_up["shopify_ref"]
+    else:
+        logger.warning(f"No existe Featured Review image: {featured_review_path}")
 
     files_map = {
         BEFORE_FILENAME: before_up,
@@ -451,15 +511,16 @@ def deploy_pipeline(product_folder: str = None):
         PAIN_FILENAME: pain_up,
         "benefits": benefits_refs,
         "social_proof": social_refs,
-        "second_iwt": second_iwt_up
+        "second_iwt": second_iwt_up,
+        "featured_review": featured_review_ref
     }
 
     map_path = OUT_DIR / "shopify_files_map.json"
     map_path.write_text(json.dumps(files_map, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"🧾 Map generado: {map_path}")
+    logger.info(f"Map generado: {map_path}")
 
     # 5) Patch JSON (compare-image + pain + multicolumn)
-    print("🧩 Parcheando el template JSON...")
+    logger.info("Parcheando el template JSON...")
     patched_filename = json_filename.replace(".json", ".patched.json")
     patched_path = OUT_DIR / patched_filename
 
@@ -473,7 +534,8 @@ def deploy_pipeline(product_folder: str = None):
         pain_ref=pain_up["shopify_ref"],
         benefits_refs=benefits_refs,
         social_refs=social_refs,
-        second_iwt_ref=second_iwt_ref
+        second_iwt_ref=second_iwt_ref,
+        featured_review_ref=featured_review_ref
     )
 
     # 6) Upload patched JSON to theme
@@ -481,9 +543,9 @@ def deploy_pipeline(product_folder: str = None):
     ok = upload_to_shopify_theme_asset(str(patched_path), SHOPIFY_TEMPLATE_KEY)
 
     if ok:
-        print(f"\n✅ Listo. Template actualizado: {SHOPIFY_TEMPLATE_KEY}")
+        logger.info(f"Listo. Template actualizado: {SHOPIFY_TEMPLATE_KEY}")
     else:
-        print("\n❌ Error subiendo el template al theme.")
+        logger.error("Error subiendo el template al theme.")
 
 
 if __name__ == "__main__":

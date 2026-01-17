@@ -1,4 +1,7 @@
 import json
+from utils.logger import setup_logger
+
+logger = setup_logger("Shopify.Mapper")
 
 def map_payload_to_shopify_structure(shopify_json, ai_content):
     """

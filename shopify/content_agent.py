@@ -2,6 +2,9 @@ import os
 import json
 from openai import OpenAI
 from dotenv import load_dotenv
+from utils.logger import setup_logger
+
+logger = setup_logger("Shopify.ContentAgent")
 
 # Cargar entorno
 load_dotenv()
@@ -135,7 +138,7 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
     }}
     """
     
-    print(f"🚀 Iniciando generación Neural para: {product_name}...")
+    logger.info(f"Iniciando generación Neural para: {product_name}...")
 
     try:
         response = client.chat.completions.create(
@@ -151,7 +154,7 @@ def generate_elite_landing_copy(product_name, raw_info, target_avatar):
         return json.loads(response.choices[0].message.content)
 
     except Exception as e:
-        print(f"❌ Error Critical: {e}")
+        logger.error(f"Error Critical: {e}")
         return None
 
 # --- TESTING ---
@@ -167,4 +170,4 @@ if __name__ == "__main__":
         # Guardamos el JSON de contenido puro
         with open("final_content_payload.json", "w", encoding='utf-8') as f:
             json.dump(content, f, indent=4, ensure_ascii=False)
-        print("✅ Payload de Contenido generado. Listo para inyectar en Shopify.")
+        logger.info("Payload de Contenido generado. Listo para inyectar en Shopify.")

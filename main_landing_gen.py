@@ -13,6 +13,8 @@ from shopify.image_landing_gen import (
     evaluator_benefits
 )
 from shopify.upload_images import deploy_images
+from shopify.visual_plan.visual_planer import VisualPlaner
+from shopify.visual_plan.visual_injection import run_injection_pipeline
 
 load_dotenv()
 
@@ -20,19 +22,21 @@ def main():
     # =========================================================
     # CONFIGURACIÓN DEL LANZAMIENTO
     # =========================================================
-    PRODUCT_NAME = "Coco Rose Mantequilla Truly Grande"
+    PRODUCT_NAME = "Aspiradora Recargable Para Carro 3 En 1"
     RAW_INFO = """
-        El Coco Rose Fudge es una manteca corporal batida ultra nutritiva que combina el poder del coco, la rosa, la manteca de karité, el colágeno y el extracto de algas para hidratar profundamente la piel, mejorar su textura y devolverle un brillo saludable y suave como la seda.
+        LA ASPIRADORA 3 EN 1 , es muy útil para cualquier espacio de tu casa, carro, oficina y también es fácil de llevar ha cualquier lugar puedes sacar el polvo de los espacios mas pequeños, tiene 3 cabezales intercambiables y lo mejor es que es recargable es super funcional .
 
-    🌸 Beneficios principales:
+Potente rendimiento de succión: experimenta una limpieza profunda con nuestra aspiradora de automóvil con un robusto motor sin escobillas. Elimina sin esfuerzo el polvo, la suciedad y los desechos de tu vehículo y las superficies de tu hogar.
 
-    ✨ Hidratación intensa y duradera: gracias a la manteca de karité y el aceite de coco, deja la piel profundamente humectada sin sensación grasosa.
-    🌹 Suaviza y mejora la textura: el colágeno ayuda a reafirmar y alisar la piel, dándole una apariencia más tonificada.
-    🌿 Restaura el brillo natural: los extractos de rosa y algas revitalizan la piel opaca, aportando luminosidad y frescura.
-    🧴 Protege contra la resequedad: ideal para piel seca o expuesta a climas fríos.
-    🐰 Fórmula vegana y libre de crueldad animal: sin parabenos, sulfatos ni ingredientes dañinos.
+Comodidad inalámbrica: di adiós a los cables enredados con nuestro diseño inalámbrico de aspiradora de mano. Perfecto para limpiezas rápidas en lugares difíciles de alcanzar, ya sea en tu coche o alrededor de la casa.
+Portátil y ligero: nuestro modelo inalámbrico portátil de aspiradora de automóvil está diseñado para un fácil transporte y almacenamiento. Ideal para la limpieza en movimiento, se adapta cómodamente a tu mano para un uso sin fatiga.
+Recargable: equipado con una potente batería recargable, este dispositivo inalámbrico de aspiradora de mano garantiza un tiempo de uso prolongado.
+Solución de limpieza versátil para múltiples superficies: desde interiores de automóviles hasta tapicería del hogar, nuestra aspiradora de mano es versátil y eficaz. Con la mejor potencia de succión y un conjunto completo de accesorios, aborda la suciedad en varias superficies, por lo que es una herramienta de limpieza imprescindible. Los accesorios incluidos te permiten limpiar espacios reducidos, tapicería y más con facilidad.
     """
-    TARGET_AVATAR = "Mujer 20–45 en Bogotá/ciudades andinas con piel seca o tirante por clima y duchas calientes"
+    TARGET_AVATAR = """
+    buyer_persona: Conductores particulares y de apps (Uber/DiDi), familias que hacen viajes frecuentes,
+      promesa: "Limpieza rápida de asientos, alfombrillas y rincones del carro en cualquier lugar, sin cables.
+    """
     
     # Nombre de carpeta (slug)
     product_folder_name = PRODUCT_NAME.replace(' ', '_').lower()
@@ -126,8 +130,27 @@ def main():
         print(f"❌ Error crítico en despliegue: {e}")
         return
 
+    # =========================================================
+    # PASO 5: CAPA VISUAL (COLOR & STYLE INJECTION)
+    # =========================================================
+    print(f"\n🎨 [5/5] Generando e Inyectando Plan Visual (Colores + Estilos Scoped)...")
+    
+    # 5.1 Plan Visual (Analiza copys e imagenes)
+    try:
+        planer = VisualPlaner()
+        planer.analyze_and_generate(product_folder_name, PRODUCT_NAME)
+    except Exception as e:
+        print(f"⚠️ Error generando Visual Plan: {e}")
+
+    # 5.2 Inyeccion Visual (Sobrescribe template con estilos)
+    try:
+        run_injection_pipeline(product_folder_name)
+    except Exception as e:
+        print(f"❌ Error inyectando estilos visuales: {e}")
+
+
     print("\n" + "="*60)
-    print(f"🎉 ¡ÉXITO TOTAL! LANDING PAGE COMPLETADA")
+    print(f"🎉 ¡ÉXITO TOTAL! LANDING PAGE COMPLETADA + VISUAL STYLE")
     print("="*60)
     print(f"👉 Preview URL: (Check Shopify Admin -> Online Store -> Themes -> Customize)")
     print(f"👉 Template: {SHOPIFY_TEMPLATE_KEY}")

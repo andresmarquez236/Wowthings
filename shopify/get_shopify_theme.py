@@ -79,6 +79,9 @@ import os
 import requests
 import json
 from dotenv import load_dotenv
+from utils.logger import setup_logger
+
+logger = setup_logger("Shopify.GetTheme")
 
 def get_shopify_template_content():
     # Load environment variables
@@ -94,7 +97,7 @@ def get_shopify_template_content():
     asset_key = os.getenv("TEMPLATE_FILENAME", "templates/product.custom_landing.json") 
     
     if not all([shop_url, access_token, theme_id]):
-        print("❌ Error: Faltan variables en el .env")
+        logger.error("Faltan variables en el .env")
         return
 
     # --- CAMBIO CLAVE AQUÍ ---
@@ -111,7 +114,7 @@ def get_shopify_template_content():
     }
 
     try:
-        print(f"📡 Buscando el archivo: {asset_key} ...")
+        logger.info(f"Buscando el archivo: {asset_key} ...")
         response = requests.get(url, headers=headers, params=params)
         response.raise_for_status()
         
@@ -134,20 +137,20 @@ def get_shopify_template_content():
             with open(output_file, "w", encoding='utf-8') as f:
                 json.dump(json_content, f, indent=4)
                 
-            print(f"✅ ¡ÉXITO! Plantilla descargada en: {output_file}")
-            print("   Ahora tu IA puede leer este archivo para entender la estructura.")
+            logger.info(f"¡ÉXITO! Plantilla descargada en: {output_file}")
+            logger.info("Ahora tu IA puede leer este archivo para entender la estructura.")
         else:
-            print("⚠️ El archivo existe, pero no tiene contenido 'value' (podría ser una imagen binaria o estar vacío).")
-            print(data)
+            logger.warning("El archivo existe, pero no tiene contenido 'value' (podría ser una imagen binaria o estar vacío).")
+            logger.debug(str(data))
 
     except requests.exceptions.HTTPError as err:
         if response.status_code == 404:
-            print(f"❌ Error 404: El archivo '{asset_key}' no existe en este tema.")
-            print("   Verifica que creaste la plantilla y que el nombre es exacto.")
+            logger.error(f"Error 404: El archivo '{asset_key}' no existe en este tema.")
+            logger.error("Verifica que creaste la plantilla y que el nombre es exacto.")
         else:
-            print(f"❌ Error HTTP: {err}")
+            logger.error(f"Error HTTP: {err}")
     except Exception as e:
-        print(f"❌ Error inesperado: {e}")
+        logger.error(f"Error inesperado: {e}")
 
 if __name__ == "__main__":
     get_shopify_template_content()
