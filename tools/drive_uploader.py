@@ -77,7 +77,7 @@ def ensure_drive_folder(service, folder_name: str, parent_id: str) -> str:
     ).execute()
     return folder["id"]
 
-def file_exists(service, parent_id: str, file_name: str) -> bool:
+def get_file_id(service, parent_id: str, file_name: str) -> str:
     file_name_q = sanitize_drive_query_value(file_name)
     q = f"'{parent_id}' in parents and name = '{file_name_q}' and trashed = false"
 
@@ -88,30 +88,42 @@ def file_exists(service, parent_id: str, file_name: str) -> bool:
         includeItemsFromAllDrives=True
     ).execute()
 
-    return bool(res.get("files"))
+    files = res.get("files", [])
+    if files:
+        return files[0]["id"]
+    return None
 
 def upload_file(service, local_path: str, parent_id: str):
     file_name = os.path.basename(local_path)
+    existing_file_id = get_file_id(service, parent_id, file_name)
 
-    if file_exists(service, parent_id, file_name):
-        logger.info(f"Skipping {file_name} (Already exists)")
-        return
-
-    logger.info(f"Uploading: {file_name} ...")
-
-    meta = {"name": file_name, "parents": [parent_id]}
+    logger.info(f"Processing: {file_name} ...")
     media = MediaFileUpload(local_path, resumable=True)
 
     try:
-        service.files().create(
-            body=meta,
-            media_body=media,
-            fields="id",
-            supportsAllDrives=True
-        ).execute()
-        logger.info(f"Successfully uploaded: {file_name}")
+        if existing_file_id:
+            # Update existing file
+            logger.info(f"Updating existing file: {file_name} (ID: {existing_file_id})")
+            service.files().update(
+                fileId=existing_file_id,
+                media_body=media,
+                fields="id",
+                supportsAllDrives=True
+            ).execute()
+        else:
+            # Create new file
+            logger.info(f"Uploading new file: {file_name}")
+            meta = {"name": file_name, "parents": [parent_id]}
+            service.files().create(
+                body=meta,
+                media_body=media,
+                fields="id",
+                supportsAllDrives=True
+            ).execute()
+            
+        logger.info(f"Successfully processed: {file_name}")
     except Exception as e:
-        logger.error(f"Failed to upload {file_name}: {e}")
+        logger.error(f"Failed to process {file_name}: {e}")
 
 def upload_folder_recursive(service, local_folder: str, parent_id: str):
     folder_name = os.path.basename(local_folder.rstrip("/\\"))

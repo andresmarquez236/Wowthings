@@ -44,6 +44,7 @@ def run_spy_flow(
     range_product_test: Optional[List[int]] = None,
     num_max_escaling: Optional[int] = None,
     dry_run: bool = False,
+    apify_token: Optional[str] = None,
 ):
     """
     Orquesta el flujo completo: Research -> Scraping -> Procesamiento.
@@ -82,7 +83,8 @@ def run_spy_flow(
             name=product_name,
             country_code=country,
             limit_per_source=limit_per_source,
-            scrape_ad_details=scrape_ad_details
+            scrape_ad_details=scrape_ad_details,
+            apify_token=apify_token
         )
         logger.info("Scraping completado exitosamente.")
         logger.info(f"Raw Items: {scrape_summary['counts']['raw_items']} | Dedup Items: {scrape_summary['counts']['dedup_items']}")

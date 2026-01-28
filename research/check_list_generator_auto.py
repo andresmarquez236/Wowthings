@@ -14,6 +14,12 @@ from typing import Dict, Any, List
 import os
 import sys
 
+# Ensure parent directory is in path to import utils
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+
 from utils.logger import setup_logger
 logger = setup_logger("CheckListGen_Auto")
 
@@ -26,48 +32,48 @@ parent_dir = os.path.dirname(current_dir)
 if parent_dir not in sys.path:
     sys.path.append(parent_dir)
 
-    try:
-        from spy_agent.apy_fb_library_agent import run_spy_flow
-        from spy_agent.process_info import slugify
-    except ImportError as e:
-        logger.warning(f"Could not import Spy Agent modules: {e}")
-        run_spy_flow = None
-        slugify = None
+try:
+    from spy_agent.apy_fb_library_agent import run_spy_flow
+    from spy_agent.process_info import slugify
+except ImportError as e:
+    logger.warning(f"Could not import Spy Agent modules: {e}")
+    run_spy_flow = None
+    slugify = None
 
-    # Configuration
-    BASE_OUTPUT_DIR = "output"
+# Configuration
+BASE_OUTPUT_DIR = "output"
 
-    def safe_filename(name: str) -> str:
-        return "".join([c if c.isalnum() else "_" for c in name]).lower()
+def safe_filename(name: str) -> str:
+    return "".join([c if c.isalnum() else "_" for c in name]).lower()
 
-    def run_agent_for_product(product_name: str, description: str, warranty: str, price: str, margin_ok: bool = None, competitors_ok: bool = None) -> Dict[str, Any]:
-        """Runs the market_research_agent.py via subprocess and returns the parsed JSON."""
-        
-        clean_name = product_name
-        if clean_name.lower().startswith("ejemplo:"):
-            clean_name = clean_name[8:].strip()
-        
-        product_safe = safe_filename(clean_name)
-        product_output_dir = os.path.join(BASE_OUTPUT_DIR, product_safe)
-        os.makedirs(product_output_dir, exist_ok=True)
-        
-        market_research_file = os.path.join(product_output_dir, "market_research_min.json")
-        
-        research_script = os.path.join("research", "market_research_agent.py")
-        if not os.path.exists(research_script):
-            logger.error(f"Script not found: {research_script}")
-            return {}
+def run_agent_for_product(product_name: str, description: str, warranty: str, price: str, margin_ok: bool = None, competitors_ok: bool = None) -> Dict[str, Any]:
+    """Runs the market_research_agent.py via subprocess and returns the parsed JSON."""
+    
+    clean_name = product_name
+    if clean_name.lower().startswith("ejemplo:"):
+        clean_name = clean_name[8:].strip()
+    
+    product_safe = safe_filename(clean_name)
+    product_output_dir = os.path.join(BASE_OUTPUT_DIR, product_safe)
+    os.makedirs(product_output_dir, exist_ok=True)
+    
+    market_research_file = os.path.join(product_output_dir, "market_research_min.json")
+    
+    research_script = os.path.join("research", "market_research_agent.py")
+    if not os.path.exists(research_script):
+        logger.error(f"Script not found: {research_script}")
+        return {}
 
-        env = os.environ.copy()
-        env["PYTHONPATH"] = os.getcwd()
+    env = os.environ.copy()
+    env["PYTHONPATH"] = os.getcwd()
 
-        cmd = [
-            sys.executable, research_script,
-        "--product", product_name,
-        "--desc", description,
-        "--warranty", warranty,
-        "--price", price,
-        "--output", market_research_file
+    cmd = [
+        sys.executable, research_script,
+    "--product", product_name,
+    "--desc", description,
+    "--warranty", warranty,
+    "--price", price,
+    "--output", market_research_file
     ]
     
     if margin_ok is not None:
@@ -132,16 +138,40 @@ def run_spy_and_get_competitor_status(product_name: str, product_desc: str) -> b
         return None
 
     logger.info(f"Running Spy Agent for: {product_name}...")
-    try:
-        # Run the full flow (Research -> Apify -> Process)
-        run_spy_flow(
-            product_name=product_name,
-            product_description=product_desc,
-            country="CO", # Defaulting to CO
-            limit_per_source=80,
-            scrape_ad_details=False
-        )
+    
+    # List of keys to try
+    apify_keys = ["APIFY_APY_KEY", "APIFY_APY_KEY_2", "APIFY_APY_KEY_3"]
+    success = False
 
+    for key_name in apify_keys:
+        api_token = os.getenv(key_name)
+        if not api_token:
+            logger.warning(f"Skipping {key_name}: Key not found in environment.")
+            continue
+            
+        logger.info(f"Attempting Spy Agent with key: {key_name}...")
+        try:
+            # Run the full flow (Research -> Apify -> Process)
+            run_spy_flow(
+                product_name=product_name,
+                product_description=product_desc,
+                country="CO", # Defaulting to CO
+                limit_per_source=80,
+                scrape_ad_details=False,
+                apify_token=api_token
+            )
+            success = True
+            break # Exit loop on success
+            
+        except Exception as e:
+            logger.error(f"Error running Spy Agent with {key_name}: {e}")
+            logger.info("Retrying with next key if available...")
+
+    if not success:
+         logger.error("All Apify keys failed. Cannot proceed with Spy Agent.")
+         return None
+
+    try:
         # Construct path to rank report
         product_slug = slugify(product_name)
         # Assumes BASE_OUTPUT_DIR is "output" relative to CWD
@@ -165,7 +195,7 @@ def run_spy_and_get_competitor_status(product_name: str, product_desc: str) -> b
         return producto_test
 
     except Exception as e:
-        logger.error(f"Error running Spy Agent: {e}")
+        logger.error(f"Error reading Spy Agent results: {e}")
         return None
 
 def main():
@@ -202,8 +232,7 @@ def main():
         is_good_margin = (margin_val > 30000) and (profit_val > 17)
         logger.info(f"Margin Analysis: Val={margin_val}, Profit={profit_val}% -> Good? {is_good_margin}")
 
-        if not p_name: 
-            continue
+
 
         logger.info(f"[{i+1}/{total_products}] Processing Row {row_idx}: {p_name}")
         

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "run_date_iso": "2026-01-07",
-    "model": "GPT-4.1",
+    "run_date_iso": "2026-01-19",
+    "model": "Analista de Mercado y Copy Strategist para Colombia y LATAM",
     "locale_priority": "CO_first_then_LATAM"
   },
   "input": {
@@ -10,161 +10,157 @@
     "garantia": "10 DIAS",
     "precio": "$150.000"
   },
-  "resumen_corto": "Oportunidad en tenis de plataforma blancos “Barbara” con enfoque en: altura que estiliza sin tacón, comodidad (plantilla tipo memory foam), versatilidad para looks diarios y narrativa “Hecho en Colombia”. Precio objetivo COP $150.000 compite por debajo del rango visible en tiendas locales (≈$169.000 COP), pero el mercado está saturado; diferenciación creativa y de oferta (UGC, bundles de limpieza, garantía clara) es clave.",
+  "resumen_corto": "Tenis de plataforma estilo urbano para mujer, modelo “Barbara”, enfoque en altura + confort (suela XL/plantilla suave), material sintético, cordones, colores básicos (blanco y neutros). Precio objetivo $150.000 COP; garantía ofrecida: 10 días (según entrada).",
   "product_fingerprint": {
-    "marca": "Amo mis Zapatos (modelo 'Barbara')",
-    "modelo": "Barbara",
-    "categoria": "Tenis de plataforma para mujer (urbano/casual)",
+    "marca": "Sin marca única (modelo comercial “Barbara” en tiendas multi‑marca; referencia clave: Amo Mis Zapatos)",
+    "modelo": "Barbara (tenis de plataforma para mujer)",
+    "categoria": "Calzado urbano casual / Tenis plataforma mujer",
     "specs_claims_clave": [
-      "Capellada sintética (PVC)",
-      "Suela plataforma sintética (PVC/Caucho-Ecolite)",
-      "Plantilla memory foam",
-      "Cordones poliéster",
-      "Color blanco (Blanco talco)",
-      "Tallas 35-40",
-      "Hecho en Colombia"
+      "Capellada sintética (PVC o similar)",
+      "Suela tipo plataforma/XL",
+      "Cierre con cordones",
+      "Plantilla tipo memory foam (según listado específico)",
+      "Hecho en Colombia (según listado específico)",
+      "Colores básicos: blanco (principal), miel/negro (variantes en mercado)",
+      "Tallas comunes 35–40",
+      "Uso urbano/casual"
     ],
-    "rango_precio_observado": "COP 104.300 – 149.000 (misma ficha de producto)",
-    "garantia_tipo": "10 días (no verificado en fuente externa)",
+    "rango_precio_observado": "COP $89.900 – $169.000 (proxy CO, según listados de plataforma mujer)",
+    "garantia_tipo": "Entrada del cliente: 10 días (cambios/devoluciones). No confirmado en fuentes externas del mismo modelo.",
     "variantes_detectadas": [
-      "Color: Blanco talco",
-      "Tallas: 35, 36, 37, 38, 39, 40"
+      "Blanco (Amo Mis Zapatos)",
+      "Miel/Negro (Bona – proxy plataforma)",
+      "Otros nombres de línea: Victoria/Valencia (marca BARBARA – cuero, proxy de segmento)"
     ]
   },
   "top_5_angulos": [
     {
       "rank": 1,
-      "angulo": "Altura que estiliza sin tacón (plataforma discreta)",
+      "angulo": "Altura + confort diario sin sacrificar ligereza",
       "score_0a10": 8.8,
-      "buyer_persona": "Mujer 18-34 urbana que busca verse más alta y estilizada sin usar tacones",
-      "promesa": "Gana altura visual y alarga tu silueta con una plataforma cómoda y estable para el día a día.",
-      "objecion_principal": "“Las plataformas cansan o se ven exageradas.”",
-      "justificacion": "La tendencia 2025 favorece plataformas discretas sobre XL; combinadas con vestidos o jeans logran efecto de pierna más larga sin sacrificar comodidad.",
+      "buyer_persona": "Mujer 18–35 urbana que busca verse más alta y estilizada con calzado cómodo para jornadas largas.",
+      "promesa": "Gana altura y estiliza tu look con suela plataforma, manteniendo comodidad todo el día gracias a plantilla suave.",
+      "objecion_principal": "“Las plataformas cansan/el zapato pesa”.",
+      "justificacion": "La ficha del modelo Barbara indica suela XL y plantilla memory foam (confort). Otros listados CO de plataforma confirman suelas robustas pero livianas (EVA/sintético) en el segmento, reduciendo fatiga.",
       "evidencia": [
-        {
-          "url": "https://www.vogue.mx/articulo/como-llevar-tenis-con-plataforma-y-vestidos-mini-en-verano-2025",
-          "pais": "LATAM (MX)",
-          "match_note": "Valida el efecto visual de los tenis con plataforma para alargar silueta (proxy de tendencia regional).",
-          "confianza": "Alta"
-        },
-        {
-          "url": "https://www.vogue.mx/articulo/tenis-que-ya-no-estan-de-moda-en-2025",
-          "pais": "LATAM (MX)",
-          "match_note": "Indica transición de plataformas XL a discretas, alineando el producto con look actual (proxy).",
-          "confianza": "Alta"
-        },
         {
           "url": "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/",
           "pais": "CO",
-          "match_note": "Misma ficha del modelo ‘Barbara’: plataforma y estilo minimalista urbano.",
+          "match_note": "Mismo modelo por nombre (Barbara), plataforma, capellada PVC y plantilla memory foam.",
           "confianza": "Alta"
+        },
+        {
+          "url": "https://www.mussi.com.co/products/tenis-con-plataforma-stella-de-sintetico-para-mujer-blanco-039702",
+          "pais": "CO",
+          "match_note": "Proxy segmento: plataforma sintético 4 cm, foco en ligereza y confort (validación de beneficio).",
+          "confianza": "Media"
+        },
+        {
+          "url": "https://www.oclockdc.com/product/tenis-plataforma-peggy-blanco/",
+          "pais": "CO",
+          "match_note": "Proxy plataforma altura 8 cm y materiales livianos (extiende razonamiento de comodidad/altura en la categoría CO).",
+          "confianza": "Media"
         }
       ],
       "confianza": "Alta"
     },
     {
       "rank": 2,
-      "angulo": "Comodidad todo el día (plantilla memory foam + suela gruesa)",
-      "score_0a10": 8.4,
-      "buyer_persona": "Estudiante/office casual que camina mucho y prioriza confort sin perder estilo",
-      "promesa": "Camina todo el día con suavidad: plantilla memory foam y plataforma estable que amortigua cada paso.",
-      "objecion_principal": "“Los tenis de moda son duros o resbalan.”",
-      "justificacion": "La propia ficha del producto destaca plantilla memory foam y suela de plataforma; otras marcas locales de plataforma enfatizan confort y materiales similares.",
+      "angulo": "Blanco minimal que combina con todo (closet‑staple)",
+      "score_0a10": 8.5,
+      "buyer_persona": "Mujer que prioriza versatilidad y looks pulidos para oficina/universidad/salidas.",
+      "promesa": "Un par que va con todo: jeans, vestidos y sastrería casual; el blanco plataforma eleva cualquier outfit.",
+      "objecion_principal": "“El blanco se ensucia y no combina con todo”.",
+      "justificacion": "La página del modelo Barbara enfatiza blanco versátil. La categoría oficial de adidas CO destaca que los tenis blancos de plataforma son básicos atemporales y combinables.",
       "evidencia": [
         {
           "url": "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/",
           "pais": "CO",
-          "match_note": "Misma ficha: indica ‘plantilla memory foam’ y materiales.",
+          "match_note": "Mismo modelo; copy resalta “combina con todo”.",
           "confianza": "Alta"
         },
         {
-          "url": "https://www.mussi.com.co/products/tenis-con-plataforma-baia-de-sintetico-para-mujer-hueso-654338",
+          "url": "https://www.adidas.co/plataforma-blanco-mujer",
           "pais": "CO",
-          "match_note": "Proxy categoría: tenis de plataforma locales con foco en comodidad y altura (no es el modelo Barbara).",
-          "confianza": "Media"
+          "match_note": "Proxy autoridad categoría: página oficial en CO describe los blancos de plataforma como “imprescindibles/versátiles”.",
+          "confianza": "Alta"
         }
       ],
       "confianza": "Alta"
     },
     {
       "rank": 3,
-      "angulo": "Versatilidad de outfit (blanco que combina con todo)",
-      "score_0a10": 8.2,
-      "buyer_persona": "Mujer que busca un par “comodín” para universidad, oficina casual y salidas",
-      "promesa": "Un solo par para múltiples outfits: del jean y camiseta al vestido mini, siempre se ve bien.",
-      "objecion_principal": "“Los blancos se ven muy básicos.”",
-      "justificacion": "White sneakers siguen vigentes en 2025 y se recomiendan en looks normcore/minimal; blogs y marcas locales muestran outfits con tenis blancos.",
-      "evidencia": [
-        {
-          "url": "https://www.vogue.mx/articulo/katie-holmes-lleva-tenis-blancos-y-jeans-rectos-en-primavera-2025",
-          "pais": "LATAM (MX)",
-          "match_note": "Valida vigencia y versatilidad de tenis blancos en 2025 (proxy).",
-          "confianza": "Alta"
-        },
-        {
-          "url": "https://monasterycouture.com.co/apps/t/outfit-tenis-blancos-y-jeans-mujer",
-          "pais": "CO",
-          "match_note": "Marca colombiana sugiere outfits con tenis blancos (proxy local).",
-          "confianza": "Media"
-        },
-        {
-          "url": "https://www.adidas.co/plataforma-mujer",
-          "pais": "CO",
-          "match_note": "Colección de plataforma para mujer en Colombia refuerza uso casual/urbano (proxy).",
-          "confianza": "Media"
-        }
-      ],
-      "confianza": "Alta"
-    },
-    {
-      "rank": 4,
-      "angulo": "Compra con propósito local: Hecho en Colombia",
+      "angulo": "Compra local (Hecho en Colombia) + soporte cercano",
       "score_0a10": 7.9,
-      "buyer_persona": "Consumidora que valora producción nacional y calidad local",
-      "promesa": "Hecho en Colombia con materiales resistentes; apoya industria local y recibe entregas rápidas.",
-      "objecion_principal": "“Prefiero marcas internacionales por calidad.”",
-      "justificacion": "La ficha del modelo Barbara indica fabricación nacional; otras marcas de plataforma locales (Mussi) refuerzan manufactura colombiana.",
+      "buyer_persona": "Consumidora que valora producción nacional y tiempos de entrega ágiles en Colombia.",
+      "promesa": "Hecho en Colombia con entregas rápidas y soporte local: compras seguras y cambios sencillos.",
+      "objecion_principal": "“Prefiero marcas globales por calidad/soporte”.",
+      "justificacion": "El modelo Barbara (Amo Mis Zapatos) declara fabricación en Colombia. Otras tiendas CO (Mussi/Bona) refuerzan producción local y capacidades de entrega y postventa del segmento nacional.",
       "evidencia": [
         {
           "url": "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/",
           "pais": "CO",
-          "match_note": "Misma ficha: declara ‘Hecho en Colombia’.",
+          "match_note": "Mismo modelo; declara 🇨🇴 Hecho en Colombia y tiempos de entrega.",
           "confianza": "Alta"
         },
         {
-          "url": "https://www.mussi.com.co/products/tenis-con-plataforma-baia-de-sintetico-para-mujer-hueso-654338",
+          "url": "https://www.mussi.com.co/products/tenis-con-plataforma-stella-de-sintetico-para-mujer-blanco-039702",
           "pais": "CO",
-          "match_note": "Proxy: ‘Origen: Colombia’ y datos del fabricante; respalda narrativa de calidad local.",
+          "match_note": "Proxy CO: manufactura colombiana en tenis plataforma (refuerza argumento de soporte local).",
           "confianza": "Media"
-        }
-      ],
-      "confianza": "Alta"
-    },
-    {
-      "rank": 5,
-      "angulo": "Precio inteligente vs. mercado (value por debajo de $169k)",
-      "score_0a10": 7.6,
-      "buyer_persona": "Compradora sensible a precio que compara en tiendas locales",
-      "promesa": "Llévate el look tendencia sin pagar de más: mismo estilo/altura por menos que tiendas masivas.",
-      "objecion_principal": "“Si es más barato, será de menor calidad.”",
-      "justificacion": "Referentes locales de plataforma se venden a ~$169.000 COP; el modelo Barbara se ha visto entre $104.300 y $149.000 en la misma ficha.",
-      "evidencia": [
+        },
         {
           "url": "https://bona.com.co/products/tenis-plataforma-19692",
           "pais": "CO",
-          "match_note": "Proxy precio categoría: plataforma mujer a $169.000 COP.",
+          "match_note": "Proxy CO en misma categoría plataforma; disponibilidad y envíos locales.",
+          "confianza": "Media"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 4,
+      "angulo": "Look premium a precio inteligente",
+      "score_0a10": 7.6,
+      "buyer_persona": "Mujer que busca verse “cara” sin pagar de más; sensible a ofertas.",
+      "promesa": "Diseño de tendencia y acabado limpio por $150.000, por debajo o en línea del segmento plataforma local.",
+      "objecion_principal": "“Por ese precio no se ven premium”.",
+      "justificacion": "Rango de mercado CO para plataforma va aprox. $89.900–$169.000. El precio objetivo $150.000 es competitivo frente a marcas locales de plataforma.",
+      "evidencia": [
+        {
+          "url": "https://www.mussi.com.co/products/tenis-con-plataforma-stella-de-sintetico-para-mujer-blanco-039702",
+          "pais": "CO",
+          "match_note": "Proxy precio bajo del segmento (oferta $89.900).",
           "confianza": "Alta"
         },
         {
-          "url": "https://bona.com.co/products/tenis-plataforma-19691",
+          "url": "https://bona.com.co/products/tenis-plataforma-19693",
           "pais": "CO",
-          "match_note": "Otro proxy precio: misma franja $169.000 COP.",
+          "match_note": "Proxy precio alto típico del segmento ($169.000).",
           "confianza": "Alta"
+        }
+      ],
+      "confianza": "Media"
+    },
+    {
+      "rank": 5,
+      "angulo": "Tendencia vigente 2025/26: plataformas siguen fuertes",
+      "score_0a10": 7.4,
+      "buyer_persona": "Trend seeker que sigue moda y redes; valora piezas actuales pero ponibles.",
+      "promesa": "Plataformas continúan en el mapa 2025/26: compra actual que no pasa de moda rápido.",
+      "objecion_principal": "“Las plataformas ya pasaron de moda”.",
+      "justificacion": "Medios de moda y páginas oficiales muestran continuidad de plataformas y tenniscore; las plataformas/track siguen en colecciones O/I 2025 y marcas mantienen categorías de plataforma.",
+      "evidencia": [
+        {
+          "url": "https://www.vogue.mx/articulo/tenis-otono-invierno-2025",
+          "pais": "MX",
+          "match_note": "Vogue MX: tendencias de tenis O/I 2025 con presencia de suelas robustas/track (proxy regional).",
+          "confianza": "Media"
         },
         {
-          "url": "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/",
+          "url": "https://www.adidas.co/plataforma-blanco-mujer",
           "pais": "CO",
-          "match_note": "Misma ficha: rango observado $104.300–$149.000 COP.",
+          "match_note": "Categoría activa y curada de plataforma en Adidas CO (vigencia en retail).",
           "confianza": "Alta"
         }
       ],
@@ -175,122 +171,122 @@
     {
       "rank_angulo": 1,
       "hooks": [
-        "Altura sin tacón: tu outfit se ve 10/10 al instante.",
-        "Piernas más largas en segundos. Plataforma discreta, efecto WOW.",
-        "Sube tu confianza, no los centímetros del tacón.",
-        "El blanco que estiliza: minimal y favorecedor.",
-        "Look mini + plataforma: fórmula que alarga tu silueta.",
-        "Tu combo estiliza: falda/vestido + Barbara.",
-        "Se ve elevado, se siente cómodo."
+        "+5 cm de estilo sin cansancio: suela XL + plantilla suave. Pruébalos hoy",
+        "Altura que se siente ligera: camina más, sin dolor",
+        "Tu look, más estilizado en minutos. Súbete a Barbara",
+        "Dile adiós a los tenis pesados: plataforma liviana que sorprende",
+        "Comodidad nivel “todo el día” para tu rutina: trabajo, U, plan",
+        "Estrena altura sin tacones incómodos",
+        "Si te cansan los chunky, prueba una plataforma que sí es liviana"
       ]
     },
     {
       "rank_angulo": 2,
       "hooks": [
-        "Plantilla memory foam: pisa suave todo el día.",
-        "Más amortiguación, menos cansancio. Así de simple.",
-        "Suela chunky estable: comodidad real, no solo moda.",
-        "Camina tu 10k diario sin sufrir los pies.",
-        "Confort que no se aplana: vuelve a su forma en cada paso.",
-        "Úsalos 8+ horas: tus pies lo van a agradecer.",
-        "Cierra el día con pies frescos, no adoloridos."
+        "El blanco que combina con TODO: jeans, vestidos y sastrería casual",
+        "Un básico que eleva tu outfit en segundos",
+        "Barbara blanco: limpio, versátil y listo para cualquier plan",
+        "Closet‑staple colombiano: invierte en el par que más usas",
+        "Domingo de brunch o viernes de oficina: el mismo par te sirve",
+        "Minimal, trendy y fotogénicos: listos para tus stories",
+        "Tu par infalible para “no sé qué ponerme”"
       ]
     },
     {
       "rank_angulo": 3,
       "hooks": [
-        "Un par, mil outfits: jeans, falda o vestido.",
-        "Blanco que combina con todo (literal).",
-        "De la U a la oficina casual sin cambiarte los tenis.",
-        "Normcore chic: menos ruido, más estilo.",
-        "Tu comodín para viajes y fines de semana.",
-        "Limpios = elegantes. Súmale una chaqueta y listo.",
-        "Back to basics: Barbara y tu closet hacen match."
+        "Hecho en Colombia: soporte cercano y entregas rápidas",
+        "Compra local que se siente premium",
+        "Si falla, te respondemos aquí: garantía 10 días",
+        "Calidad colombiana que no le envidia a nadie",
+        "Apoya talento local y luce increíble",
+        "Menos espera, más estrenos: envío nacional ágil",
+        "Cambios fáciles en Colombia (sin trámites eternos)"
       ]
     },
     {
       "rank_angulo": 4,
       "hooks": [
-        "Hecho en Colombia con orgullo y estilo.",
-        "Compra local, camina global.",
-        "Calidad local que compite con cualquiera.",
-        "Entrega rápida, soporte cercano. Todo suma.",
-        "Artesanía urbana: diseño local que se nota.",
-        "Tu look apoya industria colombiana.",
-        "Marca país en cada paso."
+        "Look premium sin pagar de más: $150K COP",
+        "Se ven de más de $300K, pero no cuestan eso",
+        "Calidad y diseño a precio inteligente",
+        "Aprovecha antes de que suba: precio lanzamiento",
+        "Mejor relación calidad‑diseño del feed",
+        "Tu presupuesto agradece este upgrade",
+        "Paga menos por el par que más vas a usar"
       ]
     },
     {
       "rank_angulo": 5,
       "hooks": [
-        "Mismo look tendencia por menos de $169k.",
-        "Precio honesto. Estilo sin sobreprecio.",
-        "Ahorra en el ticket, no en el estilo.",
-        "Value pick: paga menos por lo que sí importa.",
-        "No esperes el ‘sale’ para verte brutal.",
-        "Upgrade tu outfit sin romper el marrano.",
-        "Precio inteligente. Compra inteligente."
+        "Plataformas siguen on‑trend 2026: compra segura",
+        "Activa tu tenniscore sin dejar la comodidad",
+        "Trend, sí. Ponible, también: la mezcla perfecta",
+        "Street‑ready: plataforma blanca que no falla",
+        "Lo viste en pasarela, ahora en tu clóset",
+        "Actualiza tu par blanco al 2026",
+        "Trend que aterriza a tu día a día"
       ]
     }
   ],
   "estacionalidad": {
     "clasificacion": "Mixto",
     "hechos": [
-      "Temporada escolar (ene–feb) impulsa compras de uniformes/calzado según FENALCO; ‘calzado’ pesa ~19% del mix escolar.",
-      "Día de la Madre (segundo domingo de mayo: 11/05/2025; 10/05/2026) incrementa regalos de moda/calzado.",
-      "White sneakers son vigentes todo el año en outfits urbanos 2025."
+      "Día de la Madre impulsa moda/calzado en CO (+20% ventas; 91–93% celebra).",
+      "Diciembre concentra picos de moda/calzado (pico entre 15–24 dic; marcas esperan +50–65%).",
+      "Retail moda muestra repuntes en mitad de año (junio) y jornadas especiales ‘Bogotá Despierta’ con foco en vestuario/calzado."
     ],
     "hipotesis": [
-      "Picos adicionales en Amor y Amistad (septiembre) y Navidad (nov–dic) por alta intención de regalo.",
-      "Clima seco en mitad de año favorece uso de tenis blancos y outfits ligeros."
+      "Back‑to‑school (finales de enero y julio) y regreso a campus/universidad pueden impulsar tenis urbanos para mujer.",
+      "Eventos de ofertas (Black Friday/Cyberlunes) empujan categorías ‘básicos upgrade’ como tenis blancos de plataforma."
     ],
-    "correlacion_con_angulos": "Back-to-school y regalos (Madre) potencian ángulos de precio inteligente, versatilidad y ‘Hecho en Colombia’. Temporadas de moda refuerzan ‘altura estiliza’ y ‘comodidad’ para uso diario."
+    "correlacion_con_angulos": "Regalos (Madre/Diciembre) favorecen ángulos de versatilidad (2) y precio inteligente (4). Fechas de regreso a clases/jornadas nocturnas impulsan compra por comodidad/altura (1) y compra local inmediata (3). Fuentes: Fenalco/medios y calendario escolar CO (El País/MinEducación/Noticias RCN/La República)."
   },
   "checklist": [
     {
       "criterio": "Soluciona un problema?",
       "cumple": "SI",
       "confianza": "Alta",
-      "nota": "Aporta altura visual sin tacón y confort con plantilla memory foam.",
+      "nota": "Altura + estilización sin tacón + confort (plantilla).",
       "fuentes": [
-        "https://www.vogue.mx/articulo/como-llevar-tenis-con-plataforma-y-vestidos-mini-en-verano-2025",
-        "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/"
+        "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/",
+        "https://www.mussi.com.co/products/tenis-con-plataforma-stella-de-sintetico-para-mujer-blanco-039702"
       ]
     },
     {
       "criterio": "Se entiende su funcionalidad rapidamente?",
       "cumple": "SI",
-      "confianza": "Media",
-      "nota": "Tenis de plataforma: función clara (altura + estilo casual). Colecciones locales refuerzan uso urbano.",
+      "confianza": "Alta",
+      "nota": "Es un ‘tenis de plataforma’: función clara (altura + casual).",
       "fuentes": [
-        "https://www.adidas.co/plataforma-mujer"
+        "https://bona.com.co/products/tenis-plataforma-19692",
+        "https://bona.com.co/products/tenis-plataforma-19693"
       ]
     },
     {
       "criterio": "Se le puede vender a una audiencia masiva?",
       "cumple": "SI",
       "confianza": "Media",
-      "nota": "Tenis moda mujer son masivos en retailers generalistas; blanco es combinable y de amplio espectro.",
+      "nota": "Categoría masiva con oferta amplia en CO (adidas + marcas locales).",
       "fuentes": [
-        "https://www.dafiti.com.co/femenino/deportes/tenis-moda-deportes-femenino/",
-        "https://www.vogue.mx/articulo/katie-holmes-lleva-tenis-blancos-y-jeans-rectos-en-primavera-2025"
+        "https://www.adidas.co/plataforma-blanco-mujer",
+        "https://www.freshka.com.co/collections/tenis-suela-alta"
       ]
     },
     {
       "criterio": "Algun amigo o familiar estaria dispuesto a comprarlo?",
       "cumple": "SI",
       "confianza": "Baja",
-      "nota": "Proxy por vigencia de tenis blancos y plataformas discretas en 2025; aceptación social alta.",
+      "nota": "Se toma como proxy la intención de compra/valoraciones del mismo modelo (4.75/5, 4 reseñas).",
       "fuentes": [
-        "https://www.vogue.mx/articulo/tenis-que-ya-no-estan-de-moda-en-2025",
-        "https://monasterycouture.com.co/apps/t/outfit-tenis-blancos-y-jeans-mujer"
+        "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/"
       ]
     },
     {
       "criterio": "Tiene un buen margen?",
       "cumple": "SI",
       "confianza": "Alta",
-      "nota": "Validación interna de costos (>30k y >17%).",
+      "nota": "Validación interna de costos (margen >$30k y >17%).",
       "fuentes": [
         "Validación interna de costos"
       ]
@@ -299,88 +295,91 @@
       "criterio": "Es de dificil de encontar en tiendas convencionales (es de dificil acceso)?",
       "cumple": "NO",
       "confianza": "Alta",
-      "nota": "Es fácilmente accesible en múltiples retailers locales (categoría saturada).",
+      "nota": "Disponibilidad amplia de plataforma mujer en CO (marcas locales y globales).",
       "fuentes": [
-        "https://www.adidas.co/plataforma-mujer",
-        "https://bona.com.co/products/tenis-plataforma-19692\",\"https://www.mussi.com.co/products/tenis-con-plataforma-baia-de-sintetico-para-mujer-hueso-654338"
+        "https://www.adidas.co/plataforma-blanco-mujer",
+        "https://www.mussi.com.co/products/tenis-con-plataforma-stella-de-sintetico-para-mujer-blanco-039702"
       ]
     },
     {
       "criterio": "Es unico e impresionante (WOW factor)? Factor wow novedosos nuevo",
       "cumple": "NO",
       "confianza": "Media",
-      "nota": "Modelo genérico; el diferencial debe construirse en branding y oferta (no en producto base).",
-      "fuentes": []
+      "nota": "Plataforma blanca es estándar del mercado; no hay rasgos distintivos ‘wow’ certificados para este modelo.",
+      "fuentes": [
+        "https://bona.com.co/products/tenis-plataforma-19693",
+        "https://www.adidas.co/plataforma-blanco-mujer"
+      ]
     },
     {
       "criterio": "Esta en tendencia en otros paises o en otros mercados?",
       "cumple": "SI",
       "confianza": "Alta",
-      "nota": "Plataformas discretas y tenis blancos siguen vigentes en 2025 (Vogue LATAM).",
+      "nota": "Medios y retailers mantienen plataformas como parte de la oferta 2025/26.",
       "fuentes": [
-        "https://www.vogue.mx/articulo/tenis-que-ya-no-estan-de-moda-en-2025",
-        "https://www.vogue.mx/articulo/como-llevar-tenis-con-plataforma-y-vestidos-mini-en-verano-2025"
+        "https://www.vogue.mx/articulo/tenis-otono-invierno-2025",
+        "https://www.adidas.co/plataforma-blanco-mujer"
       ]
     },
     {
       "criterio": "Existen pocos competidores vendiendolo?",
       "cumple": "NO",
       "confianza": "Alta",
-      "nota": "Mercado saturado/escalando (Spy Agent/Ad Library).",
+      "nota": "Mercado saturado/escalando. Análisis de Ad Library y oferta masiva en retail CO.",
       "fuentes": [
-        "Análisis de Ad Library",
-        "https://bona.com.co/products/tenis-plataforma-19691"
+        "https://www.facebook.com/ads/library/?active_status=all&ad_type=all&country=CO&q=tenis%20plataforma%20mujer&search_type=keyword",
+        "https://www.freshka.com.co/collections/tenis-suela-alta"
       ]
     },
     {
       "criterio": "Tu comprarias el producto?",
-      "cumple": "SI",
-      "confianza": "Media",
-      "nota": "Sí por data: margen validado, precio competitivo (~$150k vs ~$169k), tendencia vigente. Requiere diferenciación creativa.",
+      "cumple": "NO",
+      "confianza": "Baja",
+      "nota": "No confirmado (falta evidencia). Criterio subjetivo del evaluador, se mantiene neutral.",
       "fuentes": [
-        "Validación interna de costos",
-        "https://bona.com.co/products/tenis-plataforma-19692"
+        "No aplica"
       ]
     },
     {
       "criterio": "Tiene multimedia en internet a la que puedas acceder facilmente?",
       "cumple": "SI",
-      "confianza": "Alta",
-      "nota": "Ficha con fotos/reseñas y outfits locales disponibles.",
+      "confianza": "Media",
+      "nota": "Listados con fotos, descripciones y reseñas del mismo modelo.",
       "fuentes": [
-        "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/",
-        "https://monasterycouture.com.co/apps/t/outfit-con-tenis-blancos"
+        "https://amomiszapatos.co/product/tenis-plataforma-blancos-barbara-mujer/"
       ]
     },
     {
       "criterio": "Es un producto evergreen?",
       "cumple": "SI",
       "confianza": "Media",
-      "nota": "Tenis blancos se mantienen como básico; la plataforma ‘discreta’ apunta a permanencia más allá del pico de moda.",
+      "nota": "Blanco/plataforma funciona todo el año; picos estacionales (Madre/Diciembre).",
       "fuentes": [
-        "https://www.vogue.mx/articulo/katie-holmes-lleva-tenis-blancos-y-jeans-rectos-en-primavera-2025",
-        "https://www.vogue.mx/articulo/tenis-que-ya-no-estan-de-moda-en-2025"
+        "https://www.adidas.co/plataforma-blanco-mujer",
+        "https://www.larepublica.co/empresas/el-estren-navideno-aumenta-entre-50-y-65-las-ventas-para-las-empresas-de-moda-4022450"
       ]
     }
   ],
   "score_total": {
-    "total_si": 9,
+    "total_si": 8,
     "total_criterios": 12,
-    "cumple_9_de_15": true
+    "cumple_9_de_15": false
   },
   "next_searches": [
-    "Confirmar política exacta de garantía/cambios del vendedor (10 días) en página oficial o términos.",
-    "Buscar UGC/Reviews en TikTok e Instagram del modelo ‘Barbara’ (palabras clave: “tenis barbara plataforma”, “amomiszapatos barbara”).",
-    "Probar consultas en Meta Ad Library con palabras clave ‘tenis plataforma mujer Colombia’ y marcas locales para dimensionar saturación.",
-    "Medir altura real de la plataforma (mm/cm) y peso del par para mensajes técnicos.",
-    "Explorar bundles (kit de limpieza blanco, plantillas extra) y promociones estacionales (Madre, back-to-school).",
-    "Validar materiales exactos (PVC vs Caucho-Ecolite) y resistencia de la suela con proveedor."
+    "Confirmar en página propia política exacta de garantía 10 días aplicable a ‘Tenis Barbara’ (cambios/devoluciones, condiciones).",
+    "Medir y publicar altura real de la plataforma (cm) y peso del par (g) para diferenciar confort.",
+    "Probar y documentar test de comodidad (video UGC/TikTok/Instagram Reels) específico del modelo Barbara.",
+    "Explorar Ad Library con keywords exactas (“tenis barbara”, “tenis plataforma blanco mujer”) y registrar anunciantes activos en CO.",
+    "Identificar proveedor/fabricante (si es marca blanca) y materiales de suela (EVA/PVC/caucho) con ficha técnica.",
+    "Recolectar UGC/Reseñas >20 unidades para elevar social proof (confianza del criterio 4).",
+    "Analizar tickets promedio y conversión por temporada (Madre/Diciembre/Back to School) para calendarizar campañas."
   ],
   "missing_data_flags": [
-    "Garantía de 10 días no verificada en web del vendedor.",
-    "Altura de la plataforma (mm/cm) no especificada para el modelo ‘Barbara’.",
-    "Fabricante/marca formal del calzado (si ‘Amo mis Zapatos’ es marca o solo retailer).",
-    "Ficha técnica de resistencia/antideslizante de la suela.",
-    "Peso por talla y horma (ancha/estándar)."
+    "garantia_10_dias_no_verificada_en_fuente_publica",
+    "altura_plataforma_no_confirmada",
+    "peso_par_no_confirmado",
+    "fabricante_marca_blanca_no_identificado",
+    "pruebas_UGC_comodidad_insuficientes",
+    "competidores_Ad_Library_no_documentados_con_capturas"
   ]
 }

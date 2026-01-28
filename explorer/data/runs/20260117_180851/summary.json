@@ -1,0 +1,13 @@
+{
+  "run_id": "20260117_180851",
+  "timestamp": "2026-01-17T18:14:40Z",
+  "queries_loaded": 50,
+  "raw_count": 3903,
+  "dedup_count": 3736,
+  "unique_advertisers": 959,
+  "paths": {
+    "raw": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/explorer/data/runs/20260117_180851/raw_ads.jsonl",
+    "dedup": "/Users/andresmarquez/Documents/Infinitylab/wow_agent/explorer/data/runs/20260117_180851/dedup_ads.jsonl"
+  },
+  "apify_run": "RNZWUFA1ClOwu7MJR"
+}

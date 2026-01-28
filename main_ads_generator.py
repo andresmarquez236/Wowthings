@@ -75,13 +75,22 @@ def run_script(script_name: str, output_dir: str):
         # We don't exit here, we try to continue with other agents
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Manual Ads Generator")
+    parser.add_argument("--product_name", type=str, required=True, help="Name of the product")
+    parser.add_argument("--product_desc", type=str, required=True, help="Description of the product")
+    parser.add_argument("--warranty", type=str, default="30 dias", help="Warranty info")
+    parser.add_argument("--price", type=str, default="0", help="Price info")
+    
+    args = parser.parse_args()
+
     # 1. Define Product Parameters
     # ---------------------------------------------------------
-    PRODUCT_NAME = "Tenis Barbara"
-    PRODUCT_DESC =""" Tenis de plataforma, calzado urbano y casual.
-Características: Suela gruesa, cierre con cordones, material principal sintético (comúnmente)."""
-    WARRANTY = "10 dias"
-    PRICE = "COP 150000"
+    PRODUCT_NAME = args.product_name
+    PRODUCT_DESC = args.product_desc
+    WARRANTY = args.warranty
+    PRICE = args.price
     # ---------------------------------------------------------
 
     # 2. Setup Paths
@@ -141,6 +150,14 @@ Características: Suela gruesa, cierre con cordones, material principal sintéti
         run_script(agent, product_output_dir)
 
     print(f"\n🎉 All agents execution attempt finished. Check {product_output_dir} for results.")
+
+    # 5. Upload to Drive
+    print(f"\n☁️ Uploading to Google Drive...")
+    try:
+        from tools.drive_uploader import upload_product_to_drive
+        upload_product_to_drive(product_output_dir)
+    except Exception as e:
+        print(f"❌ Drive Upload Failed: {e}")
 
 if __name__ == "__main__":
     main()

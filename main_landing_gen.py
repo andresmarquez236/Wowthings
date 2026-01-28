@@ -10,6 +10,7 @@ from shopify.image_landing_gen import (
     section_pain,
     section_benefits,
     section_social_proof,
+    section_featured_review,
     evaluator_benefits
 )
 from shopify.upload_images import deploy_images
@@ -19,24 +20,21 @@ from shopify.visual_plan.visual_injection import run_injection_pipeline
 load_dotenv()
 
 def main():
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Manual Landing Page Generator")
+    parser.add_argument("--product_name", type=str, required=True, help="Name of the product")
+    parser.add_argument("--raw_info", type=str, required=True, help="Product raw info/features")
+    parser.add_argument("--target_avatar", type=str, required=True, help="Target Avatar (Buyer Persona & Promise)")
+    
+    args = parser.parse_args()
+
     # =========================================================
     # CONFIGURACIÓN DEL LANZAMIENTO
     # =========================================================
-    PRODUCT_NAME = "Aspiradora Recargable Para Carro 3 En 1"
-    RAW_INFO = """
-        LA ASPIRADORA 3 EN 1 , es muy útil para cualquier espacio de tu casa, carro, oficina y también es fácil de llevar ha cualquier lugar puedes sacar el polvo de los espacios mas pequeños, tiene 3 cabezales intercambiables y lo mejor es que es recargable es super funcional .
-
-Potente rendimiento de succión: experimenta una limpieza profunda con nuestra aspiradora de automóvil con un robusto motor sin escobillas. Elimina sin esfuerzo el polvo, la suciedad y los desechos de tu vehículo y las superficies de tu hogar.
-
-Comodidad inalámbrica: di adiós a los cables enredados con nuestro diseño inalámbrico de aspiradora de mano. Perfecto para limpiezas rápidas en lugares difíciles de alcanzar, ya sea en tu coche o alrededor de la casa.
-Portátil y ligero: nuestro modelo inalámbrico portátil de aspiradora de automóvil está diseñado para un fácil transporte y almacenamiento. Ideal para la limpieza en movimiento, se adapta cómodamente a tu mano para un uso sin fatiga.
-Recargable: equipado con una potente batería recargable, este dispositivo inalámbrico de aspiradora de mano garantiza un tiempo de uso prolongado.
-Solución de limpieza versátil para múltiples superficies: desde interiores de automóviles hasta tapicería del hogar, nuestra aspiradora de mano es versátil y eficaz. Con la mejor potencia de succión y un conjunto completo de accesorios, aborda la suciedad en varias superficies, por lo que es una herramienta de limpieza imprescindible. Los accesorios incluidos te permiten limpiar espacios reducidos, tapicería y más con facilidad.
-    """
-    TARGET_AVATAR = """
-    buyer_persona: Conductores particulares y de apps (Uber/DiDi), familias que hacen viajes frecuentes,
-      promesa: "Limpieza rápida de asientos, alfombrillas y rincones del carro en cualquier lugar, sin cables.
-    """
+    PRODUCT_NAME = args.product_name
+    RAW_INFO = args.raw_info
+    TARGET_AVATAR = args.target_avatar
     
     # Nombre de carpeta (slug)
     product_folder_name = PRODUCT_NAME.replace(' ', '_').lower()
@@ -112,6 +110,9 @@ Solución de limpieza versátil para múltiples superficies: desde interiores de
     print("\n   🔹 2.4 Social Proof (UGC)...")
     section_social_proof.run_social_proof_pipeline(product_folder_name)
 
+    print("\n   🔹 2.5 Featured Review (Profile Pic)...")
+    section_featured_review.run_featured_review_pipeline(product_folder_name)
+
 
     # =========================================================
     # PASO 3: CONTROL DE CALIDAD (EVALUATOR AGENT)
@@ -154,6 +155,19 @@ Solución de limpieza versátil para múltiples superficies: desde interiores de
     print("="*60)
     print(f"👉 Preview URL: (Check Shopify Admin -> Online Store -> Themes -> Customize)")
     print(f"👉 Template: {SHOPIFY_TEMPLATE_KEY}")
+
+    # =========================================================
+    # PASO 6: SUBIDA A DRIVE
+    # =========================================================
+    print(f"\n☁️ [6/5] Subiendo a Google Drive...")
+    try:
+        from tools.drive_uploader import upload_product_to_drive
+        # product_folder_name is just the slug, e.g. "tenis_barbara"
+        # We need the full path: output/tenis_barbara
+        full_product_path = os.path.join("output", product_folder_name)
+        upload_product_to_drive(full_product_path)
+    except Exception as e:
+        print(f"❌ Error en subida a Drive: {e}")
 
 
 if __name__ == "__main__":

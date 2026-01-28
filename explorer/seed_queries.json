@@ -1,0 +1,82 @@
+[
+  {
+    "category_intent": "Modalidad de Pago/Envío",
+    "reasoning_summary": "En Colombia y Latam, los anuncios ganadores suelen enfatizar fricción cero (pago contra entrega) y conveniencia logística (envío gratis/nacional). Estas frases filtran dropshippers que optimizan conversión con oferta + fulfillment claro.",
+    "queries": [
+      "pago contra entrega a nivel nacional",
+      "pagas al recibir en la puerta de tu casa",
+      "pide hoy y paga cuando llegue",
+      "envío gratis a toda Colombia",
+      "entregas en toda Colombia",
+      "envío gratis por tiempo limitado",
+      "pago al recibir sin anticipos",
+      "domicilio gratis a tu ciudad",
+      "pago contra entrega disponible",
+      "envío a todo el país sin costo"
+    ]
+  },
+  {
+    "category_intent": "Urgencia/Escasez",
+    "reasoning_summary": "La urgencia y escasez son ganchos clásicos de performance para acelerar la decisión y subir CTR/CVR. Estas frases suelen aparecer en ads con creativos agresivos y campañas activas.",
+    "queries": [
+      "últimas unidades disponibles",
+      "quedan pocas unidades",
+      "solo por hoy",
+      "oferta por tiempo limitado",
+      "antes de que se agote",
+      "último chance de comprar",
+      "stock limitado",
+      "cierra a medianoche",
+      "aprovecha ya",
+      "se está agotando rápido"
+    ]
+  },
+  {
+    "category_intent": "Ofertas Irresistibles",
+    "reasoning_summary": "Las promos fuertes (2x1, 3x2, % de descuento) son señales de anuncios direct-response y testing de ofertas. Ayudan a identificar productos con margen suficiente y alta respuesta.",
+    "queries": [
+      "2x1 solo esta semana",
+      "3x2 en toda la tienda",
+      "compra 1 y lleva 2",
+      "50% de descuento hoy",
+      "mitad de precio por lanzamiento",
+      "precio especial por promoción",
+      "descuento aplicado al finalizar",
+      "liquidación por tiempo limitado",
+      "combo con descuento",
+      "llevas más pagando menos"
+    ]
+  },
+  {
+    "category_intent": "Garantía/Confianza",
+    "reasoning_summary": "En dropshipping para Colombia, las promesas de garantía, devolución y compra segura reducen objeciones (estafa, calidad, entrega). Estas frases suelen correlacionar con ads escalados y mejor ROAS.",
+    "queries": [
+      "garantía de satisfacción",
+      "devolución gratis",
+      "compra 100% segura",
+      "garantía por escrito",
+      "si no te gusta te devolvemos el dinero",
+      "paga con tranquilidad",
+      "producto garantizado",
+      "atención al cliente por WhatsApp",
+      "compra sin riesgo",
+      "cambios y devoluciones fáciles"
+    ]
+  },
+  {
+    "category_intent": "Call to Action (CTA)",
+    "reasoning_summary": "Los CTAs directos y orientados a acción suelen aparecer en anuncios de conversión optimizados. Estas frases ayudan a encontrar ads con estructura DR (hook + oferta + CTA) típicos de productos ganadores.",
+    "queries": [
+      "pide ahora",
+      "ordena hoy",
+      "comprar aquí",
+      "clic para ordenar",
+      "haz tu pedido ya",
+      "compra en un minuto",
+      "escríbenos y pide el tuyo",
+      "reserva el tuyo ahora",
+      "dale clic y aprovecha",
+      "confirma tu pedido aquí"
+    ]
+  }
+]

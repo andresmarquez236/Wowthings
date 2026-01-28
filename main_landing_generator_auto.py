@@ -171,6 +171,16 @@ def main():
             # Success!
             logger.info(f"Successfully processed {p_name}")
             
+            # Upload to Drive
+            update_context(step="Drive Upload")
+            logger.info("Uploading Landing Assets to Google Drive...")
+            try:
+                # Assuming product_dir is the root of the product interaction "output/product_slug"
+                from tools.drive_uploader import upload_product_to_drive
+                upload_product_to_drive(product_dir)
+            except Exception as e:
+                logger.error(f"Drive Upload Failed: {e}")
+
             # Update Sheet
             mark_landing_gen_completed(row_idx)
             

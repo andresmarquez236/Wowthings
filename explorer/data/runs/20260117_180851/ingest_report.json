@@ -1,0 +1,11 @@
+{
+  "ingested_at": "2026-01-17T18:33:09.680361Z",
+  "run_id": "20260117_180851",
+  "stats": {
+    "new_advertisers": 959,
+    "updated_advertisers": 2777,
+    "new_ads": 3736,
+    "updated_ads": 0,
+    "snapshots": 3736
+  }
+}
